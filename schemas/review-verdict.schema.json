@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sketchapiens/review-verdict.schema.json",
+  "title": "Kết quả một vòng chấm",
+  "description": "Agent chỉ ĐỀ NGHỊ. triage do người dùng điền. Agent không được tự điền triage.",
+  "type": "object",
+  "required": ["video_id", "round", "findings"],
+  "additionalProperties": false,
+  "properties": {
+    "video_id": { "type": "string" },
+    "round": { "type": "integer" },
+    "script_version": { "type": "string" },
+    "machine_qa": {
+      "type": "object", "additionalProperties": false,
+      "properties": { "exclamation": {"type":"integer"}, "em_dash": {"type":"integer"}, "first_person_I": {"type":"integer"}, "three_long_run": {"type":"boolean"}, "passed": {"type":"boolean"} }
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["judge", "category", "quote", "problem"],
+        "additionalProperties": false,
+        "properties": {
+          "judge": { "type": "string", "enum": ["cold-viewer","retention-architect","promise-payoff-judge","evidence-prosecutor","anti-ai-narration-critic","machine","external-listener"] },
+          "category": { "type": "string" },
+          "quote": { "type": "string" },
+          "problem": { "type": "string" },
+          "independent_hits": { "type": "integer", "description": "Số giám khảo bắt được ĐỘC LẬP cùng lỗi này. Càng cao càng thật." },
+          "triage": { "type": ["string", "null"], "enum": ["APPLY_NOW", "APPLY_WITH_CHANGE", "REJECT", null] },
+          "triage_reason": { "type": ["string", "null"] },
+          "triaged_by": { "type": ["string", "null"], "description": "Phải là người, không phải agent" }
+        }
+      }
+    }
+  }
+}

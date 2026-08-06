@@ -1,0 +1,51 @@
+# Sketchapiens — video manifest. Theo schemas/video.schema.json
+# ID BẤT BIẾN. Không đổi sau khi tạo. Không nhảy trạng thái khi artefact chưa có.
+
+id: SKA-0000-slug-here
+slug: slug-here
+legacy_folder: null          # thư mục cũ nếu là khung cho video đã có. GHI LẠI, không di chuyển.
+status: idea                 # xem 16 trạng thái trong schema
+language: en
+created: "YYYY-MM-DD"
+source: new                  # new | migrated
+
+title:
+  current: null
+  rejected: []               # - { text: "...", reason: "..." }
+
+thumbnail:
+  concept: null
+  text: null
+  image_path: null
+  stage: none                # none | concept_only | image_built
+
+script_versions: []          # - { file: "03-script/v001-claude-draft.md", reason: "bản nháp đầu", words: null, created: null }
+
+approved:                    # CHỈ người dùng đặt. Agent không được tự đặt.
+  file: null
+  approved_by: null
+  approved_at: null
+
+publish:                     # Trống = not_published. KHÔNG suy ra.
+  state: not_published
+  url: null
+  published_at: null
+  actual_title: null
+  actual_thumbnail: null
+  duration_seconds: null
+
+evidence:
+  ledger: null               # 02-research/claim-ledger.md
+  locked: false
+  unverified_count: null
+  overreach_ge2: null
+
+reviews: []                  # - { round: 1, file: "04-review/R001-audit.md", kind: internal_agents, triaged: false }
+
+assets:
+  shots: null
+  images: null
+  audio_clips: null
+  counts_match: null
+
+notes: []

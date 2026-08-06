@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sketchapiens/analytics.schema.json",
+  "title": "Số liệu một video",
+  "description": "Mọi chỉ số phải kèm cỡ mẫu. Thiếu thì null + lý do. KHÔNG ước lượng.",
+  "type": "object",
+  "required": ["video_id", "measured_at", "metrics"],
+  "additionalProperties": false,
+  "properties": {
+    "video_id": { "type": "string" },
+    "measured_at": { "type": "string", "format": "date" },
+    "days_since_publish": { "type": ["integer", "null"] },
+    "source": { "type": "string", "enum": ["studio_screenshot", "studio_export", "api", "nexlev", "user_reported"] },
+    "metrics": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "impressions": { "$ref": "#/$defs/metric" },
+        "ctr_percent": { "$ref": "#/$defs/metric" },
+        "views": { "$ref": "#/$defs/metric" },
+        "avd_seconds": { "$ref": "#/$defs/metric" },
+        "apv_percent": { "$ref": "#/$defs/metric" },
+        "retention_30s_percent": { "$ref": "#/$defs/metric" },
+        "subscribers_gained": { "$ref": "#/$defs/metric" }
+      }
+    },
+    "traffic_sources": { "type": ["object", "null"], "additionalProperties": { "type": "number" } },
+    "retention_screenshot": { "type": ["string", "null"] },
+    "drop_points": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["timestamp_seconds"], "additionalProperties": false,
+        "properties": {
+          "timestamp_seconds": { "type": "integer" },
+          "drop_percent": { "type": ["number", "null"] },
+          "mapped_paragraph": { "type": ["string", "null"] },
+          "mapped_sentence": { "type": ["string", "null"] },
+          "mapped_shot": { "type": ["integer", "null"] },
+          "mapping_status": { "type": "string", "enum": ["mapped", "not_mapped", "ambiguous"] }
+        }
+      }
+    },
+    "comment_themes": { "type": "array", "items": { "type": "string" } },
+    "missing_data": { "type": "array", "items": { "type": "string" }, "description": "Ghi rõ thiếu gì và vì sao" }
+  },
+  "$defs": {
+    "metric": {
+      "type": "object", "required": ["value", "sample_size"], "additionalProperties": false,
+      "properties": {
+        "value": { "type": ["number", "null"] },
+        "sample_size": { "type": ["integer", "null"], "description": "Số quan sát thật. <100 thì KHÔNG được dùng làm chuẩn." },
+        "ci_low": { "type": ["number", "null"] },
+        "ci_high": { "type": ["number", "null"] },
+        "usable_as_benchmark": { "type": "boolean" },
+        "note": { "type": ["string", "null"] }
+      }
+    }
+  }
+}

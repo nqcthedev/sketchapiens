@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "deny": [
+      "Bash(rm -rf:*)",
+      "Bash(git clean:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git checkout -f:*)",
+      "Bash(git push --force:*)",
+      "Bash(git add .)",
+      "Bash(git add -A:*)",
+      "Read(./2_KHO_BANGHI/**/*.txt)",
+      "Read(./2_KHO_BANGHI/**/_vtt/**)",
+      "Read(./**/PROMPTS_FULL.txt)",
+      "Read(./**/PROMPTS_CLEAN.txt)",
+      "Read(./GhepVideo_Desktop/**)",
+      "Read(./**/.env)",
+      "Read(./**/*.key)",
+      "Edit(./Video*/**/Script_*_narration.txt)",
+      "Write(./Video*/**/Script_*_narration.txt)",
+      "Edit(./videos/**/approved.md)",
+      "Edit(./videos/**/published.md)",
+      "Write(./videos/**/approved.md)",
+      "Write(./videos/**/published.md)",
+      "Edit(//Users/admin/.claude/skills/**)",
+      "Write(//Users/admin/.claude/skills/**)",
+      "Edit(//Users/admin/.claude/projects/**/memory/**)",
+      "Write(//Users/admin/.claude/projects/**/memory/**)"
+    ],
+    "ask": [
+      "Bash(git commit:*)",
+      "Bash(git init:*)",
+      "Bash(mv:*)",
+      "Write(./Video*/**)",
+      "Edit(./00_LUAT_HIEN_HANH.md)",
+      "Edit(./RUBRIC_KichBan.md)",
+      "Edit(./WORKFLOW_Production.md)",
+      "Edit(./FLOW_VietKichBan_11Cong.md)",
+      "Edit(./governance/**)"
+    ],
+    "allow": [
+      "Read(./governance/**)",
+      "Read(./schemas/**)",
+      "Read(./templates/**)",
+      "Read(./.claude/**)",
+      "Bash(python3 tools/project_doctor.py:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Write|Edit|MultiEdit",
+        "hooks": [
+          { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard_project.py\"" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,222 @@
+# SỔ ĐĂNG KÝ LUẬT — Sketchapiens
+# Chỉ luật ĐANG HIỆU LỰC. Luật chết ở RETIRED_RULES.md.
+# Thêm luật mới cần đủ 5 điều kiện ở CHANGE_POLICY.md. Chỉ NGƯỜI được thêm.
+
+version: 1
+created: "2026-08-06"
+note: >
+  Nhập từ các file canonical đang tồn tại. Đây là SỔ ĐĂNG KÝ, không phải bản sao nội dung.
+  Cột source trỏ tới file thật. Không file nào bị sửa khi lập sổ này.
+
+rules:
+
+  - id: R-HARD-01
+    scope: script
+    rule: "Bốn ràng buộc cứng của lời đọc: '!' = 0 · không gạch ngang giữa câu · mỗi câu một dòng · 'I' ≈ 0"
+    source: "RUBRIC_KichBan.md §LUẬT 0"
+    enforced_by: "~/.claude/skills/sketchapiens-bien-tap/qa_kichban.py"
+    confidence: high
+    evidence: "14/14 video winner nhất trí về dấu '!'; ba cái còn lại là ràng buộc sản xuất (TTS, chia shot)"
+    status: active
+
+  - id: R-HARD-02
+    scope: script
+    rule: "Mọi con số ngoài R-HARD-01 là TRIỆU CHỨNG, không phải đích. Cấm sửa câu để con số đẹp hơn."
+    source: "RUBRIC_KichBan.md §LUẬT 0; memory feedback_so_do_khong_phai_dich"
+    confidence: high
+    evidence: "Ba câu mùi AI nặng nhất của V17 đều là câu thêm vào để thoả Tầng A"
+    status: active
+
+  - id: R-VERSION-01
+    scope: script
+    rule: "Không ghi đè kịch bản. Mỗi lần sửa tạo vNNN mới. approved.md và published.md bất biến."
+    source: "CLAUDE.md luật 1; .claude/rules/script-files.md"
+    enforced_by: ".claude/hooks/guard_project.py"
+    confidence: high
+    evidence: "V02–V16 mỗi video một file duy nhất, không lịch sử, không git → mọi lần sửa đã mất vĩnh viễn"
+    status: active
+
+  - id: R-APPROVE-01
+    scope: lifecycle
+    rule: "Chỉ NGƯỜI được đặt approved. Chỉ NGƯỜI được đặt published. Không có publish record = not_published."
+    source: "CLAUDE.md luật 2-3; .claude/rules/analytics-files.md"
+    enforced_by: "schemas/video.schema.json; templates/publish-record.md"
+    confidence: high
+    status: active
+
+  - id: R-EVID-01
+    scope: evidence
+    rule: "Mở toàn văn nguồn, không tin snippet. Không mở được thì ghi UNVERIFIED."
+    source: "MONEO_V19.md; FLOW_VietKichBan_11Cong.md cổng 3"
+    confidence: high
+    evidence: "Bốn con số lấy từ snippet đã sai: Ekirch '500' · khoảng thức của Wehr · 'four hours' · 'half of deaths' vs 'half of attacks'"
+    status: active
+
+  - id: R-EVID-02
+    scope: evidence
+    rule: "Cấm bắc cầu giữa hai bảng thống kê rời nhau trong cùng một nguồn."
+    source: "MONEO_V19.md §KHOÁ M3b"
+    confidence: high
+    evidence: "Từ '7 trẻ chết' + '18/24 nạn nhân là nam' đã bịa ra chuỗi 'trẻ đi ra rồi cả làng chạy theo' — bài báo không hề nói"
+    status: active
+
+  - id: R-EVID-03
+    scope: evidence
+    rule: "Mọi câu thêm vào SAU khi khoá bằng chứng phải chạy lại cổng bằng chứng."
+    source: "MONEO_V19.md §KHOÁ M3b"
+    confidence: high
+    evidence: "Lỗi R-EVID-02 lọt đúng vì khối đó được viết sau khi cổng 3 đã đóng, lúc bù độ dài cho mid-roll"
+    status: active
+
+  - id: R-EVID-04
+    scope: evidence
+    rule: "Suy diễn của tác giả nguồn phải ghi rõ là suy diễn: 'the researchers put that down to…'"
+    source: "MONEO_V19.md M3b"
+    confidence: high
+    status: active
+
+  - id: R-REVIEW-01
+    scope: review
+    rule: "Agent review chỉ chấm, không sửa. Một editor duy nhất tạo version mới, sau khi NGƯỜI phân loại."
+    source: "CLAUDE.md luật 5; .claude/skills/audit-script; .claude/skills/apply-review"
+    confidence: high
+    evidence: "Người viết không tự chấm được vì họ biết đáp án — V17 chấm 68/74 vẫn hỏng cấu trúc"
+    status: active
+
+  - id: R-REVIEW-02
+    scope: review
+    rule: "Ép XẾP HẠNG khi hỏi lỗi câu chữ ('mười câu tệ nhất'), không hỏi 'mọi câu'."
+    source: "LENH_GPT_ReviewKichBan_v3.md §SỬA KHUÔN HỎI"
+    confidence: high
+    evidence: "Hỏi 'every sentence' làm người review gạch 60/150 câu — phép thử mất khả năng phân biệt"
+    status: active
+
+  - id: R-REVIEW-03
+    scope: review
+    rule: "Đếm số lần một lỗi bị bắt ĐỘC LẬP ở nhiều phần, đừng đếm số câu bị gạch."
+    source: "LENH_GPT_ReviewKichBan_v3.md"
+    confidence: medium
+    evidence: "Lỗi chồng ẩn dụ bị bắt 3 lần ở 3 phần rời nhau → lỗi thật"
+    status: active
+
+  - id: R-EDIT-01
+    scope: editing
+    rule: "Lỗi ẩn dụ thì CẮT CẢ CÂU, đừng thay chữ trong câu."
+    source: "LENH_GPT_ReviewKichBan_v3.md §Bài học vòng 6"
+    confidence: high
+    evidence: "Ba trong mười câu tệ nhất vòng 6 là ba câu vá tại chỗ ở vòng 5"
+    status: active
+
+  - id: R-CORPUS-01
+    scope: corpus
+    rule: "Corpus đối thủ chỉ để ĐO. Cấm mở trong chế độ VIẾT."
+    source: "2_KHO_BANGHI/00_KHO.md; CLAUDE.md luật 4"
+    enforced_by: ".claude/settings.json permissions.deny"
+    confidence: high
+    evidence: "Kênh Shorts trước của chủ bị sập vì chính sách nội dung dùng lại"
+    status: active
+
+  - id: R-CORPUS-02
+    scope: corpus
+    rule: "Xác minh danh tính kênh bằng một con số đã biết trước, không tin việc handle phân giải được."
+    source: "2_KHO_BANGHI/00_KHO.md §Bẫy 1"
+    confidence: high
+    evidence: "@BeforeCivilization ra kênh bóng đá Ả Rập; @MacksMind ra kênh lập trình jQuery"
+    status: active
+
+  - id: R-CORPUS-03
+    scope: corpus
+    rule: "Mọi chỉ số tính theo RANH GIỚI CÂU đều vô nghĩa trên phụ đề máy (độ dài câu, số câu hỏi)."
+    source: "2_KHO_BANGHI/00_KHO.md §Bẫy 3"
+    confidence: high
+    status: active
+
+  - id: R-PROD-01
+    scope: production
+    rule: "Gen ảnh: thư mục rỗng, một lượt, đếm file == số prompt trước khi ghép."
+    source: "memory gotcha_gen_anh_lech_so"
+    confidence: high
+    evidence: "Tool đặt tên theo bộ đếm nội bộ; chạy 2 đợt ra 404 ảnh cho 301 prompt"
+    status: active
+
+  - id: R-PROD-02
+    scope: production
+    rule: "Ghép video dùng app, không tự viết script sắp xếp."
+    source: "memory feedback_dung_app_ghepvideo"
+    confidence: high
+    evidence: "Script tự viết đã sắp xếp sai mp3 và làm hỏng tiếng của V15"
+    status: active
+
+  - id: R-PROD-03
+    scope: production
+    rule: "Ba thứ không chứng minh được gì: chạy không lỗi · đủ số file · đúng độ dài. Phải đối chiếu nội dung ở nhiều mốc."
+    source: "QUY_TRINH_2_CONG.md"
+    confidence: high
+    status: active
+
+  - id: R-PKG-01
+    scope: packaging
+    rule: "Tâm khung dành cho VẬT KỂ CHUYỆN, không phải nhân vật."
+    source: "PROMPT_TONG_Thumbnail_v6.md LUẬT 1"
+    confidence: medium
+    evidence: "Đúc từ 29 quả ≥50K + 4 quả chết của kênh"
+    status: active
+
+  - id: R-PKG-02
+    scope: packaging
+    rule: "Chữ thumbnail phải thêm thông tin mới, không lặp title."
+    source: "PROMPT_TONG_Thumbnail_v6.md LUẬT 2"
+    confidence: medium
+    status: active
+
+  - id: R-PKG-03
+    scope: packaging
+    rule: "Thumbnail phải khớp thứ kịch bản chứng minh. Hứa một trải nghiệm mà kết bài phủ định là LỖI."
+    source: "Video19_NightWalk/CHOT_V19.md §⑦"
+    confidence: high
+    evidence: "V19 concept cũ vẽ người đang phân vân, kết bài nói 'Nobody chose any of it'"
+    status: active
+
+  - id: R-PKG-04
+    scope: packaging
+    rule: "Khi model đã vẽ đúng một thứ, đừng thêm luật cho thứ đó."
+    source: "TEMPLATE_Thumbnail_KHOA_v1.md; memory feedback_dung_them_luat_khi_model_dang_dung"
+    confidence: high
+    evidence: "Hai lỗi nặng nhất của 7 vòng thumbnail V18 đều là luật tự thêm"
+    status: active
+
+  - id: R-META-01
+    scope: monetisation
+    rule: "Video phải dài trên 8 phút mới chèn được mid-roll. Ổ cách nhau 2,5–3,5 phút."
+    source: "~/.claude/skills/checklist-dang-video-long-form"
+    confidence: high
+    status: active
+
+  - id: R-ANALYTICS-01
+    scope: analytics
+    rule: "Mọi chỉ số phải kèm cỡ mẫu. Đo trên <100 quan sát thì KHÔNG được dùng làm chuẩn."
+    source: "memory chan_doan_kenh_benh_A; .claude/rules/analytics-files.md"
+    confidence: high
+    evidence: "Giữ chân 55,6% đo trên 12 người → khoảng tin cậy [27,5%; 83,7%]"
+    status: active
+
+  - id: R-ANALYTICS-02
+    scope: analytics
+    rule: "Không nâng một quan sát thành luật kênh nếu chưa đủ 5 điều kiện."
+    source: "governance/CHANGE_POLICY.md"
+    confidence: high
+    status: active
+
+  - id: R-OVERRIDE-01
+    scope: tooling
+    rule: "Skill toàn cục viet-kich-ban-nguoi-que-co-dai và chia-shot-va-prompt-anh KHÔNG phải nguồn chuẩn trong project này."
+    source: "CLAUDE.md §3; PROJECT_FULL_AUDIT_EXPORT.md §5 R2"
+    confidence: high
+    evidence: "Cả hai không có tiền tố nên tự kích hoạt; PHẦN 9 của cả hai trỏ tới TEMPLATE_Thumbnail_DoiThu.md đã bị bác"
+    status: active
+
+# ── Luật ĐANG TRANH CHẤP — không ghi vào đây cho tới khi có quyết định
+disputed:
+  - see: "governance/DECISIONS_REQUIRED.md"
+    ids: [D-01, D-02, D-03, D-04, D-08, D-18]
+    note: "Các mục này liên quan trực tiếp tới luật sản xuất. Chưa quyết thì chưa có luật."

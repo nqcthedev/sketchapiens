@@ -1,0 +1,52 @@
+# ── Sketchapiens control plane · .gitignore
+# Chủ đích: CHỈ theo dõi control plane. Dữ liệu video, corpus và media KHÔNG vào git.
+
+# Secrets — không bao giờ commit
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials*.json
+**/secrets/
+
+# Corpus đối thủ — cách ly khỏi repo sản xuất (spec §9)
+2_KHO_BANGHI/
+
+# Media & asset nặng
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.mov
+*.tar.gz
+*.zip
+
+# File sinh tự động, cỡ lớn
+**/PROMPTS_FULL.txt
+**/PROMPTS_CLEAN.txt
+**/SHOTLINES_FULL.txt
+**/build/
+**/_vtt/
+*_alignment.json
+*-timestamps.json
+
+# Ứng dụng & build
+GhepVideo_Desktop/
+GhepVideo_Studio/dist/
+GhepVideo_Studio_NextJS/.next/
+node_modules/
+target/
+__pycache__/
+*.pyc
+.venv/
+
+# Hệ điều hành
+.DS_Store
+._*
+settings.local.json

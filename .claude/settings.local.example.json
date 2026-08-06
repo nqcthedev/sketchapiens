@@ -1,0 +1,9 @@
+{
+  "_comment": "Copy sang .claude/settings.local.json (đã gitignore) để tắt skill toàn cục bị thay thế bởi project-local rules. Xem CLAUDE.md §OVERRIDE.",
+  "_predecessorSkillsSuperseded": [
+    "viet-kich-ban-nguoi-que-co-dai",
+    "chia-shot-va-prompt-anh"
+  ],
+  "_note": "Hai skill trên KHÔNG được sửa/xoá ở global scope. Chúng bị vô hiệu trong project này bằng luật ở CLAUDE.md §OVERRIDE và .claude/rules/. Nếu bản Claude Code đang dùng hỗ trợ tắt skill theo project, khai báo ở đây.",
+  "permissions": { "allow": [], "deny": [] }
+}

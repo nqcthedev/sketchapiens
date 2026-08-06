@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sketchapiens/claim-ledger.schema.json",
+  "title": "Claim ledger",
+  "description": "Mỗi mệnh đề trong lời đọc gắn với đúng một nguồn và đúng một nhãn.",
+  "type": "object",
+  "required": ["video_id", "claims"],
+  "additionalProperties": false,
+  "properties": {
+    "video_id": { "type": "string", "pattern": "^SKA-[0-9]{4}-[a-z0-9-]+$" },
+    "locked": { "type": "boolean" },
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "sentence", "kind", "overreach"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "sentence": { "type": "string", "description": "Nguyên văn câu trong lời đọc" },
+          "kind": { "type": "string", "enum": ["DIRECT", "INFERENCE", "SPECULATION", "STORY_DEVICE"] },
+          "source": { "type": ["string", "null"], "description": "Trích dẫn đầy đủ: tác giả, tạp chí, tập/số/trang, năm" },
+          "source_url": { "type": ["string", "null"] },
+          "read_full_text": { "type": "boolean", "description": "false = mới đọc snippet → phải ghi UNVERIFIED" },
+          "source_says": { "type": ["string", "null"], "description": "Nguồn nói CHÍNH XÁC cái gì" },
+          "sample_size": { "type": ["integer", "null"] },
+          "overreach": { "type": "integer", "minimum": 0, "maximum": 3, "description": "0 khớp · 1 rộng hơn nguồn · 2 bắc cầu hai bảng số · 3 bịa" },
+          "author_inference": { "type": "boolean", "description": "true = suy diễn của tác giả nguồn, lời đọc PHẢI ghi rõ" },
+          "modern_to_prehistoric": { "type": "boolean", "description": "true = dữ liệu hiện đại suy về tiền sử, lời đọc phải tự nhận giới hạn" },
+          "status": { "type": "string", "enum": ["OK", "UNVERIFIED", "DEAD", "NEEDS_REWRITE"] },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

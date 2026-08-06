@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "sketchapiens/video.schema.json",
+  "title": "Sketchapiens video manifest",
+  "description": "Một video = một video.yaml. ID bất biến. Không nhảy trạng thái khi artefact bắt buộc chưa có.",
+  "type": "object",
+  "required": ["id", "slug", "status", "language", "created", "source"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^SKA-[0-9]{4}-[a-z0-9-]+$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "legacy_folder": { "type": ["string", "null"], "description": "Thư mục cũ nếu đây là khung cho video đã có. Ghi lại nguồn, KHÔNG di chuyển." },
+    "status": {
+      "type": "string",
+      "enum": ["idea","selected","researched","evidence_locked","draft","internally_audited","externally_reviewed","revised","script_approved","packaged","production_ready","produced","published","measured","postmortem_complete","archived"]
+    },
+    "language": { "type": "string", "enum": ["en"] },
+    "created": { "type": "string", "format": "date" },
+    "source": { "type": "string", "enum": ["new", "migrated"] },
+    "title": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "current": { "type": ["string", "null"] },
+        "rejected": { "type": "array", "items": { "type": "object", "required": ["text","reason"], "properties": { "text": {"type":"string"}, "reason": {"type":"string"} }, "additionalProperties": false } }
+      }
+    },
+    "thumbnail": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "concept": { "type": ["string", "null"] },
+        "text": { "type": ["string", "null"] },
+        "image_path": { "type": ["string", "null"] },
+        "stage": { "type": "string", "enum": ["none", "concept_only", "image_built"] }
+      }
+    },
+    "script_versions": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["file", "reason"], "additionalProperties": false,
+        "properties": { "file": {"type":"string"}, "reason": {"type":"string"}, "words": {"type":["integer","null"]}, "created": {"type":["string","null"]} }
+      }
+    },
+    "approved": {
+      "type": "object", "additionalProperties": false,
+      "description": "CHỈ người dùng đặt. Agent không được tự đặt.",
+      "properties": { "file": {"type":["string","null"]}, "approved_by": {"type":["string","null"]}, "approved_at": {"type":["string","null"]} }
+    },
+    "publish": {
+      "type": "object", "additionalProperties": false,
+      "description": "Trống = not_published. KHÔNG suy ra trạng thái này.",
+      "properties": {
+        "state": { "type": "string", "enum": ["not_published", "published", "unlisted", "private", "unknown"] },
+        "url": { "type": ["string", "null"] },
+        "published_at": { "type": ["string", "null"] },
+        "actual_title": { "type": ["string", "null"] },
+        "actual_thumbnail": { "type": ["string", "null"] },
+        "duration_seconds": { "type": ["integer", "null"] }
+      }
+    },
+    "evidence": {
+      "type": "object", "additionalProperties": false,
+      "properties": { "ledger": {"type":["string","null"]}, "locked": {"type":"boolean"}, "unverified_count": {"type":["integer","null"]}, "overreach_ge2": {"type":["integer","null"]} }
+    },
+    "reviews": { "type": "array", "items": { "type": "object", "required": ["round","file"], "additionalProperties": false, "properties": { "round": {"type":"integer"}, "file": {"type":"string"}, "kind": {"type":"string","enum":["internal_agents","external_listener"]}, "triaged": {"type":"boolean"} } } },
+    "assets": { "type": "object", "additionalProperties": false, "properties": { "shots": {"type":["integer","null"]}, "images": {"type":["integer","null"]}, "audio_clips": {"type":["integer","null"]}, "counts_match": {"type":["boolean","null"]} } },
+    "notes": { "type": "array", "items": { "type": "string" } }
+  }
+}
