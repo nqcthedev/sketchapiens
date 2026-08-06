@@ -1,0 +1,33 @@
+# ===== Style: locked across ALL images so every slide looks like one channel (COLORED doodle, like Mack/Stickly) =====
+style_anchor: "Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines,"
+style_lock: "no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style."
+# Background color chosen per line by emotional tone (see ArtBible_NguoiQueCoDai.md):
+#   ancient=tan/dark-blue, danger=white+red, happy=white/yellow, underwater/science=blue, outdoor/evolution=green+sky, fire/night=orange
+
+# ===== Render =====
+resolution: [1920, 1080]
+fps: 30
+
+# ===== Timing (used for mock durations; real mode reads true audio length) =====
+words_per_minute: 140
+min_seconds_per_line: 2.2
+
+# ===== Providers (real mode) =====
+llm_model: "gpt-4o-mini"        # turns each sentence -> a visual scene
+# ẢNH — build an toàn của nhà: dùng API CHÍNH THỨC, không app bên thứ 3 chạm tài khoản
+image_provider: "gemini"                  # "gemini" (Nano Banana, chính thức) | "openai"
+image_model: "gemini-2.5-flash-image"     # Nano Banana — đúng model Flow, qua API chính thức
+image_model_openai: "dall-e-3"
+# Smart Ref Binding "của nhà": @TOKEN trong prompt -> tự đính ảnh ref tương ứng vào lệnh Gemini
+refs:
+  ANCESTOR: "refs/ancestor.png"
+  MODERNYOU: "refs/modernyou.png"
+  CHIMP: "refs/chimp.png"
+  SCIENTIST: "refs/scientist.png"
+tts_provider: "elevenlabs"      # "elevenlabs" or "openai"
+elevenlabs_voice_id: "REPLACE_WITH_YOUR_VOICE_ID"
+openai_voice: "onyx"
+
+# Consistency tips (the hard part of stick-figure automation):
+# - keep this style_prompt identical for every image
+# - in real mode, also pin a fixed seed / reference image / character LoRA per channel

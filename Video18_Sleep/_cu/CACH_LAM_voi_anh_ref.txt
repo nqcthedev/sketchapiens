@@ -1,0 +1,27 @@
+### CACH LAM — DUNG ANH THAM CHIEU, KHONG TA BANG CHU
+
+Sau ~10 vong ta bang chu (7 vong thumbnail + 6 vong khung hinh) van khong ra
+duoc net ve tay cua doi thu. Model gen anh co gu rieng; chu khong deo duoc no.
+Cach dung: cho no XEM anh mau.
+
+BUOC 1 — trong Google Flow / Nano Banana Pro, UPLOAD file:
+   Video18_Sleep/REF/REF_caveman.jpg
+   (day la khung hinh THAT cat tu video Predators 1,9M cua doi thu)
+
+BUOC 2 — dan prompt NGAN nay (khong dan prompt dai nua):
+
+Match the art style of the reference image exactly: the same line quality, the
+same way the hair is scribbled, the same white bodies with no skin colour, the
+same flat muted colours, the same simple background treatment.
+
+SCENE: the same caveman lies on his back on the ground at night beside a small
+campfire, hands behind his head, eyes open, unable to sleep. His face is worried:
+eyebrows pushed up at the inner ends, mouth a wavy line. Deep blue sky, a
+crescent moon, a few stars, dusty ground, a couple of grass tufts.
+
+Keep the character identical to the reference. 16:9. No text.
+
+BUOC 3 — neu ra dung -> tu do tro di moi anh deu dung cong thuc:
+   [anh ref] + "Match the art style of the reference image exactly..."
+              + [SCENE cua shot do] + "Keep the character identical. 16:9."
+   Nghia la 224 prompt chi con phan SCENE khac nhau — ngan, de kiem, kho lech.

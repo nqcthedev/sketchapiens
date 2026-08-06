@@ -1,0 +1,21 @@
+⛔ HỒ SƠ CŨ — ĐỪNG DÙNG LÀM MẪU (dán 29/07/2026)
+Prompt dưới đây viết theo TEMPLATE_Thumbnail_DoiThu.md / HE_THONG_Thumbnail_Signature_v3.md — cả hai ĐÃ CHẾT.
+Đây là thumbnail của các video đã flop (CTR 1,6%). Luật hiện hành: PROMPT_TONG_Thumbnail_v6.md
+----------------------------------------------------------------------
+
+THUMBNAIL — "STILL IN THERE?" (Concept A) — video: Why Can't You Remember Being a Baby?
+
+=== PROMPT CHÍNH (đổ Nano Banana / Flow) ===
+Minimalist hand-drawn stickman YouTube thumbnail, clean flat 2D digital line art, thick smooth even black outlines, flat solid colours, NO gradient, high contrast, 16:9.
+BACKGROUND: a single flat pale-yellow cream nursery-tone room, plain and low-detail, lots of empty space, a soft light-grey shadow under the character.
+MAIN CHARACTER (left third of the frame): one modern stickman with a LARGE round head with a SOLID WHITE fill and a BALD top (NO hair), two big round white eyes wide open with small black pupils in a shocked stare, eyebrows raised high, a small open worried mouth, on a thin bold black stick-line body with thin noodle arms and simple mitten hands; one mitten hand pressed against the side of his own head; drawn big, positioned LEFT, looking anxious.
+FOCAL PARADOX (centre-right): a rounded window cut into the side of his head, like a small locked room inside his skull; inside it a small faint pale baby stickman (tiny round-headed doodle, big round eyes) stands behind vertical RED prison bars with a chunky RED padlock; the baby looks out quietly — a memory locked inside.
+ACCENT: the RED bars and RED padlock are the single bright red accent, catching the eye against the cream background and white body.
+TEXT: bold ALL-CAPS hand-drawn text "STILL IN THERE?" in bright YELLOW with a thick black outline, across the TOP edge, near full width, large and clearly readable.
+NEG: no gradient, no textures, no 3D, no glossy render, no photorealism, no extra limbs, no watermark, no logo, no frame border. Clean flat digital-explainer doodle, white-filled black-outline character pops against the warm flat background, 16:9 YouTube thumbnail.
+
+=== FALLBACK (nếu "cửa sổ trong đầu" render rối) ===
+Đổi bố cục: "you" trọc trắng mắt sốc đứng LỆCH TRÁI, tay đưa ra; bên PHẢI là một CÁNH CỬA / KÉT đóng có song sắt ĐỎ + ổ khoá ĐỎ, sau song là em bé stickman mờ nhìn ra. Nền vàng-kem phẳng. Chữ "STILL IN THERE?" vàng viền đen sát đỉnh. (Giữ nguyên: lệch trái + vật nghịch lý bên phải + nhấn đỏ + chữ 3 từ.)
+
+=== CHECK theo template ===
+✅ Nhân vật lệch trái, mắt to sốc  ✅ Vật nghịch lý (em bé bị khoá) bên phải  ✅ Nền phẳng ấm (kem)  ✅ Nhấn đỏ (ổ khoá)  ✅ Chữ 3 từ VÀNG viền đen + "?" sát đỉnh  ✅ Kể đúng cú lật "ký ức vẫn còn, chỉ bị khoá"

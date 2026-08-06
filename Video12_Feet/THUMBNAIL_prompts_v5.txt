@@ -1,0 +1,74 @@
+THUMBNAIL v5 — COPY SÁT NÉT ĐỐI THỦ (soi tận mắt 6 thumbnail: SICK? / WHY WHITE? / WHY NOT ATTACK? / ATE WHAT? / WHY CLOTHES? / HIGH ALL DAY)
+Video #12 "Why Are Your Feet So Weak When a Caveman's Weren't?"
+
+KHÁC v4 Ở ĐÂU (v4 sai, đừng dùng lại):
+- Màu: XỈN/nhạt tông đất, KHÔNG rực no màu.
+- Nét: MẢNH, thanh, hơi vẽ tay — KHÔNG dày cộp kiểu vector.
+- Nền: viền NÂU ĐẬM mềm + có shading nhẹ, KHÔNG phẳng lì, KHÔNG viền đen.
+- Chữ: viền đen VỪA (không dày), font tròn mập.
+- Tay chân: đường RẤT MẢNH, tay đơn giản, không mitten to.
+- Caveman: áo lông xù rìa + tóc dài lòa xòa che trán.
+- Mắt: sụp mí / biểu cảm mệt-lo, viền mảnh.
+
+==================================================
+KHỐI STYLE — DÁN Y NGUYÊN MỌI THUMBNAIL
+==================================================
+A hand-drawn 2D cartoon YouTube thumbnail in a loose indie-animation style, slightly sketchy and imperfect rather than clean vector. MUTED, desaturated earth-tone palette: dusty tan, olive green, warm brown, soft ochre, greyish blue. Never neon, never vivid, never high-saturation. The background is a fully painted cartoon environment with soft gentle shading and mild shadows, drawn with THIN dark-BROWN outlines. The characters are drawn over it with THIN, delicate BLACK outlines and plain flat fills. Even, calm lighting.
+
+==================================================
+KHỐI NHÂN VẬT — DÁN Y NGUYÊN
+==================================================
+MODERN MAN ("you"):
+a very simple stick figure with a plain round PURE-WHITE head drawn in a THIN black outline, completely bald, no hair and no nose; two simple oval eyes as thin black outlines with small dark pupils; one tiny simple mouth line; the body is nothing but THIN black lines, a single thin line for the torso, thin straight line arms and legs, small simple hands, small plain white feet. Extremely minimal and lightly drawn.
+
+CAVEMAN:
+the same very simple thin stick figure drawn as a caveman: a plain round white face in a THIN black outline, a mop of messy stringy MEDIUM-BROWN hair hanging over the forehead and down past the ears, and a shaggy BROWN animal-fur wrap over the torso like a rough vest with ragged edges and little fur tufts poking out along the outline; thin bare line arms and legs, plain white bare feet; simple oval eyes with small pupils and a small clear mouth.
+
+==================================================
+KHỐI CHỮ — DÁN Y NGUYÊN
+==================================================
+bold ALL-CAPS YELLOW text in a chunky rounded sans-serif with a MODERATE black outline (not heavy), sitting across the TOP of the frame and taking about eighteen percent of the height, the words spread wide.
+
+==================================================
+KHỐI NEG — DÁN Y NGUYÊN
+==================================================
+no thick heavy outlines, no bold vector look, no vivid saturated colours, no neon, no photorealism, no 3D, no glossy render, no gradient banding, no glass case, no display box, no frame border, no watermark, no logo, no small unreadable text, no duplicate characters, no collage, 16:9.
+
+==================================================
+CONCEPT CHÍNH — "CAVEMAN'S FEET?"  (ghép 4 khối trên + cảnh dưới)
+==================================================
+A hand-drawn 2D cartoon YouTube thumbnail in a loose indie-animation style, slightly sketchy and imperfect rather than clean vector. MUTED, desaturated earth-tone palette: dusty tan, olive green, warm brown, soft ochre, greyish blue. Never neon, never vivid, never high-saturation. The background is a fully painted cartoon environment with soft gentle shading and mild shadows, drawn with THIN dark-BROWN outlines. The characters are drawn over it with THIN, delicate BLACK outlines and plain flat fills. Even, calm lighting.
+
+SCENE: a wide dry savanna trail in soft daylight, low olive scrub and a few small acacia trees, pale dusty hills along a low horizon, a soft muted sky, a stretch of rough grey stones running across the right side of the ground. The whole scene fills the frame, ground line low, plenty of open sky.
+
+LEFT, standing on smooth pale dirt: a very simple stick figure with a plain round PURE-WHITE head drawn in a THIN black outline, completely bald, no hair and no nose; two simple oval eyes as thin black outlines with small dark pupils, the brows pinched up in pain; a small wavy mouth; the body is nothing but THIN black lines, a single thin line for the torso, thin straight line arms and legs, small simple hands, small plain white feet. He is balancing on one leg, holding his other bare foot up in both hands, a small RED starburst under that foot, one tiny grey pebble on the dirt below him.
+
+RIGHT, walking calmly over the rough grey stones: the same very simple thin stick figure drawn as a caveman: a plain round white face in a THIN black outline, a mop of messy stringy MEDIUM-BROWN hair hanging over the forehead and down past the ears, and a shaggy BROWN animal-fur wrap over the torso like a rough vest with ragged edges and little fur tufts poking out along the outline; thin bare line arms and legs, plain white bare feet; simple oval eyes with small pupils and a calm easy smile. He strides barefoot straight across the sharp stones without a care.
+
+bold ALL-CAPS YELLOW text in a chunky rounded sans-serif with a MODERATE black outline (not heavy), sitting across the TOP of the frame and taking about eighteen percent of the height, reading "CAVEMAN'S FEET?" with the words spread wide.
+
+no thick heavy outlines, no bold vector look, no vivid saturated colours, no neon, no photorealism, no 3D, no glossy render, no gradient banding, no glass case, no display box, no frame border, no watermark, no logo, no small unreadable text, no duplicate characters, no collage, 16:9.
+
+==================================================
+FALLBACK — "STONE AGE FEET?"
+==================================================
+A hand-drawn 2D cartoon YouTube thumbnail in a loose indie-animation style, slightly sketchy and imperfect rather than clean vector. MUTED, desaturated earth-tone palette: dusty tan, olive green, warm brown, soft ochre, greyish blue. Never neon, never vivid, never high-saturation. The background is a fully painted cartoon environment with soft gentle shading and mild shadows, drawn with THIN dark-BROWN outlines. The characters are drawn over it with THIN, delicate BLACK outlines and plain flat fills. Even, calm lighting.
+
+SCENE: the mouth of a rocky cave looking out, warm brown cave walls with a few rough stone ledges, a dim fire ring of stones on the floor, and beyond the cave opening a pale dusty plain under a soft muted sky. The whole scene fills the frame.
+
+CENTER: a very simple stick figure with a plain round PURE-WHITE head drawn in a THIN black outline, completely bald, no hair and no nose; two simple oval eyes as thin black outlines with small dark pupils, brows raised in worry; a small open mouth; the body is nothing but THIN black lines. He sits on the cave floor holding one bare foot up in both hands and staring at it, that foot drawn with a completely flat collapsed sole and a small RED circle marking the sore spot. A worn modern running shoe lies discarded on the ground beside him, the one object in the frame that does not belong.
+
+bold ALL-CAPS YELLOW text in a chunky rounded sans-serif with a MODERATE black outline (not heavy), sitting across the TOP of the frame and taking about eighteen percent of the height, reading "STONE AGE FEET?" with the words spread wide.
+
+no thick heavy outlines, no bold vector look, no vivid saturated colours, no neon, no photorealism, no 3D, no glossy render, no gradient banding, no glass case, no display box, no frame border, no watermark, no logo, no small unreadable text, no duplicate characters, no collage, 16:9.
+
+==================================================
+TỰ CHẤM — SO TRỰC TIẾP VỚI 6 THUMBNAIL ĐỐI THỦ
+==================================================
+[ ] Màu có XỈN/nhạt tông đất không? (đặt cạnh ảnh nó, mình có bị chói hơn không?)
+[ ] Nét nhân vật có MẢNH không? (không dày cộp)
+[ ] Nền có shading mềm + viền nâu, không phẳng lì?
+[ ] Tay chân là đường rất mảnh, không mitten to?
+[ ] Caveman có áo lông xù rìa + tóc dài che trán?
+[ ] Chữ vàng viền đen VỪA, font tròn mập, ~18% đỉnh?
+[ ] Che chữ vẫn hiểu chuyện?

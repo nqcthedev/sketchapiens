@@ -1,0 +1,761 @@
+================= SHOT LIST — WHY DID HUMANS LOSE THEIR FUR? =================
+Luật chia ảnh HỌC TỪ ĐỐI THỦ (video Predators 18.5'): ~23 ảnh/phút · ~2.6 giây/ảnh · ~7-8 từ/ảnh · ≈ 1 câu ngắn = 1 ảnh.
+Tổng: 754 ảnh cho kịch bản 5931 từ (tb 7.9 từ/ảnh).
+Ký hiệu "  ⏐  " = nhiều câu ngắn GỘP chung 1 ảnh. Mỗi [IMG] = 1 ảnh tĩnh cần tạo.
+Bước sau: mỗi [IMG] sẽ gắn 1 prompt ảnh (có @cast token).
+============================================================================
+
+[IMG 001]  Right now...
+[IMG 002]  you have roughly the same number of hair follicles as a chimpanzee.
+[IMG 003]  Same basic hardware.   ⏐   Very different settings.
+[IMG 004]  The chimp turned those follicles into a full-body fur coat.
+[IMG 005]  You turned yours into goosebumps...   ⏐   and a hoodie.
+[IMG 006]  Which is honestly...   ⏐   kind of rude of evolution.
+[IMG 007]  Almost every mammal on Earth looked at fur and said:
+[IMG 008]  Yes.   ⏐   Obviously.   ⏐   Warmth.   ⏐   Protection.
+[IMG 009]  A built-in blanket you never have to buy.   ⏐   Very practical.
+[IMG 010]  Very mammal.   ⏐   Very normal.
+[IMG 011]  Humans somehow looked at the same system and said:
+[IMG 012]  No thanks.   ⏐   We’ll just get cold...   ⏐   and invent sleeves.
+[IMG 013]  And at first...   ⏐   that sounds like a terrible deal.
+[IMG 014]  Because fur is useful.   ⏐   Fur keeps animals warm.
+[IMG 015]  Fur protects the skin.
+[IMG 016]  Fur makes you look less like a nervous piece of fruit standing upright.
+[IMG 017]  And yet...   ⏐   here you are.   ⏐   Soft.   ⏐   Mostly hairless.
+[IMG 018]  Buying jackets.   ⏐   Getting sunburned.   ⏐   Shivering in air conditioning.
+[IMG 019]  And calling it character development.   ⏐   So why did this happen?
+[IMG 020]  Why did one ape lose the coat that almost every other mammal kept?
+[IMG 021]  And why does your body still sometimes act like that coat is still there?
+[IMG 022]  Because that is the strange part.
+[IMG 023]  Cold air hits your skin.
+[IMG 024]  A scary sound comes from the dark.
+[IMG 025]  A song lands perfectly.
+[IMG 026]  A movie scene breaks you for absolutely no reason.
+[IMG 027]  And suddenly...   ⏐   tiny bumps rise across your arms.
+[IMG 028]  The hairs lift.   ⏐   Your skin changes.   ⏐   For one second...
+[IMG 029]  your body tries to do something ancient.
+[IMG 030]  Something it can barely do anymore.
+[IMG 031]  That reflex is a clue.   ⏐   A tiny clue.
+[IMG 032]  A useless little signal...
+[IMG 033]  from a body that used to be covered in fur.
+[IMG 034]  But the story does not start with goosebumps.
+[IMG 035]  It starts under the sun.
+[IMG 036]  Because if you put a naked human under a brutal sky...
+[IMG 037]  and make him chase dinner for hours...
+[IMG 038]  the whole body starts to make more sense.
+[IMG 039]  The antelope is faster.   ⏐   The lion is stronger.
+[IMG 040]  The leopard is better armed.   ⏐   But the human keeps coming.
+[IMG 041]  Not fast.   ⏐   Not graceful.
+[IMG 042]  Not impressive in the first five minutes.   ⏐   Just sweaty.
+[IMG 043]  Upright.   ⏐   And deeply annoying to anything trying to escape.
+[IMG 044]  Maybe your skin is not missing something.
+[IMG 045]  Maybe your skin is evidence.
+[IMG 046]  Evidence of one of the strangest upgrades in human evolution.
+[IMG 047]  Because the story of why humans lost their fur...
+[IMG 048]  is not just about heat.   ⏐   It is about sweat.
+[IMG 049]  Sunlight.   ⏐   Parasites.   ⏐   Attraction.   ⏐   Clothing.
+[IMG 050]  And one ghost your body still raises from your skin.
+[IMG 051]  Here is the part that messes with people.
+[IMG 052]  We did not really lose our hair follicles.
+[IMG 053]  Most of them are still there.
+[IMG 054]  You still have millions of follicles spread across your body.
+[IMG 055]  The factories stayed open.
+[IMG 056]  They just started making a much smaller product.   ⏐   Tiny hairs.
+[IMG 057]  Thin hairs.   ⏐   Pale hairs.   ⏐   Hairs so small...
+[IMG 058]  they basically gave up on being visible.
+[IMG 059]  So the real question is not:
+[IMG 060]  Where did the hair go?   ⏐   The real question is:
+[IMG 061]  Why did evolution take a perfectly good fur coat...
+[IMG 062]  and shrink it until it barely worked?
+[IMG 063]  And the answer is not one thing.
+[IMG 064]  It is never one thing.
+[IMG 065]  Evolution rarely has the decency to keep the plot simple.
+[IMG 066]  It was a stack of pressures.   ⏐   Heat pushed first.
+[IMG 067]  Parasites helped.   ⏐   Skin changed.
+[IMG 068]  Mate choice may have helped lock it in.
+[IMG 069]  Clothing came much later.   ⏐   And the weirdest clue of all...
+[IMG 070]  happened before you were even born.
+[IMG 071]  But to understand why the fur started disappearing...
+[IMG 072]  we have to begin with the most obvious problem.
+[IMG 073]  The sun.
+[IMG 074]  The sun is not just background decoration in human evolution.
+[IMG 075]  The sun is one of the main characters.
+[IMG 076]  For many of our ancestors...   ⏐   the world was hot.
+[IMG 077]  Open.   ⏐   Dry.   ⏐   And extremely disrespectful.   ⏐   Long distances.
+[IMG 078]  Little shade.   ⏐   Brutal heat.
+[IMG 079]  A landscape full of animals that were faster than us.
+[IMG 080]  Stronger than us.   ⏐   Better armed than us.
+[IMG 081]  Or much better at hiding.   ⏐   And then...
+[IMG 082]  there was us.   ⏐   A strange upright ape with no claws.
+[IMG 083]  No fangs.   ⏐   No armor.
+[IMG 084]  And the general body plan of something that should not be making confident decisions outdoors.
+[IMG 085]  On paper...   ⏐   early humans were not terrifying.
+[IMG 086]  A lion could explode out of the grass...
+[IMG 087]  and end a hunt in seconds.
+[IMG 088]  A leopard could climb, ambush, and vanish...
+[IMG 089]  like it had a professional subscription to stealth.
+[IMG 090]  A hyena could crush bone.
+[IMG 091]  A gazelle could turn running away into an art form.
+[IMG 092]  And humans had rocks.   ⏐   Pointy sticks.   ⏐   Teamwork.
+[IMG 093]  And apparently...   ⏐   the inability to take a hint.
+[IMG 094]  Because one of the strangest ideas in human evolution is this:
+[IMG 095]  Maybe we did not survive by being the fastest animal on the savanna.
+[IMG 096]  Maybe we survived by being the animal...
+[IMG 097]  that refused to stop.   ⏐   This is where heat becomes everything.
+[IMG 098]  When most mammals run hard...   ⏐   their bodies heat up fast.
+[IMG 099]  They can pant.   ⏐   They can rest in shade.
+[IMG 100]  They can sweat a little through limited areas.
+[IMG 101]  But panting and running at the same time?
+[IMG 102]  Not a perfect system.
+[IMG 103]  If you have ever tried breathing calmly while jogging uphill...
+[IMG 104]  congratulations.   ⏐   You briefly understood the problem.
+[IMG 105]  A four-legged animal can move fast.   ⏐   Very fast.
+[IMG 106]  But it cannot always dump heat fast enough while doing it.
+[IMG 107]  And if the body gets too hot...
+[IMG 108]  it has to stop.   ⏐   That is the opening.
+[IMG 109]  Humans are bizarrely good at dumping heat.
+[IMG 110]  We have millions of eccrine sweat glands spread across the body.
+[IMG 111]  We can sweat directly through bare skin.
+[IMG 112]  We can keep breathing...   ⏐   while the skin handles cooling.
+[IMG 113]  We can walk and jog for hours in heat that makes other animals start making bad decisions.
+[IMG 114]  But fur gets in the way.
+[IMG 115]  A thick coat traps heat close to the body.
+[IMG 116]  It slows evaporation.   ⏐   It turns sweat into a damp mess...
+[IMG 117]  instead of a cooling system.
+[IMG 118]  Imagine running a marathon inside a wet carpet.
+[IMG 119]  That is basically what fur becomes...
+[IMG 120]  when your survival strategy is long-distance suffering.
+[IMG 121]  So at some point...   ⏐   in some populations of our ancestors...
+[IMG 122]  less fur may have stopped being a weakness.
+[IMG 123]  It may have become the upgrade.
+[IMG 124]  Less fur meant better cooling.
+[IMG 125]  Better cooling meant longer movement under the sun.
+[IMG 126]  Longer movement meant more time to follow.   ⏐   Track.
+[IMG 127]  Pressure.   ⏐   And exhaust prey.
+[IMG 128]  Anthropologist Nina Jablonski and other researchers have argued that this cooling advantage was central...
+[IMG 129]  to why humans became so unusually hairless.
+[IMG 130]  Not because naked skin was comfortable.   ⏐   It probably was not.
+[IMG 131]  Not because it looked good.   ⏐   That came later.
+[IMG 132]  Because humans are humans...
+[IMG 133]  and we will turn anything into a beauty standard if given enough time.
+[IMG 134]  The first big reason was survival.
+[IMG 135]  Bare skin helped turn sweat into a weapon.
+[IMG 136]  And that is the part people usually miss.
+[IMG 137]  Sweat does not sound impressive.   ⏐   Claws sound impressive.
+[IMG 138]  Fangs sound impressive.   ⏐   Venom sounds impressive.
+[IMG 139]  Sweat sounds like something you apologize for in an elevator.
+[IMG 140]  But in the right environment...   ⏐   sweat is terrifying.
+[IMG 141]  Because sweat lets you keep going...
+[IMG 142]  when the other animal has to stop.
+[IMG 143]  This is the logic behind persistence hunting.
+[IMG 144]  The idea is simple.   ⏐   And slightly horrifying.
+[IMG 145]  You pick an animal.   ⏐   It runs.   ⏐   You follow.
+[IMG 146]  It runs again.   ⏐   You keep following.   ⏐   It hides.
+[IMG 147]  You track it.   ⏐   It rests.   ⏐   You appear again.
+[IMG 148]  Upright.   ⏐   Sweaty.   ⏐   Sun-baked.   ⏐   Emotionally committed to the bit.
+[IMG 149]  For the prey animal...   ⏐   this is a nightmare.
+[IMG 150]  The first time it sprints away, it wins.
+[IMG 151]  The second time...   ⏐   it still wins.   ⏐   The third time...
+[IMG 152]  it starts to wonder why the strange hairless thing is still back there.
+[IMG 153]  By the fourth hour...   ⏐   the question is no longer:
+[IMG 154]  Who is faster?   ⏐   The question is:   ⏐   Who can stay cool?
+[IMG 155]  The antelope was built to win the sprint.
+[IMG 156]  The human was built to make the sprint last...
+[IMG 157]  until it stopped being a sprint.
+[IMG 158]  That is such a strange way to hunt...
+[IMG 159]  it almost sounds fake.   ⏐   Slowly bother an animal...
+[IMG 160]  until physics defeats it.
+[IMG 161]  But this is one of the great human tricks.
+[IMG 162]  We are not impressive because we are unstoppable in one burst.
+[IMG 163]  We are impressive because we can be mildly terrible...
+[IMG 164]  for a very long time.
+[IMG 165]  A predator with claws has to catch you.
+[IMG 166]  A human just has to keep showing up.   ⏐   Again.
+[IMG 167]  And again.   ⏐   And again.   ⏐   Like a calendar reminder with legs.
+[IMG 168]  In this version of the story...
+[IMG 169]  losing fur did not make us weaker.
+[IMG 170]  It helped make us dangerous...   ⏐   in a completely different way.
+[IMG 171]  The lion had the teeth.   ⏐   The cheetah had the speed.
+[IMG 172]  The eagle had the talons.   ⏐   We had exposed skin.
+[IMG 173]  Sweat glands.   ⏐   Long legs.
+[IMG 174]  And the psychological energy of someone who had already walked too far to turn around.
+[IMG 175]  That combination changed the equation.
+[IMG 176]  A naked body could cool faster.
+[IMG 177]  A cooler body could travel farther.
+[IMG 178]  A body that traveled farther...   ⏐   could hunt differently.
+[IMG 179]  And a creature that hunts differently...
+[IMG 180]  does not need to look like the other predators.
+[IMG 181]  It becomes its own kind of problem.
+[IMG 182]  This is why the phrase naked ape is a little misleading.
+[IMG 183]  It makes us sound unfinished.
+[IMG 184]  Like evolution forgot to install the outside layer.
+[IMG 185]  But maybe bare skin was not a missing feature.
+[IMG 186]  Maybe it was the feature.
+[IMG 187]  Maybe the fur did not vanish because our ancestors were becoming soft.
+[IMG 188]  Maybe it vanished because the soft-looking ape...
+[IMG 189]  was becoming something worse.   ⏐   A patient predator.
+[IMG 190]  A sweating machine.
+[IMG 191]  A creature that could walk into the hottest part of the day...
+[IMG 192]  when many predators were resting in shade...   ⏐   and keep moving.
+[IMG 193]  That is not weakness.   ⏐   That is a very weird superpower.
+[IMG 194]  And once you understand that...
+[IMG 195]  the human body starts to look different.   ⏐   The thin hair.
+[IMG 196]  The exposed skin.   ⏐   The ridiculous amount of sweat.
+[IMG 197]  The way your face turns shiny after climbing one flight of stairs...
+[IMG 198]  and pretending you are fine.
+[IMG 199]  All of it is part of the same ancient system.
+[IMG 200]  An overheated ape was a dead ape.
+[IMG 201]  A sweaty ape could keep going.
+[IMG 202]  And the ones who kept going...
+[IMG 203]  were the ones who ate.
+[IMG 204]  But a good explanation still needs a date.
+[IMG 205]  Because saying humans lost fur a long time ago is easy.
+[IMG 206]  A long time ago is where every vague prehistoric answer goes to hide.
+[IMG 207]  The harder question is this:
+[IMG 208]  Can we actually tell when the coat disappeared?   ⏐   Not perfectly.
+[IMG 209]  But there is a clue.
+[IMG 210]  And it is not in the hair.
+[IMG 211]  It is in the skin.
+[IMG 212]  Skin color is one of those clues that looks ordinary...
+[IMG 213]  until you realize what it may be telling you.
+[IMG 214]  Once you lose fur...
+[IMG 215]  the skin underneath suddenly has a new job.
+[IMG 216]  A very serious one.
+[IMG 217]  It has to face the sun directly.
+[IMG 218]  And the sun has never been gentle with exposed skin.
+[IMG 219]  Under a thick coat of fur...
+[IMG 220]  skin can be relatively pale.
+[IMG 221]  The fur does a lot of the protective work.
+[IMG 222]  It blocks sunlight.   ⏐   It shades the body.
+[IMG 223]  It keeps ultraviolet radiation from hitting the skin directly all day.
+[IMG 224]  But take that fur away...
+[IMG 225]  and suddenly the skin is standing there like an intern on the first day of a very dangerous job.
+[IMG 226]  No cover.   ⏐   No training.   ⏐   Just raw sunlight...
+[IMG 227]  and consequences.   ⏐   That creates a problem.
+[IMG 228]  Ultraviolet radiation can damage skin cells.   ⏐   It can burn.
+[IMG 229]  It can increase disease risk.
+[IMG 230]  And maybe most importantly for ancient humans...
+[IMG 231]  it can break down folate.   ⏐   Folate matters for fertility...
+[IMG 232]  and healthy fetal development.   ⏐   That is not a small issue.
+[IMG 233]  That is not evolution saying:
+[IMG 234]  Oh no, this ape looks a little red.
+[IMG 235]  That is evolution saying:   ⏐   If this keeps happening...
+[IMG 236]  fewer babies survive.   ⏐   And evolution pays attention to that.
+[IMG 237]  So once our ancestors became more exposed to the sun...
+[IMG 238]  darker skin would have been strongly favored in high-UV environments.
+[IMG 239]  More melanin meant more protection.   ⏐   More protection meant better survival.
+[IMG 240]  Better survival meant the trait spread.
+[IMG 241]  This is where the story gets clever.
+[IMG 242]  Because skin itself almost never fossilizes.
+[IMG 243]  You do not dig up a 1.2-million-year-old sunburn.
+[IMG 244]  Which is probably for the best.
+[IMG 245]  So researchers had to look for a different kind of evidence.
+[IMG 246]  A genetic clue.
+[IMG 247]  One of the genes involved in pigmentation is called MC1R.
+[IMG 248]  It helps influence how much...   ⏐   and what kind...
+[IMG 249]  of melanin the body produces.
+[IMG 250]  Geneticist Alan Rogers and colleagues used evidence from this gene...
+[IMG 251]  to estimate when dark skin may have become established in our ancestors.
+[IMG 252]  The estimate points to somewhere around 1.2 million years ago.
+[IMG 253]  Not a perfect date.
+[IMG 254]  Not a little calendar page that says:   ⏐   Congratulations.
+[IMG 255]  Your fur is gone.   ⏐   But a clue.
+[IMG 256]  A very interesting clue.
+[IMG 257]  Because if dark skin became important around that time...
+[IMG 258]  then the fur had probably already thinned enough...
+[IMG 259]  that the skin needed serious protection.   ⏐   In other words...
+[IMG 260]  the color of human skin may be a shadow...
+[IMG 261]  cast by the loss of human fur.
+[IMG 262]  That is the strange thing about evolution.
+[IMG 263]  It rarely leaves you the thing you want.
+[IMG 264]  It does not leave the missing coat.
+[IMG 265]  It leaves the sunburn problem...   ⏐   after the coat is gone.
+[IMG 266]  It leaves the adaptation that came next.
+[IMG 267]  It leaves the receipt...   ⏐   in another aisle.
+[IMG 268]  And that receipt suggests something wild.
+[IMG 269]  By more than a million years ago...
+[IMG 270]  our ancestors may already have been walking around with bodies much more exposed...
+[IMG 271]  than any chimpanzee would consider reasonable.   ⏐   Bare enough to sweat.
+[IMG 272]  Bare enough to burn.
+[IMG 273]  Bare enough that the skin itself had to change.
+[IMG 274]  So the naked ape was not some recent little side project.
+[IMG 275]  This was ancient.   ⏐   Older than agriculture.   ⏐   Older than cities.
+[IMG 276]  Older than writing.
+[IMG 277]  Older than almost every familiar thing we think of as human.
+[IMG 278]  By the time humans started building the world...
+[IMG 279]  the body had already made the deal.   ⏐   Less fur.
+[IMG 280]  More sweat.   ⏐   Darker skin under the tropical sun.
+[IMG 281]  Keep moving.   ⏐   Try not to cook.
+[IMG 282]  But heat was not the only pressure pushing us away from fur.
+[IMG 283]  Because a fur coat does something else.   ⏐   Something disgusting.
+[IMG 284]  It hosts guests.   ⏐   Lots of guests.   ⏐   Tiny guests.
+[IMG 285]  Guests with legs.   ⏐   Guests with mouthparts.
+[IMG 286]  Guests who do not pay rent...
+[IMG 287]  and have absolutely no respect for personal boundaries.   ⏐   Ticks.
+[IMG 288]  Fleas.   ⏐   Lice.   ⏐   Mites.
+[IMG 289]  A thick coat of fur is warm and protective, yes.
+[IMG 290]  But it is also a forest.   ⏐   And forests have wildlife.
+[IMG 291]  If you are a furry animal...
+[IMG 292]  your skin is not just skin.   ⏐   It is an ecosystem.
+[IMG 293]  A tiny...   ⏐   crawling...   ⏐   blood-drinking ecosystem...
+[IMG 294]  that you are forced to carry everywhere you go.
+[IMG 295]  Which is rude, honestly.   ⏐   Imagine wearing a beautiful winter coat.
+[IMG 296]  Now imagine the coat is full of roommates.
+[IMG 297]  Now imagine all the roommates bite you.
+[IMG 298]  That is fur with parasites.
+[IMG 299]  For an animal living in groups...   ⏐   sleeping close to others...
+[IMG 300]  touching others...   ⏐   sharing shelters...   ⏐   and raising children in constant contact...
+[IMG 301]  parasites are not just annoying.   ⏐   They are dangerous.
+[IMG 302]  They can drain blood.   ⏐   They can irritate the skin.
+[IMG 303]  They can spread disease.
+[IMG 304]  They can reduce health, fertility, and survival.
+[IMG 305]  And if there is one thing evolution loves...
+[IMG 306]  it is turning a small problem into a species-wide renovation project.
+[IMG 307]  This is where the ectoparasite theory comes in.
+[IMG 308]  Biologists Mark Pagel and Walter Bodmer proposed that losing body hair may have helped early humans...
+[IMG 309]  reduce the burden of external parasites.
+[IMG 310]  Less fur meant fewer hiding places.
+[IMG 311]  Fewer hiding places meant parasites were easier to find.
+[IMG 312]  Easier to remove.   ⏐   Less comfortable.   ⏐   Less successful.
+[IMG 313]  A naked ape could see what was crawling on it.
+[IMG 314]  A furry ape had to hope for the best...
+[IMG 315]  and scratch with commitment.
+[IMG 316]  So less hair may have made the body cooler.
+[IMG 317]  But it may also have made the body cleaner.
+[IMG 318]  Not clean by modern standards.
+[IMG 319]  Nobody on the Pleistocene savanna was exfoliating.
+[IMG 320]  But cleaner in the practical sense.   ⏐   Fewer hiding places.
+[IMG 321]  Fewer bites.   ⏐   Fewer infections.
+[IMG 322]  Fewer tiny blood-drinking tenants treating your body like a rental property.
+[IMG 323]  And here is where it gets even more human.
+[IMG 324]  Because once skin is visible...   ⏐   skin becomes information.
+[IMG 325]  And once something becomes information...   ⏐   other humans start judging it.
+[IMG 326]  Quietly.   ⏐   Constantly.   ⏐   With terrifying efficiency.
+[IMG 327]  If someone had irritated, infected, parasite-covered skin...
+[IMG 328]  you could see it.   ⏐   If someone had clearer skin...
+[IMG 329]  fewer bites...   ⏐   fewer lesions...   ⏐   fewer signs of disease...
+[IMG 330]  you could see that too.
+[IMG 331]  This is where biology starts drifting into attraction.
+[IMG 332]  Which is exactly where humans would eventually make things complicated.
+[IMG 333]  Because of course we did.
+[IMG 334]  Darwin suggested that sexual selection may have played a role in human hairlessness.
+[IMG 335]  Not as the first cause, necessarily.
+[IMG 336]  But as a force that may have helped lock it in.
+[IMG 337]  If smoother skin became associated with health...   ⏐   cleanliness...
+[IMG 338]  youth...   ⏐   or fewer parasites...   ⏐   then smoother skin could become attractive.
+[IMG 339]  And once something becomes attractive...   ⏐   evolution starts paying attention again.
+[IMG 340]  A trait that helps you survive is powerful.
+[IMG 341]  A trait that helps you survive...
+[IMG 342]  and helps you find a mate...   ⏐   is even more powerful.
+[IMG 343]  That is basically evolution getting a two-for-one deal.
+[IMG 344]  So imagine the pressure stack building.   ⏐   Bare skin cools better.
+[IMG 345]  Bare skin may carry fewer parasites.
+[IMG 346]  Bare skin makes health easier to see.
+[IMG 347]  And if the group starts preferring it...
+[IMG 348]  bare skin spreads even more.
+[IMG 349]  That does not mean one ancient human looked at another and said:
+[IMG 350]  Wow.   ⏐   Excellent parasite visibility.
+[IMG 351]  People do not experience attraction as a spreadsheet.
+[IMG 352]  They experience it as a feeling.
+[IMG 353]  But feelings are often biology...   ⏐   wearing a mask.
+[IMG 354]  You feel drawn to something.   ⏐   And somewhere underneath...
+[IMG 355]  ancient selection pressures are quietly filing paperwork.
+[IMG 356]  Clear skin.   ⏐   Healthy skin.   ⏐   Less crawling activity.
+[IMG 357]  Good enough.   ⏐   Proceed.
+[IMG 358]  So the loss of fur probably was not one clean event.
+[IMG 359]  It was not a single evolutionary meeting...
+[IMG 360]  where everyone voted to become weirdly naked.
+[IMG 361]  It was more like a long negotiation.   ⏐   Heat pushed.
+[IMG 362]  Parasites pushed.   ⏐   Mate choice may have pushed.
+[IMG 363]  Group living made the stakes higher.
+[IMG 364]  The sun punished exposed skin until melanin stepped in.
+[IMG 365]  Sweat rewarded exposed skin...   ⏐   by letting the body keep moving.
+[IMG 366]  And little by little...   ⏐   generation after generation...
+[IMG 367]  the fur coat became less useful...
+[IMG 368]  than the body underneath it.
+[IMG 369]  But before we get too comfortable with the sweaty savanna story...
+[IMG 370]  we have to talk about the theory that refuses to die.
+[IMG 371]  The aquatic ape hypothesis.
+[IMG 372]  This is one of those ideas that feels like it should be true.
+[IMG 373]  It has everything.   ⏐   Drama.   ⏐   Water.   ⏐   Mystery.
+[IMG 374]  A cinematic image of early humans wading through lakes and shorelines...
+[IMG 375]  slowly becoming smoother...   ⏐   stranger...   ⏐   and more aquatic.
+[IMG 376]  The basic idea is simple.
+[IMG 377]  Maybe humans lost their fur because our ancestors spent a lot of time in water.
+[IMG 378]  Maybe they were swimming.   ⏐   Maybe they were diving.
+[IMG 379]  Maybe they were collecting shellfish in the shallows.
+[IMG 380]  And at first glance...   ⏐   the idea has charm.
+[IMG 381]  Dolphins are smooth.   ⏐   Whales are smooth.
+[IMG 382]  Manatees look like they have been gently erased.
+[IMG 383]  So if water can make a mammal lose fur...
+[IMG 384]  maybe something similar happened to us.
+[IMG 385]  The hypothesis was first proposed by marine biologist Alister Hardy...
+[IMG 386]  and later became famous through the writing of Elaine Morgan.
+[IMG 387]  And to be fair...   ⏐   it is a beautiful story.
+[IMG 388]  The naked ape that came from the water.
+[IMG 389]  Very dramatic.   ⏐   Very mysterious.   ⏐   Very good for a thumbnail.
+[IMG 390]  But here is the problem.
+[IMG 391]  Most anthropologists do not think the evidence supports it...
+[IMG 392]  as the main explanation.
+[IMG 393]  The fossil record does not show a clear semi-aquatic phase...
+[IMG 394]  where our ancestors were living like awkward dolphins with hands.
+[IMG 395]  And the things that explain our hairlessness best...   ⏐   sweat...
+[IMG 396]  heat loss...   ⏐   long-distance walking...   ⏐   long-distance running...
+[IMG 397]  fit much better with a hot, open, terrestrial environment.   ⏐   Basically...
+[IMG 398]  the aquatic ape hypothesis is a great story.
+[IMG 399]  Evolution just seems to have written a different one.
+[IMG 400]  That does not mean water did not matter at all.
+[IMG 401]  Ancient humans almost certainly used rivers.   ⏐   Lakes.
+[IMG 402]  Wetlands.   ⏐   Coastlines.   ⏐   Water gives food.   ⏐   Water gives plants.
+[IMG 403]  Water attracts animals.
+[IMG 404]  Water is where everything living eventually shows up...
+[IMG 405]  and makes risky decisions.   ⏐   So yes.   ⏐   Water mattered.
+[IMG 406]  It always matters.
+[IMG 407]  But the best explanation for why the human body became so unusually hairless...
+[IMG 408]  still points back to heat.   ⏐   To sweat.
+[IMG 409]  To exposed skin.   ⏐   To an ape trying not to overheat...
+[IMG 410]  while moving through a dangerous world.
+[IMG 411]  We probably did not lose our fur because we were becoming aquatic.
+[IMG 412]  We lost it because we were becoming extremely good at being hot.
+[IMG 413]  Which sounds less elegant.   ⏐   But also much more human.
+[IMG 414]  The dolphin theory is beautiful.
+[IMG 415]  The sweaty ape theory is embarrassing.   ⏐   Unfortunately...
+[IMG 416]  nature does not care which one has better branding.
+[IMG 417]  And this is where another question appears.
+[IMG 418]  If fur was such a problem...
+[IMG 419]  why did evolution not remove all of it?
+[IMG 420]  Why are we not completely smooth?
+[IMG 421]  Why did we keep hair on the head?
+[IMG 422]  Why keep eyebrows?   ⏐   Why keep little patches...
+[IMG 423]  in very specific places?   ⏐   Because evolution did not shave us.
+[IMG 424]  It edited us.   ⏐   And the parts it left behind...
+[IMG 425]  are not random.   ⏐   They are clues.
+[IMG 426]  Start with the most obvious leftover.
+[IMG 427]  The hair on your head.   ⏐   Which is strange...
+[IMG 428]  when you think about it.
+[IMG 429]  Evolution removed most of the body fur...
+[IMG 430]  but left a big patch right on top.
+[IMG 431]  The one place that gets blasted by sunlight.
+[IMG 432]  That is probably not an accident.
+[IMG 433]  A human head is a very important thing to protect.
+[IMG 434]  It contains your brain.   ⏐   Expensive.   ⏐   Fragile.
+[IMG 435]  And constantly pretending to be in charge.
+[IMG 436]  So head hair may have stayed...
+[IMG 437]  because it helped shade the scalp...
+[IMG 438]  and protect the head from direct sun.   ⏐   Not perfectly.
+[IMG 439]  Not like a helmet.   ⏐   But enough to matter.
+[IMG 440]  In a way...   ⏐   your hair is a tiny biological umbrella...
+[IMG 441]  for the most dramatic organ in your body.
+[IMG 442]  And then there are eyebrows.   ⏐   Eyebrows look decorative...
+[IMG 443]  because humans have spent thousands of years making everything on the face...
+[IMG 444]  someone else’s problem.   ⏐   But eyebrows are practical.
+[IMG 445]  They help redirect sweat away from the eyes.
+[IMG 446]  And when your survival system is basically...
+[IMG 447]  leak saltwater until you do not die...
+[IMG 448]  that matters.   ⏐   Sweat in the eyes burns.
+[IMG 449]  It blurs vision.   ⏐   It makes you blink.
+[IMG 450]  And blinking repeatedly while chasing prey...   ⏐   carrying tools...
+[IMG 451]  or trying not to fall into a hole...
+[IMG 452]  is not ideal.   ⏐   So eyebrows act like tiny gutters.
+[IMG 453]  Ridiculous little face gutters.
+[IMG 454]  But they also do something very human.   ⏐   They communicate.
+[IMG 455]  Raise one eyebrow...
+[IMG 456]  and you can say an entire sentence without opening your mouth.
+[IMG 457]  Suspicion.   ⏐   Surprise.   ⏐   Judgment.
+[IMG 458]  The quiet message that somebody has made a terrible decision.
+[IMG 459]  For a social animal...   ⏐   that matters.
+[IMG 460]  Humans survive by reading each other.
+[IMG 461]  Faces are not just faces.   ⏐   They are dashboards.
+[IMG 462]  And eyebrows make those signals easier to see.
+[IMG 463]  So the eyebrows stayed.   ⏐   Part gutter.   ⏐   Part social technology.
+[IMG 464]  Part silent group chat.   ⏐   Then there are eyelashes.
+[IMG 465]  Small.   ⏐   Easy to forget.   ⏐   But useful.
+[IMG 466]  They help protect the eyes from dust...   ⏐   insects...
+[IMG 467]  and debris.   ⏐   Which is good...
+[IMG 468]  because eyes are basically wet jelly windows...
+[IMG 469]  and should be protected at all costs.
+[IMG 470]  And then there are the patches humans get awkward about.
+[IMG 471]  Armpit hair.   ⏐   Pubic hair.
+[IMG 472]  The hair that makes everyone suddenly become very mature...
+[IMG 473]  and scientific...   ⏐   for exactly three seconds.
+[IMG 474]  Those patches may reduce friction...   ⏐   where skin rubs against skin.
+[IMG 475]  They may help hold or spread scent signals.
+[IMG 476]  They may play a role in sexual maturity...
+[IMG 477]  and social communication.   ⏐   Not romantic in the poetry sense.
+[IMG 478]  More like your body quietly putting up a biological sign that says:
+[IMG 479]  New settings have been installed.   ⏐   So no...
+[IMG 480]  evolution did not leave hair randomly.
+[IMG 481]  It edited the coat down.
+[IMG 482]  It removed what got in the way.
+[IMG 483]  It kept what still did work.   ⏐   Head hair for sun.
+[IMG 484]  Eyebrows for sweat and expression.   ⏐   Eyelashes for protection.
+[IMG 485]  Other patches for friction...   ⏐   scent...   ⏐   and signaling.
+[IMG 486]  A full-body fur coat became a set of specialized tools.
+[IMG 487]  Less blanket.   ⏐   More toolkit.   ⏐   Which is a very human outcome.
+[IMG 488]  We did not keep the simple version.
+[IMG 489]  We made it complicated.
+[IMG 490]  But once the fur was mostly gone...   ⏐   another problem appeared.
+[IMG 491]  A very obvious problem.   ⏐   Cold.
+[IMG 492]  Because naked skin is great under a hot sun.
+[IMG 493]  It is less great when the temperature drops...
+[IMG 494]  and you are standing there looking like a shivering mistake.
+[IMG 495]  And this is where the timeline gets funny.
+[IMG 496]  Humans probably lost most of their body fur...
+[IMG 497]  long before they had proper clothing.   ⏐   Much longer.
+[IMG 498]  For an enormous stretch of time...
+[IMG 499]  our ancestors had exposed skin...
+[IMG 500]  and had to rely on fire...   ⏐   shelter...
+[IMG 501]  movement...   ⏐   group warmth...   ⏐   and whatever they could wrap around themselves.
+[IMG 502]  Animal hides.   ⏐   Plant fibers.   ⏐   Simple coverings.   ⏐   Eventually...
+[IMG 503]  clothes.   ⏐   But when did clothing become regular enough to matter?
+[IMG 504]  Once again...   ⏐   the answer comes from something tiny...
+[IMG 505]  annoying...   ⏐   and deeply disrespectful.   ⏐   Lice.   ⏐   Humans have head lice.
+[IMG 506]  Those live on the scalp.   ⏐   They cling to hair.
+[IMG 507]  Annoying, yes.   ⏐   But ancient.   ⏐   Then humans also have body lice.
+[IMG 508]  And body lice are different.   ⏐   Despite the name...
+[IMG 509]  they do not mostly live on your body.
+[IMG 510]  They live in clothing.   ⏐   They hide in seams.
+[IMG 511]  They move onto the skin to feed...
+[IMG 512]  which is exactly as unpleasant as it sounds.
+[IMG 513]  Then they go back into the fabric.
+[IMG 514]  That detail matters.
+[IMG 515]  Because body lice could not exist as body lice...
+[IMG 516]  until humans were wearing clothing regularly.   ⏐   No clothes...
+[IMG 517]  no clothing lice.   ⏐   No tiny fabric goblin.
+[IMG 518]  So if you can estimate when body lice split from head lice...
+[IMG 519]  you can estimate when humans started wearing clothes often enough...
+[IMG 520]  for a whole new lice lifestyle to evolve.
+[IMG 521]  Geneticist Mark Stoneking and other researchers compared their DNA...
+[IMG 522]  and estimated that body lice may have split off...
+[IMG 523]  around 170,000 years ago.   ⏐   Again...   ⏐   not a perfect date.
+[IMG 524]  Lice do not keep diaries.   ⏐   Which is inconsiderate.
+[IMG 525]  But it is a useful clue.
+[IMG 526]  And it suggests something very strange.
+[IMG 527]  Humans may have lost most of their body fur...
+[IMG 528]  more than a million years ago.
+[IMG 529]  But regular clothing may only go back...
+[IMG 530]  a few hundred thousand years.
+[IMG 531]  That means there may have been a very long gap.
+[IMG 532]  A long...   ⏐   naked...   ⏐   sweaty...   ⏐   inventive gap.   ⏐   First...
+[IMG 533]  evolution reduced the fur.   ⏐   Then much later...
+[IMG 534]  culture started putting a removable version back on.
+[IMG 535]  We deleted the coat.   ⏐   Then we invented the jacket.
+[IMG 536]  We turned fur from biology...   ⏐   into technology.
+[IMG 537]  And honestly...
+[IMG 538]  that is one of the most human things we have ever done.
+[IMG 539]  Other animals adapt their bodies.   ⏐   Humans adapt their bodies...
+[IMG 540]  then complain...   ⏐   then build accessories.   ⏐   Too hot?
+[IMG 541]  Lose fur.   ⏐   Too cold?   ⏐   Make clothes.
+[IMG 542]  Clothes are basically external fur...   ⏐   with options.
+[IMG 543]  You can take them off.   ⏐   You can put them on.
+[IMG 544]  You can layer them.   ⏐   You can decorate them.
+[IMG 545]  You can use them to signal status...
+[IMG 546]  tribe...   ⏐   job...   ⏐   wealth...   ⏐   taste...   ⏐   rebellion...
+[IMG 547]  or the fact that you gave up this morning.
+[IMG 548]  A wolf gets one coat.   ⏐   You get a closet.
+[IMG 549]  That flexibility changed everything.   ⏐   Because once clothing became regular...
+[IMG 550]  humans could move into colder environments with far more success.
+[IMG 551]  We could cover the skin when needed...
+[IMG 552]  and expose it when useful.
+[IMG 553]  We could keep the cooling advantage...
+[IMG 554]  without being completely helpless in the cold.
+[IMG 555]  Biology gave us sweat.   ⏐   Culture gave us sleeves.
+[IMG 556]  Together...
+[IMG 557]  they let a tropical ape walk into Ice Age landscapes...
+[IMG 558]  and act like this was somehow reasonable.
+[IMG 559]  But even after all that...   ⏐   even after the fur disappeared...
+[IMG 560]  even after clothing arrived...
+[IMG 561]  even after culture built a thousand replacements for the coat we lost...
+[IMG 562]  your body still sometimes acts like the fur is there.
+[IMG 563]  Cold air hits your skin.
+[IMG 564]  Fear runs through your nervous system.   ⏐   Music moves through you.
+[IMG 565]  Something emotional lands in your chest.   ⏐   And suddenly...
+[IMG 566]  tiny bumps rise across your arms.   ⏐   For no practical reason.
+[IMG 567]  At least...   ⏐   not anymore.
+[IMG 568]  Goosebumps are one of the weirdest things your body still does.
+[IMG 569]  Because they feel meaningful.   ⏐   They happen when you are cold.
+[IMG 570]  They happen when you are scared.
+[IMG 571]  They happen when music hits a little too hard...
+[IMG 572]  and your brain decides to become dramatic.
+[IMG 573]  They happen during fear.   ⏐   Awe.   ⏐   Emotion.   ⏐   Memory.
+[IMG 574]  Anticipation.   ⏐   A movie scene lands perfectly.
+[IMG 575]  A singer holds one impossible note.   ⏐   Someone tells a story...
+[IMG 576]  and the room goes quiet.   ⏐   Then your skin changes.
+[IMG 577]  Tiny bumps rise.   ⏐   The hairs lift.
+[IMG 578]  Your body reacts like something ancient just walked into the room.
+[IMG 579]  And in a way...   ⏐   it did.
+[IMG 580]  Because goosebumps are not random.   ⏐   They are leftovers.
+[IMG 581]  Leftovers of a system that used to work.
+[IMG 582]  In a furry animal...   ⏐   this reflex is useful.
+[IMG 583]  When a cat gets scared...
+[IMG 584]  tiny muscles at the base of each hair contract.
+[IMG 585]  The hair stands up.   ⏐   The fur puffs out.
+[IMG 586]  The cat looks bigger.   ⏐   Rounder.   ⏐   More threatening.
+[IMG 587]  Like a small household demon...   ⏐   with commitment issues.
+[IMG 588]  That is the system working.
+[IMG 589]  When a furry animal is cold...
+[IMG 590]  raising the fur traps a layer of warm air near the skin.
+[IMG 591]  When it is frightened...
+[IMG 592]  raising the fur can make the body look larger.   ⏐   Insulation.
+[IMG 593]  And intimidation.   ⏐   Very practical.   ⏐   Very mammal.   ⏐   Very nice.
+[IMG 594]  But in humans...   ⏐   the reflex is still there...
+[IMG 595]  while the coat is mostly gone.   ⏐   The muscles still pull.
+[IMG 596]  The skin still tightens.   ⏐   The hair still tries to rise.
+[IMG 597]  But the fur is too small...
+[IMG 598]  to do the old job.
+[IMG 599]  There is no thick coat to puff up.
+[IMG 600]  No warm layer to trap.   ⏐   No threatening mane to display.
+[IMG 601]  Just tiny hairs standing bravely...
+[IMG 602]  in a situation they are completely unqualified to handle.   ⏐   That...
+[IMG 603]  is a goosebump.
+[IMG 604]  A reflex looking for a body that no longer exists.
+[IMG 605]  Your nervous system presses the old button.
+[IMG 606]  The ancient machinery turns on.   ⏐   And almost nothing useful happens.
+[IMG 607]  It is like your body reaches for a blanket...
+[IMG 608]  that evolution removed from the room over a million years ago.
+[IMG 609]  Every time your skin prickles...
+[IMG 610]  your body is briefly trying to become furry again.
+[IMG 611]  Not fully.   ⏐   Not successfully.   ⏐   Just for a second.
+[IMG 612]  A tiny...   ⏐   failed resurrection.   ⏐   A ghost of fur.
+[IMG 613]  And that ghost shows up at the strangest times.
+[IMG 614]  Cold makes sense.   ⏐   Fear makes sense.   ⏐   But why music?
+[IMG 615]  Why emotion?   ⏐   Why a memory?
+[IMG 616]  Why does a song give your skin the same reaction...
+[IMG 617]  as a predator in the dark?
+[IMG 618]  The honest answer is complicated.   ⏐   Scientists are still studying it.
+[IMG 619]  But one idea is that goosebumps are tied into deep nervous system pathways...
+[IMG 620]  that control arousal...   ⏐   attention...   ⏐   fear...   ⏐   reward...   ⏐   and social emotion.
+[IMG 621]  Your body does not keep every feeling in a neat little folder.
+[IMG 622]  It overlaps systems.   ⏐   It reuses old wiring.
+[IMG 623]  It takes ancient survival circuits...
+[IMG 624]  and lets them light up during art...   ⏐   awe...
+[IMG 625]  grief...   ⏐   beauty...   ⏐   and fear.   ⏐   Which is very human.
+[IMG 626]  We turned survival equipment...   ⏐   into emotional equipment.
+[IMG 627]  The same body that once puffed fur against cold and danger...
+[IMG 628]  can now react to a violin solo.
+[IMG 629]  That is ridiculous.   ⏐   And kind of beautiful.
+[IMG 630]  Somewhere inside you...   ⏐   the animal is still listening.
+[IMG 631]  Still watching.   ⏐   Still reacting...   ⏐   before language catches up.
+[IMG 632]  Your skin knows things...   ⏐   before your mouth explains them.
+[IMG 633]  And then...   ⏐   there is one more clue.
+[IMG 634]  The strangest one.   ⏐   Because before you were born...
+[IMG 635]  you grew a coat.   ⏐   Not metaphorically.   ⏐   Actually.
+[IMG 636]  Around the middle of pregnancy...
+[IMG 637]  many human fetuses grow a fine, soft layer of hair across the body.
+[IMG 638]  It is called lanugo.   ⏐   It can appear on the face...
+[IMG 639]  shoulders...   ⏐   back...   ⏐   arms...   ⏐   and other parts of the body.
+[IMG 640]  A delicate coat.   ⏐   Thin.   ⏐   Soft.   ⏐   Temporary.   ⏐   For a little while...
+[IMG 641]  before birth...
+[IMG 642]  the human body becomes covered in a kind of fine fur.
+[IMG 643]  And then...   ⏐   in most cases...
+[IMG 644]  it sheds much of it before the baby is born.
+[IMG 645]  Some babies are born with a little lanugo still visible.
+[IMG 646]  Usually...   ⏐   it disappears on its own.   ⏐   No drama.
+[IMG 647]  No tiny razor.   ⏐   No prehistoric beauty routine.
+[IMG 648]  Just the body building something...   ⏐   using it briefly...
+[IMG 649]  and letting it go.   ⏐   Lanugo has practical roles.
+[IMG 650]  It helps hold vernix on the skin...
+[IMG 651]  that waxy protective coating...
+[IMG 652]  which helps protect the fetus in the womb.
+[IMG 653]  It is not there as a museum exhibit.
+[IMG 654]  It is not the body saying:
+[IMG 655]  Remember when we were apes?   ⏐   Biology is not that sentimental.
+[IMG 656]  But still...   ⏐   it is hard not to feel the echo.
+[IMG 657]  For a short time...   ⏐   every human begins with a coat.
+[IMG 658]  A faint one.   ⏐   A temporary one.
+[IMG 659]  A coat that appears in darkness...
+[IMG 660]  and disappears before the world sees it.
+[IMG 661]  This is not literally replaying evolution.
+[IMG 662]  That old idea is too simple.
+[IMG 663]  Embryos do not perform a little documentary of the species.
+[IMG 664]  But it feels like an echo.   ⏐   A biological rhyme.
+[IMG 665]  For a few weeks...
+[IMG 666]  you wore a version of the coat.
+[IMG 667]  Then you released it.   ⏐   You arrived already edited.
+[IMG 668]  Already human.   ⏐   Already carrying the trade.   ⏐   Less fur.
+[IMG 669]  More skin.   ⏐   More sweat.   ⏐   More dependence on other people.
+[IMG 670]  More need for shelter.   ⏐   Fire.   ⏐   Clothing.   ⏐   Touch.
+[IMG 671]  Invention.   ⏐   You were born into the bargain our ancestors made.
+[IMG 672]  And you have been living inside it ever since.
+[IMG 673]  So...   ⏐   why did humans lose their fur?
+[IMG 674]  The honest answer is that we cannot know every step with perfect certainty.
+[IMG 675]  Skin does not fossilize well.   ⏐   Hair disappears.
+[IMG 676]  Evolution does not leave meeting notes.
+[IMG 677]  There was no ancient committee where one ape stood up and said:
+[IMG 678]  I move that we become unsettlingly smooth.
+[IMG 679]  But the best evidence points in a clear direction.
+[IMG 680]  Our ancestors became more exposed...
+[IMG 681]  because exposed skin helped solve a brutal heat problem.
+[IMG 682]  Less fur made sweating work better.
+[IMG 683]  Better sweating made endurance possible.   ⏐   Endurance changed how we moved.
+[IMG 684]  Hunted.   ⏐   Traveled.   ⏐   Survived.
+[IMG 685]  Then other pressures likely pushed in the same direction.
+[IMG 686]  Fewer hiding places for parasites.   ⏐   More visible skin.
+[IMG 687]  More social and sexual signaling.
+[IMG 688]  More need for melanin under the sun.
+[IMG 689]  More reliance on culture when the cold came back.
+[IMG 690]  And eventually...   ⏐   clothing arrived.
+[IMG 691]  Not as the reason we lost fur.
+[IMG 692]  But as the invention that let a mostly hairless ape...
+[IMG 693]  carry its environment around.   ⏐   That is the human pattern.
+[IMG 694]  The body changes.   ⏐   Then the mind builds around the change.
+[IMG 695]  We lost the coat.   ⏐   Then we made coats.
+[IMG 696]  We lost claws.   ⏐   Then we made blades.
+[IMG 697]  We lost speed.   ⏐   Then we made strategy.
+[IMG 698]  We lost the safety of a simple animal body.
+[IMG 699]  Then we built fires...   ⏐   shelters...   ⏐   tools...   ⏐   stories...
+[IMG 700]  clothes...   ⏐   and entire civilizations to compensate.
+[IMG 701]  That is what humans do.
+[IMG 702]  We become vulnerable in one direction.
+[IMG 703]  Then terrifyingly flexible in another.   ⏐   So no.
+[IMG 704]  Being naked did not make us weak.
+[IMG 705]  It made us strange.   ⏐   It made us dependent on sweat...
+[IMG 706]  skin...   ⏐   tools...   ⏐   and each other.
+[IMG 707]  It made us an animal that could overheat less...
+[IMG 708]  move farther...   ⏐   adapt faster...
+[IMG 709]  and turn every missing feature into an invention.
+[IMG 710]  The chimp kept the coat.   ⏐   The wolf kept the coat.
+[IMG 711]  The bear kept the coat.
+[IMG 712]  We gave most of ours away.   ⏐   And somehow...
+[IMG 713]  that worked.   ⏐   Not because it was comfortable.
+[IMG 714]  Not because it was elegant.
+[IMG 715]  Not because it made obvious sense at first glance.
+[IMG 716]  It worked because under the right sun...
+[IMG 717]  on the right landscape...   ⏐   with the right body...
+[IMG 718]  naked skin was power.   ⏐   A quiet kind of power.
+[IMG 719]  Not the power of teeth.   ⏐   Not the power of claws.
+[IMG 720]  Not the power of speed.   ⏐   The power of cooling down...
+[IMG 721]  and continuing.   ⏐   The power of showing up again...
+[IMG 722]  after the prey thought it was safe.
+[IMG 723]  The power of walking into heat...   ⏐   that stopped other animals.
+[IMG 724]  The power of turning weakness...   ⏐   into strategy.
+[IMG 725]  And your body still tells the story.
+[IMG 726]  When you sweat...   ⏐   it tells the story.
+[IMG 727]  When your skin burns under the sun...
+[IMG 728]  it tells the story.   ⏐   When you put on a jacket...
+[IMG 729]  it tells the story.
+[IMG 730]  When your hair blows across your forehead...
+[IMG 731]  when your eyebrows catch sweat...
+[IMG 732]  when cold air makes your arms prickle...
+[IMG 733]  it tells the story.   ⏐   The story is not gone.
+[IMG 734]  It is just written very small now.
+[IMG 735]  In follicles.   ⏐   In muscles.   ⏐   In skin.   ⏐   In tiny hairs...
+[IMG 736]  that rise for a coat they can no longer build.
+[IMG 737]  So the next time cold air hits your arms...
+[IMG 738]  and goosebumps rise for no obvious reason...
+[IMG 739]  do not ignore it.   ⏐   For one second...
+[IMG 740]  your body is reaching backward.   ⏐   Back past clothing.
+[IMG 741]  Back past cities.   ⏐   Back past language.
+[IMG 742]  Back to the animal that once had fur.
+[IMG 743]  Back to the ape that lost it.
+[IMG 744]  Back to the long, hot road...   ⏐   where sweating became survival.
+[IMG 745]  That little shiver is not useless.   ⏐   It is a memory...
+[IMG 746]  with nowhere else to go.
+[IMG 747]  You are not a broken ape missing a coat.
+[IMG 748]  You are the animal that traded fur for endurance.
+[IMG 749]  You are the animal that made skin into technology.
+[IMG 750]  You are the animal that got cold...   ⏐   made fire...
+[IMG 751]  made clothing...   ⏐   and kept walking anyway.
+[IMG 752]  You are the naked ape.   ⏐   And being naked...
+[IMG 753]  is not how we lost.
+[IMG 754]  It is one of the reasons we won.

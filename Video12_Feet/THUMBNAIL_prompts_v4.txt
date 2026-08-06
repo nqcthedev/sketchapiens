@@ -1,0 +1,48 @@
+THUMBNAIL v4 — Video #12 "Why Are Your Feet So Weak When a Caveman's Weren't?"
+Viết lại theo HE_THONG_Thumbnail_Signature_v3.md (hệ v4 COPY MACK/STICKLY).
+KHÁC bản cũ ở 3 điểm: (1) nền CẢNH CHI TIẾT có chiều sâu + nguồn sáng ấm, KHÔNG phẳng 1 màu
+(2) caveman thân TRẦN chỉ khố nhỏ, tóc nâu xù ôm mặt, KHÔNG áo da phủ thân
+(3) WIDE như sa bàn, nhân vật ~50% khung, thấy trọn trời-đất-chân trời.
+Gen 16:9. Chữ méo → gen lại vài lần.
+
+==================================================
+CONCEPT CHÍNH — "CAVEMAN'S FEET?"
+==================================================
+Clean flat 2D cartoon explainer thumbnail, bold confident MEDIUM-THICK clean black outlines, flat saturated colours, a detailed colourful scene with depth and a warm light source, cartoon YouTube-thumbnail look, no photorealism, no 3D, no gradient banding.
+
+A WIDE establishing shot showing the whole scene, the art filling the entire frame edge to edge: a rocky sunlit savanna trail at golden hour, a clear ground line and horizon, a warm low sun glowing on the right, a big open sky with a few flat clouds, dry olive scrub and a few distant hills giving depth, scattered jagged grey rocks along the trail. Two characters, each about half the frame height, one on each side, the full environment visible around them.
+
+LEFT — the modern man: a VERY SIMPLE minimalist stick figure: a LARGE plain round pure-white head with a THICK bold black outline (the head is about half the figure's height), sitting on a minimal thin black-line body, a single-line torso, thin noodle arms and legs, small solid-black mitten hands; keep the whole figure extremely simple, clean and high-contrast, nothing extra; with two big round white eyes with black pupils and a small worried open mouth, eyebrows pinched up; he is hopping on one leg on a patch of smooth pale ground, clutching his other bare foot up in both hands, a bright RED jagged pain-starburst flashing under that foot, one tiny grey pebble on the ground beneath him.
+
+RIGHT — the caveman: the SAME very simple thin stick figure as the modern man, drawn as a caveman: a LARGE round white face with a THICK bold black outline, a messy tufty medium-brown mop of hair framing the face (face still clearly visible), a thin BLACK-LINE body with thin BARE noodle arms and legs, wearing ONLY a small ragged BROWN animal-hide loincloth around the waist (torso left bare, NO fur anywhere); the FACE expression must be VERY CLEAR and readable, big round white eyes with black pupils PLUS clearly-angled expressive eyebrows and a clear mouth, raised brows and a calm proud grin; he is striding easily barefoot straight across the jagged sharp grey rocks, broad bare feet planted strong, a small GREEN check mark glowing beside his feet.
+
+bold bright-YELLOW all-caps rounded marker text "CAVEMAN'S FEET?" with a thick black outline across the TOP of the frame, taking about one fifth of the height, the question mark near the very top edge.
+
+Family-friendly, wholesome, cute. no flat single-colour background, no minimalist empty background, no close-up, no screaming, no fur on the caveman, no shirt or tunic on the caveman, no extra limbs or fingers, no watermark, no logo, no small unreadable text, no frame borders, no glass case, no display box, no shadow box, no diorama box, no border around the image, no duplicate characters, no collage, 16:9.
+
+==================================================
+FALLBACK — "STONE AGE FEET?"
+==================================================
+Clean flat 2D cartoon explainer thumbnail, bold confident MEDIUM-THICK clean black outlines, flat saturated colours, a detailed colourful scene with depth and a warm light source, cartoon YouTube-thumbnail look, no photorealism, no 3D, no gradient banding.
+
+A WIDE establishing shot, the art filling the entire frame edge to edge: a warm suburban driveway at late afternoon, a clear ground line and horizon, low golden sunlight from the left casting long soft shadows, a simple house wall and a green hedge behind, a strip of grass, a big open sky with a few flat clouds, giving real depth.
+
+CENTER-LEFT — the modern man at about half the frame height: a VERY SIMPLE minimalist stick figure: a LARGE plain round pure-white head with a THICK bold black outline (the head is about half the figure's height), a minimal thin black-line body, a single-line torso, thin noodle arms and legs, small solid-black mitten hands; extremely simple, clean and high-contrast; with two big round white eyes with black pupils and a small worried open mouth, eyebrows raised; he is sitting on the driveway holding up one bare foot in both hands and staring at it, that raised foot drawn with a completely FLAT collapsed sole, one spot circled in bright RED with a small red pain-spark, a tiny grey pebble on the ground beside him.
+
+RIGHT — the paradox: a pile of scattered jagged grey rocks with a single pair of broad strong bare footprints pressed across them and a small GREEN check mark, showing the ground a stronger foot could take.
+
+bold bright-YELLOW all-caps rounded marker text "STONE AGE FEET?" with a thick black outline across the TOP of the frame, taking about one fifth of the height, the question mark near the very top edge.
+
+Family-friendly, wholesome, cute. no flat single-colour background, no minimalist empty background, no close-up, no screaming, no extra limbs or fingers, no watermark, no logo, no small unreadable text, no frame borders, no glass case, no display box, no shadow box, no diorama box, no border around the image, no duplicate characters, no collage, 16:9.
+
+==================================================
+TỰ CHẤM TRƯỚC KHI CHỌN (mục 5 hệ thống v4)
+==================================================
+[ ] Che chữ đi vẫn hiểu chuyện?
+[ ] Nền CHI TIẾT + có nguồn sáng ấm (KHÔNG phẳng 1 màu)?
+[ ] Nét đen đủ DÀY?
+[ ] Caveman thân TRẦN + khố nhỏ + tóc nâu xù ôm mặt (KHÔNG áo, KHÔNG lông)?
+[ ] Người-que hiện đại đầu trọc trắng, thân nét mảnh (KHÔNG tô đặc)?
+[ ] Chữ vàng ~20% chiều cao (không phình 40%)?
+[ ] Nhân vật ~45-55% khung, thấy trọn trời + đất + chân trời?
+[ ] Chỉ 2 nhân vật, không rối?

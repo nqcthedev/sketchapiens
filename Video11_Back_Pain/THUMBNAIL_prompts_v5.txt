@@ -1,0 +1,57 @@
+THUMBNAIL v5 — Video #11 "Why Does Your Back Hurt When a Caveman's Didn't?"
+Style bám 6 thumbnail đối thủ (SICK? / WHY WHITE? / WHY NOT ATTACK? / ATE WHAT? / WHY CLOTHES? / HIGH ALL DAY).
+⚠️ File THUMBNAIL_prompts.txt cũ trong folder này theo hệ v3 ĐÃ HỦY (nền phẳng 1 màu) — ĐỪNG dùng.
+
+CÁCH DÙNG TỐT NHẤT (ChatGPT):
+1. Dán 3-6 ảnh thumbnail đối thủ vào chat.
+2. Bảo nó: "Match this exact art style — muted earth palette, thin sketchy hand-drawn
+   outlines, soft shading, simple round white-head stick figures with thin line limbs,
+   caveman with shaggy brown fur wrap and stringy hair, yellow rounded all-caps text
+   with a moderate black outline across the top ~18%. The background must be drawn in
+   the SAME flat 2D cartoon style — a cartoon drawing, NOT a photograph."
+3. Rồi dán phần SCENE bên dưới. Bỏ qua phần STYLE nếu đã có ảnh ref.
+
+NGHỊCH LÝ CỐT LÕI CỦA VIDEO NÀY: vác nguyên con hươu trên vai vẫn khoẻ ↔ đứng dậy khỏi ghế đã đau.
+Bám chặt lấy nó, đừng vẽ cột sống hay đế chỉnh hình (nhàm + không đọc được ở cỡ nhỏ).
+
+==================================================
+KHỐI STYLE (chỉ dùng khi KHÔNG có ảnh ref)
+==================================================
+A hand-drawn 2D cartoon YouTube thumbnail in a loose indie-animation style, slightly sketchy and imperfect rather than clean vector. MUTED, desaturated earth-tone palette: dusty tan, olive green, warm brown, soft ochre, greyish blue. Never neon, never vivid, never high-saturation. The background is a fully painted cartoon environment with soft gentle shading and mild shadows, drawn with THIN dark-BROWN outlines. The characters are drawn over it with THIN, delicate BLACK outlines and plain flat fills. Even, calm lighting. The background must be a cartoon drawing, NOT a photograph.
+
+==================================================
+CONCEPT CHÍNH — "CAVEMAN'S BACK?"
+==================================================
+SCENE: a wide dry savanna at soft daylight, low olive scrub, a few small acacia trees, pale dusty hills along a low horizon, a muted sky. The whole scene fills the frame, ground line low.
+
+LEFT: a very simple stick figure with a plain round PURE-WHITE head drawn in a THIN black outline, completely bald, no hair and no nose; two simple oval eyes as thin black outlines with small dark pupils, brows pinched up in pain; a small wavy grimacing mouth; the body is nothing but THIN black lines, a single thin line torso, thin straight line arms and legs. He is half-risen out of a plain grey OFFICE CHAIR that sits absurdly out of place on the dry ground, one hand pressed to his lower back, a small RED starburst flashing at the base of his spine.
+
+RIGHT: the same very simple thin stick figure drawn as a caveman: a plain round white face in a THIN black outline, a mop of messy stringy MEDIUM-BROWN hair hanging over the forehead and down past the ears, and a shaggy BROWN animal-fur wrap over the torso like a rough vest with ragged edges and little fur tufts along the outline; thin bare line arms and legs, plain white bare feet. He is walking easily with a WHOLE DEER slung across his shoulders, carrying it without effort, a calm unbothered face, a small GREEN check mark beside him.
+
+TEXT: bold ALL-CAPS YELLOW text in a chunky rounded sans-serif with a MODERATE black outline, across the TOP of the frame taking about eighteen percent of the height, reading "CAVEMAN'S BACK?" with the words spread wide.
+
+NEG: no thick heavy outlines, no bold vector look, no vivid saturated colours, no neon, no photorealism, no 3D, no glossy render, no glass case, no display box, no frame border, no watermark, no logo, no small unreadable text, no duplicate characters, no collage, 16:9.
+
+==================================================
+FALLBACK — "THE CHAIR DID IT?"
+==================================================
+SCENE: the inside of a plain dim office corner rendered in the same muted cartoon style, a beige wall, a small window showing a pale sky, a desk edge at the side. Soft warm light. The whole scene fills the frame.
+
+CENTER-LEFT: the modern man, a very simple stick figure with a plain round PURE-WHITE head in a THIN black outline, completely bald, no nose, two simple oval eyes with small dark pupils and a flat tired mouth, brows drooping; the body is nothing but THIN black lines. He is slumped deep in a grey office chair, his spine curled into a heavy C shape, a RED glowing streak running down his lower back.
+
+RIGHT: the caveman, the same thin stick figure with a mop of messy stringy MEDIUM-BROWN hair and a shaggy BROWN fur wrap with ragged edges, sitting comfortably in a deep SQUAT on the floor beside the desk, back straight and relaxed, completely at ease, a small GREEN check mark beside him.
+
+TEXT: bold ALL-CAPS YELLOW text in a chunky rounded sans-serif with a MODERATE black outline, across the TOP of the frame taking about eighteen percent of the height, reading "THE CHAIR DID IT?" with the words spread wide.
+
+NEG: (như trên)
+
+==================================================
+TỰ CHẤM — SO TRỰC TIẾP VỚI THUMBNAIL ĐỐI THỦ
+==================================================
+[ ] Đặt cạnh ảnh nó, mình có bị CHÓI màu hơn không? (phải xỉn tương đương)
+[ ] Nét nhân vật có MẢNH không? (không dày cộp vector)
+[ ] Nền vẽ cartoon, KHÔNG bị ra ảnh thật?
+[ ] Caveman có áo lông xù rìa + tóc dài che trán?
+[ ] Chữ vàng viền đen VỪA, font tròn mập, ~18% đỉnh?
+[ ] Che chữ đi vẫn hiểu chuyện? (vác hươu ↔ đứng dậy khỏi ghế)
+[ ] Nhân vật ~55-60% chiều cao khung? (đối thủ để nhân vật TO, đừng để nhỏ và xa)

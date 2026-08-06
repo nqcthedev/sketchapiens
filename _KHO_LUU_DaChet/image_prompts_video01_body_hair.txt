@@ -1,0 +1,90 @@
+# IMAGE PROMPTS — Video #1 "Why Did Humans Lose Their Body Hair?"
+# Style: doodle CÓ MÀU (Art Bible). 1 prompt / 1 câu, theo đúng thứ tự kịch bản.
+# Cách dùng: đổ từng lô vào Google Flow. Sinh xong lưu img_001.png, img_002.png ... rồi ráp bằng pipeline (--stage assemble).
+# Khi sinh thêm negative: no photorealism, no 3D render, no gradients, no drop shadows, no realistic faces.
+
+[01] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a modern doodle person standing next to a hairy brown chimpanzee, a yellow double-arrow between them, bold ALL-CAPS top text "SAME FOLLICLES?", both with surprised dot-eye faces, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[02] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, side-by-side close-up of a smooth human arm with a few faint thin hairs versus a chimp arm covered in thick brown fur, small yellow labels "YOU" and "CHIMP", flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[03] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a cozy chimp wrapped in its own fur versus a shivering doodle human in a blue hoodie with goosebumps, humorous expressions, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[04] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a left-to-right row of fluffy furry cartoon animals (brown bear, grey wolf, orange cat, monkey) all covered in fur, flat green ground and blue sky background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[05] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, the same row of furry animals but one bare-skinned doodle human standing out in the middle inside a circle spotlight, confused expression, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[06] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a bare light-brown doodle human standing confidently, bold ALL-CAPS top text "THE NAKED APE", flat tan background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[07] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle human pushing away a fur coat with both hands, a thought bubble with a crossed-out fur coat, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[08] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, extreme close-up of doodle skin with red goosebumps and a magnifying glass over it, bold ALL-CAPS top text "ON PURPOSE", flat orange background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[09] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle scientist figure pointing at a big diagram of a single hair follicle with the number "5,000,000" beside it, curious expression, flat blue background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[10] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle human and a great ape side by side each labeled "~5 MILLION FOLLICLES" with a yellow equals sign between them, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[11] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, super close-up of one follicle growing a tiny thin almost-invisible wisp of hair, a small magnifying glass, flat blue background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[12] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle human looking at a mirror surprised to see faint tiny hairs all over, humorous expression, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[13] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle figure scratching its head in front of a chalkboard full of question marks, bold ALL-CAPS top text "WHY SHRINK THE FUR?", flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[14] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a rewinding timeline arrow pointing left with bold text "2 MILLION YEARS" and a hot red sun, flat tan background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[15] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, early doodle humans on an African savanna under a huge blazing sun, sweating, tired expressions, flat green ground and pale sky with a big orange sun, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[16] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle human jogging slowly but steadily chasing a tired antelope that is collapsing from heat, motion lines, flat green ground and blue sky, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[17] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a diagram of a doodle human body with tiny blue sweat droplets all over the skin and yellow arrows labeled "HEAT OUT", beside a panting dog sticking out its tongue, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[18] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle portrait of anthropologist figure with a name label "NINA JABLONSKI" and small icons of a sweat drop and a sun, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[19] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a triumphant bare doodle human standing over a collapsed antelope, arms raised but exhausted, flat tan background with a low sun, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[20] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle detective figure holding a magnifying glass over a patch of skin, bold ALL-CAPS top text "WHEN EXACTLY?", flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[21] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle scientist beside a glowing DNA double-helix labeled "MC1R" and a name tag "ALAN ROGERS", flat blue background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[22] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a simple left-to-right sequence: a furry ape with pale skin under fur, then the fur disappears, then the bare skin turns dark, a bright sun overhead with UV arrows, flat tan background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[23] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a timeline arrow with a bright marker at "1.2 MILLION YEARS AGO" where a dark-skinned doodle human appears, flat tan background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[24] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a friendly doodle detective character winking and holding up a small paper receipt, small text "EVOLUTION LEAVES RECEIPTS", flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[25] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, an extreme close-up of thick fur crawling with cartoon ticks, fleas and lice with little faces, an "EW" thought bubble, flat tan background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[26] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, two doodle humans compared: one hairy and covered in bugs looking sick, one smooth-skinned and clean looking healthy, yellow check and cross marks, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[27] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, two doodle biologist figures with name labels "PAGEL" and "BODMER" pointing at a small bug with a red cross over it, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[28] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a smooth-skinned doodle human admired by another doodle human with floating red hearts, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[29] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle portrait of Charles Darwin with a name label "DARWIN" and a small heart icon, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[30] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a summary frame with three icons in a row: a blue sweat drop, a crossed-out bug, and a red heart, each with a small ALL-CAPS label "COOL" "CLEAN" "ATTRACTIVE", flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[31] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle human pointing at parts of its own body that still have hair, with yellow arrows circling the head, eyebrows and underarms, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[32] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a bright sun beating directly down on a doodle human's hair acting like an umbrella over the head, yellow arrows, flat blue sky and green ground, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[33] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, close-up of a doodle face where bushy eyebrows catch blue sweat droplets before the eyes, expressive raised eyebrow, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[34] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a slightly embarrassed doodle human with small yellow arrows pointing to underarm areas and tiny "scent" wavy lines, lighthearted, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[35] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, extreme close-up of doodle skin covered in red goosebumps, each tiny bump with a single hair standing straight up, flat blue background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[36] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a scared cartoon cat puffing its fur to look twice as big, next to a doodle human getting goosebumps but staying flat, comparison with a yellow arrow, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[37] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle human with goosebumps and a faint translucent "ghost" of an old fur coat outlined behind them, quiet emotional mood, flat dark blue background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[38] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a centered frame with faint marker text "A GHOST OF FUR" and a small doodle of a single raised hair on a goosebump, flat dark blue background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[39] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a doodle human and a chimpanzee standing side by side looking at each other like distant relatives, gentle expressions, flat white background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[40] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, three small icons (sweat drop, crossed-out bug, heart) faintly overlaid on a doodle of an ancient human hunting under the sun, flat tan background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[41] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a bare doodle human walking confidently across a wide landscape, footprints trailing behind, suggesting endurance, flat green ground and blue sky, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[42] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a modern doodle human standing on a city street getting goosebumps in cold wind, with a faint doodle of an ancient ancestor on a savanna behind them, flat soft blue background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.
+
+[43] Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines, a confident bare doodle human smiling gently, bold ALL-CAPS top text "THE NAKED APE", flat warm tan background, no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style.

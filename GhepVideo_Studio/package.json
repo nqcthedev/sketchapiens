@@ -1,0 +1,21 @@
+{
+  "name": "ghepvideo-studio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Ghép ảnh + audio thành video khớp theo từng câu — Sketchapiens Studio (Mediabunny / WebCodecs)",
+  "scripts": {
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "mediabunny": "^1.49.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^6.0.7",
+    "vite-plugin-singlefile": "^2.1.0"
+  }
+}

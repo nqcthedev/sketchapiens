@@ -1,0 +1,46 @@
+⛔ HỒ SƠ CŨ — ĐỪNG DÙNG LÀM MẪU (dán 29/07/2026)
+Prompt dưới đây viết theo TEMPLATE_Thumbnail_DoiThu.md / HE_THONG_Thumbnail_Signature_v3.md — cả hai ĐÃ CHẾT.
+Đây là thumbnail của các video đã flop (CTR 1,6%). Luật hiện hành: PROMPT_TONG_Thumbnail_v6.md
+----------------------------------------------------------------------
+
+THUMBNAIL PROMPTS — "Why Do You Get Goosebumps?" (Video07)
+Bám công thức quả 2M (Stickly WHY NOT ATTACK?): người-que trắng TRÁI + vật CHI TIẾT-tương-phản-cao PHẢI (nghịch lý) + nền cảnh ấm-tối sạch + chữ VÀNG viền đen 1-2 từ + "?" + nhấn đỏ. Dán thẳng ChatGPT image / Nano Banana. 16:9.
+
+═══════════════════════════════════════════════
+CONCEPT 1 ⭐ — chữ "STILL FURRY?" (nghịch lý: tay trụi lông MỌC lông thú dựng đứng)
+═══════════════════════════════════════════════
+Cartoon stickman YouTube thumbnail, clean flat line art for the human, thick bold black outlines, muted warm palette, reads instantly at small size.
+
+BACKGROUND: a simple flat warm-neutral background (soft muted beige-to-orange), clean, low detail, lots of empty space.
+
+CHARACTER (LEFT): one modern stickman with a round WHITE-filled BALD head (no hair), a big-eyed STARTLED face, two large round white eyes with black pupils, eyebrows raised, small open surprised mouth; holding up ONE bare arm and staring at it.
+
+DETAILED PARADOX (on that arm / RIGHT): the tiny hairs on the raised arm are bristling up into a THICK, DETAILED patch of standing animal FUR — brown, furry, with real fur texture and light shading, clearly more detailed and higher-contrast than the plain white stick body — as if a hairless human arm suddenly sprouted a beast's raised coat. A few goosebump dots visible at the base.
+
+ACCENT: a small red spark/shock mark where the fur bristles up.
+
+TEXT: bold ALL-CAPS "STILL FURRY?" in bright YELLOW with a thick black outline, across the TOP edge, near full width, big "?".
+
+16:9, white body and black lines pop against the warm background. Family-friendly cartoon, no gore, no photorealism, no 3D, no watermark, no extra limbs.
+
+═══════════════════════════════════════════════
+CONCEPT 1B (A/B — bám 2M nhất: người + con vật xù chi tiết) — chữ "SAME TRICK?"
+═══════════════════════════════════════════════
+Cartoon stickman YouTube thumbnail, clean flat line art for the human, thick bold black outlines, muted warm-dark palette, reads instantly at small size.
+
+BACKGROUND: a simple flat warm-neutral background, clean, lots of empty space.
+
+CHARACTER (LEFT): one modern stickman, round WHITE BALD head, STARTLED wide-eyed face, one arm held up showing tiny goosebumps and raised hairs.
+
+DETAILED PARADOX (RIGHT): a big, DETAILED, cute puffed-up CAT with an arched back and a huge bottle-brush bristling tail, drawn with real fur texture and shading (clearly more detailed than the flat stick person), twice its normal size — mirroring the human's raised arm hair, an obvious visual link/paradox.
+
+ACCENT: a small red spark between the human's bumpy arm and the bristling cat.
+
+TEXT: bold ALL-CAPS "SAME TRICK?" in bright YELLOW with a thick black outline, across the TOP, near full width, big "?".
+
+Eye-line: the human looks toward the puffed cat. 16:9. Family-friendly cartoon, no gore, no photorealism, no 3D, no watermark, no extra limbs.
+
+═══════════════════════════════════════════════
+GHI CHÚ
+- Gen Concept 1 trước (nghịch lý tay-mọc-lông rất bắt mắt + đúng đề); nếu rối → Concept 1B (người + mèo xù, bám 2M nhất).
+- Chữ alt (A/B, 1-2 từ + "?"): "GOOSEBUMPS?" · "WHY THE BUMPS?" · "STILL AN ANIMAL?".

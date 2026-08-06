@@ -1,0 +1,56 @@
+THUMBNAIL v5 — Video #13 "Why Does Stress Make You Sick When a Caveman's Didn't?"
+Style bám 6 thumbnail đối thủ triệu-view (SICK? / WHY WHITE? / WHY NOT ATTACK? / ATE WHAT? / WHY CLOTHES? / HIGH ALL DAY).
+⚠️ KHÔNG dùng hệ v3/v4 cũ (nền phẳng 1 màu, nét dày vector) — sai style.
+
+NGHỊCH LÝ CỐT LÕI CỦA VIDEO: bạn HOẢNG LOẠN vì cái điện thoại/email ↔ caveman THẢN NHIÊN trước con sư tử thật.
+Che chữ đi vẫn phải hiểu chuyện. Đừng vẽ cortisol/amygdala (nhàm + không đọc được cỡ nhỏ).
+
+CÁCH DÙNG TỐT NHẤT (ChatGPT):
+1. Dán 3-6 ảnh thumbnail đối thủ vào chat.
+2. Bảo nó: "Match this exact art style — muted earth palette, thin sketchy hand-drawn
+   outlines, soft shading, simple round white-head stick figures with thin line limbs,
+   caveman with shaggy brown fur wrap and stringy hair, yellow rounded all-caps text
+   with a moderate black outline across the top ~18%. The background must be drawn in
+   the SAME flat 2D cartoon style — a cartoon drawing, NOT a photograph."
+3. Rồi dán phần SCENE bên dưới. Bỏ qua phần STYLE nếu đã có ảnh ref.
+
+==================================================
+KHỐI STYLE (chỉ dùng khi KHÔNG có ảnh ref)
+==================================================
+A hand-drawn 2D cartoon YouTube thumbnail in a loose indie-animation style, slightly sketchy and imperfect rather than clean vector. MUTED, desaturated earth-tone palette: dusty tan, olive green, warm brown, soft ochre, greyish blue. Never neon, never vivid, never high-saturation. The background is a fully painted cartoon environment with soft gentle shading and mild shadows, drawn with THIN dark-BROWN outlines. The characters are drawn over it with THIN, delicate BLACK outlines and plain flat fills. Even, calm lighting. The background must be a cartoon drawing, NOT a photograph.
+
+==================================================
+CONCEPT CHÍNH — "CAVEMAN'S STRESS?"
+==================================================
+SCENE: a split feel in one single flat cartoon frame, no hard divider line. On the LEFT a plain muted beige-grey office corner with a small desk; on the RIGHT the same muted dusty-tan savanna with low olive scrub, blending softly across the middle.
+
+LEFT: a very simple stick figure with a plain round PURE-WHITE head drawn in a THIN black outline, completely bald, no hair and no nose; two simple oval eyes as thin black outlines with big scared dark pupils, brows pinched up in panic, a small open wavy grimacing mouth, one tiny sweat drop; the body is nothing but THIN black lines, a single thin line torso, thin straight line arms and legs. He is hunched at the desk clutching his own chest with one hand, a small RED starburst flashing over his heart, recoiling from a tiny ordinary PHONE on the desk that shows a small envelope icon and little buzz lines. He is completely freaking out over the tiny phone.
+
+RIGHT: the same very simple thin stick figure drawn as a caveman: a plain round white face in a THIN black outline, a mop of messy stringy MEDIUM-BROWN hair hanging over the forehead and down past the ears, and a shaggy BROWN animal-fur wrap over the torso like a rough vest with ragged edges and little fur tufts along the outline; thin bare line arms and legs, plain white bare feet. He stands totally calm and relaxed, arms loose, a small easy smile, right next to a big muted golden-tan LION with a simple mane and a little face standing close beside him. A small GREEN check mark beside the caveman. He is not bothered by the real lion at all.
+
+TEXT: bold ALL-CAPS YELLOW text in a chunky rounded sans-serif with a MODERATE black outline, across the TOP of the frame taking about eighteen percent of the height, reading "CAVEMAN'S STRESS?" with the words spread wide.
+
+NEG: no thick heavy outlines, no bold vector look, no vivid saturated colours, no neon, no photorealism, no 3D, no glossy render, no glass case, no display box, no frame border, no watermark, no logo, no small unreadable text, no duplicate characters, no collage, no gore, no blood, 16:9.
+
+==================================================
+FALLBACK — "IT'S JUST AN EMAIL?"
+==================================================
+SCENE: a plain muted beige-grey office corner rendered in the same muted cartoon style, a beige wall, a small window with a pale sky, a desk edge. Soft even light. The whole scene fills the frame.
+
+CENTER: the modern man, a very simple stick figure with a plain round PURE-WHITE head in a THIN black outline, completely bald, no nose, two simple oval eyes with big terrified dark pupils, brows shot up, a wide open panicked mouth, several sweat drops; the body is nothing but THIN black lines. He is throwing himself backwards out of his office chair in pure terror, both thin arms flung up. On the desk his open laptop screen has a big muted golden-tan LION head with a simple mane LUNGING OUT of the screen toward him, mouth open in a cartoon roar. A RED alarm starburst around the laptop. The joke: a real lion is coming out of a harmless email.
+
+TEXT: bold ALL-CAPS YELLOW text in a chunky rounded sans-serif with a MODERATE black outline, across the TOP of the frame taking about eighteen percent of the height, reading "IT'S JUST AN EMAIL?" with the words spread wide.
+
+NEG: (như trên)
+
+==================================================
+TỰ CHẤM — SO TRỰC TIẾP VỚI THUMBNAIL ĐỐI THỦ
+==================================================
+[ ] Đặt cạnh ảnh nó, mình có bị CHÓI màu hơn không? (phải xỉn tương đương)
+[ ] Nét nhân vật có MẢNH không? (không dày cộp vector)
+[ ] Nền vẽ cartoon, KHÔNG bị ra ảnh thật?
+[ ] Caveman có áo lông xù rìa + tóc dài che trán?
+[ ] Chữ vàng viền đen VỪA, font tròn mập, ~18% đỉnh?
+[ ] Che chữ đi vẫn hiểu chuyện? (hoảng vì phone ↔ thản nhiên trước sư tử)
+[ ] Nhân vật ~55-60% chiều cao khung? (để TO, đừng nhỏ và xa)
+[ ] Con sư tử/điện thoại đủ rõ để đọc ngay cỡ nhỏ?

@@ -1,0 +1,15 @@
+### CACH DUNG
+Trong Google Flow / Nano Banana Pro: UPLOAD anh REF/REF_caveman.jpg lam ANH THAM CHIEU,
+roi dan prompt ngan ben duoi. De Flow hoc net ve tu ANH, khong phai tu chu.
+
+### PROMPT NGAN (dan kem anh ref)
+
+Draw a new frame in exactly the same art style as the reference image: same line
+weight, same way the hair is drawn, same white bodies, same flat colours, same
+plain background treatment.
+
+SCENE: the same caveman lies on his back on bare ground at night, trying to
+sleep, eyes open, clearly not asleep. A small crescent moon and a few stars in a
+flat dark-blue sky, a simple horizon line, nothing else.
+
+Keep the character identical to the reference. 16:9. No text.
