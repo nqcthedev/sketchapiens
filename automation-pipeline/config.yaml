@@ -1,7 +1,7 @@
 # ===== Style: locked across ALL images so every slide looks like one channel (COLORED doodle, like Mack/Stickly) =====
 style_anchor: "Hand-drawn 2D doodle cartoon, flat colors, bold black outlines, slightly imperfect sketchy marker lines,"
 style_lock: "no gradients, no shadows, no textures, no photorealism, no 3D, 16:9 aspect ratio, educational YouTube explainer doodle style."
-# Background color chosen per line by emotional tone (see ArtBible_NguoiQueCoDai.md):
+# Background color chosen per line by emotional tone (see kho/1_luat/ArtBible_NguoiQueCoDai.md):
 #   ancient=tan/dark-blue, danger=white+red, happy=white/yellow, underwater/science=blue, outdoor/evolution=green+sky, fire/night=orange
 
 # ===== Render =====

@@ -13,7 +13,7 @@ rules:
   - id: R-HARD-01
     scope: script
     rule: "Bốn ràng buộc cứng của lời đọc: '!' = 0 · không gạch ngang giữa câu · mỗi câu một dòng · 'I' ≈ 0"
-    source: "RUBRIC_KichBan.md §LUẬT 0"
+    source: "kho/1_luat/RUBRIC_KichBan.md §LUẬT 0"
     enforced_by: "~/.claude/skills/sketchapiens-bien-tap/qa_kichban.py"
     confidence: high
     evidence: "14/14 video winner nhất trí về dấu '!'; ba cái còn lại là ràng buộc sản xuất (TTS, chia shot)"
@@ -22,7 +22,7 @@ rules:
   - id: R-HARD-02
     scope: script
     rule: "Mọi con số ngoài R-HARD-01 là TRIỆU CHỨNG, không phải đích. Cấm sửa câu để con số đẹp hơn."
-    source: "RUBRIC_KichBan.md §LUẬT 0; memory feedback_so_do_khong_phai_dich"
+    source: "kho/1_luat/RUBRIC_KichBan.md §LUẬT 0; memory feedback_so_do_khong_phai_dich"
     confidence: high
     evidence: "Ba câu mùi AI nặng nhất của V17 đều là câu thêm vào để thoả Tầng A"
     status: active
@@ -47,7 +47,7 @@ rules:
   - id: R-EVID-01
     scope: evidence
     rule: "Mở toàn văn nguồn, không tin snippet. Không mở được thì ghi UNVERIFIED."
-    source: "MONEO_V19.md; FLOW_VietKichBan_11Cong.md cổng 3"
+    source: "MONEO_V19.md; kho/1_luat/FLOW_VietKichBan_11Cong.md cổng 3"
     confidence: high
     evidence: "Bốn con số lấy từ snippet đã sai: Ekirch '500' · khoảng thức của Wehr · 'four hours' · 'half of deaths' vs 'half of attacks'"
     status: active
@@ -86,7 +86,7 @@ rules:
   - id: R-REVIEW-02
     scope: review
     rule: "Ép XẾP HẠNG khi hỏi lỗi câu chữ ('mười câu tệ nhất'), không hỏi 'mọi câu'."
-    source: "LENH_GPT_ReviewKichBan_v3.md §SỬA KHUÔN HỎI"
+    source: "kho/1_luat/LENH_GPT_ReviewKichBan_v3.md §SỬA KHUÔN HỎI"
     confidence: high
     evidence: "Hỏi 'every sentence' làm người review gạch 60/150 câu — phép thử mất khả năng phân biệt"
     status: active
@@ -94,7 +94,7 @@ rules:
   - id: R-REVIEW-03
     scope: review
     rule: "Đếm số lần một lỗi bị bắt ĐỘC LẬP ở nhiều phần, đừng đếm số câu bị gạch."
-    source: "LENH_GPT_ReviewKichBan_v3.md"
+    source: "kho/1_luat/LENH_GPT_ReviewKichBan_v3.md"
     confidence: medium
     evidence: "Lỗi chồng ẩn dụ bị bắt 3 lần ở 3 phần rời nhau → lỗi thật"
     status: active
@@ -102,7 +102,7 @@ rules:
   - id: R-EDIT-01
     scope: editing
     rule: "Lỗi ẩn dụ thì CẮT CẢ CÂU, đừng thay chữ trong câu."
-    source: "LENH_GPT_ReviewKichBan_v3.md §Bài học vòng 6"
+    source: "kho/1_luat/LENH_GPT_ReviewKichBan_v3.md §Bài học vòng 6"
     confidence: high
     evidence: "Ba trong mười câu tệ nhất vòng 6 là ba câu vá tại chỗ ở vòng 5"
     status: active
@@ -150,14 +150,14 @@ rules:
   - id: R-PROD-03
     scope: production
     rule: "Ba thứ không chứng minh được gì: chạy không lỗi · đủ số file · đúng độ dài. Phải đối chiếu nội dung ở nhiều mốc."
-    source: "QUY_TRINH_2_CONG.md"
+    source: "kho/1_luat/QUY_TRINH_2_CONG.md"
     confidence: high
     status: active
 
   - id: R-PKG-01
     scope: packaging
     rule: "Tâm khung dành cho VẬT KỂ CHUYỆN, không phải nhân vật."
-    source: "PROMPT_TONG_Thumbnail_v6.md LUẬT 1"
+    source: "kho/1_luat/PROMPT_TONG_Thumbnail_v6.md LUẬT 1"
     confidence: medium
     evidence: "Đúc từ 29 quả ≥50K + 4 quả chết của kênh"
     status: active
@@ -165,7 +165,7 @@ rules:
   - id: R-PKG-02
     scope: packaging
     rule: "Chữ thumbnail phải thêm thông tin mới, không lặp title."
-    source: "PROMPT_TONG_Thumbnail_v6.md LUẬT 2"
+    source: "kho/1_luat/PROMPT_TONG_Thumbnail_v6.md LUẬT 2"
     confidence: medium
     status: active
 
@@ -180,7 +180,7 @@ rules:
   - id: R-PKG-04
     scope: packaging
     rule: "Khi model đã vẽ đúng một thứ, đừng thêm luật cho thứ đó."
-    source: "TEMPLATE_Thumbnail_KHOA_v1.md; memory feedback_dung_them_luat_khi_model_dang_dung"
+    source: "kho/1_luat/TEMPLATE_Thumbnail_KHOA_v1.md; memory feedback_dung_them_luat_khi_model_dang_dung"
     confidence: high
     evidence: "Hai lỗi nặng nhất của 7 vòng thumbnail V18 đều là luật tự thêm"
     status: active
@@ -210,7 +210,7 @@ rules:
   - id: R-OVERRIDE-01
     scope: tooling
     rule: "Skill toàn cục viet-kich-ban-nguoi-que-co-dai và chia-shot-va-prompt-anh KHÔNG phải nguồn chuẩn trong project này."
-    source: "CLAUDE.md §3; PROJECT_FULL_AUDIT_EXPORT.md §5 R2"
+    source: "CLAUDE.md §3; governance/PROJECT_FULL_AUDIT_EXPORT.md §5 R2"
     confidence: high
     evidence: "Cả hai không có tiền tố nên tự kích hoạt; PHẦN 9 của cả hai trỏ tới TEMPLATE_Thumbnail_DoiThu.md đã bị bác"
     status: active

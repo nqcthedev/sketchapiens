@@ -1,6 +1,6 @@
 # 00 — LUẬT HIỆN HÀNH (đọc file này TRƯỚC MỌI VIỆC)
 
-> # 📋 VIẾT KỊCH BẢN → MỞ `FLOW_VietKichBan_11Cong.md`
+> # 📋 VIẾT KỊCH BẢN → MỞ `kho/1_luat/FLOW_VietKichBan_11Cong.md`
 > Quy trình 11 cổng, mỗi cổng chặn một lỗi đã mắc thật. Có bảng một trang dán lên đầu mỗi video.
 > Gộp: kho NotebookLM · chính sách nội dung không trung thực · ranh giới reused-content · công thức Ink Explainer.
 
@@ -49,19 +49,19 @@ Gom lại, đổi chế độ, làm một lượt.
 **1A · Kịch bản**
 | File | Dùng khi |
 |---|---|
-| `FLOW_VietKichBan_11Cong.md` | **quy trình tổng — mở đầu tiên khi viết** |
-| `HE_THONG_KichBan_v2_14Video.md` | title (C) · hook (D,F) · kết bài (G) · lắp chương (H) |
-| `RUBRIC_KichBan.md` | chấm điểm — **đọc LUẬT 0 ở đầu file trước** |
-| `CONGTHUC_InkExplainer_BestOf.md` | công thức "best-of": giữ gì, bỏ gì, thêm gì |
-| `CHINHSACH_YOUTUBE_2026_AnhHuong.md` | QA chính sách |
+| `kho/1_luat/FLOW_VietKichBan_11Cong.md` | **quy trình tổng — mở đầu tiên khi viết** |
+| `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` | title (C) · hook (D,F) · kết bài (G) · lắp chương (H) |
+| `kho/1_luat/RUBRIC_KichBan.md` | chấm điểm — **đọc LUẬT 0 ở đầu file trước** |
+| `kho/1_luat/CONGTHUC_InkExplainer_BestOf.md` | công thức "best-of": giữ gì, bỏ gì, thêm gì |
+| `kho/1_luat/CHINHSACH_YOUTUBE_2026_AnhHuong.md` | QA chính sách |
 
 **1B · Hình ảnh & sản xuất**
 | File | Dùng khi |
 |---|---|
-| `WORKFLOW_Production.md` | các giai đoạn sản xuất |
-| `PROMPT_TONG_Thumbnail_v6.md` · `TEMPLATE_Thumbnail_KHOA_v1.md` | thumbnail |
-| `ArtBible_NguoiQueCoDai.md` · `CastBible_DienVien.md` | nét vẽ · nhân vật |
-| `QUY_TRINH_2_CONG.md` | kiểm đầu + kiểm cuối |
+| `kho/1_luat/WORKFLOW_Production.md` | các giai đoạn sản xuất |
+| `kho/1_luat/PROMPT_TONG_Thumbnail_v6.md` · `kho/1_luat/TEMPLATE_Thumbnail_KHOA_v1.md` | thumbnail |
+| `kho/1_luat/ArtBible_NguoiQueCoDai.md` · `kho/1_luat/CastBible_DienVien.md` | nét vẽ · nhân vật |
+| `kho/1_luat/QUY_TRINH_2_CONG.md` | kiểm đầu + kiểm cuối |
 
 ## TẦNG 2 — KHO NGUYÊN LIỆU *(tra khi viết — KHÔNG được phán)*
 
@@ -85,11 +85,11 @@ Gom lại, đổi chế độ, làm một lượt.
 
 | File | Chứa gì |
 |---|---|
-| `VAULT_AncientHumans_KnowledgeVault.md` | 8 chủ đề + mỏ neo, bóc từ **49 kịch bản đối thủ** |
-| `VAULT_NotebookLM_BanGoc_DoiChieu.md` | 4 báo cáo gốc đã tiêu hoá đi đâu + 6 chỗ bản máy đúng hơn bản gốc |
-| `KHO_AnDu_TruyenChem_LachLuat.md` | 16 ẩn dụ thế kỷ 21 · truyện chêm · **4 quy tắc lách kiểm duyệt** |
-| `KHO_GiongCamXuc_DoiThu.md` | 7 nhóm giọng · pre-load nhãn cảm xúc · 2 trường phái |
-| `NganHang_ReHook_BucketBrigade.md` | câu nối · **luật BOOKEND: viết câu cuối trước** |
+| `kho/2_nguyenlieu/VAULT_AncientHumans_KnowledgeVault.md` | 8 chủ đề + mỏ neo, bóc từ **49 kịch bản đối thủ** |
+| `kho/2_nguyenlieu/VAULT_NotebookLM_BanGoc_DoiChieu.md` | 4 báo cáo gốc đã tiêu hoá đi đâu + 6 chỗ bản máy đúng hơn bản gốc |
+| `kho/2_nguyenlieu/KHO_AnDu_TruyenChem_LachLuat.md` | 16 ẩn dụ thế kỷ 21 · truyện chêm · **4 quy tắc lách kiểm duyệt** |
+| `kho/2_nguyenlieu/KHO_GiongCamXuc_DoiThu.md` | 7 nhóm giọng · pre-load nhãn cảm xúc · 2 trường phái |
+| `kho/2_nguyenlieu/NganHang_ReHook_BucketBrigade.md` | câu nối · **luật BOOKEND: viết câu cuối trước** |
 | `DICH_Zenn_7.8M_...md` | **bản dịch quả to nhất ngách** — quét cổng A bắt buộc đọc |
 | `MoXe_15Khoi_...` · `MoXe_KichBan_Viral_3Video` · `TearDown_*` | mổ xẻ kịch bản đối thủ |
 | `MAU_Script_*.md` | kịch bản mẫu |
@@ -111,7 +111,7 @@ Bàn giao: `BÀN_GIAO_DuAn` · `Brand_Kit_Kenh`
 
 | File | Thay bằng | Đã dán biển? |
 |---|---|---|
-| 🆕 `NGHIENCUU_NguPhapHinh_InkExplainer.md` | `NGUPHAP_HINH_DoLai_ToanBo_2026-07-30.md` | ✅ 07/08 |
+| 🆕 `kho/3_bangchung/NGHIENCUU_NguPhapHinh_InkExplainer.md` | `kho/3_bangchung/NGUPHAP_HINH_DoLai_ToanBo_2026-07-30.md` | ✅ 07/08 |
 
 > ### 🆕 07/08 — vì sao `NGHIENCUU_NguPhapHinh_InkExplainer` chết
 > Nó xem tay **96 khung lấy mẫu thưa** và ra *"khoảng một nửa số khung là đồ hoạ dạy học"*.
@@ -146,21 +146,21 @@ HE_THONG_KichBan_v1) đã bị xoá khỏi kho, không còn tồn tại.*
 
 | Câu hỏi | File luật | Đã thay cho |
 |---|---|---|
-| **Chọn đề tài / có nên làm cái này không** | `BANG_CAU_TatCa_CuNo_2026-07-29.md` + **bắt buộc** tra bầy clone live | ⛔ SoTay_ChonDeTai · ⛔ SUBNGACH_KhaiThac_Can · ⛔ SUBNGACH_CoTheDoDa |
-| **Vì sao đề tài hay vẫn chết** | `NGHIENCUU_CloneSwarm_2026-07-29.md` | *(mới)* |
-| **Đặt title** | `HE_THONG_KichBan_v2_14Video.md` PHẦN C | ⛔ CongThuc_Title_TrieuView · ⛔ BANDO_NgachTitle_Thang · ⛔ NGHIENCUU_Title_3Kenh_Gap |
-| **Làm thumbnail** | `PROMPT_TONG_Thumbnail_v6.md` | ⛔ Thumbnail_Signature_v3 · ⛔ Thumbnail_v5 · ⛔ TEMPLATE_Thumbnail_DoiThu |
-| **Cơ chế title+thumbnail+hook của winner** | `CO_CHE_3LOP_Winner_2026-07-29.md` | — |
-| **V17 — packaging đã chốt, chờ gen thumbnail** | **`V17_PACKAGING_CHOT.md`** | *(mới)* |
-| Concept thumbnail V16 | `CONCEPT_Thumbnail_V16_V17.md` | — |
-| **Viết kịch bản** | `HE_THONG_KichBan_v2_14Video.md` | ⛔ HE_THONG_KichBan_v1 · ⚠️ RUBRIC_KichBan *(xem ghi chú)* |
-| **Cách nói: ẩn dụ, truyện chêm, lách kiểm duyệt** | `KHO_AnDu_TruyenChem_LachLuat.md` | *(mới)* |
-| **QUY TRÌNH SẢN XUẤT — đọc trước mỗi video** | **`WORKFLOW_Production.md`** | *(mới — packaging đi TRƯỚC kịch bản)* |
-| Nguyên tắc 2 cổng | `QUY_TRINH_2_CONG.md` | — |
-| **Thứ gì thật sự quyết định thắng thua** | `NGHIENCUU_ThiNghiem_BaySinhDoi.md` | *(mới — thí nghiệm đối chứng)* |
-| **Ra lệnh cho NotebookLM — việc CHƯA làm** | **`LENH_NotebookLM_ChuaLam.md`** | *(mới)* |
-| Ra lệnh cho NotebookLM — việc đã làm + sổ theo dõi | `PROMPT_PACK_NotebookLM.md` | — |
-| **Đối thủ là ai, học ai** | **`BOCTACH_16Kenh_2026-08-05.md`** | ⛔ thay `BOCTACH_4Kenh_SoSanh` · ⛔ mọi chỗ coi Zenn/Axen/Stickly là hình mẫu |
+| **Chọn đề tài / có nên làm cái này không** | `kho/3_bangchung/BANG_CAU_TatCa_CuNo_2026-07-29.md` + **bắt buộc** tra bầy clone live | ⛔ SoTay_ChonDeTai · ⛔ SUBNGACH_KhaiThac_Can · ⛔ SUBNGACH_CoTheDoDa |
+| **Vì sao đề tài hay vẫn chết** | `kho/3_bangchung/NGHIENCUU_CloneSwarm_2026-07-29.md` | *(mới)* |
+| **Đặt title** | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` PHẦN C | ⛔ CongThuc_Title_TrieuView · ⛔ BANDO_NgachTitle_Thang · ⛔ NGHIENCUU_Title_3Kenh_Gap |
+| **Làm thumbnail** | `kho/1_luat/PROMPT_TONG_Thumbnail_v6.md` | ⛔ Thumbnail_Signature_v3 · ⛔ Thumbnail_v5 · ⛔ TEMPLATE_Thumbnail_DoiThu |
+| **Cơ chế title+thumbnail+hook của winner** | `kho/3_bangchung/CO_CHE_3LOP_Winner_2026-07-29.md` | — |
+| **V17 — packaging đã chốt, chờ gen thumbnail** | **`kho/4_luutru/V17_PACKAGING_CHOT.md`** | *(mới)* |
+| Concept thumbnail V16 | `kho/4_luutru/CONCEPT_Thumbnail_V16_V17.md` | — |
+| **Viết kịch bản** | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` | ⛔ HE_THONG_KichBan_v1 · ⚠️ RUBRIC_KichBan *(xem ghi chú)* |
+| **Cách nói: ẩn dụ, truyện chêm, lách kiểm duyệt** | `kho/2_nguyenlieu/KHO_AnDu_TruyenChem_LachLuat.md` | *(mới)* |
+| **QUY TRÌNH SẢN XUẤT — đọc trước mỗi video** | **`kho/1_luat/WORKFLOW_Production.md`** | *(mới — packaging đi TRƯỚC kịch bản)* |
+| Nguyên tắc 2 cổng | `kho/1_luat/QUY_TRINH_2_CONG.md` | — |
+| **Thứ gì thật sự quyết định thắng thua** | `kho/3_bangchung/NGHIENCUU_ThiNghiem_BaySinhDoi.md` | *(mới — thí nghiệm đối chứng)* |
+| **Ra lệnh cho NotebookLM — việc CHƯA làm** | **`kho/4_luutru/LENH_NotebookLM_ChuaLam.md`** | *(mới)* |
+| Ra lệnh cho NotebookLM — việc đã làm + sổ theo dõi | `kho/4_luutru/PROMPT_PACK_NotebookLM.md` | — |
+| **Đối thủ là ai, học ai** | **`kho/3_bangchung/BOCTACH_16Kenh_2026-08-05.md`** | ⛔ thay `BOCTACH_4Kenh_SoSanh` · ⛔ mọi chỗ coi Zenn/Axen/Stickly là hình mẫu |
 | **Có bị chặn kiếm tiền không** | skill `an-toan-kiem-tien` *(dùng chung)* | *(mới)* |
 
 ## 🏷️ SKILL RIÊNG CỦA DỰ ÁN NÀY — đổi tên 05/08/2026
@@ -245,8 +245,8 @@ Ngách này chạm vùng đó liên tục và **cầu rất cao**: sinh đôi ·
 | # | Việc | Treo từ |
 |---|---|---|
 | 1 | **V15 đang công khai và HỎNG** — cần chủ bấm "Ghép video" trong app GhepVideo Studio (đã nạp đủ: 563 câu, EL JSON, audio 17:11, 563 ảnh, mode EL 100%), lưu vào `Video15_Allergies/build`. Xong tôi kiểm 9 mốc. | 29/07 |
-| 2 | ✅ **V17 đã chốt đề tài + packaging** → `V17_PACKAGING_CHOT.md`. Chờ chủ gen thumbnail rồi chấm cửa 1. | 29/07 |
-| 3 | `NGHIENCUU_V16_LaneCheck_2026-07-26.md` ghi *"Cần chủ quyết"* — chưa quyết. Nay phần lớn đã được BANG_CAU + CloneSwarm trả lời; đọc lại xem còn gì cần quyết không. | 27/07 |
+| 2 | ✅ **V17 đã chốt đề tài + packaging** → `kho/4_luutru/V17_PACKAGING_CHOT.md`. Chờ chủ gen thumbnail rồi chấm cửa 1. | 29/07 |
+| 3 | `kho/3_bangchung/NGHIENCUU_V16_LaneCheck_2026-07-26.md` ghi *"Cần chủ quyết"* — chưa quyết. Nay phần lớn đã được BANG_CAU + CloneSwarm trả lời; đọc lại xem còn gì cần quyết không. | 27/07 |
 
 ---
 
@@ -303,7 +303,7 @@ Tất cả đã gắn cảnh báo. Quét lại: **sạch**.
 Cái đã làm: tìm mọi chỗ trỏ vào **8 file đã biết là chết**.
 Cái **CHƯA** làm: đối chiếu chéo các file **đang còn sống** với nhau. Kho có **53 file .md**; tôi mới đọc kỹ khoảng 15. Hai file cùng sống vẫn có thể mâu thuẫn nhau mà chưa ai phát hiện.
 
-**29/07/2026 — đợt 3.** Dồn 19 file chết vào `_KHO_LUU_DaChet/` (không xoá — `/Users/admin` là git repo nhưng **0 commit, 0 file theo dõi**, xoá là mất hẳn). Soi xong `RUBRIC_KichBan.md` — tìm được **4 lỗi**, đã vá tại chỗ:
+**29/07/2026 — đợt 3.** Dồn 19 file chết vào `_KHO_LUU_DaChet/` (không xoá — `/Users/admin` là git repo nhưng **0 commit, 0 file theo dõi**, xoá là mất hẳn). Soi xong `kho/1_luat/RUBRIC_KichBan.md` — tìm được **4 lỗi**, đã vá tại chỗ:
 - B5 thưởng điểm cho lane "về BẠN" đã chết → tách, chỉ giữ cú xoay cuối
 - ngưỡng tự mâu thuẫn trong cùng file (≥52 vs ≥40) → thống nhất thang 72
 - mục 8 và 26 ép cú lật phải ở cuối → bỏ ép vị trí
@@ -364,7 +364,7 @@ phải vì trùng đề tài** — mà vì trùng ở tầng thấp hơn.
 > Raqefet · Jiahu của đối thủ và ăn **769K**. Mỏ neo là **DỮ KIỆN** — một hang động, một niên
 > đại, một tên nhà nghiên cứu — **không ai sở hữu sự thật**. Cái không được lấy là **CÁCH ĐỌC**
 > dữ kiện đó. Đừng tự trói tay như V19 *(tự tra lại cả 4 mỏ neo từ đầu, khắt khe hơn cả kênh
-> đang thắng)*. Xem `CONGTHUC_InkExplainer_BestOf.md`.
+> đang thắng)*. Xem `kho/1_luat/CONGTHUC_InkExplainer_BestOf.md`.
 
 
 **Phép thử một câu:** *người vừa xem video đối thủ, xem tiếp video mình — có thấy "đã xem rồi" không?*
@@ -386,7 +386,7 @@ Cú bẻ lái của họ: *"họ xoay xở thế nào"* (hố, vệ sinh, hậu 
 Cú bẻ lái của mình: *"vì sao cơ thể bạn chống lại việc đó, và vì sao cái lạnh phá vỡ nó"*
 — **vasopressin + lợi-niệu-do-lạnh, không có trong 49 kịch bản đối thủ**.
 
-### 📐 Công thức thực thi — `CONGTHUC_InkExplainer_BestOf.md` *(bóc bản ghi thật 06/08)*
+### 📐 Công thức thực thi — `kho/1_luat/CONGTHUC_InkExplainer_BestOf.md` *(bóc bản ghi thật 06/08)*
 
 Quả **rượu 769K** của Ink Explainer đối chiếu với vault 49 kịch bản: **giữ 4/7 mỏ neo nguyên
 xi** *(Dudley · Raqefet · Jiahu · "bia trước bánh mì")*, **bỏ 3** *(ADH4 · Hammurabi · Ninkasi)*,

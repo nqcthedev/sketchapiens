@@ -170,7 +170,7 @@ def check_legacy_intact():
         f"{len(vids)} thư mục Video*/")
     roots = len(glob.glob("*.md")) + len(glob.glob("*.txt"))
     rec("PASS" if roots >= 79 else "WARN", "File gốc kho còn nguyên", f"{roots} file .md/.txt ở gốc")
-    for p in ["00_LUAT_HIEN_HANH.md", "PROJECT_FULL_AUDIT_EXPORT.md", "2_KHO_BANGHI/00_KHO.md"]:
+    for p in ["00_LUAT_HIEN_HANH.md", "governance/PROJECT_FULL_AUDIT_EXPORT.md", "2_KHO_BANGHI/00_KHO.md"]:
         rec("PASS" if os.path.exists(p) else "FAIL", f"còn {p}")
 
 # ── 9. Quyết định treo

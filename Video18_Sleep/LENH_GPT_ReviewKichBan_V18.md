@@ -2,7 +2,7 @@
 
 ## Làm theo thứ tự
 
-1. Dán `TRAIN_ChatGPT_TOANBO_DuAn.md` vào trước *(cho GPT biết bối cảnh kênh)*
+1. Dán `kho/4_luutru/TRAIN_ChatGPT_TOANBO_DuAn.md` vào trước *(cho GPT biết bối cảnh kênh)*
 2. Dán toàn bộ `Script_Video18_narration.txt` *(đã thuần tiếng Anh, mỗi câu một dòng — dán y nguyên)*
 3. Dán lệnh dưới đây
 4. Gửi feedback về cho tôi — **đừng áp mù**

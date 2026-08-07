@@ -1,21 +1,21 @@
 # QUYẾT ĐỊNH CẦN CHỦ DỰ ÁN
 
-*Nhập từ `PROJECT_FULL_AUDIT_EXPORT.md` §21 khi cài control plane v1, cộng 1 mục mới phát sinh.*
+*Nhập từ `governance/PROJECT_FULL_AUDIT_EXPORT.md` §21 khi cài control plane v1, cộng 1 mục mới phát sinh.*
 
 > ⛔ **Không agent nào được tự quyết các mục này.** Trạng thái mặc định là `NEEDS_HUMAN_DECISION`.
 > Quyết xong: đổi trạng thái, ghi ngày + người quyết, và nếu sinh ra luật mới thì làm theo `CHANGE_POLICY.md`.
 
 | ID | Câu hỏi | Vì sao chặn | Trạng thái |
 |---|---|---|---|
-| **D-01** | `WORKFLOW_Production.md` hay `FLOW_VietKichBan_11Cong.md` thắng ở khâu viết kịch bản? | cả hai là tầng 1, cùng quản một khâu, không file nào nói ai thắng | `NEEDS_HUMAN_DECISION` |
-| **D-02** | Có dán bối cảnh cho người review ngoài không? | `LENH_GPT_ReviewKichBan_v3.md` **đầu file cấm**, **cuối file đảo lại**. Cả hai câu còn nguyên | `NEEDS_HUMAN_DECISION` |
+| **D-01** | `kho/1_luat/WORKFLOW_Production.md` hay `kho/1_luat/FLOW_VietKichBan_11Cong.md` thắng ở khâu viết kịch bản? | cả hai là tầng 1, cùng quản một khâu, không file nào nói ai thắng | `NEEDS_HUMAN_DECISION` |
+| **D-02** | Có dán bối cảnh cho người review ngoài không? | `kho/1_luat/LENH_GPT_ReviewKichBan_v3.md` **đầu file cấm**, **cuối file đảo lại**. Cả hai câu còn nguyên | `NEEDS_HUMAN_DECISION` |
 | **D-03** | `cartoon` / `clean` / `smooth` — cấm cả **ảnh trong video** hay chỉ thumbnail? | skill chia-shot **bắt buộc dùng**, template thumbnail **cấm tuyệt đối** | `NEEDS_HUMAN_DECISION` |
 | **D-04** | Nhân vật nhất quán bằng `@token` hay bằng lặp khối chữ? | `CastBible`+`BasePack01` dùng token; hai skill chia-shot cấm token. **12 sheet token chưa bao giờ được tạo** | `NEEDS_HUMAN_DECISION` |
 | **D-05** | Video nào **đã đăng**? | không file nào ghi trạng thái đăng, ngày đăng hay URL cho bất kỳ video nào | `NEEDS_HUMAN_DECISION` |
 | **D-06** | V01 dùng bản nào — `Script_Video01_FINAL.txt` hay `..._FINAL_deAI.txt`? | ba file tên "FINAL"; bản `FINAL.txt` trùng md5 với một file trong kho lưu trữ | `NEEDS_HUMAN_DECISION` |
 | **D-07** | Feedback review của V18 đã được áp chưa? | có prompt review, **không có feedback và không có bản sau review** | `NEEDS_HUMAN_DECISION` |
 | **D-08** | Ink Explainer còn là hình mẫu không? | nó có **RPM thấp nhất** nhóm kênh vẽ (3,64); Mogo 7,66 · Mack 5,90. Hình mẫu được chọn chỉ bằng view | `NEEDS_HUMAN_DECISION` |
-| **D-09** | `VAULT_AncientHumans_KnowledgeVault.md` đáng lẽ chứa gì? | file **873 byte / 15 dòng**, trong khi `00_LUAT` mô tả nó chứa 8 chủ đề bóc từ 49 kịch bản | `NEEDS_HUMAN_DECISION` |
+| **D-09** | `kho/2_nguyenlieu/VAULT_AncientHumans_KnowledgeVault.md` đáng lẽ chứa gì? | file **873 byte / 15 dòng**, trong khi `00_LUAT` mô tả nó chứa 8 chủ đề bóc từ 49 kịch bản | `NEEDS_HUMAN_DECISION` |
 | **D-10** | Cấp ID nào cho V01 *(không có thư mục)* và **hai** thư mục cùng số 17? | `Video17_Rain` và `Video17_Death` trùng số; V01 nằm rời ở gốc kho | `NEEDS_HUMAN_DECISION` |
 | **D-11** | Luật nào chủ đã bỏ mà chưa xoá? | nhiều file chết trên thực tế nhưng chưa dán biển | `NEEDS_HUMAN_DECISION` |
 | **D-12** | Số liệu nào đáng tin? | số duy nhất có được đo trên **12–13 quan sát**; chính file ghi nhớ nói không được dùng làm chuẩn | `NEEDS_HUMAN_DECISION` |

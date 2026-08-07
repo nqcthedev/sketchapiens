@@ -196,7 +196,7 @@ Cộng ba thứ nữa:
 | 8 QA chính sách | ✅ |
 | 9 chống văn AI + đọc to | ✅ |
 | **10 người nghe ngoài** | ✅ **5 vòng** — vòng 5 bắt được 1 lỗi sự thật + mâu thuẫn thumbnail |
-| 11 hai phép thử cuối | ⏳ |
+| **11 hai phép thử cuối** | ✅ **ĐẠT** — đo trên 768 bản ghi, xem mục ⑧ |
 
 **Vòng 5 phải kiểm đúng một thứ:** cắt nửa thú săn mồi rồi, nhưng chương Haramaya **vẫn là**
 dữ liệu thú săn mồi hiện đại → vết nứt cũ có thể chưa lành hẳn, chỉ nhỏ đi. Câu 4 hỏi thẳng.
@@ -204,6 +204,120 @@ dữ liệu thú săn mồi hiện đại → vết nứt cũ có thể chưa l�
 **Số mềm cố ý KHÔNG chạy theo:** câu hỏi 1 lần/133 giây *(chuẩn cũ 60–90s)*. Đọc lại từng
 chương, không chương nào có cú tiết lộ rơi phẳng → nhét thêm câu hỏi chỉ để số đẹp đúng là lỗi
 đã ghi trong `LUẬT 0`.
+
+## ⑧ CỔNG 11 — HAI PHÉP THỬ CUỐI · ĐẠT *(06/08, đo bằng kho bản ghi)*
+
+### Phép thử 1 — người vừa xem video đối thủ, xem tiếp V19: có thấy "đã xem rồi" không? → **KHÔNG**
+
+| | Mr. Hell 419K · 6:07 | Zenn **7,83M** · 8:32 | **V19** · 8:20 |
+|---|---|---|---|
+| Câu mở | nằm giường lướt điện thoại | bật công tắc, ánh sáng tràn phòng | *"giữa đêm, 50.000 năm trước, và bạn buồn tiểu"* |
+| Thủ pháp mở | tương phản tiện nghi hiện đại | tương phản tiện nghi hiện đại | **vào thẳng, không một chữ về hiện đại** |
+| Giữa bài | lớp lót giường: tro · cỏ · sậy | ngủ hai giấc · "the watch" · sách thuốc TK16 | lợi niệu do lạnh · thận thôi đáp lại |
+| Cú bẻ lái | giường được thiết kế kỹ | họ ngủ hai giấc | hệ thống giữ bạn trong nhà **có kiểu hỏng** |
+
+Không trùng ở tầng nào bị cấm *(trình tự beat · ví dụ · đùa · ẩn dụ · cú bẻ lái)*.
+✅ **Quyết định giết mỏ neo M5 (Ekirch/Wehr) được xác nhận đúng** — đó đúng là thứ Zenn sở hữu.
+⚠️ Ghi lại: **cả hai đối thủ đều mở bằng tương phản tiện nghi hiện đại** — đúng nhịp mà skill viết kịch bản đang bắt buộc. V19 không dùng, và giống quả 1,1M của Ink Explainer hơn.
+
+### Phép thử 2 — gỡ logo, dán cạnh 20 video cùng title: có ai chỉ ra được không? → **CÓ**
+
+Quét **768 bản ghi / 22 kênh**:
+
+| Mỏ neo V19 | Ai đã dùng |
+|---|---|
+| Lợi niệu do lạnh | ✅ **0/768** |
+| Đa niệu về đêm | ✅ **0/768** |
+| Haramaya | ✅ **0/768** |
+| Gương sau võng mạc | ✅ **0/768** |
+| Thai phụ dậy đêm | ✅ **0/768** |
+| vasopressin | 3 kênh — nhưng là **hormone gắn kết trong video tình yêu**, khác cơ chế hoàn toàn |
+| linh cẩu đốm | 4 kênh — mỏ neo dùng chung, luật cho phép |
+
+**Trùng chuỗi 8 từ liên tiếp: 0 trên toàn bộ 768 bản ghi.**
+
+---
+
+---
+
+## ⑨ TỐC ĐỘ ĐỌC — ĐO TỪ FILE MP3 THẬT *(07/08)*
+
+> 🔴 **Sửa một chỗ ghi nhầm.** Mục ② ghi *"nhịp đọc thật 177/179 wpm"*. Con số đó lấy từ **độ dài
+> VIDEO** chia số từ. Nhưng video **dài hơn audio 33–40 giây**. Đó là nhịp của **video đã ghép**,
+> không phải nhịp **đọc**. Cả hai đều đúng, nhưng đo hai thứ khác nhau.
+
+| | V17 | V18 |
+|---|---|---|
+| Tổng audio thật *(cộng 263 và 224 clip mp3)* | **8:38** | **8:52** |
+| Độ dài video | 9:18 | 9:25 |
+| Chênh audio ↔ video | **+40 giây** | **+33 giây** |
+| Số từ | 1.648 | 1.687 |
+| **Tốc độ ĐỌC thật** | **190,8 wpm** | **190,2 wpm** |
+| Nhịp ảnh theo audio | 1,97 giây | 2,38 giây |
+
+Hai render độc lập lệch **0,6 wpm** → con số này tin được.
+*(Chênh 33–40 giây do khoảng nghỉ giữa clip lúc ghép, hoặc end screen, hoặc cả hai — chưa tách được.)*
+
+### Áp cho V19
+
+| | |
+|---|---|
+| 1.491 từ ÷ 190,5 wpm | **audio 7:50** |
+| × hệ số ghép V17/V18 (1,06–1,08) | **video ~8:20** |
+| Mid-roll >8 phút | ✅ đạt, **biên chỉ ~20 giây** |
+| 191 ảnh | 2,46 giây/ảnh *(audio)* · 2,63 *(video)* |
+
+⚠️ **Biên mid-roll mỏng.** Ghép với khoảng nghỉ hẹp hơn V17/V18 là có thể tụt dưới 8 phút.
+**Đo lại độ dài audio thật ngay sau khi chạy TTS**, trước khi ghép.
+
+### 🔊 ÂM THANH — ĐO CUỐI 07/08, và bốn lần đo sai trước đó
+
+**Phép đo dùng được:** phân bố RMS cửa sổ 100ms. Đây là cách duy nhất xuyên qua được
+nhạc nền của đối thủ để tách "đang nói" khỏi "đang ngừng".
+
+| Kênh | Nền | Đang nói | Cách | **Im lặng** | **wpm khi nói** |
+|---|---|---|---|---|---|
+| Zenn 7,83M | −38,1 dB | −19,7 dB | 18,4 dB | **13,6%** | 214 |
+| Ink rain 1,1M | −40,2 dB | −14,3 dB | 26,0 dB | **17,0%** | 250 |
+| Mr.Hell 419K | −54,8 dB | −20,6 dB | 34,2 dB | **18,5%** | 220 |
+| **V18 mình** | **−87,6 dB** | −20,6 dB | 67,1 dB | **15,6%** | 225 |
+
+**⛔ KHÔNG đối thủ nào cắt khoảng lặng.** Cả ba ngừng 13,6–18,5%; mình 15,6% — ở giữa.
+Cảm giác *"họ đọc liền tù tì"* là **ảo giác do nhạc nền**, không phải do cắt.
+
+**⛔ KHÔNG chỉnh `speed` của ElevenLabs.** Tốc độ nói thuần của mình 225 wpm, ngang Zenn 214
+và Mr.Hell 220. Giảm speed là chậm thêm, sai hướng.
+
+**Khác biệt thật nằm ở cột NỀN:** họ −38…−55 dB, mình **−87,6 dB** — im lặng số hoá tuyệt đối.
+Video của họ không bao giờ rơi vào khoảng không. Chữa bằng nền âm rất nhỏ, **không** chữa bằng cắt.
+*(Chủ đã quyết 07/08: không thêm nhạc nền.)*
+
+### ✅ Việc DUY NHẤT còn đúng cho audio V19
+
+```bash
+ffmpeg -i final_video.mp4 -c:v copy \
+  -af loudnorm=I=-14:TP=-1.5:LRA=11 -c:a aac -b:a 192k final_video_norm.mp4
+```
+Mình −20,9 LUFS, Ink −12,4. YouTube chuẩn hoá về −14 và **không nâng file nhỏ lên** —
+nên video mình đang phát nhỏ hơn ~7 dB, người xem phải tự vặn to.
+Chạy trên file đã ghép xong, ra file mới, giữ bản gốc.
+
+### 🩸 Bốn lần đo sai — ghi lại để không lặp
+
+| # | Sai gì |
+|---|---|
+| 1 | so wpm **audio** của mình với wpm **video** của họ |
+| 2 | dò im lặng bằng ngưỡng tuyệt đối → nhạc nền che mất khoảng ngừng của họ |
+| 3 | dùng mốc phụ đề → phụ đề YouTube chạy liên tục 100%, không có khe |
+| 4 | phép dò mép clip sai điều kiện → bỏ sót 0,24s/clip, báo tiết kiệm 1 giây |
+
+**Lỗi chung:** đo "wpm" mà không hỏi nó tính trên **nền thời gian nào**.
+
+### Cách đo lại
+```bash
+find <video>/build/audio -name "*.mp3" | while read f; do
+  ffprobe -v quiet -show_entries format=duration -of csv=p=0 "$f"; done | awk '{s+=$1} END {print s}'
+```
 
 ## ⑦ THUMBNAIL — CONCEPT CHỐT 06/08 *(dựng ở giai đoạn 5a)*
 
@@ -226,7 +340,6 @@ không"* — khớp đúng thứ kịch bản trả lời.
 
 ## ⑥ CÒN LẠI
 
-- [ ] Cổng 11 — hai phép thử cuối
 - [ ] Chia shot + prompt ảnh *(`sketchapiens-chia-shot`)*
 - [ ] Gen ảnh · TTS · ghép
 - [ ] Thumbnail *(giai đoạn 5a)* · Metadata · checklist đăng

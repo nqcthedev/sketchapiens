@@ -113,26 +113,32 @@ NEG_CARD = ("NEG: no photograph, no photorealism, no 3D render, no stock clipart
 
 # ── NỀN CẢNH — có lớp, có ánh sáng, không phải hai dải màu ────────────────
 BG = {
- "night_open": ("a block of midnight-blue night sky with plain white dots for stars and a small white "
-               "crescent moon, over one flat strip of medium-brown ground, and one or two trees each "
-               "drawn as a brown line with a dark green cloud on top"),
- "night_fire": ("a block of midnight-blue night sky with white dots for stars, one flat strip of "
-               "medium-brown ground, and a small fire drawn as a wobbly orange shape with a yellow "
-               "centre sitting on a few grey stones, throwing a soft orange patch on the ground"),
- "cave_fire":  ("a flat block of medium-brown rock filling the frame behind the figures, one flat strip "
-               "of darker brown ground, and a small fire drawn as a wobbly orange shape with a yellow "
-               "centre"),
- "cave_mouth": ("a flat block of dark brown rock with a plain arch-shaped opening cut out of it, and "
-               "through the opening a block of midnight-blue sky with white star dots"),
- "dry_plain":  ("a block of pale blue daytime sky over one flat strip of tan ground, with two trees "
-               "each drawn as a brown line with a green cloud on top"),
- "dusk":       ("a flat block of muted orange sky above one flat strip of brown ground, with a plain "
-               "orange disc for the sun on the horizon"),
- "modern":     ("a flat block of pale grey wall, a simple bed drawn in a few black lines, and one plain "
-               "rectangle for a closed door"),
- "camp_wide":  ("a block of midnight-blue night sky with white star dots, one flat strip of brown "
-               "ground, three simple triangle shelters drawn in plain lines, and a small fire drawn as "
-               "a wobbly orange shape with a yellow centre"),
+ # ── ĐÊM & LỬA (mạch chính của V19) ──
+ "fire_ring":  ("one flat block of very dark navy filling most of the frame, and in the middle a small "
+               "fire drawn as a wobbly orange shape with a yellow centre on a few grey stones, casting "
+               "a soft round patch of warm orange on a flat strip of medium-brown ground"),
+ "fire_edge":  ("a warm orange patch of firelight on flat brown ground on one side, and on the other "
+               "side a flat block of almost-black navy with nothing drawn in it at all"),
+ "night_open": ("a flat block of midnight-blue night sky with plain white dots for stars and a small "
+               "white crescent moon, over one flat strip of medium-brown ground, and one tree drawn as "
+               "a brown line with a dark green cloud on top"),
+ "night_dark": "a flat block of almost-black dark navy filling the whole frame, with nothing else drawn in it",
+ "cold_night": ("a flat block of cold blue-grey night sky with a few white star dots, over one flat "
+               "strip of pale frosted grey-brown ground, and one bare tree drawn as a brown line with "
+               "a few bare twigs"),
+ # ── HARAMAYA (huyện hiện đại, ban đêm) ──
+ "village_night": ("a flat block of dark navy night sky over one flat strip of dry tan ground, with two "
+               "very simple square houses drawn in plain black lines, one small yellow window square, "
+               "and a plain dirt path leading away into the dark"),
+ # ── HIỆN ĐẠI (khách mời — chỉ hook và kết) ──
+ "modern_night": ("a flat block of dark blue-grey bedroom wall, a simple bed drawn in a few black lines, "
+               "and one plain rectangle for a doorway with a darker rectangle inside it"),
+ "modern_hall": ("a flat block of dark blue-grey wall, one flat strip of pale grey floor, and a plain "
+               "open doorway rectangle at one end"),
+ # ── CƠ THỂ / KHÁI NIỆM ──
+ "dark_card":  ("a flat block of very dark navy filling the entire frame with generous empty space; "
+               "every line, shape and letter in this image is drawn in WHITE or pale cream marker on "
+               "top of that dark navy, not in black"),
  "white":      "a plain WHITE background with generous empty space",
 }
 

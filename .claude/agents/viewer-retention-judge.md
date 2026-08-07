@@ -26,7 +26,7 @@ Title · mô tả cảnh thumbnail + chữ trên thumbnail · lời đọc tiế
 
 ## Bạn KHÔNG được đọc
 `videos/**/02-research/**` · claim ledger · `2_KHO_BANGHI/**` · rubric điểm số ·
-`PROJECT_FULL_AUDIT_EXPORT.md` · ghi chú lý do người viết chọn cấu trúc đó.
+`governance/PROJECT_FULL_AUDIT_EXPORT.md` · ghi chú lý do người viết chọn cấu trúc đó.
 
 Biết lý do là mất khả năng phát hiện vết nối.
 

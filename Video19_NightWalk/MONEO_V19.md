@@ -95,7 +95,7 @@ Viết: *hiệu ứng chắc, lý do thì các nhà nghiên cứu vẫn chưa th
 
 ### ⛔ M5. ĐÃ CHẾT — QUẢ 7,8 TRIỆU CỦA ZENN SỞ HỮU
 
-`DICH_Zenn_7.8M_WhatDidAncientHumansDoAtNight.md` — **video to nhất ngách, cùng sub-mạch đêm**:
+`kho/2_nguyenlieu/DICH_Zenn_7.8M_WhatDidAncientHumansDoAtNight.md` — **video to nhất ngách, cùng sub-mạch đêm**:
 
 > dòng 80: *"Năm 2001, sử gia **Roger Ekirch**… **hơn 500 dẫn chiếu**"*
 > dòng 108: *"Năm 1992, bác sĩ tâm thần **Thomas Wehr**… **mười bốn tiếng bóng tối**, suốt **một tháng**"*

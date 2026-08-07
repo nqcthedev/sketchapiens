@@ -17,7 +17,7 @@
 1. Ghi vào `RETIRED_RULES.md` kèm lý do và bằng chứng bác.
 2. **Dán biển ⛔ vào dòng đầu chính file đó.**
 
-Làm một nửa thì lần sau vẫn có người mở nhầm. **Hiện có 5 trường hợp đang làm một nửa** — xem `PROJECT_FULL_AUDIT_EXPORT.md` §18.2.
+Làm một nửa thì lần sau vẫn có người mở nhầm. **Hiện có 5 trường hợp đang làm một nửa** — xem `governance/PROJECT_FULL_AUDIT_EXPORT.md` §18.2.
 
 ## Bốn bài học đã trả giá — coi như luật
 

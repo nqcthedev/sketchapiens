@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """V17 — sinh PROMPTS_FULL.txt + SHOTLINES_FULL.txt từ shot_data.py
 
-BUILD LẠI 30/07/2026 theo NGUPHAP_HINH_DoLai_ToanBo_2026-07-30.md
+BUILD LẠI 30/07/2026 theo kho/3_bangchung/NGUPHAP_HINH_DoLai_ToanBo_2026-07-30.md
 (đo 1.090 khung = trọn hai video đối thủ, không lấy mẫu).
 
 Hai chế độ hình, KHÁC HẲN NHAU:

@@ -3,7 +3,7 @@ paths: ["videos/**/05-packaging/**", "*Thumbnail*", "*THUMBNAIL*", "V1*_PACKAGIN
 ---
 # LUẬT — FILE PACKAGING
 
-**Nguồn chuẩn:** `PROMPT_TONG_Thumbnail_v6.md` + `TEMPLATE_Thumbnail_KHOA_v1.md`.
+**Nguồn chuẩn:** `kho/1_luat/PROMPT_TONG_Thumbnail_v6.md` + `kho/1_luat/TEMPLATE_Thumbnail_KHOA_v1.md`.
 
 Năm luật cứng: tâm khung dành cho **vật kể chuyện** · chữ phải thêm thông tin mới, không lặp title · nền xỉn + 1-2 điểm bão hoà · mọi ánh mắt khoá vào trong · không để mọi khuôn mặt cùng một cảm xúc.
 

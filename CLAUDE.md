@@ -10,9 +10,23 @@
 | File nào là luật cho việc này? | `governance/SOURCE_OF_TRUTH.md` |
 | Có được đổi luật không? | `governance/CHANGE_POLICY.md` |
 | Việc này chủ đã quyết chưa? | `governance/DECISIONS_REQUIRED.md` |
-| Hiện trạng kho ra sao? | `PROJECT_FULL_AUDIT_EXPORT.md` |
+| Hiện trạng kho ra sao? | `governance/PROJECT_FULL_AUDIT_EXPORT.md` |
 
-Kho cũ vẫn là nguồn nội dung: `00_LUAT_HIEN_HANH.md` là cửa vào tầng tri thức cũ. **Không sửa nó trong phiên thường.**
+Kho tri thức: `00_LUAT_HIEN_HANH.md` là **cửa vào**, nó nói mỗi câu hỏi thì file nào là luật.
+**Không sửa nó trong phiên thường.**
+
+**Cấu trúc kho** *(dọn 07/08/2026 — gốc kho từ 73 file `.md` xuống còn 2)*:
+
+| | | được quyền phán? |
+|---|---|---|
+| `kho/1_luat/` | luật đang hiệu lực — quy trình, rubric, thumbnail, art bible | ✅ |
+| `kho/2_nguyenlieu/` | tra khi viết — vault, kho ẩn dụ, mổ xẻ đối thủ, kịch bản mẫu | ❌ |
+| `kho/3_bangchung/` | nghiên cứu đã rút thành luật — chỉ mở khi cần tra lại | ❌ |
+| `kho/4_luutru/` | V17/V18, spec công cụ, lệnh cho AI ngoài | ❌ |
+| `2_KHO_BANGHI/` | 761 bản ghi đối thủ — **chỉ để ĐO**, cấm mở khi đang viết | đo lại được |
+
+**Luật ưu tiên khi hai file nói ngược nhau:** tầng thấp hơn thắng · đếm tay trên bản ghi gốc
+thắng mọi báo cáo · cùng tầng thì file mới hơn thắng · không giải quyết được thì **đo lại**.
 
 ## 1. MƯỜI LUẬT KHÔNG PHÁ
 
@@ -27,9 +41,14 @@ Kho cũ vẫn là nguồn nội dung: `00_LUAT_HIEN_HANH.md` là cửa vào tầ
    ChatGPT (chat mới) là lớp người-xem-lạnh DUY NHẤT — không bỏ được, không thay bằng agent được.**
 6. **Mọi câu thêm vào sau cổng mỏ neo phải chạy lại cổng mỏ neo.**
 7. **Suy diễn của tác giả nguồn phải ghi rõ là suy diễn** (*"the researchers put that down to…"*), cấm nói như sự thật.
-8. **Chỉ 4 ràng buộc cứng của lời đọc:** `!` = 0 · không gạch ngang giữa câu · mỗi câu một dòng · `I` ≈ 0. Mọi con số khác là **triệu chứng**, không phải đích. Cấm sửa câu cho số đẹp.
+8. **Chỉ 3 ràng buộc cứng của lời đọc:** `!` = 0 · không gạch ngang giữa câu · mỗi câu một dòng.
+   Mọi con số khác là **triệu chứng**, không phải đích. Cấm sửa câu cho số đẹp.
+   ⛔ `I ≈ 0` **đã gỡ 07/08** — đo 18 kênh trong kho, 9/12 kênh có phép so sạch cho thấy bài dùng "I"
+   ăn hơn *(Mack 9,18×)*. Người dẫn **được có ý kiến riêng**. Xem `governance/RETIRED_RULES.md`.
 9. **Không nâng một quan sát thành luật kênh** nếu chưa đủ 5 thứ: bằng chứng · độ tin cậy · phạm vi · người duyệt · luật cũ bị thay.
-10. **Không xoá, không đổi tên, không di chuyển dữ liệu cũ.** V01–V19 và 79 file gốc giữ nguyên cho tới khi có lệnh migration riêng.
+10. **Không xoá dữ liệu khi chưa có lệnh của chủ.** *(Sửa 07/08: chủ đã ra lệnh dọn một lần —
+    V02–V16 và 5 file `.md` chết vào thùng rác; 65 file `.md` ở gốc chuyển vào `kho/1..4/`.)*
+    Ngoài lệnh đó, mặc định vẫn là **không xoá, không đổi tên, không di chuyển**.
 
 ## 2. BỐN CHẾ ĐỘ — mỗi phiên MỘT chế độ
 
@@ -49,7 +68,7 @@ Hai skill toàn cục sau **KHÔNG phải nguồn chuẩn trong project này**:
 - ⛔ `viet-kich-ban-nguoi-que-co-dai` → dùng `sketchapiens-viet-kich-ban`
 - ⛔ `chia-shot-va-prompt-anh` → dùng `sketchapiens-chia-shot`
 
-Lý do (`PROJECT_FULL_AUDIT_EXPORT.md` §5, R2): cả hai không có tiền tố nên tự kích hoạt, và PHẦN 9 của cả hai vẫn trỏ tới `TEMPLATE_Thumbnail_DoiThu.md` **đã bị bác**.
+Lý do (`governance/PROJECT_FULL_AUDIT_EXPORT.md` §5, R2): cả hai không có tiền tố nên tự kích hoạt, và PHẦN 9 của cả hai vẫn trỏ tới `TEMPLATE_Thumbnail_DoiThu.md` **đã bị bác**.
 
 **Không sửa, không xoá hai skill đó ở global scope.** Nếu chúng tự nạp, bỏ qua nội dung và nói rõ trong câu trả lời.
 

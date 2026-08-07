@@ -1,14 +1,14 @@
 # SỔ KHAI TỬ — luật đã bị bác
 
-*Nhập từ `00_LUAT_HIEN_HANH.md` và `PROJECT_FULL_AUDIT_EXPORT.md` §18 khi cài control plane v1.
+*Nhập từ `00_LUAT_HIEN_HANH.md` và `governance/PROJECT_FULL_AUDIT_EXPORT.md` §18 khi cài control plane v1.
 Bảng này là **bản ghi**, không phải hành động. Không file nào bị xoá hay di chuyển trong lần cài này.*
 
 ## Đã khai tử đủ hai bước *(có biển ⛔ + có trong sổ)*
 
 | Luật / file | Vì sao chết | Thay bằng | Đang ở |
 |---|---|---|---|
-| `HE_THONG_KichBan_v1_11Video.md` | v2 bác 4 luật; mẫu 11 video thiếu 3 quả triệu view | `HE_THONG_KichBan_v2_14Video.md` | `_KHO_LUU_DaChet/` |
-| `HE_THONG_Thumbnail_Signature_v3.md` | khuôn "caveman trái ↔ người-que phải" bị v6 cấm | `PROMPT_TONG_Thumbnail_v6.md` | `_KHO_LUU_DaChet/` |
+| `HE_THONG_KichBan_v1_11Video.md` | v2 bác 4 luật; mẫu 11 video thiếu 3 quả triệu view | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` | `_KHO_LUU_DaChet/` |
+| `HE_THONG_Thumbnail_Signature_v3.md` | khuôn "caveman trái ↔ người-que phải" bị v6 cấm | `kho/1_luat/PROMPT_TONG_Thumbnail_v6.md` | `_KHO_LUU_DaChet/` |
 | `HE_THONG_Thumbnail_v5_ScriptToPackaging.md` | v6 thay | v6 | `_KHO_LUU_DaChet/` |
 | `TEMPLATE_Thumbnail_DoiThu.md` | ADN "nhân vật lệch trái + vật bên phải" bị bác | v6 CENTRE ANCHOR | `_KHO_LUU_DaChet/` |
 | `SUBNGACH_KhaiThac_Can.md` | lane "về BẠN" — **0 cú nổ / 4 tháng** | `BANG_CAU_TatCa_CuNo` | `_KHO_LUU_DaChet/` |
@@ -22,9 +22,9 @@ Bảng này là **bản ghi**, không phải hành động. Không file nào b�
 |---|---|---|
 | `BANDO_NgachTitle_Thang.md` | ✅ | nằm ở gốc kho |
 | `NGHIENCUU_Title_3Kenh_Gap_2026-07-11.md` | ✅ | nằm ở gốc kho |
-| `TRAIN_ChatGPT_TOANBO_DuAn.md` | ✅ *(phần chiến lược)* | phần tay nghề vẫn dùng — trạng thái hỗn hợp |
+| `kho/4_luutru/TRAIN_ChatGPT_TOANBO_DuAn.md` | ✅ *(phần chiến lược)* | phần tay nghề vẫn dùng — trạng thái hỗn hợp |
 | `_BO_TRAIN_ChatGPT_ReviewKichBan_v2.md` | chỉ có tiền tố `_BO_` | không có trong sổ gốc |
-| `BOCTACH_4Kenh_SoSanh_2026-08-04.md` | ❌ **không có biển** | chứa mốc *"trung vị 18.500"* — **đo lại ngày 06/08 ra 6.001** |
+| `kho/3_bangchung/BOCTACH_4Kenh_SoSanh_2026-08-04.md` | ❌ **không có biển** | chứa mốc *"trung vị 18.500"* — **đo lại ngày 06/08 ra 6.001** |
 
 → Đã bù bằng `.claude/rules/archive-files.md`: cả năm file nằm trong `paths:` và **không được dùng làm căn cứ**.
 

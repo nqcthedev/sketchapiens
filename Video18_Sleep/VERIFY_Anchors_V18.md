@@ -2,7 +2,7 @@
 
 *03/08/2026. Mọi dòng dưới đây **tự tra bằng web search trong phiên này**, không lấy từ trí nhớ và không lấy từ NotebookLM.*
 
-> **Vì sao có file này.** Chính sách YouTube 16/07/2026 chấm kênh theo *"có thêm hiểu biết và góc nhìn gốc của người sáng tạo"* hay không. Và `WORKFLOW_Production.md` ghi: **tỉ lệ sai của dữ liệu NotebookLM đang là 7/10**. Không tự tra thì không được dùng.
+> **Vì sao có file này.** Chính sách YouTube 16/07/2026 chấm kênh theo *"có thêm hiểu biết và góc nhìn gốc của người sáng tạo"* hay không. Và `kho/1_luat/WORKFLOW_Production.md` ghi: **tỉ lệ sai của dữ liệu NotebookLM đang là 7/10**. Không tự tra thì không được dùng.
 
 ---
 

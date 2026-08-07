@@ -21,23 +21,23 @@
 | Luật phiên làm việc | `CLAUDE.md` | — | mới, canonical |
 | Luật theo khu vực | `.claude/rules/*.md` | — | mới, canonical |
 | Bản đồ tri thức cũ | `00_LUAT_HIEN_HANH.md` | `governance/` | **không sửa trong phiên thường** |
-| Lifecycle sản xuất | `WORKFLOW_Production.md` | `knowledge/production/` | ⚠️ chồng lấn với file dưới |
-| Cổng viết kịch bản | `FLOW_VietKichBan_11Cong.md` | `knowledge/writing/script-gates.md` | ⚠️ **D-01: chưa rõ file nào thắng** |
-| Chất lượng kịch bản | `RUBRIC_KichBan.md` *(đọc LUẬT 0 trước)* + `HE_THONG_KichBan_v2_14Video.md` | `knowledge/writing/script-rubric.md` | Tầng A đúc từ Mack — nay đã có 52 bản ghi Mack thật để kiểm |
-| Review ngoài | `LENH_GPT_ReviewKichBan_v3.md` + `LENH_GPT_BoiCanh_TayNghe.md` | `knowledge/writing/external-review.md` | ⚠️ **D-02: hai file mâu thuẫn nhau về việc dán bối cảnh** |
+| Lifecycle sản xuất | `kho/1_luat/WORKFLOW_Production.md` | `knowledge/production/` | ⚠️ chồng lấn với file dưới |
+| Cổng viết kịch bản | `kho/1_luat/FLOW_VietKichBan_11Cong.md` | `knowledge/writing/script-gates.md` | ⚠️ **D-01: chưa rõ file nào thắng** |
+| Chất lượng kịch bản | `kho/1_luat/RUBRIC_KichBan.md` *(đọc LUẬT 0 trước)* + `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` | `knowledge/writing/script-rubric.md` | Tầng A đúc từ Mack — nay đã có 52 bản ghi Mack thật để kiểm |
+| Review ngoài | `kho/1_luat/LENH_GPT_ReviewKichBan_v3.md` + `kho/1_luat/LENH_GPT_BoiCanh_TayNghe.md` | `knowledge/writing/external-review.md` | ⚠️ **D-02: hai file mâu thuẫn nhau về việc dán bối cảnh** |
 | Review nội bộ | `.claude/agents/*.md` + `/audit-script` | — | mới, canonical |
 | Bằng chứng | `MONEO_V19.md` *(mẫu tốt nhất)* + `templates/claim-ledger.md` | `knowledge/evidence/` | 5 kiểu đặt tên đang tồn tại |
-| Chọn đề tài | `BANG_CAU_TatCa_CuNo_2026-07-29.md` + tra bầy clone **live** | `knowledge/topic-title/` | |
-| Vì sao đề tài hay vẫn chết | `NGHIENCUU_CloneSwarm_2026-07-29.md` | | |
-| Title | `HE_THONG_KichBan_v2_14Video.md` PHẦN C | `knowledge/topic-title/` | |
-| Thumbnail | `PROMPT_TONG_Thumbnail_v6.md` + `TEMPLATE_Thumbnail_KHOA_v1.md` | `knowledge/packaging/` | |
-| Phong cách hình | `ArtBible_NguoiQueCoDai.md` + skill `sketchapiens-chia-shot` | `knowledge/visual/` | ⚠️ **D-03: `clean/smooth/cartoon` — bắt buộc hay bị cấm?** |
-| Nhân vật | `CastBible_DienVien.md` · `BasePack01` · `Prompts_NhanVat_Kenh` · `SOP_NhatQuan_NhanVat` | `knowledge/visual/` | ⚠️ **D-04: `@token` hay lặp chữ? 4 file, không file nào thắng** |
-| Chính sách YouTube | `CHINHSACH_YOUTUBE_2026_AnhHuong.md` | `knowledge/policy/` | |
-| Đối thủ | `BOCTACH_16Kenh_2026-08-05.md` + `2_KHO_BANGHI/00_KHO.md` | `knowledge/positioning/` | `BOCTACH_4Kenh` đã chết nhưng chưa dán biển |
+| Chọn đề tài | `kho/3_bangchung/BANG_CAU_TatCa_CuNo_2026-07-29.md` + tra bầy clone **live** | `knowledge/topic-title/` | |
+| Vì sao đề tài hay vẫn chết | `kho/3_bangchung/NGHIENCUU_CloneSwarm_2026-07-29.md` | | |
+| Title | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` PHẦN C | `knowledge/topic-title/` | |
+| Thumbnail | `kho/1_luat/PROMPT_TONG_Thumbnail_v6.md` + `kho/1_luat/TEMPLATE_Thumbnail_KHOA_v1.md` | `knowledge/packaging/` | |
+| Phong cách hình | `kho/1_luat/ArtBible_NguoiQueCoDai.md` + skill `sketchapiens-chia-shot` | `knowledge/visual/` | ⚠️ **D-03: `clean/smooth/cartoon` — bắt buộc hay bị cấm?** |
+| Nhân vật | `kho/1_luat/CastBible_DienVien.md` · `BasePack01` · `Prompts_NhanVat_Kenh` · `SOP_NhatQuan_NhanVat` | `knowledge/visual/` | ⚠️ **D-04: `@token` hay lặp chữ? 4 file, không file nào thắng** |
+| Chính sách YouTube | `kho/1_luat/CHINHSACH_YOUTUBE_2026_AnhHuong.md` | `knowledge/policy/` | |
+| Đối thủ | `kho/3_bangchung/BOCTACH_16Kenh_2026-08-05.md` + `2_KHO_BANGHI/00_KHO.md` | `knowledge/positioning/` | `BOCTACH_4Kenh` đã chết nhưng chưa dán biển |
 | Corpus đối thủ | `2_KHO_BANGHI/` — **chỉ để ĐO** | tách ra sibling ngoài repo | đã gitignore |
 | Số liệu kênh | **chưa có file nào** | `analytics/` + `videos/*/08-analytics/` | số duy nhất nằm trong memory toàn cục |
-| Hiện trạng kho | `PROJECT_FULL_AUDIT_EXPORT.md` | — | bằng chứng, không phải luật |
+| Hiện trạng kho | `governance/PROJECT_FULL_AUDIT_EXPORT.md` | — | bằng chứng, không phải luật |
 
 ## Cái gì KHÔNG phải nguồn chuẩn
 
@@ -46,6 +46,6 @@
 | ⛔ skill toàn cục `viet-kich-ban-nguoi-que-co-dai` | không có tiền tố nên tự kích hoạt; PHẦN 9 trỏ tới template thumbnail đã bị bác |
 | ⛔ skill toàn cục `chia-shot-va-prompt-anh` | như trên |
 | ⛔ `_KHO_LUU_DaChet/**` | đã khai tử |
-| ⛔ `BANDO_NgachTitle_Thang.md` · `NGHIENCUU_Title_3Kenh_Gap_*.md` · `_BO_TRAIN_*` · `TRAIN_ChatGPT_TOANBO_DuAn.md` *(phần chiến lược)* · `BOCTACH_4Kenh_SoSanh_*.md` | chết trong sổ, vẫn nằm cạnh file sống |
+| ⛔ `BANDO_NgachTitle_Thang.md` · `NGHIENCUU_Title_3Kenh_Gap_*.md` · `_BO_TRAIN_*` · `kho/4_luutru/TRAIN_ChatGPT_TOANBO_DuAn.md` *(phần chiến lược)* · `BOCTACH_4Kenh_SoSanh_*.md` | chết trong sổ, vẫn nằm cạnh file sống |
 | ⛔ `Video*/_cu/**` · `Video*/_nhap/**` | bản nháp |
 | ⛔ `**/PROMPTS_FULL.txt` và file sinh cỡ lớn | không đọc vào ngữ cảnh |

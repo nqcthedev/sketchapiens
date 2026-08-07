@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghép Ảnh + Audio → Video (Sketchapiens) — Mediabunny 2026</title>
+<style>
+  :root{ --bg:#f7f7f5; --card:#fff; --ink:#1d1d1f; --mut:#6b6b6b; --red:#c0453b; --line:#e3e3e0; --blue:#3f6fb5; --grn:#2e7d32; }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;background:var(--bg);color:var(--ink);line-height:1.5}
+  .wrap{max-width:960px;margin:0 auto;padding:24px}
+  h1{font-size:22px;margin:0 0 4px}
+  .sub{color:var(--mut);font-size:14px;margin:0 0 14px}
+  .badge{display:inline-block;font-size:12px;font-weight:700;padding:3px 9px;border-radius:20px;margin-bottom:16px}
+  .badge.modern{background:#e7f3ea;color:var(--grn);border:1px solid #bfe0c7}
+  .badge.compat{background:#fff3e0;color:#9a6a00;border:1px solid #f0d9a8}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;margin-bottom:16px}
+  .step{font-weight:700;font-size:15px;margin:0 0 8px}
+  .hint{color:var(--mut);font-size:13px;margin:4px 0 10px}
+  input[type=file]{display:block;width:100%;padding:10px;border:1px dashed #c8c8c4;border-radius:10px;background:#fafafa;font-size:13px}
+  .row{display:flex;flex-wrap:wrap;gap:14px}
+  .row > div{flex:1;min-width:150px}
+  label.lbl{font-size:13px;color:var(--mut);display:block;margin-bottom:4px}
+  select,input[type=number]{width:100%;padding:8px;border:1px solid var(--line);border-radius:8px;font-size:14px;background:#fff}
+  .btns{display:flex;gap:10px;flex-wrap:wrap;margin-top:6px}
+  button{font-size:15px;font-weight:600;padding:11px 18px;border:none;border-radius:10px;cursor:pointer}
+  .primary{background:var(--red);color:#fff}
+  .ghost{background:#ececea;color:var(--ink)}
+  button:disabled{opacity:.45;cursor:not-allowed}
+  canvas{width:100%;background:#fff;border:1px solid var(--line);border-radius:10px;display:block;margin-top:10px}
+  .status{font-size:14px;margin-top:10px;min-height:20px}
+  .bar{height:8px;background:#ececea;border-radius:6px;overflow:hidden;margin-top:8px}
+  .bar > i{display:block;height:100%;width:0;background:var(--blue);transition:width .15s}
+  .ok{color:var(--grn)}.err{color:var(--red)}
+  .note{background:#fff8e6;border:1px solid #f0e3b8;border-radius:10px;padding:10px 12px;font-size:13px;color:#6b5a18}
+  code{background:#f0f0ee;padding:1px 5px;border-radius:4px;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🎬 Ghép Ảnh + Audio → Video</h1>
+  <p class="sub">Mỗi ảnh tự chạy đúng độ dài câu của nó → khớp 100%. Engine: <b>Mediabunny 2026</b> (WebCodecs · MP4 4K · nhanh hơn thời gian thực) — tự fallback nếu trình duyệt thiếu.</p>
+  <span id="engBadge" class="badge compat">Đang tải engine…</span>
+
+  <div class="card">
+    <p class="step">① Chọn ẢNH (001.png, 002.png, …)</p>
+    <p class="hint">Chọn tất cả ảnh cùng lúc. Tự sắp theo số trong tên file.</p>
+    <input id="imgs" type="file" accept="image/*" multiple>
+    <div id="imgInfo" class="hint"></div>
+  </div>
+
+  <div class="card">
+    <p class="step">② Chọn AUDIO (001.mp3, 002.mp3, …)</p>
+    <p class="hint">Mỗi file tiếng = 1 câu, cùng số thứ tự với ảnh (từ bước TTS). Mỗi ảnh hiện đúng bằng độ dài tiếng cùng số.</p>
+    <input id="auds" type="file" accept="audio/*" multiple>
+    <div id="audInfo" class="hint"></div>
+  </div>
+
+  <div class="card">
+    <p class="step">③ Tùy chọn</p>
+    <div class="row">
+      <div><label class="lbl">Độ phân giải</label>
+        <select id="res"><option value="1920x1080">1080p</option><option value="2560x1440">1440p (2K)</option><option value="3840x2160" selected>2160p (4K)</option></select></div>
+      <div><label class="lbl">Chuyển động</label>
+        <select id="motion"><option value="1">Bật — zoom nhẹ</option><option value="0">Tắt — tĩnh</option></select></div>
+      <div><label class="lbl">Mức zoom (%)</label><input id="zoom" type="number" value="8" min="0" max="25" step="1"></div>
+      <div><label class="lbl">Lặng cuối ảnh (giây)</label><input id="pad" type="number" value="0.15" min="0" max="1" step="0.05"></div>
+    </div>
+    <div class="row" style="margin-top:12px">
+      <div><label class="lbl">Công nghệ xuất</label>
+        <select id="engine">
+          <option value="auto">Tự động (khuyên) — ưu tiên Mediabunny MP4</option>
+          <option value="modern">Chỉ Mediabunny (MP4)</option>
+          <option value="compat">Tương thích (MediaRecorder, .webm)</option>
+        </select></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <p class="step">④ Xuất video</p>
+    <p class="note">Mediabunny: encode bằng WebCodecs (nhanh, có thể hơn thời gian thực), khớp từng frame chính xác, ra MP4 H.264/AAC. Nếu trình duyệt hỗ trợ, sẽ <b>ghi thẳng ra ổ đĩa</b> nên làm 4K dài không tràn RAM. Cứ để tab này mở tới khi xong.</p>
+    <div class="btns">
+      <button id="preview" class="ghost" disabled>▶ Xem trước (10s)</button>
+      <button id="export" class="primary" disabled>● Xuất video & lưu</button>
+      <button id="stop" class="ghost" disabled>■ Dừng</button>
+    </div>
+    <div class="bar"><i id="prog"></i></div>
+    <div id="status" class="status"></div>
+    <canvas id="cv" width="640" height="360"></canvas>
+  </div>
+</div>
+
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const cv = $("cv"), ctx = cv.getContext("2d", {alpha:false});
+let images = [], audios = [], audioCtx = null;
+let recorder = null, stopFlag = false, rafId = null;
+let MB = null, mbTried = false;
+
+const MB_URL = "https://cdn.jsdelivr.net/npm/mediabunny@1/+esm";
+async function loadMB(){
+  if (MB || mbTried) return MB;
+  mbTried = true;
+  try { MB = await import(MB_URL); } catch(e){ console.warn("Mediabunny tải lỗi:", e); MB = null; }
+  return MB;
+}
+(async ()=>{ const b=$("engBadge"); const m=await loadMB();
+  if (m && window.VideoEncoder){ b.className="badge modern"; b.textContent="✓ Mediabunny 2026 sẵn sàng (WebCodecs · MP4 4K · frame-accurate)"; }
+  else { b.className="badge compat"; b.textContent="◐ Dùng MediaRecorder (.webm, thời gian thực) — mở bằng Chrome mới + có mạng để bật Mediabunny"; }
+})();
+
+const natKey = name => { const m = String(name).match(/\d+/g); return m ? parseInt(m[m.length-1],10) : 0; };
+const clamp = v => Math.max(0, Math.min(1, v));
+function setStatus(t, cls){ const s=$("status"); s.textContent=t; s.className="status"+(cls?(" "+cls):""); }
+function ready(){ const ok = images.length>0 && audios.length>0; $("preview").disabled=!ok; $("export").disabled=!ok; }
+function resetBtns(){ $("export").disabled=false; $("preview").disabled=false; $("stop").disabled=true; cancelAnimationFrame(rafId); }
+
+// ---------- Nạp ảnh ----------
+$("imgs").addEventListener("change", async e => {
+  const files = [...e.target.files].sort((a,b)=>natKey(a.name)-natKey(b.name));
+  images = [];
+  for (const f of files){
+    const url = URL.createObjectURL(f);
+    try{ const img = await new Promise((res,rej)=>{ const im=new Image(); im.onload=()=>res(im); im.onerror=rej; im.src=url; }); images.push({name:f.name, img}); }
+    catch(err){ console.warn("Lỗi ảnh", f.name); }
+  }
+  $("imgInfo").textContent = `Đã nạp ${images.length} ảnh (đầu: ${images[0]?.name||"-"} … cuối: ${images.at(-1)?.name||"-"})`;
+  ready();
+});
+
+// ---------- Nạp audio ----------
+$("auds").addEventListener("change", async e => {
+  audioCtx = audioCtx || new (window.AudioContext||window.webkitAudioContext)();
+  const files = [...e.target.files].sort((a,b)=>natKey(a.name)-natKey(b.name));
+  audios = []; setStatus("Đang đọc audio…");
+  for (const f of files){
+    try{ const ab = await audioCtx.decodeAudioData(await f.arrayBuffer()); audios.push({name:f.name, buffer:ab, dur:ab.duration}); }
+    catch(err){ console.warn("Lỗi giải mã", f.name, err); }
+  }
+  const total = audios.reduce((s,a)=>s+a.dur,0);
+  $("audInfo").textContent = `Đã nạp ${audios.length} tiếng — tổng ~${total.toFixed(1)}s (${(total/60).toFixed(1)} phút)`;
+  setStatus(""); ready();
+});
+
+// ---------- Vẽ 1 khung ----------
+function drawSeg(idx, p, W, H){
+  const z = parseFloat($("zoom").value)/100 || 0;
+  const motion = $("motion").value==="1";
+  const scale = motion ? ((idx%2===0) ? (1 + z*p) : (1 + z*(1-p))) : 1;
+  ctx.fillStyle = "#ffffff"; ctx.fillRect(0,0,W,H);
+  const im = images[idx % images.length].img;
+  const r = Math.min(W/im.width, H/im.height);
+  const dw = im.width*r*scale, dh = im.height*r*scale;
+  ctx.drawImage(im, (W-dw)/2, (H-dh)/2, dw, dh);
+}
+function buildTimeline(){
+  const pad = parseFloat($("pad").value)||0;
+  const n = Math.min(images.length, audios.length);
+  const segs = []; let t = 0;
+  for (let i=0;i<n;i++){ const d = audios[i].dur + pad; segs.push({i, start:t, dur:d}); t += d; }
+  return {segs, total:t, n, pad};
+}
+function segAt(segs, t){ for (let k=segs.length-1;k>=0;k--) if (t>=segs[k].start) return segs[k]; return segs[0]; }
+const bitrateFor = W => W>=3840 ? 26e6 : (W>=2560 ? 14e6 : 8e6);
+function makeSilent(dur, channels){ const sr=audioCtx.sampleRate; const len=Math.max(1,Math.round(dur*sr)); return audioCtx.createBuffer(Math.max(1,channels), len, sr); }
+
+// ---------- Xem trước 10s ----------
+$("preview").addEventListener("click", ()=>{
+  const [W,H] = $("res").value.split("x").map(Number); cv.width=W; cv.height=H;
+  const {segs,total} = buildTimeline(); const t0 = performance.now();
+  cancelAnimationFrame(rafId);
+  (function loop(){
+    const t = (performance.now()-t0)/1000;
+    if (t>=Math.min(10,total)){ setStatus("Xong xem trước."); return; }
+    const s = segAt(segs,t); drawSeg(s.i, clamp((t-s.start)/s.dur), W, H);
+    setStatus(`Xem trước ${t.toFixed(1)}s — cảnh ${s.i+1}/${segs.length}`);
+    rafId = requestAnimationFrame(loop);
+  })();
+});
+
+// ---------- Nút xuất ----------
+$("export").addEventListener("click", async ()=>{
+  const mode = $("engine").value;
+  const [W,H] = $("res").value.split("x").map(Number); cv.width=W; cv.height=H;
+  audioCtx = audioCtx || new (window.AudioContext||window.webkitAudioContext)();
+  if (audioCtx.state==="suspended") await audioCtx.resume();
+  stopFlag=false; $("export").disabled=true; $("preview").disabled=true; $("stop").disabled=false;
+  try{
+    let useModern = false;
+    if (mode!=="compat"){ await loadMB(); useModern = !!(MB && window.VideoEncoder); }
+    if (mode==="modern" && !useModern) throw new Error("Mediabunny/WebCodecs không sẵn sàng");
+    if (useModern) await exportModern(W,H); else await exportCompat(W,H);
+  }catch(err){
+    console.error(err);
+    if (mode!=="compat"){ setStatus("Mediabunny lỗi ("+err.message+") — chuyển chế độ tương thích…","err");
+      try{ await exportCompat(W,H); }catch(e2){ setStatus("Lỗi xuất: "+e2.message,"err"); resetBtns(); } }
+    else { setStatus("Lỗi xuất: "+err.message,"err"); resetBtns(); }
+  }
+});
+$("stop").addEventListener("click", ()=>{ stopFlag=true; setStatus("Đang dừng…"); });
+
+// ========== ENGINE 1: Mediabunny (WebCodecs → MP4, frame-accurate) ==========
+async function exportModern(W,H){
+  const { Output, Mp4OutputFormat, BufferTarget, StreamTarget, CanvasSource, AudioBufferSource } = MB;
+  const {segs,total,n,pad} = buildTimeline();
+  const fps = 30, chans = audios[0].buffer.numberOfChannels || 1;
+
+  // nơi lưu: ưu tiên ghi thẳng ra ổ đĩa (không tràn RAM khi 4K dài)
+  let target, useFS=false;
+  if (window.showSaveFilePicker){
+    try{
+      const handle = await window.showSaveFilePicker({suggestedName:"final_video.mp4",
+        types:[{description:"MP4 video", accept:{"video/mp4":[".mp4"]}}]});
+      const writable = await handle.createWritable();
+      target = new StreamTarget(writable); useFS=true;
+    }catch(e){ if (e.name==="AbortError"){ setStatus("Đã hủy chọn nơi lưu."); resetBtns(); return; } }
+  }
+  if (!target) target = new BufferTarget();
+
+  const output = new Output({ format:new Mp4OutputFormat({ fastStart: useFS ? false : "in-memory" }), target });
+  const vSrc = new CanvasSource(cv, { codec:"avc", bitrate: bitrateFor(W) });
+  output.addVideoTrack(vSrc, { frameRate: fps });
+  const aSrc = new AudioBufferSource({ codec:"aac", bitrate: 192e3 });
+  output.addAudioTrack(aSrc);
+  await output.start();
+
+  const padBuf = pad>0 ? makeSilent(pad, chans) : null;
+  const totalFrames = Math.max(1, Math.round(total*fps));
+  let nextAudio = 0;
+  setStatus("● [Mediabunny] Đang encode…");
+  for (let f=0; f<totalFrames; f++){
+    if (stopFlag){ await output.cancel(); setStatus("Đã dừng, hủy xuất."); resetBtns(); return; }
+    const t = f/fps; const s = segAt(segs,t);
+    // chèn audio của các cảnh đã vẽ xong (xen kẽ để nhẹ RAM)
+    while (nextAudio < n && t >= segs[nextAudio].start + segs[nextAudio].dur - 1e-6){
+      await aSrc.add(audios[nextAudio].buffer); if (padBuf) await aSrc.add(padBuf); nextAudio++;
+    }
+    drawSeg(s.i, clamp((t-s.start)/s.dur), W, H);
+    await vSrc.add(t, 1/fps);
+    if (f % 12 === 0){ $("prog").style.width=(f/totalFrames*94).toFixed(1)+"%";
+      setStatus(`● [Mediabunny] ${(t).toFixed(1)}/${total.toFixed(0)}s — cảnh ${s.i+1}/${n}`); await new Promise(r=>setTimeout(r)); }
+  }
+  while (nextAudio < n){ await aSrc.add(audios[nextAudio].buffer); if (padBuf) await aSrc.add(padBuf); nextAudio++; }
+  vSrc.close(); aSrc.close();
+  setStatus("● [Mediabunny] Hoàn tất file…"); $("prog").style.width="97%";
+  await output.finalize();
+
+  if (useFS){ setStatus("✅ XONG (Mediabunny/MP4) — đã lưu final_video.mp4 ra ổ đĩa bạn chọn.","ok"); }
+  else {
+    const blob = new Blob([output.target.buffer], {type:"video/mp4"});
+    const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="final_video.mp4"; a.click();
+    setStatus(`✅ XONG (Mediabunny/MP4) — tải final_video.mp4 (${(blob.size/1e6).toFixed(1)} MB).`,"ok");
+  }
+  $("prog").style.width="100%"; resetBtns();
+}
+
+// ========== ENGINE 2: MediaRecorder (fallback, .webm, thời gian thực) ==========
+function pickMime(){
+  const opts=["video/mp4;codecs=h264,aac","video/webm;codecs=vp9,opus","video/webm;codecs=vp8,opus","video/webm"];
+  for (const m of opts) if (window.MediaRecorder && MediaRecorder.isTypeSupported(m)) return m;
+  return "";
+}
+async function exportCompat(W,H){
+  if (!window.MediaRecorder || !cv.captureStream) throw new Error("Trình duyệt không hỗ trợ MediaRecorder");
+  const mime = pickMime(); if (!mime) throw new Error("Không có định dạng ghi hỗ trợ");
+  const {segs,total,n} = buildTimeline();
+  const fps=30, vStream=cv.captureStream(fps), dest=audioCtx.createMediaStreamDestination();
+  const mixed=new MediaStream([...vStream.getVideoTracks(), ...dest.stream.getAudioTracks()]);
+  recorder=new MediaRecorder(mixed,{mimeType:mime, videoBitsPerSecond:bitrateFor(W), audioBitsPerSecond:192000});
+  const chunks=[]; recorder.ondataavailable=e=>{ if(e.data.size) chunks.push(e.data); };
+  await new Promise(resolve=>{
+    recorder.onstop=()=>{
+      const blob=new Blob(chunks,{type:mime.split(";")[0]});
+      const ext=mime.startsWith("video/mp4")?"mp4":"webm";
+      const a=document.createElement("a"); a.href=URL.createObjectURL(blob); a.download="final_video."+ext; a.click();
+      setStatus(`✅ XONG (tương thích) — tải final_video.${ext} (${(blob.size/1e6).toFixed(1)} MB).`,"ok");
+      resetBtns(); resolve();
+    };
+    const startAt=audioCtx.currentTime+0.25;
+    for (let i=0;i<n;i++){ const src=audioCtx.createBufferSource(); src.buffer=audios[i].buffer;
+      src.connect(dest); src.connect(audioCtx.destination); src.start(startAt+segs[i].start); }
+    recorder.start(1000);
+    setStatus("● [Tương thích] Đang ghi thời gian thực… để yên tab này tới khi xong.");
+    (function loop(){
+      const t=audioCtx.currentTime-startAt;
+      if (stopFlag || t>=total){ try{recorder.stop()}catch(e){}; return; }
+      if (t>=0){ const s=segAt(segs,t); drawSeg(s.i, clamp((t-s.start)/s.dur), W, H); }
+      $("prog").style.width=(clamp(t/total)*100).toFixed(1)+"%";
+      setStatus(`● [Tương thích] Ghi ${Math.max(0,t).toFixed(1)}/${total.toFixed(0)}s`);
+      rafId=requestAnimationFrame(loop);
+    })();
+  });
+}
+
+ctx.fillStyle="#fff"; ctx.fillRect(0,0,cv.width,cv.height);
+ctx.fillStyle="#bbb"; ctx.font="16px sans-serif"; ctx.textAlign="center";
+ctx.fillText("Khung xem trước sẽ hiện ở đây", cv.width/2, cv.height/2);
+</script>
+</body>
+</html>

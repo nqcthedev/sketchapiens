@@ -8,7 +8,7 @@ Mô tả nằm riêng ở `MOTA_VIDEO_V17.md`. File này là **title · chapters
 
 > ## How Did Ancient Humans Survive Months of Being Wet?
 
-Đã chốt ở `V17_PACKAGING_CHOT.md`. **Giữ nguyên, không đổi.**
+Đã chốt ở `kho/4_luutru/V17_PACKAGING_CHOT.md`. **Giữ nguyên, không đổi.**
 
 ### 2 biến thể để A/B sau 48h nếu CTR dưới 3%
 

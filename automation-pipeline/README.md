@@ -58,5 +58,5 @@ python pipeline.py            # gen_prompt + gen_image(API) + gen_tts(ElevenLabs
 
 ## Moat (phần khó thật, không phải render)
 Như bạn nói: **nghiên cứu thị trường → tìm nội dung có khả năng đề xuất → viết giữ chân.**
-Hai thứ đó nằm ở: `BANG_CAU_TatCa_CuNo_2026-07-29.md` + `NGHIENCUU_CloneSwarm_2026-07-29.md` (research/đề xuất) ⛔ *(SoTay_ChonDeTai đã chết)* và skill
+Hai thứ đó nằm ở: `kho/3_bangchung/BANG_CAU_TatCa_CuNo_2026-07-29.md` + `kho/3_bangchung/NGHIENCUU_CloneSwarm_2026-07-29.md` (research/đề xuất) ⛔ *(SoTay_ChonDeTai đã chết)* và skill
 `viet-kich-ban-nguoi-que-co-dai` (retention). Pipeline này chỉ là khâu sản xuất phía sau.

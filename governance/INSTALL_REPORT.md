@@ -7,7 +7,7 @@
 |---|---|
 | **Project root** | `/Users/admin/Claude/Projects/Build Channel Người Que Cổ Đại/` |
 | **Specification** | `/Users/admin/Downloads/Sketchapiens_Architecture_Upgrade_v1.md` — 316 dòng, 10.375 B, đọc **đầy đủ** |
-| **Audit** | `PROJECT_FULL_AUDIT_EXPORT.md` — 1.449 dòng, 149.590 B, đọc **đầy đủ** *(do chính phiên này tạo)* |
+| **Audit** | `governance/PROJECT_FULL_AUDIT_EXPORT.md` — 1.449 dòng, 149.590 B, đọc **đầy đủ** *(do chính phiên này tạo)* |
 | **Git commit** | `bc43b57` — `chore: install Sketchapiens production control plane v1` |
 | **Doctor** | **PASS 33 · WARN 2 · FAIL 0** |
 | **Kết luận** | ✅ **GO cho pilot V19** — xem điều kiện ở cuối |
@@ -106,8 +106,8 @@ Không có va chạm nên không phải bỏ qua file nào.
 
 | ID | Xung đột |
 |---|---|
-| D-01 | `WORKFLOW_Production.md` ↔ `FLOW_VietKichBan_11Cong.md` cùng quản khâu viết |
-| D-02 | `LENH_GPT_ReviewKichBan_v3.md` **đầu file cấm** dán bối cảnh, **cuối file đảo lại** |
+| D-01 | `kho/1_luat/WORKFLOW_Production.md` ↔ `kho/1_luat/FLOW_VietKichBan_11Cong.md` cùng quản khâu viết |
+| D-02 | `kho/1_luat/LENH_GPT_ReviewKichBan_v3.md` **đầu file cấm** dán bối cảnh, **cuối file đảo lại** |
 | D-03 | `cartoon`/`clean`/`smooth`: skill chia-shot **bắt buộc dùng**, template thumbnail **cấm tuyệt đối** |
 | D-04 | `@token` *(CastBible, BasePack01)* ↔ lặp khối chữ *(hai skill chia-shot)* |
 
@@ -138,7 +138,7 @@ D-01 nguồn chuẩn khâu viết · D-02 dán bối cảnh review · D-03 phạ
 ✅ .gitignore che đủ
 ✅ Thư mục video cũ còn nguyên      19 thư mục
 ✅ File gốc kho còn nguyên          81 file .md/.txt
-✅ còn 00_LUAT_HIEN_HANH.md · PROJECT_FULL_AUDIT_EXPORT.md · 2_KHO_BANGHI/00_KHO.md
+✅ còn 00_LUAT_HIEN_HANH.md · governance/PROJECT_FULL_AUDIT_EXPORT.md · 2_KHO_BANGHI/00_KHO.md
 ⚠️  Quyết định còn treo             19 mục
 ────────────────────────────────────
    PASS 33   WARN 2   FAIL 0
@@ -208,7 +208,7 @@ Cả 2 WARN đều **đúng dự kiến**, không phải lỗi.
 | P5 | **Ghi số Mack thật vào `RULE_REGISTRY`** sau khi đối chiếu Tầng A trên 52 bản ghi | Tầng A đúc từ Mack mà 4 tháng không truy được kênh. Nay có bản ghi thật — đây là việc treo lâu nhất | trung bình |
 | P6 | **`analytics/channel/` + một lần nhập số Studio thủ công** | R4: vòng phản hồi đang đứt hẳn. Chỉ cần một file có thật là `/postmortem` chạy được | thấp |
 | P7 | **Đưa `2_KHO_BANGHI/` ra sibling ngoài repo** *(spec §9)* | Đã gitignore nên không vào git, nhưng vẫn nằm trong thư mục làm việc → vẫn có thể bị mở nhầm khi đang viết | trung bình — cần D-15 |
-| P8 | **Dán biển ⛔ cho `BOCTACH_4Kenh_SoSanh_2026-08-04.md`** | File duy nhất chết-trong-sổ mà **không có biển**, và nó chứa mốc "trung vị 18.500" đã đo lại ra 6.001. Nhiệm vụ cấm sửa file gốc nên chưa làm | rất thấp — cần chủ cho phép sửa 1 dòng |
+| P8 | **Dán biển ⛔ cho `kho/3_bangchung/BOCTACH_4Kenh_SoSanh_2026-08-04.md`** | File duy nhất chết-trong-sổ mà **không có biển**, và nó chứa mốc "trung vị 18.500" đã đo lại ra 6.001. Nhiệm vụ cấm sửa file gốc nên chưa làm | rất thấp — cần chủ cho phép sửa 1 dòng |
 
 ---
 

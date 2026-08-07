@@ -1,6 +1,6 @@
 # V19 — ĐOẠN KẾT (bản 2, đã gỡ 2 chỗ đụng V17)
 
-> **Viết TRƯỚC chương 5**, theo luật BOOKEND của `NganHang_ReHook_BucketBrigade.md`:
+> **Viết TRƯỚC chương 5**, theo luật BOOKEND của `kho/2_nguyenlieu/NganHang_ReHook_BucketBrigade.md`:
 > *"viết câu CUỐI trước"* — để chương 5 có đích mà hạ cánh vào.
 
 ## ⛔ Bản 1 đã bỏ — hai chỗ đụng V17
