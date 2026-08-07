@@ -50,3 +50,20 @@ từ `code.claude.com/docs` trước khi áp — không tin thẳng.*
 
 `knowledge/` 7 thư mục con · `pipeline_defs/longform_faceless.yaml` · `shared_assets/` — đều là
 **migration nội dung**, mà D-01…D-04 chưa quyết. Dựng cây rỗng rồi để trống là thêm chỗ để trôi.
+
+### Năm ý nhỏ — đã đọc, chưa áp, ghi kẻo mất
+
+*Rà lại toàn bộ 1096 dòng ngày 07/08. Năm ý này không lớn bằng bốn việc trên, nhưng đều có thật
+và đều rẻ. Không cái nào cần quyết định của chủ để **ghi lại**; áp thì mới cần.*
+
+| # | Ý | Nguồn | Áp vào đâu |
+|---|---|---|---|
+| **a** | **`decision-log.md` mỗi video** — ghi phương án đã cân nhắc, độ tin cậy, lý do chọn | §4.1 · §8 | Hiện lý do chọn nằm rải trong `CHOT_V19.md` và trong hội thoại. V19 đổi title **ba lần**, mỗi lần lý do ghi một chỗ khác nhau |
+| **b** | **Đối chiếu trạng thái ghi với thực tế trên đĩa** | §4.2 | `video.yaml` nói `runs.produced_count: 191` mà thư mục chỉ có 187 ảnh thì phải báo. `project_doctor.py` làm được, chưa làm |
+| **c** | **Chạy pipeline TỪNG PHẦN** — chạy từ hoặc tới một chặng, không dựng lại tất cả | §4.3 | Gen thiếu 4 ảnh mà phải chạy lại cả 191 là chỗ đã đau thật *(V17: 263 prompt ra 190 ảnh)* |
+| **d** | **Một version có nhiều "biểu hiện"** — cùng một `vNNN` sinh ra: lời đọc EN · bảng duyệt EN+VI · file nạp TTS · phụ đề · bản chép đã đăng | §4.4 *(AYON: Product→Version→Representation)* | Đúng thứ V19 đang có: `Script_Video19_narration.txt` · `DUYET_V19_EN_VI.md` · `SHOTLINES_FULL.txt` · `TTS_input_per_shot.txt` — **bốn biểu hiện của cùng một bản**, mà không file nào nói ra điều đó. Lệch nhau là không ai biết |
+| **e** | **Cửa "sẵn sàng" trước khi tiêu tiền** — `shot chuẩn bị xong → shot sẵn sàng → cho phép gen → chạy` | §4.8 *(Jellyfish)* · §16 | *"Đừng gen ảnh chỉ vì đã có bản nháp."* Gen 191 ảnh từ một version chưa duyệt là đốt tiền |
+
+**Ý (d) đáng chú ý nhất cho V19 ngay bây giờ:** bốn file kia phải luôn khớp nhau. Hiện chỉ có
+`build_prompts.py` kiểm ghép-shot-khớp-narration; **không có gì kiểm `DUYET_V19_EN_VI.md` còn khớp
+kịch bản sau vòng 5 và vòng 6 hay không.** Bảng duyệt EN+VI đang là bản **trước vòng 5**.

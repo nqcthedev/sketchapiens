@@ -2,9 +2,13 @@
 **Title:** Why Couldn't Ancient Humans Just Hold It Until Morning?
 *(Vì sao người cổ đại không nhịn được tới sáng?)*
 
-**1.581 từ · ~8 phút 50 · 6 khối.** Không có cột hình — cột hình làm sau khi chốt lời.
+**1,491 từ · 126 dòng · ~8 phút 20 · 6 khối.** Không có cột hình — cột hình làm sau khi chốt lời.
+
+> 🔄 **Đồng bộ lại 07/08** sau vòng review 5 và 6. Bản trước lệch kịch bản **22 dòng**.
+> Kiểm bằng `python3 -c` đối chiếu từng dòng — xem `governance/MIGRATION_LOG.md` ý (d).
 
 ---
+
 
 ## HOOK — 0:00 → 0:50
 
@@ -20,13 +24,11 @@
 | So why couldn't they? | Vậy sao họ lại không nhịn được? |
 | Not because they were soft, or slow, or hairless, or close to blind after sunset. | Không phải vì họ yếu, chậm, không lông, hay gần như mù sau khi mặt trời lặn. |
 | All of that is true. None of it is the answer. | Tất cả đều đúng. Không cái nào là câu trả lời. |
-| The answer is that the system has a failure mode. | Câu trả lời là: hệ thống đó có một kiểu hỏng. |
+| The answer is that the system fails. | Câu trả lời là: hệ thống đó hỏng. |
 | It fails hardest on the coldest nights. | Nó hỏng nặng nhất vào những đêm lạnh nhất. |
 | And it fails worst in the people least able to survive what was waiting outside. | Và nó hỏng tệ nhất ở đúng những người ít có khả năng sống sót nhất trước thứ đang chờ bên ngoài. |
 
----
-
-## CHƯƠNG 1 — CA ĐÊM · 0:50 → 2:40
+## CHƯƠNG 1 — CA ĐÊM — 0:50 → 2:40
 
 | EN | VI |
 |---|---|
@@ -34,7 +36,7 @@
 | After sunset two things climb together in your blood. | Sau khi mặt trời lặn, hai thứ cùng dâng lên trong máu bạn. |
 | One is melatonin, which everybody has heard of. | Một là melatonin, ai cũng từng nghe. |
 | The other is vasopressin, which almost nobody has. | Cái kia là vasopressin, gần như không ai nghe. |
-| Vasopressin is an instruction to your kidneys, and the instruction is to make less urine. | Vasopressin là một mệnh lệnh gửi tới thận, và mệnh lệnh đó là: làm ít nước tiểu lại. |
+| Vasopressin tells your kidneys to make less urine. | Vasopressin bảo thận bạn làm ít nước tiểu lại. |
 | Your bladder is working the same shift. | Bàng quang của bạn cũng đang trực cùng ca đó. |
 | It clocks on at sunset and has never once called in sick. | Nó chấm công lúc hoàng hôn và chưa một lần xin nghỉ ốm. |
 | Overnight it turns down the signal it sends your brain, so it can hold more before it says anything. | Suốt đêm nó vặn nhỏ tín hiệu gửi lên não, nên chứa được nhiều hơn trước khi lên tiếng. |
@@ -48,7 +50,7 @@
 | Water was the reason it evolved. Staying inside all night was a side effect. | Nước mới là lý do nó tiến hoá. Việc ở yên trong nhà cả đêm chỉ là tác dụng phụ. |
 | But the side effect is the one that mattered. | Nhưng cái tác dụng phụ ấy mới là cái quyết định. |
 | So what was it worth? | Vậy nó đáng giá bao nhiêu? |
-| The cleanest way to see that is in the people who do not have it. | Cách nhìn rõ nhất là nhìn vào những người không có nó. |
+| Look at the people whose bodies do not do it. | Hãy nhìn những người mà cơ thể không làm việc đó. |
 | When the vasopressin rhythm goes flat, urine production does not drop after dark. | Khi nhịp vasopressin bị bẹt đi, lượng nước tiểu không giảm xuống sau khi trời tối. |
 | Those people are up three and four times a night, every night. | Những người đó dậy ba bốn lần mỗi đêm, đêm nào cũng vậy. |
 | The condition has a name. Nocturnal polyuria. | Tình trạng này có tên. Đa niệu về đêm. |
@@ -56,11 +58,9 @@
 | It is something that gets done for you. | Nó là việc được làm hộ bạn. |
 | And fifty thousand years ago it was doing something more than letting you rest. | Và năm mươi nghìn năm trước, nó làm nhiều hơn là cho bạn nghỉ ngơi. |
 | It was keeping a soft, slow, hairless animal with no night vision on the safe side of the firelight. | Nó giữ một con vật yếu, chậm, không lông, không nhìn được ban đêm ở phía an toàn của ánh lửa. |
-| Eight hours at a stretch, without that animal having to decide anything. | Tám tiếng liền, mà con vật đó không phải quyết định gì cả. |
+| Eight hours at a stretch, and nobody had to decide anything. | Tám tiếng liền, mà không ai phải quyết định gì cả. |
 
----
-
-## CHƯƠNG 2 — CÁI LẠNH PHÁ CA TRỰC · 2:40 → 4:30
+## CHƯƠNG 2 — CÁI LẠNH PHÁ CA TRỰC — 2:40 → 4:30
 
 | EN | VI |
 |---|---|
@@ -75,13 +75,12 @@
 | Your kidneys read that as a surplus and start getting rid of it. | Thận đọc đó là chỗ dư và bắt đầu tống nó đi. |
 | The name for this is cold induced diuresis. | Cái này có tên: lợi niệu do lạnh. |
 | You have felt it every time standing outside in winter sent you looking for a toilet. | Bạn từng thấy nó mỗi lần đứng ngoài trời mùa đông rồi phải đi tìm nhà vệ sinh. |
-| Now, the part researchers took a while to work out was not that it happens. It was why. | Chỗ mà giới nghiên cứu mất một thời gian mới gỡ ra không phải là *nó có xảy ra không*. Mà là *vì sao*. |
+| What took researchers a while was not whether it happens. It was why. | Thứ khiến giới nghiên cứu mất một thời gian không phải là *nó có xảy ra không*. Mà là *vì sao*. |
 | For a long time the assumption was that cold simply switched the vasopressin off. | Rất lâu người ta đoán rằng cái lạnh chỉ đơn giản là tắt vasopressin đi. |
 | The more recent work says something different, and worse. | Nghiên cứu gần đây nói khác, và tệ hơn. |
 | The vasopressin is still being sent. The kidneys stop responding to it. | Vasopressin vẫn được gửi đi. Thận thì thôi không đáp lại nữa. |
-| The night shift is still on duty. Nobody is taking its calls. | Ca trực đêm vẫn còn đó. Chỉ là không ai nghe máy. |
 | Researchers are still arguing about the exact mechanism, and it would be wrong to say it is settled. | Giới nghiên cứu vẫn còn cãi nhau về cơ chế chính xác, và nói là đã ngã ngũ thì sai. |
-| But the effect is not in doubt, and the effect arrives at the worst possible moment. | Nhưng hiệu ứng thì không ai nghi ngờ, và nó ập tới đúng vào lúc tệ nhất có thể. |
+| But that it happens is not in doubt. And it happens at the worst possible time. | Nhưng chuyện nó xảy ra thì không ai nghi ngờ. Và nó xảy ra đúng vào lúc tệ nhất có thể. |
 | Cold means night. Cold means the fire is the only warm thing within reach. | Lạnh nghĩa là đêm. Lạnh nghĩa là đống lửa là thứ ấm duy nhất trong tầm với. |
 | So on the coldest nights, the system holding a person beside that fire is the least reliable it ever gets. | Nên vào những đêm lạnh nhất, cái hệ thống giữ người ta ngồi cạnh đống lửa đó lại yếu nhất. |
 | Now put those two facts next to each other. | Giờ đặt hai dữ kiện đó cạnh nhau. |
@@ -90,9 +89,7 @@
 | That was true for everyone who ever slept beside a fire. | Điều đó đúng với mọi người từng ngủ cạnh một đống lửa. |
 | But some people had far less say in it than others. | Nhưng có những người còn ít tiếng nói hơn hẳn những người khác. |
 
----
-
-## CHƯƠNG 3 — AI KHÔNG NHỊN ĐƯỢC · 4:30 → 6:00
+## CHƯƠNG 3 — AI KHÔNG NHỊN ĐƯỢC — 4:30 → 6:00
 
 | EN | VI |
 |---|---|
@@ -101,23 +98,20 @@
 | In a study of six and a half thousand children in Xi'an, nine percent of five-year-old boys and six percent of the girls were still wetting the bed. | Trong một nghiên cứu trên sáu nghìn rưỡi trẻ ở Tây An, chín phần trăm bé trai năm tuổi và sáu phần trăm bé gái vẫn còn tè dầm. |
 | Not occasionally. As a pattern. | Không phải thi thoảng. Mà thành nếp. |
 | That is a modern number, from a modern city, with heating and indoor plumbing. | Đó là con số hiện đại, ở một thành phố hiện đại, có sưởi và có nước máy trong nhà. |
-| The bladder underneath it does not know about either of those things. | Cái bàng quang bên dưới con số đó không biết gì về cả hai thứ ấy. |
+| A five-year-old bladder does not know about heating or plumbing. | Bàng quang của một đứa trẻ năm tuổi không biết gì về lò sưởi hay nước máy. |
 | It is small, and the signal telling the brain about it is not finished yet. | Nó nhỏ, và cái tín hiệu báo lên não vẫn chưa hoàn thiện. |
-| Then there is pregnancy. | Rồi tới chuyện mang thai. |
+| It is not only children. | Không chỉ có trẻ con. |
 | In a study of two hundred and seventy pregnant women, three out of four were getting up at night. | Trong một nghiên cứu trên hai trăm bảy mươi thai phụ, ba trên bốn người phải dậy ban đêm. |
-| In the first trimester it was under a third. By the third it was three quarters. | Ba tháng đầu chưa tới một phần ba. Tới ba tháng cuối là ba phần tư. |
+| Under a third in the first trimester. Three quarters by the last. | Chưa tới một phần ba ở ba tháng đầu. Ba phần tư vào ba tháng cuối. |
 | A full-term uterus sits directly on the bladder. | Một tử cung đủ tháng nằm đè thẳng lên bàng quang. |
-| There is no version of that which waits politely until morning. | Không có phiên bản nào của chuyện đó chịu lịch sự chờ tới sáng. |
-| And at the far end of a life, the system starts handing the keys back. | Và ở đầu bên kia của một đời người, hệ thống bắt đầu trả chìa khoá lại. |
+| That does not wait politely until morning. | Chuyện đó không chịu lịch sự chờ tới sáng. |
 | Past sixty-five, about half of people get up at least once a night, and about a quarter get up twice or more. | Qua sáu mươi lăm, khoảng một nửa số người dậy ít nhất một lần mỗi đêm, và khoảng một phần tư dậy từ hai lần trở lên. |
-| That is the same vasopressin rhythm from earlier, flattening out with age. | Đó vẫn là cái nhịp vasopressin lúc nãy, bẹt dần theo tuổi. |
+| The same rhythm from earlier, flattening out with age. | Vẫn cái nhịp lúc nãy, bẹt dần theo tuổi. |
 | So line those three up. | Vậy xếp ba nhóm đó lại. |
 | Small children. Women late in pregnancy. The old. | Trẻ nhỏ. Phụ nữ cuối thai kỳ. Người già. |
-| Which of those three could walk twenty steps into the dark and get back again? | Trong ba nhóm đó, nhóm nào đi được hai mươi bước vào bóng tối rồi quay về? |
+| Which of those three gets back to the fire fastest? | Trong ba nhóm đó, nhóm nào quay về tới đống lửa nhanh nhất? |
 
----
-
-## CHƯƠNG 4 — HARAMAYA · 6:00 → 8:00
+## CHƯƠNG 4 — HARAMAYA — 6:00 → 8:00
 
 | EN | VI |
 |---|---|
@@ -131,32 +125,30 @@
 | Nobody knows how well a fire actually worked. | Không ai biết một đống lửa thực sự có tác dụng tới đâu. |
 | There is no study of Paleolithic campfires and how many predators they turned back. | Không có nghiên cứu nào về lửa trại thời đồ đá cũ và số thú dữ mà chúng đẩy lui được. |
 | There never will be. You cannot rerun the Stone Age. | Sẽ không bao giờ có. Không ai chạy lại được Thời đồ đá. |
-| But you do not have to, because in some places that walk out of the light never stopped. | Nhưng không cần, vì ở vài nơi cái chuyến đi ra khỏi vùng sáng đó chưa bao giờ dừng. |
-| In the Haramaya district of eastern Ethiopia, three researchers spent two years counting what spotted hyenas were doing to people. | Ở huyện Haramaya, miền đông Ethiopia, ba nhà nghiên cứu bỏ ra hai năm để đếm xem linh cẩu đốm đang làm gì với con người. |
+| But there are places where people still walk out into the dark at night, and somebody counted. | Nhưng có những nơi người ta vẫn bước ra bóng tối ban đêm, và có người đã đếm. |
+| In the Haramaya district of eastern Ethiopia, three researchers spent two years recording hyena attacks on people. | Ở huyện Haramaya, miền đông Ethiopia, ba nhà nghiên cứu bỏ ra hai năm ghi nhận các vụ linh cẩu tấn công người. |
 | They finished in 2013. | Họ kết thúc năm 2013. |
 | They recorded twenty four attacks. | Họ ghi nhận hai mươi tư vụ tấn công. |
 | Half of those attacks happened while the person was going to the toilet in the evening. | Một nửa số vụ đó xảy ra lúc người ta đi vệ sinh vào buổi tối. |
 | The rest happened to people sleeping outdoors, or walking between villages after dark. | Số còn lại xảy ra với người ngủ ngoài trời, hoặc đi giữa các làng sau khi trời tối. |
 | Between 2010 and 2012, twelve people in that district were killed. | Từ 2010 tới 2012, mười hai người trong huyện đó bị giết. |
 | Seven of them were children under the age of twelve. | Bảy trong số đó là trẻ dưới mười hai tuổi. |
-| Read that number again, because it is the whole argument. | Đọc lại con số đó, vì nó chính là toàn bộ lập luận. |
-| The people least able to wait until morning were the people least able to survive not waiting. | Những người ít nhịn được tới sáng nhất chính là những người ít sống sót nổi nhất khi không nhịn. |
-| And there is a second number in that paper that finishes the thought. | Và trong bài báo đó còn một con số nữa khép lại ý này. |
+| Seven out of twelve. | Bảy trên mười hai. |
+| The paper does not say what those seven were doing when it happened. | Bài báo không nói bảy người đó đang làm gì lúc chuyện xảy ra. |
+| What it does say is that half the attacks it recorded came during an evening toilet trip. | Thứ nó có nói là một nửa số vụ tấn công nó ghi nhận diễn ra trong một chuyến đi vệ sinh buổi tối. |
+| Those two facts sit next to each other. Nobody has joined them up. | Hai dữ kiện đó nằm cạnh nhau. Chưa ai nối chúng lại. |
+| There is a second number in the same paper. | Trong cùng bài báo đó còn một con số thứ hai. |
 | Of the twenty four people attacked, eighteen were men. | Trong hai mươi tư người bị tấn công, mười tám là đàn ông. |
-| The researchers put that down to men going out to help once something started. | Các nhà nghiên cứu quy chuyện đó cho việc đàn ông chạy ra ứng cứu khi sự việc đã bắt đầu. |
-| So the pattern is not that grown men were the ones in danger. | Nên quy luật ở đây không phải là đàn ông trưởng thành mới là người gặp nguy. |
-| It is that a child went out, and then the village went after the child. | Mà là một đứa trẻ đi ra, rồi cả làng chạy theo đứa trẻ. |
+| The researchers read that as men going out to help once something had already started. | Các nhà nghiên cứu đọc con số đó là đàn ông chạy ra ứng cứu khi sự việc đã bắt đầu. |
+| On their reading, the danger did not stop with whoever left the shelter. | Theo cách đọc của họ, mối nguy không dừng lại ở người rời chỗ trú. |
 | And nobody wrote down what those households actually do about it. | Và không ai ghi lại những hộ dân đó thực sự xoay xở thế nào. |
 | Not whether they wait for company, or carry a light, or simply hold on. | Không rõ họ chờ có người đi cùng, hay cầm theo đèn, hay đơn giản là nhịn. |
 | A team spent two years in that district and counted the attacks, not the arrangements. | Một nhóm ở đó hai năm và đếm các vụ tấn công, chứ không đếm những cách xoay xở. |
-| If we cannot get that answer out of a place with a hospital in it, we are not getting it out of the Pleistocene. | Nếu ta không moi được câu trả lời đó từ một nơi có bệnh viện, thì đừng hòng moi nó ra từ thế Pleistocene. |
 | That district has roads, a hospital, and electricity in some houses and not others. | Huyện đó có đường, có bệnh viện, và có điện ở một số nhà chứ không phải tất cả. |
-| What it shares with fifty thousand years ago is a much shorter list. | Thứ nó giống với năm mươi nghìn năm trước là một danh sách ngắn hơn nhiều. |
+| The list it shares with fifty thousand years ago is much shorter. | Danh sách nó chia sẻ với năm mươi nghìn năm trước thì ngắn hơn nhiều. |
 | An animal that hunts at dusk, a shelter you have to leave, and no light on the path. | Một con vật săn lúc chạng vạng, một chỗ trú mà bạn buộc phải rời khỏi, và không có ánh sáng nào trên đường. |
 
----
-
-## KẾT · 8:00 → 8:50
+## KẾT — 8:00 → 8:20
 
 | EN | VI |
 |---|---|
