@@ -10,6 +10,7 @@
 | File nào là luật cho việc này? | `governance/SOURCE_OF_TRUTH.md` |
 | Có được đổi luật không? | `governance/CHANGE_POLICY.md` |
 | Việc này chủ đã quyết chưa? | `governance/DECISIONS_REQUIRED.md` |
+| Dự án khác muốn làm theo cấu trúc này? | `governance/NEN_MONG_KeThua.md` |
 | Hiện trạng kho ra sao? | `governance/PROJECT_FULL_AUDIT_EXPORT.md` |
 
 Kho tri thức: `00_LUAT_HIEN_HANH.md` là **cửa vào**, nó nói mỗi câu hỏi thì file nào là luật.
