@@ -1,7 +1,7 @@
 # 🔬 Mổ xẻ video đối thủ — "Why Do Predators Ignore Sleeping Humans?"
 
 **Nguồn:** file mp4 user gửi (YouTube `XWQz7Fh2X58`). **Phân tích bằng ffmpeg** (tách frame + dò cắt cảnh + mpdecimate).
-**Metadata:** 1920×1072, 30fps, **18 phút 27s** (1107s), ~56MB. Frame đã lưu: `competitor_frames_predators/` (56 frame rải đều + 24 frame dải dày).
+**Metadata:** 1920×1072, 30fps, **18 phút 27s** (1107s), ~56MB. Frame đã lưu: `../3_bangchung/competitor_frames_predators/` (56 frame rải đều + 24 frame dải dày).
 
 ---
 

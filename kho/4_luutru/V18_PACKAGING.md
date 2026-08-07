@@ -182,7 +182,7 @@ File: `Cavemen_around_campfire_with_eyes_202608031005.jpeg` · 1376×768
 
 ## Trước hết: một luật của chính tôi vừa bị bác
 
-Tôi từng chấm bản 1 bằng ngưỡng **"sáng 80-110 · bão hoà 15-30%"**, rút từ vài thumbnail của Mack. Lần này đo **cả 29 quả thắng** trong `NGHIENCUU_Thumbnail_50K/` *(55K → 7,81M view)*:
+Tôi từng chấm bản 1 bằng ngưỡng **"sáng 80-110 · bão hoà 15-30%"**, rút từ vài thumbnail của Mack. Lần này đo **cả 29 quả thắng** trong `../3_bangchung/NGHIENCUU_Thumbnail_50K/` *(55K → 7,81M view)*:
 
 | | Trung vị 29 quả thắng | Khoảng giữa 50% | **Tương quan với view** |
 |---|---|---|---|

@@ -216,7 +216,7 @@ Ngày 29/07 tôi sửa luật thành **chữ 13-19% chiều cao**, kèm câu *"k
 | Bộ | Chiều cao chữ vàng |
 |---|---|
 | 21 ảnh style đối thủ *(chủ gửi 03/08)* | **21 – 22%** |
-| 29 quả thắng `NGHIENCUU_Thumbnail_50K/` | **trung vị 22%** |
+| 29 quả thắng `../3_bangchung/NGHIENCUU_Thumbnail_50K/` | **trung vị 22%** |
 
 → **Ngưỡng đúng là ~22%, không phải 13-19%.** Lần "sửa" 29/07 là một bước lùi — kênh lúc đó đang làm đúng. Thumbnail V18 bản 2 để 15% chính là hậu quả.
 
@@ -240,7 +240,7 @@ Hai ảnh **đêm** của đối thủ — `WHY NOT ATTACK?` (sói dưới trăn
 
 ## ⛔ LUẬT "ĐO TÔNG" ĐÃ CHẾT *(bác 03/08/2026)*
 
-Luật cũ ghi **sáng 80-110 · bão hoà 15-30%**, rút ra từ vài thumbnail của Mack. Đo lại bằng máy trên **cả 29 quả thắng** trong `NGHIENCUU_Thumbnail_50K/` *(55K → 7,81M view)*:
+Luật cũ ghi **sáng 80-110 · bão hoà 15-30%**, rút ra từ vài thumbnail của Mack. Đo lại bằng máy trên **cả 29 quả thắng** trong `../3_bangchung/NGHIENCUU_Thumbnail_50K/` *(55K → 7,81M view)*:
 
 | | Trung vị | Khoảng giữa 50% | Min → Max |
 |---|---|---|---|

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Kiểm tra bộ ảnh gen ra có khớp file prompt không — CHẠY TRƯỚC KHI GHÉP VIDEO.
-Dùng:  python3 verify_images.py <thư_mục_ảnh> <PROMPTS_FULL.txt>"""
+Dùng:  python3 tools/verify_images.py <thư_mục_ảnh> <PROMPTS_FULL.txt>"""
 import os, re, sys
 
 def main(img_dir, prompts_file):

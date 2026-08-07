@@ -1,6 +1,6 @@
 # TEMPLATE THUMBNAIL — BẢN KHOÁ v2
 
-*03/08/2026. Gộp bản Google Flow tự tổng hợp + đo máy trên **21 ảnh style đối thủ** và **29 quả thắng** `NGHIENCUU_Thumbnail_50K/`.*
+*03/08/2026. Gộp bản Google Flow tự tổng hợp + đo máy trên **21 ảnh style đối thủ** và **29 quả thắng** `../3_bangchung/NGHIENCUU_Thumbnail_50K/`.*
 
 > ## 🔒 CÁCH DÙNG
 >
