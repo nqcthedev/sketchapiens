@@ -21,14 +21,48 @@ Thước đo đúc từ **11 kịch bản đối thủ ≥300k view** (3 kênh: 
 > mà một thói quen: hễ đo được là biến thành đích.)*
 >
 > ### Loại 1 — RÀNG BUỘC CỨNG. Lệch là sai, không bàn.
-> Chỉ có bốn thứ, và chúng cứng vì **lý do sản xuất** hoặc vì **14/14 winner nhất trí**:
+> Còn **ba** thứ, và chúng cứng vì **lý do sản xuất** hoặc vì **14/14 winner nhất trí**:
 >
 > | | Vì sao cứng |
 > |---|---|
 > | Dấu `!` = **0** | 14/14 winner |
 > | Gạch ngang `—` giữa câu = **0** | TTS đọc vấp |
 > | **Mỗi câu một dòng** | mỗi dòng = 1 shot ảnh + 1 khối TTS |
-> | `I` ≈ 0 | 14/14 winner |
+>
+> ### ⛔ `I ≈ 0` — ĐÃ GỠ KHỎI RÀNG BUỘC CỨNG *(07/08/2026, chủ duyệt)*
+> Đo trên **200 bản ghi thật** trong `2_KHO_BANGHI/` — bộ dữ liệu mà lúc đúc luật chưa có.
+> Chia mỗi kênh làm đôi theo **mật độ "I" / 1000 từ** *(chia theo mật độ để độ dài hai nhóm khớp nhau)*:
+>
+> Chạy **cả 18 kênh**, chỉ tính 12 kênh có phép so **sạch** *(độ dài hai nhóm lệch dưới 15%)*:
+>
+> | | số kênh |
+> |---|---|
+> | nhóm nhiều "I" **thắng** | **9** |
+> | nhóm nhiều "I" **thua** | **3** |
+>
+> | kênh | ít "I" | nhiều "I" | |
+> |---|---|---|---|
+> | **Zenn** | 26.359 | **363.607** | **13,79×** |
+> | **Primal Glitch** | 2.735 | **37.939** | **13,87×** |
+> | **Mack** *(chính nguồn đúc ra luật)* | 17.895 | **164.311** | **9,18×** |
+> | **Stickly** | 10.539 | **30.065** | **2,85×** |
+> | Rune · Myrk · SuperJoy · Mogo · Simply A Stickman | | | 1,26× → 5,71× |
+> | ⛔ **Ink Explainer** *(hình mẫu của dự án)* | **657.575** | 144.601 | **0,22×** — ngược chiều |
+> | ⛔ Paint Explainer *(n=139)* | 1.480.730 | 1.234.301 | 0,83× |
+> | ⛔ MrHell | 2.165 | 1.806 | 0,83× |
+>
+> Hiệu ứng **sống sót qua kiểm tuổi video**: chia riêng nửa cũ / nửa mới của 3 kênh → **6/6 lần so đều cùng chiều**. Ở Before Civilization nhóm dùng "I" còn *mới hơn* mà vẫn thắng.
+>
+> 🔴 **Đọc cho đúng: 9/12, không phải 12/12.** Ink Explainer đi ngược mạnh nhất — và đó chính là kênh dự án chọn làm hình mẫu. Nên kết luận **không phải** "dùng I thì thắng". Kết luận là: **"I" không phải thứ để ra luật cứng theo bất kỳ chiều nào.**
+>
+> Và "I" là **người dẫn thật**, không phải trích thoại:
+> *"I want to be fair to Descartes here."* · *"…that is one of the most aggressively wrong takes in intellectual history."* · *"I find that both deeply frustrating and weirdly beautiful."*
+>
+> **Đọc thế nào:** chữ "I" không có phép màu, nó là **dấu hiệu của người dẫn có QUAN ĐIỂM**. Luật cũ cấm đúng cái đó. Khớp với chuyện đã dính: 4 vòng review liên tiếp gạch những câu duyên nhất là *"mùi ChatGPT"* — giọng không có quan điểm thì chỉ còn duyên dáng rỗng.
+>
+> **Giới hạn phải nói:** đây là **tương quan, không phải nhân quả**. Sạch nhất là Mack + Stickly (độ dài khớp). Before Civilization lệch độ dài; Zenn phần lớn bài có "I" = 0 nên phép chia đôi vô nghĩa.
+>
+> 🔴 **Chủ chốt 07/08:** *"mùi ChatGPT nhưng kịch bản hay với nhiều view thì vẫn ok hơn là kịch bản quá nghiêm khắc rồi chả có view nào."*
 >
 > ### Loại 2 — MỌI CON SỐ CÒN LẠI. Là triệu chứng, không phải đích.
 > Độ dài · nhịp đọc · you:we · % câu ngắn · dài câu TB · mật độ giác quan · số câu hỏi ·
@@ -51,7 +85,7 @@ Thước đo đúc từ **11 kịch bản đối thủ ≥300k view** (3 kênh: 
 > |---|---|
 > | Giác quan 7–9% | ❌ đo cùng từ điển thì V17 chỉ **5,2%**, V19 5,5% — thước khác nhau |
 > | Mỏ neo 3,2–5,1/phút | ❌ V19 đo ra **12,2** — thước khác nhau |
-> | you:we 1,5–2 | ⚠️ 4 winner ra **2,7 · 1,5 · 1,5 · 1,6** — chênh theo nội dung |
+> | you:we 1,5–2 | ❌ **CHẾT 07/08** — đo 200 bản ghi: Mack **1,17** · Stickly 1,50 · Before Civilization 2,73 · Zenn **5,00** · Ink Explainer **5,69**. Chính kênh nguồn nằm DƯỚI dải |
 > | Độ dài 9–12 phút | ⚠️ Ink Explainer: quả **1M = 11:37**, quả **769K = 6:04**. Quả 1,5M chỉ **1.543 từ** |
 > | **Nhịp hài 30–60 giây** *(mục A10)* | ⚠️ **thừa hưởng từ BENCHMARK SAI.** Đúc từ Mack/Stickly — mà **Stickly là kênh trúng số** *(trung vị 27.000, top-1 chiếm 45%)*. Đếm trên bản ghi quả **769K của Ink Explainer**: **đúng 1 câu đùa trong 6 phút**, tức ít hơn rubric **6–12 lần**. Và **4 vòng review liên tiếp** đều gạch những câu duyên nhất là mùi ChatGPT. → **Nhắm vài nhịp CẢ BÀI, không phải mỗi phút một nhịp** |
 
@@ -104,7 +138,7 @@ Thước đo đúc từ **11 kịch bản đối thủ ≥300k view** (3 kênh: 
 |---|---|---|---|
 | 10 | **Nhịp hài deadpan mỗi ~30-60s** (không thưa hơn) | "A lion doesn't have health insurance." · "heard a podcast and ran." | |
 | 11 | Kiểu đùa = **anachronism** (úp đời-sống-hiện-đại lên chuyện cổ) | "waiting for their IKEA furniture to arrive" | |
-| 12 | **Luật đại từ**: you=người xem · we=loài · "I" **gần bằng 0** | you gấp 1,5-2 lần we · Predators 3.166 từ có đúng **2** lần "I" | |
+| 12 | **Luật đại từ** *(viết lại 07/08)*: `you` = người xem · `we` = cả loài. **Người dẫn ĐƯỢC có ý kiến riêng** — dùng "I" khi đang nêu một quan điểm thật, không dùng để kể chuyện bản thân | ⛔ hai con số cũ đều đã chết trên 200 bản ghi: `I ≈ 0` *(xem LUẬT 0)* · `you:we 1,5-2` — Mack trung vị **1,17** (dưới dải), Zenn **5,00**, Ink Explainer **5,69**. **Không có dải nào cả.** Chấm 2 khi you/we đúng vai và có ít nhất một chỗ người dẫn tỏ rõ quan điểm | |
 | 13 | Nối câu bằng **but/therefore**, KHÔNG "and then" phẳng | "But here's where it gets interesting." | |
 | 14 | **Câu ngắn đanh** xen câu dài (phá nhịp) | "Yes. Yes, they were." · "Just gone." | |
 

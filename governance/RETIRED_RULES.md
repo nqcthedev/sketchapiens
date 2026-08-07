@@ -74,3 +74,53 @@ cả ba đều nhận cùng bộ đầu vào *(title + thumbnail + lời đọc)
 lý lẽ mà người viết đã dùng để tự thuyết phục mình trong cuộc trò chuyện chính.
 
 ⚠️ **Đừng dựng lại "agent lạnh" lần nữa.** Không có cấu hình nào làm được điều đó.
+
+---
+
+## ⛔ `I ≈ 0` — gỡ khỏi bốn RÀNG BUỘC CỨNG *(07/08/2026 · chủ duyệt)*
+
+**Luật cũ:** *"`I` ≈ 0 — 14/14 winner"*, một trong bốn ràng buộc cứng của LUẬT 0.
+**Kèm theo:** `you:we 1,5–2` ở mục A12.
+
+**Vì sao chết.** Luật đúc từ **11 kịch bản** hồi chưa có kho bản ghi. Nay đo trên **200 bản ghi
+thật** trong `2_KHO_BANGHI/`, chia mỗi kênh làm đôi theo **mật độ "I" / 1000 từ** *(chia theo
+mật độ chứ không theo số đếm, để độ dài hai nhóm khớp nhau)*:
+
+Chạy **cả 18 kênh**; 12 kênh cho phép so sạch *(độ dài hai nhóm lệch <15%)*:
+**9 kênh nhóm nhiều "I" thắng · 3 kênh thua.**
+
+| kênh | ít "I" | nhiều "I" | |
+|---|---|---|---|
+| Zenn | 26.359 | **363.607** | **13,79×** |
+| Primal Glitch | 2.735 | **37.939** | **13,87×** |
+| **Mack** — chính nguồn đúc ra luật | 17.895 | **164.311** | **9,18×** · dài 3.468 vs 3.301 |
+| Stickly | 10.539 | **30.065** | **2,85×** · dài 3.519 vs 3.453 |
+| Rune · Myrk · SuperJoy · Mogo · Simply A Stickman | | | 1,26× → 5,71× |
+| ⛔ **Ink Explainer** — hình mẫu của dự án | **657.575** | 144.601 | **0,22×** ngược chiều |
+| ⛔ Paint Explainer (n=139) | 1.480.730 | 1.234.301 | 0,83× |
+| ⛔ MrHell | 2.165 | 1.806 | 0,83× |
+
+Khử biến tuổi video: chia riêng nửa cũ / nửa mới của 3 kênh → **6/6 lần so cùng chiều**.
+Ở Before Civilization nhóm dùng "I" còn *mới hơn* mà vẫn thắng.
+
+🔴 **9/12, không phải 12/12.** Kênh đi ngược mạnh nhất lại chính là hình mẫu **Ink Explainer**.
+→ Kết luận **không phải** "dùng I thì thắng", mà là **"I" không đủ tư cách làm luật cứng theo
+bất kỳ chiều nào**. Đừng dựng luật mới ngược lại.
+
+⚠️ **Bài học phương pháp.** Bản đầu của mục này chỉ chạy **4 kênh** — đúng 4 kênh là nguồn của
+rubric — và ra bảng 100% cùng chiều. Chủ hỏi *"trong kho có quá trời kênh mà sao lấy mỗi 2 kênh"*;
+chạy hết 18 kênh thì lòi ra 3 ca ngược. **Chọn tập con theo thói quen là tự tạo ra sự nhất trí giả.**
+
+`you:we 1,5–2`: Mack **1,17** *(dưới dải)* · Stickly 1,50 · Before Civilization 2,73 ·
+Zenn **5,00** · Ink Explainer **5,69**. Không có dải nào cả.
+
+**Luật thay:** mục A12 nay là — `you` = người xem · `we` = cả loài · **người dẫn ĐƯỢC có ý
+kiến riêng**. Không kèm con số mục tiêu nào *(LUẬT 0: đo được không có nghĩa là đích)*.
+
+**Giới hạn.** Tương quan, không phải nhân quả. "I" là **dấu hiệu của người dẫn có quan điểm**,
+không phải nguyên nhân. Sáu kênh bị loại khỏi phép so vì độ dài hai nhóm lệch quá 15%
+*(Axen · Before Civilization · Bright Psycho · ExtinctZoo · Historical Architect)* — ở đó không
+tách được ảnh hưởng của "I" khỏi ảnh hưởng của độ dài.
+
+🔴 **Nguyên tắc chủ chốt cùng ngày:** *"mùi ChatGPT nhưng kịch bản hay với nhiều view thì vẫn
+ok hơn là kịch bản quá nghiêm khắc rồi chả có view nào."*
