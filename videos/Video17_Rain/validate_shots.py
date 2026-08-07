@@ -15,7 +15,17 @@ sys.path.insert(0, '.')
 import shot_data; importlib.reload(shot_data)
 from shot_data import SHOTS
 
-NARR = sys.argv[1] if len(sys.argv) > 1 else "narration.txt"
+# ⛔ 07/08/2026 — BA CỬA TỈ LỆ DƯỚI ĐÂY ĐÃ CHẾT, ĐỪNG CHÉP SANG VIDEO MỚI.
+#    "THẺ 30-45%" · "KHUNG CẢNH 55-70%" · "khung có chữ 40-70%" đúc từ ĐÚNG HAI kênh.
+#    Bảng 4-5 kênh (05/08) bác sạch: nền trắng 36%→80%, cả bốn đều thắng.
+#    Bản đã sửa: videos/Video19_NightWalk/validate_shots.py — xem governance/RETIRED_RULES.md
+#    File này giữ nguyên vì V17 đã sản xuất xong; nó là hiện vật, không phải khuôn.
+
+# 07/08: mặc định cũ là "narration.txt" — KHÔNG có file nào tên vậy, nên phép kiểm
+# cuối (ghép shot == nguyên văn kịch bản) chưa bao giờ chạy, chỉ ném FileNotFoundError.
+import glob as _g
+NARR = sys.argv[1] if len(sys.argv) > 1 else (
+    (_g.glob("Script_*_narration.txt") or ["narration.txt"])[0])
 txt = io.open("PROMPTS_FULL.txt", encoding="utf-8").read()
 blocks = re.findall(r'^(\d{3})\.\s(.*?)(?=\n\n\d{3}\.|\Z)', txt, re.S | re.M)
 N = len(SHOTS)
