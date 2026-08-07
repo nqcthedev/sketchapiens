@@ -5,7 +5,7 @@ duoc net ve tay cua doi thu. Model gen anh co gu rieng; chu khong deo duoc no.
 Cach dung: cho no XEM anh mau.
 
 BUOC 1 — trong Google Flow / Nano Banana Pro, UPLOAD file:
-   Video18_Sleep/REF/REF_caveman.jpg
+   videos/Video18_Sleep/REF/REF_caveman.jpg
    (day la khung hinh THAT cat tu video Predators 1,9M cua doi thu)
 
 BUOC 2 — dan prompt NGAN nay (khong dan prompt dai nua):

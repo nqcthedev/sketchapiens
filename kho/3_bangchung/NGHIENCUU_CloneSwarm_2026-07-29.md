@@ -7,7 +7,7 @@
 
 # 1. VIỆC ĐẦU TIÊN: V17 PHẢI DỪNG
 
-Bản nháp `Video17_Death/Script_Video17_DOT1.md` đang viết cho title
+Bản nháp `videos/Video17_Death/Script_Video17_DOT1.md` đang viết cho title
 **"What Did Ancient Humans Do When Someone Died?"**
 
 Tra live title đó — **20 video trùng gần như nguyên văn:**

@@ -255,7 +255,7 @@ Ba câu **mùi AI nặng nhất** trong V17 đều là câu **thêm vào để t
 ## Cách chạy Tầng C
 
 Không tự chấm được — **chính người viết là người mù nhất với bài của mình.** Đưa ra ngoài:
-- **GPT 5.6** — lệnh mẫu ở `Video17_Rain/_nhap/LENH_GPT_ReviewKichBan.md`. Cấm nó viết lại, chỉ được chỉ chỗ hỏng.
+- **GPT 5.6** — lệnh mẫu ở `videos/Video17_Rain/_nhap/LENH_GPT_ReviewKichBan.md`. Cấm nó viết lại, chỉ được chỉ chỗ hỏng.
 - **KHÔNG dùng NotebookLM** — nó trộn bài mình với transcript đối thủ trong cùng notebook, và không tra được fact.
 
 ## Phân loại feedback nhận về

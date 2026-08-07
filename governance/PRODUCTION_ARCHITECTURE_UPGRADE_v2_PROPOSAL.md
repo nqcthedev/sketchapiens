@@ -492,8 +492,8 @@ Thay bằng **một file** `videos/_LEGACY_INDEX.md`:
 ```
 | ID gợi ý | Thư mục cũ | Narration | Anchors | Metadata | Publish state | Ghi chú |
 | SKA-0001-body-hair | (không có thư mục — 11 file ở gốc kho) | 2 ứng viên FINAL | ➖ | ➖ | UNKNOWN | D-06 |
-| SKA-0017-rain      | Video17_Rain/  | ✅ | ✅ | ✅ | UNKNOWN | trùng số 17 |
-| SKA-0017x-death    | Video17_Death/ | ➖ (chỉ DOT1) | ✅ | ➖ | không đăng | bỏ dở — D-10 |
+| SKA-0017-rain      | videos/Video17_Rain/  | ✅ | ✅ | ✅ | UNKNOWN | trùng số 17 |
+| SKA-0017x-death    | videos/Video17_Death/ | ➖ (chỉ DOT1) | ✅ | ➖ | không đăng | bỏ dở — D-10 |
 | …
 ```
 
@@ -504,7 +504,7 @@ Thay bằng **một file** `videos/_LEGACY_INDEX.md`:
 - Index cho đúng thứ cần: *"video này có anchors không, narration ở đâu, đã đăng chưa"* — trả lời được bằng một bảng
 
 ### Hai V17 và V01
-`Video17_Rain` và `Video17_Death` cùng số; V01 không có thư mục. **v2 KHÔNG tự cấp ID** — đây là **D-10**. Đề xuất mặc định *(chờ chủ duyệt)*: `SKA-0001-body-hair` cho V01; giữ `SKA-0017-rain` cho bản đã sản xuất; `SKA-0017x-death` hoặc số mới cho bản bỏ dở.
+`videos/Video17_Rain` và `videos/Video17_Death` cùng số; V01 không có thư mục. **v2 KHÔNG tự cấp ID** — đây là **D-10**. Đề xuất mặc định *(chờ chủ duyệt)*: `SKA-0001-body-hair` cho V01; giữ `SKA-0017-rain` cho bản đã sản xuất; `SKA-0017x-death` hoặc số mới cho bản bỏ dở.
 
 ---
 
@@ -643,7 +643,7 @@ Map `giây → đoạn → câu → shot`. Không map được thì ghi `not_map
 |---|---|---|---|---|
 | **0 · Backup & Git** 🔴 P0 | `du` đo dung lượng text · thêm text vào git · commit baseline · ghi hash snapshot | `git ls-files \| wc -l` tăng đúng số text; `git count-objects -vH` <50 MB; media vẫn untracked | `git reset --soft HEAD~1` — **không mất file, chỉ mất commit** | ✅ chủ duyệt danh sách trước khi stage |
 | **1 · Tinh gọn control plane** | 5 agent → 3 · 6 skill → 5 · `RULE_REGISTRY.yaml` → `.md` · thêm `session_warn.py` · thêm `count_assets.py` | `/project-doctor` 0 FAIL · `/agents` và `/skills` liệt kê đúng · hook test chặn/cho qua | git revert phase 1 | ✅ duyệt agent nào bị gộp |
-| **2 · Pilot V19** | tạo **một** `videos/SKA-0019-night-walk/` · **COPY** artefact V19 · `video.yaml` @ `revised` · chạy `/audit-script` | `Video19_NightWalk/` còn nguyên · doctor pass · **so kết quả 3 agent với 6 vòng review đã có** | xoá thư mục mới | ✅ **cổng đánh giá** — 3 agent có bắt được thứ 6 vòng trước bắt được không? |
+| **2 · Pilot V19** | tạo **một** `videos/SKA-0019-night-walk/` · **COPY** artefact V19 · `video.yaml` @ `revised` · chạy `/audit-script` | `videos/Video19_NightWalk/` còn nguyên · doctor pass · **so kết quả 3 agent với 6 vòng review đã có** | xoá thư mục mới | ✅ **cổng đánh giá** — 3 agent có bắt được thứ 6 vòng trước bắt được không? |
 | **3 · Đánh giá chi phí vận hành** | đo: phút/video cho ceremony · số token một vòng audit · số lần chủ phải sửa tay | ghi vào `governance/MIGRATION_LOG.md` | — | 🔴 **GO/NO-GO cho phase 4-8** |
 | **4 · Video đang hoạt động** | chỉ video đang làm dùng cấu trúc mới | mỗi video có `video.yaml` hợp lệ, không trùng ID | xoá thư mục | ✅ |
 | **5 · Legacy index** | tạo `videos/_LEGACY_INDEX.md` — **một file, không copy gì** | 20 dòng, publish state đều `UNKNOWN` | xoá file | ✅ **D-05, D-10 phải quyết trước** |

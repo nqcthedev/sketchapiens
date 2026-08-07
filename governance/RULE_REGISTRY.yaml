@@ -172,7 +172,7 @@ rules:
   - id: R-PKG-03
     scope: packaging
     rule: "Thumbnail phải khớp thứ kịch bản chứng minh. Hứa một trải nghiệm mà kết bài phủ định là LỖI."
-    source: "Video19_NightWalk/CHOT_V19.md §⑦"
+    source: "videos/Video19_NightWalk/CHOT_V19.md §⑦"
     confidence: high
     evidence: "V19 concept cũ vẽ người đang phân vân, kết bài nói 'Nobody chose any of it'"
     status: active

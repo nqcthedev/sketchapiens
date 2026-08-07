@@ -54,7 +54,9 @@ if re.search(r"/runs/(image|tts|render)/[A-Z]{3}-\d{8}-\d{3}/manifest\.(ya?ml|js
           "Chạy lại = tạo run_id mới, không ghi đè lần trước.")
 
 # ── 3b. Kịch bản cũ read-only cho tới khi có lệnh migration
-if re.match(r"Video[^/]*/.*Script_.*_narration\.txt$", rel):
+#    07/08: thư mục video chuyển vào videos/ → dùng search chứ không match neo đầu chuỗi,
+#    và chấp nhận cả đường dẫn cũ lẫn mới.
+if re.search(r"(?:^|/)(?:videos/)?Video[^/]*/.*Script_.*_narration\.txt$", rel):
     block(f"`{rel}` là kịch bản cũ, READ-ONLY.\n"
           "Chúng không có lịch sử phiên bản. Migration cần lệnh riêng.\n"
           "(.claude/rules/script-files.md)")

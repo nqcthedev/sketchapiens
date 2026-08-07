@@ -225,7 +225,7 @@ Cả 2 WARN đều **đúng dự kiến**, không phải lỗi.
 - V19 là ứng viên tốt nhất: đã qua 6 vòng review, có `CHOT_V19.md` với bảng cổng, có `MONEO_V19.md` là claim ledger hoàn chỉnh nhất kho
 
 **Điều kiện kèm theo khi chạy pilot:**
-1. **COPY, không MOVE** artefact V19. `Video19_NightWalk/` phải còn nguyên.
+1. **COPY, không MOVE** artefact V19. `videos/Video19_NightWalk/` phải còn nguyên.
 2. **Không** đặt `script_approved` — V19 chưa được chủ duyệt chính thức.
 3. `publish.state` = `not_published`.
 4. Trước khi cấp ID, xử lý **D-10** *(V01 và hai V17)* để tránh sinh quy ước ID mâu thuẫn.

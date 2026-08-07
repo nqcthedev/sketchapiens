@@ -390,7 +390,7 @@ Dữ liệu người **Mbuti** (rừng Đông Congo): *"for five months of the y
 
 # ✅ CỬA 1 — ĐÃ QUA (30/07/2026)
 
-**Chấm 9/10.** File: `Video17_Rain/THUMBNAIL_V17_ROTTING_FINAL.jpeg`
+**Chấm 9/10.** File: `videos/Video17_Rain/THUMBNAIL_V17_ROTTING_FINAL.jpeg`
 
 ## Ba vòng gen — hỏng gì, sửa gì
 

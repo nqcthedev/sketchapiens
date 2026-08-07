@@ -16,7 +16,7 @@ Không chọn đề tài. Không viết kịch bản. Không đoán trạng thá
 ## ID bất biến
 `SKA-NNNN-<slug>` — vd `SKA-0019-night-walk`. **Không đổi ID sau khi tạo.**
 
-⚠️ Hai video cũ cùng mang số 17 (`Video17_Rain`, `Video17_Death`) và V01 không có thư mục. Khi cấp ID cho chúng, hỏi chủ trước — xem `governance/DECISIONS_REQUIRED.md`.
+⚠️ Hai video cũ cùng mang số 17 (`videos/Video17_Rain`, `videos/Video17_Death`) và V01 không có thư mục. Khi cấp ID cho chúng, hỏi chủ trước — xem `governance/DECISIONS_REQUIRED.md`.
 
 ## Khung tạo ra
 ```

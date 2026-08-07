@@ -16,7 +16,7 @@
 | **D-07** | Feedback review của V18 đã được áp chưa? | có prompt review, **không có feedback và không có bản sau review** | `NEEDS_HUMAN_DECISION` |
 | **D-08** | Ink Explainer còn là hình mẫu không? | nó có **RPM thấp nhất** nhóm kênh vẽ (3,64); Mogo 7,66 · Mack 5,90. Hình mẫu được chọn chỉ bằng view | `NEEDS_HUMAN_DECISION` |
 | **D-09** | `kho/2_nguyenlieu/VAULT_AncientHumans_KnowledgeVault.md` đáng lẽ chứa gì? | file **873 byte / 15 dòng**, trong khi `00_LUAT` mô tả nó chứa 8 chủ đề bóc từ 49 kịch bản | `NEEDS_HUMAN_DECISION` |
-| **D-10** | Cấp ID nào cho V01 *(không có thư mục)* và **hai** thư mục cùng số 17? | `Video17_Rain` và `Video17_Death` trùng số; V01 nằm rời ở gốc kho | `NEEDS_HUMAN_DECISION` |
+| **D-10** | Cấp ID nào cho V01 *(không có thư mục)* và **hai** thư mục cùng số 17? | `videos/Video17_Rain` và `videos/Video17_Death` trùng số; V01 nằm rời ở gốc kho | `NEEDS_HUMAN_DECISION` |
 | **D-11** | Luật nào chủ đã bỏ mà chưa xoá? | nhiều file chết trên thực tế nhưng chưa dán biển | `NEEDS_HUMAN_DECISION` |
 | **D-12** | Số liệu nào đáng tin? | số duy nhất có được đo trên **12–13 quan sát**; chính file ghi nhớ nói không được dùng làm chuẩn | `NEEDS_HUMAN_DECISION` |
 | **D-13** | Claude Code hay claude.ai Projects là môi trường chính? | project nằm ở `~/Claude/Projects/` nhưng mọi instruction ở `~/.claude/` | `NEEDS_HUMAN_DECISION` |

@@ -264,7 +264,7 @@ Give me a critique in six parts:
    Does that part hold together on its own, or can you see the seam?
 ```
 
-**Kịch bản dán kèm:** `Video19_NightWalk/Script_Video19_narration.txt` *(EN thuần, 128 dòng —
+**Kịch bản dán kèm:** `videos/Video19_NightWalk/Script_Video19_narration.txt` *(EN thuần, 128 dòng —
 không kèm tiêu đề chương, không kèm cột dịch)*.
 
 ⚠️ **Cửa sổ chat MỚI.** Bản này là bản viết lại, chat cũ đã đọc bốn bản trước.

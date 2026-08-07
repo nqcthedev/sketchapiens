@@ -22,7 +22,7 @@ Khái niệm gốc: AYON `Product → Version → Representation`
 
 CÁCH DÙNG
 ─────────
-    python3 tools/kiem_bieu_hien.py Video19_NightWalk
+    python3 tools/kiem_bieu_hien.py videos/Video19_NightWalk
     python3 tools/kiem_bieu_hien.py            # kiểm MỌI thư mục VideoNN có narration
 
 READ-ONLY. Không sửa gì. Mã thoát 1 nếu có lỗi.
@@ -155,8 +155,8 @@ def check_video(d):
 
 
 targets = sys.argv[1:] or sorted(
-    d for d in glob.glob("Video*") if os.path.isdir(d)
-    and glob.glob(os.path.join(d, "Script_*_narration.txt")))
+    d for d in glob.glob("videos/Video*") + glob.glob("Video*")   # mới + cũ
+    if os.path.isdir(d) and glob.glob(os.path.join(d, "Script_*_narration.txt")))
 
 print("═" * 72)
 print("  KIỂM BIỂU HIỆN — bốn file có phải cùng MỘT bản kịch bản không")
