@@ -15,7 +15,11 @@ sys.path.insert(0, '.')
 import shot_data; importlib.reload(shot_data)
 from shot_data import SHOTS
 
-NARR = sys.argv[1] if len(sys.argv) > 1 else "narration.txt"
+# 07/08: mặc định cũ là "narration.txt" — KHÔNG có file nào tên vậy, nên phép kiểm
+# cuối (ghép shot == nguyên văn kịch bản) chưa bao giờ chạy, chỉ ném FileNotFoundError.
+import glob as _g
+NARR = sys.argv[1] if len(sys.argv) > 1 else (
+    (_g.glob("Script_*_narration.txt") or ["narration.txt"])[0])
 txt = io.open("PROMPTS_FULL.txt", encoding="utf-8").read()
 blocks = re.findall(r'^(\d{3})\.\s(.*?)(?=\n\n\d{3}\.|\Z)', txt, re.S | re.M)
 N = len(SHOTS)
@@ -77,10 +81,15 @@ mod = sum(1 for s in SHOTS if s[1] == "SCENE_M")
 grp = sum(1 for s in SHOTS if s[1] == "GROUP")
 w = sum(len(s[0].split()) for s in SHOTS) / N
 
-chk("KHUNG CẢNH 55-70%", 0.55 <= scene / N <= 0.70, f"{100*scene/N:.0f}%  (đối thủ 59-64%)")
-chk("THẺ 30-45%", 0.30 <= card / N <= 0.45, f"{100*card/N:.0f}%  (đối thủ 36-41%)")
+# ⛔ 07/08/2026 — BA CỬA TỈ LỆ ĐÃ HẠ XUỐNG "CHỈ BÁO SỐ, KHÔNG CHẤM"
+#    Cửa cũ đúc từ ĐÚNG HAI kênh (Ink 41% · Mack 36%). Đo 4-5 kênh thì nền trắng chạy
+#    36% → 80% mà cả bốn đều thắng:  36→45K · 50→11K · 60→0,5K · 80→29K. Không có quan
+#    hệ nào với view, nên không có ngưỡng nào chính đáng. Zenn 80% nền trắng vẫn thắng.
+#    Giữ lại phép ĐẾM để sau này đối chiếu với view thật, nhưng KHÔNG cho nó trượt/đạt.
+print(f"   📊 khung cảnh {100*scene/N:.0f}%  ·  thẻ {100*card/N:.0f}%  ·  có chữ {100*txt_n/N:.0f}%")
+print(f"      (Ink 41% thẻ · Mack 36% · Zenn ~80% nền trắng — cả ba đều thắng. Số này để GHI, không để đạt.)")
 chk("có cảnh CẢ NHÓM ≥8", grp >= 8, f"{grp} khung  (cảnh quây quanh lửa là cảnh chủ của lane)")
-chk("khung có chữ 40-70%", 0.40 <= txt_n / N <= 0.70, f"{100*txt_n/N:.0f}%")
+# chk("khung có chữ 40-70%", ...) — BỎ cùng lý do: Mack và Explain In Paint không dùng chữ nào mà vẫn thắng
 chk("người hiện đại ≤15%", mod / N <= 0.15, f"{100*mod/N:.0f}%")
 chk("từ mỗi shot 6-9", 6 <= w <= 9, f"{w:.1f}")
 
