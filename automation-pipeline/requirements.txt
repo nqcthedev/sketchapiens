@@ -1,7 +1,0 @@
-pyyaml>=6.0
-pillow>=10.0
-requests>=2.31
-# Only needed for REAL mode (not for --mock):
-openai>=1.40
-google-genai>=0.3      # Gemini 2.5 Flash Image (Nano Banana) — ảnh qua API chính thức
-# System deps (install separately): ffmpeg, ffprobe
