@@ -124,3 +124,38 @@ tách được ảnh hưởng của "I" khỏi ảnh hưởng của độ dài.
 
 🔴 **Nguyên tắc chủ chốt cùng ngày:** *"mùi ChatGPT nhưng kịch bản hay với nhiều view thì vẫn
 ok hơn là kịch bản quá nghiêm khắc rồi chả có view nào."*
+
+---
+
+## ⛔ MỌI TỈ LỆ HÌNH ẢNH — khai tử 07/08/2026
+
+Cả **bốn** ngưỡng dưới đây đều chết cùng một lý do: **đúc từ hai kênh**.
+
+| ngưỡng | ở đâu | đúc từ |
+|---|---|---|
+| `~50% thẻ dạy học` | skill `chia-shot` PHẦN 4 | 96 khung, đếm **bằng mắt**, 2 kênh |
+| `40% thẻ / 60% cảnh` | bản tôi sửa **sáng 07/08** | 1.090 khung, đo **bằng máy**, vẫn chỉ **2 kênh** |
+| `thẻ 30-45%` · `cảnh 55-70%` · `chữ 40-70%` | `validate_shots.py` | như trên |
+| `~50% khung phải có chữ` | skill PHẦN 2 + PHẦN 5 | 72 khung của **một** video |
+| `2,0-2,5 giây/ảnh` · `~2,8-3,0 giây/shot` | skill PHẦN 1 + đuôi file | 1 và 3 video |
+
+**Bằng chứng giết cả bốn** — bảng 4-5 kênh đo 05/08, nằm ngay `PHẦN 0` của chính skill đó:
+
+| kênh | nền trắng | giây/ảnh | trung vị |
+|---|---|---|---|
+| Mack | **36%** | 4,3 | **45.000** |
+| Explain In Paint | 50% | 2,5 | 11.000 |
+| Simply A Stickman | ~60% | 2,6-3,3 | 510 |
+| **Zenn** | **80%** | 2,7 | 29.000 |
+
+`36→45K` · `50→11K` · `60→0,5K` · `80→29K`. **Không có quan hệ nào.** Nhịp cũng vậy: 2,5 giây cho
+cả 11.000 lẫn 29.000; 4,3-4,6 giây cho cả 45.000 lẫn 10.000. Và **Zenn chạy 80% nền trắng vẫn thắng**
+→ câu *"V17 hỏng vì 75% thẻ"* **không đứng được**.
+
+**Luật thay:** chọn nền theo **ngữ cảnh từng shot** *(khái niệm → thẻ · khoảnh khắc → cảnh)*; nhịp
+chọn theo **chi phí sản xuất**, không theo niềm tin nó ăn view. Vẫn **đếm và ghi lại** tỉ lệ để sau
+đối chiếu với view thật — nhưng không có ngưỡng đạt/trượt.
+
+⚠️ **Đây là lần thứ TƯ.** Ba lần trước cũng sửa luật hình từ một ảnh hoặc một mẫu thưa, và cả ba sai
+theo ba hướng khác nhau. Lần này tôi đổi 50% thành 40% **trong khi bảng bốn kênh nằm ngay đầu cùng
+file đó đã bác** — không phải thiếu dữ liệu, mà là **không đọc lại thứ mình đang sửa**.
