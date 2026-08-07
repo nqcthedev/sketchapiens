@@ -39,3 +39,38 @@ Bảng này là **bản ghi**, không phải hành động. Không file nào b�
 | Thumbnail *"sáng 80-110"* | tương quan với view ≈ **0** |
 | Thumbnail *"chữ 13-19%"* | thật ra **22%** |
 | *"đối thủ vẽ sạch digital, không run tay"* | khung 4K cho thấy **có run tay** |
+
+
+---
+
+## ⛔ KHAI TỬ 07/08/2026 — "SUBAGENT LÀ NGƯỜI XEM LẠNH"
+
+| | |
+|---|---|
+| **Luật đã chết** | Dùng custom subagent `cold-viewer` làm người xem không biết gì về kênh |
+| **Chết vì** | Tài liệu chính thức Claude Code |
+| **Thay bằng** | `viewer-retention-judge` *(gộp 3 agent)* + **review ngoài bằng ChatGPT là lớp lạnh duy nhất** |
+
+**Nguyên văn tài liệu** *(`code.claude.com/docs/en/sub-agents`, truy cập 07/08/2026)*:
+
+> *"**CLAUDE.md files**: every level of the CLAUDE.md hierarchy the main conversation loads,
+> including `~/.claude/CLAUDE.md`, project rules, `CLAUDE.local.md`, and managed policy files.
+> The built-in Explore and Plan agents skip this."*
+>
+> *"Explore and Plan are the only subagents that omit CLAUDE.md and git status.
+> **There is no frontmatter field or per-agent setting to change which agents skip them.**"*
+
+**Hệ quả:** agent `cold-viewer` cài ngày 06/08 mang dòng *"bạn không biết gì về kênh này"* —
+nhưng thực tế nó nạp 10 luật không phá, 6 file `.claude/rules/`, luật giọng, luật đại từ.
+Prompt bảo nó quên đi chỉ là chữ, không phải cơ chế.
+
+**Ba agent bị gộp làm một** *(git giữ lịch sử, xem commit trước 07/08)*:
+`cold-viewer.md` · `promise-payoff-judge.md` · `retention-architect.md` → `viewer-retention-judge.md`
+
+Lý do gộp: khi cold-viewer không thể lạnh, giữ nó tách khỏi hai agent kia không còn lý do —
+cả ba đều nhận cùng bộ đầu vào *(title + thumbnail + lời đọc)* và cùng truy vết payoff nằm ở đâu.
+
+**Giá trị CÒN LẠI của subagent** — thật, không phải hão: **ngữ cảnh riêng.** Nó không thấy
+lý lẽ mà người viết đã dùng để tự thuyết phục mình trong cuộc trò chuyện chính.
+
+⚠️ **Đừng dựng lại "agent lạnh" lần nữa.** Không có cấu hình nào làm được điều đó.

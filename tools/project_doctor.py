@@ -44,7 +44,7 @@ def check_control_plane():
     missing = [p for p in need if not os.path.exists(p)]
     rec("FAIL" if missing else "PASS", "Control plane đủ file",
         "thiếu: " + ", ".join(missing) if missing else f"{len(need)}/{len(need)}")
-    for d, n in ((".claude/agents", 5), (".claude/rules", 6), (".claude/skills", 6),
+    for d, n in ((".claude/agents", 3), (".claude/rules", 6), (".claude/skills", 6),
                  ("schemas", 4), ("templates", 6)):
         got = len(glob.glob(f"{d}/*")) if os.path.isdir(d) else 0
         rec("PASS" if got >= n else "FAIL", f"{d} có ≥{n} mục", f"thấy {got}")

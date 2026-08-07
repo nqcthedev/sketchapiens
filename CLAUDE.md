@@ -21,6 +21,9 @@ Kho cũ vẫn là nguồn nội dung: `00_LUAT_HIEN_HANH.md` là cửa vào tầ
 3. **Không suy ra `published`.** Chưa có publish record thì trạng thái là `not_published`.
 4. **Không mở corpus đối thủ khi đang viết.** `2_KHO_BANGHI/` chỉ để ĐO, ở phiên research riêng.
 5. **Agent review chỉ chấm, không sửa.** Một editor duy nhất tạo version mới, sau khi người dùng phân loại.
+   🔴 **Subagent KHÔNG lạnh.** Tài liệu chính thức Claude Code: subagent nạp đủ `CLAUDE.md` và
+   project rules; **chỉ Explore và Plan bỏ qua, và không chỉnh được**. Nên **review ngoài bằng
+   ChatGPT (chat mới) là lớp người-xem-lạnh DUY NHẤT — không bỏ được, không thay bằng agent được.**
 6. **Mọi câu thêm vào sau cổng mỏ neo phải chạy lại cổng mỏ neo.**
 7. **Suy diễn của tác giả nguồn phải ghi rõ là suy diễn** (*"the researchers put that down to…"*), cấm nói như sự thật.
 8. **Chỉ 4 ràng buộc cứng của lời đọc:** `!` = 0 · không gạch ngang giữa câu · mỗi câu một dòng · `I` ≈ 0. Mọi con số khác là **triệu chứng**, không phải đích. Cấm sửa câu cho số đẹp.
@@ -54,7 +57,7 @@ Lý do (`PROJECT_FULL_AUDIT_EXPORT.md` §5, R2): cả hai không có tiền tố
 | Lệnh | Việc |
 |---|---|
 | `/new-video` | Dựng khung một video mới theo lifecycle |
-| `/audit-script` | Chạy 5 giám khảo độc lập, gộp thành một bản chấm |
+| `/audit-script` | Chạy 3 giám khảo ngữ-cảnh-riêng, gộp thành một bản chấm |
 | `/apply-review` | Sau khi người dùng phân loại → editor tạo version mới |
 | `/verify-claims` | Đối chiếu claim ledger với nguồn gốc |
 | `/project-doctor` | Kiểm tính toàn vẹn cấu trúc |

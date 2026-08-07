@@ -3,7 +3,7 @@ name: audit-script
 description: Chạy năm giám khảo độc lập trên một bản nháp kịch bản rồi gộp thành một bản chấm duy nhất cho chủ phân loại. Read-only, không sửa kịch bản. Dùng sau khi có bản nháp và trước khi sửa.
 ---
 
-# /audit-script — năm giám khảo, một bản chấm
+# /audit-script — ba giám khảo, một bản chấm
 
 ## Luật cứng
 - **Read-only.** Không agent nào được sửa kịch bản.
@@ -14,15 +14,19 @@ description: Chạy năm giám khảo độc lập trên một bản nháp kịc
 ## Đầu vào
 Đường dẫn bản nháp · title · mô tả thumbnail + chữ. Thiếu thumbnail thì nói rõ phép thử chỉ chạy một nửa.
 
-## Chạy — gọi 5 subagent song song
+## Chạy — gọi 3 subagent song song
 
 | Agent | Nhận | Trả |
 |---|---|---|
-| `cold-viewer` | title · thumbnail · lời đọc | điểm bỏ xem · câu phải nghe lại · lúc trả lời hứa · 10 câu tệ nhất |
-| `retention-architect` | lời đọc | bản đồ thời gian · tiền thuê chương · vòng lặp mở · điểm thoát |
-| `promise-payoff-judge` | title · thumbnail · lời đọc | một câu hỏi hay nhiều · vết nối · mâu thuẫn thumbnail↔kịch bản |
-| `evidence-prosecutor` | lời đọc · claim ledger | bảng DIRECT/INFERENCE/SPECULATION/STORY_DEVICE · mức vượt |
+| `viewer-retention-judge` | title · thumbnail · lời đọc | điểm bỏ xem · câu phải nghe lại · 3 lời hứa · một-hay-nhiều-câu-hỏi · bản đồ giữ chân · điểm thoát |
+| `evidence-prosecutor` | lời đọc · claim ledger | bảng DIRECT/INFERENCE/SPECULATION/STORY_DEVICE · mức vượt 0-3 |
 | `anti-ai-narration-critic` | lời đọc | 10 câu nặng mùi · ẩn dụ chồng tầng · sẹo vá |
+
+> ⚠️ **Ba agent này KHÔNG lạnh.** Tài liệu chính thức: subagent nạp đủ `CLAUDE.md` và project
+> rules; chỉ Explore và Plan bỏ qua, và **không chỉnh được**. Giá trị của chúng là **ngữ cảnh
+> riêng** — không thấy lý lẽ người viết đã tự thuyết phục mình — chứ không phải "không biết kênh".
+>
+> 🔴 **Lớp lạnh thật là cổng 10: review ngoài bằng ChatGPT, chat mới.** Không bỏ được.
 
 Ngoài ra chạy máy: `python3 ~/.claude/skills/sketchapiens-bien-tap/qa_kichban.py <file>` — 4 ràng buộc cứng.
 
