@@ -213,7 +213,7 @@
 
 **File cần tạo/sửa** *(phần lớn đã có từ bản cài v1)*:
 - Giữ: `CLAUDE.md` · `.claude/rules/` (6) · `.claude/settings.json` · `.claude/hooks/guard_project.py` · `governance/{SOURCE_OF_TRUTH, DECISIONS_REQUIRED, CHANGE_POLICY, RETIRED_RULES}.md` · `schemas/video.schema.json` · `schemas/claim-ledger.schema.json` · `templates/{video.yaml, claim-ledger.md, review-consolidated.md, publish-record.md}` · `tools/project_doctor.py`
-- **Thêm mới (4)**: `tools/count_assets.py` · `analytics/channel/videos.csv` *(nhập tay)* · `videos/_LEGACY_INDEX.md` · `.claude/skills/anti-ai-polish/SKILL.md`
+- **Thêm mới (4)**: `tools/verify_images.py` *(⚠️ 07/08: từng ghi là `count_assets.py` "cần làm mới" — thật ra ĐÃ TỒN TẠI từ 25/07, nằm lạc ở gốc kho nên không ai thấy)* · `analytics/channel/videos.csv` *(nhập tay)* · `videos/_LEGACY_INDEX.md` · `.claude/skills/anti-ai-polish/SKILL.md`
 - **Gộp/bỏ**: 5 agent → 3 · 6 skill → 5 · bỏ `schemas/analytics.schema.json` và `review-verdict.schema.json` *(hoãn)* · bỏ `templates/{analytics-video, postmortem}.md` *(hoãn tới khi có dữ liệu)*
 
 **Agents (3)**: `cold-viewer` · `structure-judge` · `evidence-prosecutor`
@@ -542,7 +542,7 @@ Cưỡng chế trong v2: `/apply-review` **tự gọi** `evidence-prosecutor` kh
 |---|---|
 | **Shared pipeline** | ⏸️ **hoãn** — cần D-16. Hiện 5 công cụ chồng lấn; chọn sai chuẩn tốn hơn chờ |
 | **Per-video config** | `video.yaml` |
-| **Asset manifest** 🆕 | `tools/count_assets.py` — đếm ảnh · mp3 · dòng shotline cho **mọi** video, báo lệch |
+| **Asset manifest** 🆕 | `tools/verify_images.py` *(⚠️ 07/08: từng ghi là `count_assets.py` "cần làm mới" — thật ra ĐÃ TỒN TẠI từ 25/07, nằm lạc ở gốc kho nên không ai thấy)* — đếm ảnh · mp3 · dòng shotline cho **mọi** video, báo lệch |
 | **Validation** | số ảnh == số prompt == số mp3 == số dòng shotline. Lệch = **FAIL**, không phải cảnh báo |
 | **Generated files** | `.gitignore` chặn `PROMPTS_FULL.txt`, `build/`, `_vtt/`, media |
 | **Secrets** | biến môi trường. `permissions.deny` chặn đọc `.env`/`*.key`. Hook chặn ghi chuỗi giống khoá |
@@ -719,7 +719,7 @@ Map `giây → đoạn → câu → shot`. Không map được thì ghi `not_map
 | AC-8 | Ba luật sống-còn ở lớp cưỡng chế được | grep trong `settings.json` + `guard_project.py` | **3/3** |
 | AC-9 | Hook chặn đúng | test `approved.md` → exit 2; test `templates/x.md` → exit 0 | **2/2** |
 | AC-10 | Không suy ra published | mọi `video.yaml` + `_LEGACY_INDEX.md` | **100% `not_published` hoặc `UNKNOWN`** |
-| AC-11 | Asset khớp số | `python3 tools/count_assets.py` | báo đúng 3 video lệch đã biết *(V12, V14, V15)* |
+| AC-11 | Asset khớp số | `python3 tools/verify_images.py` | báo đúng 3 video lệch đã biết *(V12, V14, V15)* |
 | AC-12 | Pilot V19 có đối chứng | so 3 agent vs 6 vòng review | **≥70%** lỗi lớn của vòng 5-6 được bắt lại |
 | AC-13 | Vòng analytics khởi động | `analytics/channel/videos.csv` | **≥1 dòng dữ liệu thật** |
 | AC-14 | Không luật nào từ mẫu nhỏ | mọi mục mới trong RULE_REGISTRY | **0** mục có `sample_size < 100` |
@@ -734,7 +734,7 @@ Map `giây → đoạn → câu → shot`. Không map được thì ghi `not_map
 |---|---|---|---|
 | **P0** | **Git bao phủ toàn bộ text** *(phase 0)* | R1 là rủi ro cao nhất còn lại; V02–V16 mỗi video **một file không lịch sử** | 15 phút |
 | **P0** | **Hash snapshot trước khi đụng gì** | v1 Phase 0 có nêu, bản cài bỏ qua | 5 phút |
-| **P1** | `tools/count_assets.py` | 3 video đang lệch mà không ai biết; đúng nguyên nhân V15 hỏng tiếng | 30 phút |
+| **P1** | `tools/verify_images.py` *(⚠️ 07/08: từng ghi là `count_assets.py` "cần làm mới" — thật ra ĐÃ TỒN TẠI từ 25/07, nằm lạc ở gốc kho nên không ai thấy)* | 3 video đang lệch mà không ai biết; đúng nguyên nhân V15 hỏng tiếng | 30 phút |
 | **P1** | Gộp 5 agent → 3, hạ anti-AI xuống skill | giảm chi phí vận hành, bỏ chồng lấn | 45 phút |
 | **P1** | Hook `SessionStart` cảnh báo skill predecessor | R2 hiện chỉ ở lớp 5 | 20 phút |
 | **P1** | `RULE_REGISTRY.yaml` → `.md` | không validate được vì thiếu `pyyaml` (F9) | 20 phút |

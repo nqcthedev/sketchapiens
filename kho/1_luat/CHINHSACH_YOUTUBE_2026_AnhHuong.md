@@ -118,3 +118,46 @@ Và họ nói thẳng: *"đường vào YPP năm 2026 sẽ chậm hơn, **đặc
 - MiniMatters — chính sách khai báo nội dung tổng hợp 2026
 
 ⚠️ Phần ngưỡng YPP và "lớp chấm chất lượng" lấy từ nguồn thứ cấp (blog chuyên ngành), **chưa đối chiếu được trang chính thức**. Phần "nội dung không thật" và trích dẫn ở mục 1 **đã đối chiếu trang chính thức của YouTube**.
+
+---
+
+*(Chuyển từ `00_LUAT_HIEN_HANH.md` ngày 07/08/2026 — luật này thuộc về file chính sách, không thuộc bản đồ kho.)*
+
+# 🔴 LUẬT MỚI 05/08/2026 — GIỐNG ĐỐI THỦ LÀ RỦI RO KIẾM TIỀN, KHÔNG CHỈ RỦI RO VIEW
+
+*Nguồn gốc: video chính thức của YouTube, Matt Koval giải thích chính sách Inauthentic Content. Không phải luật mới của YouTube — là bản làm rõ. Nhưng nó nêu đích danh thứ dự án này đang làm.*
+
+## Phép thử phải qua
+
+> Gỡ tên kênh và logo đi, dán video của mình cạnh 20 video cùng title của 20 kênh khác — **có ai chỉ ra được cái nào là của mình không?**
+
+YouTube diễn đạt là: *"content that we know what channel it comes from. **It couldn't be on a hundred other channels**."*
+
+Và: *"making the next channel that's making all the same kind of stuff is just generic, it's repetitive… the channel won't get in [YPP] in the first place."*
+
+## Điều này đá vào đâu trong quy trình của mình
+
+Phương pháp **"hàn title theo winner"** (`chon-de-tai-trong-ngach`, `HE_THONG_KichBan_v2` PHẦN C) tốt cho việc **được tìm thấy**, nhưng đi một mình thì rơi thẳng vào nhóm bị loại.
+
+Đo thật 05/08: mọi đề tài tra ra ~20 kênh, mở bài gần trùng nhau —
+*"Right now, you check your phone…"* · *"Tonight, you turn on the AC…"* · *"You scroll past a video of…"*
+V18 của mình mở bằng *"Tonight you will go to bed behind a door that locks."* **Cùng khuôn.**
+
+→ **Luật thêm vào cửa 1:** mỗi video phải có **ít nhất MỘT thứ mà 20 kênh kia không có** — góc kể riêng · mỏ neo khoa học chưa ai dùng · nhân vật xuyên suốt · kết cấu riêng. Không có thì chưa qua cửa.
+
+## Ba điều làm rõ khác
+
+| Điều | Nghĩa cho mình |
+|---|---|
+| **Công cụ không bị tính** — *"if you make it with gen AI, great"* | TTS + ảnh AI **không** phải vấn đề. Ngừng lo chuyện đó |
+| **YPP xét theo KÊNH, không theo video** · ngưỡng là **tỉ lệ** | ⚠️ **V15 hỏng đang công khai kéo cả hồ sơ kênh xuống.** Hạ xuống riêng tư trước khi nộp YPP |
+| Bị report bao nhiêu lần **cũng không ảnh hưởng** | bỏ nỗi lo bị đối thủ report |
+| Trượt YPP: khiếu nại **21 ngày**, nộp lại **90 ngày** | trượt không phải án tử, nhưng mất một quý |
+
+## ⛔ Vùng đề tài phải HOÃN tới khi bật được tiền
+
+Nhóm 2 nêu đích danh *"putting minors in distressing situations"*.
+
+Ngách này chạm vùng đó liên tục và **cầu rất cao**: sinh đôi · trẻ sơ sinh chết · trẻ mồ côi · tỉ lệ tử vong trẻ em. Đề tài **sinh đôi** đã qua cửa 0 ngày 05/08 (đỉnh bầy 59.656, một quả đang leo 11.519/5 ngày) nhưng **bị hoãn vì luật này** — nội dung thật của nó là đứa thứ hai không được nuôi.
+
+Để dành. Làm sau khi đã vào YPP.

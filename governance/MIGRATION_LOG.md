@@ -191,3 +191,38 @@ sau khi đã loại hết sai khác về ĐỊNH DẠNG.
 `001.` dòng riêng ↔ `001. <prompt>` cùng dòng · SHOTLINES có/không đánh số · bảng duyệt
 `DUYET_*_EN_VI.md` ↔ `Script_*_DUYET_EN-VI.md` ↔ **12/18 video không có bảng duyệt nào**.
 Chưa sửa — thuộc migration, cần D-01…D-04.
+
+---
+
+## NHẬT KÝ SOI KHO *(chuyển từ `00_LUAT_HIEN_HANH.md` ngày 07/08/2026 — nhật ký thuộc về sổ, không thuộc cửa vào)*
+
+# NHẬT KÝ SOI KHO
+
+**29/07/2026 — đợt 1.** Soi 11 file nghi ngờ bằng mắt → dán biển chết 8 file.
+**29/07/2026 — đợt 2.** Quét hệ thống toàn bộ `~/.claude/skills/` + `memory/` + kho dự án, tìm mọi chỗ còn *gọi tên* 8 file chết. Bắt được 15 chỗ mà soi bằng mắt bỏ sót:
+
+| Chỗ hở | Mức nguy hiểm |
+|---|---|
+| `skills/chia-shot-va-prompt-anh` PHẦN 9 | 🔴 dạy AI làm thumbnail theo ADN đã bị bác |
+| `skills/viet-kich-ban.../quy-trinh-nghien-cuu-cum.md` | 🔴 bắt AI chấm title bằng rubric của lane đã chết |
+| 3 file memory *(subngach_cothe_doda · thumbnail_coldchannel_scene · project_faceless_yt)* | 🔴 nạp vào đầu AI mỗi phiên |
+| 5 dòng index trong `MEMORY.md` | 🔴 như trên |
+| `PLAYBOOK_NotebookLM_DoiThu` · `automation-pipeline/README` · `NGHIENCUU_V16_LaneCheck` | 🟡 |
+| 7 file `Video*/Thumbnail_Prompt.txt` | 🟡 prompt của 11 quả flop, dễ bị copy làm mẫu |
+| `Video16_Winter/Metadata` · `Video14_Milk/THUMBNAIL` | 🟡 |
+
+Tất cả đã gắn cảnh báo. Quét lại: **sạch**.
+
+## ⚠️ RANH GIỚI CỦA ĐỢT SOI NÀY — ĐỌC KỸ
+
+Cái đã làm: tìm mọi chỗ trỏ vào **8 file đã biết là chết**.
+Cái **CHƯA** làm: đối chiếu chéo các file **đang còn sống** với nhau. Kho có **53 file .md**; tôi mới đọc kỹ khoảng 15. Hai file cùng sống vẫn có thể mâu thuẫn nhau mà chưa ai phát hiện.
+
+**29/07/2026 — đợt 3.** Dồn 19 file chết vào `_KHO_LUU_DaChet/` (không xoá — `/Users/admin` là git repo nhưng **0 commit, 0 file theo dõi**, xoá là mất hẳn). Soi xong `kho/1_luat/RUBRIC_KichBan.md` — tìm được **4 lỗi**, đã vá tại chỗ:
+- B5 thưởng điểm cho lane "về BẠN" đã chết → tách, chỉ giữ cú xoay cuối
+- ngưỡng tự mâu thuẫn trong cùng file (≥52 vs ≥40) → thống nhất thang 72
+- mục 8 và 26 ép cú lật phải ở cuối → bỏ ép vị trí
+- mục 12 cấm tuyệt đối "I" → sửa thành "gần bằng 0"
+- **bổ sung A7** — 6 đặc điểm winner rubric cũ thiếu, gồm **dấu "!" = 0 (14/14)**
+
+**Còn nợ:** 8 file chưa mở lần nào — `MoXe_15Khoi_KichBan_DoiThu` · `MoXe_KichBan_Viral_3Video` · `BangDoiChieu_v2_vs_Viral` · `TearDown_7M_CongThuc_GuongSoi` · `NGHIENCUU_DoiSong_CoDai` · `NGHIENCUU_2Kenh_ThinkMan` · `GAP_AUDIT_va_Roadmap` · `TRAIN_ChatGPT_*`. Tất cả đều thuộc khâu kịch bản — không phải chỗ hỏng, để sau.

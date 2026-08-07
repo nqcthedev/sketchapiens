@@ -204,7 +204,7 @@ Cả 2 WARN đều **đúng dự kiến**, không phải lỗi.
 | P1 | **Git bao phủ dữ liệu cũ trước khi làm gì khác** | W2 là rủi ro cao nhất còn lại. Control plane hiện chỉ bảo vệ chính nó; V02–V16 vẫn một-file-không-lịch-sử. Chỉ cần thêm `Video*/**/*.md` và `Video*/**/*.txt` vào git *(media đã bị ignore)* — vài MB | thấp, gỡ rủi ro lớn nhất |
 | P2 | **Snapshot hash toàn kho** *(spec Phase 0 có, chưa làm)* | Có hash thì mới chứng minh được về sau rằng file cũ không bị đụng | thấp |
 | P3 | **Hook `SessionStart` cảnh báo skill predecessor** | W3 hiện chỉ chặn bằng chữ. Một hook in cảnh báo đầu phiên sẽ khoẻ hơn nhiều so với hy vọng model đọc `CLAUDE.md §3` | thấp |
-| P4 | **`tools/count_assets.py`** — đếm ảnh vs mp3 vs shotline cho mọi video | Audit tìm ra V12 265/255 · V14 608/302 · V15 568/564 lệch mà **không ai biết**. Đây đúng là nguyên nhân V15 hỏng tiếng | thấp |
+| P4 | **`tools/verify_images.py` *(⚠️ 07/08: từng ghi là `count_assets.py` "cần làm mới" — thật ra ĐÃ TỒN TẠI từ 25/07, nằm lạc ở gốc kho nên không ai thấy)*** — đếm ảnh vs mp3 vs shotline cho mọi video | Audit tìm ra V12 265/255 · V14 608/302 · V15 568/564 lệch mà **không ai biết**. Đây đúng là nguyên nhân V15 hỏng tiếng | thấp |
 | P5 | **Ghi số Mack thật vào `RULE_REGISTRY`** sau khi đối chiếu Tầng A trên 52 bản ghi | Tầng A đúc từ Mack mà 4 tháng không truy được kênh. Nay có bản ghi thật — đây là việc treo lâu nhất | trung bình |
 | P6 | **`analytics/channel/` + một lần nhập số Studio thủ công** | R4: vòng phản hồi đang đứt hẳn. Chỉ cần một file có thật là `/postmortem` chạy được | thấp |
 | P7 | **Đưa `2_KHO_BANGHI/` ra sibling ngoài repo** *(spec §9)* | Đã gitignore nên không vào git, nhưng vẫn nằm trong thư mục làm việc → vẫn có thể bị mở nhầm khi đang viết | trung bình — cần D-15 |

@@ -35,3 +35,15 @@ Làm một nửa thì lần sau vẫn có người mở nhầm. **Hiện có 5 t
 | Khai tử luật | **chỉ người** |
 | Đặt `approved` / `published` | **chỉ người** |
 | Đề xuất thay đổi | agent — ghi vào `DECISIONS_REQUIRED.md` |
+
+---
+
+## LUẬT CHỐNG LẶP LẠI MỚ HỖN ĐỘN *(chuyển từ `00_LUAT_HIEN_HANH.md` 07/08/2026)*
+
+# LUẬT CHỐNG LẶP LẠI MỚ HỖN ĐỘN NÀY
+
+1. **Không tạo file "v-mới" khi có thể sửa file cũ.** Ba đời file thumbnail sinh ra vì mỗi lần phát hiện mới lại đẻ một file.
+2. **Bác luật nào thì dán biển ngay lên file chứa luật đó** — không chỉ ghi trong file mới. File mới không tự bò sang file cũ.
+3. **Sửa file này** mỗi khi có file luật mới hoặc file chết mới.
+4. **Kết luận phải kèm cỡ mẫu và ngày.** "Đo 3 video" và "đo 80 video" là hai mức tin khác nhau.
+5. **Skill và memory cũng trỏ vào file** — khi giết một file, phải soát cả `~/.claude/skills/` và `memory/MEMORY.md`.
