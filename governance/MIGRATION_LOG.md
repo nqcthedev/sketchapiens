@@ -153,3 +153,41 @@ Tài liệu viết cho dự án nói tiếng Anh nên không thấy chỗ này.
 **Đề xuất — `tools/kiem_bieu_hien.py`:** một version kịch bản sinh ra nhiều biểu hiện
 *(narration · bảng duyệt EN+VI · SHOTLINES · TTS_input)*. Script kiểm cả bốn còn khớp nhau.
 Đây là ý (d) §4.4 biến từ **khái niệm** thành **phép kiểm** — và nó đã bắt được lỗi thật ngay lần đầu.
+
+---
+
+## 07/08 — ĐÃ LÀM G7: `tools/kiem_bieu_hien.py`
+
+Kiểm bốn biểu hiện của cùng một bản kịch bản có còn khớp nhau không:
+`narration` *(bản gốc)* ↔ `DUYET_*_EN_VI.md` ↔ `SHOTLINES_FULL.txt` ↔ `build/TTS_input_per_shot.txt`
+↔ số prompt ảnh. READ-ONLY, chạy được cho một video hoặc toàn bộ.
+
+### Kết quả chạy lần đầu trên 18 video — **3 lệch THẬT**
+
+| Video | Kịch bản đã duyệt | Thứ TTS thật sự đọc |
+|---|---|---|
+| V02 | `looked closely at the marks` | `looked closely, at the marks` — thừa dấu phẩy |
+| V11 | `every one of them traces back` | `every one traces back` — **rơi hai chữ** |
+| **V04** | `Stick around for the last job especially.` | `So let's actually walk through the job.` — **câu KHÁC HẲN** |
+
+V04 không phải lệch chính tả mà là **hai bản kịch bản khác nhau**. Câu giữ chân cuối chương
+*không có* trong thứ đã đưa vào sản xuất. Ba video đều đã sản xuất xong — không sửa được nữa.
+
+### ⚠️ Bài học về chính bộ kiểm — 86% báo động giả ở lần chạy đầu
+
+Chạy lần đầu ra **22 FAIL**. Sau khi sửa lỗi của **chính bộ kiểm** thì còn **3**.
+
+| Số | Nguyên nhân |
+|---|---|
+| 13 | Video cũ đánh số prompt `001.` trên dòng riêng; V19 đánh `001. <prompt>` cùng dòng — regex chỉ nhận kiểu sau |
+| 3 | Bảng duyệt V17 có tiêu đề `🎙️ EN`; bộ lọc chỉ loại chữ `EN` trần |
+| 3 | SHOTLINES V06–V08 đánh số ở đầu dòng |
+
+**Nếu báo thẳng "22 lỗi" thì đó là báo động giả 86%, và lần sau không ai tin bộ kiểm nữa.**
+→ Luật: **bộ kiểm mới ra kết quả xấu thì nghi bộ kiểm trước, nghi dữ liệu sau.** Chỉ báo cáo
+sau khi đã loại hết sai khác về ĐỊNH DẠNG.
+
+### Phát hiện phụ: định dạng không thống nhất giữa các video
+`001.` dòng riêng ↔ `001. <prompt>` cùng dòng · SHOTLINES có/không đánh số · bảng duyệt
+`DUYET_*_EN_VI.md` ↔ `Script_*_DUYET_EN-VI.md` ↔ **12/18 video không có bảng duyệt nào**.
+Chưa sửa — thuộc migration, cần D-01…D-04.
