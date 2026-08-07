@@ -82,7 +82,10 @@ Nếu thấy khoá trong file: báo vị trí + loại, **không in giá trị**
 ## 7. NGÔN NGỮ & DUYỆT
 
 - Lời đọc: **tiếng Anh**. Trao đổi và tài liệu: **tiếng Việt**.
-- Khi trình kịch bản để duyệt: bảng **EN + nghĩa VI**, không kèm cột hình.
+- ⛔ **Bỏ bảng EN+VI** *(chủ chốt 07/08/2026: không đọc cột dịch)*. Trình **thẳng lời đọc tiếng Anh**.
+  Bằng chứng: `DUYET_V19_EN_VI.md` lệch kịch bản **22 dòng** qua hai vòng review mà không ai thấy;
+  12/18 video chưa từng có bảng duyệt nào vẫn sản xuất bình thường. Dịch chỉ khi chủ hỏi một câu cụ thể.
+- Chất lượng tiếng Anh là việc của AI. Việc của chủ là **gu và quyết định**, không phải rà câu chữ.
 - Viết theo **đợt**, dừng cho duyệt giữa các đợt. Không đổ một mạch.
 - Giao bản tốt nhất ngay lần đầu; không đưa bản nửa vời rồi chờ nhắc.
 

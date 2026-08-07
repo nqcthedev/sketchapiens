@@ -68,10 +68,13 @@ def check_video(d):
     say("PASS", f"bản gốc {os.path.basename(nar)}", f"{len(N)} dòng · {words(joined)} từ")
 
     # ── biểu hiện 1: bảng duyệt EN+VI ─────────────────────────────────
+    # ⛔ 07/08/2026 — chủ chốt KHÔNG đọc cột dịch nữa, bảng EN+VI đã bỏ.
+    #    Thiếu bảng KHÔNG còn là lỗi. Nhưng bảng nào CÒN nằm đó thì vẫn phải
+    #    khớp kịch bản — file cũ lệch mà vẫn để đó là bẫy cho phiên sau.
     duyet = glob.glob(os.path.join(d, "DUYET_*_EN_VI.md")) + \
             glob.glob(os.path.join(d, "*DUYET*EN-VI*.md"))
     if not duyet:
-        say("WARN", "không có bảng duyệt EN+VI", "chủ duyệt bằng gì?")
+        print("   (không có bảng duyệt EN+VI — đúng luật mới, bỏ qua)")
     else:
         t = open(duyet[0], encoding="utf-8").read()
         def is_header(c):
