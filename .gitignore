@@ -11,7 +11,13 @@ credentials*.json
 **/secrets/
 
 # Corpus đối thủ — cách ly khỏi repo sản xuất (spec §9)
-2_KHO_BANGHI/
+# NỘI DUNG của người khác thì KHÔNG vào git. CÔNG CỤ của mình thì CÓ.
+2_KHO_BANGHI/*
+!2_KHO_BANGHI/00_KHO.md
+!2_KHO_BANGHI/_tool/
+2_KHO_BANGHI/_tool/*
+!2_KHO_BANGHI/_tool/*.py
+!2_KHO_BANGHI/_tool/*.sh
 
 # Media & asset nặng
 *.png
