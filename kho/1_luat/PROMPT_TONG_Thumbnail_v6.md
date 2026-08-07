@@ -47,13 +47,17 @@ F1: người trái **nhắm tịt mắt**, người phải nhìn chếch ra mép
 
 Quả thắng **không bao giờ để ánh nhìn thoát khỏi khung**.
 
-### ❌ Lỗi phụ — chữ quá to
+### ✅ KHÔNG PHẢI LỖI — "chữ quá to" *(gạch bỏ 03/08/2026)*
 
-Kênh: **21-23% chiều cao khung.** Quả thắng cùng phong cách: 13-19%. Chữ đang ăn mất chỗ của cảnh, ép nhân vật và vật thể phải nhỏ lại.
+Mục này từng ghi: *"kênh để **21-23%**, quả thắng 13-19%, chữ đang ăn mất chỗ của cảnh."*
+**Ngược.** Đo bằng máy trên 29 quả thắng: **trung vị 22%**. Kênh lúc đó **đang làm đúng**, và lần
+"sửa" ngày 29/07 là một bước lùi — thumbnail V18 bản 2 để **15%** chính là hậu quả.
+
+→ Giữ **~22%**. Xem `governance/RETIRED_RULES.md`.
 
 ---
 
-# PHẦN B — 5 LUẬT CỨNG (không bao giờ phá)
+# PHẦN B — 7 LUẬT CỨNG (không bao giờ phá)
 
 ### LUẬT 1 — TÂM KHUNG DÀNH CHO VẬT KỂ CHUYỆN, KHÔNG PHẢI NHÂN VẬT
 
@@ -61,14 +65,11 @@ Kênh: **21-23% chiều cao khung.** Quả thắng cùng phong cách: 13-19%. Ch
 
 **Người thì di động tự do. Tâm khung luôn là thứ đặt ra hoặc trả lời câu hỏi.**
 
-### LUẬT 2 — CHỮ PHẢI THÊM THÔNG TIN MỚI, KHÔNG LẶP TITLE
+### LUẬT 2 — CHỮ PHẢI CHỨA MỘT ĐẠI LƯỢNG ĐO ĐƯỢC
 
-| Chữ thumbnail | View |
-|---|---|
-| **Đưa dữ kiện/mối đe doạ KHÁC title** | **7.81M · 3.00M** |
-| Nén lại chính title | cao nhất 957K |
+Sáu quả to nhất cả bộ đều có **con số hoặc khoảng thời gian**: `2 SLEEPS?` *(7,8M)* · `FREE ALL DAY` *(3,1M)* · `RAINED ALL WEEK` *(1M)*.
 
-Hai quả duy nhất không lặp title bỏ xa phần còn lại **gấp 8 lần**. `2 SLEEPS?` tiết lộ giấc ngủ hai pha — không có trong title. `WITH MONSTERS?` bơm thêm một danh từ đe doạ mới.
+**Lặp lại title thì KHÔNG bị phạt** — đo 44 thumbnail / 9 kênh: hơn **25/36 quả lặp hoặc nén lại chính title**; Explain In Paint lặp **6/6**. Cái quyết định là **đại lượng**, không phải chuyện trùng title. Chi tiết ở PHẦN E.
 
 ### LUẬT 3 — NỀN XỈN + 1-2 ĐIỂM BÃO HOÀ
 
@@ -81,6 +82,24 @@ Nhìn camera, nhìn nhau, hoặc nhìn vật. **Không bao giờ nhìn ra mép k
 ### LUẬT 5 — KHÔNG BAO GIỜ ĐỂ MỌI KHUÔN MẶT CÙNG MỘT CẢM XÚC
 
 Quả 353K có 3 nhân chứng: một sợ, một ghê, một **cười nhạo**. Kể cả quả vui nhất (`FREE ALL DAY`) cũng cài **một anh nằm chán đời** ở rìa.
+
+### LUẬT 6 — MẶT, TAY, CHÂN PHẢI TRẮNG ĐẶC
+
+Chữ ký của cả ngách: **đầu tròn TRẮNG ĐẶC viền đen dày**. Đo tỉ lệ pixel gần-trắng ở 70% dưới khung:
+
+| | Tỉ lệ trắng |
+|---|---|
+| 29 quả thắng | **trung vị 4,2%** *(giữa 50%: 2,8 – 5,7%)* |
+| 21 ảnh đối thủ | 2 – 13% |
+| **V18 bản 2 của ta** | **0,3%** ← lệch hơn 10 lần |
+
+Nguyên nhân ở bản 2: Flow tô **mặt màu da hồng-nâu** thay vì để trắng. Prompt phải chặn thẳng: `every HEAD, FACE, ARMS, LEGS filled SOLID PURE WHITE. NOT skin colour, NOT peach, NOT tan, NOT beige` + đưa vào NEG.
+
+### LUẬT 7 — CẢNH ĐÊM VẪN PHẢI SÁNG
+
+Hai ảnh **đêm** của đối thủ — `WHY NOT ATTACK?` (sói dưới trăng) và `NO SLEEP?` (hang ban đêm) — đo ra **140 và 141**, gần bằng ảnh ban ngày của chính họ. Họ vẽ đêm bằng **xanh dương VỪA** rồi thắp sáng cảnh bằng lửa, không dùng navy gần đen. Prompt phải ghi `a BRIGHT, WELL-LIT night, the sky is MEDIUM BLUE, NOT near-black and NOT deep navy`.
+
+> ⚠️ **Đừng biến độ sáng thành cửa chặn.** Nó **không dự báo view** *(tương quan −0,10 — luật "sáng 80-110" đã chết, xem `governance/RETIRED_RULES.md`)*. Nhưng độ sáng là **hệ quả** của thứ có thật: đầu trắng to + cảnh được thắp sáng. V18 bản 2 ra **79** vì mặt không trắng và trời gần đen. Nhắm 120-140 để **vẽ đúng kiểu của ngách**, không phải vì tin "sáng hơn = nhiều view hơn".
 
 ---
 
@@ -109,7 +128,7 @@ Viết danh từ trung tâm ra, rồi hỏi: **người ta có ngại nói to t�
 | MONSTERS · INBRED · MENSTRUATION · BLOOD · SKULL · NAKED · DEAD | SOCK · TOOTHBRUSH · SHOES · EXERCISE · HYGIENE |
 | 2 SLEEPS · -69°F · NO SOAP · CAVE LION | ALLERGIES · EVOLUTION · SURVIVAL |
 
-**Quy cách bắt buộc:** 1 cụm duy nhất · 1-3 từ · IN HOA · vàng chanh + viền đen dày · đỉnh khung · **13-19% chiều cao** (không quá 19%) · **50-92% chiều ngang** (đừng tràn 96%) · kết bằng `?` · **không dấu `!`** · **không chữ đỏ**.
+**Quy cách bắt buộc:** 1 cụm duy nhất · 1-3 từ · IN HOA · vàng chanh + viền đen dày · đỉnh khung · **~22% chiều cao** *(trung vị 29 quả thắng; luật cũ "13-19%" đã chết — xem `governance/RETIRED_RULES.md`)* · **50-92% chiều ngang** (đừng tràn 96%) · kết bằng `?` · **không dấu `!`** · **không chữ đỏ**.
 
 ---
 
@@ -200,63 +219,11 @@ Zenn 7,8M — title *"What Did Ancient Humans Do at Night?"* → chữ `2 SLEEPS
 | Có đúng 1-2 điểm bão hoà, phần còn lại xỉn? | |
 | Mọi ánh mắt có khoá vào trong khung không? | |
 | Các khuôn mặt có **khác cảm xúc** nhau không? | |
-| ~~Chữ có ≤19% chiều cao không?~~ ⛔ **SAI — nay là ~22%, xem bên dưới** | |
+| **Chữ có ~22% chiều cao không?** *(≤19% là SAI — luật cũ đã chết)* | |
 | **Mặt/tay/chân nhân vật có TRẮNG ĐẶC không? (3-6% khung)** *(bổ sung 03/08)* | |
 | **Thu nhỏ còn 168×94 — vật kể chuyện còn nhìn ra không?** | |
 | **Hình có CHỨNG MINH điều chữ nói không?** *(bổ sung 30/07 — không chỉ đọc được, phải kể đúng)* | |
-| ~~Đo tông: độ sáng 80-110/255 · bão hoà 15-30%~~ ⛔ **BỎ — xem bên dưới** | |
+
 | Che chữ đi vẫn hiểu chuyện gì không? | |
 
 Dưới 8/10 thì làm lại concept, đừng sửa hình.
-
-## ⛔ LUẬT "CHỮ 13-19%" ĐÃ CHẾT *(bác 03/08/2026)*
-
-Ngày 29/07 tôi sửa luật thành **chữ 13-19% chiều cao**, kèm câu *"kênh đang để 21-23%, ăn mất chỗ của cảnh"*. Đo lại bằng máy trên **hai bộ ảnh độc lập**:
-
-| Bộ | Chiều cao chữ vàng |
-|---|---|
-| 21 ảnh style đối thủ *(chủ gửi 03/08)* | **21 – 22%** |
-| 29 quả thắng `../3_bangchung/NGHIENCUU_Thumbnail_50K/` | **trung vị 22%** |
-
-→ **Ngưỡng đúng là ~22%, không phải 13-19%.** Lần "sửa" 29/07 là một bước lùi — kênh lúc đó đang làm đúng. Thumbnail V18 bản 2 để 15% chính là hậu quả.
-
-## 🆕 LUẬT MỚI — MẶT NHÂN VẬT PHẢI TRẮNG ĐẶC *(03/08/2026)*
-
-Chữ ký của cả ngách: **đầu tròn TRẮNG ĐẶC viền đen dày**. Đo tỉ lệ pixel gần-trắng ở 70% dưới khung:
-
-| | Tỉ lệ trắng |
-|---|---|
-| 29 quả thắng | **trung vị 4,2%** *(giữa 50%: 2,8 – 5,7%)* |
-| 21 ảnh đối thủ | 2 – 13% |
-| **V18 bản 2 của ta** | **0,3%** ← lệch hơn 10 lần |
-
-Nguyên nhân ở bản 2: Flow tô **mặt màu da hồng-nâu** thay vì để trắng. Prompt phải chặn thẳng: `every HEAD, FACE, ARMS, LEGS filled SOLID PURE WHITE. NOT skin colour, NOT peach, NOT tan, NOT beige` + đưa vào NEG.
-
-## 🆕 CẢNH ĐÊM VẪN PHẢI SÁNG *(03/08/2026)*
-
-Hai ảnh **đêm** của đối thủ — `WHY NOT ATTACK?` (sói dưới trăng) và `NO SLEEP?` (hang ban đêm) — đo ra **140 và 141**, gần bằng ảnh ban ngày của chính họ. Họ vẽ đêm bằng **xanh dương VỪA** rồi thắp sáng cảnh bằng lửa, không dùng navy gần đen. Prompt phải ghi `a BRIGHT, WELL-LIT night, the sky is MEDIUM BLUE, NOT near-black and NOT deep navy`.
-
-> ⚠️ **Đừng lẫn luật này với luật "đo tông" đã chết ở dưới.** Hai luật không mâu thuẫn: độ sáng **không dự báo view** (tương quan −0,10), nên đừng lấy nó làm cửa chặn. Nhưng độ sáng là **hệ quả** của thứ có thật — đầu trắng to + cảnh được thắp sáng. Bản 2 ra 79 vì mặt không trắng và trời gần đen. Nhắm 120-140 là để **vẽ đúng kiểu của ngách**, không phải vì tin "sáng hơn = nhiều view hơn".
-
-## ⛔ LUẬT "ĐO TÔNG" ĐÃ CHẾT *(bác 03/08/2026)*
-
-Luật cũ ghi **sáng 80-110 · bão hoà 15-30%**, rút ra từ vài thumbnail của Mack. Đo lại bằng máy trên **cả 29 quả thắng** trong `../3_bangchung/NGHIENCUU_Thumbnail_50K/` *(55K → 7,81M view)*:
-
-| | Trung vị | Khoảng giữa 50% | Min → Max |
-|---|---|---|---|
-| Độ sáng | **130** | 98 – 153 | 63 → 174 |
-| Bão hoà | **29** | 22 – 39 | 15 → 49 |
-
-Ngưỡng cũ 80-110 **nằm dưới cả khoảng giữa** — nó loại oan phần lớn quả thắng.
-
-**Nhưng quan trọng hơn con số:** tương quan với view là **sáng −0,10 · bão hoà −0,09**. Tức là **cả hai không dự báo gì cả**. Quả 7,81M sáng 92 bão hoà 18; quả 62K sáng 74 bão hoà 49. Không có hướng nào.
-
-→ **Đừng dùng hai chỉ số này làm cửa.** Chúng chỉ để biết mình có đang lạc ra ngoài lãnh thổ của quả thắng hay không *(ngoài 63-174 và 15-49 thì mới đáng lo)*. Hai cửa thật sự còn lại là **đọc được ở 168×94** và **hình chứng minh điều chữ nói** — đó là hai thứ có lý do nhân quả, không phải tương quan rỗng.
-
----
-
-# PHỤ LỤC — HAI QUAN SÁT NGƯỢC TRỰC GIÁC
-
-**Cấm kỵ KHÔNG phải điều kiện cần.** 5/7 quả thắng có yếu tố cấm kỵ vẽ thẳng, nhưng **hai quả cao nhất (7.81M và 3.00M) hoàn toàn sạch** — không máu, không cơ thể, không từ cấm. Quả bẩn nhất được 516K.
-
-**Nhân vật KHÔNG cần to.** Một quả 59K có nhân vật chỉ chiếm **35% khung**, nằm dang tay giữa cảnh wide, không cấm kỵ, không ai to. Nó thắng bằng **tư thế + 1 đạo cụ (cây giáo bị vứt)** và **chữ chỉ chiếm 71% chiều ngang để cảnh được thở**.

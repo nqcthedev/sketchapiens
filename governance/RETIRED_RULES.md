@@ -159,3 +159,64 @@ chọn theo **chi phí sản xuất**, không theo niềm tin nó ăn view. Vẫ
 ⚠️ **Đây là lần thứ TƯ.** Ba lần trước cũng sửa luật hình từ một ảnh hoặc một mẫu thưa, và cả ba sai
 theo ba hướng khác nhau. Lần này tôi đổi 50% thành 40% **trong khi bảng bốn kênh nằm ngay đầu cùng
 file đó đã bác** — không phải thiếu dữ liệu, mà là **không đọc lại thứ mình đang sửa**.
+
+---
+
+## ⛔ RUBRIC — các con số đã bị đuổi theo sai *(gom 07/08/2026 từ chính rubric)*
+
+| Số | Chuyện gì |
+|---|---|
+| **Giác quan 7–9%** | ❌ đo cùng từ điển thì V17 chỉ **5,2%**, V19 **5,5%** — hai bên dùng **thước khác nhau**, không phải kịch bản kém |
+| **Mỏ neo 3,2–5,1/phút** | ❌ V19 đo ra **12,2** — cũng là thước khác nhau |
+| **you:we 1,5–2** | ❌ đo 200 bản ghi: Mack **1,17** *(dưới dải)* · Stickly 1,50 · Before Civilization 2,73 · Zenn **5,00** · Ink Explainer **5,69** |
+| **Độ dài 9–12 phút** | ⚠️ Ink Explainer: quả **1M = 11:37**, quả **769K = 6:04**, quả 1,5M chỉ **1.543 từ** |
+| **Nhịp hài 30–60 giây** *(A10)* | ⚠️ **thừa hưởng từ benchmark sai** — đúc từ Stickly, mà Stickly là kênh **trúng số** *(trung vị 27.000, top-1 chiếm 45%)*. Đếm trên quả **769K của Ink Explainer: đúng 1 câu đùa trong 6 phút**, ít hơn rubric 6–12 lần. → nhắm **vài nhịp cả bài**, không phải mỗi phút một nhịp |
+
+## 🔧 Rubric — bốn lỗi đã vá 29/07/2026
+
+| Lỗi | Đã làm gì |
+|---|---|
+| **B5 thưởng điểm cho lane đã chết** — *"lật MỌI chương về BẠN"*. Lane "về BẠN" verify **0 cú nổ / 4 tháng**; 11/15 video của kênh xây trên đó và flop hết | tách đôi: giữ **cú xoay cuối** *(14/14 winner có)*, bỏ "mọi chương" |
+| **Ngưỡng tự mâu thuẫn** — cùng một tầng, chỗ ghi ≥52/60, chỗ ghi ≥40 | thống nhất thang **72** |
+| **Mục 8 và 26 ép cú lật phải nằm ở CUỐI** | winner rải **55%→88%** → bỏ ép vị trí, chỉ chấm *có* cú lật + *có* báo trước |
+| **Mục 12 cấm tuyệt đối "I"** — Predators đếm thật có **2** lần | sửa thành "gần bằng 0" *(và 07/08 gỡ hẳn — xem mục trên)* |
+
+Cùng đợt bổ sung **A7**: 6 đặc điểm winner rubric cũ thiếu hẳn, gồm luật nhất quán nhất cả bộ dữ liệu — **dấu `!` = 0 (14/14)**.
+
+---
+
+# ⛔ THUMBNAIL — hai luật đo lường đã chết *(gom 07/08 từ `PROMPT_TONG_Thumbnail_v6.md`)*
+
+## ⛔ LUẬT "CHỮ 13-19%" ĐÃ CHẾT *(bác 03/08/2026)*
+
+Ngày 29/07 tôi sửa luật thành **chữ 13-19% chiều cao**, kèm câu *"kênh đang để 21-23%, ăn mất chỗ của cảnh"*. Đo lại bằng máy trên **hai bộ ảnh độc lập**:
+
+| Bộ | Chiều cao chữ vàng |
+|---|---|
+| 21 ảnh style đối thủ *(chủ gửi 03/08)* | **21 – 22%** |
+| 29 quả thắng `../3_bangchung/NGHIENCUU_Thumbnail_50K/` | **trung vị 22%** |
+
+→ **Ngưỡng đúng là ~22%, không phải 13-19%.** Lần "sửa" 29/07 là một bước lùi — kênh lúc đó đang làm đúng. Thumbnail V18 bản 2 để 15% chính là hậu quả.
+
+## ⛔ LUẬT "ĐO TÔNG" ĐÃ CHẾT *(bác 03/08/2026)*
+
+Luật cũ ghi **sáng 80-110 · bão hoà 15-30%**, rút ra từ vài thumbnail của Mack. Đo lại bằng máy trên **cả 29 quả thắng** trong `../3_bangchung/NGHIENCUU_Thumbnail_50K/` *(55K → 7,81M view)*:
+
+| | Trung vị | Khoảng giữa 50% | Min → Max |
+|---|---|---|---|
+| Độ sáng | **130** | 98 – 153 | 63 → 174 |
+| Bão hoà | **29** | 22 – 39 | 15 → 49 |
+
+Ngưỡng cũ 80-110 **nằm dưới cả khoảng giữa** — nó loại oan phần lớn quả thắng.
+
+**Nhưng quan trọng hơn con số:** tương quan với view là **sáng −0,10 · bão hoà −0,09**. Tức là **cả hai không dự báo gì cả**. Quả 7,81M sáng 92 bão hoà 18; quả 62K sáng 74 bão hoà 49. Không có hướng nào.
+
+→ **Đừng dùng hai chỉ số này làm cửa.** Chúng chỉ để biết mình có đang lạc ra ngoài lãnh thổ của quả thắng hay không *(ngoài 63-174 và 15-49 thì mới đáng lo)*. Hai cửa thật sự còn lại là **đọc được ở 168×94** và **hình chứng minh điều chữ nói** — đó là hai thứ có lý do nhân quả, không phải tương quan rỗng.
+
+---
+
+# PHỤ LỤC — HAI QUAN SÁT NGƯỢC TRỰC GIÁC
+
+**Cấm kỵ KHÔNG phải điều kiện cần.** 5/7 quả thắng có yếu tố cấm kỵ vẽ thẳng, nhưng **hai quả cao nhất (7.81M và 3.00M) hoàn toàn sạch** — không máu, không cơ thể, không từ cấm. Quả bẩn nhất được 516K.
+
+**Nhân vật KHÔNG cần to.** Một quả 59K có nhân vật chỉ chiếm **35% khung**, nằm dang tay giữa cảnh wide, không cấm kỵ, không ai to. Nó thắng bằng **tư thế + 1 đạo cụ (cây giáo bị vứt)** và **chữ chỉ chiếm 71% chiều ngang để cảnh được thở**.
