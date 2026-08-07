@@ -33,6 +33,11 @@
 | **D-22** 🆕 | Có dựng **run manifest** cho mỗi lần gen ảnh/TTS/ghép không? | Chặn được lỗi đã xảy ra **ba lần** (V12/V14/V15 lệch số ảnh↔audio, V15 hỏng tiếng). Chi phí: mỗi lần chạy tạo một thư mục + một file manifest | `NEEDS_HUMAN_DECISION` |
 
 
+| **D-23** 🆕 | Có thêm 4 trường xuất xứ cho mọi con số trong `RULE_REGISTRY` không? *(`measured_on` · `sample_size` · `measured_at` · `remeasure_after`)* | Kiểu lỗi tốn kém nhất của dự án là **con số nền sai**, không phải luật sai — Tầng A đúc từ Mack mà 4 tháng không truy được Mack là kênh nào. Chi phí: điền lại 26 luật đang có | `NEEDS_HUMAN_DECISION` |
+| **D-24** 🆕 | Một con số bị bác thì có kéo cả **đợt đo** đó sang `SUSPECT` không? | Đợt 29/07 sinh ≥3 con số thumbnail, **một cái đã sai** *(chữ 13-19% → thật ra 22%)*. Hai cái còn lại chưa ai soi lại | `NEEDS_HUMAN_DECISION` |
+| **D-25** 🆕 | `/audit-script` có **dừng hẳn** khi lớp kiểm tất định trượt không? | Đỡ đốt token cho agent nói lại thứ `qa_kichban.py` đã biết. Nhưng có lúc muốn nghe agent dù script chưa sạch | `NEEDS_HUMAN_DECISION` |
+
+
 ## Cách đóng một mục
 ```
 | D-0X | ... | ... | ✅ DECIDED 2026-MM-DD bởi <tên> → <quyết định> |

@@ -67,3 +67,89 @@ và đều rẻ. Không cái nào cần quyết định của chủ để **ghi 
 **Ý (d) đáng chú ý nhất cho V19 ngay bây giờ:** bốn file kia phải luôn khớp nhau. Hiện chỉ có
 `build_prompts.py` kiểm ghép-shot-khớp-narration; **không có gì kiểm `DUYET_V19_EN_VI.md` còn khớp
 kịch bản sau vòng 5 và vòng 6 hay không.** Bảng duyệt EN+VI đang là bản **trước vòng 5**.
+
+---
+
+## 07/08 — BẢY CHỖ LANDSCAPE RESEARCH BỎ SÓT, kèm cơ chế đề xuất
+
+*Đọc ngược tài liệu 1.096 dòng: không tìm "cái gì đáng lấy" mà tìm "nó bỏ sót cái gì".
+Tài liệu đó viết bởi người không sống qua các lỗi của dự án này, nên nó mạnh về pattern chung
+và yếu ở chỗ đặc thù. Bảy mục dưới là phần đặc thù.*
+
+### G1 · Không đụng tới nút thắt thật của kênh — **KHÔNG CHỮA ĐƯỢC BẰNG KIẾN TRÚC**
+
+Tài liệu tối ưu **chất lượng sản xuất**. Audit chẩn **bệnh A: 367 hiển thị / 5 ngày** — YouTube
+chưa phân phối. Làm hết 24 mục trong tài liệu, kênh vẫn 367 hiển thị.
+
+**Không đề xuất cơ chế** — chỉ ghi lại để mọi tài liệu kiến trúc sau này mở đầu bằng câu này:
+> Kiến trúc bảo vệ thứ đã có và giúp học nhanh hơn. Nó **không** tạo ra hiển thị.
+
+### G2 · Corpus bị coi chỉ là rủi ro, bỏ mất vai trò tài sản đo lường
+
+Tài liệu §14 chỉ nói cách ly. Nhưng 06-07/08 corpus **giết bốn con số sai trong một ngày** và là
+thứ duy nhất làm cổng 11 chạy được.
+
+**Đề xuất — `2_KHO_BANGHI/_tool/do.py`, một lệnh trả mọi số hay hỏi:**
+```
+python3 do.py wpm            # tốc độ đọc mọi kênh
+python3 do.py dodai          # độ dài · số từ · trung vị view
+python3 do.py tim <cụm từ>   # mỏ neo này đã ai dùng chưa  (đang phải viết tay mỗi lần)
+python3 do.py trung <file>   # cổng A: chuỗi 8 từ trùng bất kỳ bản ghi nào
+```
+Hiện mỗi lần cần số lại viết script từ đầu → dễ sai và không lặp lại được.
+⚠️ Chỉ chạy ở phiên ĐO, không phải phiên VIẾT.
+
+### G3 · Có xuất xứ cho LUẬT, không có xuất xứ cho CON SỐ ⭐ nghiêm trọng nhất
+
+Kiểu lỗi tốn kém nhất của dự án **không phải luật sai, mà là con số nền của luật sai**:
+Tầng A rubric đúc từ Mack, mà **4 tháng không ai truy được Mack là kênh nào**.
+
+`RULE_REGISTRY.yaml` hiện có `source` · `confidence` · `evidence` — **thiếu bốn trường quyết định**:
+
+```yaml
+- id: R-XXX
+  measured_on: "InkExplainer, Zenn, Mack"   # ĐO TRÊN AI — Mack 4 tháng không truy được
+  sample_size: 12                            # n bao nhiêu
+  measured_at: "2026-08-06"                  # đo ngày nào
+  remeasure_after: "2027-02-06"              # hết hạn khi nào
+```
+Không có bốn trường đó thì `confidence: high` chỉ là chữ.
+
+### G4 · Luật khai tử được, con số thì không
+
+Khi *"chữ 13-19%"* bị bác, luật chết. Nhưng **mọi con số khác đo cùng đợt, cùng phương pháp vẫn sống**.
+
+**Đề xuất — trường `measurement_batch` + luật liên đới:**
+> Một con số trong đợt đo bị bác → **mọi con số cùng `measurement_batch` chuyển sang `SUSPECT`**,
+> phải đo lại mới dùng tiếp.
+
+Đợt 29/07 sinh ra ít nhất ba con số thumbnail, **một cái đã sai**. Hai cái còn lại chưa ai soi.
+
+### G5 · Analytics giả định dữ liệu sẽ có
+
+§18 liệt kê 10 trường phải lưu, **không nói lấy ở đâu**. Nút thắt thật: YouTube API không trả
+hiển thị và CTR, Claude bị cấm vào tài khoản kênh → **mọi số phải chủ gõ tay**.
+
+**Đề xuất — một CSV, không phải schema JSON:**
+`analytics/channel/videos.csv` — gõ tay 60 giây từ một ảnh chụp Studio, đọc bằng thư viện chuẩn,
+diff sạch trong git. Nâng lên schema **sau khi** có ≥5 dòng thật.
+
+### G6 · Ba giám khảo đều là LLM — bỏ mất lớp rẻ nhất và chắc nhất
+
+`qa_kichban.py` kiểm 4 ràng buộc cứng trong 0,2 giây, không tốn token, **không bao giờ sai**.
+
+**Đề xuất — thứ tự cứng trong `/audit-script`:**
+> **Lớp 1 tất định** *(qa_kichban · ghép-shot-khớp-narration · đếm asset · cổng A)* — chạy TRƯỚC.
+> Lớp 1 trượt thì **dừng, không gọi agent** — đừng đốt token để agent nói lại thứ script đã biết.
+> **Lớp 2 agent** chỉ chạy khi lớp 1 sạch.
+
+### G7 · Không một chữ về ranh giới ngôn ngữ
+
+Kịch bản **EN**, tài liệu **VI**, chủ duyệt qua **bảng dịch**. Bảng dịch lệch = chủ duyệt nhầm bản.
+**Vừa xảy ra thật: 22 dòng.**
+
+Tài liệu viết cho dự án nói tiếng Anh nên không thấy chỗ này.
+
+**Đề xuất — `tools/kiem_bieu_hien.py`:** một version kịch bản sinh ra nhiều biểu hiện
+*(narration · bảng duyệt EN+VI · SHOTLINES · TTS_input)*. Script kiểm cả bốn còn khớp nhau.
+Đây là ý (d) §4.4 biến từ **khái niệm** thành **phép kiểm** — và nó đã bắt được lỗi thật ngay lần đầu.
