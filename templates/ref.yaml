@@ -1,0 +1,11 @@
+# Con trỏ version — đặt trong 03-script/refs/{current,approved,published}.yaml
+#
+# Con trỏ ĐỔI ĐƯỢC. File 03-script/versions/vNNN.md thì KHÔNG BAO GIỜ đổi.
+# Đây là chỗ trả lời câu "bản nào đã dùng?" — câu mà V01 với ba file FINAL không trả lời được.
+#
+# approved.yaml và published.yaml: set_by PHẢI là "owner". Agent không được tự đặt.
+
+version: v003
+set_at: "2026-08-07T09:00:00+07:00"
+set_by: owner
+reason: duyệt sau vòng review thứ 6

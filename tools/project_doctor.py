@@ -13,23 +13,21 @@ RESULTS = []
 def rec(level, check, detail=""):
     RESULTS.append((level, check, detail))
 
-LIFECYCLE = ["idea","selected","researched","evidence_locked","draft","internally_audited",
-             "externally_reviewed","revised","script_approved","packaged","production_ready",
-             "produced","published","measured","postmortem_complete","archived"]
+LIFECYCLE = ["idea","packaging","research","drafting","review","revision","approved",
+             "production","ready_to_publish","published","measured","postmortem_complete",
+             "abandoned","archived"]
 
 # artefact bắt buộc cho từng trạng thái (thư mục tương đối trong videos/<ID>/)
 REQUIRED = {
-    "researched":        ["02-research"],
-    "evidence_locked":   ["02-research/claim-ledger.md"],
-    "draft":             ["03-script"],
-    "internally_audited":["04-review"],
-    "externally_reviewed":["04-review"],
-    "revised":           ["03-script"],
-    "script_approved":   ["03-script/approved.md"],
-    "packaged":          ["05-packaging"],
-    "production_ready":  ["06-production"],
-    "produced":          ["06-production"],
-    "published":         ["07-publish", "03-script/published.md"],
+    "research":          ["02-research"],
+    "drafting":          ["03-script/versions"],
+    "review":            ["03-script/reviews"],
+    "revision":          ["03-script/versions"],
+    "approved":          ["03-script/refs/approved.yaml"],
+    "packaging":         ["05-packaging"],
+    "production":        ["06-production"],
+    "ready_to_publish":  ["06-production"],
+    "published":         ["07-publish", "03-script/refs/published.yaml"],
     "measured":          ["08-analytics"],
     "postmortem_complete":["08-analytics"],
 }

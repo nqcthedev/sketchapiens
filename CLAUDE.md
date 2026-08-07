@@ -16,8 +16,9 @@ Kho cũ vẫn là nguồn nội dung: `00_LUAT_HIEN_HANH.md` là cửa vào tầ
 
 ## 1. MƯỜI LUẬT KHÔNG PHÁ
 
-1. **Không ghi đè kịch bản.** Mỗi lần sửa tạo `vNNN` mới. `approved.md` và `published.md` là bất biến.
-2. **Không tự phong "final".** Chỉ người dùng duyệt mới thành `approved`.
+1. **Không ghi đè kịch bản.** `03-script/versions/vNNN.md` **bất biến**. Sửa = tạo `vNNN` kế tiếp.
+   `approved` và `published` là **con trỏ** (`03-script/refs/*.yaml`), không phải bản sao — con trỏ đổi được, version thì không.
+2. **Không tự phong "final".** Con trỏ `approved.yaml` và `published.yaml` phải có `set_by: owner` — hook chặn nếu thiếu.
 3. **Không suy ra `published`.** Chưa có publish record thì trạng thái là `not_published`.
 4. **Không mở corpus đối thủ khi đang viết.** `2_KHO_BANGHI/` chỉ để ĐO, ở phiên research riêng.
 5. **Agent review chỉ chấm, không sửa.** Một editor duy nhất tạo version mới, sau khi người dùng phân loại.

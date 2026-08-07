@@ -3,9 +3,19 @@ paths: ["videos/**/03-script/**", "Video*/Script_*_narration.txt", "Video*/_nhap
 ---
 # LUẬT — FILE KỊCH BẢN
 
-**Không ghi đè.** Mỗi lần sửa tạo `vNNN-<lý-do>.md` mới. Không sửa `vNNN` đã tồn tại.
+## Version bất biến + con trỏ đổi được *(sửa 07/08)*
 
-`approved.md` và `published.md` **bất biến**. Sửa sau khi duyệt = tạo `vNNN` mới + duyệt lại.
+```
+03-script/
+├── versions/   v001.md  v002.md  v003.md    ← ĐÃ TẠO THÌ KHÔNG BAO GIỜ SỬA
+├── reviews/    REV-YYYYMMDD-NNN-*.md
+└── refs/       current.yaml  approved.yaml  published.yaml   ← đổi được
+```
+
+**Vì sao con trỏ chứ không phải bản sao:** bản sao có thể trôi khỏi nguồn, con trỏ thì không.
+Và nó trả lời được câu *"bản nào đã dùng?"* — câu mà V01 với **ba** file tên `FINAL` không trả lời được.
+
+`approved.yaml` và `published.yaml` phải có `set_by: owner`. **Hook chặn nếu thiếu.**
 
 ⛔ **Kịch bản cũ `Video*/Script_*_narration.txt` là read-only** cho tới khi có lệnh migration riêng. Chúng không có lịch sử phiên bản và project chưa có git bao phủ chúng.
 

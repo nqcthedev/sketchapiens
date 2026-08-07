@@ -18,14 +18,12 @@
       "Read(./**/*.key)",
       "Edit(./Video*/**/Script_*_narration.txt)",
       "Write(./Video*/**/Script_*_narration.txt)",
-      "Edit(./videos/**/approved.md)",
-      "Edit(./videos/**/published.md)",
-      "Write(./videos/**/approved.md)",
-      "Write(./videos/**/published.md)",
       "Edit(//Users/admin/.claude/skills/**)",
       "Write(//Users/admin/.claude/skills/**)",
       "Edit(//Users/admin/.claude/projects/**/memory/**)",
-      "Write(//Users/admin/.claude/projects/**/memory/**)"
+      "Write(//Users/admin/.claude/projects/**/memory/**)",
+      "Edit(./videos/**/03-script/versions/**)",
+      "Write(./videos/**/06-production/runs/**/manifest.*)"
     ],
     "ask": [
       "Bash(git commit:*)",
@@ -54,7 +52,10 @@
       {
         "matcher": "Write|Edit|MultiEdit",
         "hooks": [
-          { "type": "command", "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard_project.py\"" }
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/guard_project.py\""
+          }
         ]
       }
     ]

@@ -24,16 +24,20 @@ videos/SKA-NNNN-<slug>/
 ├── video.yaml            ← theo schemas/video.schema.json, trạng thái khởi tạo là "idea"
 ├── 01-brief/
 ├── 02-research/          ← claim ledger sống ở đây
-├── 03-script/            ← vNNN-*.md, approved.md, published.md
+├── 03-script/
+│   ├── versions/         ← vNNN.md — BẤT BIẾN
+│   ├── reviews/          ← REV-YYYYMMDD-NNN-*.md
+│   └── refs/             ← current/approved/published.yaml (con trỏ)
 ├── 04-review/            ← bản chấm của 5 giám khảo + phân loại của chủ
 ├── 05-packaging/         ← title, thumbnail concept, metadata
-├── 06-production/        ← shotlines, prompt ảnh, ghi chú ghép
+├── 06-production/        ← shotlines, prompt ảnh
+│   └── runs/{image,tts,render}/<RUN-ID>/  ← mỗi lần chạy một thư mục, BẤT BIẾN
 ├── 07-publish/           ← publish record. Trống = not_published
 └── 08-analytics/         ← số liệu + postmortem
 ```
 
 ## Sau khi tạo
 1. Điền `video.yaml` từ `templates/video.yaml`, trạng thái `idea`.
-2. Copy `templates/claim-ledger.md` vào `02-research/`.
+2. Copy `templates/claim-ledger.md` vào `02-research/`, `templates/ref.yaml` vào `03-script/refs/`.
 3. Chạy `/project-doctor` xác nhận khung hợp lệ.
 4. **Không** chuyển trạng thái. Chuyển trạng thái cần artefact tương ứng tồn tại.
