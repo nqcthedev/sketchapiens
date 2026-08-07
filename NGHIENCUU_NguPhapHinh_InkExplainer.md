@@ -1,4 +1,23 @@
 # NGỮ PHÁP HÌNH CỦA LANE — SOI 96 KHUNG, 2 KÊNH
+
+> # ⛔ FILE NÀY ĐÃ CHẾT — KHÔNG DÙNG ĐỂ QUYẾT ĐỊNH
+>
+> **Thay bằng `NGUPHAP_HINH_DoLai_ToanBo_2026-07-30.md`** *(dán biển 07/08/2026)*.
+>
+> File đó đo **1.090 khung bằng máy** *(1 khung / 2 giây, trọn hai video)*; file này chỉ xem tay
+> **96 khung lấy mẫu thưa**. Con số **"khoảng một nửa số khung là đồ hoạ dạy học"** dưới đây là **SAI**.
+>
+> | | thẻ dạy học | cảnh kể chuyện | số khung |
+> |---|---|---|---|
+> | Ink Explainer | **41%** | 59% | 348 |
+> | Mack | **36%** | 64% | 742 |
+>
+> → mục tiêu thật là **~40% thẻ / 60% cảnh**, không phải 50/50.
+>
+> ⚠️ **V17 đã bị dựng trên con số sai này** *(ra 75% thẻ — ngược hẳn đối thủ)*.
+> ⚠️ Skill `sketchapiens-chia-shot` PHẦN 4 **vẫn đang trích file này** — xem `D-20` trong
+> `governance/DECISIONS_REQUIRED.md`.
+
 *30/07/2026. Tải video gốc `SD7XyG2wd1k` (997K view, 11:37, 4K), trích 72 khung rải đều toàn video, xem tận mắt.*
 
 > **Kết luận một câu:** họ **không minh hoạ câu chữ — họ giảng bài bằng bảng.** Khoảng **một nửa số khung là đồ hoạ dạy học** (chữ, sơ đồ, bản đồ, thẻ tiêu đề), không phải cảnh kể chuyện.

@@ -111,8 +111,20 @@ Bàn giao: `BÀN_GIAO_DuAn` · `Brand_Kit_Kenh`
 
 | File | Thay bằng | Đã dán biển? |
 |---|---|---|
-| `BANDO_NgachTitle_Thang.md` | `HE_THONG` PHẦN C + `BANG_CAU` + tra bầy live | ✅ 06/08 |
-| `NGHIENCUU_Title_3Kenh_Gap_2026-07-11.md` | như trên | ✅ 06/08 |
+| 🆕 `NGHIENCUU_NguPhapHinh_InkExplainer.md` | `NGUPHAP_HINH_DoLai_ToanBo_2026-07-30.md` | ✅ 07/08 |
+
+> ### 🆕 07/08 — vì sao `NGHIENCUU_NguPhapHinh_InkExplainer` chết
+> Nó xem tay **96 khung lấy mẫu thưa** và ra *"khoảng một nửa số khung là đồ hoạ dạy học"*.
+> File thay thế đo **1.090 khung bằng máy**: Ink Explainer **41%** · Mack **36%** → thật ra là
+> **~40% thẻ / 60% cảnh**. V17 dựng trên con số sai đó và ra **75% thẻ**, ngược hẳn đối thủ.
+>
+> ⚠️ **Không xoá file này** vì skill `sketchapiens-chia-shot` PHẦN 4 vẫn đang trích nó — xoá thì
+> skill trỏ vào khoảng không. Dán biển và để đó cho tới khi `D-20` được quyết.
+
+*Đã xoá khỏi kho 07/08/2026: `BANDO_NgachTitle_Thang` · `NGHIENCUU_Title_3Kenh_Gap_2026-07-11` ·
+`_BO_TRAIN_ChatGPT_ReviewKichBan_v2` — cả ba đã dán biển ⛔ từ 06/08 và không còn ai trích.
+Cùng đợt: `Script_Video01_FINAL_MaxHai` · `Script_Video01_Why-Did-Humans-Lose-Body-Hair`
+*(V01 thuộc lane "về BẠN" đã chết; V02–V16 xoá cùng ngày)*. Lịch sử git vẫn giữ.*
 
 *Các file khai tử trước đó (SoTay_ChonDeTai · SUBNGACH_KhaiThac_Can · SUBNGACH_CoTheDoDa ·
 CongThuc_Title_TrieuView · Thumbnail_Signature_v3 · Thumbnail_v5 · TEMPLATE_Thumbnail_DoiThu ·
