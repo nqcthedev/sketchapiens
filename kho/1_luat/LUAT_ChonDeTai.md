@@ -102,6 +102,6 @@ Toàn bộ luật trên dạy cách chọn **một đề tài cho video kế ti�
 **111 lần.** Và **độ dài không giải thích gì** — trong loạt đó, `rho` giữa độ dài và view/ngày
 chỉ **+0,16**, nửa ngắn còn ăn hơn nửa dài.
 
-⛔ **Chưa nâng thành luật.** Nó đổi **hai** thứ cùng lúc *(công thức title + nhịp đăng ~1/ngày)*
+⛔ **Chưa nâng thành luật, và kiểm chéo trên kho KHÔNG xác nhận** — so bên trong 4 kênh khác: 1 thắng · 2 hoà · 1 thua *(Before Civilization còn ngược, 0,52×)*. Ngoài ra nó đổi **hai** thứ cùng lúc *(công thức title + nhịp đăng ~1/ngày)*
 và mình không đăng nổi 1 video/ngày. → **`D-26`** trong `governance/DECISIONS_REQUIRED.md`.
 Bằng chứng đầy đủ + giới hạn: `kho/3_bangchung/NEONRUSH_DoiCongThuc_2026-08-08.md`.

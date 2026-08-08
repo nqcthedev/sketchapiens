@@ -106,3 +106,43 @@ Neon Rush thời đó **cùng ngách, cùng độ dài, cùng định dạng, c�
 Khác biệt duy nhất đo được là **nó dừng làm đề tài lẻ và bắt đầu làm MỘT LOẠT**.
 
 → Sinh ra quyết định **`D-26`** trong `governance/DECISIONS_REQUIRED.md`.
+
+---
+
+# 6. ⛔ KIỂM CHÉO TRÊN KHO — KHÔNG XÁC NHẬN ĐƯỢC *(cùng ngày 08/08)*
+
+Đem giả thuyết *"làm một LOẠT thắng làm đề tài LẺ"* đi kiểm trên 17 kênh còn lại trong
+`2_KHO_BANGHI/`, **so bên trong từng kênh** *(để khỏi dính bẫy cỡ kênh)*, dùng **view/ngày**
+để khử tuổi video.
+
+Sau khi loại các ca hỏng, còn **4 phép so sạch**:
+
+| kênh | v/ngày nhóm LOẠT | v/ngày nhóm LẺ | tỉ lệ | tuổi hai nhóm |
+|---|---|---|---|---|
+| Mack | 2.679 | 1.379 | **1,94×** | 42 vs 37 ✅ |
+| Mogo | 258 | 223 | 1,16× | 27 vs 25 ✅ |
+| Stickly | 588 | 584 | **1,01×** hoà | 48 vs 37 ✅ |
+| Before Civilization | 152 | 293 | **0,52× — LOẠT THUA** | 67 vs 50 ✅ |
+
+**1 thắng · 2 hoà · 1 thua → nhiễu, không phải quy luật.**
+
+### Hai ca bị loại và vì sao
+
+| kênh | lý do loại |
+|---|---|
+| Bright-Psycho | nhóm lẻ trung vị **1 view/ngày** — chia cho số gần 0 ra `1037×`, vô nghĩa |
+| **NeonRush** *(chính nó)* | nhóm loạt trung vị **10 ngày tuổi**, nhóm lẻ **44 ngày**. Loạt bắt đầu 18/07, video lẻ kết thúc 23/07 → **hai nhóm gần như không chồng lấn thời gian**. Không tách được "công thức" khỏi "kênh vừa được thuật toán bắt" |
+
+### Điểm yếu của chính phép đo này
+
+Cái nó bắt là **cụm 4 từ đầu phổ biến nhất**, mà `"how did ancient"` là **cách nói chung của cả
+ngách**, không phải một loạt có ô điền cố định như `How Did Humans Invent ___?`. Nên kể cả
+`Mack 1,94×` cũng chưa chắc nói về chuyện làm-loạt.
+
+## → KẾT LUẬN ĐÚNG
+
+Con số **111×** ở Neon Rush là **thật và đã đo**, nhưng **nguyên nhân thì chưa biết**. Ba khả năng
+chưa tách được: *(a)* công thức title · *(b)* nhịp ~1 video/ngày · *(c)* kênh trúng đợt đẩy của
+thuật toán từ 18/07 và **mọi thứ sau đó đều hưởng lây**.
+
+Kho **không** ủng hộ (a). Nên đừng đổi cách chọn đề tài của kênh chỉ vì con số 111× này.
