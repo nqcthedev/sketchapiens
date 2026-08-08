@@ -99,13 +99,18 @@ hoặc lệch thời *(nukes không thuộc "ancient")*. Cùng công thức titl
 
 # 5. VÌ SAO ĐIỀU NÀY ĐỤNG THẲNG VÀO KÊNH MÌNH
 
-Kênh Sketchapiens hiện đang làm **đúng thời kỳ 23 view/ngày** của Neon Rush: 19 video, 19 đề tài
-khác nhau, người xem hết một quả không biết quả kế là gì.
+Kênh Sketchapiens hiện đang ở **đúng hình dạng thời kỳ 23 view/ngày** của Neon Rush: 19 video,
+19 đề tài khác nhau, người xem hết một quả không biết quả kế là gì. Neon Rush thời đó **cùng
+ngách, cùng độ dài, cùng định dạng, cùng tiếng Anh** — và cũng chìm.
 
-Neon Rush thời đó **cùng ngách, cùng độ dài, cùng định dạng, cùng tiếng Anh** — và cũng chìm.
-Khác biệt duy nhất đo được là **nó dừng làm đề tài lẻ và bắt đầu làm MỘT LOẠT**.
+⚠️ **Nhưng đừng đọc thành "vậy thì làm loạt là xong".** Xem **mục 6**: kiểm chéo trên 4 kênh
+khác trong kho ra **1 thắng · 2 hoà · 1 thua**, và chính Neon Rush bị loại vì lệch tuổi.
 
-→ Sinh ra quyết định **`D-26`** trong `governance/DECISIONS_REQUIRED.md`.
+Thứ đứng vững sau khi kiểm chỉ có **một câu**: có một kênh cùng ngách, cùng hình dạng với mình,
+đã thoát khỏi vùng 23 view/ngày trong 20 ngày. **Nó chứng minh vùng đó thoát ra được** — chứ
+chưa chứng minh **thoát bằng cách nào**.
+
+→ Sinh ra quyết định **`D-26`** trong `governance/DECISIONS_REQUIRED.md` *(đã hạ mức sau mục 6)*.
 
 ---
 
