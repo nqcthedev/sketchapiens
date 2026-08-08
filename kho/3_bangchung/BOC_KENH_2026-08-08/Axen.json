@@ -1,0 +1,673 @@
+{
+ "kenh": "Axen — 12 bản ghi, 28/04/2026 → 03/08/2026 (97 ngày). Thư mục: /Users/admin/Claude/Projects/Build Channel Người Que Cổ Đại/2_KHO_BANGHI/Axen/",
+ "so_bai": 12,
+ "view_ngay_cao": "NHÓM TRÊN (4/12, view/ngày tính tới 2026-08-08): Jobs 32.482 (What Did Ancient Humans Do all Day Before Jobs Existed?, 3.118.225 view, 8:32, 1543 từ, 181 wpm) · Predators 10.556 (How Did Ancient Humans Survive the World's Deadliest Predators?, 1.076.721, 7:32, 1416 từ, 188 wpm) · Winters 9.611 (How Did Ancient Humans Survive Deadly Winters?, 672.788, 10:24, 2220 từ, 213 wpm) · Privacy 2.718 (How Did Ancient Humans Have Privacy?, 258.173, 5:14, 950 từ, 182 wpm)",
+ "view_ngay_thap": "NHÓM DƯỚI (4/12): WorldLike 361 (What Was the World Like in Ancient Human Times?, 23.840, 7:03, 1245 từ, 177 wpm) · Weird 259 (Weird Feelings You Get That Your Brain Can't Explain..., 26.378, 5:21, 946 từ, 177 wpm) · OurWorld 185 (Our WORLD is F*cked Up..., 11.832, 6:59, 1341 từ, 192 wpm) · Napoleon 133 (Napoleon Did Some Truly Bizarre Things..., 9.706, 5:42, 1074 từ, 188 wpm). — NHÓM GIỮA (4/12, dùng để đối chiếu): Ocean 1.517 · Gross 850 (mới 5 ngày tuổi, số CHƯA ỔN ĐỊNH) · Animals 505 · Education 481",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~130 từ)",
+   "ca_nguoc": "Khuôn 'bạn là nhân vật' có ở CẢ HAI nhóm: 'You're talking to someone.' (20260428_Weird_Feelings, 259 v/ngày) và 'You're living significantly more comfortably than any king in the vast majority of the history.' (20260605_Our_WORLD_is_F_cked_Up, 185 v/ngày) mở y hệt nhóm cao mà vẫn chìm. Vậy hook ngôi 2 là ĐIỀU KIỆN CẦN (4/4 nhóm cao có), KHÔNG phải điều kiện đủ. Thứ tách nhóm sạch hơn là CÂU HỎI LÕI đặt ở 5–7% và đề tài (chiều 8).",
+   "phat_hien": [
+    {
+     "y": "Câu đầu tiên đặt người xem LÀM CHỦ NGỮ trong một cảnh đang diễn ra — không phải quan sát người khác. 4/4 bài nhóm cao dùng khuôn này.",
+     "so_lieu": "7/12 bài toàn kênh; nhóm cao 4/4, nhóm giữa 1/4, nhóm dưới 2/4",
+     "trich": [
+      "\"You wake up when your body is ready.\" — 20260504_What_Did_Ancient_Humans_Do_all_Day_Before_Jobs_Existed_.txt (32.482 v/ngày)",
+      "\"You're walking through tall grass 100,000 years ago.\" — 20260428_How_Did_Ancient_Humans_Survive_the_World_s_Deadliest_Predato.txt (10.556)",
+      "\"Right now you're warm and you didn't even have to try.\" — 20260530_How_Did_Ancient_Humans_Survive_Deadly_Winters_.txt (9.611)",
+      "\"You're lying in bed. / Your partner is next to you. / The door is closed. / The lights are off. / You're alone.\" — 20260505_How_Did_Ancient_Humans_Have_Privacy_.txt (2.718)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Ngược lại: bài mở bằng NGÔI 3 / người xem chỉ ĐỨNG NHÌN đều không có bài nào lọt nhóm cao.",
+     "so_lieu": "5/12 bài mở ngôi-3 hoặc mệnh lệnh-quan-sát; 0/4 nằm ở nhóm cao",
+     "trich": [
+      "\"There is a child sitting in a classroom right now staring at a board waiting for a bell to ring.\" — 20260618_What_Did_Ancient_Human_Education_Look_Like_.txt (481)",
+      "\"Look at a dog sleeping in the sun right now.\" — 20260626_Do_Animals_Live_More_Freely_Than_Humans_.txt (505)",
+      "\"Close your eyes and picture Earth, the planet you know.\" — 20260603_What_Was_the_World_Like_in_Ancient_Human_Times_.txt (361)",
+      "\"The ocean covers 71% of the planet.\" — 20260611_Why_Does_the_OCEAN_Get_Creepier_the_Deeper_You_Go_.txt (1.517)",
+      "\"Napoleon Bonaparte conquered most of Europe by age 35.\" — 20260527_Napoleon_Did_Some_Truly_Bizarre_Things_.txt (133)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "CÂU HỎI LÕI rơi ở từ thứ 50–154, tức 5,2%–7,0% độ dài bài. Đây là chỉ dấu tách nhóm sạch nhất của chiều hook.",
+     "so_lieu": "Nhóm cao 4/4 có câu hỏi lõi trong 7% đầu · nhóm giữa 2/4 · nhóm dưới 1/4",
+     "trich": [
+      "\"So, what did people actually do all day?\" — từ thứ 110/1566 = 7,0% (20260504_Jobs)",
+      "\"So, how are you still here? / How did your ancestors urvive when everything on Earth was built to kill them?\" — từ thứ 88/1438 = 6,1% (20260428_Predators)",
+      "\"So, how did they do it? / How does a soft hairless animal that grew up in the African heat survive the coldest weather this planet has ever thrown at a human?\" — từ thứ 154/2231 = 6,9% (20260530_Winters)",
+      "\"So, how did ancient humans have privacy?\" — từ thứ 50/956 = 5,2% (20260505_Privacy)",
+      "ĐỐI CHIẾU nhóm dưới: 20260603_What_Was_the_World_Like_in_Ancient_Human_Times_.txt để câu hỏi lõi tới 89,2% mới hỏi — \"So, what was the world like when ancient humans were alive?\"; 20260527_Napoleon và 20260428_Weird_Feelings KHÔNG có câu hỏi lõi nào"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Câu hỏi lõi luôn bắt đầu bằng \"So,\" và LẶP LẠI GẦN NGUYÊN VĂN title — người xem nghe lại đúng thứ họ vừa bấm vào.",
+     "so_lieu": "6/12 bài (3/4 nhóm cao có ngay trong 7% đầu)",
+     "trich": [
+      "\"So, how did ancient humans have privacy?\" ↔ title \"How Did Ancient Humans Have Privacy?\" (20260505)",
+      "\"So, what did people actually do all day?\" ↔ title \"What Did Ancient Humans Do all Day Before Jobs Existed?\" (20260504)",
+      "\"So, when did humans actually start educating themselves? / Not when did we build schools? / That's the easy question. / The harder one is when did the first human decide that what they knew was worth passing to someone else?\" (20260618_Education — khuôn hỏi-rồi-nâng-cấp-câu-hỏi)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Trước câu hỏi lõi là một chuỗi PHỦ ĐỊNH DỒN (no… / can't…) để dồn người xem vào chỗ bí — chỉ nhóm cao dùng.",
+     "so_lieu": "3/4 bài nhóm cao; 0/4 nhóm dưới",
+     "trich": [
+      "\"You have no gun, no knife, not even a sharp stick. / Your teeth are flat. / Your nails are useless. / You can't outrun it. / You can't outclimb it. / You can't fight it. / So, how are you still here?\" (20260428_Predators)",
+      "\"No alarm, no schedule, no place you need to be.\" và \"There was no employment, no wages, no boss, no career ladder to climb.\" (20260504_Jobs)",
+      "\"There were no doors, no walls, no bedrooms, just you, your family, and 20 other people sleeping 5 ft away.\" (20260505_Privacy)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHÔNG CÓ câu tự giễu, không có persona người dẫn. Toàn kênh 12 bài ~18.500 từ chỉ có 4 lần dùng \"I\" ngoài đoạn quảng cáo.",
+     "so_lieu": "0/12 bài có câu tự giễu · \"I\" xuất hiện 4 lần / 12 bài ngoài đoạn tài trợ (0 lần ở 8/12 bài)",
+     "trich": [
+      "\"That's what I want to show you.\" — lần duy nhất người kể lộ diện ở nhóm cao (20260530_Winters, 8,3%)",
+      "\"Every single predator I just listed is gone, and we're here.\" (20260428_Predators, 38,0%)",
+      "\"There is so much more deeply wrong with e modern world, but I'll leave that ask to you.\" (20260605_OurWorld)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU gần như không dùng — 9/12 bài vào thẳng bằng chứng, không hứa gì. Và 2 trong 3 bài CÓ hứa lại nằm ngoài nhóm cao.",
+     "so_lieu": "3/12 bài có câu hứa; 1/4 nhóm cao, 1/4 nhóm giữa, 1/4 nhóm dưới",
+     "trich": [
+      "\"That's what I want to show you. / Because it's one of the best survival stories we have and almost nobody knows how close we came to not making it at all.\" (20260530_Winters, 9.611)",
+      "\"That's what his video is about. / Not ancient history the way textbooks teach it, the actual sensory reality of the planet when your species first showed up. / What it looked like, sounded like, and what was out here in the dark.\" (20260603_WorldLike, 361)",
+      "\"This is a video about those ways.\" (20260803_Gross, 850)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Hook nhồi một CON SỐ TƯƠNG PHẢN đời-bạn ngay trong 130 từ đầu.",
+     "so_lieu": "4/4 nhóm cao; 2/4 nhóm dưới",
+     "trich": [
+      "\"Modern humans spend about 90,000 hours of their lives working. / That's roughly 1/3 of your waking existence dedicated to a job.\" (20260504_Jobs)",
+      "\"A cave lion, twice the size of any lion alive today. / 700 pounds of muscle, claws, and teeth, and it's looking directly at you.\" (20260428_Predators)",
+      "\"For 99% of human history, this moment didn't exist.\" (20260505_Privacy)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Kích thước hook: 130 từ đầu chia thành 8–18 câu, câu trung bình 7,4–17,2 từ. Nhóm cao nghiêng về câu ngắn (7,4–14,0 từ/câu).",
+     "so_lieu": "Nhóm cao 11–18 câu/130 từ (TB 7,4–14,0 từ) · nhóm dưới 8–17 câu (TB 7,6–17,2 từ)",
+     "trich": [
+      "Privacy: 18 câu trong 130 từ, TB 7,4 từ/câu — ngắn nhất nhóm cao (20260505)",
+      "Winters: 11 câu, TB 14,0 từ/câu — dài nhất nhóm cao (20260530)",
+      "OurWorld: 8 câu, TB 17,2 từ/câu — dài nhất kênh, và là bài 185 v/ngày (20260605)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — re-hook, câu nối, vòng tò mò",
+   "ca_nguoc": "⚠️ MẬT ĐỘ RE-HOOK KHÔNG TÁCH ĐƯỢC NHÓM. Bài có mật độ CAO NHẤT cả kênh là 20260428_Weird_Feelings (5,3 re-hook/1000 từ) — và nó chỉ 259 v/ngày, nằm nhóm dưới. Bài top-1 (Jobs) chỉ 1,9/1000 từ, thấp hơn cả Napoleon (2,8). Trung vị: nhóm cao 2,45/1k · nhóm giữa 1,5/1k · nhóm dưới 2,2/1k. Đây là NẾT VIẾT CỦA KÊNH, không phải bí quyết thắng. Dùng kho câu dưới đây như nguyên liệu, đừng tưởng cứ nhồi nhiều re-hook là lên view.",
+   "phat_hien": [
+    {
+     "y": "KHO CÂU RE-HOOK NGUYÊN VĂN — khuôn thống trị là \"Here's + danh từ\" (mở lại tò mò ngay trước một fact).",
+     "so_lieu": "24 câu re-hook đếm được trên 12/12 bài; khuôn \"Here's…\" chiếm 16/24",
+     "trich": [
+      "\"And here's the important part.\" (20260504_Jobs, 12,5%)",
+      "\"So here's what a full day looked like.\" (20260504_Jobs, 74,0%)",
+      "\"Around midmorning, a small group might leave to hunt or gather, but here's the key.\" (20260504_Jobs, 42,1%)",
+      "\"And here's the thing, we had nothing.\" (20260428_Predators, 30,9%)",
+      "\"But here's what no other predator could do.\" (20260428_Predators, 52,4%)",
+      "\"Because here's the truth, evolution gave very predator one advantage, speed, strength, venom, camouflage.\" (20260428_Predators, 89,6%)",
+      "\"But the real weapon, the one that actually saved us, was each other.\" (20260428_Predators, 65,2%)",
+      "\"Here's how they actually pulled it off.\" (20260530_Winters, 20,8%)",
+      "\"And here's a wild fact, people were skinning bears for their fur in northern Europe at least 300,000 years ago.\" (20260530_Winters, 29,1%)",
+      "\"Here's omething easy to miss.\" (20260530_Winters, 71,1%)",
+      "\"And then there's the strangest idea of all.\" (20260530_Winters, 86,9%)",
+      "\"Here's the part that gets me.\" (20260530_Winters, 96,9%)",
+      "\"Here's the part that's hard for modern people to understand.\" (20260505_Privacy, 77,9%)",
+      "\"But, here's where it gets interesting.\" (20260505_Privacy, 34,9%)",
+      "\"So, here's the answer.\" (20260505_Privacy, 89,2%)",
+      "\"Here's the thing about a world that full.\" (20260603_WorldLike, 79,0%)",
+      "\"Here is the thing worth sitting with.\" (20260618_Education, 87,5%)",
+      "\"Here's one that sounds made up, but isn't.\" (20260527_Napoleon, 38,6%)",
+      "\"Here's one that sounds like a joke but is verified historical fact.\" (20260527_Napoleon, 83,3%)",
+      "\"But here's the weird part.\" (20260527_Napoleon, 47,6%)",
+      "\"But here's what your brain suddenly realizes.\" (20260428_Weird, 10,6%)",
+      "\"So, here's the full picture.\" (20260803_Gross, 88,4%)",
+      "\"But here's the thing, some of the most fascinating ecosystems on Earth are also among the most vulnerable.\" (20260611_Ocean, 58,6%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU NỐI CỰC NGẮN (3–6 từ) đặt ngay trước fact sốc — công tắc reset chú ý.",
+     "so_lieu": "Nhóm cao: câu ≤6 từ chiếm 20,5%–41,6% tổng số câu (trung vị 31,9%)",
+     "trich": [
+      "\"So, what happened?\" — 3 từ (20260428_Predators, 38,8%)",
+      "\"So, let's reconstruct a day.\" — 5 từ (20260504_Jobs, 38,3%)",
+      "\"So, we outlast them.\" — 4 từ (20260504_Jobs, 51,5%)",
+      "\"Now, let's address sleeping.\" — 4 từ (20260505_Privacy, 55,3%)",
+      "\"So, here's the answer.\" — 4 từ (20260505_Privacy, 89,2%)",
+      "\"It started with fire. / Nothing works without fire, so that's where it begins.\" (20260530_Winters, 21,1%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUNG ĐÁNH SỐ LEO THANG (\"vũ khí thứ nhất/hai/ba… rồi vũ khí thật\") — thứ này CHỈ nhóm cao và nhóm giữa có.",
+     "so_lieu": "3/12 bài; nhóm cao 2/4, nhóm giữa 1/4, nhóm dưới 0/4",
+     "trich": [
+      "\"The first weapon was fire.\" / \"The second weapon was endurance.\" / \"The third weapon was pattern recognition.\" / \"But the real weapon, the one that actually saved us, was each other.\" (20260428_Predators — cú nâng cuối bẻ luôn cái thang)",
+      "\"The first strategy is timing.\" / \"The second strategy is distance.\" / \"The third strategy, and this one's important, is social protocol.\" (20260505_Privacy)",
+      "\"The top 200 m is the sunlight zone.\" / \"Below 200 m, sunlight stops, and so does everything familiar.\" / \"Below 1,000 m is the midnight zone, down to 4,000 m.\" / \"Below 6,000 m is the hadal zone, named after Hades, god of the underworld.\" (20260611_Ocean — thang đo bằng độ sâu)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "XỬ LÝ PHẢN BIỆN CỦA NGƯỜI XEM ngay giữa bài — chỉ bài top-1 làm, và làm ở phút thứ nhất-rưỡi.",
+     "so_lieu": "1/12 bài toàn kênh, đúng bài 32.482 v/ngày (n=1, không đủ để kết luận nhân quả)",
+     "trich": [
+      "\"Now, some of you are thinking, \\\"But those are modern people. / How do we know ancient humans lived the same way?\\\" Fair question. / And the answer comes from bones.\" (20260504_Jobs, 15,6–17,1%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "VÒNG TÒ MÒ mở ở hook và đóng bằng ĐÚNG CÂU HỎI ĐÓ ở 89%.",
+     "so_lieu": "2/12 bài đóng vòng bằng câu hỏi lặp lại nguyên văn",
+     "trich": [
+      "Mở: \"So, how did ancient humans have privacy? / The short answer is they didn't. / The long answer is way more interesting.\" (5,2–6,6%) → Đóng: \"So, here's the answer. / Ancient humans had privacy through social agreement, not physical separation.\" (89,2%) — 20260505_Privacy",
+      "Mở: \"That's what his video is about.\" (8,8%) → Đóng: \"So, what was the world like when ancient humans were alive?\" (89,2%) — 20260603_WorldLike"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "PHÁT HIỆN NGƯỢC: kênh KHÔNG BAO GIỜ báo trước \"phần hay nhất ở cuối\". Không có \"stick around\", \"by the end of this video\", \"later I'll show you\".",
+     "so_lieu": "0/12 bài có câu hứa-để-dành-cuối đặt ở hook. Chỉ 1/12 báo trước NGAY SÁT chỗ đó (cách ~13% cuối bài)",
+     "trich": [
+      "\"And then there's the strangest idea of all. / There's a chance some early humans got through winter in a way that sounds made up, by hibernating.\" — 20260530_Winters, 86,9–87,2% (báo trước 1 câu rồi vào luôn, không phải hứa từ đầu)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Chèn CÂU ĐÙA KHÔ giữa dữ kiện để nghỉ nhịp — nhiều nhất ở bài Winters (nhóm cao, đọc nhanh nhất kênh 213 wpm).",
+     "so_lieu": "5 câu đùa đếm được ở 20260530_Winters; 0 ở 20260603_WorldLike và 20260618_Education",
+     "trich": [
+      "\"Simple, a little gross, and it worked.\" (20260530_Winters, 39,8%)",
+      "\"The first sunglasses, basically, made of bone.\" (20260530_Winters, 42,3%)",
+      "\"You basically lived on top of your own furnace and the furnace was a cow.\" (20260530_Winters, 82,4%)",
+      "\"When food became scarcer than honest politician, Ice Age people sometimes had no choice but to turn to the most desperate measures for survival.\" (20260530_Winters, 79,1%)",
+      "\"Someone walked 40 km round trip just to collect shells, then spent hours carefully drilling holes with stone tools, just to look good.\" (20260504_Jobs, 30,1%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180 từ cuối)",
+   "ca_nguoc": "⚠️ CALLBACK VỀ HOOK KHÔNG TÁCH ĐƯỢC NHÓM — 10/12 bài có, kể cả bài chìm nhất. Callback nguyên văn ĐẸP NHẤT cả kênh lại thuộc bài 259 v/ngày: hook \"you've never had a word for it until now.\" → kết \"You just never had words for them. / Until now.\" (20260428_Weird_Feelings). Callback là nết kênh, không phải bí quyết.",
+   "phat_hien": [
+    {
+     "y": "CÂU KẾT NGUYÊN VĂN 12/12 BÀI — 11/12 chốt bằng một câu tư tưởng, KHÔNG outro, KHÔNG hạ nhiệt, KHÔNG \"thanks for watching\". Ngoại lệ duy nhất là bài có tài trợ đặt ở cuối.",
+     "so_lieu": "11/12 chốt mạnh · 1/12 có outro (đúng bài duy nhất đặt tài trợ ở đuôi) · 0/12 hạ nhiệt",
+     "trich": [
+      "\"We traded freedom for food security, leisure for population growth, time for productivity, and most of us have no idea what we gave up because we never knew it was there.\" (20260504_Jobs, 32.482)",
+      "\"And over time, that was enough.\" (20260428_Predators, 10.556)",
+      "\"We beat winter so completely that most people forgot it was ever a war we re losing.\" (20260530_Winters, 9.611)",
+      "\"For 290,000 years, humans were never alone. / Then we invented walls, and we've been lonely ever since.\" (20260505_Privacy, 2.718)",
+      "\"Thanks for watching, and I'll see you in the next one.\" (20260611_Ocean, 1.517 — ngoại lệ duy nhất)",
+      "\"They just knew considerably less than we do, and the gap between what they knew and what we know is why the baby always ended up in brown water.\" (20260803_Gross, 850)",
+      "\"The animal doesn't know it's free, and that might be the whole point.\" (20260626_Animals, 505)",
+      "\"The fire is still burning. / We just moved it indoors, put it behind glass, and scheduled it for 45 minutes between 10:00 and 10:45 on Tuesdays.\" (20260618_Education, 481)",
+      "\"Your ancestors were born into something extraordinary. / The further we get from it, the less we remember it was ever lost.\" (20260603_WorldLike, 361)",
+      "\"You just never had words for them. / Until now.\" (20260428_Weird, 259)",
+      "\"You have limited time, so choose wisely where and how to spend it.\" (20260605_OurWorld, 185)",
+      "\"So, yes, Napoleon was a military genius but he was also just a person, a very strange person.\" (20260527_Napoleon, 133)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHỖ TÁCH NHÓM THẬT SỰ CỦA ĐOẠN KẾT: nhóm cao ĐỔI ĐẠI TỪ từ \"you\" sang \"we\" — kết bằng \"loài chúng ta\", không bằng \"bạn phải làm gì\". Nhóm dưới làm ngược lại.",
+     "so_lieu": "180 từ cuối — nhóm cao: you/your trung vị 3,5 · we/our/us trung vị 10,5 (tỷ lệ we:you = 3,0). Nhóm dưới: you trung vị 6 · we trung vị 2 (tỷ lệ we:you = 0,33)",
+     "trich": [
+      "\"We didn't just survive them, we outlasted them, out-thought them, eliminated them.\" / \"For 2 million years we were prey. / We hid in trees, we ran from shadows, we lost children to leopards and couldn't do anything but grieve.\" — 18 lần we/us, 0 lần you (20260428_Predators)",
+      "\"We can't ruly hibernate now, but the idea is trange enough that serious people are still arguing about it.\" / \"We beat winter so completely…\" — 7 we vs 2 you (20260530_Winters)",
+      "ĐỐI CHIẾU nhóm dưới: \"You have limited time, so choose wisely where and how to spend it.\" — 10 you vs 2 we, kết bằng LỜI KHUYÊN (20260605_OurWorld)",
+      "ĐỐI CHIẾU nhóm dưới: \"Your brain has been experiencing these feelings your entire life. / You just never had words for them.\" — 14 you vs 2 we (20260428_Weird)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN KẾT \"BẠN-HÔM-NAY vs HỌ-NGÀY-XƯA\" xếp song song từng cặp câu. Bài top-1 đẩy tới 8 cặp liên tiếp — cực đoan nhất kênh.",
+     "so_lieu": "6/12 bài dùng khuôn này; bài top-1 dùng 8 cặp, các bài khác 1–3 cặp",
+     "trich": [
+      "\"Today, you spend 90,000 hours working. / Your ancestors spent way less. / You sleep in one block and call waking up at 2:00 a.m. insomnia. / They slept in two phases and used the middle hours for eflection. / You spend your life chasing an illusion of greatness, achievements, wealth, and success by standards society invented. / They woke up every morning already free, already enough, and at peace with nothing to prove to anyone. / They didn't need to become successful. / They were already living the life you're working your entire existence to retire into. / You make art if you can find time after your job. / They made art because they had time, and that's what humans do.\" (20260504_Jobs, 89,1–96,4%)",
+      "\"Today, we have the opposite problem. / We're so isolated that loneliness is an epidemic. / We have all the privacy we want, and we're miserable because of it.\" (20260505_Privacy, 86,4–87,9%)",
+      "\"In a couple thousand years, which is nothing on this timeline, we went from stacking mammoth bones into a house to tapping a button for heat. / The deadliest thing our ancestors ever faced is now something we complain about on the walk to a warm car.\" (20260530_Winters, 97,2–98,3%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CALLBACK về hook có ở gần như mọi bài — nết kênh, KHÔNG phải bí quyết thắng.",
+     "so_lieu": "10/12 bài có callback rõ ràng; nhóm cao 4/4, nhóm dưới 3/4",
+     "trich": [
+      "Hook \"Right now you're warm and you didn't even have to try.\" → Kết \"…is now something we complain about on the walk to a warm car.\" (20260530_Winters)",
+      "Hook \"You're alone.\" → Kết \"For 290,000 years, humans were never alone.\" (20260505_Privacy)",
+      "Hook \"Modern humans spend about 90,000 hours of their lives working.\" → Kết \"Today, you spend 90,000 hours working.\" (20260504_Jobs)",
+      "NHÓM DƯỚI cũng có: hook \"where the Sahara was a green savanna with rivers and hippos, where the night sky was bright enough to cast shadows\" → kết \"A green Sahara, forests with no end, skies so dark the stars cast shadows\" (20260603_WorldLike, 361 v/ngày)",
+      "NHÓM DƯỚI: hook \"you've never had a word for it until now.\" → kết \"You just never had words for them. / Until now.\" (20260428_Weird, 259 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "PHÁT HIỆN NGƯỢC MẠNH: 0/12 bài có câu định danh người xem kiểu \"That's you\", 0/12 có \"Next time you…\", 0/12 mồi video kế.",
+     "so_lieu": "\"That's you\" 0/12 · \"Next time you\" 0/12 · nhắc video khác/playlist 0/12",
+     "trich": [
+      "Câu định danh gần nhất cả kênh nằm ở HOOK chứ không phải kết: \"And somehow they made it. / You're the proof. / Every one of them lived long enough to pass life down to you, which means every single one of them won a fight against winter they couldn't afford to lose.\" (20260530_Winters, 5,2–5,6%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Câu kết là câu DÀI NHẤT hoặc ĐẮT NHẤT của bài, và không có câu nào sau nó. Không có \"nếu bạn thích video này…\".",
+     "so_lieu": "11/12 bài kết thúc ngay tại câu tư tưởng (bài duy nhất có đuôi là bài tài trợ Planet Wild)",
+     "trich": [
+      "\"Every biological weakness forced us to invent a solution, and those solutions compounded over thousands of generations until we became something no predator could evolve to fight.\" — câu áp chót dài 31 từ, rồi 3 câu chốt ngắn dần (20260428_Predators)",
+      "\"But, we had one thing no predator had, we could learn from our mistakes and teach the next generation not to make them. / And over time, that was enough.\" (20260428_Predators — kết bằng 6 từ)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ / LIKE / COMMENT",
+   "ca_nguoc": "Không có ca ngược — đây là con số tuyệt đối 0 trên cả hai nhóm. Nghĩa là: kênh này KHÔNG đổi retention lấy sub. Nếu chép nết này thì phải chấp nhận tỷ lệ sub/view thấp, hoặc phải bù bằng chỗ khác (end screen, pinned comment — không đo được từ bản ghi).",
+   "phat_hien": [
+    {
+     "y": "PHÁT HIỆN LỚN NHẤT CỦA CẢ BUỔI BÓC: KHÔNG BÀI NÀO xin đăng ký, xin like, xin comment, hay nhắc chuông. Không một lần nào trong 12 bài.",
+     "so_lieu": "subscribe 0/12 · like 0/12 · comment 0/12 · bell 0/12 · nhắc video kế 0/12",
+     "trich": [
+      "Từ \"subscriber\" chỉ xuất hiện 2 lần trên toàn kênh, CẢ HAI đều nằm trong lời quảng cáo thuê: \"They add new book guides and articles every week, and subscribers can even vote on which books they cover next.\" (20260803_Gross và 20260626_Animals — copy Shortform)",
+      "Câu duy nhất giống outro trên toàn kênh: \"Thanks for watching, and I'll see you in the next one.\" (20260611_Ocean — và đây là bài duy nhất có tài trợ đặt ở đuôi)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Kỷ luật dấu câu tuyệt đối: 0 dấu chấm than trên ~18.500 từ / 12 bài. 0 dấu gạch ngang giữa câu. Đúng 4 dấu chấm phẩy.",
+     "so_lieu": "dấu \"!\" = 0/12 bài (0 lần / ~18.500 từ) · em-dash \"—\" = 0 lần · \";\" = 4 lần",
+     "trich": [
+      "Chỗ đáng lẽ phải có dấu than mà không có: \"Wrong body, wrong place, worst possible time, but we had a brain that could plan d hands that could build the things our bodies were missing.\" (20260530_Winters)",
+      "\"If it saw you, you were already dead.\" (20260428_Predators) — cảm xúc bằng câu cụt, không bằng dấu than"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TÀI TRỢ: 3/12 bài, tất cả nằm ở nhóm GIỮA — nhưng đó là biến THỜI GIAN chứ không phải biến hiệu quả: cả 3 đều là bài đăng từ 11/06 trở đi, tức sau khi kênh đã nổ và bắt được nhà tài trợ.",
+     "so_lieu": "3/12 bài có tài trợ (Ocean 11/06, Animals 26/06, Gross 03/08) · 0/4 bài nhóm cao có tài trợ (cả 4 đăng trước 31/05)",
+     "trich": [
+      "Vị trí chèn: Ocean 63,1%–75,2% (+ nhắc lại 97,3%) · Animals 35,2%–48,9% · Gross 20,6%–30,9%",
+      "Câu VÀO quảng cáo — 2/2 bài Shortform dùng ĐÚNG MỘT CÂU: \"But before we continue, there's something interesting I want to show you.\" (20260803_Gross) / \"But before we continue, there's omething interesting I want to show you.\" (20260626_Animals)",
+      "Câu RA quảng cáo — 2/2 giống hệt: \"Now, let's get back to the video.\"",
+      "Câu bắc cầu nội dung→tài trợ: \"A lot of the ideas on this channel come from books, research papers, and long-form articles.\" → \"That's one reason I've been using Shortform.\"",
+      "Bắc cầu GẮN VÀO NỘI DUNG (chỉ Ocean làm): \"But here's the thing, some of the most fascinating ecosystems on Earth are also among the most vulnerable.\" → \"That's one reason I like what Planet Wild is doing.\"",
+      "Mã ưu đãi: \"The first 100 people using my code AXE EN 6 will get their first month paid for by me.\" (20260611_Ocean, 74,0%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "Quảng cáo Shortform là khối TÁCH RỜI hoàn toàn khỏi nội dung (dán y nguyên một khối copy vào 2 bài khác chủ đề); quảng cáo Planet Wild là khối GẮN vào chủ đề (đại dương → bảo tồn biển).",
+     "so_lieu": "2/3 khối tài trợ dùng chung 1 bản copy giống hệt nhau (Gross và Animals, khác chủ đề hoàn toàn) · 1/3 viết riêng theo chủ đề",
+     "trich": [
+      "\"Shortform is a premium learning platform with in-depth guides to books, podcasts, and articles. / Unlike most summary apps that just give you a quick overview, Shortform goes much deeper.\" — xuất hiện y hệt ở CẢ 20260626_Animals VÀ 20260803_Gross",
+      "\"Planet Wild is a community of more than 25,000 people, including myself, funding real conservation missions around the world, from protecting endangered species to restoring ecosystems and safeguarding marine environments.\" (20260611_Ocean)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "ca_nguoc": "⚠️ SỐ CHƯƠNG VÀ VỊ TRÍ CÚ LẬT KHÔNG TÁCH ĐƯỢC NHÓM. Cú lật lớn nhất rơi ở 71,9%–92,8% ở CẢ 7 bài đo được, bao gồm cả bài 133 v/ngày. Số chương 6–13 rải đều hai nhóm. Đây là nết dựng của kênh. Thứ tách nhóm là TỶ LỆ BÀI DÀNH CHO 'DỰNG LẠI ĐỜI SỐNG BẰNG NGÔI 2' (xem phát hiện cuối).",
+   "phat_hien": [
+    {
+     "y": "BỘ XƯƠNG ĐẦY ĐỦ CỦA BÀI TOP-1 (32.482 v/ngày, 1.566 từ, 149 câu, 8 chương) — số chính xác từng chương.",
+     "so_lieu": "8 chương / 1.566 từ, trung bình 196 từ/chương; chương dài nhất 385 từ (25% bài), chương ngắn nhất 55 từ (3,5%)",
+     "trich": [
+      "Ch1 HOOK ngôi-2 + số liệu tương phản + câu hỏi lõi — 0–7,0% = 110 từ. Mở \"You wake up when your body is ready.\" Chốt \"So, what did people actually do all day?\"",
+      "Ch2 BẰNG CHỨNG 'CHẮC CHẮN' + xử lý phản biện — 7,5–22,1% = 236 từ. Mở \"Let's start with what we know for certain.\" Neo \"In 1963, archaeologist Richard Lee conducted a study…\"; \"He found that adults spent about 2.5 days per week acquiring food.\"",
+      "Ch3 BẰNG CHỨNG KHẢO CỔ LẠ (nghệ thuật) — 22,1–38,3% = 253 từ. Bản lề: \"But he most fascinating evidence comes from something archaeologists found that shouldn't exist if survival was a constant struggle. / Art.\" (Chauvet → Blombos → sáo xương kền kền)",
+      "Ch4 DỰNG LẠI MỘT NGÀY THEO GIỜ, viết bằng ngôi 2 — 38,3–62,9% = 385 từ, CHƯƠNG DÀI NHẤT. Mở \"So, let's reconstruct a day.\" \"You wake up around dawn.\"",
+      "Ch5 ĐÊM QUANH LỬA — 62,9–74,0% = 174 từ. \"But at night, around the fire, 81% of conversations shifted to stories.\"",
+      "Ch6 BẢNG TỔNG KẾT GIỜ — 74,0–77,5% = 55 từ, chương ngắn nhất. \"So here's what a full day looked like. / About 4 to 6 hours securing food or making tools. / About 6 hours in social interaction…\"",
+      "Ch7 CÚ LẬT — 77,5–89,1% = 182 từ. \"Then about 10,000 years ago, something changed.\" → \"And agriculture is a trap.\" (78,7%)",
+      "Ch8 KẾT BẠN-vs-HỌ 8 cặp — 89,1–100% = 171 từ"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Số chương và độ dài chương của cả 12 bài — không tách được nhóm.",
+     "so_lieu": "6–13 chương/bài; trung bình 104–337 từ/chương. Nhóm cao 8–10 chương · nhóm giữa 6–8 · nhóm dưới 8–13",
+     "trich": [
+      "Jobs 1.566 từ / 8 chương / TB 196 từ (32.482)",
+      "Predators 1.438 / 9 chương / TB 160 từ (10.556)",
+      "Winters 2.231 / 10 chương / TB 223 từ (9.611)",
+      "Privacy 956 / 9 chương / TB 106 từ (2.718)",
+      "Ocean 1.567 / 8 chương (5 tầng độ sâu + hook + tài trợ + outro) / TB 196 (1.517)",
+      "Gross 2.360 / 7 chương / TB 337 — chương DÀI NHẤT kênh (850)",
+      "Animals 1.780 / 6 chương / TB 297 (505)",
+      "Education 1.554 / 8 chương / TB 194 (481)",
+      "WorldLike 1.255 / 9 chương / TB 139 (361)",
+      "Weird 950 / 8 mục từ vựng + kết / TB ~106 (259)",
+      "OurWorld 1.354 / 13 chương / TB 104 — NHIỀU chương nhất, NGẮN nhất (185)",
+      "Napoleon 1.071 / 8 giai thoại + kết / TB ~119 (133)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÚ LẬT LỚN NHẤT luôn rơi ở 71,9%–92,8% độ dài bài — ở CẢ HAI NHÓM. Nết kênh.",
+     "so_lieu": "7/7 bài đo được cú lật đều rơi trong khoảng 71,9%–92,8%",
+     "trich": [
+      "\"And agriculture is a trap.\" — 78,7% (20260504_Jobs, 32.482)",
+      "\"We didn't just survive them, we outlasted them, out-thought them, eliminated them.\" — 88,8% (20260428_Predators, 10.556)",
+      "\"And then there's the strangest idea of all. / There's a chance some early humans got through winter in a way that sounds made up, by hibernating.\" — 86,9% (20260530_Winters, 9.611)",
+      "\"So, here's the answer.\" — 89,2% (20260505_Privacy, 2.718)",
+      "\"The entire architecture of the modern economy depends on you being a little bit broken.\" — 71,9% (20260605_OurWorld, 185)",
+      "\"And then we happened. / Everywhere humans spread the world got quieter.\" — 92,8% (20260603_WorldLike, 361)",
+      "\"Here's one that sounds like a joke but is verified historical fact.\" (đàn thỏ tấn công Napoleon) — 83,3% (20260527_Napoleon, 133)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "THỨ TỰ LEO THANG CHUNG của 4/4 bài nhóm cao: cảnh ngôi-2 → bằng chứng 'chắc chắn' → bằng chứng khảo cổ lạ → dựng lại đời sống → cú lật lịch sử → tương phản hiện đại.",
+     "so_lieu": "4/4 bài nhóm cao theo đúng thứ tự này; 0/4 bài nhóm dưới theo đủ 6 bước",
+     "trich": [
+      "Predators: cảnh sư tử hang (0–7,4%) → \"Let's start with what was actually hunting us.\" liệt kê thú dữ (7,4–30,9%) → \"And here's the thing, we had nothing.\" (30,9–38,8%) → 4 vũ khí (39–83,3%) → đảo vai săn↔bị săn (83,3–89,6%) → coda (89,6–100%)",
+      "Privacy: cảnh giường ngủ (0–7,3%) → \"Let's start with the reality.\" (7,3–17,2%) → 3 chiến lược (17,2–34,9%) → phòng vệ sinh + ngủ (44,5–67,4%) → nông nghiệp sinh ra bức tường (67,4–77,9%) → \"So, here's the answer.\" (89,2–100%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CHỖ TÁCH NHÓM: tỷ lệ bài dành cho khối 'DỰNG LẠI ĐỜI SỐNG BẰNG NGÔI 2' (người xem sống một ngày trong đó), không phải liệt kê sự vật.",
+     "so_lieu": "Nhóm cao: Jobs 25% bài (chương 385 từ), Privacy 18%, Predators ~14%, Winters ~11%. Nhóm dưới: WorldLike 0%, Weird 0%, Napoleon 0%, OurWorld 0%",
+     "trich": [
+      "\"You wake up around dawn. / The fire from last night is still smoldering. / Someone adds wood. / You eat leftover meat or fish from yesterday, maybe some nuts or berries collected the day before.\" (20260504_Jobs, 38,6–40,7%)",
+      "\"You might spend the morning working on tools, sharpening a spear, weaving a basket, scraping an animal hide to make it soft and usable. / This n't work in the modern sense. / There's no clock, no supervisor.\" (20260504_Jobs, 44,6–46,9%)",
+      "ĐỐI CHIẾU: 20260603_WorldLike liệt kê 100% là sự vật, người xem không bao giờ được đặt vào trong đó — \"Diprotodon, a wombat the size of a rhinoceros. / Marsupial lions, megalania, a monitor lizard 7 m long…\" (42,9–44,5%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG",
+   "ca_nguoc": "⚠️ 'Now, let's talk about ___' có ở CẢ HAI NHÓM và dùng nhiều nhất ở bài chìm nhất kênh: 20260527_Napoleon (133 v/ngày) dùng 3 lần. Tỷ lệ câu cụt ≤6 từ cũng không tách được: nhóm dưới trung vị 33,4% CAO HƠN nhóm cao 31,9% — bài 20260428_Weird (259 v/ngày) có 54,0% câu ≤6 từ, cao nhất kênh. Đừng tưởng viết cụt là thắng.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN MỞ CHƯƠNG 1: \"Let's start with ___\" — 5 đến 18 từ, luôn nằm ở 3,3%–9,7% của bài, ngay sau câu hỏi lõi.",
+     "so_lieu": "4/12 bài mở chương 1 bằng \"Let's start with\"; 3/4 nằm ở nhóm cao",
+     "trich": [
+      "\"Let's start with what we know for certain.\" — 8 từ, 7,5% (20260504_Jobs)",
+      "\"Let's start with what was actually hunting us.\" — 8 từ, 7,4% (20260428_Predators)",
+      "\"Let's start with the reality.\" — 5 từ, 7,3% (20260505_Privacy)",
+      "\"Let's be honest about what they were facing because winter makes it sound like a cold afternoon and a campfire. / It was nothing like that.\" — 20 từ + 5 từ, 9,7% (20260530_Winters — biến thể)",
+      "\"Let's start with e Romans because nothing in recorded history quite prepares you for what the Romans did.\" — 18 từ, 3,3% (20260803_Gross)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN CHUYỂN CHƯƠNG GIỮA BÀI: \"Now, let's talk about ___\" / \"Now, let's address ___\" — 4 đến 20 từ. Có ở cả hai nhóm.",
+     "so_lieu": "8 lần / 5 bài; nhóm cao 3 lần, nhóm giữa 2 lần, nhóm dưới 3 lần",
+     "trich": [
+      "\"Let's talk about the bathroom situation because everyone wonders about his.\" — 11 từ, 44,5% (20260505_Privacy, nhóm cao)",
+      "\"Now, let's address sleeping.\" — 4 từ, 55,3% (20260505_Privacy)",
+      "\"So, let's reconstruct a day.\" — 5 từ, 38,3% (20260504_Jobs)",
+      "\"Now, let's talk about bathwater.\" — 5 từ, 31,2% (20260803_Gross)",
+      "\"Now, let's talk about medical treatment, because in many periods of history, the treatment was substantially worse than the illness.\" — 20 từ, 60,1% (20260803_Gross)",
+      "\"Let's talk about the side of Napoleon your history teacher left out.\" — 12 từ, 3,7% (20260527_Napoleon, 133 v/ngày)",
+      "\"Now, let's talk about the pinching.\" — 6 từ, 17,6% (20260527_Napoleon)",
+      "\"Let's talk about Waterloo, the battle that ended Napoleon's reign, June 18th, 1815.\" — 13 từ, 70,0% (20260527_Napoleon)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN MỐC THỜI GIAN LÀM BẢN LỀ CÚ LẬT: \"Then / And then, around [N] years ago, something changed/shifted.\" — 7 đến 8 từ. 4/4 bài nhóm cao có một câu dạng này đúng chỗ vào cú lật.",
+     "so_lieu": "4/4 nhóm cao; 1/4 nhóm dưới (và câu ở nhóm dưới ngắn tới mức không dựng được kỳ vọng)",
+     "trich": [
+      "\"Then about 10,000 years ago, something changed.\" — 7 từ, 77,5% (20260504_Jobs)",
+      "\"And then, around 50,000 years ago, something shifted.\" — 8 từ, 83,3% (20260428_Predators)",
+      "\"The fix showed up around 30,000 years ago and it's so small it sounds silly.\" — 15 từ, 32,3% (20260530_Winters)",
+      "\"Around 10,000 years ago, humans started farming.\" — 7 từ, 68,6% (20260505_Privacy)",
+      "ĐỐI CHIẾU: \"And then we happened.\" — 4 từ, 92,8% (20260603_WorldLike, 361 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN CÂU ĐÓNG CHƯƠNG: câu dài dựng kỳ vọng + câu 1–3 TỪ đập xuống, đứng riêng một dòng.",
+     "so_lieu": "4/4 bài nhóm cao; 1/4 nhóm dưới",
+     "trich": [
+      "\"But he most fascinating evidence comes from something archaeologists found that shouldn't exist if survival was a constant struggle. / Art.\" — 21 từ + 1 từ, 22,1% (20260504_Jobs)",
+      "\"What happens next is what modern people find hardest to understand. / Nothing and everything.\" — 12 từ + 3 từ, 53,9% (20260504_Jobs)",
+      "\"By every biological measure, we should have been extinct in 100,000 years, but we're not. / They are.\" — 18 từ + 2 từ, 36,9% (20260428_Predators)",
+      "\"This child was prey, not a tragic accident. / Prey.\" — 8 từ + 1 từ, 11,1% (20260428_Predators)",
+      "\"Take a person's clothes off in real cold and they've got hours, not days. / The body shuts down and that's the nd.\" — 14 từ + 9 từ, 14,9% (20260530_Winters)",
+      "NHÓM DƯỚI cũng có 1 lần: \"The cave wasn't free. / You competed for it.\" (20260603_WorldLike, 35,1%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN CÂU ĐÓNG-MỞ KIỂU PHỦ ĐỊNH CÁI VỪA NÓI (\"nhưng X một mình không đủ\") — chuyển sang chương kế bằng cách hạ giá chương vừa xong.",
+     "so_lieu": "3/12 bài; 3/4 nhóm cao",
+     "trich": [
+      "\"But fire alone didn't save us. / The second weapon was endurance.\" — 6 từ + 5 từ, 50,4% (20260428_Predators)",
+      "\"Staying warm keeps you alive tonight. / But winter's slower killer is hunger.\" — 6 từ + 6 từ, 59,7% (20260530_Winters)",
+      "\"The short answer is they didn't. / The long answer is way more interesting.\" — 6 từ + 7 từ, 6,0% (20260505_Privacy)",
+      "\"But that doesn't mean Ice Age people were always peaceful.\" — 10 từ, 77,3% (20260530_Winters)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Tỷ lệ câu cụt (≤6 từ) — KHÔNG tách được nhóm, thậm chí nhóm dưới cao hơn.",
+     "so_lieu": "Nhóm cao 20,5%/30,2%/33,6%/41,6% (trung vị 31,9%) · nhóm giữa 9,5%/16,4%/21,8%/22,6% (trung vị 19,1%) · nhóm dưới 15,9%/23,6%/43,1%/54,0% (trung vị 33,4%)",
+     "trich": [
+      "Cao nhất kênh 54,0% câu ≤6 từ là 20260428_Weird_Feelings — 259 v/ngày, nhóm dưới",
+      "Thấp nhất kênh 9,5% là 20260611_Ocean — 1.517 v/ngày, nhóm giữa",
+      "Bài top-1 (20260504_Jobs) chỉ 30,2%, đứng thứ 5/12"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "ca_nguoc": "⚠️ MẬT ĐỘ MỎ NEO KHÔNG SẠCH: 20260428_Weird_Feelings đạt 5,3 mỏ neo/1000 từ — cao hơn cả bài top-1 (6,4) trừ đúng một bậc, và cao hơn 3/4 bài nhóm cao — mà chỉ 259 v/ngày. Nhồi tên nhà khoa học không cứu được đề tài sai. Chỉ số HEDGE mới là chỗ tách nhóm sạch.",
+   "phat_hien": [
+    {
+     "y": "CHỖ TÁCH NHÓM SẠCH NHẤT CỦA CHIỀU NÀY: mật độ HEDGE (nhận cái mình không biết). 3/4 bài nhóm dưới có ĐÚNG 0 lần hedge trên toàn bài.",
+     "so_lieu": "Hedge/1000 từ — nhóm cao 10,2 / 3,6 / 2,1 / 2,1 (trung vị 2,85) · nhóm giữa 3,8 / 3,4 / 2,6 / 1,9 (trung vị 3,0) · nhóm dưới 0,9 / 0,0 / 0,0 / 0,0 (trung vị 0,0)",
+     "trich": [
+      "Nhóm cao hedge: \"Early modern humans may have had better fitting clothes than Neanderthals did, which might have helped our kind through the worst of it.\" (20260530_Winters, 37,4%)",
+      "\"Someone spent hours, maybe days, deep inside a cave by firelight painting animals on a wall.\" (20260504_Jobs, 26,1%)",
+      "\"Privacy as a concept might not have mattered to them the way it matters to us.\" (20260505_Privacy, 35,6%)",
+      "ĐỐI CHIẾU nhóm dưới: 20260603_WorldLike (0 hedge/1245 từ), 20260428_Weird (0/950), 20260605_OurWorld (0/1354) — toàn bộ phát biểu ở thể tuyệt đối"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "TÁCH SỰ THẬT KHỎI SUY DIỄN thành một khối riêng, nói thẳng \"chuyện này chưa ngã ngũ\" — có ở 3/4 bài nhóm cao, 0/4 nhóm dưới.",
+     "so_lieu": "3/12 bài làm rõ ràng; nhóm cao 3/4, nhóm giữa 0/4, nhóm dưới 0/4",
+     "trich": [
+      "KHỐI MẪU ĐẦY ĐỦ NHẤT (chép được nguyên khuôn): \"The scientists uggested that these people, without enough fatty food to get through a brutal winter, might have gone into caves and slowed their bodies down into a kind of deep sleep to wait it out. / It's not settled. / Plenty of scientists argue against it and say there are other easons for that bone damage. / We can't ruly hibernate now, but the idea is trange enough that serious people are still arguing about it. / So, your ancestors sleeping through winter like bears isn't something we can just wave away.\" (20260530_Winters, 91,7–95,0%)",
+      "\"There's debate about how much humans contributed versus climate change, but the pattern is undeniable.\" (20260428_Predators, 86,9%)",
+      "\"Let's start with what we know for certain.\" — dựng biên giới NGAY từ chương 1 (20260504_Jobs, 7,5%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "NÊU TÊN NHÀ NGHIÊN CỨU cụ thể + năm + nơi công bố. Khuôn câu cố định: \"In [năm], [chức danh] [tên] [động từ] [phát hiện].\"",
+     "so_lieu": "8/12 bài có nêu tên người; 0 tên người ở 20260527_Napoleon, 20260603_WorldLike, 20260605_OurWorld, 20260530_Winters",
+     "trich": [
+      "\"In 1924, Raymond Dart discovered a skull in South Africa that changed everything.\" (20260428_Predators)",
+      "\"In 1963, archaeologist Richard Lee conducted a study that would change how we understand prehistoric life.\" (20260504_Jobs)",
+      "\"In 2014, anthropologist Polly Wiessner analyzed hundreds of hours of conversation recordings from the Ju/'hoansi.\" (20260504_Jobs)",
+      "\"Anthropologist James Suzman documented that among the Ju/'hoansi, adults spend roughly 6 hours per day in what he called social time.\" (20260504_Jobs)",
+      "\"Anthropologist Colin Turnbull spent years living with e Mbuti people in Central Africa. / He noted that they had no word for privacy.\" (20260505_Privacy)",
+      "\"Psychologist Erich Fromm argued that the need for privacy is a symptom of individualism.\" (20260505_Privacy)",
+      "\"A 2012 study by Philippe Charlier and colleagues published in Clinical Infectious Diseases found that Roman public latrines were actually efficient vectors for intestinal parasites and infection, in part because of the communal sponge.\" (20260803_Gross)",
+      "\"Robert Sapolsky, the Stanford neurobiologist who spent decades studying baboons in the Serengeti, found something that complicates the clean picture of carefree wild animals entirely.\" (20260626_Animals)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NÊU DI CHỈ CÓ TÊN — nhưng bài nhóm cao đọc nhanh nhất kênh (Winters, 213 wpm) cố tình GỌI TÊN THƯỜNG thay vì tên khoa học, hạ ngưỡng đọc.",
+     "so_lieu": "Nhóm cao nêu 9 di chỉ có tên; 2/4 di chỉ của Winters bị đổi sang tên mô tả",
+     "trich": [
+      "Tên chuẩn: \"In Wonderwerk Cave, South Africa, archaeologists found evidence of controlled fire dating back 1 million years.\" · \"In 2001, archaeologists found a skeleton in Dmanisi, Georgia dating back 1.8 million years.\" · \"In Shanidar Cave, Iraq, researchers found a Neanderthal skeleton from 60,000 years ago.\" (20260428_Predators)",
+      "\"In 1994, explorers discovered Chauvet Cave in southern France.\" · \"In Blombos Cave in South Africa, archaeologists found 100,000-year-old perforated shell beads.\" (20260504_Jobs)",
+      "\"Archaeological evidence from places like Ohalo II in Israel shows that 23,000 years ago, humans built small shelters barely big enough for a family to lie down in.\" (20260505_Privacy)",
+      "HẠ NGƯỠNG: \"At a Spanish site called the Pit of Bones, scientists tudied early human ancestors from around 430,000 years ago…\" (thay vì Sima de los Huesos) và \"At a spot in Eastern France near a tall limestone rock, Ice Age hunters used fire and teamwork to push whole herds of wild horses and reindeer into a natural trap.\" (không nêu tên Solutré) — 20260530_Winters",
+      "\"One scientist called it maybe the most important invention in human history and he's got a point.\" — 20260530_Winters cố tình KHÔNG nêu tên"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Mật độ mỏ neo khoa học (archaeologist / study / evidence / site / discovered) trên 1000 từ — có xu hướng nhưng bị 1 ca ngược phá.",
+     "so_lieu": "Nhóm cao 6,4 / 3,6 / 3,1 / 2,1 (trung vị 3,35) · nhóm giữa 5,1 / 4,5 / 2,5 / 2,2 (trung vị 3,5) · nhóm dưới 5,3 / 1,5 / 0,8 / 0,0 (trung vị 1,15)",
+     "trich": [
+      "Thấp nhất kênh 0,0/1000 từ: 20260527_Napoleon (133 v/ngày) — 0 lần dùng bất kỳ từ khoa học nào",
+      "0,8/1000: 20260603_WorldLike (361) — \"Scientists call it the Green Sahara.\" là gần như lần duy nhất",
+      "CA NGƯỢC: 5,3/1000 ở 20260428_Weird (259 v/ngày), cao hơn 3/4 bài nhóm cao — \"In 2012, a study from Florida State University found that these intrusive thoughts are actually your brain's hyperactive safety system misfiring.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "HEDGE NHẸ dùng như từ đệm thường trực: \"roughly\" / \"about\" / \"at least\" gắn vào mọi con số lớn — nết chung, rất rẻ để chép.",
+     "so_lieu": "Có ở 8/12 bài",
+     "trich": [
+      "\"This was every single morning for roughly 300,000 years…\" (20260504_Jobs)",
+      "\"He found that adults spent about 2.5 days per week acquiring food. / That's roughly 17 hours.\" (20260504_Jobs)",
+      "\"people were skinning bears for their fur in northern Europe at least 300,000 years ago\" (20260530_Winters)",
+      "\"For oughly 300,000 years, humans lived in small groups of 15 to 50 people.\" (20260505_Privacy)",
+      "\"A campfire creates a safety zone roughly 30 ft in diameter.\" (20260428_Predators)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "ca_nguoc": "Ca ngược NGAY TRONG nhóm thắng: 20260618_Education (481 v/ngày) và 20260603_WorldLike (361) đều có 'Ancient Human' trong title mà vẫn chìm. Nghĩa là title 'Ancient Humans' là cửa VÀO chứ không phải vé thắng — hai bài này thiếu đúng cái mà 4 bài top có: người xem không được ĐẶT VÀO cảnh (chiều 1 + chiều 5). Ngược lại, 20260611_Ocean (1.517) không có 'Ancient Human' mà vẫn cao thứ 5 kênh.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN TITLE TÁCH NHÓM RÕ NHẤT CẢ BUỔI BÓC: title có chữ \"Ancient Human(s)\" → trung vị 6.164 view/ngày; không có → 382. Chênh 16 lần. 4/4 bài nhóm cao đều nằm trong nhóm có.",
+     "so_lieu": "6/12 bài có 'Ancient Human(s)' — trung vị 6.164 v/ngày (361, 481, 2.718, 9.611, 10.556, 32.482) · 6/12 không có — trung vị 382 (133, 185, 259, 505, 850, 1.517)",
+     "trich": [
+      "CÓ: \"What Did Ancient Humans Do all Day Before Jobs Existed?\" 32.482 · \"How Did Ancient Humans Survive the World's Deadliest Predators?\" 10.556 · \"How Did Ancient Humans Survive Deadly Winters?\" 9.611 · \"How Did Ancient Humans Have Privacy?\" 2.718 · \"What Did Ancient Human Education Look Like?\" 481 · \"What Was the World Like in Ancient Human Times?\" 361",
+      "KHÔNG: \"Why Does the OCEAN Get Creepier the Deeper You Go?\" 1.517 · \"How Gross Was the Past, Really?\" 850 · \"Do Animals Live More Freely Than Humans?\" 505 · \"Weird Feelings You Get That Your Brain Can't Explain...\" 259 · \"Our WORLD is F*cked Up...\" 185 · \"Napoleon Did Some Truly Bizarre Things...\" 133"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN CON THẮNG NHẤT: \"How Did Ancient Humans [động từ sống còn] [mối đe doạ]?\" — sàn của khuôn này (2.718) vẫn cao hơn TRẦN của mọi bài ngoài khuôn (1.517).",
+     "so_lieu": "3/12 bài — trung vị 9.611 v/ngày (2.718 · 9.611 · 10.556); không bài nào dưới 2.718",
+     "trich": [
+      "\"How Did Ancient Humans Survive the World's Deadliest Predators?\" 10.556",
+      "\"How Did Ancient Humans Survive Deadly Winters?\" 9.611",
+      "\"How Did Ancient Humans Have Privacy?\" 2.718"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "TITLE KẾT BẰNG BA CHẤM \"...\" — 3/3 bài đều chìm, không bài nào vượt 259 v/ngày. Trong khi title kết bằng \"?\" trung vị 1.517.",
+     "so_lieu": "3/12 title kết bằng '...' — trung vị 185 (133, 185, 259) · 9/12 kết bằng '?' — trung vị 1.517",
+     "trich": [
+      "\"Weird Feelings You Get That Your Brain Can't Explain...\" 259",
+      "\"Napoleon Did Some Truly Bizarre Things...\" 133",
+      "\"Our WORLD is F*cked Up...\" 185"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "NHÓM CHỦ ĐIỂM và trung vị view/ngày: lane 'người cổ đại' ăn đứt; lane 'triết lý về đời sống HIỆN ĐẠI của bạn' là đáy kênh.",
+     "so_lieu": "A. Người cổ đại (6 bài) trung vị 6.164 · B. Lịch sử/thiên nhiên khác, không phải người cổ đại (Ocean, Gross, Napoleon — 3 bài) trung vị 850 · C. Triết lý về đời sống hiện đại của bạn (Animals, Weird, OurWorld — 3 bài) trung vị 259, cả 3 đều dưới 510",
+     "trich": [
+      "Lane C toàn bộ: \"Do Animals Live More Freely Than Humans?\" 505 · \"Weird Feelings You Get That Your Brain Can't Explain...\" 259 · \"Our WORLD is F*cked Up...\" 185 — không bài nào chạm 1/5 của bài thấp nhất trong nhóm cao",
+      "Lane C viết rất hay mà vẫn chìm: \"And when you watch that animal and feel something, envy maybe, or a longing you can't quite name, what you're actually feeling is the weight of being the only animal that knows it's in a cage, even when the cage is invisible.\" (20260626_Animals, 505 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "LÀM LẠI ĐỀ TÀI CŨ — CÓ, và THẤT BẠI NẶNG. Bài Education (18/06) dùng lại NGUYÊN BỘ 5 mỏ neo của bài 3,1 triệu view (04/05) mà chỉ ra 481 v/ngày, kém 68 lần.",
+     "so_lieu": "5 mỏ neo bị dùng lại giữa 20260504_Jobs (32.482) và 20260618_Education (481)",
+     "trich": [
+      "Wiessner+Ju/'hoansi — Jobs: \"In 2014, anthropologist Polly Wiessner analyzed hundreds of hours of conversation recordings from the Ju/'hoansi.\" ↔ Education: \"Anthropologist Polly Wiessner at the University of Utah analyzed hundreds of hours of recordings from the Ju/'hoansi people of Southern Africa, one of the oldest continuous cultures on Earth.\"",
+      "Blombos — Jobs: \"In Blombos Cave in South Africa, archaeologists found 100,000-year-old perforated shell beads.\" ↔ Education: \"Around 100,000 years ago at Blombos Cave in South Africa, archaeologist Christopher Henshilwood found perforated shell beads and processed ochre pigment…\"",
+      "Chauvet — Jobs: \"In 1994, explorers discovered Chauvet Cave in southern France.\" ↔ Education: \"Then, around 36,000 years ago at Chauvet Cave in France, someone painted horses, lions, and rhinoceroses on stone walls.\"",
+      "\"for 99% of human history\" — Jobs, Privacy VÀ Education (\"They have no idea that for 99% of human history that classroom didn't exist.\")",
+      "\"bands of 15 to 50 people\" — Privacy: \"humans lived in small groups of 15 to 50 people\" ↔ Education: \"groups lived in bands of 15 to 50 people\"",
+      "KẾT LUẬN dùng được ngay: BẰNG CHỨNG không phải thứ thắng. Chép lại bộ bằng chứng của bài triệu view không kéo được view."
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "KHÔNG có loạt đánh số, KHÔNG nhắc playlist, nhưng CÓ loạt ngầm bằng title + bằng câu neo lặp lại.",
+     "so_lieu": "0/12 bài có số tập hoặc nhắc playlist · 6/12 dùng title 'Ancient Human(s)' · 3/12 lặp câu neo \"For 99% of human history\" · 6/12 lặp mốc \"300,000 years\"",
+     "trich": [
+      "\"For 99% of human history, this wasn't a hypothetical.\" (20260504_Jobs)",
+      "\"For 99% of human history, this moment didn't exist.\" (20260505_Privacy)",
+      "\"They have no idea that for 99% of human history that classroom didn't exist.\" (20260618_Education)",
+      "Chủ đề tự lặp giữa các bài: săn đuổi bền bỉ ở 2 bài — \"We have something called persistence hunting.\" (Predators) / \"Humans are persistence hunters.\" (Jobs); nông nghiệp-là-bước-ngoặt ở 3 bài — \"And agriculture is a trap.\" (Jobs) / \"The answer is agriculture.\" (Privacy) / \"Then agriculture came, then ownership, then government.\" (Animals)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "ca_nguoc": "KHÔNG kết luận được nhân quả giữa nhịp đăng và view/ngày với n=12 trong 97 ngày. Sự thật đo được là: 3 bài cao nhất (32.482 · 10.556 · 9.611) đều đăng trong 33 ngày ĐẦU của kênh; 9 bài sau đó không bài nào vượt 1.517. Đây giống dấu hiệu MẤT ĐÀ / hết lane hơn là dấu hiệu nhịp đăng — nhưng cũng không loại trừ được rằng 2 quãng nghỉ dài (22 và 38 ngày) đã cắt đà. Không đủ dữ liệu để tách.",
+   "phat_hien": [
+    {
+     "y": "12 video / 97 ngày. Trung vị khoảng cách 6 ngày, trung bình 8,8 ngày. Nhịp KHÔNG đều.",
+     "so_lieu": "11 khoảng cách: 0 · 6 · 1 · 22 · 3 · 4 · 2 · 6 · 7 · 8 · 38 ngày. Trung vị 6 · trung bình 8,8 · min 0 · max 38",
+     "trich": [
+      "28/04 (2 video cùng ngày) → 04/05 → 05/05 → 27/05 → 30/05 → 03/06 → 05/06 → 11/06 → 18/06 → 26/06 → 03/08"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ GOM ĐỢT — 2 đợt, ngăn bằng 2 quãng nghỉ dài (22 ngày và 38 ngày).",
+     "so_lieu": "Đợt 1: 4 video / 8 ngày (28/04–05/05) · nghỉ 22 ngày · Đợt 2: 7 video / 30 ngày (27/05–26/06) · nghỉ 38 ngày · 1 video lẻ (03/08)",
+     "trich": [
+      "Đợt 1 chứa 3/4 bài nhóm cao: Predators (28/04, 10.556) · Jobs (04/05, 32.482) · Privacy (05/05, 2.718). Bài thứ 4 của nhóm cao là Winters (30/05, 9.611) — đăng ngay sau quãng nghỉ 22 ngày",
+      "Đợt 2 (7 video) chỉ có 1 bài vượt 1.000 v/ngày (Ocean 1.517)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP GIÃN DẦN trong đợt 2 rồi đứt hẳn — khoảng cách tăng đơn điệu ở nửa sau.",
+     "so_lieu": "Khoảng cách đợt 2 theo thứ tự: 3 → 4 → 2 → 6 → 7 → 8 ngày, rồi đứt 38 ngày",
+     "trich": [
+      "30/05 → 03/06 (4) → 05/06 (2) → 11/06 (6) → 18/06 (7) → 26/06 (8) → 03/08 (38)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỘ DÀI & TỐC ĐỘ ĐỌC không tách được nhóm — bài dài nhất và bài chậm nhất kênh đều KHÔNG ở nhóm cao, nhưng wpm trung vị ba nhóm gần như bằng nhau.",
+     "so_lieu": "wpm trung vị: nhóm cao 185 · nhóm giữa 179 · nhóm dưới 186. Độ dài: nhóm cao 5:14–10:24 (956–2.231 từ) · nhóm giữa 9:23–12:41 (1.526–2.360 từ) · nhóm dưới 5:21–7:03 (946–1.354 từ)",
+     "trich": [
+      "Bài nhanh nhất kênh 213 wpm là Winters (9.611, nhóm cao) — 2.220 từ trong 10:24",
+      "Bài chậm nhất kênh 149 wpm là Education (481, nhóm giữa) và 156 wpm là Ocean (1.517)",
+      "Bài dài nhất kênh 12:41 / 2.346 từ là Gross (850, mới 5 ngày tuổi)",
+      "Nhóm dưới toàn bài NGẮN (5:21–7:03) — độ dài ngắn không cứu được đề tài sai"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CẢNH BÁO SỐ LIỆU: bài 03/08 (How Gross Was the Past, Really?) mới 5 ngày tuổi khi đo. 850 v/ngày là số CHƯA ỔN ĐỊNH và gần như chắc chắn bị thổi phồng.",
+     "so_lieu": "1/12 bài có tuổi < 30 ngày (5 ngày, 4.252 view). Các bài còn lại 43–102 ngày tuổi",
+     "trich": [
+      "Không được dùng 20260803_How_Gross_Was_the_Past_Really_.txt để kết luận bất cứ chiều nào. Nếu loại nó, nhóm giữa còn Ocean 1.517 / Animals 505 / Education 481 và ranh giới nhóm giữa–nhóm dưới dịch xuống."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ],
+ "gioi_han": "1) CỠ MẪU: n=12, chia ba nhóm mỗi nhóm 4 bài → mọi so sánh nhóm chỉ là 4 vs 4. Một bài đổi chỗ là đổi kết luận. Những phát hiện ghi \"CHI_NHOM_CAO\" với n=1 hoặc n=2 (xử lý phản biện 1/12, khung đánh số 2/4) KHÔNG đủ để phán, chỉ đủ để thử.\n\n2) PHÂN BỐ TRÚNG SỐ: 1 video chiếm 58,4% tổng view kênh; 3 video chiếm 91,2% (4.867.734 / 5.336.169). Trung vị view chỉ 25.460. Nghĩa là \"công thức Axen\" rất có thể chỉ là 1–2 quả may cộng với một nết viết chung. Đừng coi 3,1 triệu là mức có thể nhắm; mức thật của kênh này là trung vị 25.460.\n\n3) KÊNH QUÁ MỚI: video đầu 28/04/2026, tổng vòng đời 97 ngày. Chưa qua đủ chu kỳ để biết bài nào còn nổ tiếp. View/ngày khử được tuổi video nhưng KHÔNG khử được hiệu ứng \"video mới được đẩy mạnh tuần đầu\" — bài 03/08 (5 ngày tuổi) bị thổi phồng rõ.\n\n4) BẢN GHI LÀ AUTO-TRANSCRIPT, có lỗi rõ (\"urvive\", \"cestor\", \"e Romans\", \"hat flushes\", \"&gt;&gt;\", \"the nd\", \"tudied\", \"uggested\"). Do đó: con số \"0 dấu chấm than\" và \"0 dấu gạch ngang\" chỉ đúng với bản auto-caption, KHÔNG chắc đúng với bản kịch bản gốc — auto-caption của YouTube vốn hiếm khi sinh dấu than và gạch ngang. Ranh giới câu (mỗi câu một dòng) cũng do máy cắt, nên các số về \"câu ≤6 từ\" và \"số câu/130 từ\" là số của bản ghi, không phải của bản viết.\n\n5) KHÔNG CÓ DỮ LIỆU RETENTION / CTR / THUMBNAIL. Toàn bộ phân tích này chỉ giải thích được phần \"người xem đã bấm vào rồi thì có ở lại không\". Chênh lệch 16 lần giữa lane \"Ancient Humans\" và lane khác RẤT có thể là chênh lệch THUMBNAIL + đề tài chứ không phải chênh lệch kịch bản — bóc lời đọc không phân biệt được hai thứ đó.\n\n6) CHIỀU 9 (nhịp đăng) KHÔNG KẾT LUẬN ĐƯỢC. 3 bài cao nhất đều nằm trong 33 ngày đầu; điều này lẫn hoàn toàn giữa ba giả thuyết (kênh mất đà / lane cạn / nghỉ dài cắt đà) và với n=12 thì không tách được. Trả về nguyên trạng số liệu, không phán.\n\n7) BẢY KHUÔN ĐÃ XÁC NHẬN LÀ NẾT KÊNH CHỨ KHÔNG PHẢI BÍ QUYẾT (cả bài thắng lẫn bài chìm đều dùng): re-hook \"Here's the…\" · callback về hook ở đoạn kết · chốt mạnh không outro · cú lật đặt ở 72–93% · kết bằng cặp BẠN-vs-HỌ · \"Now, let's talk about…\" · câu cụt ≤6 từ. Ba trong bảy khuôn này thậm chí ĐẬM ĐẶC HƠN ở nhóm chìm (re-hook 5,3/1k và câu cụt 54% ở bài 259 v/ngày). Chép chúng để giọng giống Axen thì được; đừng kỳ vọng chúng kéo view."
+}

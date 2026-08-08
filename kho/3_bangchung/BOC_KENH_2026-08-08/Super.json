@@ -1,0 +1,677 @@
+{
+ "kenh": "Super Joy Animations (@SuperJoyAnimations, UC5kZmgakSTK1hmkFQUmwq8g) — 434.000 sub, playlist_count = 9 (đúng bằng số bản ghi trong kho). Mô tả kênh tự khai: \"We decode the hidden psychology and invisible systems running your life. New explainer videos every Tuesday.\" — nhưng 7/9 bài gắn tag chứa cụm \"ancient human\", và chỉ 4/9 bài đăng vào thứ Ba.",
+ "so_bai": 9,
+ "view_ngay_cao": "NHÓM CAO (3/9 bài, tính view ÷ số ngày từ ngày đăng tới 2026-08-08): 20260519_Privacy 627.784 view ÷ 81 ngày = 7.750,4 v/ngày · 20260526_Drink 2.276 ÷ 74 = 30,8 · 20260528_2AM 1.383 ÷ 72 = 19,2. Trung vị nhóm = 30,8 v/ngày.",
+ "view_ngay_thap": "NHÓM THẤP (3/9 bài): 20260618_BabyMemory 207 view ÷ 51 ngày = 4,1 v/ngày · 20260609_Predator 242 ÷ 60 = 4,0 · 20260617_BabiesAlive 158 ÷ 52 = 3,0. Trung vị nhóm = 4,0 v/ngày. (Nhóm GIỮA để đối chiếu: 20260608_Died 18,6 · 20260522_IceAge 7,4 · 20260512_MindGlitches 6,6.)",
+ "gioi_han": "SÁU GIỚI HẠN PHẢI ĐỌC TRƯỚC KHI DÙNG BẤT CỨ KẾT LUẬN NÀO Ở DƯỚI.\n\n(1) n = 9. Chia ba thì mỗi nhóm chỉ 3 bài. Không có phép so nào ở đây đạt mức có ý nghĩa thống kê. Mọi thứ tôi gọi là \"CHI_NHOM_CAO\" đều là gợi ý cần kiểm lại trên kênh khác, không phải bằng chứng.\n\n(2) \"Nhóm CAO\" thực chất là 1 CÚ TRÚNG SỐ + 2 BÀI GẦN CHÌM. 7.750,4 v/ngày so với 30,8 v/ngày là chênh 252 lần. Bài số 2 và số 3 của nhóm CAO (30,8 và 19,2 v/ngày) gần nhóm THẤP (4,0) hơn là gần bài nổ. Nếu bỏ bài 0519 ra, kênh này là kênh CHẾT: 8 bài còn lại tổng 6.558 view, trung vị 574 view. Đừng gọi đây là \"kênh thắng\".\n\n(3) TRÙNG BIẾN THỜI GIAN, không gỡ được. Cả 3 bài nhóm CAO đều đăng trong tháng 5; cả 3 bài nhóm THẤP đều đăng trong tháng 6. Trung vị view/ngày tháng 5 = 19,2 (5 bài) vs tháng 6 = 4,05 (4 bài), chênh 4,7 lần. Nghĩa là MỌI khác biệt CAO/THẤP tôi đo được cũng đồng thời là khác biệt tháng-5/tháng-6. Không thể tách \"chất kịch bản làm ra view\" khỏi \"kênh nguội dần sau khi bài nổ hết đà đẩy\".\n\n(4) CẶP ĐỐI CHỨNG SẮC NHẤT LẠI VÔ HIỆU HOÁ MỌI GIẢ THUYẾT KỊCH BẢN. 20260519_Privacy (7.750,4 v/ngày) và 20260609_Predator (4,0 v/ngày) mở đầu gần như cùng một khuôn — \"You're in your bedroom right now. / Door closed, lights off.\" vs \"You are sitting at a water's edge. / It is dark. / There are no walls around you.\" — cùng bộ xương 7-8 khối, cùng khuôn re-hook, cùng câu hứa \"The answer is stranger...\", cùng khuôn title \"What Did Ancient Humans...?\". Chênh 1.938 lần. Kết luận thẳng: KHÔNG có đặc điểm kịch bản nào trong 9 bản ghi này giải thích được cú nổ. Biến quyết định nằm NGOÀI transcript (thumbnail / cú đẩy thuật toán).\n\n(5) LỜI ĐỌC KHÔNG PHẢI VẤN ĐỀ CỦA 8 BÀI CHÌM. Tỷ lệ like/view của 9/9 bài nằm trong 2,06%-5,06%, trung vị 3,80%. Bài chìm nhất (0617, 158 view) có like-rate 3,80% — CAO HƠN bài nổ (0519 = 2,06%). Người đã bấm vào thì thích; vấn đề là quá ít người bấm vào.\n\n(6) KHO DỪNG Ở 2026-06-18, tức 51 ngày trước mốc đo. Vì playlist_count = 9 khớp đúng 9 bản ghi, nhiều khả năng kênh THẬT SỰ đã ngừng đăng, chứ không phải kho cào thiếu. Không giải thích được vì sao kênh có 434.000 sub trong khi tổng view 9 video chỉ ~634.000 — dữ liệu trong kho không đủ để phán.",
+ "chieu": [
+  {
+   "ten": "1. HOOK (45 giây đầu / ~130-180 từ đầu)",
+   "ca_nguoc": "Bài nổ 0519 và bài chìm nhất-nhì 0609 dùng GẦN NHƯ CÙNG MỘT hook (\"You're in your bedroom right now\" vs \"You are sitting at a water's edge\") — cùng ngôi thứ hai, cùng dựng cảnh tối/không tường, cùng câu hứa \"The answer is stranger...\". Chênh 1.938 lần view/ngày. Hook KHÔNG phải biến quyết định ở kênh này.",
+   "phat_hien": [
+    {
+     "y": "Đặt \"you/your\" trong 5 TỪ ĐẦU TIÊN. Đây là nết kênh, cả bài nổ lẫn bài chìm đều làm.",
+     "so_lieu": "8/9 bài. Ngoại lệ duy nhất: 20260522_IceAge mở ngôi thứ BA, chữ \"you\" đầu tiên rơi ở từ thứ 57.",
+     "trich": [
+      "\"You're in your bedroom right now.\" (20260519_Privacy — từ 1, nhóm CAO 7.750,4 v/ngày)",
+      "\"You are sitting at a water's edge.\" (20260609_Predator — từ 1, nhóm THẤP 4,0 v/ngày)",
+      "\"You were alive for over a thousand days before you can remember any of them.\" (20260618_BabyMemory — từ 1, nhóm THẤP 4,1 v/ngày)",
+      "\"Tonight, you will set an alarm.\" (20260528_2AM — từ 2, nhóm CAO)",
+      "\"He is running. / His lungs are burning.\" (20260522_IceAge — NGOẠI LỆ, ngôi thứ ba)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn hook A — \"TONIGHT, KHI BẠN [làm việc thường ngày]...\" mở bằng đúng chữ \"Tonight\".",
+     "so_lieu": "3/9 bài. Phân bố: 2 bài nhóm CAO (0526 = 30,8 v/ngày; 0528 = 19,2), 1 bài nhóm THẤP (0617 = 3,0). Khuôn không phân biệt được thắng/thua.",
+     "trich": [
+      "\"Tonight, when you open a drink, you won't think about it for even 1 second. / You'll crack it open, take a sip, and move on with your life. / But, what you just did is one of the oldest things a human being can do.\" (20260526_Drink)",
+      "\"Tonight, you will set an alarm. / You will sleep in one unbroken block. / You will wake up exhausted and call it rest.\" (20260528_2AM)",
+      "\"Tonight, when you put your child to bed, the room will be quiet. / The monitor will be on. / You'll close the door, you won't hink twice. / But for the entire history of our species, that quiet room was a death sentence.\" (20260617_BabiesAlive)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn hook B — \"BẠN ĐANG NGỒI TRONG CẢNH NÀY, TỐI, KHÔNG TƯỜNG\" (dựng cảnh hiện tại rồi lật sang cổ đại).",
+     "so_lieu": "2/9 bài — và đây chính là cặp đối chứng phá giả thuyết: 1 bài nhóm CAO (0519 = 7.750,4 v/ngày) + 1 bài nhóm THẤP (0609 = 4,0 v/ngày).",
+     "trich": [
+      "\"You're in your bedroom right now. / Door closed, lights off. / Maybe your partner is next to you. / Maybe you're alone. / Either way, nobody can see you. / Nobody can hear you.\" (20260519_Privacy)",
+      "\"You are sitting at a water's edge. / It is dark. / There are no walls around you. / No door, no lock, just open ground, a black sky, and a silence that feels like it is watching you back.\" (20260609_Predator)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn hook C — CẢNH PHIM NGÔI THỨ BA (cold open như trailer), và khuôn D — VÀO THẲNG MỤC 1, KHÔNG CÓ HOOK.",
+     "so_lieu": "Khuôn C: 1/9 bài (0522 = 7,4 v/ngày, cold open dài 250 từ = 16,1% bài, dài nhất kênh). Khuôn D: 1/9 bài (0512 = 6,6 v/ngày, bài duy nhất không có hook và không có kết).",
+     "trich": [
+      "\"He is running. / His lungs are burning. / The ground is ice and his feet keep sliding, but he cannot slow down because slowing down is dying. / 40 seconds ago, the saber-tooth came out of the tree line and took his brother. / Not chased him, took him. / One motion, done.\" (20260522_IceAge)",
+      "\"This is not a film. / This is your ancestor. / This was a Tuesday night.\" (20260522_IceAge — câu chốt cold open, từ thứ ~230)",
+      "\"The doorway effect. / You walk from one room into another carrying a clear thought.\" (20260512_MindGlitches — vào thẳng mục 1, không hook)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU HỎI LÕI rơi ở từ thứ 52-143 (tức 3,4%-11,4% của bài), luôn mở bằng \"So,\" hoặc \"Because\".",
+     "so_lieu": "6/9 bài có câu hỏi lõi nguyên văn. 3/9 bài KHÔNG có (0522_IceAge, 0617_BabiesAlive, 0512_MindGlitches). Nhóm CAO 3/3 có; nhóm THẤP 2/3 có.",
+     "trich": [
+      "\"So, how did they actually sleep?\" (20260528_2AM — từ 52, tức 3,4% bài — sớm nhất kênh)",
+      "\"So, here is the question. / What did ancient humans actually do when someone died?\" (20260608_Died — từ 75-84, tức 5,6%)",
+      "\"So, the question is, what did they actually do when the predator came?\" (20260609_Predator — từ 121, tức 7,4%)",
+      "\"So, why can't you remember being a baby?\" (20260618_BabyMemory — từ 116, tức 7,6%)",
+      "\"Because here is the question almost nobody asks. / How did something that takes effort to make, require specific knowledge to produce, and has been controlled, taxed, and restricted by every government in history end up being the one thing no human society has ever gone without?\" (20260526_Drink — từ 135)",
+      "\"So, here is the question. / What did ancient humans actually do with zero privacy? / For daily life, for sleep, for everything that makes us human.\" (20260519_Privacy — từ 134-143, tức 11,4%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU luôn là câu CUỐI CÙNG của hook, và luôn theo đúng một khuôn: \"The answer is [tính từ so sánh hơn] than you [expect/think/were told]\". Đây là nết kênh mạnh nhất chiều 1.",
+     "so_lieu": "8/9 bài có lời hứa chiều sâu. Bài duy nhất KHÔNG có là 20260512_MindGlitches (6,6 v/ngày). 6/8 dùng đúng cụm \"The answer\".",
+     "trich": [
+      "\"The answer is stranger, more sophisticated, and more relevant to your life right now than you are xpecting.\" (20260519_Privacy — nhóm CAO)",
+      "\"The answer is tranger than you think.\" (20260526_Drink — nhóm CAO)",
+      "\"The answer is not what you expect. ... The answer changes everything you think you know about your own body.\" (20260528_2AM — nhóm CAO)",
+      "\"The answer is stranger, and honestly more impressive, than ything you have ever been told.\" (20260609_Predator — nhóm THẤP)",
+      "\"The real answer is far stranger than you'd expect, and it changes something much deeper than memory. / It changes who you think you are.\" (20260618_BabyMemory — nhóm THẤP)",
+      "\"The answer explains something about why death feels the way it feels to you right now. / Why it is more terrifying now than at any other point in the entire history of our species.\" (20260608_Died — nhóm GIỮA)",
+      "\"How they actually did it changes everything you think you know about parenting, about exhaustion, and about what your body was built for.\" (20260617_BabiesAlive — nhóm THẤP)",
+      "\"Here is what it actually took to survive.\" (20260522_IceAge — nhóm GIỮA)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MENU 3 MÓN trong hook (liệt kê 3 thứ lạ sẽ được kể) — chỉ nhóm CAO có.",
+     "so_lieu": "2/9 bài, cả 2 đều nhóm CAO (0528 = 19,2 v/ngày; 0519 = 7.750,4). 0/3 bài nhóm THẤP có. Cảnh báo: 2/3 là mẫu quá nhỏ để tin.",
+     "trich": [
+      "\"It involves grass beds older than your species, a state of consciousness that has no name in modern English, and a word the French invented for something we can no longer experience.\" (20260528_2AM — từ 59-91)",
+      "\"For daily life, for sleep, for everything that makes us human.\" (20260519_Privacy — từ 135-143)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "TỰ GIỄU = KHÔNG TỒN TẠI. Ngôi thứ nhất số ít (\"I / me / my / myself\") xuất hiện 0 lần trên toàn kho.",
+     "so_lieu": "0 lần / 13.449 từ, 0/9 bài. Chất giọng \"cá nhân\" duy nhất trong cả kho là một chữ \"honestly\" chèn giữa câu.",
+     "trich": [
+      "\"The answer is stranger, and honestly more impressive, than ything you have ever been told.\" (20260609_Predator — chữ \"honestly\" duy nhất của cả kho)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NEO \"290.000/300.000 NĂM + TỔ TIÊN CỦA BẠN\" ngay trong hook.",
+     "so_lieu": "5/9 bài đặt con số này trong 130 từ đầu. Trên toàn kho cụm \"300,000\"/\"290,000\" xuất hiện 28 lần / 13.449 từ = 2,08 lần/1000 từ. Nhóm CAO 2/3 bài, nhóm THẤP 2/3 bài.",
+     "trich": [
+      "\"For 290,000 years of human history, this moment was not rare, not difficult to arrange, impossible.\" (20260519_Privacy — từ 105)",
+      "\"For 300,000 years, every single one of your ancestors would have found this baffling. / Not one of them ever slept his way. / Not once.\" (20260528_2AM — từ 36)",
+      "\"None of that process existed for 290,000 years of human history.\" (20260608_Died — từ 51)",
+      "\"For 300,000 years, your ancestors went to sleep in a world that was actively trying to eat them, and somehow every single one of them survived long enough to have a child.\" (20260609_Predator — từ 108)",
+      "\"For over 300,000 years, every single one of your ancestors faced this problem.\" (20260617_BabiesAlive — từ 97)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN (re-hook, câu nối, vòng tò mò)",
+   "ca_nguoc": "ĐÂY LÀ CHIỀU DỄ NHẦM NHẤT. Mật độ mốc giữ chân của nhóm CAO (trung vị 6,4/1000 từ) và nhóm THẤP (trung vị 6,1/1000 từ) BẰNG NHAU. Toàn bộ kho câu re-hook dưới đây là NẾT CỦA KÊNH, KHÔNG phải bí quyết thắng — bài 158 view dùng dày hơn bài 627.784 view. Lấy về dùng thì được (nó là kho câu tốt), nhưng đừng tin nó tạo ra view.",
+   "phat_hien": [
+    {
+     "y": "Mật độ mốc giữ chân KHÔNG phân biệt được nhóm CAO với nhóm THẤP. Bài chìm nhất kênh lại dày mốc hơn bài nổ.",
+     "so_lieu": "Nhóm CAO: 6,4 · 3,3 · 11,8 mốc/1000 từ (trung vị 6,4). Nhóm THẤP: 5,2 · 6,1 · 8,1 (trung vị 6,1). Chênh 5%. Cụ thể: 0519_Privacy (7.750,4 v/ngày) = 8 mốc/1.251 từ; 0617_BabiesAlive (3,0 v/ngày) = 14 mốc/1.737 từ.",
+     "trich": [
+      "\"But here's the part nobody tells you.\" (20260617_BabiesAlive, 3,0 v/ngày)",
+      "\"But here's what nobody tells new parents.\" (20260617_BabiesAlive)",
+      "\"And here is the part that should unsettle every modern parent alive.\" (20260617_BabiesAlive)",
+      "\"And here is the critical detail that changes everything.\" (20260519_Privacy, 7.750,4 v/ngày)",
+      "\"But, here is what almost no one says about that moment.\" (20260519_Privacy)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN RE-HOOK SỐ 1 — \"[But/And] here is what/the part [nobody/almost nobody] ...\". Đây là khuôn xương sống của kênh, dùng để mở gần như mọi chương.",
+     "so_lieu": "20 lần / 13.449 từ = 1,49 lần/1000 từ, có mặt ở 8/9 bài. Phân bố: nhóm CAO 8 lần, nhóm GIỮA 6, nhóm THẤP 6.",
+     "trich": [
+      "\"And here is the critical detail that changes everything.\" (0519)",
+      "\"But, here is what almost no one says about that moment.\" (0519)",
+      "\"Here is what makes that remarkable.\" (0526)",
+      "\"But, here is what makes that finding so important.\" (0526)",
+      "\"And here's the part hat hits different.\" (0528)",
+      "\"And here's what nobody quotes.\" (0528)",
+      "\"Here's what this means for you right now.\" (0528)",
+      "\"But here's the part that should make you stop.\" (0528)",
+      "\"Here is what does not happen ext.\" (0608)",
+      "\"But here is what almost nobody knows about the creature that did this before us.\" (0608)",
+      "\"Here is what it actually took to survive.\" (0522)",
+      "\"And here is the fact that almost nobody knows.\" (0522)",
+      "\"Here is what you did not know.\" (0522)",
+      "\"But, here is the single fact that kept humans alive through all of it.\" (0522)",
+      "\"But here is what the scientists realized next.\" (0618)",
+      "\"And here is what no one thinks about.\" (0618)",
+      "\"But here is the part nobody talks about.\" (0609)",
+      "\"But here's the part nobody tells you.\" (0617)",
+      "\"But here's what nobody tells new parents.\" (0617)",
+      "\"And here is the part that should unsettle every modern parent alive.\" (0617)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN RE-HOOK SỐ 2 — \"NHƯNG X CHƯA PHẢI THỨ [ghê nhất / hay nhất], MỚI CHỈ LÀ MỘT NỬA\". Dùng để leo thang giữa các chương.",
+     "so_lieu": "7 lần / 13.449 từ = 0,52/1000, có ở 4/9 bài. Phân bố: nhóm CAO 4 lần (0526 ×2, 0528 ×2), nhóm GIỮA 2 (0522), nhóm THẤP 1 (0609). Nghiêng nhẹ về nhóm CAO nhưng n quá nhỏ.",
+     "trich": [
+      "\"But, the biology was just the beginning. / The real question is when humans stopped stumbling onto fermentation by accident and started engineering it on purpose.\" (0526)",
+      "\"But, Raqefet was a small operation, one cave, a few people. / What came next was on a completely different scale.\" (0526)",
+      "\"But hat's just the structure. / What they put inside is stranger.\" (0528)",
+      "\"But where they slept is only half the story. / When they slept and how many times is what nobody tells you.\" (0528)",
+      "\"But, the two sleeps aren't even the most interesting part. / It's what happened in between them.\" (0528)",
+      "\"But he cold was not even the thing most likely to kill you. / You already knew about the saber-tooth. / Here is what you did not know.\" (0522)",
+      "\"But the group alone only solved the daylight hours. / At night everything changed.\" (0609)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU NỐI NGẮN RA LỆNH TƯỞNG TƯỢNG trước fact sốc (\"Imagine\" / \"Picture this\" / \"Think about this\"). Đây là chỗ nhóm THẤP làm NHIỀU HƠN hẳn — ngược với kỳ vọng.",
+     "so_lieu": "7 lần / 13.449 từ = 0,52/1000, ở 4/9 bài. Phân bố: nhóm THẤP 5/7 lần (0617 ×3, 0609 ×2), nhóm GIỮA 1 (0608), nhóm CAO chỉ 1 (0528). Trong 3 bài nhóm CAO tổng 4.566 từ chỉ có ĐÚNG 1 lệnh tưởng tượng.",
+     "trich": [
+      "\"Imagine it's dark.\" (0617_BabiesAlive, 3,0 v/ngày)",
+      "\"Imagine 15 pairs of hands.\" (0617)",
+      "\"Picture this. / A woman scrapes a piece of animal hide until it softens.\" (0617)",
+      "\"Think about this from a predator's perspective.\" (0609_Predator, 4,0 v/ngày)",
+      "\"Now, imagine being a leopard prowling in the dark.\" (0609)",
+      "\"Imagine a camp, East Africa, 50,000 years ago.\" (0608_Died, 18,6 v/ngày)",
+      "\"Think about what that means. / 200,000 years ago, a human being lay down to sleep and thought about whether insects would isturb them, and then solved the problem.\" (0528_2AM — lệnh duy nhất của nhóm CAO)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "VÒNG TÒ MÒ LUÔN ĐÓNG NGAY CÂU SAU. Không có vòng nào bị treo quá 1 câu — chương sau mở bằng đúng câu trả lời cho câu đóng chương trước.",
+     "so_lieu": "48/48 mốc chuyển chương đo được trên 8/9 bài (bài 0512 không có chương). 0 vòng treo qua chương.",
+     "trich": [
+      "ĐÓNG \"But where they slept is only half the story. / When they slept and how many times is what nobody tells you.\" → MỞ \"You were not designed to sleep in one block. / Nobody was.\" (0528)",
+      "ĐÓNG \"The group solved the day. / Fire solved the night.\" → MỞ \"But, fire and the group together still could not solve one thing. / They still had to run.\" (0609)",
+      "ĐÓNG \"Your earliest experiences weren't lost because they were never saved. / They were saved, and then the construction crew arrived.\" → MỞ \"But here is what the scientists realized next.\" (0618)",
+      "ĐÓNG \"That is the last 0.03% of human history. / And in that 0.03% something started happening to us that had never happened before.\" → MỞ \"Today, the average adult in the developed world spends more time alone than any human being in the 300,000-year history of the species.\" (0519)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG BAO GIỜ BÁO TRƯỚC \"PHẦN HAY NHẤT Ở CUỐI\". Kênh này tuyệt đối không dùng chiêu hẹn cuối video.",
+     "so_lieu": "0/9 bài. 0 lần / 13.449 từ cho toàn bộ các cụm \"stay to the end\", \"by the end\", \"at the end of this video\", \"coming up\", \"later in this\", \"keep watching\", \"stick around\", \"we'll get to\". Thay vào đó họ giữ chân bằng leo thang chương liên tiếp.",
+     "trich": [
+      "(Không có câu nào để trích — đây là phát hiện phủ định, đã grep toàn kho 9/9 file, 0 kết quả thật.)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "DẤU CHẤM THAN = 0. DẤU HỎI cực thưa. Cảm xúc được tạo bằng câu cụt và nhịp lặp, không bằng dấu câu.",
+     "so_lieu": "Dấu \"!\": 0 lần / 13.449 từ (0/9 bài). Dấu \"?\": 13 lần / 13.449 từ = 0,97/1000 từ (trong đó 6 là câu hỏi lõi hoặc câu hỏi mở chương). Mở đầu câu bằng \"But\": 37 lần = 2,75/1000. Bằng \"And\": 44 lần = 3,27/1000.",
+     "trich": [
+      "\"They survived that. / Then the real danger arrived.\" (0522)",
+      "\"The species should not have made it. / The math said no. / The predator said no. / The cold said no. / The volcano said no. / And yet here you are.\" (0522 — nhịp lặp thay dấu chấm than)",
+      "\"Not once. / Not ever. / It was always a network. / Always a circle of hands.\" (0617)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MẬT ĐỘ \"you/your\" — nhóm CAO dùng ÍT HƠN nhóm THẤP. Ngược hẳn với giả định \"nhồi you thì giữ chân\".",
+     "so_lieu": "Xếp hạng 9/9 bài theo mật độ you/1000 từ: 12,3 (0526_CAO) · 12,5 (0528_CAO) · 18,1 (0522_GIỮA) · 20,0 (0519_CAO) · 21,9 (0609_THẤP) · 22,5 (0617_THẤP) · 24,1 (0608_GIỮA) · 58,7 (0618_THẤP) · 74,7 (0512_GIỮA). Ba bài nhóm CAO chiếm hạng 1, 2, 4 từ dưới lên; ba bài nhóm THẤP chiếm hạng 5, 6, 8.",
+     "trich": [
+      "\"You were alive for over a thousand days before you can remember any of them. / You were born, you opened your eyes for the first time, you heard your mother's voice, you felt cold air on your skin, and you screamed. / You tasted food, you took your first steps, you said your first word, and you remember none of it, not a single moment.\" (0618_BabyMemory — 58,7 you/1000 từ, 4,1 v/ngày)",
+      "\"In 2018, archaeologists excavating a cave called Raqefet near Haifa in Israel made that discovery that rewrote the standard timeline of human history.\" (0526_Drink — 12,3 you/1000 từ, 30,8 v/ngày; cả chương dài 299 từ không có một chữ \"you\")"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180 từ cuối) — chiều chưa ai bóc",
+   "ca_nguoc": "Cấu trúc kết giống hệt nhau ở nhóm CAO và nhóm THẤP: cùng callback, cùng chốt mạnh, cùng không mồi video kế. Kết KHÔNG phải biến phân biệt.",
+   "phat_hien": [
+    {
+     "y": "KẾT LUÔN CALLBACK VỀ ĐÚNG HÌNH ẢNH CỦA HOOK, thường là cùng danh từ cụ thể (cửa / ly nước / báo thức / phòng ngủ).",
+     "so_lieu": "8/9 bài có callback. Bài duy nhất KHÔNG có: 20260512_MindGlitches — nó kết thúc bằng đúng mục thứ 7, không có đoạn kết riêng.",
+     "trich": [
+      "HOOK \"You're in your bedroom right now. / Door closed, lights off.\" → KẾT \"Ancient humans never had a door to close. ... Then we built walls, and we have been trying to find each other through them ever since.\" (0519_Privacy, nhóm CAO)",
+      "HOOK \"Tonight, when you open a drink, you won't think about it for even 1 second.\" → KẾT \"Every time you open a drink, you are continuing something that started before your species had a name for itself. / The process changed, the ingredients improved, the cups got fancier, the impulse never changed.\" (0526_Drink, nhóm CAO)",
+      "HOOK \"Tonight, you will set an alarm.\" → KẾT \"We erased it in 50 years and we called what remained insomnia.\" (0528_2AM, nhóm CAO)",
+      "HOOK \"Tonight, when you put your child to bed, the room will be quiet.\" → KẾT \"We traded the village for the apartment, and we've been awake at 3:00 a.m. alone ever since.\" (0617_BabiesAlive, nhóm THẤP)",
+      "HOOK \"You were alive for over a thousand days before you can remember any of them.\" → KẾT \"That someone was you. / You just don't remember being them.\" (0618_BabyMemory, nhóm THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG BAO GIỜ MỒI VIDEO KẾ. Tuyệt đối không có \"next video\", \"part two\", \"I'll cover that next time\".",
+     "so_lieu": "0/9 bài. 0 lần / 13.449 từ.",
+     "trich": [
+      "(Phát hiện phủ định — grep toàn kho, 0 kết quả.)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG dùng đúng chữ \"That's you\" và KHÔNG dùng \"Next time you...\". Nhưng CÓ ĐỊNH DANH NGƯỜI XEM bằng khuôn khác: \"You are the [danh từ] ...\" hoặc \"The [cảm giác] you feel ... is not [X]\".",
+     "so_lieu": "Cụm \"That's you\" / \"That is you\": 0/9 bài. Cụm \"Next time you\": 0/9 bài. Nhưng câu định danh người xem trong 180 từ cuối: 6/9 bài.",
+     "trich": [
+      "\"And yet here you are. / Every person alive today descends from the specific humans who survived every single one of those nights. / Not the ones who almost made it. / The ones who came back. / You are not the descendant of everyone who lived through the Ice Age. / You are the descendant of the only ones who survived it.\" (0522_IceAge — câu định danh mạnh nhất của cả kho)",
+      "\"The exhaustion you feel at 3:00 a.m. is not weakness. / It is not a failure of character. / It is your body sending a signal it has been sending for 300,000 years. / You were not built for this. / Nobody was. / Nobody ever was.\" (0617_BabiesAlive)",
+      "\"Every time you open a drink, you are continuing something that started before your species had a name for itself.\" (0526_Drink)",
+      "\"It was becoming you, and that required something no one warns you about. / It required ending someone lse. / That someone was you. / You just don't remember being them.\" (0618_BabyMemory)",
+      "\"You weren't falling, your body was simply letting go. / And a 50,000-year-old survival circuit briefly mistook safety for danger.\" (0512_MindGlitches)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHỐT MẠNH, KHÔNG HẠ NHIỆT. Câu cuối cùng của 9/9 bài đều là câu KHẲNG ĐỊNH, không câu hỏi, không lời mời, không lời chúc.",
+     "so_lieu": "9/9 câu cuối là câu trần thuật khẳng định. 0/9 kết bằng câu hỏi. 0/9 kết bằng lời cảm ơn/chào.",
+     "trich": [
+      "\"Then we built walls, and we have been trying to find each other through them ever since.\" (0519)",
+      "\"The process changed, the ingredients improved, the cups got fancier, the impulse never changed.\" (0526)",
+      "\"We erased it in 50 years and we called what remained insomnia.\" (0528)",
+      "\"They just never stopped watching each other do it.\" (0608)",
+      "\"You are the descendant of the only ones who survived it.\" (0522)",
+      "\"By the time they did, there was nothing left to be afraid of.\" (0609)",
+      "\"We traded the village for the apartment, and we've been awake at 3:00 a.m. alone ever since.\" (0617)",
+      "\"You just don't remember being them.\" (0618)",
+      "\"And a 50,000-year-old survival circuit briefly mistook safety for danger.\" (0512)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN KẾT ĐẶC TRƯNG — \"WE BUILT / WE CALLED IT\" lặp 3-4 lần liên tiếp rồi chốt bằng một câu mất mát.",
+     "so_lieu": "3/9 bài dùng khuôn này (0519 nhóm CAO, 0608 nhóm GIỮA, 0617 nhóm THẤP). Toàn kho \"we/our\" = 103 lần / 13.449 từ = 7,66/1000 từ.",
+     "trich": [
+      "\"The walls worked. / We got everything we built them for. / And we are more disconnected from each other than at any moment in the ntire history of our species. ... We built walls to protect that connection. / And somewhere along the way, we forgot what we were protecting.\" (0519_Privacy)",
+      "\"We built the walls. / We built the rooms. / We built the entire infrastructure of invisible death and we became the first generation in 300,000 years of human history genuinely surprised when someone we love stops existing.\" (0608_Died)",
+      "\"We took apart the system that kept our species alive. / We called it independence. / We called it privacy. / We called it progress. / And no one told us what it cost.\" (0617_BabiesAlive)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỘ DÀI ĐOẠN KẾT: 40-160 từ, tức 2,6%-11,9% của bài.",
+     "so_lieu": "8/8 bài có kết riêng (bài 0512 không có). Trung vị 110 từ. Chi tiết: 0617 160 từ (9,2%) · 0519 149 (11,9%) · 0526 147 (8,2%) · 0618 125 (8,2%) · 0609 110 (6,7%) · 0608 98 (6,6%) · 0522 81 (5,2%) · 0528 40 (2,6%).",
+     "trich": [
+      "\"For 300,000 years your ancestors slept in two pieces, woke into darkness between them and experienced a state of consciousness that science is only now beginning to name. / We erased it in 50 years and we called what remained insomnia.\" (0528 — đoạn kết ngắn nhất kênh, đúng 40 từ / 2 câu)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ / LIKE / COMMENT",
+   "ca_nguoc": "Đây là phát hiện lớn nhất của cả đợt bóc: kênh này KHÔNG XIN GÌ HẾT, và tỷ lệ like vẫn cao gấp 2-5 lần chuẩn thường thấy.",
+   "phat_hien": [
+    {
+     "y": "TUYỆT ĐỐI KHÔNG XIN SUB / LIKE / COMMENT / BẤM CHUÔNG TRONG LỜI ĐỌC. Không một lần nào, ở bất kỳ vị trí nào của bất kỳ bài nào.",
+     "so_lieu": "0/9 bài. 0 lần / 13.449 từ, đã grep các cụm: subscribe · like this video · hit the bell · notification · comment below · comment section · this channel · share this · let me know · link in description · down below. Grep bắt đúng 3 dòng nhưng cả 3 đều là NỘI DUNG, không phải lời kêu gọi.",
+     "trich": [
+      "\"You do not comment on what you did not see.\" (0519_Privacy dòng 68 — đây là luật im lặng tập thể của người Mbuti, không phải xin comment)",
+      "\"No notification, no call, no message at all.\" (0512_MindGlitches dòng 49 — mô tả hội chứng rung ảo điện thoại)",
+      "\"Both hands hit the ice.\" (0522_IceAge dòng 19 — khớp nhầm chuỗi \"hit the\")"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG XIN MÀ TỶ LỆ LIKE VẪN RẤT CAO, và bài CHÌM có tỷ lệ like CAO HƠN bài NỔ. Nghĩa là chất lượng lời đọc không phải nguyên nhân 8 bài chìm.",
+     "so_lieu": "9/9 bài có like/view từ 2,06% đến 5,06%, trung vị 3,80%. Chi tiết: 0528 = 70/1.383 = 5,06% · 0609 = 10/242 = 4,13% · 0618 = 8/207 = 3,86% · 0522 = 22/574 = 3,83% · 0617 = 6/158 = 3,80% · 0608 = 41/1.137 = 3,61% · 0512 = 20/581 = 3,44% · 0526 = 69/2.276 = 3,03% · 0519 = 12.913/627.784 = 2,06%. Ba bài nhóm THẤP trung vị 3,86%; bài nổ chỉ 2,06%.",
+     "trich": [
+      "(Số liệu lấy từ like_count/view_count trong 9 file _vtt/*.info.json, không phải từ lời đọc.)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TOÀN BỘ \"CTA\" CỦA KÊNH NẰM Ở PHẦN MÔ TẢ, KHÔNG NẰM TRONG LỜI ĐỌC — và nó không phải CTA marketing mà là BẢNG NGUỒN + DISCLAIMER.",
+     "so_lieu": "1/9 bài (0519, bài nổ) có phần mô tả gồm: tóm tắt 5 chương có tiêu đề riêng + DISCLAIMER + 7 nguồn trích dẫn đầy đủ (tác giả, năm, tạp chí, tên bài) + 8 hashtag. 8/9 bài KHÔNG đặt chapters trên YouTube (chapters = None); chỉ 1/9 bài có chapters (0512, 7 chương).",
+     "trich": [
+      "\"DISCLAIMER: This video discusses anthropological and archaeological research for educational purposes. Modern hunter-gatherer observations are used as comparative models, not as definitive proof of how all ancient humans lived.\" (mô tả 0519_Privacy)",
+      "\"SOURCES: Dunbar, R. 1992. Behavioral and Brain Sciences. \"Neocortex size as a constraint on group size in primates\" / Samson, D. et al. 2017. American Journal of Physical Anthropology... / Turnbull, C. 1961. \"The Forest People\"...\" (mô tả 0519_Privacy)",
+      "\"*The 50-Foot World* — Anthropologist Robin Dunbar at Oxford University found hunter-gatherer bands stayed within 50 feet of each other every waking hour.\" (mô tả 0519 — họ đặt TÊN CHƯƠNG trong mô tả dù không bật chapters)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "ca_nguoc": "Bộ xương 7-9 khối giống nhau ở cả nhóm CAO lẫn nhóm THẤP. Bài 627.784 view và bài 158 view có cùng số khối (7 và 8), cùng dải từ/chương, cùng vị trí cú lật. Bộ xương KHÔNG phải bí quyết.",
+   "phat_hien": [
+    {
+     "y": "BỘ XƯƠNG CHUẨN CỦA KÊNH: HOOK (118-250 từ) + 5-7 CHƯƠNG (108-427 từ mỗi chương) + KẾT (40-160 từ). Tổng 7-9 khối.",
+     "so_lieu": "8/9 bài dùng đúng bộ xương này. Số khối: 0519 = 7 · 0526 = 7 · 0618 = 7 · 0528 = 8 · 0608 = 8 · 0609 = 8 · 0617 = 8 · 0522 = 9. Bài 0512_MindGlitches KHÔNG dùng bộ xương này (7 mục rời 122-140 từ, không hook, không kết) và chỉ đạt 6,6 v/ngày. Tổng độ dài 924-1.794 từ, trung vị 1.533 từ; thời lượng 4:53-9:49, trung vị 8:39.",
+     "trich": [
+      "(Cấu trúc đo bằng vị trí từ, không có câu để trích ở mục này — xem các mục dưới.)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "HOOK chiếm 7,9%-16,1% bài. Chương đầu tiên KHÔNG BAO GIỜ là chương dài nhất, trừ 1 ngoại lệ.",
+     "so_lieu": "8/8 bài có hook, tỷ lệ: 0608 7,9% (118 từ) · 0609 8,3% (136) · 0617 8,3% (144) · 0528 8,9% (136) · 0618 9,1% (140) · 0526 10,0% (180) · 0519 13,7% (172) · 0522 16,1% (250). Trung vị 8,9%. Chương dài nhất nằm ở nửa giữa (33%-74% bài) ở 6/8 bài; ngoại lệ: 0608 (chương dài nhất 289 từ ở 7,9-27,2%) và 0526 (333 từ ở 73,2-91,8%).",
+     "trich": [
+      "(Đo bằng vị trí từ.)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÚ LẬT LỚN NHẤT = \"CHƯƠNG HIỆN ĐẠI\" (hoá ra chúng ta mới là kẻ khổ / kẻ đánh mất), rơi ở 68,6%-86,3% của bài.",
+     "so_lieu": "5/9 bài có chương lật này. Vị trí: 0608 tại 68,6% · 0519 tại 79,1% · 0528 tại 84,5% · 0617 tại 84,6% · 0618 tại 86,3%. Trung vị 84,5%. Phân bố: nhóm CAO 2/3 bài, nhóm THẤP 2/3 bài.",
+     "trich": [
+      "\"Today, the average adult in the developed world spends more time alone than any human being in the 300,000-year history of the species. / We have more physical privacy than any humans who have ever lived. / Loneliness is now classified by the World Health Organization as a global public health crisis.\" (0519 tại 79,1%)",
+      "\"You are the safest generation of humans who has ever lived. / You will live longer than any of your ancestors. ... And you are more afraid of dying than any of them were. / Not slightly more afraid, clinically, measurably, documentably more terrified.\" (0608 tại 68,6%)",
+      "\"Here's what this means for you right now. / In 2016, researcher Fabio Falchi published findings in Science Advances. / 83% of the world now lives under light-polluted skies.\" (0528 tại 84,5%)",
+      "\"And here is the part that should unsettle every modern parent alive. / It is 3:00 a.m. / The apartment is dark. / The baby is not quiet. / You have been awake for 22 hours. / Nobody is coming.\" (0617 tại 84,6%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "4/9 bài KHÔNG dùng chương-lật-hiện-đại. Một trong số đó (nhóm CAO) thay bằng CHƯƠNG TỔNG KẾT DÒNG THỜI GIAN đếm ngược.",
+     "so_lieu": "4/9 bài không có chương lật hiện đại: 0522, 0609, 0526, 0512. Trong đó 0526 (30,8 v/ngày, nhóm CAO) đặt chương tổng kết dòng thời gian tại 91,8% bài, gồm 6 mốc năm liên tiếp trong 6 câu.",
+     "trich": [
+      "\"So here is the full picture. / 10 million years ago, your ancestors were the only primates drawn to the fruit hat had been sitting too long. / 13,000 years ago, they were brewing it in caves before they knew how to farm. / 11,000 years ago, they were building the oldest ructure on Earth just to have somewhere to drink together. / 9,000 years ago, they had recipes. / 4,000 years ago, they were executing people for making it badly. / 5,000 years ago, entire civilizations were running on it.\" (0526_Drink tại 91,8%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "THỨ TỰ LEO THANG KIỂU \"MỖI CHƯƠNG PHÁ VỠ GIẢI PHÁP CỦA CHƯƠNG TRƯỚC\" — công thức vấn-đề → giải-pháp → nhưng-chỉ-giải-được-một-nửa.",
+     "so_lieu": "3/9 bài dùng rõ rệt: 0609 (nhóm THẤP), 0522 (nhóm GIỮA), 0528 (nhóm CAO) — mỗi nhóm đúng 1 bài, nên đây KHÔNG phải yếu tố phân biệt.",
+     "trich": [
+      "0609_Predator, 6 chương liên hoàn: C2 bầy đàn (22,0%) → \"But the group alone only solved the daylight hours.\" → C3 lửa (34,8%) → \"But, fire and the group together still could not solve one thing. / They still had to run.\" → C4 chạy bền (53,8%) → C5 ngôn ngữ (74,0%) → C6 giáo (85,2%)",
+      "0609 chốt hai chương bằng cặp câu 4 từ: \"The group solved the day. / Fire solved the night.\"",
+      "0522_IceAge: \"They survived that. / Then the real danger arrived.\" (26,0%) → \"But he cold was not even the thing most likely to kill you.\" (33,6%) → \"But Smilodon was not the most dangerous animal in the daylight hours.\" (47,0%) → \"But, here is the single fact that kept humans alive through all of it. / Fire worked.\" (56,2%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHƯƠNG DÀI NHẤT của cả kho và chương NGẮN NHẤT của cả kho.",
+     "so_lieu": "Dài nhất: 427 từ (0618_BabyMemory, chương \"chưa có bản ngã\", 39,7%-67,6% bài) — chiếm 27,9% toàn bài. Ngắn nhất: 69 từ (0522_IceAge, chương \"LỬA\", 56,2%-60,7%) — chiếm 4,5% toàn bài. Dải từ/chương toàn kho: 69-427 từ, trung vị ~240 từ.",
+     "trich": [
+      "\"But, here is the single fact that kept humans alive through all of it. / Fire worked. ... A burning fire creates a circle of safety roughly 30 ft in diameter. / Inside that circle, nothing enters. / Outside it, everything hunts. / The only border between your group and the dark was the fire.\" (0522 — trọn chương 69 từ)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG (đóng + mở)",
+   "ca_nguoc": "Có một khác biệt đếm được ở đây: nhóm CAO mở chương bằng NHÀ NGHIÊN CỨU/DI CHỈ, nhóm THẤP mở chương bằng \"But here is the part nobody...\". Nhưng cấu trúc cặp đóng-mở (2 câu đóng, câu chốt cụt) thì cả hai nhóm đều dùng — phần đó là nết kênh.",
+   "phat_hien": [
+    {
+     "y": "CẶP CHUYỂN CHƯƠNG LUÔN LÀ: 2 CÂU ĐÓNG + 1 CÂU MỞ. Câu đóng CUỐI luôn cụt, 4-9 từ, và luôn là câu chốt kiểu khẩu hiệu.",
+     "so_lieu": "48/48 mốc chuyển đo được trên 8/9 bài đều theo khuôn này. Độ dài câu đóng cuối: 4-9 từ (trung vị 7 từ). Câu mở có thể dài tới 39 từ.",
+     "trich": [
+      "\"Three behaviors, no materials required.\" (5 từ — 0519)",
+      "\"Then the real danger arrived.\" (5 từ — 0522)",
+      "\"Fire solved the night.\" (4 từ — 0609)",
+      "\"Not generosity, survival strategy.\" (4 từ — 0617)",
+      "\"What they put inside is stranger.\" (6 từ — 0528)",
+      "\"They turned a recipe into a prayer.\" (7 từ — 0526)",
+      "\"The body, the fire, every person still alive staying.\" (9 từ — 0608)",
+      "\"They were saved, and then the construction crew arrived.\" (9 từ — 0618)",
+      "\"What came next was on a completely different scale.\" (9 từ — 0526)",
+      "\"That is not a fair fight over the long run.\" (10 từ — 0609)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN MỞ CHƯƠNG SỐ 1 — MỞ BẰNG NHÀ NGHIÊN CỨU CÓ TÊN + NĂM + VIỆN. Đây là chỗ nhóm CAO khác nhóm THẤP rõ nhất.",
+     "so_lieu": "Nhóm CAO: 4/16 mốc mở chương dùng khuôn này (0526 ×2, 0519 ×1, 0528 ×1). Nhóm THẤP: 0/17 mốc — không một chương nào của 3 bài chìm mở bằng nhà nghiên cứu.",
+     "trich": [
+      "\"In 2014, anthropologist David Samson at he University of Toronto completed a multi-year study of sleep patterns and social behavior among the Hadza people of Tanzania, one of the last remaining hunter-gatherer populations whose way of life most closely resembles pre-agricultural humans.\" (0519 mở chương 2 tại 33,7%)",
+      "\"In 2014, a biologist at UC Berkeley named Robert Dudley published a book called The Drunken Monkey.\" (0526 mở chương 1 tại 10,0%)",
+      "\"Patrick McGovern is the scientific director of the Biomolecular Archaeology Project. / He has pent decades arguing one thing. / Humans did not start farming to make bread. / They started farming to make beer.\" (0526 mở chương 4 tại 56,0%)",
+      "\"Archaeologist Lynn Wadley at the University of the Witwatersrand found something even more striking at Sibudu Cave in South Africa.\" (0528 mở chương 2 tại 17,9%)",
+      "\"In southeastern Turkey, there is a site called Göbekli Tepe. / Massive stone pillars, some weighing over 10 tons, arranged in precise circles and carved with images of animals, foxes, scorpions, vultures, lions.\" (0526 mở chương 3 tại 40,8% — biến thể mở bằng DI CHỈ)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN MỞ CHƯƠNG SỐ 2 — MỞ BẰNG \"But here is the part/what nobody...\". Nhóm THẤP dùng khuôn này thay cho mỏ neo khoa học.",
+     "so_lieu": "Nhóm THẤP: 5/17 mốc mở chương dùng khuôn này (0617 ×3, 0609 ×1, 0618 ×1). Nhóm CAO: 1/16 mốc. Tỷ lệ 5x nghiêng về nhóm THẤP.",
+     "trich": [
+      "\"But here's the part nobody tells you. / The answer was never one person.\" (0617 mở chương 2 tại 22,2%)",
+      "\"But here's what nobody tells new parents. / The baby could never touch the ground.\" (0617 mở chương 3 tại 37,9%)",
+      "\"And here is the part that should unsettle every modern parent alive.\" (0617 mở chương 6 tại 84,6%)",
+      "\"But here is the part nobody talks about. / At some point, the fear stopped going in one direction because ancient humans learned something no other prey animal could learn.\" (0609 mở chương 5 tại 74,0%)",
+      "\"But here is what the scientists realized next.\" (0618 mở chương 3 tại 39,7%)",
+      "\"Here's what this means for you right now.\" (0528 — mốc DUY NHẤT của nhóm CAO dùng khuôn này, tại 84,5%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "KHUÔN MỞ CHƯƠNG SỐ 3 — MỞ BẰNG MỐC THỜI GIAN đứng một mình.",
+     "so_lieu": "4/48 mốc chuyển. Phân bố: nhóm CAO 2 (0519), nhóm GIỮA 1 (0608), nhóm THẤP 1 (0609).",
+     "trich": [
+      "\"For the first 290,000 years of human existence, the entire radius of your life was roughly 50 ft. / That is not a metaphor.\" (0519 tại 13,7%)",
+      "\"Around 10,000 years ago, something changed. / Humans began farming. / Farming meant staying in one place. / Staying meant building. / Building meant walls.\" (0519 tại 57,2%)",
+      "\"And then roughly one million years ago, in a cave in what is now South Africa, something happened.\" (0609 tại 34,8%)",
+      "\"Imagine a camp, East Africa, 50,000 years ago. / It is early morning. / The fire from the night before has burned low. / Someone died in the night.\" (0608 tại 7,9%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN MỞ CHƯƠNG SỐ 4 — MỞ BẰNG CÂU HỎI ngắn (5-16 từ), luôn có \"So,\" đứng đầu ở 3/4 lần.",
+     "so_lieu": "4/48 mốc chuyển, ở 3/9 bài. Nhóm CAO 2 (0528, 0526), nhóm THẤP 2 (0609).",
+     "trich": [
+      "\"So, how did we lose it? / The answer is faster and more deliberate than you'd think.\" (0528 tại 77,1%)",
+      "\"So, how did they not vanish in the first hundred thousand years? / The answer starts with something so simple it almost sounds like the wrong answer.\" (0609 tại 22,0%)",
+      "\"So, what did they do when something fast came for them? / They ran anyway.\" (0609 tại 53,8%)",
+      "\"The oldest gathering place on Earth was built around a drink, which raises the question archaeologists have been fighting over for decades. / Why did humans eventually stop traveling to places like this and start staying in one place permanently?\" (0526 tại 56,0%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU ĐÓNG CHƯƠNG HAY NHẤT ĐỂ CƯỚP VỀ (kho câu dùng lại — đã kiểm là câu ĐÓNG, không phải câu mở).",
+     "so_lieu": "10 câu chọn từ 48 mốc chuyển của 8/9 bài. 6/10 thuộc nhóm CAO hoặc GIỮA, 4/10 thuộc nhóm THẤP — nghĩa là chất lượng câu chuyển không tương quan với view.",
+     "trich": [
+      "\"But, the biology was just the beginning. / The real question is when humans stopped stumbling onto fermentation by accident and started engineering it on purpose.\" (0526)",
+      "\"That is the last 0.03% of human history. / And in that 0.03% something started happening to us that had never happened before.\" (0519)",
+      "\"Three behaviors, no materials required. / This was the architecture of private life for 290,000 years, and some cultures formalized it into something even more deliberate.\" (0519)",
+      "\"It was an irreplaceable fraction of the only world anyone in the group had ever known. / And yet, somehow, through all of this, a few of them kept surviving. / The number of how few is the part nobody talks about.\" (0522)",
+      "\"Their bite force ran approximately 30% greater than a modern gray wolf, adapted specifically for crushing bone. / Once it had you, the anatomy was built to finish the job.\" (0522)",
+      "\"The hiding was complete. / And then something happened that nobody designed, and nobody intended, and nobody has been able to reverse since.\" (0608)",
+      "\"What changed is not the feeling. / What changed is everything we built around it.\" (0608)",
+      "\"Beer adulteration was a capital offense. / Governments were executing people for bad beer nearly 4,000 years ago.\" (0526)",
+      "\"That is not manipulation. / That is 300,000 years of survival code running exactly as written, even here, even now.\" (0617)",
+      "\"Your earliest experiences weren't lost because they were never saved. / They were saved, and then the construction crew arrived.\" (0618)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "ca_nguoc": "ĐÂY LÀ CHIỀU DUY NHẤT CÓ PHÂN TÁCH SẠCH GIỮA NHÓM CAO VÀ NHÓM THẤP (không chồng lấn). NHƯNG: nhóm GIỮA phá thế đơn điệu — 0522_IceAge có mật độ mỏ neo CAO NHẤT kho (13,56/1000) mà chỉ đạt 7,4 v/ngày. Và vì cả 3 bài nhóm CAO đều đăng tháng 5 còn cả 3 bài nhóm THẤP đều đăng tháng 6, khác biệt này TRÙNG HOÀN TOÀN với biến thời gian — không tách được nhân quả.",
+   "phat_hien": [
+    {
+     "y": "MẬT ĐỘ MỎ NEO (tên nhà nghiên cứu + di chỉ + mốc niên đại) / 1000 từ: nhóm CAO gấp 4,5 lần nhóm THẤP, và HAI DẢI KHÔNG CHỒNG LẤN.",
+     "so_lieu": "Nhóm CAO: 0528 = 13,15 · 0526 = 12,82 · 0519 = 9,59 (trung vị 12,82). Nhóm THẤP: 0609 = 3,65 · 0617 = 2,88 · 0618 = 1,30 (trung vị 2,88). Min nhóm CAO (9,59) > max nhóm THẤP (3,65). Toàn kho: 33 tên riêng + 20 di chỉ + 46 mốc niên đại / 13.449 từ = 7,36/1000 từ. CẢNH BÁO: nhóm GIỮA phá xu hướng — 0522 = 13,56 (cao nhất kho) nhưng chỉ 7,4 v/ngày, còn 0608 = 2,68 (thấp) nhưng đạt 18,6 v/ngày.",
+     "trich": [
+      "\"In 1992, anthropologist Robin Dunbar at Oxford University published research synthesizing decades of field observations across forager societies on every inhabited continent. / His finding, the average hunter-gatherer band maintained near constant physical proximity. / Members separated by fewer than 50 ft during most waking hours.\" (0519, nhóm CAO)",
+      "\"In 2001, historian Roger Ekirch published a paper that changed how we understand sleep entirely. / He had spent 16 years digging through historical records. / He found over 500 references to the same pattern.\" (0528, nhóm CAO)",
+      "\"In 1992, psychiatrist Thomas Wehr at the National Institute of Mental Health tested what would happen when humans were returned to ancient darkness. / He took volunteers and removed all artificial light from their lives, 14 hours of darkness every night for 1 month.\" (0528, nhóm CAO)",
+      "\"Archaeologist Klaus Schmidt of the German Archaeological Institute spent 20 years excavating the site.\" (0526, nhóm CAO)",
+      "\"Egyptologist Mark Lehner's excavations at Giza found something nobody expected inside the pyramid workers village, a brewery.\" (0526, nhóm CAO)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "SỐ NHÀ NGHIÊN CỨU CÓ TÊN RIÊNG: nhóm CAO 3,50 tên/1000 từ, nhóm THẤP 0,61 tên/1000 từ. Bài chìm nhất có chương dài 292 từ không nêu một cái tên nào.",
+     "so_lieu": "Nhóm CAO: 13 tên riêng / 4.566 từ = 2,85/1000. Nhóm GIỮA: 13 tên / 3.967 từ = 3,28/1000. Nhóm THẤP: 3 tên / 4.916 từ = 0,61/1000. Bài 0609 (1.646 từ) có ĐÚNG 1 tên trong cả bài; bài 0618 (1.533 từ) có 1 tên.",
+     "trich": [
+      "\"In the 1980s, a researcher named Louis Liebenberg documented this in the Kalahari desert.\" (0609 — tên DUY NHẤT trong 1.646 từ, nhóm THẤP)",
+      "\"Anthropologist Sarah Blaffer Hrdy studied this pattern across species and arrived at one conclusion.\" (0617 — không năm, không viện, nhóm THẤP)",
+      "\"But in 2014, two neuroscientists in Toronto asked a question that sounded almost too dark to test.\" (0618 — KHÔNG NÊU TÊN, dù phần mô tả của chính video ghi rõ \"Paul Frankland memory study\", nhóm THẤP)",
+      "\"In the 1980s, a researcher had a simple idea. / Tie a ribbon from a baby's ankle to a mobile hanging above its crib.\" (0618 — mỏ neo mờ nhất kho: không tên, không viện, không nguồn)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN MỎ NEO CỐ ĐỊNH 4 THÀNH PHẦN: \"In [NĂM], [chức danh] [Tên riêng] at [Viện] published/found [kết quả]\" — rồi câu tiếp theo LUÔN dịch kết quả sang ngôn ngữ đời thường.",
+     "so_lieu": "13/33 lần nêu tên dùng đủ 4 thành phần. Nhóm CAO dùng đủ 4 thành phần 6/13 lần nêu tên; nhóm THẤP 1/3 lần. Sau mỗi mỏ neo, 11/13 lần có ngay câu quy đổi sang vật quen thuộc.",
+     "trich": [
+      "\"In 1996, archaeologist Ian Hodder at Cambridge University published a landmark analysis of Çatalhöyük, a 9,000-year-old agricultural settlement in modern Turkey, one of the earliest known examples of permanent human housing.\" (0519 — đủ 4 thành phần)",
+      "\"50 ft is roughly the length of a school bus. / Inside that school bus, 15 to 50 people were living every moment of their lives.\" (0519 — câu quy đổi ngay sau mỏ neo Dunbar)",
+      "\"Fewer people than fill a single school.\" (0522 — quy đổi con số 3.000-10.000 người)",
+      "\"For context, there are more people in a single modern football stadium.\" (0522 — quy đổi lần hai cùng con số)",
+      "\"In 2023, Professor Larry Barham at the University of Liverpool published findings in the journal Nature. / His team had been excavating at Kalambo Falls in Zambia. / What they found stopped them.\" (0528 — đủ 4 thành phần + câu cụt chốt)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "HEDGE (nói vòng để không cam kết chắc) — có ở 9/9 bài nhưng thưa, và từ hedge được dùng nhiều nhất là \"roughly\".",
+     "so_lieu": "26 lần / 13.449 từ = 1,93 lần/1000 từ, có ở 9/9 bài. Phân bố theo bài: 0522 = 8 · 0526 = 5 · 0519 = 4 · 0528 = 3 · 0617 = 3 · 0618 = 2 · 0608 = 1 · 0609 = 1 · 0512 = 1. Từ dùng: \"roughly\" 11 lần · \"believed\" 3 · \"approximately\" 3 · \"estimated\" 2 · \"suggested\" 2 · \"may have/may be\" 2 · \"argued/has argued\" 2 · \"Some anthropologists believe\" 1.",
+     "trich": [
+      "\"Ambrose's analysis of the genetic evidence suggested the global human population dropped to between 3,000 and 10,000 individuals.\" (0522)",
+      "\"Göbekli Tepe may be the first evidence of strangers from different territories meeting under something shared, and when they arrived, there were vats waiting.\" (0526)",
+      "\"The evidence now says it may have assembled the world stone by stone, harvest by harvest, cup by cup.\" (0526)",
+      "\"The animal carvings on the pillars are believed to represent those different groups, each clan marking their pillar.\" (0526)",
+      "\"Some anthropologists believe this is where kissing comes from, not romance, not desire.\" (0617)",
+      "\"Ekirch has argued this is not a disorder. / It is the biological memory of a pattern we erased.\" (0528)",
+      "\"The average of 25 to 35 years was dragged down almost entirely by infant mortality, estimated at 40 to 50%.\" (0522)",
+      "\"The leading explanation comes from evolutionary neuroscience.\" (0512)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TÁCH SỰ THẬT KHỎI SUY DIỄN — CÓ, nhưng làm bằng cách LẬT NGƯỢC (\"đây KHÔNG phải X, đây LÀ Y\") chứ không bằng lời rào đón. Phần rào đón thật sự nằm ở mô tả video, không nằm trong lời đọc.",
+     "so_lieu": "Câu lật-ngược-để-khẳng-định-độ-thật: 4/9 bài có. DISCLAIMER đầy đủ: chỉ tìm thấy ở phần mô tả, 1/9 bài kiểm được (0519).",
+     "trich": [
+      "\"That is not a metaphor.\" (0519 — ngay sau con số 50 ft)",
+      "\"This not a guess. / This is a mathematical reality.\" (0609)",
+      "\"Its jaws were strong enough to crush elephant bone, not metaphorically, literally, elephant bone.\" (0609)",
+      "\"This is not a film. / This is your ancestor. / This was a Tuesday night.\" (0522)",
+      "\"This was not sanitation. / You do not carve patterns into stone walls underground in complete darkness for sanitation.\" (0608)",
+      "\"DISCLAIMER: ... Modern hunter-gatherer observations are used as comparative models, not as definitive proof of how all ancient humans lived.\" (mô tả 0519 — KHÔNG có trong lời đọc)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MỘT SỐ MỎ NEO CỦA BÀI NỔ ĐÁNG NGHI — đối chiếu lời đọc với bảng nguồn trong mô tả thì lệch. Cần cẩn thận nếu định copy cách làm này.",
+     "so_lieu": "Ít nhất 2/7 mỏ neo của bài 0519 (bài nổ) lệch với chính bảng SOURCES của nó: lời đọc nói \"In 2014, anthropologist David Samson\" nhưng SOURCES ghi \"Samson, D. et al. 2017\"; lời đọc quy nghiên cứu Dunbar 1992 thành \"synthesizing decades of field observations across forager societies\" nhưng SOURCES ghi tên bài là \"Neocortex size as a constraint on group size in primates\" (nghiên cứu về linh trưởng, không phải khảo sát dân tộc học).",
+     "trich": [
+      "\"In 2014, anthropologist David Samson at he University of Toronto completed a multi-year study...\" (lời đọc 0519) vs \"Samson, D. et al. 2017. American Journal of Physical Anthropology.\" (mô tả cùng video 0519)",
+      "\"In 1992, anthropologist Robin Dunbar at Oxford University published research synthesizing decades of field observations across forager societies on every inhabited continent.\" (lời đọc 0519) vs \"Dunbar, R. 1992. Behavioral and Brain Sciences. \"Neocortex size as a constraint on group size in primates\"\" (mô tả cùng video 0519)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "ca_nguoc": "Khuôn title \"What Did Ancient Humans...?\" CHỨA CẢ bài nổ nhất (7.750,4 v/ngày) LẪN hai bài chìm nhất (4,0 và 3,0). Khuôn title KHÔNG quyết định gì ở kênh này — đúng như bài học đã ghi trong kho.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN TITLE LẶP \"What/How Did Ancient Humans [động từ] ...?\" — chiếm quá nửa kênh, và chứa cả bài thắng lẫn bài chìm.",
+     "so_lieu": "5/9 bài. Trung vị view/ngày của nhóm này = 18,6. Nhưng dải trải từ 7.750,4 xuống 3,0 — tức khuôn title chứa cả cực đại lẫn cực tiểu của kênh. Bỏ bài nổ ra thì trung vị còn 11,3.",
+     "trich": [
+      "\"What Did Ancient Humans Do With No Privacy?\" (7.750,4 v/ngày)",
+      "\"What Did Ancient Humans Drink Before Farming Existed?\" (30,8)",
+      "\"What Did Ancient Humans Do When Someone Died?\" (18,6)",
+      "\"What Did Ancient Humans Do When a Predator Attacked?\" (4,0)",
+      "\"How Did Ancient Humans Keep Their Babies Alive?\" (3,0)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "4/9 title dùng khuôn khác (khẳng định hoặc \"về BẠN\"), trung vị thấp hơn.",
+     "so_lieu": "4/9 bài, trung vị 7,0 v/ngày, so với 18,6 của khuôn \"Ancient Humans...?\". Chênh 2,7 lần — nhưng chênh này do bài nổ tạo ra; bỏ bài nổ thì còn 11,3 vs 7,0, tức 1,6 lần, với n = 4 vs 4. Không đủ để phán.",
+     "trich": [
+      "\"The Real Reason You Wake Up at 2AM\" (19,2 v/ngày)",
+      "\"The Ice Age Should Have Killed Every Human Alive\" (7,4)",
+      "\"Common Mind Glitches You Experience Without Knowing\" (6,6)",
+      "\"What You Did As A Baby You'll Never Remember\" (4,1)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHÓM ĐỀ TÀI THEO CHỦ ĐIỂM + trung vị view/ngày từng nhóm. Nhóm \"sinh hoạt thường ngày của người cổ đại\" cao nhất, nhóm \"não/tâm lý của BẠN\" thấp hơn.",
+     "so_lieu": "Nhóm A — sinh hoạt thường ngày người cổ đại (4/9 bài: Privacy, Drink, Died, BabiesAlive): 7.750,4 · 30,8 · 18,6 · 3,0 → trung vị 24,7 (bỏ bài nổ: trung vị 18,6). Nhóm B — não/tâm lý của BẠN (3/9 bài: 2AM, MindGlitches, BabyMemory): 19,2 · 6,6 · 4,1 → trung vị 6,6. Nhóm C — nguy hiểm/sinh tồn cổ đại (2/9 bài: IceAge, Predator): 7,4 · 4,0 → trung vị 5,7. CẢNH BÁO: n = 4/3/2, không nhóm nào đủ mẫu.",
+     "trich": [
+      "Nhóm A: \"What Did Ancient Humans Do With No Privacy?\" · \"What Did Ancient Humans Drink Before Farming Existed?\" · \"What Did Ancient Humans Do When Someone Died?\" · \"How Did Ancient Humans Keep Their Babies Alive?\"",
+      "Nhóm B: \"The Real Reason You Wake Up at 2AM\" · \"Common Mind Glitches You Experience Without Knowing\" · \"What You Did As A Baby You'll Never Remember\"",
+      "Nhóm C: \"The Ice Age Should Have Killed Every Human Alive\" · \"What Did Ancient Humans Do When a Predator Attacked?\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHÔNG LÀM LẠI ĐỀ TÀI CŨ, KHÔNG CÓ LOẠT ĐÁNH SỐ — nhưng CÓ loạt ngầm bằng tiền tố title và bằng tag.",
+     "so_lieu": "9/9 đề tài khác nhau hoàn toàn, 0 bài trùng. 0/9 title có \"Part 1\" / \"Ep.\" / số thứ tự. Nhưng 5/9 title dùng chung tiền tố \"Ancient Humans\", và 7/9 bài có ít nhất một tag chứa cụm \"ancient human\".",
+     "trich": [
+      "Tag 0519: ['ancient humans', 'prehistoric humans daily life', 'how ancient humans survived', 'ancient human behavior', 'history of privacy', 'ancient humans sleep', ...]",
+      "Tag 0609: ['ancient humans predators', 'how ancient humans survived predators', 'prehistoric predators', 'what did ancient humans do when attacked', ...]",
+      "Tag 0617: ['how did ancient humans keep babies alive', 'ancient human infant survival', 'prehistoric parenting', 'grandmother hypothesis explained', 'Kristen Hawkes Hadza study']",
+      "Tag 0512 (KHÔNG có cụm ancient human): ['mind glitches', 'psychology explained', 'cognitive bias', 'brain phenomena', 'doorway effect', 'baader meinhof', ...]"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KÊNH TỰ KHAI MỘT NGÁCH, NHƯNG LÀM MỘT NGÁCH KHÁC. Bài đầu tiên (0512) đúng ngách tự khai (tâm lý) — và nó chìm; bài thứ hai đổi sang Ancient Humans — và nổ.",
+     "so_lieu": "Mô tả kênh khai \"hidden psychology and invisible systems running your life\", nhưng chỉ 2/9 bài thuần tâm lý (0512, 0618) và cả hai đều nằm ở nửa dưới bảng view/ngày (6,6 và 4,1). 7/9 bài gắn tag ancient human.",
+     "trich": [
+      "Mô tả kênh: \"We decode the hidden psychology and invisible systems running your life. New explainer videos every Tuesday.\"",
+      "Mô tả 0512 (bài đúng ngách tự khai, 6,6 v/ngày): \"Your brain glitches every single day — and you probably don't notice. Here are 7 weird psychology phenomena (with names) that explain why.\"",
+      "Mô tả 0519 (bài đổi ngách, 7.750,4 v/ngày): \"For 290,000 years, humans lived with zero privacy. No walls. No doors. No separate spaces. And the people who lived without it were not suffering. We are the ones suffering.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỘ DÀI VIDEO KHÔNG LIÊN QUAN VIEW/NGÀY. Bài nổ là bài Ancient-Humans NGẮN NHẤT kênh, nhưng bài dài nhất lại đứng hạng nhì.",
+     "so_lieu": "Xếp theo view/ngày giảm dần thì thời lượng là: 6:58 → 9:49 → 8:41 → 8:01 → 8:41 → 4:53 → 7:54 → 9:00 → 8:39. Không có xu hướng. Riêng bài nổ 0519 là bài Ancient-Humans ngắn nhất (418 giây / 1.251 từ), ngắn hơn bài Ancient-Humans kế tiếp 243 từ (16%).",
+     "trich": [
+      "(Số liệu lấy từ trường duration của 9 file _vtt/*.info.json và số từ đếm từ transcript.)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "ca_nguoc": "Nhịp đăng KHÔNG dự báo được view/ngày: bài nổ đăng sau khoảng nghỉ 7 ngày, bài chìm nhất đăng sau khoảng nghỉ 8 ngày. Cặp đăng liền ngày 0608+0609 cho ra 18,6 và 4,0 v/ngày — chênh 4,6 lần trong cùng một đợt.",
+   "phat_hien": [
+    {
+     "y": "9 video trong 37 ngày. Khoảng cách trung vị 3,5 ngày, trung bình 4,6 ngày.",
+     "so_lieu": "9 video, từ 2026-05-12 đến 2026-06-18 = 37 ngày. Khoảng cách liên tiếp (8 khoảng): 7, 3, 4, 2, 11, 1, 8, 1 ngày. Trung vị 3,5 ngày. Ngắn nhất 1 ngày (2 lần), dài nhất 11 ngày (1 lần).",
+     "trich": [
+      "(Đo từ tên file: 20260512 → 20260519 → 20260522 → 20260526 → 20260528 → 20260608 → 20260609 → 20260617 → 20260618)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ GOM ĐỢT RÕ RỆT — 2 cặp đăng liền ngày và 1 cụm dày, xen 2 khoảng nghỉ dài.",
+     "so_lieu": "2/8 khoảng là 1 ngày (cặp 0608+0609 và cặp 0617+0618). 1 cụm dày tháng 5 gồm 4 video trong 9 ngày (0519 → 0522 → 0526 → 0528, khoảng 3-4-2 ngày). 2 khoảng nghỉ dài: 11 ngày (0528 → 0608) và 8 ngày (0609 → 0617).",
+     "trich": [
+      "(Đo từ tên file.)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP KHÔNG ĐỔI THEO THỜI GIAN, NHƯNG CHẤT LƯỢNG MỎ NEO THÌ ĐỔI — và đổi trùng khớp với lúc view sụp. Đây là tương quan mạnh nhất tìm được, nhưng KHÔNG chứng minh được nhân quả.",
+     "so_lieu": "Tháng 5 (5/9 bài): mật độ mỏ neo 6,49-13,56/1000 từ, trung vị 12,82; view/ngày trung vị 19,2. Tháng 6 (4/9 bài): mật độ mỏ neo 1,30-3,65/1000 từ, trung vị 3,27; view/ngày trung vị 4,05. Hai dải mỏ neo KHÔNG chồng lấn (min tháng 5 = 6,49 > max tháng 6 = 3,65). Chênh view/ngày 4,7 lần.",
+     "trich": [
+      "Tháng 5 — \"In 2001, historian Roger Ekirch published a paper that changed how we understand sleep entirely. / He had spent 16 years digging through historical records. / He found over 500 references to the same pattern.\" (0528)",
+      "Tháng 6 — \"In the 1980s, a researcher had a simple idea. / Tie a ribbon from a baby's ankle to a mobile hanging above its crib.\" (0618 — không tên, không viện, không năm cụ thể)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KÊNH KHAI ĐĂNG THỨ BA HÀNG TUẦN NHƯNG THỰC TẾ ĐĂNG RẢI 5/7 NGÀY TRONG TUẦN.",
+     "so_lieu": "Thứ Ba 4/9 bài (0512, 0519, 0526, 0609) · Thứ Năm 2/9 (0528, 0618) · Thứ Hai 1/9 (0608) · Thứ Tư 1/9 (0617) · Thứ Sáu 1/9 (0522). Bài nổ 0519 đăng thứ Ba, nhưng 3 bài thứ Ba còn lại chỉ đạt 30,8 · 6,6 · 4,0 v/ngày.",
+     "trich": [
+      "Mô tả kênh: \"New explainer videos every Tuesday.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHOẢNG CÁCH ĐĂNG KHÔNG DỰ BÁO ĐƯỢC VIEW/NGÀY.",
+     "so_lieu": "Bài nổ 0519 (7.750,4 v/ngày) đăng sau khoảng nghỉ 7 ngày — dài thứ 3 trong 8 khoảng. Bài chìm nhất 0617 (3,0) đăng sau khoảng nghỉ 8 ngày — dài thứ 2. Cặp đăng liền ngày 0608+0609 cho 18,6 và 4,0 v/ngày (chênh 4,6 lần); cặp 0617+0618 cho 3,0 và 4,1 (gần bằng nhau). Không có hướng nào nhất quán trên 8/8 khoảng.",
+     "trich": [
+      "(Đo từ tên file + view_count trong header transcript.)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KÊNH DỪNG ĐĂNG 51 NGÀY TRƯỚC MỐC ĐO, và nhiều khả năng là dừng thật chứ không phải kho cào thiếu.",
+     "so_lieu": "Video cuối 2026-06-18, cách mốc đo 2026-08-08 đúng 51 ngày — dài gấp 14,6 lần khoảng cách trung vị (3,5 ngày). Trường playlist_count trong _vtt/NA_UC5kZmgakSTK1hmkFQUmwq8g.info.json = 9, khớp đúng 9/9 bản ghi trong kho, nên nhiều khả năng kênh chỉ từng có 9 video. Kênh có 434.000 sub trong khi tổng view 9 video khoảng 634.000 — tỷ lệ này không giải thích được bằng dữ liệu trong kho.",
+     "trich": [
+      "_vtt/NA_UC5kZmgakSTK1hmkFQUmwq8g.info.json: channel = \"Super Joy Animations\" · channel_follower_count = 434000 · playlist_count = 9"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ]
+}

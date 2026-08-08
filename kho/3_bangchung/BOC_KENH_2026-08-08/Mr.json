@@ -1,0 +1,589 @@
+{
+ "kenh": "Mr. Hell (UCuKjCN_lHdzukBO8v-lGoaA) — 3.610 sub, ngách \"Ancient Humans Explained\", faceless, lời đọc EN, 158-190 wpm",
+ "so_bai": 10,
+ "view_ngay_cao": "NHÓM CAO (3 bài trên cùng, view/ngày tính tới 08/08/2026): 20260522_Night = 5.383,1 vpd (419.883 view / 78 ngày) · 20260526_Love = 57,2 vpd (4.235 / 74) · 20260605_Died = 51,1 vpd (3.268 / 64)",
+ "view_ngay_thap": "NHÓM THẤP (3 bài dưới cùng): 20260613_Dentistry = 26,9 vpd (1.509 / 56) · 20260621_Dogs = 26,4 vpd (1.268 / 48) · 20260520_Alcohol = 21,5 vpd (1.719 / 80). Nhóm GIỮA (4 bài, không dùng để so): DNA 49,2 · Lazy 47,5 · Sickness 47,1 · Law 29,2",
+ "gioi_han": "⚠️ ĐỌC TRƯỚC KHI DÙNG BẤT KỲ CON SỐ NÀO Ở DƯỚI.\n\n1. 10 bài này là TOÀN BỘ kênh, không phải mẫu (playlist_count=10 trong _vtt/NA_UCuKjCN_lHdzukBO8v-lGoaA.info.json). Kênh mới 80 ngày tuổi, 3.610 sub.\n\n2. MỘT quả trúng số nuốt 95,3% view kênh: Night 419.883 / tổng 440.812 view. Quả thứ hai (Love, 4.235 view) chỉ bằng 1/99 của nó.\n\n3. Sau khi bỏ quả trúng số, 9 bài còn lại nằm gọn trong 21,5–57,2 view/ngày — chênh nhau vỏn vẹn 2,66 lần, trung vị 47,1. Ở dải hẹp đó thứ hạng gần như là nhiễu phân phối, không phải chất lượng kịch bản. Nghĩa là \"nhóm CAO\" thực chất = 1 cú trúng số + 2 bài chỉ nhỉnh hơn trung vị (57,2 và 51,1 vs trung vị 47,1). Chênh CAO/THẤP nếu bỏ Night là 54,2 vs 24,9 vpd, trên n=2 so n=3.\n\n4. HỆ QUẢ THAO TÁC: gần như MỌI khuôn tìm được đều là NẾT KÊNH (cả bài thắng lẫn bài chìm đều dùng). Chỉ đúng BỐN chỗ lệch nhóm, và một trong bốn chỗ lệch NGƯỢC (nhóm THẤP neo khoa học dày hơn nhóm CAO). Đừng đọc file này như \"công thức thắng\" — đọc như KHO CÂU + BẢN ĐỒ NẾT.\n\n5. Bản ghi là phụ đề tự động, có lỗi nhận dạng (\"crolling\", \"hey slept\", \"osing\", \"rop\", \"uggets\", \"ho operated\"). Mọi câu trích giữ NGUYÊN VĂN kể cả lỗi, để tra ngược được.\n\n6. Đối chiếu tên file: 20260520=Alcohol · 20260522=Night · 20260526=Love · 20260601=Sickness · 20260605=Died · 20260609=Law · 20260613=Dentistry · 20260621=Dogs · 20260625=DNA · 20260701=Lazy. Đường dẫn: /Users/admin/Claude/Projects/Build Channel Người Que Cổ Đại/2_KHO_BANGHI/MrHell/",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~130 từ)",
+   "ca_nguoc": "Khuôn hook KHÔNG phân biệt được bài thắng với bài chìm. Khuôn 'cảnh hiện đại + you' có ở 2/3 nhóm CAO (Night, Love) và 2/3 nhóm THẤP (Alcohol, Dentistry). Khuôn 'hiện vật khảo cổ' có ở 1/3 CAO (Died) và 1/3 THẤP (Dogs). Hai khuôn chia đều hai đầu bảng → NẾT KÊNH.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN 1 — 'BẠN, HÔM NAY, ĐANG KHỔ': mở bằng một cảnh sinh hoạt hiện đại nhục nhã của người xem, ngôi hai, hiện tại tiếp diễn. Từ 'you/your' rơi trong 15 từ đầu ở cả 7 bài (vị trí từ thứ 1, 1, 2, 2, 15, 2, 9). Không bài nào giới thiệu kênh, không bài nào nói 'in this video'.",
+     "so_lieu": "7/10 bài (Alcohol, Night, Love, Law, Dentistry, DNA, Lazy). Trong đó nhóm CAO 2/3, nhóm THẤP 2/3.",
+     "trich": [
+      "\"You're drunk.\" / \"It's 3:00 a.m.\" / \"You're texting your ex.\" / \"You're crying.\" (20260520_Alcohol)",
+      "\"You're lying in bed, one hand holding your phone, the other pulling up the blanket.\" / \"Your brain is literally screaming at you, \\\"Go to sleep.\" / \"You have work tomorrow.\\\" But, your thumb, it has a mind of its own.\" (20260522_Night)",
+      "\"Imagine you're on your couch, thumbing through a digital meat market.\" / \"Swipe right, match, dopamine hit.\" / \"Yet, you're rotting alone on a Friday night.\" (20260526_Love)",
+      "\"Imagine you stole food from your neighbors.\" / \"No cops to call, no judge to sue.\" / \"Just 30 people who all know exactly what you did, and they get to decide what happens to you.\" (20260609_Law)",
+      "\"Imagine waking up in the middle of the night with a toothache so bad you can feel it behind your eye.\" / \"Today, you would call a dentist.\" (20260613_Dentistry)",
+      "\"On your 25th birthday, you receive a gift from a close friend.\" / \"It is a small cardboard package from Ancestry DNA.\" (20260625_DNA)",
+      "\"It's 2:15 in the afternoon on a Tuesday.\" / \"You're slumped in a swivel chair staring at a flickering monitor.\" (20260701_Lazy)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 2 — 'HIỆN VẬT TRƯỚC, NGƯỜI XEM SAU': mở bằng một con số khảo cổ hoặc một danh từ trần trụi, hoãn 'you' lại. Ba bài này chính là bài đứng thứ 3 (Died), thứ 6 (Sickness) và thứ 9 (Dogs) — trải khắp bảng.",
+     "so_lieu": "3/10 bài (Sickness, Died, Dogs). 'you' đầu tiên rơi ở từ thứ 26 (Died), 57 (Dogs), và KHÔNG BAO GIỜ xuất hiện ở Sickness (0 lần / 1.271 từ).",
+     "trich": [
+      "\"Somewhere in France, archaeologists unearthed 120 skulls.\" / \"40 of them had holes drilled through the bone, and the bone around those holes had grown back, which means whoever made those holes did it while the person was still alive, and the person survived.\" / \"We are talking about 8,500 years ago.\" / \"That is where this story begins.\" (20260601_Sickness)",
+      "\"Death.\" / \"It's one of those rare things that every single one of us, like it or not, has to face at some point.\" (20260605_Died)",
+      "\"There's a mystery that's been hiding in plain sight for 32,000 years.\" / \"Every human civilization that has ever existed, every culture, every continent, every era kept dogs.\" / \"Not most of them, all of them.\" (20260621_Dogs)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU HỎI LÕI rơi rất muộn hoặc không rơi. Không có luật 'hỏi trong 15 giây'. Hai bài KHÔNG có một dấu hỏi nào trong toàn bộ kịch bản (Sickness 0/1.271 từ, Dentistry 0/1.718 từ) — và cả hai vẫn không phải bài bét bảng.",
+     "so_lieu": "Vị trí từ chứa dấu ? đầu tiên: Died 41 · Alcohol 73 · Lazy 89 · Law 97 · DNA 174 · Night 362 · Love 448 · Dogs 483 · Sickness KHÔNG CÓ · Dentistry KHÔNG CÓ. Chỉ 5/10 bài hỏi trong 180 từ đầu.",
+     "trich": [
+      "\"So, what about ancient humans?\" / \"Did they start Stone Age bar fights?\" / \"Or were they just as crazy in their caves?\" / \"Let's look at the science.\" (20260520_Alcohol, từ 73)",
+      "\"But, have you ever wondered what happened when someone passed away 20,000, 50,000, or even 100,000 years ago?\" (20260605_Died, từ 41)",
+      "\"But 50,000 years ago, before police, courts, or correctional facilities even existed, how did our ancestors handle criminals?\" (20260609_Law, từ 97)",
+      "\"Does someone like this actually exist?\" / \"Statistically, yes.\" (20260625_DNA, từ 174)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG bài nào tự giễu NGƯỜI DẪN trong hook. Người bị đem ra giễu là NGƯỜI XEM và loài người nói chung. Ngôi 'I/me/my' của người dẫn chỉ xuất hiện ở 2/10 bài và đều nằm ở nửa sau (89% và 99% bài) — cả hai đều KHÔNG thuộc nhóm CAO.",
+     "so_lieu": "0/10 hook có tự giễu người dẫn. Ngôi 'I' người dẫn: 2/10 bài (Dogs=THẤP, Lazy=GIỮA), 0/3 nhóm CAO. Tổng 4 câu trên 13.911 từ toàn kênh.",
+     "trich": [
+      "\"You're lecturing your friends like a world-class expert on a subject you didn't know existed an hour ago, even though you can barely stand.\" (20260520_Alcohol)",
+      "\"Basically, if you dropped a Homo sapiens into a dark forest 40,000 years ago, we were just an anxious, naked chicken nugget waiting to be eaten.\" (20260522_Night)",
+      "\"You have more options than any king in history, but your only hot date tonight is with uh an incognito tab, a box of tissues, and well, you know, a bottle of lotion.\" (20260526_Love)",
+      "\"You know exactly what face I'm talking about.\" (20260621_Dogs, 70% bài) / \"Here's what I keep coming back to.\" (20260621_Dogs, 89% bài)",
+      "\"And don't even get me started on computer neck.\" (20260701_Lazy, 71%) / \"Now, if you'll excuse me, my lower back is filing a formal complaint.\" (20260701_Lazy, 99%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU dạng 'thứ bạn tin là sai' có ở 4/10 hook, dài đúng 4-8 từ, đặt ngay sau khối cảnh. KHÔNG bài nào hứa 'phần hay nhất ở cuối'.",
+     "so_lieu": "4/10 bài (Died, Dogs, Lazy, Alcohol). 0/10 bài hứa nội dung ở cuối video.",
+     "trich": [
+      "\"Most people assume funeral rituals only appeared after cities, religions, and civilizations.\" / \"The truth is much stranger.\" (20260605_Died)",
+      "\"The answer isn't what you think.\" (20260621_Dogs, từ ~60)",
+      "\"You think, \\\"Man, I'm so lazy.\" / \"Why can't I just focus?\\\" But here's the truth.\" / \"You aren't lazy.\" (20260701_Lazy)",
+      "\"In 2002, archaeologist David Lewis Williams suggested a theory that flips history on its head.\" (20260520_Alcohol)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — kho câu re-hook, câu nối, vòng tò mò",
+   "ca_nguoc": "Bài dùng kỹ thuật giữ chân DÀY NHẤT lại là bài chìm. Dogs (26,4 vpd, xếp 9/10) có 5 câu re-hook 'here's', 2 vòng tò mò đóng, 37 câu cụt — nhiều nhất kênh. Love và Died (2/3 nhóm CAO) có 0 câu re-hook 'here's'. Kết luận: mật độ kỹ thuật giữ chân KHÔNG mua được view ở kênh này.",
+   "phat_hien": [
+    {
+     "y": "KHO CÂU RE-HOOK MỞ ĐOẠN MỚI — toàn kênh chỉ 12 câu, dùng lại được nguyên văn. Khuôn cứng là 'But/And + here's + danh từ trừu tượng' hoặc 'where it gets + tính từ'. Dài 3-11 từ.",
+     "so_lieu": "12 câu / 10 bài (Dogs 5 · Night 3 · Law 2 · Lazy 2 · bốn bài còn lại 0). Mật độ trung vị nhóm CAO 0,0/1000 từ vs nhóm THẤP 0,0/1000 từ.",
+     "trich": [
+      "\"But here's the crazy part.\" (20260522_Night, 34% bài)",
+      "\"But the strangest part is how they slept.\" (20260522_Night, 62%)",
+      "\"Here's the truth.\" (20260522_Night, 78%)",
+      "\"But here's where it gets dark.\" (20260609_Law, 55%)",
+      "\"Well, that's where things get really interesting.\" (20260609_Law, 60%)",
+      "\"But here's the thing that nobody talks about enough.\" (20260621_Dogs, 19%)",
+      "\"Here's where it gets interesting.\" (20260621_Dogs, 35%)",
+      "\"But, here's what stopped the researchers cold.\" (20260621_Dogs, 52%)",
+      "\"Here's the thing.\" (20260621_Dogs, 70%)",
+      "\"Here's what I keep coming back to.\" (20260621_Dogs, 89%)",
+      "\"And the worst part?\" (20260701_Lazy, 46%)",
+      "\"So, here's the real question.\" (20260609_Law, 97%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU NỐI NGẮN TRƯỚC FACT SỐC — khuôn 'Why?' đứng một mình một dòng rồi trả lời bằng 'Because...'. Đây là chỗ lệch nhóm hiếm hoi nghiêng về nhóm CAO, nhưng n=5 lần trên toàn kênh nên chưa đủ để gọi là luật.",
+     "so_lieu": "5 lần / 10 bài, ở 3 bài: Night 2 · Died 2 · Lazy 1. Nhóm CAO 2/3 bài có · nhóm THẤP 0/3 bài có.",
+     "trich": [
+      "\"It was a flashlight, a heater, bug spray, a security fence, and honestly, a free therapy session for the brain.\" ... \"Why?\" / \"Because hundreds of thousands of years of evolution taught your brain, if there's fire, we're safe.\" / \"We aren't dead yet.\" (20260522_Night, 33%)",
+      "\"The bottom layer was made of ash.\" / \"Why?\" / \"Because ash insulates you from the cold stone, deters bugs, and kills parasites.\" (20260522_Night, 53%)",
+      "\"Why?\" / \"No one knows for certain.\" (20260605_Died, 65%)",
+      "\"Again and again, bodies appear covered with this striking red powder.\" / \"Why?\" / \"Nobody knows.\" (20260605_Died, 76%)",
+      "\"Your palms get clammy.\" / \"Your breathing gets hallow.\" / \"Why?\" / \"Because your brain doesn't have a corporate stress folder.\" (20260701_Lazy, 12%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHO CÂU CỤT ≤5 TỪ (đòn nhấn) — 163 câu trên toàn kênh, dùng để bẻ nhịp ngay trước hoặc ngay sau một fact dài. Mật độ chồng lấn hoàn toàn giữa hai nhóm → NẾT KÊNH.",
+     "so_lieu": "Mật độ/1000 từ: nhóm CAO trung vị 15,4 (Night 15,4 · Died 15,8 · Love 9,3); nhóm THẤP trung vị 11,9 (Alcohol 11,9 · Dogs 14,2 · Dentistry 9,3); nhóm GIỮA trung vị 8,8 nhưng chứa cả bài cao nhất kênh (Lazy 17,1).",
+     "trich": [
+      "\"It was pitch black.\" / \"It was fire.\" / \"We aren't dead yet.\" / \"Your body isn't broken.\" / \"Stone Age brain.\" / \"It's a pretty hilarious paradox.\" / \"And us?\" (20260522_Night)",
+      "\"The truth is much stranger.\" / \"The bodies weren't scattered randomly.\" / \"They started arguing.\" / \"Think about that.\" / \"They were creating meaning.\" / \"It had become symbolic.\" / \"The graves aren't talking.\" (20260605_Died)",
+      "\"Hold that image.\" / \"Full socialization.\" / \"Constant contact.\" / \"Every opportunity to learn.\" / \"Chimpanzees can't do this.\" / \"Nobody taught them this.\" / \"Nothing.\" / \"The loop didn't activate.\" / \"It came free.\" / \"Just works.\" / \"These aren't exceptions.\" / \"These are the pattern.\" (20260621_Dogs)",
+      "\"They had no choice.\" / \"Early humans were not guessing.\" / \"They were watching.\" / \"These were not food plants.\" / \"They were placed there deliberately.\" / \"The hole provided an exit.\" / \"The xplanation was wrong.\" / \"The results were sometimes right.\" (20260601_Sickness)",
+      "\"You aren't lazy.\" / \"The problem isn't you.\" / \"You can't think.\" / \"You can't move.\" / \"It's a liar.\" / \"It's a 90° trap.\" / \"It's empathy for yourself.\" (20260701_Lazy)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "VÒNG TÒ MÒ MỞ-ĐÓNG TƯỜNG MINH chỉ có ở ĐÚNG 1/10 bài — và đó là bài xếp thứ 9/10 về view/ngày. Đây là kỹ thuật đắt nhất kênh biết làm, và nó không cứu được bài đó.",
+     "so_lieu": "1/10 bài (Dogs, 26,4 vpd). Mở ở 6% bài, đóng ở 94% bài, cách nhau 2.300 từ. 0/3 bài nhóm CAO dùng.",
+     "trich": [
+      "MỞ: \"There's a cave in southern France, Chauvet Cave, 32,000 years old.\" ... \"And beside those footprints, stride for stride, the prints of a large canid, not following, not leading, beside.\" / \"We don't know for certain if it was a dog.\" / \"It might have been a wolf.\" / \"Hold that image.\" / \"We'll come back to it.\" (20260621_Dogs, 5-6% bài)",
+      "ĐÓNG: \"Back to the cave.\" / \"32,000 years ago, a child walking through the dark and beside them, stride for stride, prints that might might belong to a dog.\" / \"We can't be certain.\" / \"We may never know.\" (20260621_Dogs, 94%)",
+      "Vòng NGẮN hơn ở bài khác — mở và đóng trong cùng một chương: \"That brings us back to Mehrgarh.\" (20260613_Dentistry, 76%) · \"And that brings us to the biggest mystery of all.\" (20260605_Died, 83%) · \"But, this brings us to the true plot twist that your test result will never show you.\" (20260625_DNA, 82%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "BÁO TRƯỚC 'PHẦN HAY NHẤT Ở CUỐI' — HOÀN TOÀN KHÔNG CÓ. Không bài nào nói 'stay till the end', 'later in this video', 'coming up'. Thay vào đó kênh leo thang TẠI CHỖ bằng câu 'cái vừa rồi chưa phải cái to nhất'.",
+     "so_lieu": "0/10 bài có báo trước nội dung cuối video (grep 'stay till|later in this video|coming up|at the end' = 0 hit / 10 file). Câu leo thang tại chỗ: 6 câu / 4 bài.",
+     "trich": [
+      "\"And that brings us to the biggest mystery of all.\" (20260605_Died, 83%)",
+      "\"But, burial wasn't the only mystery.\" (20260605_Died, 26%)",
+      "\"And that's not the only clue.\" (20260605_Died, 69%)",
+      "\"But hat still leaves the bigger question unanswered.\" (20260621_Dogs, 44%)",
+      "\"But we are just getting started.\" (20260625_DNA, 41%) / \"Yet, the ultimate mathematical abyss still awaits us.\" (20260625_DNA, 68%)",
+      "\"But material crimes weren't the only thing that could get you in trouble.\" / \"Prehistoric people were also terrified of something far less visible, and in some ways, far more dangerous.\" (20260609_Law, 22%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐÒN 'CỔ = ĐỒ HIỆN ĐẠI' (analog gag) — dịch một thứ cổ sang một thứ người xem dùng hằng ngày. Đây là chỗ nhóm CAO nhỉnh hơn (trung vị 1,7 vs 0,0/1000 từ) nhưng bài bét bảng cũng có 1 lần → không phải điều kiện đủ.",
+     "so_lieu": "10 lần / 10 bài. Nhóm CAO trung vị 1,7/1000 từ (Night 3,6 · Love 1,7 · Died 0,0); nhóm THẤP trung vị 0,0 (Alcohol 1,2 · Dentistry 0,0 · Dogs 0,0).",
+     "trich": [
+      "\"Those campfire stories were the OG YouTube, Netflix, and Wikipedia of the Stone Age.\" / \"The better you were at storytelling, the higher your social status.\" / \"Turns out, content creator is the oldest profession in the world.\" (20260522_Night)",
+      "\"Except instead of clickbait headlines, their hook was, \\\"Bro, you won't believe what I saw in the woods today.\\\"\" (20260522_Night)",
+      "\"This was the original Stone Age Tinder, a giant festival of thousands of people where you had to dance, trade, and look someone in the eye to get a match.\" (20260526_Love)",
+      "\"This wasn't jewelry, it was a proof of work certificate.\" (20260526_Love)",
+      "\"Because everyone knew everyone, their first line of defense was the ultimate original form of cancel culture.\" (20260609_Law)",
+      "\"These were the prehistoric equivalent of state sanctioned assassins.\" (20260609_Law)",
+      "\"Your Stone Age software is just glitching in a 6G world.\" (20260701_Lazy) / \"Your modern body lives in a Wi-Fi-enabled apartment, but your nervous system is still running on Stone Age software.\" (20260522_Night)",
+      "\"If his theory is right, those multi-million-dollar paintings, the dawn of human art, are just the ancient version of a drunk guy scrolling raffiti on a subway wall.\" (20260520_Alcohol)",
+      "\"Deep cleaning, Stone Age style.\" (20260522_Night)",
+      "\"Your brain is an Ice Age machine living in a 5G world.\" (20260526_Love)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MẬT ĐỘ 'you/your' — chênh nhau 63 lần giữa bài cao nhất và bài thấp nhất, và cả hai đầu đều KHÔNG phải bài thắng. Bài 0 lần 'you' (Sickness) vẫn xếp thứ 6/10; bài 112 lần 'you' (Lazy) xếp thứ 5/10.",
+     "so_lieu": "you/1000 từ: Lazy 63,9 · Alcohol 41,8 · Night 34,5 · Love 26,3 · DNA 18,6 · Law 12,7 · Died 7,9 · Dogs 6,9 · Dentistry 4,7 · Sickness 0,0. Nhóm CAO trung vị 26,3 · nhóm THẤP trung vị 6,9. Nhưng bài bét bảng (Alcohol 21,5 vpd) có 41,8 — cao thứ hai kênh.",
+     "trich": [
+      "\"Why do you need rain sounds on Spotify to fall asleep?\" / \"Because in the Stone Age, rain meant predators couldn't track you.\" / \"Why do you feel safe sleeping next to someone, but anxious sleeping alone in total silence?\" / \"Stone Age brain.\" / \"Why do you stare at LED lights at midnight and can't sleep?\" (20260522_Night, 80-84% — chuỗi 3 câu hỏi 'why do you' liên tiếp)",
+      "\"To your amygdala, a passive-aggressive Slack message and a saber-toothed tiger look exactly the same.\" (20260701_Lazy)",
+      "\"Ancient patients recovered in open air.\" / \"19th century patients recovered in wards full of other sick people.\" — Sickness không dùng 'you' một lần nào trên 1.271 từ (20260601_Sickness)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180 từ cuối)",
+   "ca_nguoc": "Ba bài nhóm CAO kết bằng BA kiểu hoàn toàn khác nhau (Night = chốt mỉa · Died = hạ nhiệt trầm · Love = mệnh lệnh hành động). Không có kiểu kết nào là 'kiểu của bài thắng'.",
+   "phat_hien": [
+    {
+     "y": "CALLBACK VỀ HOOK là nết cứng nhất kênh — 9/10 bài đóng lại đúng hình ảnh, đúng con số, hoặc đúng câu hỏi đã mở. Bài duy nhất không callback (Sickness) vẫn xếp thứ 6/10.",
+     "so_lieu": "9/10 bài (trừ 20260601_Sickness). Nhóm CAO 3/3 · nhóm THẤP 3/3.",
+     "trich": [
+      "BOOKEND GẦN NGUYÊN VĂN — hook: \"our ancestors weren't lying awake worrying about internet drama.\" → kết: \"Yet, here we are, staring at the ceiling at 2:00 a.m., exhausted, scrolling through some internet drama bout a stranger getting cheated on.\" (20260522_Night)",
+      "CALLBACK SỐ — hook: \"In the United States, taxpayers spend over 80 billion dollars a year to keep over 1.9 million people behind bars.\" → kết: \"We locked up 1.9 million people last year, and recidivism rates are still near 70%.\" (20260609_Law)",
+      "CALLBACK CÂU HỎI = ĐỌC LẠI TITLE — hook: \"So, what actually happened when someone died in prehistoric times?\" → kết: \"So, what did ancient humans do when someone died?\" / \"The evidence suggests they buried their dead.\" (20260605_Died)",
+      "CALLBACK CẢNH — hook: \"Imagine waking up in the middle of the night with a toothache so bad you can feel it behind your eye.\" → kết: \"Then, somewhere inside that village, someone had to figure out what o do about the toothache.\" (20260613_Dentistry)",
+      "CALLBACK ẢNH — hook: \"There's a cave in southern France, Chauvet Cave, 32,000 years old.\" → kết: \"Back to the cave.\" / \"A child and a dog walking together.\" / \"The same thing happening in 10 million homes tonight.\" (20260621_Dogs)",
+      "CALLBACK GIỜ — hook: \"You're drunk.\" / \"It's 3:00 a.m.\" → giữa bài: \"There would be no villages, no cities, and efinitely no iPhone for you to use for your 3:00 a.m. regrets.\" → kết: \"So, next time you see someone throwing up outside a club, don't judge them.\" (20260520_Alcohol)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU ĐỊNH DANH NGƯỜI XEM ('That's you') hiếm hơn nhiều so với tưởng tượng — chỉ 2/10 bài, và cả hai đều nằm ở NHÓM GIỮA, tức 0/3 nhóm CAO và 0/3 nhóm THẤP. Không phải đòn của kênh này.",
+     "so_lieu": "2/10 bài (DNA 49,2 vpd · Lazy 47,5 vpd — cả hai thuộc nhóm GIỮA). 0/3 CAO, 0/3 THẤP.",
+     "trich": [
+      "\"Your physical body is not a single entity.\" / \"Look at your skin.\" / \"Feel the rhythm of your heart beating in your chest.\" / \"You are a walking, breathing, living museum.\" / \"You are a sacred sanctuary where the survival instincts and the ghostly echoes of multiple lost human species are still fighting to keep you alive against modern viruses and cold winters.\" (20260625_DNA)",
+      "\"Just remember, you're a biological marvel, a high-performance survival machine living in a world that wasn't built for you.\" / \"You're a Ferrari being forced to drive through a swamp.\" (20260701_Lazy)",
+      "Ở bài nổ, câu tương đương lại là ngôi 'we' chứ không phải 'you': \"And us?\" / \"We are the safest humans to ever exist.\" (20260522_Night)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "'NEXT TIME YOU...' chỉ 2/10 bài, 0/3 nhóm CAO. Cả hai lần đều là mệnh lệnh THA THỨ (đừng phán xét), không phải mệnh lệnh hành động.",
+     "so_lieu": "2/10 bài (Alcohol=THẤP, Lazy=GIỮA). 0/3 nhóm CAO.",
+     "trich": [
+      "\"So, next time you see someone throwing up outside a club, don't judge them.\" / \"They're not just a mess, they are a biological link to our ancestors.\" (20260520_Alcohol)",
+      "\"Next time you feel burnt out or find yourself reaching for that third cookie or feel your shoulders touching your ears from stress, don't be hard on yourself.\" / \"Don't call yourself lazy or unfocused.\" (20260701_Lazy)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MỒI VIDEO KẾ — TUYỆT ĐỐI KHÔNG CÓ. 0/10 bài nhắc tới video khác, playlist, phần 2, hay 'check out'. Kênh chấm dứt mỗi video như chấm dứt một bài luận, không có bất kỳ cầu nối nào sang video sau.",
+     "so_lieu": "0/10 bài (grep 'next video|part 2|check out|playlist|another video|link in' trên cả 10 file = 0 hit).",
+     "trich": [
+      "Câu cuối cùng của 10/10 bài đều là câu nội dung, không phải lời dẫn: \"They're just practicing a 10,000-year-old genetic ritual that, for better or worse, made us human.\" (Alcohol) · \"Put your phone face down.\" (Love) · \"And some of it, without fully realizing it, we never stopped using.\" (Sickness) · \"And they tried to make sense of death just as we do today.\" (Died) · \"So, keep on swimming.\" (DNA) · \"Time to go stand up.\" (Lazy)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "BA KIỂU CHỐT, chia đều cả hai nhóm. (a) Chốt mỉa/lật ngược 4/10 · (b) Hạ nhiệt trầm 3/10 · (c) Mệnh lệnh hành động cho người xem 3/10. Nhóm CAO có đủ cả ba kiểu.",
+     "so_lieu": "(a) 4/10: Night(CAO), Dogs(THẤP), Law(GIỮA), Alcohol(THẤP) · (b) 3/10: Sickness(GIỮA), Died(CAO), Dentistry(THẤP) · (c) 3/10: Love(CAO), Lazy(GIỮA), DNA(GIỮA).",
+     "trich": [
+      "(a) CHỐT LẬT: \"We built the story that we gave dogs a home.\" / \"The evidence suggests it was the other way around.\" ... \"We spent 15,000 years believing we took them in.\" / \"The evidence suggests they found exactly what they were looking for.\" (20260621_Dogs)",
+      "(a) CHỐT KHIÊU KHÍCH — mồi comment mà không xin comment: \"So, here's the real question.\" / \"We locked up 1.9 million people last year, and recidivism rates are still near 70%.\" / \"Maybe our ancestors, with zero resources and zero bureaucracy, were actually better at his than we are.\" (20260609_Law)",
+      "(a) CHỐT MỈA: \"Yet, here we are, staring at the ceiling at 2:00 a.m., exhausted, scrolling through some internet drama bout a stranger getting cheated on.\" (20260522_Night)",
+      "(b) HẠ NHIỆT: \"Some of what they discovered we eventually discarded.\" / \"Some of it we rediscovered, studied carefully, and gave new names.\" / \"And some of it, without fully realizing it, we never stopped using.\" (20260601_Sickness)",
+      "(b) HẠ NHIỆT: \"Someone is hurting.\" / \"Someone else thinks they can help.\" / \"And between them is the hope that pain does not have to remain exactly as it is.\" (20260613_Dentistry)",
+      "(c) MỆNH LỆNH — chuỗi 4 câu cụt liên tiếp: \"If you want to win in 2026, stop acting like a digital ghost.\" / \"Show up when it's inconvenient.\" / \"Say the honest, awkward thing instead of the safe, cool line.\" / \"Put your phone face down.\" (20260526_Love)",
+      "(c) MỆNH LỆNH: \"So, do your inner caveman a favor.\" / \"Take a walk.\" / \"Look at the actual sky, not a screensaver.\" / \"Move your spine.\" / \"Stretch those hip flexors.\" / \"And remind your nervous system that even though there's an unread email in the inbox, there's no tiger in the room.\" (20260701_Lazy)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐUÔI ĐÙA HẠ MÀN sau câu chốt — 3/10 bài thêm một câu đùa cụt sau khi đã chốt xong, để không kết quá nặng.",
+     "so_lieu": "3/10 bài (Lazy, DNA, Law). 0/3 nhóm CAO.",
+     "trich": [
+      "\"Well, except maybe your boss.\" / \"But hey, at least they don't have claws, usually.\" / \"Now, if you'll excuse me, my lower back is filing a formal complaint.\" / \"Time to go stand up.\" (20260701_Lazy)",
+      "\"It is true that there are plenty of fish in the sea, but no one is as cool as you.\" / \"So, keep on swimming.\" (20260625_DNA)",
+      "\"Look at it this way.\" / \"Today, if your coworkers hate your toxic attitude, they just won't invite you to happy hour.\" / \"Back then, if you ruined the tribe's vibe, they literally threw you to the wolves.\" (20260609_Law)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ — PHÁT HIỆN LỚN NHẤT CỦA CẢ BẢN BÓC",
+   "ca_nguoc": "Không có gì để so nhóm — 0/3 CAO và 0/3 THẤP đều bằng 0. Đây là nết kênh tuyệt đối, và là nết đáng chép nhất vì nó rẻ và không rủi ro.",
+   "phat_hien": [
+    {
+     "y": "KHÔNG MỘT BÀI NÀO MỞ MIỆNG XIN SUB / LIKE / COMMENT / CHUÔNG. Trên 13.911 từ lời đọc của 10 video, số lần xuất hiện của subscribe, like the video, comment below, bell, my channel là ĐÚNG BẰNG 0. Kênh đổi hoàn toàn 100% thời lượng nói lấy nội dung.",
+     "so_lieu": "0/10 bài. Grep 'subscrib|smash|hit the like|comment below|down below|bell|my channel|next video' trên cả 10 file .txt = 0 hit ở từng file.",
+     "trich": [
+      "Đã loại trừ khả năng phụ đề bị cắt mất outro: cue cuối của file .vtt cách hết video 1-3 giây ở CẢ 10/10 bài (Alcohol 260/263s · Night 365/367s · Love 395/396s · Sickness 476/477s · Died 318/321s · Law 371/373s · Dentistry 575/577s · Dogs 892/893s · DNA 544/547s · Lazy 560/562s).",
+      "Thay vì xin like, bài Law kết bằng một câu khiêu khích khiến người ta phải cãi trong comment: \"Maybe our ancestors, with zero resources and zero bureaucracy, were actually better at his than we are.\" (20260609_Law) — bài này có 8 comment / 1.755 view.",
+      "Thay vì xin sub, bài DNA kết bằng một lời khen thẳng người xem: \"It is true that there are plenty of fish in the sea, but no one is as cool as you.\" / \"So, keep on swimming.\" (20260625_DNA)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỜI XIN SUB BỊ ĐẨY HẾT XUỐNG MÔ TẢ — 9/10 video CÓ xin sub trong description, chỉ video đầu tiên là không. Tức đây là quyết định có ý thức, không phải quên.",
+     "so_lieu": "9/10 description có 'subscribe' (thiếu duy nhất 20260520_Alcohol, video đầu kênh). 0/10 lời đọc có.",
+     "trich": [
+      "\"If you enjoyed this deep dive into human evolution, anthropology, and the science of the mind, make sure to hit that SUBSCRIBE button for more explorations into what makes us human.\" (description 20260522_Night)",
+      "\"Subscribe to Mr. Hell for more deep dives into the human story!\" (description 20260701_Lazy)",
+      "\"Join Mr. Hell as we explore why your body is basically filing for divorce from your modern lifestyle.\" (description 20260701_Lazy)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KẾT QUẢ THỰC TẾ CỦA VIỆC KHÔNG XIN: quả nổ vẫn thu 6.196 like và 357 comment trên 419.883 view mà không có một lời kêu gọi nào. Tỷ lệ sub/view toàn kênh 0,82% (3.610 sub / 440.812 view).",
+     "so_lieu": "Night: 6.196 like / 419.883 view = 1,48% · 357 comment. Tỷ lệ like/view của 9 bài còn lại: 1,29%–3,00% (Dogs 3,00% · Lazy 2,88% · Alcohol 2,44% · Love 2,36% · Sickness 2,06% · Dentistry 2,05% · Law 1,99% · DNA 1,85% · Died 1,29%). Tức 9 bài KHÔNG nổ lại có tỷ lệ like CAO HƠN quả nổ.",
+     "trich": [
+      "Không có câu trích — đây là số liệu từ 10 file _vtt/*.info.json (trường like_count, comment_count, view_count)."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "ca_nguoc": "Số chương và độ dài chương không phân biệt được hai nhóm: Love (CAO) 11 chương / Dogs (THẤP) 16 chương / Died (CAO) 7 chương / Alcohol (THẤP) 7 chương. Chỉ ĐỘ DÀI CHƯƠNG CHỐT là lệch, và cũng chỉ lệch trên n nhỏ.",
+   "phat_hien": [
+    {
+     "y": "BỘ XƯƠNG CHUẨN CỦA KÊNH: 7–11 chương (trung vị 9), mỗi chương 90–230 từ, chương mở chiếm 6–17% bài (trung vị ~10%). Bài dài bất thường (Dogs 2.606 từ) không kéo dài chương mà TĂNG SỐ CHƯƠNG lên 16.",
+     "so_lieu": "Số chương / tổng từ: Alcohol 7/837 · Night 9/1.103 · Love 11/1.177 · Sickness 8/1.271 · Died 7/885 · Law 10/1.100 · Dentistry 9/1.718 · Dogs 16/2.606 · DNA 8/1.558 · Lazy 10/1.752. Trung vị 9 chương. Độ dài chương trung vị ≈ 145 từ ở mọi bài.",
+     "trich": [
+      "Bộ xương Night (9 chương, 1.103 từ): C1 hook hiện đại 159 từ (0-14%) → C2 'Biologically speaking, humans are a joke when it comes to the dark.' 124 từ (14%) → C3 'And their ultimate weapon wasn't a stone spear.' 99 từ (25%) → C4 'But here's the crazy part.' 135 từ (34%) → C5 'But what about when it was actually time to sleep?' 171 từ (46%) → C6 'But the strangest part is how they slept.' 174 từ (62%) → C7 'Here's the truth.' 92 từ (78%) → C8 'And then, there are dreams.' 69 từ (86%) → C9 'It's a pretty hilarious paradox.' 80 từ (92%)",
+      "Bộ xương Died (7 chương, 885 từ): C1 'Death.' 138 từ (0-15%) → C2 'The oldest clues come from Qafzeh Cave in present-day Israel.' 88 từ (15%) → C3 'But, burial wasn't the only mystery.' 192 từ (25%) → C4 'Then we arrive at one of the most extraordinary burials ever discovered, Sungir, Russia.' 201 từ (47%) → C5 'And that's not the only clue.' 114 từ (69%) → C6 'And that brings us to the biggest mystery of all.' 119 từ (82%) → C7 'So, what did ancient humans do when someone died?' 33 từ (96%)",
+      "Bộ xương Lazy (10 chương, 1.752 từ) — mỗi chương là MỘT triệu chứng công sở: C2 'Let's talk about that notification' 226 từ → C4 'Let's talk about hat moment right after lunch, the food coma.' 164 từ → C5 'So, how do you fight the food coma?' (caffeine) 196 từ → C6 'And this constant biological warfare doesn't just stay at he office.' (Sunday Scaries) 194 từ → C7 'Now, let's acknowledge the elephant in the room.' (lưng) 226 từ → C8 'While your back is screaming, your stomach is doing something even weirder.' (đồ ngọt) 183 từ → C9 'Even the way your office is built is an evolutionary nightmare.' 108 từ → C10 'So, what's the takeaway?' 160 từ"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHƯƠNG CHỐT CỦA BÀI VIEW/NGÀY CAO NGẮN HƠN HẲN — 33-34 từ (2-3% bài) so với 161-184 từ (6-10% bài) ở nhóm THẤP. Nhưng chính quả nổ Night lại chốt 80 từ (7%), nên đây là xu hướng chứ không phải luật.",
+     "so_lieu": "Chương chốt: Love 34 từ (2%) · Died 33 từ (3%) · Night 80 từ (7%) — nhóm CAO. Dogs 161 từ (6%) · Dentistry 184 từ (10%) · Alcohol 42 từ (5%) — nhóm THẤP. Nhóm GIỮA: Law 37 từ (3%) · Lazy 160 từ (9%) · DNA 281 từ (18%) · Sickness 201 từ (15%).",
+     "trich": [
+      "CHỐT 33 TỪ: \"So, what did ancient humans do when someone died?\" / \"The evidence suggests they buried their dead.\" / \"They cared for them.\" / \"And they tried to make sense of death just as we do today.\" (20260605_Died)",
+      "CHỐT 34 TỪ: \"If you want to win in 2026, stop acting like a digital ghost.\" / \"Show up when it's inconvenient.\" / \"Say the honest, awkward thing instead of the safe, cool line.\" / \"Put your phone face down.\" (20260526_Love)",
+      "CHỐT 184 TỪ (bài chìm): \"We do not know the patient's name.\" ... \"Farming helped build the village.\" / \"Then, somewhere inside that village, someone had to figure out what o do about the toothache.\" (20260613_Dentistry)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÚ LẬT LỚN NHẤT rơi ở trung vị 67,5% bài — không phải giữa bài, không phải cuối bài. Nhóm CAO trung vị 66%, nhóm THẤP trung vị 69% → không phân biệt được.",
+     "so_lieu": "Vị trí cú lật lớn nhất (% bài): Dogs 52% · Law 55% · Sickness 60% · Night 62% · Love 66% · Alcohol 69% · Dentistry 75% · DNA 81% · Died 82% · Lazy 90%. Trung vị 67,5%. CAO: 62/66/82 (trung vị 66) · THẤP: 52/69/75 (trung vị 69).",
+     "trich": [
+      "62% — \"But the strangest part is how they slept.\" / \"The 8-hour sleep block we all try to get oday might actually be completely unnatural.\" / \"Before the Industrial Revolution, humans slept in two phases.\" (20260522_Night)",
+      "66% — \"The problem?\" / \"Your brain is an Ice Age machine living in a 5G world.\" (20260526_Love — chỗ bẻ từ cổ đại sang app hẹn hò)",
+      "82% — \"And that brings us to the biggest mystery of all.\" / \"What did these ancient people actually believe?\" (20260605_Died)",
+      "52% — \"But, here's what stopped the researchers cold.\" / \"Oxytocin doesn't just show up in any bonding situation.\" / \"It floods the system at this intensity in one specific ontext above all others, mother and newborn infant.\" (20260621_Dogs)",
+      "81% — \"But, this brings us to the true plot twist that your test result will never show you.\" (20260625_DNA)",
+      "75% — \"That brings us back to Mehrgarh.\" / \"The people there were living in an early farming community.\" (20260613_Dentistry)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "HAI KIỂU LEO THANG. Kiểu A 'vòng tròn' (8/10 bài): hiện đại → cổ → cổ hơn/lạ hơn → quay về hiện đại. Kiểu B 'chồng tầng' (2/10 bài, DNA và Dogs): mỗi chương cộng thêm một lớp bằng chứng, không quay về.",
+     "so_lieu": "Kiểu A 8/10 · Kiểu B 2/10 (DNA=GIỮA, Dogs=THẤP). Kiểu B đánh dấu ranh giới chương bằng từ 'layer/overlay/final' hoặc 'and there's more'.",
+     "trich": [
+      "KIỂU B, DNA — 4 mốc chồng tầng nguyên văn: \"Now, let us layer the first ancient modification.\" (25%) → \"We are now going to verlay the third layer, Denisovan DNA.\" (55%) → \"We are about to apply the final layer, the ghost population DNA.\" (69%) → \"Let us now execute the final mathematical synthesis.\" (70%)",
+      "KIỂU B, Dogs — chồng tầng bằng chứng sinh học: \"And there's more.\" (66%) → \"And then there's the face.\" (67%) → \"Step back and look at what we're actually dealing with here.\" (73%) rồi liệt kê lại toàn bộ 6 tầng vừa dựng",
+      "KIỂU A, Night — quay về đúng chỗ xuất phát: hook 'You're lying in bed... scrolling' → C9 'Our ancestors lived in a world of constant deadly danger.' / 'And us?' / 'We are the safest humans to ever exist.'"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG — kho câu nguyên văn",
+   "ca_nguoc": "Số câu chuyển không phân biệt nhóm: Dentistry (THẤP) mở chương bằng 'But' 8 lần, DNA (GIỮA) 8 lần, Lazy (GIỮA) 9 lần, còn Alcohol (THẤP) chỉ 2 lần và Love (CAO) 3 lần. Tất cả 10/10 bài đều dùng 'But' làm bản lề chính → NẾT KÊNH.",
+   "phat_hien": [
+    {
+     "y": "BẢN LỀ SỐ 1 CỦA KÊNH LÀ TỪ 'BUT' ĐẦU CÂU — 52 lần trên 10 bài, có mặt ở 10/10 bài. Khuôn: But + [phủ định điều vừa nói] hoặc But + [thứ mới lạ hơn]. Dài 5-16 từ, trung vị ~9 từ.",
+     "so_lieu": "52 lần / 10 bài (Lazy 9 · Dentistry 8 · Dogs 8 · DNA 8 · Night 4 · Died 4 · Law 4 · Love 3 · Alcohol 2 · Sickness 2). Có ở 10/10 bài.",
+     "trich": [
+      "\"But, if you go back 30,000 years, things were way worse.\" (10 từ, 20260522_Night, 10%)",
+      "\"But, burial wasn't the only mystery.\" (6 từ, 20260605_Died, 26%)",
+      "\"But regardless of the flowers, the bigger story remains unchanged.\" (10 từ, 20260605_Died, 44%)",
+      "\"But material crimes weren't the only thing that could get you in trouble.\" (13 từ, 20260609_Law, 22%)",
+      "\"But the holes at Mehrgarh were not crude craters.\" (9 từ, 20260613_Dentistry, 29%)",
+      "\"But how did they bridge the gap from wild predator to family member?\" (13 từ, 20260621_Dogs, 18%)",
+      "\"But, the behavior is where things get really strange.\" (9 từ, 20260621_Dogs, 30%)",
+      "\"But hat still leaves the bigger question unanswered.\" (8 từ, 20260621_Dogs, 44%)",
+      "\"But some people carry twice as much.\" (7 từ, 20260625_DNA, 34%)",
+      "\"But we are just getting started.\" (6 từ, 20260625_DNA, 41%)",
+      "\"But the modern corporate world doesn't give you acute stress.\" (10 từ, 20260701_Lazy, 56%)",
+      "\"But that instinct to dismiss it misses something important.\" (9 từ, 20260601_Sickness, 60%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 'X WASN'T THE ONLY Y' — câu ĐÓNG chương móc thẳng sang chương sau, ngắn 6-13 từ. Chỉ 3 lần/10 bài nhưng là khuôn sạch nhất, chép được ngay.",
+     "so_lieu": "3 lần / 3 bài (Died×2 = CAO, Law×1 = GIỮA). 0/3 nhóm THẤP.",
+     "trich": [
+      "\"But, burial wasn't the only mystery.\" / \"Roughly 60,000 to 70,000 years ago, in what is now northern Iraq, Neanderthals appear to have been doing something similar.\" (20260605_Died, 26%)",
+      "\"And that's not the only clue.\" / \"Across prehistoric burial sites around the world, archaeologists keep finding the same mysterious substance, red ochre, a natural red pigment rich in iron.\" (20260605_Died, 69%)",
+      "\"But material crimes weren't the only thing that could get you in trouble.\" / \"Prehistoric people were also terrified of something far less visible, and in some ways, far more dangerous.\" (20260609_Law, 22%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN 'CÂU HỎI CỤT MỞ CHƯƠNG' — 5-13 từ, luôn bắt đầu bằng So/Now/But, luôn được trả lời ngay trong 1-2 câu sau. 12 lần / 6 bài.",
+     "so_lieu": "12 lần / 6 bài (Dogs 4 · Lazy 2 · Died 2 · Love 1 · Law 1 · Dentistry 2). Nhóm CAO 2/3 bài · nhóm THẤP 2/3 bài.",
+     "trich": [
+      "\"Now, how did men compete?\" / \"It wasn't through DMs, it was through intense physical and social accountability.\" (20260526_Love, 38%)",
+      "\"What happens next?\" / \"The oldest clues come from Qafzeh Cave in present-day Israel.\" (20260605_Died, 15%)",
+      "\"So, what is actually going on?\" / \"To get close to an answer, you have to go back further than the burials, back to before dogs were dogs.\" (20260621_Dogs, 22%)",
+      "\"So, where did it come from?\" / \"Here's where it gets interesting.\" (20260621_Dogs, 34%)",
+      "\"So, how did any of this get wired in?\" / \"Scientists at Princeton found that dogs carry a specific genetic mutation...\" (20260621_Dogs, 61%)",
+      "\"So, how do you fight the food coma?\" / \"You reach for the ultimate corporate weapon, caffeine.\" (20260701_Lazy, 39%)",
+      "\"The obvious question was why.\" / \"The more uncomfortable question was how.\" (20260613_Dentistry, 28% — cặp câu song song, 5+6 từ)",
+      "\"What do you do when someone just won't stop?\" / \"When no amount of public mockery or a spear to the leg changes anything, when the person is simply too dangerous to keep around?\" / \"And if they tried to run?\" / \"Well, that's where things get really interesting.\" (20260609_Law, 56-60% — chuỗi 3 hỏi rồi hoãn trả lời)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 'LET'S TALK ABOUT X' — bản lề thô nhất, chỉ 6 lần và tập trung ở 3 bài. Nó là dấu hiệu bài viết theo LIST (mỗi chương một mục) chứ không theo mạch điều tra.",
+     "so_lieu": "6 lần / 3 bài (Lazy 4 · Alcohol 1 · Love 1). 1/3 nhóm CAO, 1/3 nhóm THẤP.",
+     "trich": [
+      "\"Let's talk about that notification, the one that pops up and says, \\\"Hi, do you have a minute for a quick call?\\\" Your heart drops.\" (20260701_Lazy, 11%)",
+      "\"Let's talk about hat moment right after lunch, the food coma.\" (20260701_Lazy, 29%)",
+      "\"Let's talk about the great caffeine scam because caffeine does not actually give you energy.\" (20260701_Lazy, 40%)",
+      "\"Let's talk about the Sunday Scaries.\" (20260701_Lazy, 52%)",
+      "\"Let's look at the science.\" (20260520_Alcohol, 11%)",
+      "\"Let's look at how these platforms actually work.\" (20260526_Love, 70%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 'THEN + [PHÁT HIỆN]' để nhảy địa điểm/niên đại mà không cần câu dẫn — 5 lần / 4 bài. Đây là bản lề rẻ nhất cho bài kiểu 'đi bảo tàng'.",
+     "so_lieu": "5 lần / 4 bài (Dentistry 2 · Sickness 1 · Died 1 · Dogs 1). 1/3 nhóm CAO · 2/3 nhóm THẤP.",
+     "trich": [
+      "\"Then there is Otzi, the ice mummy found preserved in the Alps after 5,300 years.\" (20260601_Sickness, 24%)",
+      "\"Then we arrive at one of the most extraordinary burials ever discovered, Sungir, Russia.\" (20260605_Died, 47%)",
+      "\"Then they found a small round hole in one tooth, then another.\" (20260613_Dentistry, 12%)",
+      "\"Then somebody pointed it at a living molar.\" (20260613_Dentistry, 21% — 8 từ, đứng ngay sau đoạn tả nghề làm hạt cườm)",
+      "\"Then, archaeologists looked at the actual evidence.\" (20260621_Dogs, 8%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 'CÂU TRẢ LỜI BỊ HOÃN' — đóng chương bằng cách chỉ tay sang chương sau mà chưa nói ra. 6 lần / 4 bài.",
+     "so_lieu": "6 lần / 4 bài (Dogs 3 · Dentistry 1 · Law 1 · Sickness 1).",
+     "trich": [
+      "\"The answer isn't in our history books, it's hidden in a miraculous glitch within their DNA.\" (20260621_Dogs, 19%)",
+      "\"The answer turned out to be hiding in the brain.\" / \"And what the neuroscientists found when they actually looked, nobody saw it coming.\" (20260621_Dogs, 46%)",
+      "\"Dogs may have created themselves.\" / \"We may have been the environment they adapted to, not the designers who built them.\" / \"But hat still leaves the bigger question unanswered.\" (20260621_Dogs, 43-44%)",
+      "\"The answer may have come from a place that had nothing to do with medicine.\" (20260613_Dentistry, 17%)",
+      "\"And if they tried to run?\" / \"Well, that's where things get really interesting.\" (20260609_Law, 59%)",
+      "\"...but plants were only part of what ancient humans were willing to do when the body broke down.\" (20260601_Sickness, 28%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "ca_nguoc": "⚠️ CHIỀU DUY NHẤT LỆCH NGƯỢC RÕ RỆT. Nhóm THẤP neo khoa học DÀY HƠN nhóm CAO (trung vị 9,6 vs 7,3 mỏ neo/1000 từ). Quả nổ 419.883 view KHÔNG nêu một tên nhà nghiên cứu nào, mật độ hedge chỉ 5,4/1000 từ, và 0 câu 'chúng ta không biết'. Trong khi bài chìm nhất về mặt kỹ thuật (Dentistry, Dogs) lại là hai bài trung thực nhất khoa học. Đừng chép chiều này từ Mr. Hell — dữ liệu nói nó không mua được view Ở KÊNH NÀY, nhưng cũng không nói nó có hại.",
+   "phat_hien": [
+    {
+     "y": "MẬT ĐỘ MỎ NEO (tên nhà nghiên cứu + tên di chỉ + năm công trình + mốc niên đại) chênh 15 lần giữa bài dày nhất và bài mỏng nhất, và chiều lệch là NGƯỢC với view.",
+     "so_lieu": "Mỏ neo/1000 từ: Died 16,9 · Dogs 10,0 · Alcohol 9,6 · Dentistry 8,1 · Sickness 7,9 · Night 7,3 · Law 2,7 · DNA 2,6 · Love 1,7 · Lazy 1,1. Nhóm CAO trung vị 7,3 · nhóm THẤP trung vị 9,6.",
+     "trich": [
+      "Bài neo dày nhất (Died, 16,9/1000w) — 4 di chỉ có tên: \"The oldest clues come from Qafzeh Cave in present-day Israel.\" · \"The site is called Shanidar Cave, and for decades, it challenged one of archaeology's biggest assumptions.\" · \"Then we arrive at one of the most extraordinary burials ever discovered, Sungir, Russia.\" · \"One skeleton became especially famous, known as Shanidar 4.\"",
+      "Bài neo mỏng nhất (Lazy, 1,1/1000w, 0 từ khoa học nào) vẫn xếp 5/10: \"Evolution spent 6 million years perfecting the way we walk on two legs.\" và \"Then, about 100 years ago, we decided to sit in a chair for 40 hours a week.\" — đó là toàn bộ mỏ neo của 1.752 từ.",
+      "Quả nổ (Night, 7,3/1000w) neo bằng di chỉ + con số chứ KHÔNG bằng tên người: \"In Sibudu Cave in South Africa, archaeologists found mattresses that are 77,000 years old, and they were highly engineered.\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "5/10 BÀI KHÔNG NÊU MỘT TÊN NHÀ NGHIÊN CỨU NÀO — trong đó có cả quả nổ. Khi có nêu, khuôn cứng là 'In [năm], [chức danh] [Họ Tên] + [động từ mềm]'.",
+     "so_lieu": "5/10 bài có tên người (Alcohol 3 tên · Law 3 · Dogs 4 · Died 1 · DNA 1 · Love 1) · 5/10 bài KHÔNG có tên người nào (Night, Sickness, Dentistry, Lazy — và Love chỉ 1 tên). Nhóm CAO 1/3 bài có tên người · nhóm THẤP 2/3 bài có.",
+     "trich": [
+      "\"In 2002, archaeologist David Lewis Williams suggested a theory that flips history on its head.\" (20260520_Alcohol)",
+      "\"In his 2021 book, Drunk, Professor Edward Slingerland argues that without alcohol, human civilization wouldn't even exist.\" (20260520_Alcohol)",
+      "\"In 2022, anthropologist Robin Dunbar found that alcohol makes you lose your volume knob.\" (20260520_Alcohol)",
+      "\"In 1975, archaeologist Ralph Solecki proposed a beautiful idea.\" / \"Maybe flowers had been placed in the grave.\" (20260605_Died)",
+      "\"According to evolutionary anthropologist Christopher Boehm, early Homo sapiens lived in strictly egalitarian groups, usually capped at around 30 to 50 people.\" (20260609_Law)",
+      "\"Anthropologist Richard Borshay-Lee spent years studying the Kung San people in the Kalahari Desert, whose traditional ifestyle closely mirrors our early ancestors.\" (20260609_Law)",
+      "\"Interestingly, Harvard anthropologist Richard Wrangham suggests that this brutal practice of executing tyrants and psychopaths actually changed human evolution.\" (20260609_Law)",
+      "\"In 1959, a Soviet geneticist named Dmitri Belyaev selected silver foxes for one single trait.\" (20260621_Dogs)",
+      "\"Brian Hare at Duke University has spent years tudying what actually separates dogs from wolves.\" (20260621_Dogs)",
+      "\"In 2015, a team in Japan published a study in Science, one of the most prestigious journals in the world.\" (20260621_Dogs)",
+      "\"In 2020, computational biologists from UCLA hit an inexplicable wall of data while mapping ancient genomes.\" (20260625_DNA)",
+      "\"Dr. Helen Fisher's research on the brain in love reveals that when you feel that spark today, that's a 40,000-year-old cocktail of dopamine, oxytocin, and vasopressin flooding your system.\" (20260526_Love)",
+      "Neo TẬP THỂ MỜ, dùng khi không có tên: \"Many anthropologists believe complex language and human culture weren't born during hunt, but during these midnight gossip sessions.\" (20260522_Night) · \"Evolutionary psychologists call this breaking Dunbar's number.\" (20260526_Love)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "HEDGE — mật độ chênh 11 lần giữa hai đầu, và cả hai đầu đều nằm trong cùng một nhóm hoặc rải đều. Nhóm CAO phân tán cực rộng (2,5 đến 28,2/1000 từ) → không kết luận được.",
+     "so_lieu": "Hedge/1000 từ: Died 28,2 (CAO) · Dentistry 13,4 (THẤP) · Dogs 9,2 (THẤP) · Night 5,4 (CAO) · Sickness 4,7 · Alcohol 4,8 (THẤP) · Law 4,5 · DNA 4,5 · Love 2,5 (CAO) · Lazy 2,3. Nhóm CAO trung vị 5,4 · nhóm THẤP trung vị 9,2 — nhưng CAO chứa cả bài hedge nhiều nhất kênh lẫn bài hedge ít nhì kênh.",
+     "trich": [
+      "Hedge nặng: \"Then, researchers uncovered evidence suggesting some of them may have intentionally buried their dead.\" (20260605_Died)",
+      "Hedge nặng: \"For decades, scientists debated whether this was a funeral bouquet or the work of burrowing bees.\" / \"Modern research has finally solved the mystery, proving that ancient bees likely introduced the pollen while building their nests.\" (20260605_Died)",
+      "Hedge nặng: \"It may have been used to reduce sensitivity or protect the tooth, although researchers cannot determine with certainty whether it was applied shortly before death or soon afterward.\" (20260613_Dentistry)",
+      "Hedge = 0 và khẳng định như đinh đóng cột: \"The probability of this ingle individual existing is exactly 1 in 51.2 septillion.\" (20260625_DNA) · \"This is the maximum amount of Neanderthal DNA a modern body can physically tolerate before collapsing.\" (20260625_DNA)",
+      "Hedge = 0: \"To your amygdala, a passive-aggressive Slack message and a saber-toothed tiger look exactly the same.\" (20260701_Lazy)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TÁCH SỰ THẬT KHỎI SUY DIỄN chỉ có ở 3/10 bài, tổng 19 câu. 7/10 bài còn lại KHÔNG có một câu 'chúng ta không biết' nào. Ba bài trung thực nhất là Died (CAO), Dentistry (THẤP), Dogs (THẤP) — chia đều hai nhóm.",
+     "so_lieu": "3/10 bài có (Died 4 câu · Dentistry 7 câu · Dogs 8 câu). 7/10 bài có 0 câu (Alcohol, Night, Love, Sickness, Law, DNA, Lazy).",
+     "trich": [
+      "\"Why?\" / \"No one knows for certain.\" / \"Some researchers see vidence of spiritual beliefs.\" / \"Others ee social status, identity, or a way of honoring the dead.\" / \"But whatever the xplanation, one thing is clear.\" (20260605_Died)",
+      "\"Archaeology can't answer those questions with certainty.\" / \"The graves aren't talking.\" / \"What they do tell us is something equally important.\" (20260605_Died — khuôn 3 câu: không biết → hình ảnh → chốt lại cái BIẾT được)",
+      "\"It is impossible to know exactly what the person performing the treatment believed.\" / \"The material may have been intended to seal the cavity, protect exposed tissue, or reduce irritation.\" / \"Whatever the reasoning, they did more than cut into the tooth.\" / \"They put something back.\" (20260613_Dentistry)",
+      "\"There is no evidence that these communities belong to one shared medical tradition, and we cannot know how often the treatments failed.\" / \"The archaeological record preserves uccessful survival more easily than it preserves terrible ideas that ended badly.\" / \"What remains is evidence of repeated attempts.\" (20260613_Dentistry)",
+      "\"So it should not be treated as a perfectly documented prehistoric filling.\" / \"Still, placed alongside the Italian evidence and the teeth from Mehrgarh, it adds to a broader picture.\" (20260613_Dentistry)",
+      "\"We don't know for certain if it was a dog.\" / \"It might have been a wolf.\" / \"But if it was, even if it might have been, that's a child and a dog walking together through a cave in the dark 32,000 years ago.\" (20260621_Dogs — khuôn 'thú nhận rồi vẫn dùng hình ảnh')",
+      "\"We can't confirm this yet, but the image it leaves is a lot harder to shake than the garbage dump version.\" (20260621_Dogs)",
+      "\"The honest answer is we don't know for certain.\" / \"The evidence leans towards self-domestication as the starting point and something more like coevolution as the relationship deepened.\" / \"What isn't really debated anymore is what it became.\" / \"The data is replicated, the genetics are confirmed, the facial muscle is documented, the brain synchrony is measured.\" (20260621_Dogs)",
+      "\"History becomes suspiciously uncooperative whenever we try to give it one villain.\" (20260613_Dentistry — hedge biến thành câu đùa)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÁCH NEO CỦA QUẢ NỔ: dựa vào MỘT con số cụ thể gắn với một di chỉ, rồi lập tức dịch sang đời sống người xem. Không tên người, không hedge, không 'có thể'.",
+     "so_lieu": "Night: 7,3 mỏ neo/1000 từ, 0 tên nhà nghiên cứu, 5,4 hedge/1000 từ, 0 câu 'không biết'.",
+     "trich": [
+      "\"In Sibudu Cave in South Africa, archaeologists found mattresses that are 77,000 years old, and they were highly engineered.\" / \"The bottom layer was made of ash.\" / \"Why?\" / \"Because ash insulates you from the cold stone, deters bugs, and kills parasites.\" / ... / \"Your ancestors were literally crafting organic anti-mosquito mattresses 77,000 years ago.\" / \"Meanwhile, in 2026, with all our chemical bug sprays, we're still osing the war against mosquitoes.\" (20260522_Night — chuỗi hoàn chỉnh: di chỉ → số → tại sao → dịch sang bạn → cú đá hiện đại)",
+      "\"Studies how that watching moving flames lowers your blood pressure and induces a state of relaxation almost identical to meditation.\" (20260522_Night — 'Studies show' không tên, không năm)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "ca_nguoc": "Khuôn title chặt tới mức KHÔNG CÒN LÀ BIẾN SỐ: 9/10 title chứa 'Ancient Humans', 9/10 có dấu hỏi, 10/10 mở bằng từ để hỏi. Cùng một khuôn cho ra 419.883 view và 1.268 view. Với kênh này, title không giải thích được gì.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN TITLE GẦN NHƯ BẤT BIẾN: [Từ để hỏi] + Did/Ancient Humans + [động từ đời thường] + [dấu ?]. 6-10 từ, trung vị 7,5 từ.",
+     "so_lieu": "'Ancient Humans' 9/10 · dấu ? 9/10 · mở bằng What 5/10, How Did 4/10, Why 1/10 · độ dài trung vị 7,5 từ (min 6, max 10).",
+     "trich": [
+      "\"What Did Ancient Humans Do After Drinking Alcohol?\" (20260520, 21,5 vpd)",
+      "\"What Did Ancient Humans Really Do at Night?\" (20260522, 5.383,1 vpd)",
+      "\"How Did Ancient Humans Actually Find Love?\" (20260526, 57,2 vpd)",
+      "\"How Did Ancient Humans Survive Sickness before Science?\" (20260601, 47,1 vpd)",
+      "\"What Ancient Humans Did When Someone Died\" (20260605, 51,1 vpd — bài DUY NHẤT không có dấu ?)",
+      "\"What Happens if You Break the Law 50,000 Years Ago?\" (20260609, 29,2 vpd — bài DUY NHẤT không có chữ 'Ancient Humans')",
+      "\"How Did Ancient Humans Survive Ancient Dentistry?\" (20260613, 26,9 vpd)",
+      "\"How Did Ancient Humans Accidentally Create Dogs?\" (20260621, 26,4 vpd)",
+      "\"What Did Ancient Humans Hide In Your DNA?\" (20260625, 49,2 vpd)",
+      "\"Why Ancient Humans Never Felt \\\"Lazy\\\"?\" (20260701, 47,5 vpd)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TRẠNG TỪ GÀI NGHI NGỜ (Really / Actually / Accidentally / Never) có ở 4/10 title. Quả nổ dùng 'Really'. Nhưng bài xếp thứ 9/10 dùng 'Accidentally' → trạng từ không phải công tắc.",
+     "so_lieu": "4/10 title (Night 'Really' = 5.383 vpd · Love 'Actually' = 57,2 · Dogs 'Accidentally' = 26,4 · Lazy 'Never' = 47,5). Trung vị 4 bài này = 52,4 vpd; trung vị 6 bài không có trạng từ = 38,2 vpd. Bỏ quả nổ ra thì trung vị nhóm có trạng từ tụt xuống 47,5 — ngang phần còn lại.",
+     "trich": [
+      "\"What Did Ancient Humans Really Do at Night?\" — 'Really' ngụ ý bản chính thức là sai (20260522)",
+      "\"How Did Ancient Humans Accidentally Create Dogs?\" — 'Accidentally' ngụ ý cú lật, nhưng bài này chỉ 1.268 view (20260621)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "'YOU/YOUR' TRONG TITLE chỉ 2/10 và KHÔNG ăn hơn: trung vị 2 bài đó = 39,2 vpd so với 47,1 của 9 bài còn lại.",
+     "so_lieu": "2/10 title (Law 29,2 vpd · DNA 49,2 vpd → trung vị 39,2). 8 bài không có 'you' trong title: trung vị 47,3 (bỏ quả nổ).",
+     "trich": [
+      "\"What Happens if You Break the Law 50,000 Years Ago?\" (29,2 vpd)",
+      "\"What Did Ancient Humans Hide In Your DNA?\" (49,2 vpd)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG CÓ LOẠT, KHÔNG LÀM LẠI ĐỀ TÀI CŨ. 10 đề tài khác nhau trong 42 ngày, không đánh số phần, không nhắc lại video trước, không có playlist chủ đề.",
+     "so_lieu": "0/10 title có 'Part'/'Ep'/số thứ tự. 0/10 lời đọc nhắc tới video khác của kênh. 10/10 đề tài phân biệt. playlist_count = 10 = đúng bằng số video (mỗi video một 'playlist' mặc định, không có playlist chủ đề).",
+     "trich": [
+      "Không có câu trích — đây là kết quả grep trên 10 title và 10 file lời đọc."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHÓM ĐỀ TÀI — không nhóm nào tách khỏi nhóm nào sau khi bỏ quả trúng số. Cùng một nhóm chứa cả bài đỉnh lẫn bài đáy.",
+     "so_lieu": "Trung vị view/ngày theo nhóm: A. Thói xấu/bản năng đêm-rượu-tình (Night, Alcohol, Love, n=3) = 57,2 · D. Sinh học của BẠN hôm nay (Lazy, DNA, n=2) = 48,4 · C. Xã hội/nghi lễ/chết (Died, Law, n=2) = 40,1 · B. Y học & cơ thể đau (Sickness, Dentistry, n=2) = 37,0 · E. Động vật (Dogs, n=1) = 26,4. NHƯNG nhóm A chứa CẢ quả nổ 5.383 LẪN quả bét 21,5 — bỏ quả nổ thì trung vị nhóm A tụt còn 39,4, thấp hơn nhóm D và C. n=1–3 mỗi nhóm, không kết luận được.",
+     "trich": [
+      "Nhóm A cùng chủ điểm 'thói hư ban đêm' nhưng cách nhau 250 lần view: \"What Did Ancient Humans Really Do at Night?\" (419.883 view) vs \"What Did Ancient Humans Do After Drinking Alcohol?\" (1.719 view) — hai bài đăng cách nhau ĐÚNG 2 NGÀY, cùng giọng, cùng khuôn hook 'You're...'."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỘ DÀI KHÔNG DỰ BÁO ĐƯỢC VIEW — tương quan Pearson giữa thời lượng và view/ngày trên 9 bài (bỏ quả nổ) là r = -0,18, tức gần như bằng 0. Bài dài nhất (14:53) xếp 9/10; bài ngắn nhất (4:23) xếp 10/10.",
+     "so_lieu": "r = -0,184 (n=9, bỏ Night). Dải thời lượng 4:23–14:53. Quả nổ dài 6:07 — nằm giữa dải.",
+     "trich": [
+      "Không có câu trích — số liệu từ trường duration trong 10 file _vtt/*.info.json."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "ca_nguoc": "Nhịp không tương quan với view/ngày trên n=9 khoảng. Video đăng sau khoảng nghỉ dài nhất (8 ngày, Dogs) xếp thứ 9/10; video đăng sau khoảng ngắn nhất (2 ngày, Night) là quả nổ. Với 9 điểm dữ liệu, đây là trùng hợp chứ không phải luật.",
+   "phat_hien": [
+    {
+     "y": "NHỊP 4 NGÀY, ĐỀU NHƯ MÁY, KHÔNG GOM ĐỢT. 10 video trong 42 ngày (20/05/2026 → 01/07/2026). Khoảng cách trung vị 4 ngày; 5/9 khoảng đúng bằng 4 ngày.",
+     "so_lieu": "9 khoảng: 2, 4, 6, 4, 4, 4, 8, 4, 6 ngày. Trung vị 4 · trung bình 4,67 · min 2 · max 8. 0 lần đăng 2 video cùng ngày. Nhịp KHÔNG đổi theo thời gian (khoảng 4 ngày xuất hiện ở cả đầu, giữa và cuối chuỗi).",
+     "trich": [
+      "Không có câu trích — số liệu từ tiền tố ngày trong tên 10 file .txt và trường upload_date."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KÊNH ĐÃ DỪNG ĐĂNG 38 NGÀY — video cuối 01/07/2026, tính tới 08/08/2026 không có video mới. Và nó dừng SAU khi đã có quả nổ 419.883 view (22/05), tức 5 tuần rưỡi sau cú nổ mà không tận dụng.",
+     "so_lieu": "38 ngày im lặng tính tới 08/08/2026. playlist_count = 10 xác nhận đây là TOÀN BỘ kênh, không phải mẫu bị cắt. Khoảng nghỉ này gấp 9,5 lần nhịp trung vị 4 ngày của kênh.",
+     "trich": [
+      "Không có câu trích — số liệu từ _vtt/NA_UCuKjCN_lHdzukBO8v-lGoaA.info.json (channel_follower_count 3610, playlist_count 10) và upload_date của video cuối (20260701)."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "QUẢ NỔ RƠI Ở VIDEO THỨ HAI CỦA KÊNH, chỉ 2 ngày sau video đầu tiên — tức khi kênh gần như chưa có sub và chưa có lịch sử. Sau đó 8 video liên tiếp cùng khuôn không lặp lại được.",
+     "so_lieu": "Video #2/10 (22/05/2026) = 419.883 view = 95,3% tổng view kênh (440.812). 8 video đăng SAU cú nổ: 1.268–4.235 view, trung vị 2.165. Tức cú nổ không kéo theo bất kỳ video nào.",
+     "trich": [
+      "Không có câu trích — số liệu từ 10 file _vtt/*.info.json."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TỶ LỆ SUB/VIEW TOÀN KÊNH 0,82% — thấp, và đây là hệ quả trực tiếp của việc 0/10 bài xin đăng ký trong lời đọc (chiều 4). Đây là cái GIÁ của nết 'không xin', cần cân nhắc trước khi chép.",
+     "so_lieu": "3.610 sub / 440.812 tổng view = 0,82%. Riêng quả nổ đóng góp 419.883 view; nếu toàn bộ 3.610 sub đến từ nó thì tỷ lệ chuyển đổi của quả nổ cũng chỉ 0,86%.",
+     "trich": [
+      "Không có câu trích — số liệu từ channel_follower_count trong _vtt/*.info.json và tổng view_count 10 video."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ]
+}

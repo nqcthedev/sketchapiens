@@ -1,0 +1,641 @@
+{
+ "kenh": "InkExplainer",
+ "so_bai": 12,
+ "view_ngay_cao": "NHÓM TRÊN (4 bài, view/ngày tính tới 2026-08-08): 20260703_What_Did_Ancient_Humans_Do_When_It_Rained_All_Week_ = 30.611 v/ngày (1.101.989 view / 36 ngày) · 20260614_Why_Are_We_the_Only_Human_Species_Left = 16.076 (884.194 / 55) · 20260623_How_Did_Ancient_Humans_Travel_the_World_ = 14.295 (657.575 / 46) · 20260516_When_Did_Ancient_Humans_Start_Drinking_Alcohol_ = 9.176 (770.747 / 84). Trung vị nhóm trên = 15.186 v/ngày.",
+ "view_ngay_thap": "NHÓM DƯỚI (4 bài): 20260511_Why_Life_Speeds_Up_As_You_Get_Older_ = 1.540 v/ngày (137.062 / 89) · 20260725_How_Did_Human_Accidentally_Invented_Guns_ = 1.315 (18.404 / 14) · 20260507_What_did_Early_Humans_do_when_they_got_Sick = 275 (25.548 / 93) · 20260428_what_is_The_IKEA_Effect_ = 68 (6.972 / 102). Trung vị nhóm dưới = 795 v/ngày. NHÓM GIỮA (để đối chiếu): Winter 6.287 · Weed 3.868 · Clothes 3.118 · Animals-Baby 2.651. Chênh trung vị trên/dưới = 19,1 lần.",
+ "gioi_han": "1) CHỈ 12 BÀI. Chia ba thành 4/4/4 nên mọi tỷ lệ nhóm là x/4 — một bài lệch là đảo kết luận. Đừng coi bất cứ khuôn nào \"4/4 nhóm cao vs 0/4 nhóm thấp\" là luật cho tới khi có ≥30 bài. 2) View/ngày không khử được hiệu ứng \"bài mới đang được đẩy\": bài 20260725_Guns mới 14 ngày, 20260716_Winter mới 23 ngày, con số v/ngày của chúng còn động mạnh. 3) Bản ghi ASR nuốt chữ đầu ở nhiều câu (\"ntire\" = entire, \"urvived\" = survived, \"xplanation\" = explanation, \"elonged\" = belonged, \"hose\" = those, \"rying\" = trying) — trích nguyên văn nên GIỮ NGUYÊN lỗi này; đếm từ có thể lệch ~0,5%. 4) KHÔNG có dữ liệu thumbnail/CTR/retention/impressions, nên mọi tương quan ở đây là tương quan với VIEW, không phải với chất lượng kịch bản. Bài 20260725_Guns có 2.707 từ (dài nhất kênh) mà chỉ 1.315 v/ngày — rất có thể chết ở thumbnail/title chứ không phải ở kịch bản. 5) 4/4 bài nhóm dưới lệch đề tài (2 bài tâm lý \"về BẠN\", 1 bài lịch sử súng, 1 bài bệnh tật) nên nhiều khác biệt văn phong giữa nhóm trên và nhóm dưới thật ra là khác biệt ĐỀ TÀI kéo theo, không phải kỹ thuật viết. Đã đánh dấu rõ ở từng phát hiện.",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~135 từ đầu)",
+   "phat_hien": [
+    {
+     "y": "Khuôn mở màn mạnh nhất của kênh: XƯNG \"you\" NGAY LẬP TỨC. 9/12 bài có đại từ you/your rơi vào 11 từ đầu tiên của lời đọc. Vị trí từ đầu tiên xuất hiện \"you\": Travel=từ 1, IKEA=từ 1, Rained=từ 2, LifeSpeeds=từ 2, Alcohol=từ 3, Winter=từ 3, Clothes=từ 3, Sick=từ 4, SpeciesLeft=từ 11. Ba bài còn lại xưng you rất muộn: Guns=từ 103, Animals=từ 353, Weed=từ 654. ⚠️ CẢ HAI NHÓM đều dùng khuôn này (4/4 nhóm cao và 3/4 nhóm dưới) — ĐÂY LÀ NẾT CỦA KÊNH, KHÔNG PHẢI BÍ QUYẾT THẮNG.",
+     "so_lieu": "9/12 bài xưng \"you\" trong 11 từ đầu — nhóm cao 4/4, nhóm giữa 2/4, nhóm dưới 3/4",
+     "trich": [
+      "\"You got in your car this morning, turned the key, pressed the pedal, and moved 40 miles an hour without using a single muscle.\" — 20260623_How_Did_Ancient_Humans_Travel_the_World_ (NHÓM CAO)",
+      "\"Right now, you're probably drunk or about to get drunk.\" — 20260516_When_Did_Ancient_Humans_Start_Drinking_Alcohol_ (NHÓM CAO)",
+      "\"Imagine you haven't eaten in 2 days.\" — 20260703_What_Did_Ancient_Humans_Do_When_It_Rained_All_Week_ (NHÓM CAO, top 1)",
+      "\"You've built something.\" — 20260428_what_is_The_IKEA_Effect_ (NHÓM DƯỚI, đáy kênh 68 v/ngày)",
+      "\"The last time you got sick, you probably did what everyone does.\" — 20260507_What_did_Early_Humans_do_when_they_got_Sick (NHÓM DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Biến thể chính xác \"Right now, you...\" mở bằng ba từ y hệt: 3/12 bài. Cả ba đều nằm nhóm cao hoặc giữa, 0/4 nhóm dưới. Đây là câu mở khuôn hoá tới mức copy-paste được.",
+     "so_lieu": "3/12 bài mở bằng cụm \"Right now, you\" — nhóm cao 1/4, nhóm giữa 2/4, nhóm dưới 0/4",
+     "trich": [
+      "\"Right now, you're probably drunk or about to get drunk.\" — 20260516_When_Did_Ancient_Humans_Start_Drinking_Alcohol_",
+      "\"Right now, you are warm. / You might not even notice it, but you are.\" — 20260716_The_Disturbing_Ways_Ancient_Humans_Survived_Winter",
+      "\"Right now, you're wearing something.\" — 20260427_The_Real_Reason_Humans_Started_Wearing_Clothes"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn \"BẠN-TIỆN-NGHI vs HỌ-CHẾT-CHÓC\": 5/12 bài dựng nguyên hook trên phép đối lập giữa tiện nghi hiện đại của người xem và thực tế chết người thời cổ, luôn theo trật tự: mô tả đời bạn (2-6 câu) → \"But for...\" → đảo sang thời cổ. Cả bài top và bài đáy đều dùng → NẾT KÊNH.",
+     "so_lieu": "5/12 bài — nhóm cao 2/4 (Travel, Alcohol), nhóm giữa 2/4 (Winter, Clothes), nhóm dưới 1/4 (Sick)",
+     "trich": [
+      "\"Winter for you is an inconvenience. / It's scraping ice off a windshield. / It's a heavier jacket. / It's complaining that it gets dark too early. / But for almost the ntire human history, winter was not an inconvenience. / Winter was the season that tried to kill you, and it didn't ry just once or in just one way.\" — 20260716_The_Disturbing_Ways_Ancient_Humans_Survived_Winter",
+      "\"Today, you can fly across the planet in a day. / You can order something from the other side of the world, and it shows up at your door. / Movement is so easy now that it's basically invisible. / But, for roughly 300,000 years, every single journey a human being ever took happened at walking speed.\" — 20260623_How_Did_Ancient_Humans_Travel_the_World_",
+      "\"You opened Chat GPT, searched your symptoms online. / You took something from the medicine cabinet. / Maybe you called a doctor. ... / For most of human history, you had none of that.\" — 20260507_What_did_Early_Humans_do_when_they_got_Sick (NHÓM DƯỚI — cùng khuôn nhưng 275 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn hook thứ hai: COLD OPEN CẢNH KHẢO CỔ / THÍ NGHIỆM ngôi thứ ba, không có \"you\" nào trong 300+ từ đầu. 2/12 bài, cả hai đều nhóm GIỮA (2.651–3.868 v/ngày) — tức khuôn này không giết bài nhưng cũng chưa từng nổ trên kênh này.",
+     "so_lieu": "2/12 bài — nhóm cao 0/4, nhóm giữa 2/4, nhóm dưới 0/4",
+     "trich": [
+      "\"Archaeologists cracked open a 27,000 year-old coffin in the deserts of Western China. / Inside was a man, blue-eyed, about 45 years old.\" — 20260605_When_Did_Ancient_Humans_Started_Smoking_Weed_",
+      "\"A research team placed a 3 week old kitten in front of a Rottweiler. / The dog had never encountered a cat before.\" — 20260526_Do_Animals_Know_When_Another_Animal_is_a_Baby_"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU nằm cuối hook: 12/12 bài có đúng MỘT câu hứa rằng câu trả lời sẽ lớn hơn/lạ hơn người xem tưởng, đặt ở câu cuối cùng của khối hook trước khi vào chương 1. Không bài nào thiếu. Đây là nết bắt buộc của kênh.",
+     "so_lieu": "12/12 bài",
+     "trich": [
+      "\"And what ancient humans did uring that crisis might be more important than anything they did on a clear day.\" — 20260703_What_Did_Ancient_Humans_Do_When_It_Rained_All_Week_ (top 1)",
+      "\"Just the ones who are still here, which raises a question that doesn't have a clean answer.\" — 20260614_Why_Are_We_the_Only_Human_Species_Left",
+      "\"And the way they did it is one of the most impressive things our species has ever pulled off.\" — 20260716_The_Disturbing_Ways_Ancient_Humans_Survived_Winter",
+      "\"The answer is stranger, more creative, and far more human than you'd expect.\" — 20260507_What_did_Early_Humans_do_when_they_got_Sick (NHÓM DƯỚI)",
+      "\"That feeling that you get has a name and it's quietly controlling more of your life than you realize.\" — 20260428_what_is_The_IKEA_Effect_ (NHÓM DƯỚI)",
+      "\"And when you find out what actually drove early humans to cover their bodies, it changes how you think about fashion, culture, language, and what it means to be the kind of creature that looks in a mirror and feels the weight of being seen.\" — 20260427_The_Real_Reason_Humans_Started_Wearing_Clothes"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU HỎI LÕI KHÔNG CÓ VỊ TRÍ CỐ ĐỊNH — và 3/12 bài không có MỘT câu hỏi nào trong toàn bộ lời đọc. Vị trí câu hỏi đầu tiên (tính bằng từ thứ mấy): Guns=51, Animals=73, Sick=131, SpeciesLeft=140, Winter=215, Alcohol=254, Weed=459, Rained=896, Travel=1660. Hai bài top-1 và top-2 trái ngược hoàn toàn (896 vs 140). KHÔNG rút ra được luật \"câu hỏi lõi phải ở từ thứ N\".",
+     "so_lieu": "9/12 bài có ít nhất 1 câu hỏi; 3/12 bài (Clothes, LifeSpeeds, IKEA) có 0 câu hỏi. Vị trí câu hỏi đầu trải từ từ 51 đến từ 1660",
+     "trich": [
+      "\"What happened to everyone else?\" — 20260614_Why_Are_We_the_Only_Human_Species_Left (từ thứ 140, ngay sau hook)",
+      "\"So, what do you do?\" — 20260703_What_Did_Ancient_Humans_Do_When_It_Rained_All_Week_ (từ thứ 896 = 37% bài)",
+      "\"What if you put something on top of it?\" — 20260623_How_Did_Ancient_Humans_Travel_the_World_ (từ thứ 1660 = 81% bài)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG CÓ CÂU TỰ GIỄU NÀO TRONG HOOK — 0/12 bài. Trong toàn kênh chỉ có 5/12 bài xuất hiện đại từ \"I/me/my\" của người dẫn, và câu tự giễu duy nhất nằm ở 26% thân bài chứ không phải hook. Kênh này KHÔNG bán nhân vật người dẫn ở 45 giây đầu.",
+     "so_lieu": "0/12 hook có câu tự giễu; 5/12 bài có bất kỳ \"I/me/my\" của người dẫn; mật độ \"I/me/my\" nhóm cao 0,00/1000 từ vs nhóm dưới 1,62/1000 từ",
+     "trich": [
+      "\"The Scythians delighted.\" Is it just me or does he sound a little jealous?\" — 20260605_When_Did_Ancient_Humans_Started_Smoking_Weed_ (ở 26% bài, KHÔNG phải hook)",
+      "\"And I couldn't agree more.\" — 20260516_When_Did_Ancient_Humans_Start_Drinking_Alcohol_ (ở 50% bài)",
+      "\"I made this myself or you. / To anyone else, it's just another random video on the internet.\" — 20260428_what_is_The_IKEA_Effect_ (bài đáy 68 v/ngày, và là bài dùng \"I\" nhiều nhất kênh: 7 lần / 764 từ = 9,2/1000)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "ĐỘ DÀI KHỐI HOOK: 62–256 từ, trung vị 142 từ, chiếm 3,3%–10,6% bài. Nhóm cao: 179 / 140 / 160 / 112 từ (7,4% / 9,1% / 7,8% / 9,3%). Nhóm dưới: 123 / 91 / 144 / 62 từ (7,3% / 3,3% / 10,2% / 8,1%). Không tách nhóm.",
+     "so_lieu": "12/12 bài, hook 62–256 từ, trung vị 142 từ ≈ 42 giây ở 202 wpm",
+     "trich": [
+      "Hook dài nhất: 256 từ (10,0% bài) — 20260716_The_Disturbing_Ways_Ancient_Humans_Survived_Winter",
+      "Hook ngắn nhất: 62 từ (8,1% bài) — 20260428_what_is_The_IKEA_Effect_",
+      "Hook của bài top-1: 179 từ (7,4% bài), 17 dòng — 20260703_What_Did_Ancient_Humans_Do_When_It_Rained_All_Week_"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — kho câu re-hook, câu nối, vòng tò mò",
+   "phat_hien": [
+    {
+     "y": "XƯƠNG SỐNG GIỮ CHÂN LÀ MỘT CÔNG THỨC DUY NHẤT: \"[But/Now/And/So] + here's + [the part / the thing / what / why / where]\". Đếm được 38 lần trong 12/12 bài = 1,80 lần / 1000 từ (21.081 từ toàn kênh). Trung vị độ dài câu = 7 TỪ, ngắn nhất 4 từ. ⚠️ Mật độ nhóm cao 1,56/1000 vs nhóm dưới 1,62/1000 — GẦN NHƯ BẰNG NHAU. ĐÂY LÀ NẾT KÊNH, KHÔNG PHẢI BÍ QUYẾT THẮNG. Nhưng đây là kho câu copy-paste được ngay.",
+     "so_lieu": "38 lần / 12 bài (12/12 bài có ≥1). Phân bố: Winter 7 · Rained 6 · Clothes 5 · Guns 5 · Travel 3 · Alcohol 2 · Animals 2 · Sick 2 · LifeSpeeds 2 · IKEA 2 · SpeciesLeft 1 · Weed 1. Trung vị 7 từ/câu",
+     "trich": [
+      "\"But here's the thing.\" (4 từ) — 20260703_Rained",
+      "\"But here's the issue.\" (4 từ) — 20260427_Clothes",
+      "\"Here's why this happens.\" (4 từ) — 20260428_IKEA",
+      "\"Now, here's the disturbing part.\" (5 từ) — 20260526_Animals",
+      "\"And here's why that matters.\" (5 từ) — 20260511_LifeSpeeds",
+      "\"Here's what's wild about that.\" (5 từ) — 20260623_Travel",
+      "\"And here's why that was so terrifying.\" (7 từ) — 20260703_Rained",
+      "\"Now, here's the part nobody talks about.\" (7 từ) — 20260703_Rained",
+      "\"Now, here's where it gets really interesting.\" (7 từ) — 20260703_Rained",
+      "\"Now, here's the accident inside the accident.\" (7 từ) — 20260725_Guns",
+      "\"But here's something even deeper underneath at.\" (7 từ) — 20260427_Clothes",
+      "\"And here's the part hat stops you cold.\" (8 từ) — 20260507_Sick",
+      "\"Now, here's what makes that finding so important.\" (8 từ) — 20260516_Alcohol",
+      "\"But here's where the whole design hits a wall.\" (9 từ) — 20260725_Guns",
+      "\"But, here's the thing that nobody tells you about caves.\" (10 từ) — 20260716_Winter",
+      "\"And here's where it urns into something you can't ignore.\" (10 từ) — 20260511_LifeSpeeds",
+      "\"But here's where the story takes a turn that nobody expects.\" (11 từ) — 20260703_Rained",
+      "\"But here's the part nobody tells you about those 200 years.\" (11 từ) — 20260725_Guns",
+      "\"Here's something that doesn't make sense until you think about it.\" (11 từ) — 20260623_Travel",
+      "\"But here's what ancient humans did with ose long dark hours.\" (11 từ) — 20260716_Winter",
+      "\"Here's the part about winter that people forget because we've completely erased it from our lives.\" (16 từ) — 20260716_Winter",
+      "\"And here's the part that should make you stop for a second, because it applies to you right now.\" (19 từ) — 20260427_Clothes",
+      "\"You've beaten three of winter's four death sentences, but here's one more, and it's the one people almost never think about.\" (21 từ) — 20260716_Winter"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU HỎI CỤT (≤9 từ) LÀM RE-HOOK MỞ ĐOẠN: 13 câu trong 8/12 bài. Đây là công cụ giữ chân thứ hai, luôn đứng ngay trước một chương mới và luôn được trả lời trong 1-3 dòng kế. Mật độ câu hỏi nhóm cao 1,27/1000 từ vs nhóm dưới 0,55/1000 từ — nhóm cao gấp 2,3 lần, và 4/4 bài nhóm cao đều có ≥1 câu hỏi trong khi 2/4 bài nhóm dưới có 0 câu hỏi.",
+     "so_lieu": "13 câu hỏi ≤9 từ / 8 bài. Nhóm cao 4/4 bài có câu hỏi (3+2+1+4 = 10 câu); nhóm dưới 2/4 bài có (0+3+2+0 = 5 câu)",
+     "trich": [
+      "\"So, what do you do?\" — 20260703_Rained (NHÓM CAO)",
+      "\"So, how?\" — 20260716_Winter",
+      "\"What would motivate that?\" — 20260516_Alcohol (NHÓM CAO)",
+      "\"Why did humans start farming?\" — 20260516_Alcohol (NHÓM CAO)",
+      "\"The question is, when did they figure that out?\" — 20260516_Alcohol (NHÓM CAO)",
+      "\"What happened to everyone else?\" — 20260614_SpeciesLeft (NHÓM CAO)",
+      "\"So, why are we the only human species left?\" — 20260614_SpeciesLeft (NHÓM CAO)",
+      "\"What if you put something on top of it?\" — 20260623_Travel (NHÓM CAO)",
+      "\"So, does he know it's a baby?\" — 20260526_Animals",
+      "\"Do they know it's a baby?\" — 20260526_Animals",
+      "\"But how did we even get here?\" — 20260725_Guns (NHÓM DƯỚI)",
+      "\"So how does that happen?\" — 20260725_Guns (NHÓM DƯỚI)",
+      "\"Pretty fascinating, right?\" — 20260605_Weed"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÂU NỐI CỰC NGẮN NGAY TRƯỚC FACT SỐC — kênh dùng câu 2-5 từ đứng một dòng riêng để hạ nhịp rồi đập fact. Mệnh lệnh \"Think about that/it.\" xuất hiện 6 lần trong 5/12 bài, luôn đứng NGAY SAU một con số hoặc một sự thật lạ. Có ở cả nhóm cao lẫn nhóm dưới → NẾT KÊNH.",
+     "so_lieu": "6 lần \"Think about that/it\" / 5 bài (nhóm cao 3/4 bài, nhóm giữa 1/4, nhóm dưới 1/4). Ngoài ra 12/12 bài có ít nhất 3 dòng ≤5 từ đứng độc lập",
+     "trich": [
+      "\"Think about that.\" — 20260516_Alcohol, ngay sau \"But somehow, making beer was important enough that they figured that out first.\"",
+      "\"Think about that for a second.\" — 20260623_Travel, ngay sau \"Someone built something that could float, pointed it oward water they couldn't see across...\"",
+      "\"And think about that for a second. / Nobody does that when the weather's perfect and the hunting's good.\" — 20260703_Rained",
+      "\"Think about it.\" — 20260703_Rained, mở màn đoạn về nguồn gốc văn hoá",
+      "\"Think about it.\" — 20260716_Winter",
+      "\"That's beer, brewed in a cave 13,000 years ago.\" — 20260516_Alcohol (câu chốt fact sốc dài 9 từ đứng riêng)",
+      "\"They were hotboxing funerals 2,500 years ago.\" — 20260605_Weed",
+      "\"That's not gossip. / That's critical knowledge being passed from one brain to another through speech.\" — 20260703_Rained",
+      "\"It was basically a biological ighter.\" — 20260703_Rained",
+      "\"That's not a crop. / That's the ancient equivalent of finding a Swiss Army knife growing out of the ground.\" — 20260605_Weed"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "VÒNG TÒ MÒ MỞ RỒI ĐÓNG TƯỜNG MINH LÀ CỰC HIẾM: chỉ 3 lần trong 2/12 bài. Kênh gần như KHÔNG dùng kỹ thuật \"hẹn sẽ quay lại\". Thay vào đó họ giữ chân bằng chuỗi câu hỏi cụt được trả lời ngay (xem trên).",
+     "so_lieu": "3 lần / 2 bài (Winter nhóm giữa 2 lần, Travel nhóm cao 1 lần); 10/12 bài KHÔNG có vòng tò mò tường minh nào",
+     "trich": [
+      "\"The first answer is fire, and we'll come back to what fire did for the long winter nights later.\" — 20260716_Winter (mở ở 15,6% bài, đóng ở 71,4% bài)",
+      "\"You've beaten three of winter's four death sentences, but here's one more, and it's the one people almost never think about.\" — 20260716_Winter",
+      "\"But we weren't done. / There was one more invention coming, and it took an absurdly long time to show up.\" — 20260623_Travel (mở ở 72%, đóng ngay ở 74% bằng chương bánh xe)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "PHÁT HIỆN ÂM: KHÔNG BÀI NÀO BÁO TRƯỚC \"PHẦN HAY NHẤT Ở CUỐI\". Grep toàn bộ 21.081 từ: 0 lần \"stick around\", 0 \"stay tuned\", 0 \"by the end of this video\", 0 \"the best part is\", 0 \"at the end of the video\", 0 \"don't go anywhere\". Kênh này giữ chân 100% bằng chuỗi câu hỏi-đáp liên tiếp chứ không bằng lời hẹn.",
+     "so_lieu": "0/12 bài có câu hẹn \"phần hay nhất ở cuối\" (0 lần / 21.081 từ)",
+     "trich": [
+      "Chuỗi duy nhất gần giống là lời hẹn nội dung, không phải lời hẹn giữ chân: \"The first answer is fire, and we'll come back to what fire did for the long winter nights later.\" — 20260716_Winter",
+      "Kết quả grep các cụm \"stick around|stay tuned|by the end of this video|the best part|at the end of the video\" trên cả 12 file: chỉ trúng 1 câu KHÔNG phải CTA — \"No 6-year-old on Earth walks around feeling like the best part is behind them.\" — 20260511_LifeSpeeds"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MẬT ĐỘ TỪ NỐI ĐẦU CÂU giống hệt nhau ở hai nhóm — mở câu bằng \"And\" 6,96/1000 từ (nhóm cao) vs 6,94/1000 (nhóm dưới); mở bằng \"But\" 3,19 vs 4,32; mở bằng \"So\" 2,39 vs 2,72. Đây là văn phong nói-miệng của kênh, không phân biệt bài thắng bài chìm. Và dấu chấm than = 0 lần / 21.081 từ ở CẢ 12 BÀI; gạch ngang giữa câu = 0 lần / 12 bài.",
+     "so_lieu": "Dấu \"!\" = 0 lần trong 12/12 bài. Gạch ngang giữa câu = 0 lần trong 12/12 bài. \"And\" mở câu: 154 lần / 12 bài",
+     "trich": [
+      "Đếm thực trên 12 file: excl! = 0 ở tất cả (Rained 0, SpeciesLeft 0, Travel 0, Alcohol 0, Winter 0, Weed 0, Clothes 0, Animals 0, LifeSpeeds 0, Guns 0, Sick 0, IKEA 0)",
+      "Ví dụ nhịp \"And\" liên tiếp: \"And the fire, the one thing keeping you warm, keeping predators away, and keeping you alive, is now starting to struggle.\" — 20260703_Rained",
+      "\"And in the middle of all that, one job mattered more than everything else. / Keeping the fire going.\" — 20260703_Rained"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~185 từ cuối)",
+   "phat_hien": [
+    {
+     "y": "CALLBACK VỀ HOOK LÀ BẮT BUỘC: 12/12 bài kết bằng cách quay lại đúng hình ảnh/câu chữ của hook. 5/12 bài lặp gần như NGUYÊN VĂN cụm từ của câu mở đầu (bookend cứng). ⚠️ Có ở cả bài 30.611 v/ngày lẫn bài 68 v/ngày → NẾT KÊNH, KHÔNG PHẢI BÍ QUYẾT.",
+     "so_lieu": "12/12 bài có callback; 5/12 bài bookend nguyên văn (nhóm cao 2/4, nhóm giữa 1/4, nhóm dưới 2/4)",
+     "trich": [
+      "MỞ: \"For most of human history, we were not alone.\" → KẾT: \"For most of human history, we were just one branch of a much larger family. / Now, we're the only one left.\" — 20260614_SpeciesLeft (NHÓM CAO, bookend nguyên văn)",
+      "MỞ: \"...a small primate picking up a piece of fruit that had been sitting on the ground for too long.\" → KẾT: \"...the impulse is the same one that made a small primate reach for a piece of overripe fruit on a forest floor 10 million years ago.\" — 20260516_Alcohol (NHÓM CAO, bookend nguyên văn)",
+      "MỞ: \"Somewhere on Earth in the next 2 minutes, a human being is going to be shot.\" → KẾT: \"And somewhere on Earth, in the next 2 minutes, another one is going to go off.\" — 20260725_Guns (NHÓM DƯỚI, bookend nguyên văn — cùng kỹ thuật, 1.315 v/ngày)",
+      "MỞ: \"Maybe it was a terrible bookshelf with wobbly legs, one screw left over that you still can't explain.\" → KẾT: \"...that wobbly, slightly uneven bookshelf becomes yours in a way that no store-bought shelf ever could.\" — 20260428_IKEA (NHÓM DƯỚI, 68 v/ngày — cùng kỹ thuật)",
+      "MỞ: \"Right now, you are warm.\" → KẾT: \"And now, look at you. / You turn a dial and the room gets warm.\" — 20260716_Winter",
+      "MỞ: \"You got in your car this morning...\" → KẾT: \"Now you sit in a metal box on a paved road doing 70 and you call it a commute.\" — 20260623_Travel (NHÓM CAO)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÔNG THỨC KẾT 3 NHỊP mà 4/12 bài dùng y hệt: (1) \"So, here's the full picture.\" → (2) liệt kê 4-6 mốc/bước theo thứ tự thời gian, mỗi mốc một dòng → (3) quay sang \"bạn hôm nay\". Khối recap này LUÔN bắt đầu ở 85–91% bài. Xuất hiện ở 2/4 nhóm cao, 1/4 nhóm giữa, 1/4 nhóm dưới → NẾT KÊNH.",
+     "so_lieu": "4/12 bài dùng nguyên văn \"So, here's the full picture.\" — vị trí: 85,0% (Alcohol) · 87,7% (Travel) · 90,0% (Winter) · 90,6% (Guns)",
+     "trich": [
+      "\"So here's the full picture. / 10 million years ago, your ancestors were drawn to fermented fruit because it helped them find food. / 13,000 years ago, they were deliberately brewing in caves before they knew how to farm. / 12,000 years ago, they were possibly building the first monuments in human history just to have a place to drink together. / 9,000 years ago, they had recipes. / 5,000 years ago, entire civilizations were running on it.\" — 20260516_Alcohol (NHÓM CAO)",
+      "\"So, here's the full picture. / For 300,000 years, humans had nothing but their legs and they used them harder than any animal on Earth. / They hit water and figured out how to float. / They needed to carry more so they learned to drag. / Then they built frame. / Then they partnered with animals.\" — 20260623_Travel (NHÓM CAO)",
+      "\"So, here's the full picture. / Winter came at your ancestors with four weapons. / The cold, and they answered it with fire and with sewn clothing... / The night, and they answered it by building shelters out of whatever the land gave them. / Even the bones of mammoths. / The hunger, and they answered it by drying, freezing, and rendering...\" — 20260716_Winter",
+      "\"So, here's the full picture. / Alchemists earching for eternal life accidentally created a fire that carries its own oxygen, and they named it medicine.\" — 20260725_Guns (NHÓM DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU ĐỊNH DANH NGƯỜI XEM: cụm \"That's you\" nguyên văn = 0/12 bài. Nhưng cụm \"And now, look at you.\" nguyên văn = 2/12 bài, và cả hai đều KHÔNG thuộc nhóm trên (Winter nhóm giữa 6.287 v/ngày, Guns nhóm dưới 1.315 v/ngày). 0/4 bài nhóm cao dùng câu này. Cụm \"Next time you...\" = 1/12 bài, cũng nhóm dưới.",
+     "so_lieu": "\"That's you\" = 0/12 · \"And now, look at you.\" = 2/12 (0/4 nhóm cao) · \"next time you\" = 1/12 (0/4 nhóm cao)",
+     "trich": [
+      "\"And now, look at you. / You turn a dial and the room gets warm. / You open a door and there's food that was grown on the other side of the planet in the middle of December.\" — 20260716_Winter (NHÓM GIỮA)",
+      "\"And now, look at you. / You'll hear that sound again tonight in a movie, a show, a game, and it will cost you nothing, not even a flinch.\" — 20260725_Guns (NHÓM DƯỚI)",
+      "\"Think about that the next time you hear one.\" — 20260725_Guns (NHÓM DƯỚI, câu cuối cùng của bài)",
+      "Gần nhất với \"That's you\" ở nhóm giữa: \"That's your brain running the same calculation your ancestors ran around the fire.\" — 20260427_Clothes"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "PHÁT HIỆN ÂM LỚN: 0/12 BÀI MỒI VIDEO KẾ. Không bài nào nói \"video sau mình sẽ làm về...\", không playlist tease, không \"nếu thích cái này thì xem cái kia\". Câu duy nhất nhắc video kế là câu hành chính của giveaway. Kênh này chốt bài rồi thả, không nối chuỗi.",
+     "so_lieu": "0/12 bài mồi nội dung video kế; 1/12 bài nhắc \"next video\" nhưng chỉ để công bố người trúng giveaway",
+     "trich": [
+      "\"I'll announce the winner in the next video.\" — 20260526_Do_Animals_Know_When_Another_Animal_is_a_Baby_ (câu hành chính, không mồi nội dung)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHỐT MẠNH, KHÔNG HẠ NHIỆT: 11/12 bài kết bằng một câu tuyên bố ngắn, đanh, không xin xỏ, không dặn dò. Bài DUY NHẤT hạ nhiệt và khuyên bảo người xem là bài 1.540 v/ngày. Và \"Thank you for watching\" chỉ xuất hiện 1/12 bài.",
+     "so_lieu": "11/12 bài chốt bằng câu tuyên bố; 1/12 bài kết bằng lời khuyên; 1/12 bài có \"Thank you for watching\"",
+     "trich": [
+      "\"You get creative, and that might be the single biggest reason we're still here.\" — 20260703_Rained (top 1)",
+      "\"Now, we're the only one left.\" — 20260614_SpeciesLeft",
+      "\"They didn't know here they were going. / They went anyway. / And that's the most human thing there is.\" — 20260623_Travel",
+      "\"...so that you would never have to.\" — 20260716_Winter",
+      "\"Aware that others could see us, and that never stopped. / ... You're not just picking clothes, you're choosing how to be seen. / The same instinct humans have had for thousands of years.\" — 20260427_Clothes",
+      "\"So, if all of those people hadn't kept rying, would you even be here today?\" — 20260507_Sick (kết bằng câu hỏi, 275 v/ngày)",
+      "NGOẠI LỆ DUY NHẤT (lời khuyên, hạ nhiệt): \"And what I suggest you do is to go see new places every day.\" — 20260511_LifeSpeeds (1.540 v/ngày)",
+      "\"Thank you for watching.\" — 20260526_Animals (bài duy nhất có câu này)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "185 TỪ CUỐI CỦA NHÓM CAO GẦN NHƯ KHÔNG CÓ \"you\" TRỰC TIẾP — trừ Travel. Nhóm cao kết bằng \"we/they\" (SpeciesLeft, Travel, Rained) trong khi nhóm giữa/dưới kết bằng \"you\" (Winter, Guns, Clothes, IKEA, LifeSpeeds). Mật độ you/your toàn bài: nhóm cao trung vị 18,0/1000 từ · nhóm giữa 19,0 · nhóm dưới 44,1. Hai bài \"you\" đậm đặc nhất kênh là hai bài chìm nhất: LifeSpeeds 66,1/1000 (1.540 v/ngày) và IKEA 69,4/1000 (68 v/ngày). ⚠️ NHƯNG hai bài đó cũng là hai bài duy nhất thuộc đề tài tâm lý về-BẠN, nên đây có thể chỉ là hệ quả của đề tài chứ không phải của cách viết. Không tách được bằng 12 bài.",
+     "so_lieu": "Mật độ you/your trung vị: nhóm cao 18,0/1000 từ · nhóm dưới 44,1/1000 từ. Hai bài >60/1000 (LifeSpeeds 66,1 và IKEA 69,4) là hai bài xếp thứ 9 và 12 về view/ngày",
+     "trich": [
+      "Kết ngôi \"we\": \"You get creative, and that might be the single biggest reason we're still here.\" — 20260703_Rained (top 1)",
+      "Kết ngôi \"we\": \"For most of human history, we were just one branch of a much larger family. / Now, we're the only one left.\" — 20260614_SpeciesLeft",
+      "Kết ngôi \"you\" dày đặc: \"Your childhood felt like a lifetime because very day was the first time your brain had seen the world. / Your adulthood feels like a time lapse because every day is a rerun. / Your brain has already decided that this isn't worth recording.\" — 20260511_LifeSpeeds (NHÓM DƯỚI)",
+      "Kết ngôi \"you\" dày đặc: \"You don't just love the thing, you love the version of yourself that made it.\" — 20260428_IKEA (NHÓM DƯỚI, đáy kênh)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ / LIKE / COMMENT",
+   "phat_hien": [
+    {
+     "y": "PHÁT HIỆN LỚN NHẤT CỦA CẢ BÀI BÓC: KHÔNG MỘT LẦN NÀO XIN ĐĂNG KÝ. Grep chữ \"subscribe\" trên toàn bộ 12 file: 0 lần. Grep \"leave a like / like this video / hit the bell / thumbs up\": 0 lần dùng làm CTA (chỉ 1 lần chữ \"like this video\" xuất hiện với nghĩa so sánh, không phải kêu gọi). 8/12 bài không có BẤT KỲ lời kêu gọi nào — mở là vào nội dung, đóng là hết.",
+     "so_lieu": "\"subscribe\" = 0 lần / 21.081 từ / 12 bài. Xin like = 0/12 bài. 8/12 bài có 0 CTA bất kỳ. Nhóm cao: 3/4 bài hoàn toàn không CTA",
+     "trich": [
+      "Kết quả grep -ioc \"subscribe\" trên cả 12 file: 0 0 0 0 0 0 0 0 0 0 0 0",
+      "Câu duy nhất chứa chữ \"like this video\" KHÔNG phải CTA: \"Just like this video. / I made this myself or you.\" — 20260428_IKEA (dùng chính video làm ví dụ minh hoạ hiệu ứng IKEA)",
+      "Ba bài nhóm cao kết KHÔNG CTA: \"...and that might be the single biggest reason we're still here.\" — 20260703_Rained · \"Now, we're the only one left.\" — 20260614_SpeciesLeft · \"And that's the most human thing there is.\" — 20260623_Travel"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CƠ CHẾ TƯƠNG TÁC DUY NHẤT LÀ GIVEAWAY SĂN ĐỒNG XU GIẤU TRONG VIDEO — 2/12 bài, đặt ở 98,3%–98,4% bài (3 dòng cuối cùng), TÁCH RỜI hoàn toàn khỏi nội dung. Cả 2 bài đều thuộc nhóm GIỮA. 0/4 bài nhóm cao và 0/4 bài nhóm dưới có giveaway.",
+     "so_lieu": "2/12 bài có giveaway (nhóm cao 0/4, nhóm giữa 2/4, nhóm dưới 0/4). Độ dài khối giveaway: 27 từ (Weed, 1,6% bài) và ~40 từ (Animals, 2,2% bài)",
+     "trich": [
+      "\"If you noticed a gold coin with the face of Socrates hidden somewhere in this video, drop the timestamp in the comments. / One random person who gets it right wins a $20 gift card. / I'll announce the winner in the next video. / Thank you for watching.\" — 20260526_Do_Animals_Know_When_Another_Animal_is_a_Baby_ (đặt ở 98,3% bài)",
+      "\"Now, time for the winner of the previous video giveaway. / And the winner is on the pinned comment on that video. / If you see your name, congratulations.\" — 20260605_When_Did_Ancient_Humans_Started_Smoking_Weed_ (đặt ở 98,4% bài, 3 dòng cuối)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LINK NGUỒN Ở DESCRIPTION: 1/12 bài, đúng 1 câu 19 từ, đặt làm dòng cuối cùng (98,4% bài). Đây là CTA duy nhất trong 4 bài nhóm cao — và nó là CTA về CHẤT LƯỢNG NGUỒN, không phải về kênh.",
+     "so_lieu": "1/12 bài (nhóm cao 1/4). Dài 19 từ = 1,6% bài",
+     "trich": [
+      "\"If you want to dig deeper into any of this, all the research is linked down in the description.\" — 20260516_When_Did_Ancient_Humans_Start_Drinking_Alcohol_ (dòng cuối cùng của bài, 9.176 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "QUẢNG CÁO NHÀ TÀI TRỢ: 1/12 bài — và là bài dài nhất kênh (2.707 từ) đồng thời là bài xếp thứ 10/12 về view/ngày. Khối quảng cáo dài 231 từ = 8,5% BÀI, chèn ở mốc 9,1%–17,6% (tức phút thứ 1:10–2:15), cắt ngang ngay sau hook và trước khi trả lời câu hỏi lõi. 0/4 bài nhóm cao có sponsor.",
+     "so_lieu": "1/12 bài có sponsor (nhóm cao 0/4, nhóm dưới 1/4). Khối sponsor 231 từ / 2.707 từ = 8,5% bài, đặt ở 9,1%–17,6%",
+     "trich": [
+      "Câu chuyển VÀO quảng cáo: \"So how does that happen? / ... Which brings me to today's sponsor, World of Warships.\" — 20260725_Guns",
+      "Câu chuyển RA khỏi quảng cáo: \"Thanks to World of Warships for sponsoring this video. / All right, back to the question that started all of this. / How does a failed medicine become the machine that changed everything?\" — 20260725_Guns"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "phat_hien": [
+    {
+     "y": "SỐ CHƯƠNG 7–16, CHƯƠNG TRUNG BÌNH 85–232 TỪ. Nhóm cao: Rained 11 chương/2.413 từ (219 từ/chương) · SpeciesLeft 7 chương/1.537 từ (220) · Travel 16 chương/2.053 từ (128) · Alcohol 9 chương/1.210 từ (134). Nhóm dưới: LifeSpeeds 9/1.694 (188) · Guns 14/2.725 (195) · Sick 8/1.415 (177) · IKEA 9/764 (85). KHÔNG tách nhóm — số chương và độ dài chương không dự báo được gì.",
+     "so_lieu": "12/12 bài: 7–16 chương, trung vị 9,5 chương. Chương ngắn nhất toàn kênh 37 từ (Travel, chương \"con vật khác\"), dài nhất 516 từ (Guns, chương Constantinople)",
+     "trich": [
+      "Bộ xương bài top-1 (20260703_Rained, 2.413 từ, 11 chương): hook nhập vai 179 từ (0–7,4%) → đối lập hiện đại 89 từ (7,4–11,1%) → 3 cách mưa giết bạn 225 từ (11,1–20,4%) → GIỮ LỬA 383 từ (20,4–36,3%) → chế đồ 210 từ (36,3–45,0%) → dây thừng 143 từ (45,0–50,9%) → giường ngủ 98 từ (50,9–55,0%) → tranh hang động 286 từ (55,0–66,8%) → văn hoá kể chuyện 354 từ (66,8–81,5%) → CÚ LẬT \"mưa thật ra là tốt\" 234 từ (81,5–91,2%) → recap + quay sang bạn 212 từ (91,2–100%)",
+      "Bộ xương bài top-2 (20260614_SpeciesLeft, 1.537 từ, 7 chương, kiểu DANH SÁCH LOÀI): hook 140 từ (9,1%) → Homo erectus 316 từ (20,6%) → Neanderthal 324 từ (21,1%) → Denisovan 247 từ (16,1%) → Homo floresiensis 219 từ (14,2%) → \"vì sao là ta\" 187 từ (12,2%) → kết 104 từ (6,8%)",
+      "Bộ xương bài đáy (20260428_IKEA, 764 từ, 9 chương): hook 62 từ → nghiên cứu 2011 91 từ → cơ chế 59 từ → TỰ NHẮC VIDEO NÀY 58 từ → Aronson 77 từ → ví dụ đời thường 80 từ → tiến hoá 144 từ → mặt tối 107 từ → IKEA bán gì 86 từ"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TRỤC LEO THANG: 12/12 bài đều đi theo MỘT trục duy nhất, không nhảy cóc. Ba trục được dùng: (a) trục THỜI GIAN cổ→mới, (b) trục MỐI ĐE DOẠ liệt kê trước rồi gỡ từng cái, (c) trục CÔNG NGHỆ dễ→khó. Nhóm cao 4/4 dùng trục rõ; nhóm dưới 4/4 cũng có trục → NẾT KÊNH.",
+     "so_lieu": "12/12 bài có trục đơn. Trục thời gian: 5/12 (Alcohol, Weed, Guns, SpeciesLeft, Sick) · trục mối đe doạ: 2/12 (Rained, Winter) · trục công nghệ/leo thang khó: 3/12 (Travel, Clothes, LifeSpeeds) · trục cơ chế→hệ quả: 2/12 (Animals, IKEA)",
+     "trich": [
+      "Trục MỐI ĐE DOẠ, khai báo trước rồi gỡ từng cái: \"It came at you from four different directions at the same time. / The cold could kill you. / The hunger could kill you. / The animals could kill you. / And the long, dark, endless nights could break you before any of the others got the chance.\" — 20260716_Winter (rồi 4 chương sau gỡ đúng 4 cái, và chương recap gọi lại \"Winter came at your ancestors with four weapons.\")",
+      "Trục MỐI ĐE DOẠ ở bài top-1: \"...could kill you in three different ways before it even stopped. / The first one is cold. ... / The second one is flooding. ... / And the third one, maybe the worst, is predators.\" — 20260703_Rained",
+      "Trục THỜI GIAN: chương recap của 20260516_Alcohol lặp đúng thứ tự đã kể — 10 triệu năm → 13.000 → 12.000 → 9.000 → 5.000 năm",
+      "Trục CÔNG NGHỆ: 20260623_Travel đi chân → thuyền → kéo lê → travois → chó → ngựa → con vật khác → bánh xe, và chốt \"Every one of those breakthroughs took thousands of years and every one was built on top of what came before it.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÚ LẬT LỚN NHẤT ĐẶT Ở 74–82% BÀI Ở 3/4 BÀI NHÓM CAO. Vị trí cú lật: Rained 81,5% · SpeciesLeft 81,1% · Travel 73,9% · Alcohol 50,1%. Nhóm giữa/dưới đặt sớm hơn và rải rác: Animals 45,0% · Guns 39,7% · Winter 71,4% · Clothes 54,5% · LifeSpeeds 71,4%. Với n=4 mỗi nhóm đây chỉ là gợi ý, không phải luật.",
+     "so_lieu": "3/4 bài nhóm cao đặt cú lật ở 73,9–81,5% bài; nhóm dưới 1/4 bài đặt trong khoảng đó",
+     "trich": [
+      "Cú lật ở 81,5%: \"Now, here's the part nobody talks about. / Rain wasn't always bad. / Sometimes it was actually the best thing that could happen.\" — 20260703_Rained (lật ngược toàn bộ tiền đề của bài)",
+      "Cú lật ở 81,1%: \"So, why are we the only human species left? / The obvious answer is intelligence, but that falls apart quickly because Neanderthals were intelligent, Denisovans adapted to extreme environments, Homo erectus outlasted us many times over...\" — 20260614_SpeciesLeft",
+      "Cú lật ở 73,9%: \"Here's something that doesn't make sense until you think about it. / Humans crossed every ocean on Earth before anyone invented the wheel.\" — 20260623_Travel",
+      "Cú lật SỚM ở 50,1%: \"An archaeobotanist named Patrick McGovern... has spent decades arguing that humans didn't start farming to make bread. / They started farming to make beer.\" — 20260516_Alcohol",
+      "Cú lật SỚM ở 45,0% (nhóm giữa): \"Now, here's the disturbing part.\" — 20260526_Animals"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CHƯƠNG KẾT LUÔN BẮT ĐẦU Ở 85–95% BÀI — 12/12 bài. Không bài nào kết dài quá 15% hay ngắn hơn 5%. Nhóm cao: 91,2% · 93,2% · 87,7% · 85,0%. Nhóm dưới: 92,2% · 90,6% · 87,9% · 88,7%. Giống hệt nhau → NẾT KÊNH.",
+     "so_lieu": "12/12 bài, chương kết bắt đầu ở 85,0%–95,3% (trung vị 90,3%), dài 61–212 từ",
+     "trich": [
+      "\"So, what did ancient humans do when it rained all day? / Everything that mattered.\" — 20260703_Rained (bắt đầu ở 91,2%, dài 212 từ)",
+      "\"So here's the full picture.\" — 20260516_Alcohol (bắt đầu ở 85,0%, dài 162 từ)",
+      "\"The other human species weren't early versions of us, and they weren't simply stepping stones on the way to become Homo sapiens.\" — 20260614_SpeciesLeft (bắt đầu ở 93,2%, dài 104 từ)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG",
+   "phat_hien": [
+    {
+     "y": "KHUÔN A — \"[But/Now/And] here's the [part/thing/problem/issue]\": 18/38 câu chuyển. Đây là khuôn phổ biến nhất kênh. Công thức: 1 từ nối + \"here's\" + danh ngữ hứa hẹn. Trung vị 7 từ. Xuất hiện ở cả nhóm cao lẫn nhóm dưới.",
+     "so_lieu": "18/38 câu chuyển thuộc khuôn này, phân bố trong 9/12 bài",
+     "trich": [
+      "\"But here's the thing.\" — 20260703_Rained",
+      "\"But here's the issue.\" — 20260427_Clothes",
+      "\"But, here's the problem.\" — 20260716_Winter",
+      "\"Now, here's the disturbing part.\" — 20260526_Animals",
+      "\"Now, here's the part nobody talks about.\" — 20260703_Rained",
+      "\"Now, here's the accident inside the accident.\" — 20260725_Guns",
+      "\"But here's the part nobody tells you about those 200 years.\" — 20260725_Guns",
+      "\"And here's the part hat stops you cold.\" — 20260507_Sick",
+      "\"But, here's the thing that nobody tells you about caves.\" — 20260716_Winter",
+      "\"But here's something even deeper underneath at.\" — 20260427_Clothes",
+      "\"Here's the part about winter that people forget because we've completely erased it from our lives.\" — 20260716_Winter",
+      "\"And here's the part that should make you stop for a second, because it applies to you right now.\" — 20260427_Clothes",
+      "\"Because here's the thing, for most of human history, you had to make verything yourself.\" — 20260428_IKEA"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN B — \"Here's + what/why/where + [mệnh đề]\": 13/38 câu chuyển. Khác khuôn A ở chỗ nó hứa một LỜI GIẢI THÍCH chứ không hứa một mẩu tin. Trung vị 6 từ.",
+     "so_lieu": "13/38 câu chuyển, phân bố trong 9/12 bài",
+     "trich": [
+      "\"And here's why that was so terrifying.\" — 20260703_Rained",
+      "\"Now, here's where it gets really interesting.\" — 20260703_Rained",
+      "\"But here's where the story takes a turn that nobody expects.\" — 20260703_Rained",
+      "\"But here's what makes this really interesting.\" — 20260703_Rained",
+      "\"Now, here's what makes that finding so important.\" — 20260516_Alcohol",
+      "\"Here's what's wild about that.\" — 20260623_Travel",
+      "\"Here's what researchers have started to argue.\" — 20260427_Clothes",
+      "\"And here's why that matters.\" — 20260511_LifeSpeeds",
+      "\"And here's where it urns into something you can't ignore.\" — 20260511_LifeSpeeds",
+      "\"Here's why this happens.\" — 20260428_IKEA",
+      "\"But here's where the whole design hits a wall.\" — 20260725_Guns",
+      "\"But here's what ancient humans did with ose long dark hours.\" — 20260716_Winter",
+      "\"Here's something most people don't realize.\" — 20260716_Winter"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN C — \"Let's + [start/talk about/look at/go back]\": 6 câu trong 5/12 bài. Đây là khuôn dùng cho bài kiểu DANH SÁCH (mỗi chương một loài / một mốc). Bài top-2 của kênh (SpeciesLeft) dùng khuôn này thay cho khuôn \"here's\" — nó là bài DUY NHẤT gần như không dùng \"here's\" (1 lần / 1.537 từ).",
+     "so_lieu": "6 câu / 5 bài (nhóm cao 2/4, nhóm giữa 1/4, nhóm dưới 1/4). Độ dài 4–13 từ",
+     "trich": [
+      "\"Let's talk about the Neanderthals, probably the most misunderstood species in human history.\" — 20260614_SpeciesLeft (mở chương ở 29,7% bài)",
+      "\"Now, let's talk about the Denisovans.\" — 20260614_SpeciesLeft (mở chương ở 50,7% bài)",
+      "\"So, let's start at the beginning. / Your feet.\" — 20260623_Travel",
+      "\"Let's start with the most obvious threat, the cold itself.\" — 20260716_Winter",
+      "\"Let's look at the timeline.\" — 20260427_Clothes",
+      "\"Let's go back, way back.\" — 20260507_Sick"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU ĐÓNG CHƯƠNG MÓC SANG CHƯƠNG SAU: kênh dùng hai kiểu — (a) câu tuyên bố dứt điểm rồi bỏ lửng, (b) câu nêu vấn đề MỚI do chính giải pháp vừa kể tạo ra (\"và điều đó lại đẻ ra vấn đề khác\"). Kiểu (b) là kỹ thuật mạnh nhất tìm được và dùng nhiều nhất ở bài nhóm giữa Winter.",
+     "so_lieu": "Kiểu (b) đếm được 9 lần / 5 bài (Winter 3, Travel 2, Rained 1, Guns 2, Alcohol 1)",
+     "trich": [
+      "\"Fire alone was never going to be nough. / What ancient humans needed was a way to carry warmth with them.\" — 20260716_Winter (đóng chương lửa, móc sang chương quần áo)",
+      "\"But a warm shelter creates a new problem, and it's a big one.\" — 20260716_Winter (đóng chương nhà, móc sang chương nhiên liệu)",
+      "\"You are tied to that shelter. / You can't just wander, and that means the food you need has to already be there.\" — 20260716_Winter (móc sang chương tích trữ)",
+      "\"Walking conquered land, boats conquered water, but there was still a problem nobody had solved.\" — 20260623_Travel (đóng chương thuyền, móc sang chương chở nặng)",
+      "\"So, humans started cheating.\" — 20260623_Travel (4 từ, móc sang chương kéo lê)",
+      "\"And in the middle of all that, one job mattered more than everything else. / Keeping the fire going.\" — 20260703_Rained (móc sang chương lửa)",
+      "\"All right, so the fire is going and you're mostly dry, but you cannot leave. / So, what do you do? / You make things.\" — 20260703_Rained (tổng kết chương cũ + câu hỏi + đáp cụt, cả ba trong 3 dòng)",
+      "\"But being ahead of your time has always been dangerous.\" — 20260605_Weed (móc sang chương Hoa Đà bị xử tử)",
+      "\"And this raises a question that's been debated for decades. / Why did humans start farming?\" — 20260516_Alcohol"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU CHUYỂN NGẮN TỚI MỨC BẤT NGỜ: trung vị 7 TỪ trên 38 câu; 11/38 câu chỉ 4–5 từ. Kênh không viết câu chuyển văn vẻ — họ để câu chuyển thật cụt để nhịp không tụt.",
+     "so_lieu": "38 câu chuyển: 4 từ ×4 câu · 5 từ ×7 · 6 từ ×2 · 7 từ ×7 · 8 từ ×2 · 9 từ ×2 · 10 từ ×4 · 11 từ ×5 · ≥15 từ ×5. Trung vị 7 từ",
+     "trich": [
+      "Ngắn nhất (4 từ): \"But here's the thing.\" · \"But here's the issue.\" · \"But, here's the problem.\" · \"Here's why this happens.\"",
+      "Dài nhất (26 từ, ngoại lệ): \"The first written record of gunpowder in human history is basically one alchemist elling everyone else, \"Guys, stop doing this.\" And here's why it kept exploding.\" — 20260725_Guns"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "phat_hien": [
+    {
+     "y": "⭐ PHÁT HIỆN TÁCH NHÓM SẠCH NHẤT CỦA CẢ BÀI BÓC: MẬT ĐỘ MỐC NIÊN ĐẠI CÓ CHỮ SỐ (\"N năm trước\"). 4/4 bài nhóm CAO đều có ≥7 mốc; 8/8 bài nhóm GIỮA+DƯỚI đều có ≤3 mốc. KHÔNG CHỒNG LẤN, không một ngoại lệ nào trong 12 bài. Đếm chính xác: Rained 9 · Travel 9 · Alcohol 9 · SpeciesLeft 7 || Weed 3 · Clothes 3 · Sick 2 · Winter 1 · Guns 1 · Animals 0 · LifeSpeeds 0 · IKEA 0. Mật độ trung vị: nhóm cao 4,47/1000 từ vs nhóm dưới 0,18/1000 từ (gấp 25 lần). ⚠️ Cảnh báo: có thể đây chỉ là hệ quả của ĐỀ TÀI (bài tiền sử tự nhiên nhiều mốc hơn bài tâm lý), nhưng Winter và Weed CŨNG là bài tiền sử mà chỉ có 1 và 3 mốc — nên nó không thuần tuý là đề tài.",
+     "so_lieu": "Nhóm cao 4/4 bài có ≥7 mốc \"N years ago\"; nhóm giữa+dưới 8/8 bài có ≤3 mốc. Trung vị 4,47/1000 từ (cao) vs 0,18/1000 từ (thấp)",
+     "trich": [
+      "9 mốc trong 1 bài: \"5,000 years ago · 5,200 years ago · 7,000 years ago · 40,000 years ago · 45,000 years ago · 50,000 years ago · 61,000 years ago · 77,000 years ago ×2\" — 20260703_Rained (top 1)",
+      "9 mốc trong 1 bài: \"10 million years ago ×3 · 13,000 years ago ×3 · 12,000 years ago · 9,000 years ago · 5,000 years ago\" — 20260516_Alcohol",
+      "9 mốc trong 1 bài: \"3.6 million years ago · 300,000 years ago · 100,000 years ago · 70,000 years ago · 65,000 years ago · 15,000 years ago · 5,500 years ago ×2 · 3,000 years ago\" — 20260623_Travel",
+      "1 mốc duy nhất trong 2.550 từ: \"15,000 years ago\" — 20260716_Winter (nhóm giữa, cùng đề tài tiền sử)",
+      "0 mốc: 20260526_Animals · 20260511_LifeSpeeds · 20260428_IKEA (nhóm giữa/dưới)",
+      "Cách dùng mốc để tạo cảm giác choáng: \"Homo erectus showed up around 2 million years ago. / And to put that number in perspective, everything modern humans have ever accomplished, every city we've built, every war we fought, every language we've spoken, all of it fits inside the last few thousand years.\" — 20260614_SpeciesLeft"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "NÊU ĐÍCH DANH NHÀ NGHIÊN CỨU: 14 người có tên riêng trong 8/12 bài. Công thức đặt tên luôn là \"[năm], [nghề nghiệp] named [Tên] + [động từ nghiên cứu]\" — không bao giờ chỉ nói \"các nhà khoa học\" khi có tên. Có ở cả nhóm cao lẫn nhóm dưới → NẾT KÊNH, không phải bí quyết.",
+     "so_lieu": "14 nhà nghiên cứu có tên / 8 bài (nhóm cao 2/4 bài, nhóm giữa 3/4, nhóm dưới 3/4)",
+     "trich": [
+      "\"In 2014, a biologist at UC Berkeley named Robert Dudley published a book called The Drunken Monkey.\" — 20260516_Alcohol (NHÓM CAO)",
+      "\"An archaeobotanist named Patrick McGovern, the leading expert on ancient alcohol in the world, has spent decades arguing that humans didn't start farming to make bread.\" — 20260516_Alcohol",
+      "\"In 1978, paleoanthropologist Mary Leakey discovered a trail of footprints in Laetoli, Tanzania.\" — 20260623_Travel (NHÓM CAO)",
+      "\"In 2014, anthropologist Polly Wiessner published a study where she compared daytime conversations and nighttime fireside conversations among the Ju/'hoansi Bushmen Kalahari Desert.\" — 20260703_Rained (NHÓM CAO)",
+      "\"In 2009, archaeologist Ian Gilligan published a detailed analysis about clothing and how e think.\" — 20260427_Clothes",
+      "\"Then in 1947, a Soviet archaeologist named Sergey Rudenko excavated frozen tombs in Siberia that had been sealed in permafrost for over 2,000 years.\" — 20260605_Weed",
+      "\"A primatologist named Jill Pruetz once watched a group of chimpanzees in Senegal take in a young chimp from a completely different group.\" — 20260526_Animals",
+      "\"In 2019, Adrian Bejan, a professor of mechanical engineering at Duke University, published a paper that put hard physics behind this.\" — 20260511_LifeSpeeds (NHÓM DƯỚI)",
+      "\"In the 1950s, researcher Elliot Aronson found that people who went through a difficult initiation to join a group rated that group as significantly more valuable...\" — 20260428_IKEA (NHÓM DƯỚI)",
+      "\"He was a Scottish church minister named Alexander Forsyth, and his problem was ducks.\" — 20260725_Guns (NHÓM DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "DI CHỈ CÓ TÊN LÀ ĐẶC SẢN CỦA NHÓM CAO: đếm được 18 địa danh khảo cổ có tên riêng, trong đó Rained 8 và Alcohol 5 (cộng lại 13/18 chỉ trong 2 bài nhóm cao). Công thức luôn là \"At [tên di chỉ] in [nước], archaeologists found [vật thể] dating to [niên đại]\" — địa điểm + người tìm + vật + niên đại, đủ bốn thứ trong một câu.",
+     "so_lieu": "18 di chỉ có tên / 12 bài. Nhóm cao 14/18 (Rained 8, Alcohol 5, Travel 1); nhóm giữa 4/18; nhóm dưới 0/18",
+     "trich": [
+      "\"At Blombos Cave in South Africa, archaeologists found a 100,000-year-old ochre processing workshop.\" — 20260703_Rained",
+      "\"At a Neanderthal site called Abri du Maras in France, archaeologists found a tiny fragment of twisted plant fiber string dating to roughly 5,200 years ago.\" — 20260703_Rained",
+      "\"At Sibudu Cave in South Africa, archaeologists found something most people wouldn't expect from 77,000 years ago, bedding.\" — 20260703_Rained",
+      "\"There's evidence of controlled fire use going back at least 400,000 years at a site called Qesem Cave in Israel, and possibly as far back as a million years at Wonderwerk Cave in South Africa.\" — 20260703_Rained",
+      "\"In 2018, archaeologists were excavating a cave near Haifa, Israel. / The cave is called Raqefet, and it was used by a group called the Natufians about 13,000 years ago.\" — 20260516_Alcohol",
+      "\"At a site called Göbekli Tepe, massive stone pillars, some weighing over 10 tons, were arranged in careful circles and carved with images of animals.\" — 20260516_Alcohol",
+      "\"In a Neolithic village called Jiahu in central China, archaeologists found pottery jars containing residue from a fermented drink made of rice, honey, grapes, and hawthorn berries.\" — 20260516_Alcohol",
+      "\"In a place called Mezhyrich, in what is now Ukraine, archaeologists found the remains of shelters built around 15,000 years ago.\" — 20260716_Winter (nhóm giữa)",
+      "\"High in those mountains, at a burial site called Jirzankal Cemetery, researchers dug into eight ancient tombs from around 500 BC.\" — 20260605_Weed (nhóm giữa)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "HEDGE (rào đón) 58 lần / 12 bài. Mật độ trung vị nhóm cao 4,34/1000 từ vs nhóm dưới 2,19/1000 từ — nhóm cao rào đón gấp 2 lần. NHƯNG có chồng lấn (Alcohol nhóm cao 4,13 vs Clothes nhóm giữa 4,65), nên đây là xu hướng chứ không phải luật tách nhóm. Từ rào hay dùng nhất: probably (14 lần), might have / may have (11), possibly (4).",
+     "so_lieu": "58 lần hedge / 12 bài. Trung vị: nhóm cao 4,34/1000 từ · nhóm giữa 2,23 · nhóm dưới 2,19. Đếm thô: Rained 14 · SpeciesLeft 7 · Travel 6 · Alcohol 5 || Winter 7 · Clothes 6 · Animals 3 · Weed 1 || Sick 4 · LifeSpeeds 3 · IKEA 2 · Guns 0",
+     "trich": [
+      "\"For roughly 40,000 years ago, we're not entirely sure how reliably humans could start fire from scratch.\" — 20260703_Rained",
+      "\"And for most of human history, most people probably couldn't do the second one.\" — 20260703_Rained",
+      "\"Someone sat in that cave, probably while the rain pounded outside, and manufactured pigment on purpose, with a system.\" — 20260703_Rained",
+      "\"Their ange may have been vast, but their numbers were likely thin, and thin populations rarely hold on when the world starts shifting underneath them.\" — 20260614_SpeciesLeft",
+      "\"Their fossils date from about 100,000 to 60,000 years ago, and stone tools uggest they may have survived until around 50,000 years ago.\" — 20260614_SpeciesLeft",
+      "\"The first boats were probably nothing, a fallen log, a bundle of reeds tied together, not designed, discovered.\" — 20260623_Travel",
+      "\"Boats go back at least 10,000 years and probably way further.\" — 20260623_Travel",
+      "\"12,000 years ago, they were possibly building the first monuments in human history just to have a place to drink together.\" — 20260516_Alcohol"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "TÁCH SỰ THẬT KHỎI SUY DIỄN MỘT CÁCH TƯỜNG MINH: 6 câu trong 5/12 bài. Kỹ thuật là nói thẳng \"cái này ta không chứng minh được\" RỒI VẪN KỂ TIẾP, dùng chính sự thành thật đó làm điểm tin cậy. Có ở cả nhóm cao lẫn nhóm dưới.",
+     "so_lieu": "6 câu tách sự-thật/suy-diễn tường minh / 5 bài (nhóm cao 3/4 bài, nhóm giữa 1/4, nhóm dưới 1/4)",
+     "trich": [
+      "\"Now, we can't prove that cave art was a rainy day activity, but the logic holds together. / The most creative xplosion in human prehistory happened in the exact places where people were most likely to be stuck inside for extended periods.\" — 20260703_Rained (mẫu chuẩn nhất của kỹ thuật này)",
+      "\"We don't know exactly what happened, but on a small island, a species doesn't need a massive catastrophe to disappear.\" — 20260614_SpeciesLeft",
+      "\"We don't know what they used. / Wood rots, bamboo decomposes. / Whatever they floated on is long gone. / But the tools are there, which means the crossing happened.\" — 20260623_Travel",
+      "\"The current theory is that this site wasn't a home. / It was a gathering place for ritual and feasting.\" — 20260516_Alcohol",
+      "\"That's not speculation. / That's a direct quote from the man who helped build the policy.\" — 20260605_Weed (đảo chiều: khẳng định KHÔNG phải suy diễn)",
+      "\"We don't know exactly why they performed trepanation. / The most common theory is that they believed something was trapped inside...\" — 20260507_Sick (NHÓM DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TRÍCH NGUYÊN VĂN NGUỒN CỔ: chỉ 1/12 bài. Kênh gần như không dùng kỹ thuật \"để nguồn tự nói\", mà luôn kể lại bằng lời mình. Lần duy nhất dùng lại là ngay trước câu tự giễu duy nhất của kênh.",
+     "so_lieu": "1/12 bài có trích dẫn nguyên văn nguồn cổ (nhóm giữa)",
+     "trich": [
+      "\"His exact words, \"It smolders and sends forth such fumes that no Greek vapor bath can surpass it. / The Scythians delighted.\" Is it just me or does he sound a little jealous?\" — 20260605_When_Did_Ancient_Humans_Started_Smoking_Weed_"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "phat_hien": [
+    {
+     "y": "⭐ NHÓM ĐỀ TÀI QUYẾT ĐỊNH NHIỀU HƠN CÁCH VIẾT. Chia 12 bài theo chủ điểm rồi so trung vị view/ngày: (A) Đời sống người tiền sử kể ở NGÔI THỨ BA = 8 bài, trung vị 7.732 v/ngày. (B) Tâm lý \"về BẠN\" hiện đại = 2 bài, trung vị 804. (C) Động vật = 1 bài, 2.651. (D) Lịch sử công nghệ ngoài tiền sử (súng) = 1 bài, 1.315. Nhóm A gấp 9,6 lần nhóm B. 4/4 bài nhóm view cao đều thuộc nhóm A.",
+     "so_lieu": "Nhóm A (tiền sử ngôi 3): 8 bài, trung vị 7.732 v/ngày (30.611·16.076·14.295·9.176·6.287·3.868·3.118·275). Nhóm B (tâm lý về-BẠN): 2 bài, trung vị 804 (1.540·68). Nhóm C: 1 bài 2.651. Nhóm D: 1 bài 1.315",
+     "trich": [
+      "Nhóm A đỉnh: \"What Did Ancient Humans Do When It Rained All Week?\" — 20260703, 30.611 v/ngày",
+      "Nhóm A đáy: \"What did Early Humans do when they got Sick\" — 20260507, 275 v/ngày (nhóm A cũng có bài chết, nên đề tài đúng KHÔNG bảo đảm thắng)",
+      "Nhóm B: \"Why Life Speeds Up As You Get Older?\" — 20260511, 1.540 v/ngày · \"what is The IKEA Effect.\" — 20260428, 68 v/ngày",
+      "Nhóm D: \"How Did Human Accidentally Invented Guns?\" — 20260725, 1.315 v/ngày (bài dài nhất kênh, 2.707 từ, 12:47)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN TITLE: 10/12 title mở bằng từ để hỏi (What/Why/When/How/Do), 8/12 kết bằng dấu \"?\". Hai title KHÔNG phải câu hỏi đều theo đúng một khuôn khác: \"The + [tính từ đánh giá] + [danh từ] + Humans...\". Cả hai nhóm đều dùng khuôn hỏi → NẾT KÊNH.",
+     "so_lieu": "10/12 title mở bằng từ để hỏi · 8/12 kết bằng \"?\" · 2/12 theo khuôn \"The + adj + noun\" (đều không có dấu ?)",
+     "trich": [
+      "Khuôn hỏi, nhóm cao: \"What Did Ancient Humans Do When It Rained All Week?\" · \"Why Are We the Only Human Species Left? What happened to others...\" · \"How Did Ancient Humans Travel the World?\" · \"When Did Ancient Humans Start Drinking Alcohol?\"",
+      "Khuôn hỏi, nhóm dưới: \"Why Life Speeds Up As You Get Older?\" · \"How Did Human Accidentally Invented Guns?\" · \"What did Early Humans do when they got Sick\" · \"what is The IKEA Effect.\"",
+      "Khuôn \"The + adj + noun\": \"The Real Reason Humans Started Wearing Clothes\" (3.118 v/ngày) · \"The Disturbing Ways Ancient Humans Survived Winter\" (6.287 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "⚠️ BẰNG CHỨNG TITLE KHÔNG QUYẾT ĐỊNH: hai bài dùng ĐÚNG MỘT KHUÔN TITLE \"What Did Ancient/Early Humans Do When ___\" cho ra 30.611 và 275 view/ngày — chênh 111 LẦN. Tương tự khuôn \"When Did Ancient Humans Start(ed) ___?\" cho ra 9.176 (rượu) và 3.868 (cần sa), chênh 2,4 lần. Cùng khuôn, cùng ngách, kết quả khác nhau hoàn toàn.",
+     "so_lieu": "2 cặp title cùng khuôn: cặp 1 chênh 111 lần (30.611 vs 275), cặp 2 chênh 2,4 lần (9.176 vs 3.868)",
+     "trich": [
+      "\"What Did Ancient Humans Do When It Rained All Week?\" — 20260703, 30.611 v/ngày",
+      "\"What did Early Humans do when they got Sick\" — 20260507, 275 v/ngày (CÙNG KHUÔN)",
+      "\"When Did Ancient Humans Start Drinking Alcohol?\" — 20260516, 9.176 v/ngày",
+      "\"When Did Ancient Humans Started Smoking Weed?\" — 20260605, 3.868 v/ngày (CÙNG KHUÔN, kể cả lỗi ngữ pháp \"Started\" cũng không giết bài)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG CÓ SERIES ĐÁNH SỐ, KHÔNG CÓ PHẦN 1/PHẦN 2: 0/12 bài. NHƯNG CÓ TÁI SỬ DỤNG SỰ KIỆN: chi tiết \"giường ngủ 77.000 năm ở Nam Phi\" xuất hiện ở CẢ hai bài đăng cách nhau 13 ngày. Đây là dấu hiệu kênh khai thác lại tư liệu nghiên cứu giữa các bài chứ không nghiên cứu mới hoàn toàn mỗi lần.",
+     "so_lieu": "0/12 bài đánh số series · 0/12 title trùng nhau · ít nhất 1 sự kiện dùng lại ở 2/12 bài, cách nhau 13 ngày",
+     "trich": [
+      "\"At Sibudu Cave in South Africa, archaeologists found something most people wouldn't expect from 77,000 years ago, bedding. / Actual bedding. / Layers of sedges, rushes, and grasses carefully arranged as sleeping mats.\" — 20260703_Rained (đăng 03/07)",
+      "\"At a site in South Africa, archaeologists found evidence of bedding made from layers of grasses and leaves, carefully arranged, dating back an astonishing 77,000 years.\" — 20260716_Winter (đăng 16/07, CÙNG SỰ KIỆN, viết lại chữ khác)",
+      "Chủ đề \"đêm dài + lửa = văn hoá ra đời\" cũng lặp ở cả hai: \"...over 80% of the conversation shifted to stories, songs, and ceremonies.\" (Rained) vs \"A huge amount of what we think of as human culture, the myths, the songs, the shared knowledge, was forged in exactly these conditions.\" (Winter)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỀ TÀI CÀNG \"HÀNG NGÀY, AI CŨNG TỪNG TRẢI\" CÀNG ĂN. Bốn bài nhóm cao đều lấy một trải nghiệm người xem CÓ THẬT hôm nay (trời mưa cả tuần · lái xe đi làm · uống rượu · nhìn quanh thấy chỉ còn loài mình) rồi kéo về 100.000 năm trước. Bốn bài nhóm dưới lấy khái niệm trừu tượng (thời gian trôi nhanh · hiệu ứng IKEA) hoặc sự kiện xa lạ (phát minh súng · ốm đau thời cổ).",
+     "so_lieu": "4/4 bài nhóm cao neo vào một trải nghiệm thường nhật cụ thể; 1/4 bài nhóm dưới làm được điều đó (Sick — nhưng vẫn chết ở 275 v/ngày)",
+     "trich": [
+      "\"And then it starts raining. / Not a light drizzle, a heavy soaking wind-driven rain that doesn't stop.\" — 20260703_Rained",
+      "\"You got in your car this morning, turned the key, pressed the pedal...\" — 20260623_Travel",
+      "\"And the last time you had a drink, beer, wine, whatever, you probably just drank it and forgot about it.\" — 20260516_Alcohol",
+      "Đối chứng nhóm dưới, khái niệm trừu tượng: \"That feeling that you get has a name and it's quietly controlling more of your life than you realize.\" — 20260428_IKEA (68 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "phat_hien": [
+    {
+     "y": "12 VIDEO / 89 NGÀY (27/04/2026 → 25/07/2026). Khoảng cách giữa các bài: 1, 9, 4, 5, 10, 10, 9, 9, 10, 13, 9 ngày. TRUNG VỊ 9 NGÀY, trung bình 8,1 ngày. Tức khoảng 3,4 video/tháng — chậm hơn nhiều so với nhịp \"2 video/tuần\" mà kênh mới hay bị khuyên.",
+     "so_lieu": "12 video / 89 ngày · trung vị khoảng cách 9 ngày · khoảng ngắn nhất 1 ngày · dài nhất 13 ngày",
+     "trich": [
+      "Danh sách ngày đăng từ tên file: 20260427 · 20260428 · 20260507 · 20260511 · 20260516 · 20260526 · 20260605 · 20260614 · 20260623 · 20260703 · 20260716 · 20260725"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ ĐÚNG MỘT ĐỢT GOM: hai bài đầu tiên đăng cách nhau 1 NGÀY (27/04 và 28/04) — và đó chính là hai bài lệch nhất về đề tài lẫn kết quả (3.118 v/ngày và 68 v/ngày). Sau đợt gom mở kênh, kênh không bao giờ gom nữa: 10 khoảng còn lại đều ≥4 ngày.",
+     "so_lieu": "1/11 khoảng ≤2 ngày (chỉ ở cặp bài mở kênh); 10/11 khoảng ≥4 ngày",
+     "trich": [
+      "20260427_The_Real_Reason_Humans_Started_Wearing_Clothes — 3.118 v/ngày",
+      "20260428_what_is_The_IKEA_Effect_ — 68 v/ngày (đăng sau 1 ngày, bài đáy tuyệt đối của kênh)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP CHẬM DẦN NHƯNG VIDEO DÀI DẦN — VÀ VIEW/NGÀY TĂNG 4,9 LẦN. Năm khoảng đầu trung vị 5 ngày; sáu khoảng sau trung vị 9,5 ngày. Cùng lúc, độ dài video tăng đều: 3 bài đầu 4:09 / 6:43 / 8:03 → 3 bài cuối 11:36 / 11:30 / 12:47. Trung vị view/ngày của 6 bài nửa đầu = 2.096; của 6 bài nửa sau = 10.291.",
+     "so_lieu": "Trung vị khoảng cách: 5 ngày (5 khoảng đầu) → 9,5 ngày (6 khoảng sau). Trung vị độ dài: 6:43 (6 bài đầu) → 9:22 (6 bài sau). Trung vị view/ngày: 2.096 (6 bài đầu) → 10.291 (6 bài sau) = tăng 4,9 lần",
+     "trich": [
+      "6 bài nửa đầu theo ngày đăng và v/ngày: 27/04 Clothes 3.118 · 28/04 IKEA 68 · 07/05 Sick 275 · 11/05 LifeSpeeds 1.540 · 16/05 Alcohol 9.176 · 26/05 Animals 2.651 → trung vị 2.096",
+      "6 bài nửa sau: 05/06 Weed 3.868 · 14/06 SpeciesLeft 16.076 · 23/06 Travel 14.295 · 03/07 Rained 30.611 · 16/07 Winter 6.287 · 25/07 Guns 1.315 → trung vị 10.291"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHÔNG THỂ KẾT LUẬN NHỊP ĐĂNG CÓ LIÊN QUAN VIEW/NGÀY. Chỉ có 11 khoảng cách, và chúng gần như đồng nhất (9/11 khoảng nằm trong 4–10 ngày). Bài top-1 đến sau khoảng 10 ngày; bài đáy đến sau khoảng 1 ngày; nhưng bài sau khoảng dài nhất (13 ngày) chỉ đạt 6.287 v/ngày (nhóm giữa). Biến thiên view/ngày giữa các bài (68 → 30.611, chênh 450 lần) lớn hơn biến thiên khoảng cách (1 → 13 ngày, chênh 13 lần) hàng chục lần, nên nhịp đăng KHÔNG phải biến giải thích được.",
+     "so_lieu": "11 khoảng cách, 9/11 nằm trong 4–10 ngày. Dải view/ngày 68–30.611 (chênh 450 lần) vs dải khoảng cách 1–13 ngày (chênh 13 lần)",
+     "trich": [
+      "Sau khoảng 10 ngày → 20260703_Rained, 30.611 v/ngày (cao nhất)",
+      "Sau khoảng 13 ngày (dài nhất) → 20260716_Winter, 6.287 v/ngày (nhóm giữa)",
+      "Sau khoảng 9 ngày → 20260725_Guns, 1.315 v/ngày (nhóm dưới); cũng sau khoảng 9 ngày → 20260614_SpeciesLeft, 16.076 v/ngày (nhóm cao). CÙNG khoảng cách, chênh 12 lần"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP ĐỌC (wpm) NHÓM CAO NHANH HƠN ~17 wpm. Trung vị wpm: nhóm cao 198,5 (207·188·215·198) vs nhóm dưới 185 (186·212·175·184) vs nhóm giữa 206,5. Có chồng lấn (Guns nhóm dưới 212 wpm cao hơn SpeciesLeft nhóm cao 188 wpm) nên chỉ là xu hướng. Toàn kênh chạy 175–221 wpm — RẤT NHANH so với ngách tài liệu.",
+     "so_lieu": "12/12 bài chạy 175–221 wpm. Trung vị: nhóm cao 198,5 · nhóm giữa 206,5 · nhóm dưới 185. Bài chậm nhất là bài 275 v/ngày (175 wpm); bài nhanh nhất là bài 6.287 v/ngày (221 wpm)",
+     "trich": [
+      "Nhóm cao: Rained 207 wpm · SpeciesLeft 188 · Travel 215 · Alcohol 198",
+      "Nhóm dưới: LifeSpeeds 186 · Guns 212 · Sick 175 · IKEA 184",
+      "Số từ trung bình mỗi dòng (mỗi câu) toàn kênh: 12,4 từ — tức câu ngắn, đọc nhanh"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  }
+ ]
+}

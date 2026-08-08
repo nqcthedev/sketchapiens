@@ -1,0 +1,589 @@
+{
+ "kenh": "PaintItSimple (Paint It Simple) — 12.000 sub, ngách Ancient Humans Explained, lời đọc EN",
+ "so_bai": 7,
+ "view_ngay_cao": "NHÓM TRÊN (3/7 bài, tính view ÷ số ngày tới 08/08/2026): 20260501_The_CRAZIEST_Survival_Methods...Ice_Age = 19.497 v/ngày (1.930.169 view / 99 ngày) · 20260519_How_Did_Ancient_Humans_Lose_Their_Dark_Skin = 3.596 v/ngày (291.240 / 81) · 20260506_What_Did_Ancient_Humans_Use_to_Hunt_Giants = 1.683 v/ngày (158.195 / 94)",
+ "view_ngay_thap": "NHÓM DƯỚI (3/7 bài): 20260712_What_Did_Ancient_Humans_Do_When_They_Met_Other_Human_Species = 94 v/ngày (2.539 / 27) · 20260429_The_Craziest_Communication_Methods = 64 v/ngày (6.471 / 101) · 20260710_What_Did_Ancient_Humans_Do_to_Preserve_Food = 37 v/ngày (1.060 / 29). Bài GIỮA (không thuộc nhóm nào): 20260614_How_Did_Ancient_Humans_Survive_Deadly_Winters = 122 v/ngày (6.705 / 55) — khi dùng bài này tôi ghi rõ \"bài giữa\".",
+ "gioi_han": "1) n = 7 bài. Mọi so sánh nhóm là 3 vs 3 (+1 bài giữa) — không đủ để chứng minh nhân quả, chỉ đủ để LOẠI những thứ chắc chắn KHÔNG phải bí quyết (khuôn nào cả hai nhóm cùng dùng). Mọi con số dưới đây tôi đếm thật bằng python trên transcript, không ước.\n2) Kênh này là ca \"trúng số\" điển hình: 1 bài chiếm 80,5% tổng view kênh (1.930.169 / 2.396.379), 2 bài chiếm 92,7%. Trung vị view = 6.705. Vì vậy nhóm TRÊN thực chất là \"1 quả nổ + 2 quả khá\", còn 4 bài còn lại nằm dưới 130 v/ngày. Đừng lấy 1,93 triệu làm chuẩn cầu.\n3) Tín hiệu ngược đáng ngờ: bài 1,93 triệu có tỷ lệ like THẤP NHẤT kênh (18.999/1.930.169 = 0,98%), còn bài 1.060 view có tỷ lệ like CAO NHẤT (33/1.060 = 3,11%). Nghĩa là quả nổ nhiều khả năng là traffic lạnh do thuật toán đẩy, không phải do kịch bản ăn đứt 6 bài kia. Điều này làm yếu mọi kết luận \"vì viết thế nên nổ\".\n4) Không có chương (chapters) trong metadata của 7/7 video, nên bộ xương chương ở chiều 5 là do tôi tự cắt theo câu chuyển chương lộ mặt (66 mốc), không phải số liệu của kênh.\n5) Transcript auto-generated có lỗi nuốt chữ đầu (\"hrive\" = thrive, \"tart\" = start, \"ur\" = fur, \"imal\" = animal, \"ntire\" = entire...). Tôi giữ NGUYÊN VĂN như file để tra ngược được; khi dùng lại phải sửa các ký tự bị nuốt.\n6) Không đo được thumbnail/CTR/retention từ dữ liệu này — 7/7 file chỉ có lời đọc.",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~130-190 từ đầu)",
+   "ca_nguoc": "Bài #2 của kênh (20260519, 291.240 view) phá hầu hết khuôn hook của kênh: KHÔNG mệnh lệnh, KHÔNG đồ vật đời thường, KHÔNG có chữ 'you' nào trong 139 từ đầu, câu hỏi lõi rơi muộn nhất nhóm trên (từ thứ 117). Nó mở bằng hiện trường khảo cổ có niên đại. Nghĩa là khuôn 'chạm vào đồ vật của bạn ngay bây giờ' KHÔNG phải điều kiện cần để ăn view trên kênh này.",
+   "phat_hien": [
+    {
+     "y": "Khuôn mở đầu chủ đạo của kênh: MỆNH LỆNH ĐỘNG TAY VÀO ĐỒ VẬT ĐỜI THƯỜNG NGAY LÚC NÀY, đặt ở dòng 1, dài 5-11 từ. Nhưng nó nằm ở CẢ quả 1,93 triệu LẪN quả 1.060 view → đây là NẾT CỦA KÊNH, không phải bí quyết thắng.",
+     "so_lieu": "4/7 bài (2/3 bài nhóm trên + 2/3 bài nhóm dưới)",
+     "trich": [
+      "\"Check your thermostat right now.\" — 20260501 (19.497 v/ngày, dòng 0)",
+      "\"Think about the last time you went to a grocery store.\" — 20260506 (1.683 v/ngày, dòng 0)",
+      "\"Pick up your phone right now and text someone.\" — 20260429 (64 v/ngày, dòng 0)",
+      "\"Tonight, when you're hungry, you'll open a fridge.\" — 20260710 (37 v/ngày, dòng 0)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Ba khuôn mở còn lại, mỗi khuôn đúng 1 bài — không đủ dữ liệu để kết luận khuôn nào ăn. Ghi lại nguyên văn để dùng làm kho.",
+     "so_lieu": "3/7 bài, mỗi khuôn 1/7",
+     "trich": [
+      "Hiện trường khảo cổ có niên đại (1/7, nhóm TRÊN): \"In 1903, a group of workers digging a drainage ditch in Somerset, England, pulled a human skeleton out of the ground.\" — 20260519",
+      "Nhập vai đứng tại chỗ (1/7, nhóm DƯỚI): \"Imagine you're walking through a river valley in the Middle East 90,000 years ago.\" — 20260712",
+      "Đập phim ảnh (1/7, bài GIỮA): \"Movies, documentaries, and every animated prehistoric film you watched as a kid have sold you a very specific fantasy about the Ice Age.\" — 20260614"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "VỊ TRÍ CÂU HỎI LÕI: cả 3 bài nhóm trên đều đặt câu hỏi lõi trong 117 từ đầu (trung vị từ thứ 75). 2 bài KHÔNG có câu hỏi nào trong 45 giây đầu thì đều nằm nửa dưới, và bài đặt câu hỏi muộn nhất (từ thứ 145) là bài thấp nhất kênh.",
+     "so_lieu": "Nhóm trên 3/3 có câu hỏi ≤ từ thứ 117 (64 · 75 · 117). Nửa dưới: 2/4 không có câu hỏi nào trong 20 dòng đầu (20260614, 20260712), 1/4 ở từ 78, 1/4 ở từ 145",
+     "trich": [
+      "\"So, how did they not just survive, but hrive?\" — 20260501, từ thứ 64",
+      "\"So, how did they do it?\" — 20260506, từ thứ 75",
+      "\"How did human skin go from universally dark to the spectrum of colors we see today?\" + \"And why did it happen at all?\" — 20260519, từ thứ 117",
+      "\"So, how did they actually send messages over long distances?\" — 20260429, từ thứ 78",
+      "\"So, what did they actually eat when the world froze over?\" — 20260710, từ thứ 145 (bài thấp nhất kênh)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU đóng khuôn cứng: câu bắt đầu bằng 'The answer...' đứng NGAY SAU câu hỏi lõi, ở từ thứ 73-156. Có ở cả hai nhóm → NẾT KÊNH. Hai bài THIẾU nó đều ở nửa dưới.",
+     "so_lieu": "5/7 bài có (3/3 nhóm trên + 2/3 nhóm dưới). Thiếu ở 20260614 (122 v/ngày) và 20260712 (94 v/ngày)",
+     "trich": [
+      "\"The answer is not what you think, and it will permanently change how you look at your own home.\" — 20260501, từ 73",
+      "\"The answer isn't one method, it's a collection of strategies so creative, so ruthless, and so shockingly sophisticated that modern scientists are still uncovering new evidence of them today.\" — 20260506, từ 110",
+      "\"The answer would horrify most people alive today, and it is proof of just how difficult your ancestors truly lived.\" — 20260429, từ 88",
+      "\"The answer is a story about chemistry, engineering, and just how far the human body can be pushed before it breaks.\" — 20260710, từ 156",
+      "\"And that raises a question that urns out to have a surprisingly complicated answer.\" — 20260519, từ 103 (biến thể)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "XƯNG 'you' NGAY: 6/7 bài có 'you/your' trong 11 từ đầu. Nhưng bài DUY NHẤT không có chữ 'you' nào trong 139 từ đầu lại là quả #2 của kênh (291.240 view) → 'you sớm' là nết chứ không phải công tắc. Mật độ 'you' toàn bài cũng KHÔNG dự báo: nhóm trên trung vị 7 you/1.000 từ, nửa dưới trung vị 15,5 — tức nhóm CAO dùng 'you' ÍT HƠN.",
+     "so_lieu": "6/7 bài có 'you' trong 11 từ đầu. Mật độ you/1.000 từ: nhóm trên 17 · 5 · 7 (20260501 · 20260519 · 20260506); nửa dưới 25 · 11 · 20 · 6 (20260614 · 20260712 · 20260429 · 20260710)",
+     "trich": [
+      "\"You set it once and forgot about it.\" — 20260501 (you = 17/1.000 từ, 19.497 v/ngày)",
+      "20260519 KHÔNG có 'you' trong 9 dòng đầu; chữ 'your' đầu tiên rơi ở dòng 12 (~9% bài): \"Think of it as billions of microscopic shields absorbing ultraviolet radiation before it can penetrate deeper and damage your DNA.\" (you = 5/1.000 từ, 3.596 v/ngày)",
+      "\"And the way ou got those calories was not exactly popping to Tesco, you hunted, you foraged in frozen landscapes where plant life was scarce and unreliable.\" — 20260614 (you = 25/1.000 từ, bài dày 'you' nhất kênh, chỉ 122 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TỰ GIỄU: 0/7 bài tự giễu NGƯỜI DẪN (không có 'I' nào ngoài 1 lần ở 20260429). Cái có là GIỄU LOÀI NGƯỜI — và bài nhiều đùa nhất lại nằm nửa dưới.",
+     "so_lieu": "3/7 bài có câu giễu loài người (1 bài nhóm trên, 2 bài nửa dưới). Đại từ 'I' xuất hiện tổng cộng 1 lần / 10.911 từ toàn kênh",
+     "trich": [
+      "\"How did a species with no claws, no fangs, and a running speed that wouldn't impress a golden retriever become the most lethal hunting force this has ever seen?\" — 20260506 (nhóm trên)",
+      "\"The human body is a biological disaster as a predator.\" / \"No claws, embarrassing teeth, skin so thin a house cat can draw blood, no night vision, no ability to smell prey at a distance.\" — 20260506",
+      "\"It was functional in the way that wrapping yourself in a curtain is technically clothing.\" — 20260614 (122 v/ngày, bài nhiều đùa nhất)",
+      "\"If that isn't the most efficient use of a carcass in human history, nothing is.\" — 20260614",
+      "\"like two tenants who never overlapped leases\" — 20260712 (94 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Dấu chấm than = 0 tuyệt đối trên toàn kênh. Cảm xúc được tạo bằng câu cụt + câu hỏi cụt, không bằng dấu.",
+     "so_lieu": "0 dấu '!' / 10.911 từ / 7 bài (7/7 bài đều bằng 0)",
+     "trich": [
+      "Toàn bộ hook của 20260501 gồm 7 câu, không có dấu '!' nào: \"Check your thermostat right now.\" / \"Maybe it says 68°.\" / \"Maybe 72.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — kho câu re-hook, câu nối, vòng tò mò",
+   "ca_nguoc": "Mật độ meta re-hook ('Here's...') của nhóm trên là 1,1 lần/1.000 từ, nửa dưới cũng đúng 1,1 lần/1.000 từ. Bằng nhau tuyệt đối. Nếu ai nói 'bí quyết là móc lại bằng Here's' thì số liệu này bác thẳng.",
+   "phat_hien": [
+    {
+     "y": "KHO CÂU META RE-HOOK (mở đoạn mới bằng lời hứa về chính video). Có ở 7/7 bài, mật độ hai nhóm BẰNG NHAU → NẾT KÊNH, không phải bí quyết. Nhưng đây là kho câu dùng lại tốt nhất bóc được.",
+     "so_lieu": "10 lần / 7 bài. Nhóm trên 5 lần / 4.711 từ = 1,1 lần/1.000 từ. Nửa dưới 5 lần / 4.668 từ = 1,1 lần/1.000 từ",
+     "trich": [
+      "\"Here is the first thing archaeology got wrong about your ancestors.\" — 20260501 @12% bài (11 từ)",
+      "\"Now, here's where it gets extraordinary.\" — 20260501 @27% (6 từ)",
+      "\"Now, here's the part most documentaries skip entirely.\" — 20260501 @52% (8 từ)",
+      "\"Now, here's where the methods become genuinely unsettling because the next strategy didn't use walls or spears at all.\" — 20260506 @46% (19 từ)",
+      "\"And this is where the physics became a problem.\" — 20260519 @39% (9 từ)",
+      "\"This is where vitamin D stopped being a health issue and became an evolutionary filter.\" — 20260519 @51%",
+      "\"But here's the thing, the real Ice Age was nothing like that.\" — 20260614 @2%",
+      "\"Here's a number that should genuinely alarm you.\" — 20260614 @15% (8 từ)",
+      "\"Here's the part almost nobody talks about.\" — 20260710 @56% (7 từ)",
+      "\"Here's where the story turns.\" — 20260712 @33% (5 từ)",
+      "\"Here is what nobody tells you.\" — 20260429 @91% (6 từ)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU CỤT ≤6 TỪ làm nhịp đấm trước/sau fact sốc. Cả 3 bài nhóm trên đều ≥10,2 câu cụt/1.000 từ; hai bài có mật độ thấp nhất kênh (2,0 và 3,0) là bài #4 và #7 về view/ngày. NHƯNG 2/3 bài nhóm dưới cũng ≥13,9 → mật độ cao là SÀN, không phải công tắc thắng.",
+     "so_lieu": "Câu ≤6 từ trên 1.000 từ — nhóm trên: 16,8 (20260501, 25 câu) · 13,5 (20260519, 21 câu) · 10,2 (20260506, 17 câu). Nửa dưới: 15,7 (20260429, 23 câu) · 13,9 (20260712, 21 câu) · 3,0 (20260710, 5 câu) · 2,0 (20260614, 3 câu)",
+     "trich": [
+      "\"Houses.\" (1 từ, đứng một mình sau câu dẫn) — 20260501 dòng 32",
+      "\"Picture this.\" / \"Let that sink in.\" — 20260501 dòng 34 và 43",
+      "\"Why?\" — 20260501 dòng 17 và 20260519 dòng 70 (câu 1 từ)",
+      "\"They were mega traps.\" / \"It used chemistry.\" / \"That is not instinct.\" / \"They just never stopped running.\" — 20260506",
+      "\"Seven bones.\" / \"They expected Neanderthal.\" / \"It wasn't.\" — 20260712",
+      "\"These women lived.\" / \"Their darker-skinned counterparts didn't.\" — 20260519",
+      "\"The drum is still beating.\" / \"You just cannot hear it anymore.\" — 20260429",
+      "\"Dense forest swallowed the sound.\" / \"Mountains blocked it.\" / \"Open plains killed it completely.\" — 20260429 (3 câu cụt liên tiếp làm nhịp)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 'KHÔNG PHẢI A, LÀ B' — câu đóng đoạn dạng phủ định-rồi-định-danh-lại. 17 lần / 7 bài, có ở 5/7 bài, cả hai nhóm.",
+     "so_lieu": "17 câu / 7 bài. Nhóm trên: 6 (20260501) + 4 (20260506) + 0 (20260519) = 10. Nửa dưới: 3 (20260429) + 2 (20260614) + 2 (20260710) + 0 (20260712) = 7",
+     "trich": [
+      "\"That is not survival instinct, that is architecture.\" — 20260501",
+      "\"The layout wasn't random, it was planned.\" — 20260501",
+      "\"These weren't reactive builders, they were planners with seasonal calendars running in their heads.\" — 20260501",
+      "\"This was not random.\" / \"That is not instinct.\" — 20260506",
+      "\"It was not music.\" / \"It was not rhythm for the sake of rhythm.\" / \"It was information.\" — 20260429",
+      "\"But the real challenge wasn't the killing, it was making that meat last months without a single refrigerator, freezer, or can.\" — 20260710"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "VÒNG TÒ MÒ MỞ-ĐÓNG kiểu 'hỏi cụt 1 từ → đáp một câu'. Chỉ 3/7 bài dùng.",
+     "so_lieu": "3/7 bài (2 nhóm trên, 1 nhóm dưới)",
+     "trich": [
+      "Mở: \"Why?\" → Đóng: \"Because at 6 to 8 ft below the surface, the ground temperature stays 20 to 30° warmer than the air above.\" — 20260501 dòng 17-18",
+      "Mở: \"For 35,000 years, the selection pressure existed, but the skin barely changed.\" / \"Why?\" → Đóng: \"The answer came from an unexpected direction, diet.\" — 20260519 dòng 69-71",
+      "Mở: \"But why the sudden shift?\" → Đóng: \"Agriculture didn't just change what people ate, it changed how they lived.\" — 20260519 dòng 80-81",
+      "Mở: \"They expected Neanderthal.\" → Đóng: \"It wasn't.\" / \"It belonged to a completely unknown group of humans, the Denisovans.\" — 20260712 dòng 58-60"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG bài nào báo trước 'phần hay nhất ở cuối'. 0/7. Thay vào đó kênh dùng CÔNG TẮC BẬC NHẤT ngay tại chỗ ('trong tất cả các cách, cách này...') — có ở 4/7 bài, cả hai nhóm.",
+     "so_lieu": "0/7 bài có câu kiểu 'stay until the end' / 'the best part is coming'. 4/7 bài có câu bậc nhất tại chỗ",
+     "trich": [
+      "\"But of all the hunting strategies ancient humans developed, the one that most completely defies expectation is also the simplest.\" + \"They just never stopped running.\" — 20260506 @59% bài",
+      "\"But of all the methods your ancestors invented, none is tranger or more heartbreaking than this one.\" — 20260429 @70%",
+      "\"And then there was the strangest, most ingenious method of all, turning fish into something closer to wood.\" — 20260710 @31%",
+      "\"And the third possibility, the one almost nobody expects, is that they fell in love, or at least they mated.\" — 20260712 @33%",
+      "\"Let's start with e most counterintuitive hunting method ever devised, the one where the weapon does absolutely nothing.\" — 20260506 @8%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MỒI SANG VIDEO KHÁC GIỮA BÀI: đúng 1 lần trên toàn kênh, và nó nằm ở bài nhóm trên, đặt ở 21% bài, dùng để CẮT một nhánh lạc đề thay vì để câu view.",
+     "so_lieu": "1/7 bài",
+     "trich": [
+      "\"How exactly fur disappeared over hundreds of thousands of generations is a fascinating story in itself, but that's a separate video.\" — 20260519 dòng 23 (@21% bài, 3.596 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180-200 từ cuối)",
+   "ca_nguoc": "Bookend về đồ vật của hook có ở 2 bài nhóm trên VÀ 2 bài nhóm dưới (kể cả bài 37 v/ngày). Còn quả #2 của kênh (20260519, 291.240 view) thì KHÔNG bookend, KHÔNG có chữ 'you' nào trong 180 từ cuối, kết thuần khoa học. Vậy bookend là nết kênh, không phải cỗ máy view.",
+   "phat_hien": [
+    {
+     "y": "BOOKEND: quay lại đúng đồ vật của hook, mở bằng mệnh lệnh 5-6 từ, đặt ở 89-91% bài. Đây là nết kênh (2 cao + 2 thấp), KHÔNG phải bí quyết.",
+     "so_lieu": "4/7 bài (2/3 nhóm trên + 2/3 nhóm dưới); vị trí 89% · 90% · 89% · 91% bài",
+     "trich": [
+      "\"Go back to your thermostat.\" — 20260501 @89% (5 từ; hook là \"Check your thermostat right now.\")",
+      "\"Go back to that grocery store.\" — 20260506 @90% (6 từ; hook là \"Think about the last time you went to a grocery store.\")",
+      "\"Now, think about your own kitchen.\" — 20260710 @89% (6 từ; hook là \"Tonight, when you're hungry, you'll open a fridge.\") — bài 37 v/ngày",
+      "\"Every communication system you use today is just a cleaner version of what your ancestors built in the dirt.\" / \"Your Wi-Fi router is a fire beacon.\" — 20260429 @91-93% (hook là \"Pick up your phone right now and text someone.\") — bài 64 v/ngày"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU ĐỊNH DANH NGƯỜI XEM ('That's you') — kênh không nói thẳng 'that's you' lần nào, mà dùng biến thể 'bạn là kẻ THỪA KẾ / bạn là hậu duệ'. Có ở cả hai nhóm.",
+     "so_lieu": "5/7 bài có ít nhất 1 câu định danh (2/3 nhóm trên, 2/3 nhóm dưới, 1 bài giữa). Cụm chữ 'that's you' nguyên văn: 0/7",
+     "trich": [
+      "\"You didn't invent warmth, you inherited it from the most ingenious engineers who ever lived, who had nothing but cold, time, and the refusal to die.\" — 20260501, câu áp chót",
+      "\"And yet here we are, every one of us alive today, the direct descendant of someone who figured it out.\" — 20260506, câu cuối cùng",
+      "\"You are still that person on the hilltop.\" / \"You are still scanning the horizon for a signal.\" / \"The only difference is the horizon is a phone screen now, and the signal is a notification.\" — 20260429 @67% (không phải cuối)",
+      "\"So, how would you have fared in the Ice Age?\" / \"Honestly, probably not as well as you'd like to think.\" — 20260614, 5 câu cuối",
+      "\"And what happened next in these encounters didn't just shape two species, it shaped what you are today, right now, reading this.\" — 20260712 (đặt ở HOOK, không đặt ở kết)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "'The next time you...' làm câu cuối cùng: 2/7 bài, một cao một thấp → nết, không phải bí quyết.",
+     "so_lieu": "2/7 bài (20260501 = 19.497 v/ngày và 20260710 = 37 v/ngày)",
+     "trich": [
+      "\"The next time the cold comes, and you reach for that thermostat without thinking, remember what it cost o get there, and understand for the first time how extraordinarily rare it is to be warm.\" — 20260501, câu CUỐI CÙNG",
+      "\"The next time you open your fridge without a second thought, remember that behind that convenience is 300,000 years of a much harder question.\" — 20260710, câu áp chót"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MỒI VIDEO KẾ Ở CUỐI = 0/7. Không một bài nào tiễn người xem sang video khác, không nhắc tên video khác, không end-screen bằng lời. Đây là phát hiện lớn: kênh chấp nhận mất lượt click kế tiếp để giữ trọn cú chốt cảm xúc.",
+     "so_lieu": "0/7 bài có mồi video kế trong 200 từ cuối",
+     "trich": [
+      "Câu cuối 20260519 là một danh sách khoa học, không mồi gì: \"Low UV, grain diet, vitamin D crisis, selection pressure, mutation, survival.\"",
+      "Câu cuối 20260712: \"They built something together without knowing history would erase everyone involved except one.\"",
+      "Câu cuối 20260506: \"And yet here we are, every one of us alive today, the direct descendant of someone who figured it out.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHỐT MẠNH vs HẠ NHIỆT: 3/3 bài nhóm trên chốt bằng câu KHẲNG ĐỊNH dứt điểm. 2 bài chốt bằng CÂU HỎI MỞ đều nằm nửa dưới (122 và 37 v/ngày) — đây là dấu hiệu duy nhất ở chiều kết bài mà nhóm trên và nhóm dưới KHÔNG chồng nhau.",
+     "so_lieu": "Chốt khẳng định: 5/7 (3/3 nhóm trên + 2/3 nhóm dưới). Chốt bằng câu hỏi: 2/7, cả 2 ở nửa dưới (20260614 và 20260710)",
+     "trich": [
+      "Khẳng định: \"...remember what it cost o get there, and understand for the first time how extraordinarily rare it is to be warm.\" — 20260501",
+      "Khẳng định: \"It's a solution the human body independently invented at least twice, driven by the same equation.\" / \"Low UV, grain diet, vitamin D crisis, selection pressure, mutation, survival.\" — 20260519",
+      "Khẳng định: \"The craziest thing about these methods isn't how extreme they were.\" / \"It's how intelligent they were.\" — 20260506",
+      "CÂU HỎI (nửa dưới): \"So, how would you have fared in the Ice Age?\" — 20260614, 122 v/ngày",
+      "CÂU HỎI (nửa dưới): \"What happens when winter comes and there is nothing left to eat?\" — 20260710, 37 v/ngày, câu cuối cùng của bài"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "KẾT KHÔNG CÓ 'you' — chỉ 1/7 bài, và đó là quả #2 của kênh. 20260519 kết bằng 17 dòng thuần khoa học (convergent evolution, cá heo vs cá) không nhắc người xem lần nào.",
+     "so_lieu": "1/7 bài có 0 chữ 'you' trong 202 từ cuối (20260519, 291.240 view)",
+     "trich": [
+      "\"Biologists call this convergent evolution.\" / \"It's the same process that gave dolphins and fish similar body shapes despite being completely unrelated animals.\" / \"The environment poses a problem.\" / \"Evolution finds a solution.\" — 20260519, 5 dòng cuối"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ (sub / like / comment)",
+   "ca_nguoc": "Bài KHÔNG CTA có ở cả hai nhóm (2 bài nhóm trên + 2 bài nhóm dưới), nên 'bỏ CTA' tự nó không tạo view. Điều đọc được là ngược lại: kênh này KHÔNG dựa vào CTA, và 2 quả to nhất tuyệt đối không xin gì — nên nếu bắt chước, đừng nghĩ phải nhồi CTA để giống họ.",
+   "phat_hien": [
+    {
+     "y": "4/7 bài KHÔNG có một chữ subscribe/like/comment/channel nào — và đó bao gồm CẢ HAI quả to nhất kênh (1.930.169 và 291.240 view). Toàn kênh chỉ có 5 câu CTA trên 10.911 từ = 0,46 câu/1.000 từ.",
+     "so_lieu": "4/7 bài có 0 CTA (20260501 · 20260519 · 20260710 · 20260712). 3/7 bài có CTA: 20260506 (1 câu), 20260614 (1 câu), 20260429 (3 câu). Tổng 5 câu / 10.911 từ",
+     "trich": [
+      "20260501 (1.930.169 view, 112 dòng): 0 câu CTA",
+      "20260519 (291.240 view, 125 dòng): 0 câu CTA",
+      "20260712 (114 dòng): 0 câu CTA",
+      "20260710 (95 dòng): 0 câu CTA"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NGUYÊN VĂN đủ 5 câu CTA của toàn kênh, kèm % vị trí. Không câu nào gắn vào nội dung — 5/5 đều là khối tách rời, có câu rào ('before we go any further' / 'before we get into it' / 'one last thing') rồi quay lại mạch.",
+     "so_lieu": "5 câu / 7 bài. Vị trí: 6% · 31% · 96% · 98% · 99% bài",
+     "trich": [
+      "\"But before we go any further, tell us in the comments which country are you watching this from.\" → ngay sau đó: \"Now, let's get into it.\" — 20260506 @31% bài (1.683 v/ngày, nhóm trên)",
+      "\"And before we get into it, make sure you subscribe to the channel and drop a comment telling us which part of this video genuinely surprises you.\" — 20260614 @6% bài (câu thứ 6, ngay sau hook; 122 v/ngày)",
+      "\"One last thing, like this video if it made you think differently about something you use every single day.\" — 20260429 @96%",
+      "\"Subscribe if you want more stories like this because there are thousands of them, and most people will never hear them.\" — 20260429 @98%",
+      "\"And leave a comment telling me which method surprised you the most.\" — 20260429 @99%, câu cuối cùng của video"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "VỊ TRÍ: bài duy nhất đặt CTA ở CUỐI (sau cú chốt cảm xúc, 96-99%) là 20260429 — và nó đặt 3 câu liền, sau khi đã chốt xong bằng \"The drum is still beating. You just cannot hear it anymore.\" Bài nhóm trên duy nhất có CTA (20260506) chèn nó vào KHE GIỮA hai chương ở 31%, dài 17 từ, rồi bật lại mạch bằng 5 từ.",
+     "so_lieu": "1/3 bài có CTA đặt ở cuối bài (20260429); 2/3 đặt ở đầu-giữa (6% và 31%)",
+     "trich": [
+      "Khe chèn của 20260506, trọn vẹn: \"The high ground was not just safety.\" / \"It was the whole plan.\" / \"But before we go any further, tell us in the comments which country are you watching this from.\" / \"Now, let's get into it.\" / \"Some hunters didn't want to be anywhere near the animal at all.\"",
+      "Khối kết + CTA của 20260429: \"The drum is still beating.\" / \"You just cannot hear it anymore.\" / \"One last thing, like this video if it made you think differently...\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Tỷ lệ like cho thấy CTA không phải thứ tạo tương tác: bài 0 CTA và 1,93 triệu view có tỷ lệ like THẤP NHẤT kênh; bài 0 CTA và 1.060 view có tỷ lệ like CAO NHẤT.",
+     "so_lieu": "like/view: 0,98% (20260501, 18.999/1.930.169) · 2,78% (20260519) · 1,34% (20260506) · 2,88% (20260614) · 2,63% (20260429) · 2,72% (20260712) · 3,11% (20260710, 33/1.060). Comment/view cao nhất: 0,69% (20260519, 2.000 comment)",
+     "trich": [
+      "20260519 (0 câu CTA) thu 2.000 comment / 291.240 view — cao gấp 2 lần tỷ lệ comment của 20260429 là bài duy nhất xin comment 3 lần"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "ca_nguoc": "20260710 (37 v/ngày, thấp nhất kênh) cũng đặt cú lật ở đúng 56% bài — \"Here's the part almost nobody talks about.\" — mà vẫn chìm. Vậy VỊ TRÍ cú lật không cứu được nội dung; nó chỉ là chỗ đặt, không phải thứ được đặt.",
+   "phat_hien": [
+    {
+     "y": "SỐ CHƯƠNG và ĐỘ DÀI CHƯƠNG (tôi tự cắt theo 66 câu chuyển chương lộ mặt, vì 7/7 video không khai báo chapters). Bài thấp nhất kênh có NHIỀU chương nhất và chương NGẮN nhất — nó là danh sách vụn. Nhưng chênh lệch trung vị giữa hai nhóm nhỏ (136 vs 127,5 từ) nên đây là tín hiệu yếu.",
+     "so_lieu": "Nhóm trên: 11 khối / trung vị 125 từ (20260501) · 10 khối / 136 từ (20260519) · 8 khối / 207,5 từ (20260506) → trung vị nhóm 136 từ/khối. Nửa dưới: 12 khối / 120,5 từ (20260614) · 9 khối / 169 từ (20260712) · 10 khối / 127,5 từ (20260429) · 14 khối / 98,5 từ (20260710) → trung vị nhóm 127,5. Toàn kênh 8-14 khối/bài, tổng 1.452-1.689 từ/bài, 8:03-9:29 phút, 157-188 wpm",
+     "trich": [
+      "Bài ít chương nhất, chương dài nhất (nhóm trên): 20260506 — 8 khối, khối dài nhất 324 từ (@59-78% bài, đoạn persistence hunting)",
+      "Bài nhiều chương nhất, chương ngắn nhất (thấp nhất kênh): 20260710 — 14 khối, 4 khối chỉ 91-93 từ (muối, ngũ cốc, sữa, bơ), mở bằng \"Grain was the quieter hero of Viking survival, and it's easy to overlook because it isn't dramatic.\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "CÚ LẬT LỚN NHẤT: cả 3 bài nhóm trên đặt cú lật lớn nhất trong dải HẸP 52-59% bài. Nhóm dưới rải rác 33% / 56% / 70%, và bài giữa (20260614) KHÔNG có cú lật nào — chỉ có một câu cảnh báo ở 15%.",
+     "so_lieu": "Nhóm trên 3/3 nằm trong 52-59%. Nửa dưới: 33% (20260712) · 56% (20260710) · 70% (20260429) · không có (20260614)",
+     "trich": [
+      "@52%: \"Now, here's the part most documentaries skip entirely.\" / \"What happened inside these shelters after the sun went down?\" — 20260501 (mở chương ngủ 2 pha, 248 từ, khối dài nhất bài)",
+      "@56%: \"And yet, the math never added up.\" / \"If this filter was running every single generation, dark skin should have disappeared from northern Europe within a few hundred generations.\" — 20260519 (tự bẻ lập luận của chính mình)",
+      "@59%: \"But of all the hunting strategies ancient humans developed, the one that most completely defies expectation is also the simplest.\" / \"They just never stopped running.\" — 20260506",
+      "@33% (nhóm dưới): \"And the third possibility, the one almost nobody expects, is that they fell in love, or at least they mated.\" / \"Here's where the story turns.\" — 20260712",
+      "@70% (nhóm dưới): \"But of all the methods your ancestors invented, none is tranger or more heartbreaking than this one.\" — 20260429",
+      "Bài GIỮA không có cú lật, chỉ có: \"Here's a number that should genuinely alarm you.\" @15% — 20260614"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "THỨ TỰ LEO THANG: 3/3 bài nhóm trên xây theo trục PHỤ THUỘC (chương sau chỉ tồn tại vì chương trước bất lực), kết bằng 'tri thức bị mất / bạn là kẻ thừa kế'. 2 bài nửa dưới xây theo DANH SÁCH KHÔNG LEO (đổi chỗ các chương cho nhau cũng không sao).",
+     "so_lieu": "Leo thang phụ thuộc: 3/3 nhóm trên + 1/4 nửa dưới (20260712, 3 nhánh violence→avoidance→mating). Danh sách không leo: 2/4 nửa dưới (20260710 xếp theo nhóm thực phẩm 12 mục; 20260614 xếp theo 10 chủ đề rời)",
+     "trich": [
+      "Trục 20260501 (19.497 v/ngày), 11 khối: lạnh cỡ nào @6% → đào hố xuống đất @12% → tường nhiều lớp @18% → nhà xương ma-mút @27% → lửa & nhiên liệu @38% → thông gió @48% → ngủ 2 pha & kể chuyện quanh lửa @52% → lịch mùa & bảo trì @69% → tri thức bị mất rồi tìm lại @82% → thermostat @89%",
+      "Móc phụ thuộc giữa chương của 20260501: \"But none of this worked without fire, and fire wasn't just warmth, it was the entire operating system of Ice Age winter life.\" (@38%) và \"And then there was ventilation.\" / \"Without proper airflow, moisture from breathing and cooking builds up inside any enclosed shelter.\" (@48%)",
+      "Trục 20260506 (1.683 v/ngày), 8 khối: giáo cắm đất @8% → đá ném @21% → bẫy desert kite @32% → tên độc @46% → chạy bền @59% → ngôn ngữ + chó @78% → grocery store @90%; chốt bằng bảng leo thang: \"The planted spear that used physics instead of strength.\" / \"The mega trap that used architecture instead of confrontation.\" / \"The poison arrow that used chemistry instead of force.\" / \"The coordinated group strategy that used language instead of individual capability.\"",
+      "Danh sách không leo của 20260710 (37 v/ngày), 14 khối: muối @19% → khói @25% → cá khô @31% → ngũ cốc @40% → sữa @46% → bơ @51% → lên men @56% → rau củ @66% → hunger gap @71% → xương @79% → Yule @83%",
+      "Danh sách không leo của 20260614 (122 v/ngày), 12 khối: lạnh @7% → calo @15% → ma-mút @29% → nơi ở @43% → kim khâu @50% → thú dữ @60% → lửa @68% → mạng lưới xã hội @75% → nghệ thuật hang động @82% → không có thời gian rảnh @89%"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "NGÂN SÁCH HOOK/KẾT giống nhau ở cả hai nhóm → NẾT. Hook 91-192 từ (6-12% bài), kết 131-212 từ (5-11% bài).",
+     "so_lieu": "Hook: 91 từ/6% (20260501) · 139/8% (20260519) · 138/8% (20260506) · 119/7% (20260614) · 192/12% (20260712) · 107/7% (20260429) · 176/10% (20260710). Toàn kênh 1.452-1.689 từ, 8:03-9:29 phút — biên độ độ dài chỉ 1,17 lần",
+     "trich": [
+      "Bài dài nhất về từ là bài THẤP NHẤT về view (20260710: 1.689 từ, 188 wpm, 8:58); bài nổ là bài đọc CHẬM nhất (20260501: 1.474 từ, 157 wpm, 9:22) — chênh 31 wpm"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG (66 mốc đo được)",
+   "ca_nguoc": "Tỷ lệ câu mở chương cực ngắn (≤8 từ) gần như bằng nhau: nhóm trên 10/26 = 38%, nửa dưới 13/40 = 33%. Bài thấp nhất kênh (20260710) vẫn có \"Here's the part almost nobody talks about.\" (7 từ). Câu chuyển ngắn là NẾT KÊNH.",
+   "phat_hien": [
+    {
+     "y": "ĐỘ DÀI CÂU MỞ CHƯƠNG: trung vị 10,5 từ; 35% số câu ≤8 từ; ngắn nhất 5 từ, dài nhất 37 từ. Hai nhóm bằng nhau.",
+     "so_lieu": "66 câu mở chương đo được / 7 bài. Trung vị 10,5 từ. 23/66 câu ≤8 từ (nhóm trên 10/26 = 38%, nửa dưới 13/40 = 33%)",
+     "trich": [
+      "Ngắn nhất (5 từ): \"And then there was ventilation.\" — 20260501 · \"But drums had one problem.\" — 20260429 · \"Then there were the shells.\" — 20260712 · \"The first threat was violence.\" — 20260712 · \"Go back to your thermostat.\" — 20260501",
+      "Dài nhất (37 từ): \"Building a mammoth bone house took two to three weeks of intensive work by eight to 10 adults, which means construction had to begin in late summer or early autumn, well before conditions made outdoor work impossible.\" — 20260501 @69%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN A — 'NHƯNG CÁI VỪA RỒI CHƯA LÀ GÌ' (nâng cấp). Dùng khi chương sau xịn hơn chương trước.",
+     "so_lieu": "5/66 câu chuyển, ở 3/7 bài",
+     "trich": [
+      "\"But he real sophistication came later.\" — 20260501 (6 từ, @18%)",
+      "\"Now, here's where it gets extraordinary.\" — 20260501 (6 từ, @27%)",
+      "\"And then there was the strangest, most ingenious method of all, turning fish into something closer to wood.\" — 20260710 (18 từ, @31%)",
+      "\"And then humans took every one of these methods and multiplied them by adding the one thing no other predator had ever developed, language, planning, coordinated strategy across a group.\" — 20260506 (30 từ, @78%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN B — 'NHƯNG X CÓ MỘT VẤN ĐỀ' (bàn giao vấn đề sang chương sau). Khuôn dùng nhiều nhất kênh.",
+     "so_lieu": "9/66 câu chuyển, ở 5/7 bài",
+     "trich": [
+      "\"But drums had one problem.\" / \"Dense forest swallowed the sound.\" / \"Mountains blocked it.\" / \"Open plains killed it completely.\" / \"So, your ancestors went looking for something that could travel further, something no mountain could block and no forest could swallow.\" — 20260429 @39% (nguyên cụm 5 câu, dùng lại được y nguyên)",
+      "\"But this process needed a catalyst.\" / \"Gradual pressure alone wasn't enough to transform an entire continent.\" / \"What it needed was a single mutation powerful enough to accelerate verything.\" — 20260519 @82%",
+      "\"But clothing could only solve one of your problems.\" / \"The rest of them had teeth.\" — 20260614 @60% (9 + 6 từ)",
+      "\"But none of this worked without fire, and fire wasn't just warmth, it was the entire operating system of Ice Age winter life.\" — 20260501 @38%",
+      "\"But fire and smoke still needed one thing your ancestors could not always guarantee, clear weather and a clear sky.\" — 20260429 @49%",
+      "\"But not every household could afford enough salt.\" / \"So, they turned to smoke.\" — 20260710 @25%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN C — 'CÓ KẺ THÌ HOÀN TOÀN KHÔNG DÙNG X' (phủ định để mở món mới). Cho phép nhảy sang chủ đề mới mà không gãy mạch.",
+     "so_lieu": "4/66 câu chuyển, ở 3/7 bài",
+     "trich": [
+      "\"Some ancient hunters did not rely on spears at all.\" / \"Instead, they turned simple stones into deadly weapons.\" — 20260506 @21%",
+      "\"Some hunters didn't want to be anywhere near the animal at all.\" / \"So, they built something instead.\" — 20260506 @32%",
+      "\"But the Neanderthals weren't the only ones out there.\" — 20260712 @54%",
+      "\"So, they built something else ntirely.\" — 20260429 @53%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN D — 'VÀ RỒI ĐẾN X' (đếm món, cực ngắn 5-6 từ). Rẻ nhất, dùng khi không có quan hệ nhân quả giữa hai chương — và đó chính là chỗ bài danh-sách bị lộ.",
+     "so_lieu": "7/66 câu chuyển, ở 4/7 bài; trong đó 3/7 nằm ở 20260712 (đánh số thứ nhất/thứ hai/thứ ba)",
+     "trich": [
+      "\"And then there was ventilation.\" — 20260501 (5 từ)",
+      "\"Then there was butter, treated less like a condiment and more like stored energy.\" — 20260710 (14 từ)",
+      "\"Then there were the shells.\" — 20260712 (5 từ)",
+      "Bộ ba đánh số của 20260712: \"The first threat was violence.\" (@20%) / \"The second possibility was avoidance.\" (@29%) / \"And the third possibility, the one almost nobody expects, is that they fell in love, or at least they mated.\" (@33%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN E — 'VÀ THẾ MÀ PHÉP TÍNH KHÔNG KHỚP' (tự bẻ lập luận của chính mình rồi xây lại). Chỉ xuất hiện ở nhóm trên, và là cột sống của quả 291K.",
+     "so_lieu": "3/66 câu chuyển, chỉ ở 1/7 bài (20260519, nhóm trên)",
+     "trich": [
+      "\"And yet, the math never added up.\" (7 từ) / \"If this filter was running every single generation, dark skin should have disappeared from northern Europe within a few hundred generations.\" / \"But, the genetic evidence shows that as recently as 10,000 years ago, that's Cheddar Man's time, most Europeans still had dark skin.\" — 20260519 @56%",
+      "\"But here is what makes this story genuinely surprising.\" (9 từ) / \"That same mutation, SLC24A5, is almost completely absent in East Asian populations.\" — 20260519 @91%",
+      "\"Then agriculture arrived, and it changed everything.\" (7 từ) — 20260519 @64%"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÂU ĐÓNG CHƯƠNG: hầu hết là câu tuyên bố ngắn dạng 'không phải A, là B' hoặc 'đó không phải bản năng, đó là kiến trúc'. Có ở cả hai nhóm.",
+     "so_lieu": "17 câu dạng 'không phải A, là B' / 7 bài (nhóm trên 10, nửa dưới 7); có ở 5/7 bài",
+     "trich": [
+      "\"Your ancestors didn't fight the cold, they went below it.\" — 20260501, đóng chương hố đào",
+      "\"The materials were different, the physics were identical.\" — 20260501, đóng chương tường nhiều lớp",
+      "\"They were managing fuel like a resource.\" — 20260501, đóng chương nhiên liệu",
+      "\"It was the whole plan.\" — 20260506, đóng chương đá ném",
+      "\"Nothing in nature prepared any animal for an enemy that cannot be outrun.\" — 20260506, đóng chương chạy bền",
+      "\"Lighter skin survived, darker skin struggled.\" — 20260519",
+      "\"That's culture crossing a species line.\" — 20260712, đóng chương vỏ sò",
+      "\"Being friendly across a frozen continent was, it turns out, an evolutionary advantage.\" — 20260614",
+      "\"The system wasn't glamorous, but it worked more often than it failed.\" — 20260710"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "ca_nguoc": "Bài giữa 20260614 có mật độ từ-thẩm-quyền 8,5/1.000 từ — cao hơn cả hai bài nhóm trên (8,1 và 5,8) — mà chỉ được 122 v/ngày. Và bài thấp nhất kênh (20260710) rào rất ít (0,6/1.000 từ), đúng như nhóm trên. Vậy 'cửa sổ khoa học' là điều kiện chung của kênh, không phải công tắc bật view.",
+   "phat_hien": [
+    {
+     "y": "MẬT ĐỘ TỪ THẨM QUYỀN (researchers/archaeologists/scientists/study/evidence/analysis/dated/DNA/genome/historians/radiocarbon/isotope...): cả 3 bài nhóm trên nằm trong CỬA SỔ HẸP 5,8-8,4 lần/1.000 từ. Hai bài lệch xa nhất về hai phía đều chìm: 0,0 (không có một chữ khoa học nào) và 19,2 (nhồi đặc).",
+     "so_lieu": "Nhóm trên: 8,1 (20260501, 12 lần) · 5,8 (20260519, 9 lần) · 8,4 (20260506, 14 lần). Nửa dưới: 8,5 (20260614, 13 lần) · 19,2 (20260712, 29 lần) · 0,0 (20260429, 0 lần) · 3,6 (20260710, 6 lần)",
+     "trich": [
+      "Bài 0,0/1.000 từ (20260429, 64 v/ngày) — không một lần dùng chữ researchers/study/evidence; nó neo bằng SỰ KIỆN LỊCH SỬ thay vì khảo cổ: \"In 1453, the Byzantine Empire fell partly because their fire signal network had gaps.\"",
+      "Bài 19,2/1.000 từ (20260712, 94 v/ngày) — 9 lần 'researchers', 8 lần 'DNA', 5 lần 'genome': \"When his genome was equenced, researchers found he had a Neanderthal ancestor only four to six generations back.\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÔNG THỨC NEO MẠNH NHẤT của kênh không phải tên nhà nghiên cứu mà là khuôn 'AT [DI CHỈ] IN [NƯỚC], [NIÊN ĐẠI], [AI] FOUND [CÁI GÌ]'. Bài duy nhất KHÔNG có một di chỉ khảo cổ nào là bài 6/7 về view/ngày.",
+     "so_lieu": "6/7 bài có ít nhất 1 di chỉ nêu đích danh (20260429 = 0 di chỉ khảo cổ). Số di chỉ/tổ chức/tạp chí đếm được: 20260506 = 9 · 20260712 = 8 · 20260501 = 5 · 20260519 = 3 · 20260614 = 3 · 20260710 = 3 · 20260429 = 0",
+     "trich": [
+      "\"At Kostroma in Russia, dating back 800,000 years, researchers found circular depressions up to 8 ft deep, 12 ft across.\" — 20260501",
+      "\"At Dolní Věstonice in the Czech Republic, 26,000 years ago, archaeologists uncovered winter shelters with walls built from multiple layers, each one serving a precise thermal function.\" — 20260501",
+      "\"Then in 2024, researchers at UC Berkeley decided to actually test hat assumption.\" / \"And what they found turned everything upside down.\" — 20260506",
+      "\"These structures are called desert kites, and in 2022, three separate peer-reviewed studies confirmed their purpose simultaneously.\" — 20260506",
+      "\"In January 2026, a study published in Science Advances revealed that 60,000-year-old arrowheads from the Umhlatuzana rock shelter in South Africa still contained traces of a plant-based poison pushing the use of poison arrows tens of thousands of years earlier than previously known.\" — 20260506",
+      "\"At Schöningen in Germany, eight perfectly engineered spears were found alongside the butchered remains of 50 horses.\" — 20260506",
+      "\"At a site called Shanidar Cave in Iraq, researchers examined a Neanderthal skeleton known as Shanidar 3.\" — 20260712"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TÊN NHÀ NGHIÊN CỨU: chỉ 4/7 bài nêu đích danh, tối đa 2 người/bài, và 0/7 bài nêu tên trong 45 giây đầu. Tên luôn đi kèm CÁI HỌ LÀM chứ không đứng trơ làm bằng cấp.",
+     "so_lieu": "4/7 bài nêu tên người (2 nhóm trên gộp 2 tên trong cùng 1 bài, 1 bài giữa, 1 bài nhóm dưới). Tổng 4 tên / 10.911 từ = 0,37 tên/1.000 từ",
+     "trich": [
+      "\"...confirmed in a 1992 experiment by psychiatrist Thomas Wehr, who found that when modern humans are moved from all artificial light for a month, every single participant automatically returns to the same two-phase pattern.\" — 20260501",
+      "\"Anthropologist Polly Wiessner spent years studying the Ju/'hoansi Bushmen of the Kalahari, one of the last groups on Earth still living close to the original human pattern.\" / \"During the day, 80% of talk was practical, logistics, hunting, resources.\" / \"But at night, around the fire, 81% of conversation was stories.\" — 20260501",
+      "\"The invention of the needle around 30,000 years ago has been described by anthropologist Brian Fagan as the single most important invention in human history, and he's not being dramatic.\" — 20260614",
+      "\"The researcher who studied it, Steven Churchill, was careful about his conclusion.\" — 20260712"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "HEDGE (rào): cả 3 bài nhóm trên đều ≤1,3 câu rào/1.000 từ (một bài bằng 0 tuyệt đối). Hai bài rào dày nhất kênh (8,6 và 4,6) đều ở nửa dưới. Nhưng bài thấp nhất kênh cũng chỉ rào 0,6 → rào ít là điều kiện chung, không phải bí quyết.",
+     "so_lieu": "Câu có rào / 1.000 từ — nhóm trên: 1,3 (20260501, 2 câu) · 0,6 (20260519, 1 câu) · 0,0 (20260506, 0 câu). Nửa dưới: 4,6 (20260614, 7 câu) · 8,6 (20260712, 13 câu) · 1,4 (20260429, 2 câu) · 0,6 (20260710, 1 câu)",
+     "trich": [
+      "Rào duy nhất của 20260501: \"And experimental reconstructions of these houses have confirmed what the archaeology suggested.\" — rào bằng cách nói bằng chứng ĐÃ xác nhận",
+      "20260506 (0 rào) nói như đã chứng minh: \"Someone designed that hunt before it happened.\" / \"Someone assigned roles.\" / \"Someone communicated a plan.\"",
+      "Rào dày của 20260614: \"Some researchers argue this ocial connectivity is precisely why Homo sapiens outlasted Neanderthals, who maintained smaller, more isolated populations.\" và \"Some researchers argue the oxygen deprivation was deliberate, that the altered state of consciousness was part of a ritual, the cave functioning as a temple.\"",
+      "Rào dày của 20260712: \"In some regions, Neanderthals and modern humans seem to have simply missed each other by centuries...\" · \"Researchers now think this wasn't coincidence.\" · \"It looks like a tradition quietly inherited from one species to the next.\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "TÁCH SỰ THẬT KHỎI SUY DIỄN: chỉ 1/7 bài làm rõ ràng, và đó là bài 5/7 về view/ngày. Nhóm trên làm NGƯỢC LẠI — biến suy diễn thành tuyên bố dứt khoát.",
+     "so_lieu": "1/7 bài tách tường minh (20260712, 94 v/ngày). 3/3 bài nhóm trên phát biểu suy diễn như sự thật",
+     "trich": [
+      "Tách tường minh (20260712): \"He wasn't claiming a war, but he said the injury pattern matched a projectile weapon, and only one of the two species in that valley had projectile weapons.\" / \"That points to at least one act of violence between the two.\" / \"One we still don't have a proper name for.\"",
+      "Không tách (20260501, 19.497 v/ngày): \"That is not survival instinct, that is architecture.\" và \"These weren't reactive builders, they were planners with seasonal calendars running in their heads.\"",
+      "Không tách (20260506, 1.683 v/ngày): \"That is chemistry, strategy, and tracking operating simultaneously inside a single human mind 60,000 years before the invention of writing.\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "NIÊN ĐẠI dùng như nhịp: 'N years ago' xuất hiện 0-7 lần/bài. Bài KHÔNG có một mốc 'years ago' nào là bài thấp nhất kênh; bài có nhiều mốc nhất cũng chỉ 94 v/ngày → không dự báo.",
+     "so_lieu": "Số cụm 'N years ago': 20260712 = 7 · 20260519 = 5 · 20260429 = 4 · 20260506 = 3 · 20260614 = 2 · 20260501 = 1 · 20260710 = 0. Tổng token số (số + đơn vị): 29 · 26 · 26 · 24 · 21 · 13 · 5 — bài thấp nhất kênh chỉ có 5 con số trong 1.689 từ (3,0/1.000 từ) so với 17,5/1.000 của bài nổ",
+     "trich": [
+      "Bài nổ neo bằng SỐ ĐO chứ không bằng niên đại: \"We're talking -40° Fahrenheit on the Eurasian Steppe...\" · \"at 6 to 8 ft below the surface, the ground temperature stays 20 to 30° warmer than the air above\" · \"A properly built mammoth bone house could maintain interior temperatures 40 to 50° warmer than the outside air using only modest fires.\"",
+      "Bài thấp nhất kênh gần như không có số: cả chương muối chỉ có \"Historians have nicknamed it white gold for good reason.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI (title, làm lại, series, nhóm chủ điểm)",
+   "ca_nguoc": "Cụm chủ đề 'sống sót cái lạnh' chứa ĐỒNG THỜI bài cao nhất (19.497 v/ngày) và bài thấp nhất (37 v/ngày) của kênh. Nếu ai kết luận 'ngách lạnh/băng hà ăn' từ dữ liệu này thì đang đọc 1 điểm và bỏ 2 điểm.",
+   "phat_hien": [
+    {
+     "y": "BẰNG CHỨNG MẠNH NHẤT của cả bản bóc: hai bài dùng ĐÚNG MỘT KHUÔN TITLE, đúng chữ 'CRAZIEST', đăng cách nhau 2 ngày, chênh nhau 305 lần view/ngày. Title không phải động cơ.",
+     "so_lieu": "2/7 bài dùng khuôn 'The CRAZIEST [X] Methods Used by Ancient Humans' → 19.497 v/ngày và 64 v/ngày (chênh 305×). 5/7 bài dùng khuôn '[What/How] Did Ancient Humans ...?' → 3.596 · 1.683 · 122 · 94 · 37 (trung vị 122). 7/7 title chứa cụm 'Ancient Humans'",
+     "trich": [
+      "\"The CRAZIEST Survival Methods Used by Ancient Humans During Ice Age\" — đăng 01/05/2026, 1.930.169 view",
+      "\"The Craziest Communication Methods Used by Ancient Humans\" — đăng 29/04/2026, 6.471 view",
+      "\"What Did Ancient Humans Use to Hunt Giants?\" — 158.195 view · \"How Did Ancient Humans Lose Their Dark Skin?\" — 291.240 view · \"What Did Ancient Humans Do to Preserve Food?\" — 1.060 view"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KÊNH LÀM LẠI ĐỀ TÀI CỦA CHÍNH MÌNH và bản làm lại chỉ đạt 0,35% view bản gốc, dù cách nhau 44 ngày và trùng cả di chỉ. Đây là cảnh báo trực tiếp cho ý định 'nổ rồi thì làm tiếp đề tài đó'.",
+     "so_lieu": "20260501 (Ice Age survival, 1.930.169 view) → 20260614 (Ice Age deadly winters, 6.705 view) = 0,35%. Cách nhau 44 ngày. Trùng từ khoá: 'mammoth bone' 3 vs 2 lần · 'Mezhyrich' 1 vs 2 · 'tusk' 1 vs 1 · 'hide' 6 vs 4 · 'fire' 9 vs 7. Nếu tính rộng 'sống sót mùa đông' thì 3/7 bài của kênh (thêm 20260710 Viking food)",
+     "trich": [
+      "Bản gốc: \"In Ukraine at sites like Mezhyrich and Kostenki, researchers discovered something that stopped archaeologists cold the first time they saw it.\" / \"Houses.\" / \"Not caves, not windbreaks, actual engineered buildings built entirely from the bones of woolly mammoths.\" — 20260501",
+      "Bản làm lại: \"Archaeologists in Mezhyrich, Ukraine, found circular shelters constructed almost entirely from mammoth bones, dating back around 18,000 years.\" — 20260614",
+      "Cùng một chi tiết giáo cắm — bản gốc @27% bài của 20260506: \"They were planting the spear in the ground and stepping back.\"; bản 20260614 @65%: \"Evidence suggests Ice Age hunters didn't throw spears from a safe distance.\" / \"They physically braced the weapon and let the animal's own momentum drive it forward.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHÓM CHỦ ĐIỂM và trung vị view/ngày — n quá nhỏ để kết luận, ghi ra để không ai dùng nhầm.",
+     "so_lieu": "Sống sót cái lạnh/mùa đông: 3/7 bài → 19.497 · 122 · 37, trung vị 122. Bạo lực/đối đầu: 2/7 bài → 1.683 · 94, trung vị 888. Cơ thể người: 1/7 bài → 3.596. Công nghệ liên lạc: 1/7 bài → 64. Không nhóm nào có ≥3 bài trừ nhóm 'cái lạnh', mà nhóm đó trải từ 37 đến 19.497 (chênh 527 lần)",
+     "trich": [
+      "Nhóm 'cơ thể người' chỉ có 1 bài nhưng là bài có tỷ lệ comment cao nhất kênh (2.000 comment / 291.240 view = 0,69%): \"How Did Ancient Humans Lose Their Dark Skin?\" — đề tài dễ gây tranh cãi"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "SERIES: 0/7 bài là 'Part 1/2', 0/7 bài tham chiếu bài trước bằng tên. Kênh không xây loạt. Mối liên hệ duy nhất giữa các bài là 1 câu ở giữa bài nói 'that's a separate video' mà không nói video nào.",
+     "so_lieu": "0/7 bài đánh số series; 1/7 bài có tham chiếu mờ tới video khác",
+     "trich": [
+      "\"How exactly fur disappeared over hundreds of thousands of generations is a fascinating story in itself, but that's a separate video.\" — 20260519 @21%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Dấu '?' trong title: 4/7 có (trung vị 902 v/ngày), 3/7 không (trung vị 94 v/ngày). n = 7, KHÔNG kết luận được — cả bài cao nhất lẫn bài thứ 6 đều thuộc nhóm KHÔNG có '?'.",
+     "so_lieu": "4/7 có '?' → 3.596 · 1.683 · 122 · 37 (trung vị 902). 3/7 không có '?' → 19.497 · 94 · 64 (trung vị 94)",
+     "trich": [
+      "Không '?': \"The CRAZIEST Survival Methods Used by Ancient Humans During Ice Age\" (19.497 v/ngày) và \"What Did Ancient Humans Do When They Met Other Human Species\" (94 v/ngày — là câu hỏi nhưng THIẾU dấu '?')"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "ca_nguoc": "Nếu ai định kết luận 'đăng dày thì nổ': khoảng cách 2 ngày cho ra CẢ 19.497 v/ngày (20260501) LẪN 94 v/ngày (20260712). Khoảng cách 26 ngày cho ra 122 và 37. Nhịp không dự báo được gì với n = 7.",
+   "phat_hien": [
+    {
+     "y": "7 video / 74 ngày = 1 bài mỗi 10,6 ngày; trung vị khoảng cách 9 ngày. Nhịp KHÔNG đều — biên độ từ 2 tới 26 ngày.",
+     "so_lieu": "7 bài từ 29/04/2026 tới 12/07/2026 = 74 ngày. Khoảng cách lần lượt: 2 · 5 · 13 · 26 · 26 · 2 ngày. Trung vị 9 ngày, trung bình 12,3 ngày",
+     "trich": [
+      "Ngày đăng theo thứ tự: 2026-04-29 · 2026-05-01 · 2026-05-06 · 2026-05-19 · 2026-06-14 · 2026-07-10 · 2026-07-12"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ GOM ĐỢT — 3 cụm rõ rệt. Cụm đầu 3 bài trong 8 ngày, cụm cuối 2 bài trong 2 ngày, giữa là 2 khoảng trống 26 ngày.",
+     "so_lieu": "Cụm A: 3/7 bài trong 8 ngày (29/04, 01/05, 06/05). Cụm B: 2/7 bài rời rạc cách nhau 26 ngày (19/05, 14/06). Cụm C: 2/7 bài trong 2 ngày (10/07, 12/07)",
+     "trich": [
+      "Cụm A chứa 2/3 bài nhóm trên (19.497 và 1.683 v/ngày) nhưng cũng chứa bài 64 v/ngày — 3 bài cùng cụm, chênh nhau 305 lần"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP ĐỔI THEO THỜI GIAN theo hình chữ U ngược: dày ở đầu (2-5 ngày) → giãn tối đa ở giữa (26 + 26 ngày) → dồn lại ở cuối (2 ngày). Sau khi nhịp giãn ra từ 19/05, KHÔNG bài nào vượt 122 v/ngày. Không phân biệt được nguyên nhân hay hệ quả với n = 7 (rất có thể cú nổ 01/05 kéo view cho 06/05 và 19/05 qua suggested, rồi tắt dần).",
+     "so_lieu": "3/3 bài nhóm trên đăng trong 20 ngày đầu (29/04-19/05). 0/4 bài đăng từ 14/06 trở đi vượt 122 v/ngày. Khoảng cách trung bình trước 19/05 = 6,7 ngày; sau 19/05 = 18 ngày",
+     "trich": [
+      "Bài cuối cùng có dữ liệu là 20260712 (12/07/2026); tính tới 08/08/2026 là 27 ngày im lặng — dài hơn mọi khoảng cách từng đo được của kênh (max 26 ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "NHỊP KHÔNG LIÊN QUAN VIEW/NGÀY. Cùng khoảng cách 2 ngày cho ra hai kết quả chênh 207 lần.",
+     "so_lieu": "Khoảng cách trước bài / view/ngày của bài đó: 2 ngày → 19.497 (20260501) · 5 ngày → 1.683 (20260506) · 13 ngày → 3.596 (20260519) · 26 ngày → 122 (20260614) · 26 ngày → 37 (20260710) · 2 ngày → 94 (20260712)",
+     "trich": [
+      "Cùng 2 ngày sau bài trước: 20260501 = 19.497 v/ngày và 20260712 = 94 v/ngày"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỘ DÀI VIDEO gần như cố định bất kể nhịp và bất kể view: biên độ chỉ 1,17 lần. Kênh khoá cứng khung 8-9,5 phút / ~1.500 từ. Đây là NẾT KÊNH thuần tuý, không phân biệt được gì.",
+     "so_lieu": "7/7 bài nằm trong 8:03-9:29 (483-569 giây) và 1.452-1.689 từ. Nhịp đọc 157-188 wpm; bài nổ đọc CHẬM nhất (157 wpm), bài thấp nhất kênh đọc NHANH nhất (188 wpm)",
+     "trich": [
+      "20260501: 9:22 · 1.474 từ · 157 wpm · 1.930.169 view — chậm nhất kênh",
+      "20260710: 8:58 · 1.689 từ · 188 wpm · 1.060 view — nhanh nhất và nhiều chữ nhất kênh"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ]
+}

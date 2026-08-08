@@ -1,0 +1,539 @@
+{
+ "kenh": "The Primal Glitch (thư mục PrimalGlitch) — 3.750 sub, 13 video long-form, đăng 06/05/2026 → 05/08/2026 (91 ngày). Tổng 21.813 từ lời đọc, 174–213 wpm. Chia ba theo view/ngày (tính tới 08/08/2026): NHÓM CAO = 4 bài (1.405–4.215 v/ngày) · NHÓM GIỮA = 5 bài (62–289) · NHÓM THẤP = 4 bài (16–50).",
+ "so_bai": 13,
+ "view_ngay_cao": "4.215,4 view/ngày — \"Why Ancient Humans Couldn't Sleep Without Dogs?\" (20260730, 37.939 view / 9 ngày). Nhóm CAO đủ 4 bài: 4215,4 · 3971,0 (Died Without Dogs, 277.969 view) · 2308,6 (Why Wolves Chose, 120.046) · 1405,3 (How Cats Domesticated, 87.131)",
+ "view_ngay_thap": "16,3 view/ngày — \"Why Ancient Humans Couldn't Domesticate Zebras Like Horses?\" (20260805, 49 view / 3 ngày). Nhóm THẤP đủ 4 bài: 50,4 (Without Privacy) · 47,5 (Immune To Cancer) · 35,0 (Invented Guns) · 16,3 (Zebras). CẢNH BÁO: bài zebra mới 3 ngày tuổi / 49 view — con số 16,3 KHÔNG đáng tin, mọi kết luận dựa trên nó phải treo.",
+ "gioi_han": "1) n=13 quá nhỏ: mỗi nhóm chỉ 4 bài, một bài lệch là đổi kết luận. 2) HỖN BIẾN NẶNG NHẤT: cả 4 bài nhóm CAO đều là đề tài con vật sống trong nhà người xem (chó ×2, sói ×1, mèo ×1). Không tài nào tách được \"thắng nhờ ĐỀ TÀI\" khỏi \"thắng nhờ CÁCH VIẾT\" — mọi khác biệt văn phong giữa CAO và THẤP đều có thể chỉ là hệ quả của việc viết về thú cưng. 3) Bài zebra (THẤP#13) mới 3 ngày, 49 view — vpd vô nghĩa; nếu bỏ nó ra thì sàn nhóm thấp là 35,0 chứ không phải 16,3. 4) Transcript là ASR có lỗi nuốt phụ âm đầu (\"xhausting\", \"urvival\", \"he night\", \"till\", \"omething\") — trích nguyên văn giữ nguyên lỗi này, đừng chép vào kịch bản. 5) Không có dữ liệu CTR / AVD / retention curve, nên không biết hook thật sự giữ chân được không hay chỉ là thumbnail+title kéo view. 6) Bộ xương chương lấy từ chapters do chính kênh khai trong description — đó là ý ĐỒ của kênh, không phải điểm cắt tự nhiên của lời đọc; ranh giới chương rơi giữa dòng chảy văn nên \"câu mở chương\" phần lớn không phải đơn vị tu từ độc lập.",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~130 từ đầu)",
+   "ca_nguoc": "Ba thứ tưởng là bí quyết nhưng CẢ HAI NHÓM đều có, nên chỉ là NẾT CỦA KÊNH: (a) mở bằng đại từ 'You' — nhóm cao 3/4 nhưng nhóm thấp cũng có 1/4 và nhóm giữa 3/5; (b) không hề tự giễu, không hài — 0/13 bài có bất kỳ dấu hiệu hài/tự giễu nào, nên đây không phải thứ phân biệt thắng-thua; (c) không có dấu chấm than — 0/13 bài, kể cả bài 277K view lẫn bài 49 view. Riêng khuôn 'You probably think X, but…' chỉ có 2/13 (một bài CAO 1405 v/ngày, một bài GIỮA 62 v/ngày) — cỡ mẫu quá nhỏ để nói nó ăn.",
+   "phat_hien": [
+    {
+     "y": "Chữ 'you/your' xuất hiện trong 10 TỪ ĐẦU TIÊN — đây là khác biệt CAO/THẤP sạch nhất ở chiều hook. Đo bằng vị trí từ đầu tiên chứa you/your/you're.",
+     "so_lieu": "4/4 bài NHÓM CAO có 'you' ở từ thứ 1, 1, 10, 1. Nhóm GIỮA 3/5 (từ 1, 1, 1 · hai bài còn lại từ 77 và 52). Nhóm THẤP chỉ 1/4 (từ 1 · ba bài còn lại từ 35, từ 240, và MỘT BÀI KHÔNG CÓ 'you' NÀO trong 1736 từ)",
+     "trich": [
+      "\"You go to bed tonight and something strange happens.\" — 20260730_Why_Ancient_Humans_Couldn_t_Sleep_Without_Dogs_.txt (CAO, 4215 v/ngày, 'you' ở từ 1)",
+      "\"You have a dog, or you want one, or you at least think they are fine.\" — 20260530_Why_Ancient_Humans_Would_ve_Died_Without_Dogs_.txt (CAO, 3971 v/ngày, 'you' ở từ 1)",
+      "\"For most of human history, wolves were monsters. / If you were alive 30,000 years ago and heard wolves howling beyond the firelight, you knew what they wanted. / You were prey.\" — 20260617_Why_Wolves_Chose_Ancient_Humans.txt (CAO, 2308 v/ngày, 'you' ở từ 10 — bài CAO duy nhất không mở bằng You, nhưng vẫn chạm 'you' trong câu thứ hai)",
+      "\"The first gun wasn't invented for war. / It wasn't even invented on purpose.\" — 20260705_How_Ancient_Humans_Accidentally_Invented_Guns.txt (THẤP, 35 v/ngày — cả bài 1736 từ chỉ có ĐÚNG 1 chữ 'you'd', ở dòng 27)",
+      "\"Cancer is brutal. / It just starts quietly.\" — 20260614_Were_Ancient_Humans_Immune_To_Cancer_.txt (THẤP, 47,5 v/ngày — 'you' đầu tiên mãi từ thứ 240)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÂU HỎI LÕI: nhóm CAO hoặc đặt lời hứa cực sớm (từ thứ 12–63) hoặc BỎ HẲN dấu hỏi trong toàn bài. Nhóm GIỮA/THẤP để dấu hỏi đầu tiên rơi rất muộn.",
+     "so_lieu": "Vị trí từ của dấu '?' đầu tiên — NHÓM CAO: từ 12, từ 63, và 2/4 bài KHÔNG CÓ DẤU HỎI NÀO trong cả bài (0 dấu '?' trên 1582 từ và 0 trên 1689 từ). NHÓM GIỮA: từ 204, 510, 513, 1157, 2257. NHÓM THẤP: từ 74, 227, 227, 725. Số dấu '?' trong 130 từ đầu: CAO 2/4 bài có (2 và 3 câu hỏi), GIỮA 0/5, THẤP 1/4",
+     "trich": [
+      "\"You probably think humans domesticated cats, but what if the opposite happened? / What if cats didn't become our pets? / What if we became theirs?\" — 20260607_How_Cats_Domesticated_Ancient_Humans_And_Still_Do_.txt (CAO, dấu ? ở từ thứ 12, ba câu hỏi liên tiếp)",
+      "\"So, how did we get here? / How did something that was built to outcompete us end up sleeping at the foot of our bed?\" — 20260530_Why_Ancient_Humans_Would_ve_Died_Without_Dogs_.txt (CAO, dấu ? ở từ thứ 63)",
+      "\"Then something changed the equation completely, and it was not fire. / It was not shelter. / It was an animal lying at he edge of the camp with one ear still working doing a job the human body was never actually built to do alone.\" — 20260730_Why_Ancient_Humans_Couldn_t_Sleep_Without_Dogs_.txt (CAO nhất 4215 v/ngày — 0 dấu hỏi trong cả bài, lời hứa được nói bằng CÂU KHẲNG ĐỊNH GIẤU TÊN đối tượng)",
+      "\"So, why does cancer seem so overwhelming today?\" — 20260614_Were_Ancient_Humans_Immune_To_Cancer_.txt (THẤP, dấu ? đầu tiên mãi tận từ thứ 725)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU nằm ngay trong hook: nhóm CAO 4/4 đều có một câu tự xưng 'đây là một trong những câu chuyện lạ nhất/phi thường nhất' hoặc 'chi tiết này sẽ khiến bạn khựng lại', đặt trong 40 giây đầu.",
+     "so_lieu": "4/4 bài NHÓM CAO có câu hứa chiều sâu trong chương 1. Toàn kênh 13/13 bài có ít nhất một câu kiểu này ở đâu đó, nhưng chỉ 4/4 CAO đặt nó trong hook",
+     "trich": [
+      "\"The answer is one of the strangest stories in human history, and it did not just give us a companion. / It gave us urvival. / It gave us civilization. / It may have given us everything.\" — 20260530_..._Died_Without_Dogs_.txt (CAO)",
+      "\"And the reason they did it, and what it ultimately meant for both species, is one of the most extraordinary stories in the history of life on this planet.\" — 20260617_Why_Wolves_Chose_Ancient_Humans.txt (CAO)",
+      "\"For tens of thousands of years, sleep itself was one of the most dangerous things a human being could do, and the species developed a strange xhausting solution to survive it.\" — 20260730_..._Sleep_Without_Dogs_.txt (CAO)",
+      "\"And the strangest part is that it's till happening right now inside your home, probably while you're watching this.\" — 20260607_How_Cats_Domesticated_....txt (CAO)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN CÂU MỞ ĐẦU xếp thành 4 nhóm (đếm trên câu đầu tiên nguyên văn của 13 bài)",
+     "so_lieu": "Khuôn A 'You + hiện tại của người xem' 7/13 (CAO 3/4, GIỮA 3/5, THẤP 1/4) · Khuôn B 'khẳng định lịch sử/phổ quát ngôi ba' 4/13 (CAO 1/4, GIỮA 1/5, THẤP 2/4) · Khuôn C 'cảnh lạnh điện ảnh' 1/13 · Khuôn D 'mệnh lệnh Picture/Imagine' 1/13",
+     "trich": [
+      "Khuôn A: \"You're asleep, completely out, drooling on your pillow, dead to the world, zero awareness of anything around you.\" — 20260621_Why_Predators_Never_Attack_Sleeping_Humans.txt (GIỮA)",
+      "Khuôn A: \"You're lying in bed. / The room is dark. / The door is shut.\" — 20260506_How_Did_Ancient_Humans_Live_Without_Privacy_.txt (THẤP)",
+      "Khuôn B: \"Every species on this planet is a perfect fit for the world it lives in.\" — 20260522_Why_Evolution_Left_the_Human_Blueprint_Unfinished_.txt (GIỮA)",
+      "Khuôn C: \"A child is crying in the dark. / Outside, the wind is screaming against a wall of stacked hide and bone.\" — 20260721_How_Ancient_Humans_Survived_Deadly_Ice_Age_Winters_.txt (GIỮA)",
+      "Khuôn D: \"Picture an animal that looks almost exactly like a horse. / Same size, same shape, same genus, even so close that he two can interbreed.\" — 20260805_..._Zebras_....txt (THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG có bất kỳ dấu hiệu người dẫn / thương hiệu / hài hước nào trong lời đọc — cả 13 bài",
+     "so_lieu": "0/13 bài có 'Welcome to' / tên kênh / 'in this video' / 'let's dive in' · 0/13 có xưng 'I' như người dẫn (1 lần duy nhất là lời thoại nhân vật: 'I cannot eat if I'm alone.') · 0/13 có dấu chấm than (tổng 0 dấu '!' trên 21.813 từ) · 0/13 có gạch ngang em-dash · 0/13 có marker hài (honestly/okay/to be fair/I know what you're thinking)",
+     "trich": [
+      "Kiểm 13/13 file bằng grep 'welcome to|primal glitch|this channel|in this video|today we|let'\"'\"'s dive|my name' → ZERO MATCHES",
+      "Kiểm 13/13 file bằng grep 'honestly|frankly|okay,|yeah|ridiculous|to be fair|i know what you'\"'\"'re thinking' → ZERO MATCHES"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — re-hook, câu nối, vòng tò mò (kho câu dùng lại)",
+   "ca_nguoc": "BA khuôn tưởng là bí quyết nhưng CẢ HAI NHÓM dùng ngang nhau, thậm chí nhóm GIỮA dùng dày nhất → NẾT CỦA KÊNH, không phải con hào: (1) re-hook 'Here is the part…' — 11/13 bài có, mật độ CAO 0,90 / GIỮA 1,34 / THẤP 0,62 trên 1000 từ, tức nhóm GIỮA (62–289 v/ngày) dùng NHIỀU NHẤT; (2) khuôn phủ-định-rồi-lật 'Not X, Y' — CAO 0,90 / GIỮA 2,27 / THẤP 0,93 trên 1000 từ, nhóm GIỮA lại dẫn đầu áp đảo (bài 'What Scared Early Humans' 124 v/ngày dùng 10 lần); (3) chồng 'before X, before Y' — 6 lần rải đều 6 bài của cả ba nhóm. Nếu bạn định copy ba khuôn này vì tưởng chúng làm nên 277K view thì bạn đang copy phong cách chung, không phải công thức thắng.",
+   "phat_hien": [
+    {
+     "y": "PHÁT HIỆN LỚN: KHÔNG bài nào hứa 'phần hay nhất ở cuối'. Kênh này không dùng forward-promise, không nhử để giữ chân.",
+     "so_lieu": "0/13 bài chứa bất kỳ cụm nào trong: 'by the end of this video' / 'stay tuned' / 'stick around' / 'keep watching' / 'we'll get to' / 'coming up' / 'later in this video' / 'hold that thought' / 'at the end'. Kiểm bằng grep trên toàn bộ 21.813 từ → ZERO MATCHES",
+     "trich": [
+      "grep -inE \"by the end of (this|the) video|stay (tuned|with)|stick around|keep watching|later in this|we'll (get|come) (to|back)|coming up|at the end|hold(ing)? that thought\" *.txt → ZERO MATCHES trên 13/13 file"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Câu hỏi tu từ lộ liễu 'So, how did…?' / 'So, what actually…?' dùng làm câu nối là DẤU HIỆU CỦA BÀI CHÌM, không phải bài thắng. Bài thắng NÊU bí ẩn bằng câu khẳng định, bài chìm HỎI khán giả.",
+     "so_lieu": "Số bài có câu nối dạng 'So, + what/how/why …?': NHÓM THẤP 4/4 bài (tổng 6 lần) · NHÓM GIỮA 2/5 bài · NHÓM CAO chỉ 1/4 bài (1 lần duy nhất, và nó nằm trong hook chứ không phải câu nối giữa bài)",
+     "trich": [
+      "\"So, how did ancient humans actually live like that?\" · \"So, how did they do it?\" · \"So, what actually happened between then and now?\" — cả 3 trong 20260506_..._Without_Privacy_.txt (THẤP, 50,4 v/ngày)",
+      "\"So, why does cancer seem so overwhelming today?\" — 20260614_..._Immune_To_Cancer_.txt (THẤP)",
+      "\"So, how does a group of monks looking for eternal life end up inventing the gun?\" — 20260705_..._Invented_Guns.txt (THẤP)",
+      "\"So, what makes two animals this closely related, end up on completely different paths?\" — 20260805_..._Zebras_....txt (THẤP)",
+      "Đối chiếu NHÓM CAO — câu duy nhất kiểu này: \"So, how did we get here?\" — 20260530_..._Died_Without_Dogs_.txt, và nó ở từ thứ 63 tức trong hook"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "VỊ TRÍ re-hook: nhóm CAO dồn hết cú lật vào NỬA ĐẦU bài (25–64%), tuyệt đối không có marker nào sau 64%. Nhóm GIỮA/THẤP rải marker tới tận 74–88%.",
+     "so_lieu": "Vị trí % của mọi marker 'Here is/Here's the part…' — NHÓM CAO: 25%, 31%, 25%, 38%, 49%, 64% (6 marker, không cái nào >64%). NHÓM GIỮA: 3, 4, 8, 8, 13, 24, 39, 62, 74, 80, 84, 85, 88%. NHÓM THẤP: 7, 43, 57, 76%",
+     "trich": [
+      "\"Here is the part that stops most people.\" (25%) và \"Here is where most people's understanding stops.\" (31%) — 20260530_..._Died_Without_Dogs_.txt (CAO)",
+      "\"Here's where something genuinely strange happened.\" (38%) và \"Here is the part most people never hear.\" (64%) — 20260617_Why_Wolves_Chose_....txt (CAO)",
+      "\"But here is the part scientists find genuinely remarkable.\" (25%) và \"But here is where the story shifts from ancient history into something more unsettling.\" (49%) — 20260607_How_Cats_Domesticated_....txt (CAO)",
+      "Đối chiếu: \"This is the part that should stop you.\" (84%) — 20260522_..._Blueprint_Unfinished_.txt (GIỮA) · \"Here is the part that stays with you.\" (88%) — 20260621_Predators_Never_Attack_....txt (GIỮA) · \"Here's what's rarely mentioned.\" (76%) — 20260705_..._Invented_Guns.txt (THẤP)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Câu nối kiểu 'BUT' (bẻ lái nghịch) vs kiểu 'SO' (giảng bài tiếp nối) — nhóm CAO nghịch gấp 3, nhóm THẤP giảng gấp 5",
+     "so_lieu": "Câu bắt đầu bằng 'But' trên 1000 từ: CAO 2,26 (15 câu/6638 từ) · GIỮA 1,44 · THẤP 0,77 (5 câu/6485 từ). Câu bắt đầu bằng 'So' trên 1000 từ: CAO 0,30 (2 câu) · GIỮA 1,03 · THẤP 1,54 (10 câu). Tỷ lệ But:So = CAO 7,5:1 · GIỮA 1,4:1 · THẤP 0,5:1",
+     "trich": [
+      "\"But none of that was planned. / No human tribe decided to recruit the most dangerous predator on the continent.\" — 20260617_Why_Wolves_Chose_....txt (CAO)",
+      "\"But sleep is also the single most vulnerable state an animal can enter.\" — 20260730_..._Sleep_Without_Dogs_.txt (CAO)",
+      "\"So, archaeologists went looking for evidence of exactly how well people managed it.\" — 20260721_..._Ice_Age_Winters_.txt (GIỮA)",
+      "\"So, what makes two animals this closely related, end up on completely different paths?\" — 20260805_..._Zebras_....txt (THẤP)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHO CÂU RE-HOOK NGUYÊN VĂN (11/13 bài, 23 câu) — khuôn lõi là 'Here is the part [that stops most people / most people never hear / scientists find genuinely remarkable]', tức LUÔN neo vào 'most people / nobody' để tạo cảm giác người xem sắp biết thứ người khác không biết",
+     "so_lieu": "23 câu trên 13 bài. Có chứa 'most people / nobody / almost nobody / scientists': 12/23 câu. Số bài có ≥1 câu: 11/13 (2 bài không có là 1 bài CAO 4215 v/ngày và 1 bài THẤP 47,5 v/ngày — tức thiếu nó cũng thắng được, mà có nó cũng chìm được)",
+     "trich": [
+      "\"Here is the part that stops most people.\" — 20260530 (CAO)",
+      "\"Here is where most people's understanding stops. / Guard duty, hunting help, that is the surface version. / It does not come close to capturing what actually happened.\" — 20260530 (CAO) — đây là khuôn HẠ-BỆ-RỒI-ĐÀO-SÂU đầy đủ nhất trong kho",
+      "\"Here's where something genuinely strange happened.\" — 20260617 (CAO)",
+      "\"Here is the part most people never hear.\" — 20260617 (CAO)",
+      "\"But here is the part scientists find genuinely remarkable.\" — 20260607 (CAO)",
+      "\"But here is where the story shifts from ancient history into something more unsettling.\" — 20260607 (CAO)",
+      "\"And yet, here is the detail that should stop you.\" — 20260730 (CAO)",
+      "\"And here's the question nobody asks out loud.\" — 20260522 (GIỮA)",
+      "\"Here's the strange part.\" — 20260721 (GIỮA)",
+      "\"This is the part almost nobody thinks about, and it might be the most important piece of the entire puzzle.\" — 20260721 (GIỮA)",
+      "\"But here's what nobody tells you.\" — 20260526 (GIỮA)",
+      "\"And here is the part that should stop you cold.\" — 20260526 (GIỮA)",
+      "\"Here is the part movies have been getting wrong for decades.\" — 20260621 (GIỮA)",
+      "\"Here is the part that stays with you.\" — 20260621 (GIỮA)",
+      "\"Because here's what almost nobody tells you.\" — 20260610 (GIỮA)",
+      "\"And here's what's strange.\" — 20260506 (THẤP)",
+      "\"Here's something that might be genuinely hard to get your head around.\" — 20260506 (THẤP)",
+      "\"Here's what's rarely mentioned.\" — 20260705 (THẤP)",
+      "\"Here is what none of those colonial officers understood because the science didn't exist yet to explain it.\" — 20260805 (THẤP)",
+      "\"There are several layered explanations, each one more unsettling than the last, and together they reveal something extraordinary about the invisible arrangement between humans and the wild.\" — 20260621 (GIỮA) — khuôn HỨA NHIỀU TẦNG"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHO CÂU CỤT PHỦ-ĐỊNH-RỒI-LẬT ('Not X, Y' và 'That is not X') — công cụ tạo nhịp chính của kênh, dùng để bẻ kỳ vọng ngay sau một fact",
+     "so_lieu": "'Not …' đầu câu: 34 lần / 13 bài (CAO 6 lần = 0,90/1000 từ · GIỮA 22 lần = 2,27 · THẤP 6 lần = 0,93). 'That/This/It is/was not…' đầu câu: 21 lần / 13 bài (CAO 0,60+0,45 · GIỮA 0,52+0,41 · THẤP 0,31+0,46 trên 1000 từ)",
+     "trich": [
+      "\"Not a wolf that olerated humans, something new, something built without anyone planning it specifically to exist alongside us.\" — 20260530 (CAO)",
+      "\"Not a coincidence, an equation.\" — 20260530 (CAO)",
+      "\"Not because it planned it, because the cats that did it got fed first.\" — 20260607 (CAO)",
+      "\"Not because anyone nforced it, because both sides kept finding reasons to stay.\" — 20260617 (CAO)",
+      "\"That is not normal. / That is not how your ancestors slept for most of human history.\" — 20260730 (CAO)",
+      "\"It was not shelter.\" và \"It was not company. / It was permission.\" — 20260730 (CAO) — bookend đẹp: cùng khuôn ở đầu và cuối bài",
+      "\"Not fast, not charging, just moving.\" — 20260526 (GIỮA)",
+      "\"Not thousands of years, hundreds of thousands.\" — 20260526 (GIỮA)",
+      "\"Not luck, planning carried out by minds solving a problem we rarely think about anymore.\" — 20260721 (GIỮA)",
+      "\"Not a partner, just a captive curiosity.\" — 20260805 (THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHO CÂU CHỒNG 'before X, before Y, before Z' — dùng để nén một khoảng thời gian khổng lồ thành một nhịp đọc",
+     "so_lieu": "6 lần / 6 bài (CAO 3 bài, GIỮA 2 bài, THẤP 1 bài)",
+     "trich": [
+      "\"The dog was there before the farm, before the city, before the written word, before every other animal we ever domesticated, every crop we ever planted, every wall we ever built.\" — 20260530 (CAO)",
+      "\"Dogs were domesticated more than 10,000 years before any other animal, before the goat, before the cow, before farming existed at all.\" — 20260530 (CAO)",
+      "\"Sleep was risk stacked 8 hours deep every single night for the entire span of human existence before agriculture, before permanent shelter, before almost everything you would associate with safety.\" — 20260730 (CAO)",
+      "\"Humans figured this out before farming, before pottery, before anything we normally call civilization, fire came first.\" — 20260621 (GIỮA)",
+      "\"This was a tumor growing inside a creature that existed before our species did, before cooking, before tools, before everything we associate with modern disease.\" — 20260614 (THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Mệnh lệnh 'Think about / Picture / Imagine / Look at' làm câu nối trước fact sốc — nhóm CAO chỉ dùng 'Think about', nhóm GIỮA/THẤP dùng 'Picture/Imagine/Look at' (kịch tính hoá)",
+     "so_lieu": "'Think about' 7 lần: CAO 4 lần (3/4 bài), GIỮA 2, THẤP 1. 'Imagine/Picture/Look at' 12 lần: CAO 0 lần (0/4 bài), GIỮA 9, THẤP 3",
+     "trich": [
+      "\"Think about he night.\" — 20260530 (CAO) — 4 từ",
+      "\"Think about what it meant to have wolves nearby during a hunt.\" — 20260617 (CAO)",
+      "\"Think about what that actually means.\" — 20260617 (CAO)",
+      "\"Think about what that means.\" — 20260607 (CAO)",
+      "\"Look at your jaw. / It's too small for your own teeth. / Look at your lower back. / It breaks down in four out of five people before they die.\" — 20260522 (GIỮA) — chuỗi 4 mệnh lệnh 'Look at your…' liên tiếp",
+      "\"Imagine you are an ancient human mother. / You've just given birth.\" — 20260610 (GIỮA)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180 từ cuối) — chiều chưa ai bóc",
+   "ca_nguoc": "Callback về hook thì CẢ HAI NHÓM đều làm — đo bằng số từ khoá chung giữa 130 từ đầu và 180 từ cuối: NHÓM CAO 19, 13, 8, 10 từ · NHÓM THẤP 11, 12, 15, 14 từ. Nhóm THẤP thậm chí callback ĐẬM HƠN. Vậy 'kết phải vòng về hook' là NẾT CỦA KÊNH chứ không phải bí quyết. Cái phân biệt không phải CÓ callback hay không, mà là callback về CÁI GÌ: nhóm CAO vòng về CƠ THỂ/NGÔI NHÀ CỦA NGƯỜI XEM, nhóm THẤP vòng về hiện vật lịch sử.",
+   "phat_hien": [
+    {
+     "y": "PHÁT HIỆN MẠNH NHẤT CỦA CHIỀU NÀY: 4/4 bài nhóm CAO kết bằng cách ĐẶT NGƯỜI XEM VÀO CẢNH — 'tối nay, trong nhà bạn, dưới chân giường bạn'. 0/4 bài nhóm THẤP làm vậy; chúng kết bằng phán quyết lịch sử ngôi ba hoặc 'we'.",
+     "so_lieu": "Số lần 'you/your' trong 180 TỪ CUỐI: NHÓM CAO 3, 6, 2, 5 → 4/4 bài đều có. NHÓM GIỮA 6, 4, 6, 2, 0 → 4/5. NHÓM THẤP 2, 0, 0, 0 → chỉ 1/4. Số bài kết bằng cảnh có mặt người xem: CAO 4/4 · GIỮA 3/5 · THẤP 0/4",
+     "trich": [
+      "\"It was not company. / It was permission. / Permission to finally close your eyes all the way for the first time since we came down out of the trees and trust that something else was listening instead.\" — 20260730 (CAO, 4215 v/ngày) — CÂU CUỐI CÙNG",
+      "\"40,000 years later, its descendants are asleep at the foot of your bed. […] The world you live in, every part of it, sits downstream of a wolf that was hunting the same prey as your ancestors one night and made a different calculation than anyone expected. / That is the whole story, and it is the most important one we have.\" — 20260530 (CAO, 3971 v/ngày)",
+      "\"Two predators, one fire, and a choice that neither species fully understood at the time. / But you do now.\" — 20260617 (CAO, 2308 v/ngày) — CÂU CUỐI 4 TỪ, chốt mạnh nhất toàn kênh",
+      "\"And tonight, somewhere in your home, a descendant of those ancient desert hunters is going to do something completely ordinary. / It might sit near you but slightly out of reach. […] And your brain, shaped over thousands of years to respond to exactly this, will feel something very close to warmth. / The cat didn't get domesticated, it just found a better place to be wild.\" — 20260607 (CAO, 1405 v/ngày)",
+      "ĐỐI CHIẾU NHÓM THẤP — \"One failed search for immortality ended up changing human history forever.\" — 20260705 (THẤP, 0 chữ 'you' trong 180 từ cuối)",
+      "ĐỐI CHIẾU — \"Ancient humans were not immune. / They were just dying too young to find out. / And for the first time in that entire history, we actually have the tools to fight back.\" — 20260614 (THẤP, 0 chữ 'you')",
+      "ĐỐI CHIẾU — \"The horse, her distant cousin, now numbers in the tens of millions and helped build the modern world. […] One relative became indispensable. / The other is still out here right now, still running, exactly as untamed as it was 200,000 years ago.\" — 20260805 (THẤP, 0 chữ 'you')",
+      "ĐỐI CHIẾU — \"We built the walls, we closed the doors, we got exactly what they never could, and we've been lonely ever since.\" — 20260506 (THẤP) — dùng 'we' chứ không 'you'"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHÔNG bài nào mồi video kế. Kết là ĐÓNG HẲN, không mở cửa sang bài sau.",
+     "so_lieu": "0/13 bài có câu mồi video tiếp theo, 0/13 có 'watch this next', 0/13 nhắc playlist trong lời đọc",
+     "trich": [
+      "Kiểm 13/13 file: câu cuối cùng của cả 13 bài đều là câu chốt luận đề, không câu nào chứa tham chiếu tới video khác. Ví dụ 3 câu cuối của 3 nhóm: \"Permission to finally close your eyes all the way…\" (CAO) / \"The hard part was surviving long enough to try.\" (GIỮA) / \"One failed search for immortality ended up changing human history forever.\" (THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn 'Next time you…' gần như KHÔNG dùng — chỉ 1/13 bài, và bài đó nằm nhóm GIỮA (68,8 v/ngày). Đây là khuôn kinh điển của ngách nhưng kênh này gần như bỏ.",
+     "so_lieu": "1/13 bài có 'the next time you'",
+     "trich": [
+      "\"So, the next time you're in a tent somewhere remote, listening to something moving through the dark just beyond the fabric, and you feel that ancient pulse of alarm in your chest, let it be there. / That feeling kept every ancestor you have alive through hundreds of thousands of nights in the open. […] And it does. / Every time.\" — 20260621_Why_Predators_Never_Attack_Sleeping_Humans.txt (GIỮA, 68,8 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "CHỐT MẠNH chứ không hạ nhiệt: 13/13 bài kết bằng một câu tuyên bố dứt điểm, phần lớn là câu ngắn hoặc câu lật nghĩa. Không bài nào hạ nhiệt kiểu 'ru ngủ'.",
+     "so_lieu": "Độ dài câu cuối cùng: 4 từ (CAO#3) · 15 từ (CAO#4) · 17 từ (CAO#2) · 29 từ (CAO#1) · 2 từ 'Every time.' (GIỮA#8) · 10 từ (THẤP#12). 13/13 câu cuối là câu khẳng định hoặc phản đề, 0/13 là câu hỏi mở",
+     "trich": [
+      "\"But you do now.\" — 20260617 (CAO)",
+      "\"Every time.\" — 20260621 (GIỮA)",
+      "\"The cat didn't get domesticated, it just found a better place to be wild.\" — 20260607 (CAO) — khuôn LẬT LẠI TÊN BÀI ở câu cuối",
+      "\"The hard part was surviving long enough to try.\" — 20260610 (GIỮA)",
+      "\"That might not be the most embarrassing thing about us. / That might be the most remarkable thing we have ever done.\" — 20260522 (GIỮA) — khuôn LẬT GIÁ TRỊ (nhục → vinh) ở đúng hai câu cuối"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ / LIKE / COMMENT",
+   "ca_nguoc": "Đây là chiều mà cả nhóm CAO lẫn nhóm THẤP giống hệt nhau — 0 lời xin trong lời đọc, 100% lời xin nằm ở description. Nên KHÔNG thể kết luận 'không xin sub thì thắng'. Nó chỉ nói rằng kênh này bán được 277K view mà không cần một câu CTA nào trong voice-over, tức CTA không phải nút thắt.",
+   "phat_hien": [
+    {
+     "y": "PHÁT HIỆN LỚN: 0/13 bài có bất kỳ lời xin sub / like / comment / bấm chuông nào TRONG LỜI ĐỌC. Toàn bộ 21.813 từ narration sạch tuyệt đối.",
+     "so_lieu": "0/13 bài chứa: subscribe, subscriber, like this video, hit the, smash, bell, notification (ngoại trừ 2 lần chữ 'notification' dùng đúng nghĩa nội dung), comment below, let me know, in the comments, share this, 'this channel'. Đếm bằng grep trên cả 13 file",
+     "trich": [
+      "2 lần duy nhất chữ 'notification' xuất hiện đều là NỘI DUNG chứ không phải CTA: \"A notification that can't be ignored.\" — 20260522 (GIỮA) · \"The amygdala that screamed when the cave lion moved outside the fire light is the same structure that fires when your phone buzzes with a notification you're dreading.\" — 20260526 (GIỮA)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Ngược lại, 13/13 DESCRIPTION đều có lời xin sub, và nó dùng CÙNG MỘT CÂU 9/13 lần — CTA bị đẩy hết ra ngoài lời đọc, gắn vào slogan kênh chứ không gắn vào nội dung video",
+     "so_lieu": "13/13 description có chữ 'subscribe'. Câu \"Subscribe to understand the glitch.\" xuất hiện 13/13 lần (9 lần đứng riêng, 3 lần nối sau khối giới thiệu kênh, 1 lần biến thể). 2/13 description có thêm 'like'/'share'",
+     "trich": [
+      "\"Subscribe to understand the glitch.\" — câu chuẩn, 9/13 description dùng nguyên xi",
+      "\"🧠 The Primal Glitch — Where evolution meets modern life. We decode ancient human behavior, psychology, and the hidden patterns behind how you think, feel, and survive. Subscribe to understand the glitch.\" — khối boilerplate, 3/13 description",
+      "\"If you enjoy documentaries about ancient humans, human evolution, prehistoric life, and the hidden reasons our bodies work the way they do, subscribe to The Primal Glitch for new videos exploring the surprising connections between our ancient past and modern life.\" — 1/13 description (bản dài)",
+      "Description kênh: \"▶ Subscribe to expand your perspective and outsmart your instincts.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Tỷ lệ like/view của kênh KHÔNG tệ dù không xin — nhưng bài càng nổ tỷ lệ like càng THẤP (khán giả lạ, không phải fan)",
+     "so_lieu": "like/view: 1,11% (37.939 view) · 1,39% (277.969) · 1,76% (120.046) · 2,07% (87.131) · 2,09% (22.571) · 2,00% (9.210) · 2,85% (4.742) · 3,02% (3.681) · 3,67% (3.300) · 2,34% (2.611) · 2,01% (2.735) · 2,18% (1.190) · 16,33% (49 view, bỏ vì n quá nhỏ). 4/4 bài nhóm CAO có tỷ lệ like 1,11–2,07% — THẤP hơn 3/4 bài nhóm THẤP (2,18–2,85%)",
+     "trich": [
+      "Số comment tuyệt đối: nhóm CAO 746 · 400 · 392 · 67 comment. Nhóm THẤP 38 · 38 · 8 · 1 comment. Không bài nào xin comment mà bài 277K vẫn ra 746 comment"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "ca_nguoc": "Số chương và số từ mỗi chương thì CẢ HAI NHÓM đều nằm trong cùng dải (7–14 chương, 154–212 từ/chương trung bình) — không có ngưỡng ma thuật. Cả 13/13 bài đều có chương cuối tên 'Conclusion' hoặc tương đương dài 12–60 giây. Đây là NẾT DÂY CHUYỀN. Cái thật sự khác là VỊ TRÍ CÚ LẬT (xem phát hiện 3) và VIỆC TÁI DÙNG BỘ XƯƠNG (phát hiện 4).",
+   "phat_hien": [
+    {
+     "y": "Bộ khung chuẩn: 7–14 chương, mỗi chương 38–334 từ, chương mở 115–235 từ (45–70 giây), chương kết 38–190 từ (12–60 giây). Nhóm CAO gói chặt hơn: 8–9 chương, 186–212 từ/chương. Nhóm THẤP dàn mỏng hơn: có 2/4 bài tới 11 chương, 154–182 từ/chương.",
+     "so_lieu": "Số chương — CAO: 8, 9, 9, 8 (dải 8–9). GIỮA: 14, 9, 10, 9, 7 (dải 7–14). THẤP: 11, 8, 11, 9 (dải 8–11). Từ trung bình mỗi chương — CAO: 198, 186, 188, 212. THẤP: 174, 183, 158, 155. Chương 1 (hook) — CAO: 198, 235, 217, 140 từ / 45–65 giây. THẤP: 115, 146, 150, 228 từ / 45–65 giây",
+     "trich": [
+      "CAO#1 (20260730, 8 chương / 1582 từ): C1 'The Most Dangerous Thing You'll Do Tonight' 55s ~198w → C2 'Why Sleep Was a Death Sentence' 65s ~222w → C3 'The Sentinel System Hidden in Your Biology' 75s ~258w → C4 'The Price Ancient Humans Paid for Safety' 75s ~262w → C5 'The Animal That Replaced an Entire Watch Rotation' 65s ~223w → C6 'Why Deep Sleep Changed Everything' 45s ~167w → C7 'The System Still Running Inside You' 40s ~160w → C8 'Conclusion' 25s ~90w",
+      "THẤP#12 (20260705, 11 chương / 1736 từ): C1 'The Monks Who Weren't Trying to Kill Anyone' 50s ~150w → C2 'The Accidental Explosion…' → C3 'Fire Medicine: Fireworks Before Weapons' → C4 'The Fire Lance…' → C5 'The 1288 Hand Cannon…' → C6 'How the Mongols Carried Gunpowder…' → C7 'Cannons vs. Castles…' → C8 'The Matchlock…' → C9 'Bows vs. Guns…' → C10 'Flintlock, Bayonets…' → C11 'Conclusion' 40s ~112w — đây là bộ xương BIÊN NIÊN (mốc nối mốc), không có cú lật"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "THỨ TỰ LEO THANG của nhóm CAO là chung một mạch 4 tầng: (1) đảo ngược tiền đề → (2) cơ chế sinh học ẩn → (3) hệ quả cho nền văn minh → (4) hệ quả cho chính người xem lúc này. Nhóm THẤP đi biên niên hoặc đi liệt kê, không leo.",
+     "so_lieu": "4/4 bài CAO có chương áp chót mang tên hướng về người xem hoặc hiện tại: 'The System Still Running Inside You' (85%) · 'The Burials That Tell You Everything' (93%) · 'The Burials That Tell You Everything' → 'What This Means For You' (94%) · 'The Psychology Trap' (77%). 0/4 bài THẤP có chương nào có chữ 'You' trong tên (tên chương của chúng: 'Flintlock, Bayonets, and the Final Evolution', 'Jared Diamond's Domestication Checklist', 'What Elephants Are Teaching Cancer Researchers', 'The Loneliness Paradox')",
+     "trich": [
+      "Tên chương nhóm CAO có 'You/Your': 'The Most Dangerous Thing You'll Do Tonight', 'The Sentinel System Hidden in Your Biology', 'The System Still Running Inside You', 'The Planet You Were Not Supposed to Win', 'The Burials That Tell You Everything', 'What This Means For You', 'You Probably Think Humans Domesticated Cats' → 7 tên chương / 34 chương của nhóm CAO (20,6%)",
+      "Tên chương nhóm THẤP có 'You/Your': 0 / 39 chương (0%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "VỊ TRÍ CÚ LẬT LỚN NHẤT: nhóm CAO đặt ở 25–49% bài. Nhóm GIỮA/THẤP hoặc đặt muộn (74–88%) hoặc không có cú lật nào.",
+     "so_lieu": "Marker cú lật (câu 'Here is the part/where…') — CAO: 6 marker, dải 25–64%, trung vị 34,5%, KHÔNG marker nào >64%. GIỮA: 13 marker, 8/13 nằm ngoài dải 25–64%. THẤP: 4 marker trên 4 bài (2/4 bài chỉ có 1, 1/4 bài có 0)",
+     "trich": [
+      "\"Here is the part that stops most people. / Guard duty, hunting help, that is the surface version. / It does not come close to capturing what actually happened.\" — 20260530 (CAO) ở 25–32%, tức cú lật lớn nhất rơi vào phút thứ 2,5–3 của video 8:48",
+      "\"But here is where the story shifts from ancient history into something more unsettling.\" — 20260607 (CAO) ở 49%, đúng giữa bài",
+      "\"Here's what's rarely mentioned.\" — 20260705 (THẤP) ở 76% — cú lật duy nhất của bài, đến quá muộn",
+      "20260614 (THẤP, cancer): 0 marker cú lật trên toàn bài 1454 từ"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "PHÁT HIỆN QUAN TRỌNG NHẤT TOÀN BÀI BÓC: hai bài nhóm CAO (277.969 view và 120.046 view) dùng CHUNG MỘT BỘ XƯƠNG y hệt tới từng giây, nhưng lời đọc được viết lại 100% mới. Kênh này TÁI SỬ DỤNG KHUNG, KHÔNG tái sử dụng chữ.",
+     "so_lieu": "20260530 'Why Ancient Humans Would've Died Without Dogs?' và 20260617 'Why Wolves Chose Ancient Humans' có 9/9 chương với mốc thời gian TRÙNG KHÍT: 0 / 65 / 160 / 255 / 320 / 370 / 420 / 490 / 515 giây. 8/9 tên chương gần như giống hệt (chỉ đổi Dogs↔Wolves). Nhưng độ trùng chữ = 0,0%: 0 dòng nào giống nhau trên 131 dòng và 139 dòng; độ trùng cụm 6 từ = 0,00% (đo trên toàn bộ 1670 và 1689 từ). Khoảng cách đăng: 18 ngày",
+     "trich": [
+      "Bộ xương CHUNG: C1 'The Planet You Were Not Supposed to Win' (0s) · C2 'The Wolf That Made a Decision' (65s) · C3 'What Dogs/Wolves Actually Did for Ancient Humans' (160s) · C4 'The Mammoth Kill Sites Nobody Talks About' (255s) · C5 'The Night: Humanity's Biggest Vulnerability' (320s) · C6 'Why Neanderthals Disappeared and We Didn't' (370s) · C7 'How Dogs/Wolves Rewired Themselves to Understand Us' (420s) · C8 'The Burials That Tell You Everything' (490s) · C9 'Conclusion' vs 'What This Means For You' (515s)",
+      "Câu mở bản 1: \"You have a dog, or you want one, or you at least think they are fine.\" — 20260530",
+      "Câu mở bản 2: \"For most of human history, wolves were monsters.\" — 20260617",
+      "Câu kết bản 1: \"That is the whole story, and it is the most important one we have.\"",
+      "Câu kết bản 2: \"But you do now.\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG",
+   "ca_nguoc": "Phải nói thẳng một điều làm hỏng giả định thông thường: RANH GIỚI CHƯƠNG CỦA KÊNH NÀY KHÔNG PHẢI RANH GIỚI TU TỪ. Đối chiếu mốc chương (do chính kênh khai trong description) với dòng lời đọc cho thấy 13/13 bài đặt mốc chương RƠI GIỮA MẠCH VĂN, thường ngay giữa một chuỗi câu đang chảy. Ví dụ mốc chương của 20260730 rơi đúng vào giữa cặp câu \"…sleep was not rest. / Sleep was risk stacked 8 hours deep…\". Nghĩa là: kênh KHÔNG viết theo chương rồi ghép; kênh viết một mạch liền rồi CẮM MỐC CHƯƠNG SAU để lấy chapter marker trên thanh tua. Vậy 'câu mở chương' phần lớn không tồn tại như một đơn vị. Cái tồn tại thật là CÂU CẦU (bridge) — và nó xuất hiện ở cả nhóm cao lẫn nhóm thấp.",
+   "phat_hien": [
+    {
+     "y": "Cơ chế chuyển thật sự là KIỂU MÓC XÍCH: câu cuối của ý cũ được LẶP LẠI GẦN NGUYÊN VĂN hoặc nối trực tiếp làm câu đầu của ý mới. Không có câu 'sang phần tiếp theo'.",
+     "so_lieu": "13/13 bài dùng cơ chế móc xích. Đo trên 20260730 (CAO): 7/8 mốc chương có câu đóng của chương trước CHÍNH LÀ câu mở của chương sau",
+     "trich": [
+      "\"…sleep was not rest. / Sleep was risk stacked 8 hours deep every single night for the entire span of human existence…\" — 20260730 (CAO), mốc chương C1→C2 nằm chính giữa",
+      "\"Researchers call it the sentinel hypothesis, and it appears to be baked directly into human biology. / People do not all share the same internal clock. / Some fall asleep early and wake early.\" — 20260730 (CAO), mốc C2→C3",
+      "\"Their sense of smell was practically useless compared to everything hunting them. / Dogs covered every single one of those gaps. / They reacted to threats before any human could detect them.\" — 20260530 (CAO), mốc C3→C4"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN T1 — 'To understand X, you have to understand/go back to Y' (câu cầu mạnh nhất, 15–30 từ). Đây là khuôn đáng chép nhất: nó vừa chuyển đoạn vừa gài lời hứa vừa dùng 'you'.",
+     "so_lieu": "3/13 bài dùng (2 bài nhóm CAO, 1 bài nhóm THẤP). Độ dài: 20, 30, 12 từ",
+     "trich": [
+      "\"To understand why wolves would ever approach a human camp, you have to understand what their lives actually looked like.\" — 20260617 (CAO), ở 12% bài, 20 từ",
+      "\"To understand how a small desert predator quietly took control of one of the most intelligent species on Earth, you have to go back to the moment humans made their biggest mistake.\" — 20260607 (CAO), ở 11% bài, 30 từ",
+      "\"To understand why cancer is ancient, you need to understand what cancer actually is.\" — 20260614 (THẤP), ở 37% bài, 12 từ"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN T2 — 'Let's start with… / Start with…' (mở khối liệt kê). Nhóm THẤP dùng khuôn giảng-bài này nhiều gấp 3 nhóm CAO.",
+     "so_lieu": "9 lần / 7 bài. Nhóm CAO 1 lần (1/4 bài, và là dạng cụt 'Start with e sound.'). Nhóm GIỮA 5 lần (4/5 bài). Nhóm THẤP 3 lần (2/4 bài). Độ dài 3–20 từ",
+     "trich": [
+      "\"Let's start with e physical reality because it matters.\" — 20260506 (THẤP), 8 từ",
+      "\"Let's start with the chemistry because understanding it explains everything that follows.\" — 20260705 (THẤP), 11 từ",
+      "\"Let's start with the most obvious killer, the cold itself and what it actually does to a body left unprotected.\" — 20260721 (GIỮA), 20 từ",
+      "\"Start with the thing that came first before starvation, before isolation, before any of it.\" — 20260526 (GIỮA), 15 từ",
+      "\"Start with the thing that sounds like an ego trip, but is actually just cold, hard biology.\" — 20260621 (GIỮA), 17 từ",
+      "\"Start with e sound.\" — 20260607 (CAO), 4 từ — bản rút gọn tối đa"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "KHUÔN T3 — HẠ BỆ RỒI ĐÀO SÂU: gọi hiểu biết phổ thông là 'phiên bản bề mặt' rồi lật. Chỉ nhóm CAO/GIỮA dùng, 0 lần ở nhóm THẤP.",
+     "so_lieu": "4 lần / 2 bài (1 bài CAO 3971 v/ngày dùng 3 lần liền, 1 bài GIỮA dùng 1 lần). 0/4 bài nhóm THẤP",
+     "trich": [
+      "\"Here is where most people's understanding stops. / Guard duty, hunting help, that is the surface version. / It does not come close to capturing what actually happened.\" — 20260530 (CAO), 24 từ cho cả cụm 3 câu",
+      "\"Here is the part movies have been getting wrong for decades.\" — 20260621 (GIỮA), 11 từ",
+      "\"The standard story of domestication is a story of human control. / We tamed things. / We decided which animals were useful. / We brought them into our world on our terms. / But wolves didn't follow that script.\" — 20260617 (CAO) — bản dài 5 câu, dùng ở 89% bài để mở đoạn kết"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN T7 — CẮT CỨNG SANG MỐC THỜI GIAN/ĐỊA ĐIỂM: một câu cực ngắn chỉ có năm hoặc nơi chốn, dùng như một cú cắt cảnh.",
+     "so_lieu": "6 lần / 5 bài (CAO 3 lần ở 2 bài, GIỮA 1, THẤP 2). Độ dài 2–18 từ",
+     "trich": [
+      "\"40,000 years ago, this was not our world, not even close.\" — 20260530 (CAO), 11 từ",
+      "\"30,000 years ago, wolves were everywhere.\" — 20260617 (CAO), 6 từ",
+      "\"45,000 years ago, Neanderthals were everywhere in Europe. / 5,000 years later, they were gone.\" — 20260617 (CAO), cặp 8+6 từ",
+      "\"London, 1894. / A crowd gathers on a city street to watch something that should not have been possible.\" — 20260805 (THẤP), câu cắt chỉ 2 TỪ",
+      "\"Somewhere in the mountains of 9th century China, a handful of Taoist alchemists spent their lives grinding minerals together chasing a single obsession, an elixir that could stop the human body from aging at all.\" — 20260705 (THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN T4 — 'And then…' làm nhịp tiến trình. Dày nhất toàn kênh nhưng rải đều cả ba nhóm.",
+     "so_lieu": "13 lần / 7 bài (CAO 5 lần ở 3 bài, GIỮA 7 lần ở 4 bài, THẤP 1 lần ở 1 bài). Độ dài 3–35 từ",
+     "trich": [
+      "\"And then humans appeared.\" — 20260617 (CAO), 4 từ",
+      "\"And then they survived. / And then they bred with other wolves who shared that same calm.\" — 20260617 (CAO)",
+      "\"And then there is the thing that no other domesticated animal does.\" — 20260530 (CAO), 12 từ",
+      "\"And then agriculture changed everything.\" — 20260506 (THẤP), 5 từ",
+      "\"And that's exactly where humans came in.\" — 20260617 (CAO), 7 từ"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN T5/T6 — 'giải xong vấn đề này thì đẻ ra vấn đề kia' và 'điều đó làm nảy một câu hỏi hiển nhiên'. Rất hiếm, chỉ 1 bài nhóm GIỮA dùng, nhưng là câu cầu chất lượng cao nhất về mặt logic.",
+     "so_lieu": "3 lần / 1 bài duy nhất (20260721, GIỮA, 151,9 v/ngày). 0/4 bài CAO và 0/4 bài THẤP",
+     "trich": [
+      "\"Sleep solved one problem, it created another because unconscious bodies burn through stored energy fast and that energy had to come from somewhere, which brings us to the threat that likely…\" — 20260721 (GIỮA)",
+      "\"Not a fire lit once and abandoned, a fire someone kept alive night after night for as long as that shelter was occupied, which raises an obvious question.\" — 20260721 (GIỮA)",
+      "\"So, the real question isn't just how ancient humans urvived winter. / It's how they were already preparing for it long before winter became the enemy it would eventually be.\" — 20260721 (GIỮA)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "ca_nguoc": "Mật độ HEDGE thì CẢ BA NHÓM như nhau — CAO 4,37 / GIỮA 4,64 / THẤP 3,55 trên 1000 từ. Nghĩa là 'rào đón cẩn thận' là NẾT CỦA KÊNH chứ không phải thứ tạo ra 277K view. Đừng tưởng viết dè dặt hơn thì ăn hơn. Cái khác biệt không nằm ở SỐ LẦN hedge mà ở CHỖ ĐẶT hedge và ở việc CÓ NÊU TÊN NHÀ NGHIÊN CỨU HAY KHÔNG (xem phát hiện 2).",
+   "phat_hien": [
+    {
+     "y": "Kênh hedge dày và đều: 95 lần rào đón trên 21.813 từ. Cách hedge đặc trưng là NHÉT TỪ RÀO VÀO GIỮA MỘT CÂU KHẲNG ĐỊNH MẠNH, không tách thành câu cảnh báo riêng — nghe vẫn tự tin mà vẫn có đường lui.",
+     "so_lieu": "95 lần / 13 bài = 4,35 trên 1000 từ. Theo nhóm: CAO 29 lần / 6638 từ = 4,37 · GIỮA 45 / 9690 = 4,64 · THẤP 23 / 6485 = 3,55. Không bài nào dưới 5 lần, cao nhất 16 lần (20260721, GIỮA)",
+     "trich": [
+      "\"Chronic fragmented sleep, the kind the sentinel system likely produced across a population living under constant threat for hundreds of thousands of years, is linked to elevated stress hormones and weakened immunity.\" — 20260730 (CAO) — 'likely' nhét giữa mệnh đề phụ",
+      "\"At numerous ancient sites, dog remains are found positioned near hearths and sleeping areas, close nough to suggest they were part of the immediate resting space rather than kept at a distance.\" — 20260730 (CAO) — 'suggest' làm động từ chính thay cho 'prove'",
+      "\"The actual one is that without that animal, the species probably does not spread, the civilizations probably do not get built.\" — 20260530 (CAO) — 2 'probably' trong 1 câu kết luận lớn",
+      "\"It may have been the single greatest competitive advantage in the ancient world.\" — 20260617 (CAO)",
+      "\"The wild ancestors of modern house cats likely started hanging around early farming communities in the fertile crescent around 8,000 years ago, where they settled into what researchers describe as a mutually beneficial arrangement.\" — 20260607 (CAO) — likely + around + 'what researchers describe as'",
+      "\"This wasn't an accident of crowding, it was likely a strategy as deliberate as the fire itself.\" — 20260721 (GIỮA)",
+      "\"Domestication for cats may still be genuinely incomplete after thousands of years.\" — 20260607 (CAO)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÁC BIỆT SẠCH: nhóm CAO KHÔNG nêu tên nhà nghiên cứu, KHÔNG nêu năm dương lịch, KHÔNG nêu tên tạp chí. Nhóm THẤP nêu dày đặc — và bài nêu dày nhất là bài chìm nhất.",
+     "so_lieu": "Tên người/viện cụ thể: NHÓM CAO 0 lần / 6638 từ (0,00 trên 1000 từ) · GIỮA 2 lần (0,21) · THẤP 8 lần / 6485 từ (1,23). Năm dương lịch (1600–2029): CAO 0 lần · GIỮA 2 · THẤP 10 lần (1,54 trên 1000 từ). Riêng bài 20260805 (THẤP, thấp nhất kênh) có 8 tên riêng + 5 năm dương lịch trong 1382 từ",
+     "trich": [
+      "NHÓM THẤP: \"In 2021, a team of 162 scientists led by paleogeneticist Ludovic Orlando at the CNRS analyzed 273 ancient horse genomes and pinpointed the lower Vulgadon region as the homeland of every modern domestic horse…\" — 20260805 (THẤP, 16,3 v/ngày) — 1 câu chứa: năm + số nhà khoa học + tên riêng + viện + số mẫu + địa danh",
+      "NHÓM THẤP: \"In 2024, researchers published a study in the journal Animals testing which biological traits actually predict whether a species can be domesticated using com…\" — 20260805 (THẤP)",
+      "NHÓM THẤP: \"Jared Diamond, the volutionary biologist behind the 1997 book Guns, Germs, and Steel, used the zebra as one of his central case studies for why domestication…\" — 20260805 (THẤP)",
+      "NHÓM THẤP: \"A 2021 study applied modern CT scanning and X-ray technology to medieval skeletons from cemeteries in England.\" — 20260614 (THẤP)",
+      "ĐỐI CHIẾU NHÓM CAO — thay vì nêu tên, họ dùng danh từ tập thể vô danh: \"Researchers who study modern hunter-gatherer groups, communities that still live largely as humans did for most of our history, have found something that reshapes how we…\" — 20260730 (CAO)",
+      "ĐỐI CHIẾU NHÓM CAO — \"Researchers call it the sentinel hypothesis, and it appears to be baked directly into human biology.\" — 20260730 (CAO). Không tên người, không năm, không tạp chí",
+      "ĐỐI CHIẾU NHÓM CAO — \"For decades, scientists argued about why.\" — 20260617 (CAO). 6 từ, không tên ai"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Ngược lại, nhóm CAO neo bằng KHOẢNG THỜI GIAN TIỀN SỬ ('40,000 years ago') gấp đôi nhóm THẤP. Tức: mỏ neo của bài thắng là ĐỘ SÂU THỜI GIAN, không phải THẨM QUYỀN HỌC THUẬT.",
+     "so_lieu": "Cụm 'X years ago': CAO 20 lần / 6638 từ = 3,01 trên 1000 từ · GIỮA 14 / 9690 = 1,44 · THẤP 9 / 6485 = 1,39. Danh từ chỉ thẩm quyền (researcher/scientist/study/journal/university): CAO 1,66 · GIỮA 1,24 · THẤP 3,24 trên 1000 từ — nhóm THẤP gấp đôi nhóm CAO",
+     "trich": [
+      "\"40,000 years ago, that dog was a wolf, and that wolf was hunting the same prey you were hunting…\" — 20260530 (CAO)",
+      "\"They have been to war with us, crossed oceans with us, and been buried beside us in graves that are 14,000 years old.\" — 20260617 (CAO)",
+      "\"That is an old arrangement still technically in effect tens of thousands of years after it was first made.\" — 20260730 (CAO)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Kênh gần như KHÔNG tách bạch 'đây là sự thật' với 'đây là suy diễn'. Chỉ 1/13 bài có câu thú nhận độ chắc chắn.",
+     "so_lieu": "1/13 bài chứa cụm thừa nhận không biết ('we don't know' / 'nobody knows' / 'still debated' / 'the honest answer' / 'no direct evidence'). Con số này giống nhau ở cả ba nhóm — 0/4 CAO, 0/5 GIỮA, 1/4 THẤP",
+     "trich": [
+      "Câu duy nhất toàn kênh: \"The honest answer is probably es, but not for the reasons most people assume.\" — 20260614 (THẤP, 47,5 v/ngày)",
+      "Cách kênh xử lý thay thế — gói suy diễn vào chữ 'perhaps/may' rồi vẫn kết luận mạnh: \"Perhaps the wolves decided to work with us just as much as we decided to work with them. / It was a negotiation between two predators who had every reason to fear each other and somehow chose otherwise.\" — 20260617 (CAO). Câu 1 hedge, câu 2 khẳng định như thật",
+      "Có 1 mỏ neo di chỉ dùng rất đắt ở nhóm GIỮA: \"At Qesem Cave in Israel, researchers uncovered something remarkable dated to an almost unbelievable 420,000 years ago, long before modern humans even existed in their current form.\" — 20260721 (GIỮA)",
+      "Tên di chỉ/dân tộc cụ thể toàn kênh chỉ 11 lần / 13 bài (Qesem Cave, Tsavo, Champawat, Hadza, Kalahari, fertile crescent) — CAO 4 lần, GIỮA 3, THẤP 4"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "ca_nguoc": "BA thứ tưởng là công thức title nhưng CẢ HAI NHÓM đều dùng, nên VÔ NGHĨA để dự báo: (1) chữ 'Ancient Humans' trong title — 10/13 bài, nhóm CAO 4/4 VÀ nhóm THẤP 4/4, trung vị chỉ 107 v/ngày; (2) dấu hỏi cuối title — 9/13 bài, CAO 2/4 nhưng THẤP tới 3/4, trung vị 124 v/ngày, tức dấu hỏi hơi NGHIÊNG VỀ BÀI CHÌM; (3) từ phủ định/bất khả (Couldn't/Never/Without/Died/Unfinished) — 7/13, CAO 2/4 và THẤP cũng 2/4, trung vị 68,8. Nếu đúc 'công thức title' từ ba thứ này là đúc nhầm. Thứ duy nhất tách nhóm là CON VẬT TRONG TITLE (xem phát hiện 1) — mà đó là ĐỀ TÀI chứ không phải cách đặt title.",
+   "phat_hien": [
+    {
+     "y": "BIẾN QUYẾT ĐỊNH LÀ ĐỀ TÀI, KHÔNG PHẢI CÁCH VIẾT: 4/4 bài nhóm CAO đều về con vật đang sống trong nhà người xem (chó, sói-thành-chó, mèo). Cách nhau 22–86 lần view/ngày so với mọi nhóm đề tài khác.",
+     "so_lieu": "Nhóm A 'thú cưng trong nhà (chó/sói/mèo)': n=4, trung vị 3.139,8 v/ngày (4215 · 3971 · 2309 · 1405) — CẢ 4 BÀI ĐỀU NẰM Ở NHÓM CAO, không bài nào rớt. Nhóm C 'cơ thể/bệnh/tuổi thọ': n=3, trung vị 62,4 (289 · 62 · 48). Nhóm D 'sợ hãi & đời sống xã hội': n=3, trung vị 68,8 (124 · 69 · 50). Nhóm E 'công nghệ sinh tồn/lịch sử': n=2, trung vị 93,5 (152 · 35). Nhóm B 'con vật KHÔNG phải thú cưng (ngựa vằn)': n=1, 16,3 (bài mới 3 ngày, treo). Tỷ số trung vị A so với nhóm cao thứ nhì (E) = 33,6 lần. Title có tên con vật: 6/13 bài, trung vị 1.856,9 v/ngày so với 96,7 của toàn kênh",
+     "trich": [
+      "\"Why Ancient Humans Couldn't Sleep Without Dogs?\" — 4.215,4 v/ngày (37.939 view / 9 ngày)",
+      "\"Why Ancient Humans Would've Died Without Dogs?\" — 3.971,0 v/ngày (277.969 view)",
+      "\"Why Wolves Chose Ancient Humans\" — 2.308,6 v/ngày (120.046 view)",
+      "\"How Cats Domesticated Ancient Humans (And Still Do)\" — 1.405,3 v/ngày (87.131 view)",
+      "ĐỐI CHIẾU cùng là con vật nhưng KHÔNG ở trong nhà: \"Why Ancient Humans Couldn't Domesticate Zebras Like Horses?\" — 16,3 v/ngày. Và \"Why Predators Never Attack Sleeping Humans\" — 68,8 v/ngày. Vậy 'con vật' chưa đủ; phải là con vật người xem SỞ HỮU"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Kênh LÀM LẠI đề tài chó tới 3 lần trong 61 ngày và cả 3 lần đều ăn — đây là hành vi cố ý khai thác lại mỏ đã trúng, không phải trùng lặp vô tình.",
+     "so_lieu": "3/13 bài về chó/sói (30/05, 17/06, 30/07) = 23% sản lượng, chiếm 435.954 / 573.174 view của kênh = 76,1% tổng view. Khoảng cách: 18 ngày giữa bài 1 và 2, 43 ngày giữa bài 2 và 3. Cộng thêm mèo (07/06) thì 4/13 bài thú cưng = 30,8% sản lượng chiếm 523.085 view = 91,3% tổng view kênh",
+     "trich": [
+      "Bài 1 (30/05): \"Why Ancient Humans Would've Died Without Dogs?\" 277.969 view",
+      "Bài 2 (17/06): \"Why Wolves Chose Ancient Humans\" 120.046 view — CÙNG bộ xương 9 chương trùng từng giây với bài 1, lời đọc viết mới 100% (trùng cụm 6 từ = 0,00%)",
+      "Bài 3 (30/07): \"Why Ancient Humans Couldn't Sleep Without Dogs?\" 37.939 view / 9 ngày — bộ xương MỚI 8 chương, ghép đề tài chó với đề tài giấc ngủ (đề tài giấc ngủ trước đó chỉ ra 68,8 v/ngày khi đứng một mình với 'Why Predators Never Attack Sleeping Humans')"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHÔNG có series đánh số, KHÔNG có phần 1/phần 2. Loạt duy nhất là loạt ngầm theo đề tài (chó ×3, mèo ×1).",
+     "so_lieu": "0/13 title có số thứ tự / 'Part' / 'Ep'. 13/13 title là bài độc lập. Playlist_count = 13 (mỗi video là một mục, không có playlist chia loạt)",
+     "trich": [
+      "Toàn bộ 13 title: 'How Did Ancient Humans Live Without Privacy?' · 'Why Evolution Left the Human Blueprint Unfinished?' · 'What Scared Early Humans More Than Death?' · 'Why Ancient Humans Would've Died Without Dogs?' · 'How Cats Domesticated Ancient Humans (And Still Do)' · 'Why Ancient Humans Died Young?' · 'Were Ancient Humans Immune To Cancer?' · 'Why Wolves Chose Ancient Humans' · 'Why Predators Never Attack Sleeping Humans' · 'How Ancient Humans Accidentally Invented Guns' · 'How Ancient Humans Survived Deadly Ice Age Winters?' · 'Why Ancient Humans Couldn't Sleep Without Dogs?' · 'Why Ancient Humans Couldn't Domesticate Zebras Like Horses?'"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn từ đầu title: 'Why' nghiêng về bài thắng, 'How/What/Were' nghiêng về bài chìm — nhưng cỡ mẫu quá nhỏ để chắc.",
+     "so_lieu": "'Why…' 7/13 bài (CAO 3/4, THẤP 1/4), trung vị 289,4 v/ngày. 'How…' 4/13 (CAO 1/4, THẤP 2/4), trung vị 101,2. 'What/Were…' 2/13 (CAO 0/4, THẤP 1/4), trung vị 86,0. CẢNH BÁO: bài 'Why' thấp nhất là 16,3 và bài 'How' cao nhất là 1405, nên khuôn này KHÔNG tách sạch",
+     "trich": [
+      "'Why' thắng: \"Why Ancient Humans Couldn't Sleep Without Dogs?\" 4215 v/ngày. 'Why' chìm: \"Why Ancient Humans Couldn't Domesticate Zebras Like Horses?\" 16,3 v/ngày — CÙNG khuôn 'Why Ancient Humans Couldn't X' mà chênh 259 lần → chứng minh khuôn title không quyết định",
+      "'How' thắng: \"How Cats Domesticated Ancient Humans (And Still Do)\" 1405 v/ngày. 'How' chìm: \"How Ancient Humans Accidentally Invented Guns\" 35,0 v/ngày"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Độ dài bài nhóm CAO gói rất chặt, nhóm THẤP tản rộng — nhưng dải chồng lấn nên không dùng làm luật được",
+     "so_lieu": "NHÓM CAO: 1582 / 1670 / 1689 / 1697 từ (biên độ chỉ 115 từ), 7:25–9:30. NHÓM GIỮA: 1464–2496 từ, 7:56–14:47. NHÓM THẤP: 1382 / 1454 / 1736 / 1913 từ (biên độ 531 từ), 7:12–10:28. Nhịp đọc: CAO 179–213 wpm, THẤP 174–192 wpm. Bài dài nhất kênh (2496 từ, 14:47) chỉ ra 289 v/ngày; bài dài nhì (2393 từ, 13:28) ra 124",
+     "trich": [
+      "4 bài CAO đều rơi vào khoảng 1580–1700 từ và 7:25–9:30 — nếu phải chọn một ngưỡng để thử thì đây là ngưỡng của kênh này, nhưng 2/4 bài THẤP cũng nằm gần dải đó (1736 và 1454 từ) nên KHÔNG phải điều kiện đủ"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "ca_nguoc": "Nhịp đăng KHÔNG dự báo được view/ngày. Đối chiếu khoảng cách ngày trước mỗi video với vpd của chính video đó: nhóm CAO có gap trước là 9, 4, 3, 8 ngày; nhóm THẤP có gap trước là (bài đầu kênh), 4, 14, 6 ngày. Gap 4 ngày cho ra cả bài 3971 v/ngày lẫn bài 47,5 v/ngày. Gap 16 ngày cho ra 289 và 151. Không có tương quan nào. Đăng dày hay thưa đều không phải biến quyết định ở kênh này.",
+   "phat_hien": [
+    {
+     "y": "13 video trong 91 ngày, khoảng cách trung vị 5 ngày. Kênh chạy 2 pha rõ rệt: pha DỒN ĐỢT rồi pha CHẬM LẠI.",
+     "so_lieu": "13 video / 91 ngày (06/05/2026 → 05/08/2026) = 1 video mỗi 7,0 ngày. Chuỗi khoảng cách: 16, 4, 4, 8, 3, 4, 3, 4, 14, 16, 9, 6 ngày. Trung vị 5,0 · trung bình 7,6 · min 3 · max 16. Nửa đầu (6 gap đầu) trung vị 4,0 ngày · nửa sau (6 gap cuối) trung vị 7,5 ngày — chậm gần gấp đôi",
+     "trich": [
+      "Ngày đăng theo thứ tự: 06/05 · 22/05 · 26/05 · 30/05 · 07/06 · 10/06 · 14/06 · 17/06 · 21/06 · 05/07 · 21/07 · 30/07 · 05/08"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ GOM ĐỢT rõ ràng: 8 video trong 30 ngày (22/05–21/06), khoảng cách trung vị chỉ 4 ngày. Đợt này chứa 3/4 bài nhóm CAO và tạo ra 88% tổng view của kênh.",
+     "so_lieu": "Đợt 22/05–21/06: 8/13 video trong 30 ngày (gap 4,4,8,3,4,3,4), trung vị 4 ngày. 3/4 bài nhóm CAO nằm trong đợt này (30/05, 07/06, 17/06). Tổng view của đợt = 22.571+9.210+277.969+87.131+3.681+2.611+120.046+3.300 = 526.519 / 573.174 tổng kênh = 91,9%. Sau đợt: 4 video trong 45 ngày (05/07 → 05/08), gap 14, 16, 9, 6",
+     "trich": [
+      "Trong đợt dày: 30/05 bài 277.969 view · 07/06 bài 87.131 view · 17/06 bài 120.046 view — ba quả nổ liên tiếp cách nhau 8 và 10 ngày",
+      "Sau đợt, kênh chậm lại và view rơi: 05/07 (1.190 view) · 21/07 (2.735) · 30/07 (37.939 — quay lại đề tài chó) · 05/08 (49, mới 3 ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Bài mở kênh cách bài thứ hai 16 ngày — sau đó mới vào guồng. Và bài cuối cùng (05/08) đăng chỉ 6 ngày sau quả 37.939 view, tức kênh đang cố cưỡi sóng nhưng đổi đề tài (từ chó sang ngựa vằn) và tắt ngóm.",
+     "so_lieu": "Gap 06/05 → 22/05 = 16 ngày (dài nhất cùng với 05/07→21/07). Gap 30/07 → 05/08 = 6 ngày; bài 30/07 đang chạy 4215 v/ngày, bài 05/08 chỉ 16,3 v/ngày (49 view / 3 ngày). Chênh 259 lần dù đăng liền kề trên cùng một đà",
+     "trich": [
+      "Bài 30/07 (đang nóng): \"Why Ancient Humans Couldn't Sleep Without Dogs?\" — thú cưng, 37.939 view / 9 ngày",
+      "Bài 05/08 (6 ngày sau): \"Why Ancient Humans Couldn't Domesticate Zebras Like Horses?\" — không phải thú cưng, 49 view / 3 ngày. CẢNH BÁO cỡ mẫu: 3 ngày là quá sớm để kết luận bài này chết"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  }
+ ]
+}
