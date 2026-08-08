@@ -36,7 +36,7 @@ SHOTS = [
 # ═══════════════════════ CHƯƠNG 1 — CA ĐÊM — 38 shot ═══════════════════════
 ("Start with the system that works,","CARD","a large hand-drawn heading band across the top of a plain frame","large text \"THE NIGHT SHIFT\"","white","flat"),
 ("because you are running it right now.","SCENE_M","the modern man stands plainly facing forward with one hand on his own stomach","no text","white","flat"),
-("After sunset two things climb together in your blood.","CARD","two simple line graphs side by side, both curving upward from left to right","no text","dark_card","flat"),
+("After sunset two things climb together in your blood.","CARD","two simple line graphs side by side, both curving upward from left to right, each with its own small label written above it","a small label \"MELATONIN\" above the left graph and a small label \"VASOPRESSIN\" above the right graph","dark_card","flat"),
 ("One is melatonin, which everybody has heard of.","CARD","one of the two rising curves circled, with a plain arrow pointing at it","a label \"MELATONIN\"","dark_card","flat"),
 ("The other is vasopressin, which almost nobody has.","CARD","the second rising curve circled in red with a plain arrow pointing at it","a label \"VASOPRESSIN\"","dark_card","flat"),
 ("Vasopressin tells your kidneys to make less urine.","CARD","two simple bean-shaped kidneys drawn in flat red-brown with a short arrow pointing at them","a label \"MAKE LESS\"","dark_card","flat"),
@@ -61,7 +61,7 @@ SHOTS = [
 ("So what was it worth?","SCENE_A","he sleeps beside the fire while one pair of small yellow eyes watches from the blackness beyond","a small label \"WORTH?\"","fire_edge","flat"),
 ("Look at the people whose bodies do not do it.","SCENE_M","the modern man sits on the edge of a bed at night with both feet on the floor, awake","no text","modern_night","tired"),
 ("When the vasopressin rhythm goes flat,","CARD","the rising vasopressin curve from earlier redrawn as one flat horizontal line","no text","dark_card","flat"),
-("urine production does not drop after dark.","CARD","a simple bar chart with the night bar exactly as tall as the day bar","no text","dark_card","flat"),
+("urine production does not drop after dark.","CARD","a simple bar chart with two bars of exactly equal height, each with a short label written under it","a small label \"DAY\" under the left bar and a small label \"NIGHT\" under the right bar","dark_card","flat"),
 ("Those people are up three and four times a night, every night.","SCENE_M","the modern man walks across a dark bedroom floor towards a doorway, drawn mid-stride","a small label \"3-4x\"","modern_hall","tired"),
 ("The condition has a name.","CARD","a plain empty label plate drawn in the centre of the frame","no text","dark_card","flat"),
 ("Nocturnal polyuria.","CARD","the same label plate now filled with hand-lettered writing","large text \"NOCTURNAL POLYURIA\"","dark_card","flat"),
