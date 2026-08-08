@@ -1,3 +1,7 @@
+# ⛔ HIỆN VẬT — video này ĐÃ SẢN XUẤT XONG. ĐỪNG CHÉP SANG VIDEO MỚI.
+#    Bản dùng chung: tools/  +  identity/style.py
+#    Giữ nguyên vì prompt phải khớp thứ ĐÃ THẬT SỰ dùng để gen ảnh —
+#    sửa lại là sửa lịch sử. (dán 08/08/2026)
 # -*- coding: utf-8 -*-
 """V17 — sinh PROMPTS_FULL.txt + SHOTLINES_FULL.txt từ shot_data.py
 

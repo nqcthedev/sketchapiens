@@ -25,6 +25,8 @@ Kho tri thức: `00_LUAT_HIEN_HANH.md` là **cửa vào**, nó nói mỗi câu h
 | `kho/3_bangchung/` | nghiên cứu đã rút thành luật — chỉ mở khi cần tra lại | ❌ |
 | `kho/4_luutru/` | V17/V18, spec công cụ, lệnh cho AI ngoài | ❌ |
 | `2_KHO_BANGHI/` | 761 bản ghi đối thủ — **chỉ để ĐO**, cấm mở khi đang viết | đo lại được |
+| `identity/` | **bản sắc hình ảnh của kênh** — STYLE · khối nhân vật · bảng nền · NEG. ⛔ sửa = đổi cả kênh | — |
+| `tools/` | máy móc dùng cho MỌI video — dựng prompt · kiểm shot · TTS · ghép · soát biểu hiện | — |
 | `videos/` | từng video: V17 *(hai bản)* · V18 · V19. **V02–V16 đã xoá 07/08** | — |
 
 **Luật ưu tiên khi hai file nói ngược nhau:** tầng thấp hơn thắng · đếm tay trên bản ghi gốc

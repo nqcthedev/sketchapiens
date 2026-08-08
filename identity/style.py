@@ -1,24 +1,27 @@
-# ⛔ HIỆN VẬT — video này ĐÃ SẢN XUẤT XONG. ĐỪNG CHÉP SANG VIDEO MỚI.
-#    Bản dùng chung: tools/  +  identity/style.py
-#    Giữ nguyên vì prompt phải khớp thứ ĐÃ THẬT SỰ dùng để gen ảnh —
-#    sửa lại là sửa lịch sử. (dán 08/08/2026)
 # -*- coding: utf-8 -*-
-"""V17 — sinh PROMPTS_FULL.txt + SHOTLINES_FULL.txt từ shot_data.py
+"""BẢN SẮC HÌNH ẢNH CỦA KÊNH — MỘT nguồn duy nhất cho MỌI video.
 
-BUILD LẠI 30/07/2026 theo kho/3_bangchung/NGUPHAP_HINH_DoLai_ToanBo_2026-07-30.md
-(đo 1.090 khung = trọn hai video đối thủ, không lấy mẫu).
+VÌ SAO CÓ FILE NÀY
+──────────────────
+Trước 08/08/2026, các khối STYLE / CONSIST / NEG nằm trong `build_prompts.py` của
+TỪNG video. Đo ngày 08/08: chúng đã trôi thành BA bản khác nhau —
 
-Hai chế độ hình, KHÁC HẲN NHAU:
-  · CẢNH  — nền vẽ có chiều sâu: vân đá, chuyển màu trời, quầng lửa, bóng đổ
-  · THẺ   — nền trắng phẳng, chữ viết tay, hình nhỏ vẽ tay bên cạnh
-Mục tiêu tỉ lệ: 60% cảnh / 40% thẻ (đối thủ 59-64% cảnh).
+    STYLE_CARD    V17  9.563 ký tự  ·  V18 12.232  ·  V19 12.644
+    STYLE_SCENE   V17 10.326        ·  V18 12.922  ·  V19 13.334
+    NEG_CARD      V17  5.140        ·  V18  5.944  ·  V19  6.356
+
+Tức ba video được gen bằng BA định nghĩa style khác nhau, và không ai quyết định
+điều đó — nó xảy ra vì chép file rồi sửa dần. Với kênh faceless thì NHẤT QUÁN HÌNH
+ẢNH là tài sản lớn nhất.
+
+⛔ SỬA FILE NÀY LÀ ĐỔI BẢN SẮC CỦA CẢ KÊNH. Không sửa cho riêng một video.
+   Muốn một video khác đi thì đổi `subj`/`text` trong shot_data.py của video đó.
+
+Bản này lấy từ V19 (mới nhất, đã qua các sửa 30/07 và 07-08/08).
+V17 và V18 giữ bản riêng của chúng làm HIỆN VẬT — prompt phải khớp thứ đã thật sự
+dùng để gen ảnh, không được sửa lại lịch sử.
 """
-import io
-from shot_data import SHOTS
 
-# ── STYLE ─────────────────────────────────────────────────────────────────
-# Cảnh: KHÔNG phẳng. Đối thủ vẽ môi trường có lớp, có sáng tối, có không khí.
-# Rút gọn 31/07: Flow chặn prompt >4000 ký tự. Giữ đủ luật, bỏ chữ thừa.
 STYLE_SCENE = (
     "A hand-drawn 2D explainer frame that looks drawn with a digital felt-tip marker: every outline "
     "is solid BLACK with slightly WOBBLY, uneven thickness, never the smooth uniform look of vector "
@@ -117,26 +120,32 @@ NEG_CARD = ("NEG: no photograph, no photorealism, no 3D render, no stock clipart
 
 # ── NỀN CẢNH — có lớp, có ánh sáng, không phải hai dải màu ────────────────
 BG = {
- "night_open": ("a block of midnight-blue night sky with plain white dots for stars and a small white "
-               "crescent moon, over one flat strip of medium-brown ground, and one or two trees each "
-               "drawn as a brown line with a dark green cloud on top"),
- "night_fire": ("a block of midnight-blue night sky with white dots for stars, one flat strip of "
-               "medium-brown ground, and a small fire drawn as a wobbly orange shape with a yellow "
-               "centre sitting on a few grey stones, throwing a soft orange patch on the ground"),
- "cave_fire":  ("a flat block of medium-brown rock filling the frame behind the figures, one flat strip "
-               "of darker brown ground, and a small fire drawn as a wobbly orange shape with a yellow "
-               "centre"),
- "cave_mouth": ("a flat block of dark brown rock with a plain arch-shaped opening cut out of it, and "
-               "through the opening a block of midnight-blue sky with white star dots"),
- "dry_plain":  ("a block of pale blue daytime sky over one flat strip of tan ground, with two trees "
-               "each drawn as a brown line with a green cloud on top"),
- "dusk":       ("a flat block of muted orange sky above one flat strip of brown ground, with a plain "
-               "orange disc for the sun on the horizon"),
- "modern":     ("a flat block of pale grey wall, a simple bed drawn in a few black lines, and one plain "
-               "rectangle for a closed door"),
- "camp_wide":  ("a block of midnight-blue night sky with white star dots, one flat strip of brown "
-               "ground, three simple triangle shelters drawn in plain lines, and a small fire drawn as "
-               "a wobbly orange shape with a yellow centre"),
+ # ── ĐÊM & LỬA (mạch chính của V19) ──
+ "fire_ring":  ("one flat block of very dark navy filling most of the frame, and in the middle a small "
+               "fire drawn as a wobbly orange shape with a yellow centre on a few grey stones, casting "
+               "a soft round patch of warm orange on a flat strip of medium-brown ground"),
+ "fire_edge":  ("a warm orange patch of firelight on flat brown ground on one side, and on the other "
+               "side a flat block of almost-black navy with nothing drawn in it at all"),
+ "night_open": ("a flat block of midnight-blue night sky with plain white dots for stars and a small "
+               "white crescent moon, over one flat strip of medium-brown ground, and one tree drawn as "
+               "a brown line with a dark green cloud on top"),
+ "night_dark": "a flat block of almost-black dark navy filling the whole frame, with nothing else drawn in it",
+ "cold_night": ("a flat block of cold blue-grey night sky with a few white star dots, over one flat "
+               "strip of pale frosted grey-brown ground, and one bare tree drawn as a brown line with "
+               "a few bare twigs"),
+ # ── HARAMAYA (huyện hiện đại, ban đêm) ──
+ "village_night": ("a flat block of dark navy night sky over one flat strip of dry tan ground, with two "
+               "very simple square houses drawn in plain black lines, one small yellow window square, "
+               "and a plain dirt path leading away into the dark"),
+ # ── HIỆN ĐẠI (khách mời — chỉ hook và kết) ──
+ "modern_night": ("a flat block of dark blue-grey bedroom wall, a simple bed drawn in a few black lines, "
+               "and one plain rectangle for a doorway with a darker rectangle inside it"),
+ "modern_hall": ("a flat block of dark blue-grey wall, one flat strip of pale grey floor, and a plain "
+               "open doorway rectangle at one end"),
+ # ── CƠ THỂ / KHÁI NIỆM ──
+ "dark_card":  ("a flat block of very dark navy filling the entire frame with generous empty space; "
+               "every line, shape and letter in this image is drawn in WHITE or pale cream marker on "
+               "top of that dark navy, not in black"),
  "white":      "a plain WHITE background with generous empty space",
 }
 
@@ -195,66 +204,3 @@ SCENE_N = ANIMAL   # canh khong co nhan vat nguoi
 WHO = {"SCENE_A": ANCIENT, "SCENE_M": MODERN, "SCENE_W": WOMAN, "GROUP": GROUP, "SCENE_N": SCENE_N}
 
 
-def build(i, line, kind, subj, text, bg, face="flat"):
-    n = f"{i:03d}"
-    p = []
-    if kind in WHO:
-        p.append(WHO[kind])
-        p.append("ACTION IN THIS SHOT: " + subj + ". ")
-        p.append(FACE.get(face, FACE["flat"]))
-        p.append(STYLE_SCENE)
-        p.append(framing(kind, subj))
-        p.append("SCENE: ONE single moment, " + BG[bg] + ". ")
-        if "no text" in text.lower():
-            p.append("TEXT: no text or letters anywhere. ")
-        else:
-            p.append(f"TEXT: {text}. " + LETTER)
-        p.append(NEG_SCENE)
-    else:
-        p.append(STYLE_CARD)
-        p.append("SUBJECT: " + subj + ". ")
-        p.append(framing(kind, subj))
-        p.append("SCENE: " + BG.get(bg, BG["white"]) + ". " + SAME_HAND)
-        if "no text" in text.lower():
-            p.append("TEXT: no text or letters. ")
-        else:
-            p.append(f"TEXT: {text}. " + LETTER)
-        p.append(NEG_CARD)
-    return n, "".join(p)
-
-
-lines, prompts = [], []
-for i, s in enumerate(SHOTS, 1):
-    line, kind, subj, text, bg = s[:5]
-    face = s[5] if len(s) > 5 else "flat"
-    n, pr = build(i, line, kind, subj, text, bg, face)
-    lines.append(line)
-    prompts.append(f"{n}. {pr}")
-
-io.open("SHOTLINES_FULL.txt", "w", encoding="utf-8").write("\n".join(lines) + "\n")
-
-HEADER = """### TRUOC KHI GEN
-1. Chon 16:9 truoc khi chay.
-2. Gen vao MOT THU MUC RONG, mot luot (bo dem cua tool dat ten theo thu tu chay).
-   Neu tool khong nuot het -> chia dai, MOI DAI MOT THU MUC RIENG, dem tung dai.
-3. Dem du dung {N} file roi moi ghep.
-4. (KHONG xoa watermark - de nguyen)
-   -> cat watermark ngoi sao cua Flow o goc duoi-phai + dua ve 1920x1080.
-
-"""
-io.open("PROMPTS_FULL.txt", "w", encoding="utf-8").write(
-    HEADER.format(N=len(SHOTS)) + "\n\n".join(prompts) + "\n")
-
-tot = len(SHOTS)
-scene = sum(1 for s in SHOTS if s[1] in WHO)
-card = tot - scene
-withtext = sum(1 for s in SHOTS if "no text" not in s[3].lower())
-modern = sum(1 for s in SHOTS if s[1] == "SCENE_M")
-words = sum(len(s[0].split()) for s in SHOTS)
-print(f"  tổng shot        : {tot}")
-print(f"  từ TB/shot       : {words/tot:.1f}")
-print(f"  KHUNG CẢNH       : {scene} = {100*scene/tot:.0f}%   (đối thủ 59-64%)")
-print(f"  THẺ nền trắng    : {card} = {100*card/tot:.0f}%   (đối thủ 36-41%)")
-print(f"  khung có chữ     : {withtext} = {100*withtext/tot:.0f}%")
-print(f"  người hiện đại   : {modern} = {100*modern/tot:.0f}%   (luật ≤15%)")
-print(f"  ước thời lượng   : {tot*2.0/60:.1f} phút @2,0s/ảnh")

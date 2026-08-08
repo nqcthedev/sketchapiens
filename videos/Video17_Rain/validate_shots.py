@@ -1,3 +1,7 @@
+# ⛔ HIỆN VẬT — video này ĐÃ SẢN XUẤT XONG. ĐỪNG CHÉP SANG VIDEO MỚI.
+#    Bản dùng chung: tools/  +  identity/style.py
+#    Giữ nguyên vì prompt phải khớp thứ ĐÃ THẬT SỰ dùng để gen ảnh —
+#    sửa lại là sửa lịch sử. (dán 08/08/2026)
 # -*- coding: utf-8 -*-
 """KIỂM SHOT + PROMPT — chạy TRƯỚC KHI GEN, mọi video.
    python3 validate_shots.py Script_VideoNN_narration.txt
