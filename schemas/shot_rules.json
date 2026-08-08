@@ -1,0 +1,61 @@
+{
+  "_doc": [
+    "Luật kiểm shot + prompt. MỘT nguồn duy nhất cho mọi video.",
+    "Trước 08/08/2026 mỗi thư mục video có một bản validate_shots.py riêng, và ba bản đã TRÔI khỏi nhau:",
+    "V17 còn giữ ba cửa tỉ lệ đã bị bác, V19 thì đã bỏ. Đó là đúng bệnh 'biểu hiện tự trôi'.",
+    "",
+    "MỖI ngưỡng ở đây BẮT BUỘC có 'nguon'. Không có nguồn thì không được làm cửa chặn —",
+    "hạ xuống 'chi_bao' (in số ra, không chấm đạt/trượt). Xem governance/CHANGE_POLICY.md."
+  ],
+
+  "prompt": {
+    "so_ky_tu_toi_da": {
+      "gia_tri": 4000,
+      "nguon": "giới hạn cứng của Google Flow — ràng buộc bên ngoài, không phải quan sát",
+      "loai": "cung"
+    },
+    "so_tu_toi_thieu": {
+      "gia_tri": 60,
+      "nguon": "prompt ngắn hơn mức này là prompt cụt, đã dính ở V17",
+      "loai": "cung"
+    },
+    "khoi_bat_buoc": ["Framing:", "SCENE:", "TEXT:", "NEG:"],
+    "khoi_chu_the_mot_trong": ["SUBJECT:", "ACTION IN THIS SHOT:"],
+    "ty_le_khung": "16:9",
+    "cam_chuoi": {
+      "silhouette": "cấm bóng người đen kiểu pictogram — không phải nét của lane"
+    }
+  },
+
+  "so_do": {
+    "_doc": "SƠ ĐỒ PHẢI NÓI ĐƯỢC MỘT ĐIỀU. SUBJECT là biểu đồ/bảng/trục thì TEXT không được là 'no text'.",
+    "tu_khoa_subject": ["chart", "graph", "grid", "timeline", "axis", "scale", "diagram", "\\bbar\\b", "plot", "table"],
+    "nguon": "kho/3_bangchung/NGUPHAP_HINH_6Kenh_2026-08-08.md",
+    "do_luc": "2026-08-08",
+    "co_mau": "V18: 15/18 khung sơ đồ bị chính prompt ép 'no text' → biểu đồ cột không một chữ số, cân hai bên đều '?'",
+    "loai": "cung"
+  },
+
+  "nhan": {
+    "nhan_nho_toi_da_tu": {
+      "gia_tri": 4,
+      "nguon": "nhãn NHỎ có mũi tên trỏ vào vật thì phải ngắn; TIÊU ĐỀ THẺ thì không — đối thủ có tiêu đề dài cả câu",
+      "loai": "cung"
+    }
+  },
+
+  "chi_bao": {
+    "_doc": "IN SỐ RA, KHÔNG CHẤM. Mọi ngưỡng tỉ lệ hình đã bị bác 07/08 — xem governance/RETIRED_RULES.md.",
+    "ghi_lai": ["ty_le_canh", "ty_le_the", "ty_le_co_chu", "tu_moi_shot", "ty_le_nguoi_hien_dai"],
+    "moc_doi_thu": "Ink 41% thẻ · Mack 36% · Zenn ~80% nền trắng — cả ba đều thắng. Không có con số đúng."
+  },
+
+  "cua_chan": {
+    "_doc": "Chỉ những cửa CÓ nguồn mới nằm ở đây.",
+    "tu_moi_shot": {
+      "min": 6, "max": 9,
+      "nguon": "lý do SẢN XUẤT, không phải view: shot dài hơn thì một ảnh phải minh hoạ hai ý, đọc-hiểu-trong-1-giây hỏng",
+      "loai": "cung"
+    }
+  }
+}
