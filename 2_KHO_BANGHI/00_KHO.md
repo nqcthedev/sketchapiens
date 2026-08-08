@@ -1,6 +1,6 @@
 # KHO BẢN GHI GỐC — chỉ số toàn ngách
 
-*Dựng 06/08/2026 bằng `yt-dlp` + nexlev. **768 bản ghi / 22 kênh**. Phụ đề `en-orig` (bản gốc, không phải dịch máy).*
+*Dựng 06/08/2026 bằng `yt-dlp` + nexlev. **488 bản ghi / 16 kênh vẽ** *(sau khi xoá 3 kênh documentary ngày 08/08)*. Phụ đề `en-orig` (bản gốc, không phải dịch máy).*
 
 > ## 🔴 LUẬT DÙNG KHO — một câu
 > **Kho này chỉ để ĐO. Cấm mở trong chế độ ② VIẾT.**
@@ -38,10 +38,27 @@
 | Paint It Simple | **3.29** | 340,235 | 8.9' | — | 7 |
 | Super Joy | **3.07** | 586,888 | 8.1' | 🇵🇰 Pak | 9 |
 
-## 🔴 DOCUMENTARY — chỉ tra đề tài, KHÔNG đo nhịp/giọng/độ dài
+## ⛔ ĐÃ XOÁ KHỎI KHO 08/08/2026 — SAI ĐỊNH DẠNG
 
-| Kênh | RPM | view TB | dài | tệp | bản ghi |
-|---|---|---|---|---|---|
+| kênh | bản ghi | vì sao xoá |
+|---|---|---|
+| `ExtinctZoo` | 144 | documentary · ngách **động vật tuyệt chủng** · 1,49 triệu sub *(view do sub mua, không do công thức)* |
+| `PaintExplainer` | 139 | documentary · ngách **liệt kê phổ thông** *(Every X Explained in N Minutes)* |
+| `HistoricalArchitect` | 23 | documentary |
+| `ADayInHistory` | 0 | thư mục rỗng — lần kéo hỏng, không ai biết cho tới 07/08 |
+
+**Vì sao xoá thay vì để lại.** Bảng cũ ghi *"chỉ tra đề tài, KHÔNG đo nhịp/giọng/độ dài"* —
+tức là để lại kèm lời dặn. **Lời dặn không đủ.** Ngày 08/08 chính tôi định chạy đợt bóc kỹ
+trên cả 19 kênh, và hai agent đắt nhất cả đợt (144 và 139 bản ghi) rơi đúng vào hai kênh này.
+Chủ phải chặn lại.
+
+→ Thứ không dùng được mà để cạnh thứ dùng được thì **sẽ bị dùng nhầm**. Đây là cùng một cơ chế
+với luật *"khai tử phải dán biển lên chính file đó"* — nhưng mạnh hơn: **xoá hẳn**.
+
+Đề tài của chúng vẫn tra được qua `kho/3_bangchung/BANG_CAU_TatCa_CuNo_2026-07-29.md`,
+không cần bản ghi.
+
+---|---|---|---|---|---|
 | ExtinctZoo | 8.80 | 2,086,877 | 21.5' | — | 0 |
 | Historical Architect | 7.93 | 216,467 | 18.6' | 🇨🇦 | 0 |
 | A Day In History | 4.87 | 598,646 | 21.4' | 🇺🇸 | 134 |
