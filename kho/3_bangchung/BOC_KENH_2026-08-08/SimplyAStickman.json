@@ -1,0 +1,552 @@
+{
+ "kenh": "SimplyAStickman",
+ "so_bai": 47,
+ "view_ngay_cao": "Nhóm TRÊN = 16 bài, view/ngày 15,8 – 2.653,0 (trung vị 25,0). Đứng đầu: 20260510_Why_Ancient_People_With_ADHD_Were_Better_Survivors (238.767 view / 90 ngày = 2.653,0/ngày) và 20260527_Why_Ancient_Tribes_Needed_Autistic_Minds (62.292 / 73 = 853,3/ngày).",
+ "view_ngay_thap": "Nhóm DƯỚI = 16 bài, view/ngày 1,6 – 4,7 (trung vị 3,2). Thấp nhất: 20260525_Why_We_Might_Not_Last_24_Hours_in_A_World_Without_Fear (122 view / 75 ngày = 1,6/ngày) và 20260515_Why_Social_Media_Exhausts_You (133 / 85 = 1,6/ngày).",
+ "gioi_han": "1) TOÀN BỘ 47 bản ghi là AUTO-CAPTION của YouTube (đã kiểm: 0/48 file info.json có `subtitles` do chủ kênh nạp, 47/48 chỉ có `automatic_captions`). Nên: mọi kết luận về DẤU CÂU đều VÔ GIÁ TRỊ — tôi đếm được 0 dấu \"!\" và 0 gạch ngang em-dash trên 47 file, nhưng ASR gần như không bao giờ sinh hai ký tự đó, nên đây KHÔNG phải bằng chứng về lối viết. Ranh giới câu cũng là do ASR cắt, nên \"trung vị 9 từ/câu, 27% câu ≤5 từ\" chỉ là gần đúng. Các lỗi chính tả trong trích dẫn (\"itting\", \"hrough\", \"he brain\", \"ngineer\") là lỗi nhận dạng giọng, không phải lỗi kịch bản — khi dùng lại phải sửa.\n2) HAI CÚ TRÚNG SỐ CHIẾM 88% TỔNG VIEW. Tổng view 47 bài ≈ 343.000; riêng 2 bài đầu = 301.059 (87,8%). Trung vị cả kênh chỉ 276 view. Vậy \"nhóm TRÊN\" thực chất là 2 quả nổ + 14 bài 105–7.337 view. Đừng coi nhóm TRÊN là 16 công thức thắng.\n3) view/ngày THỔI PHỒNG bài mới. 5/16 bài nhóm TRÊN dưới 25 ngày tuổi và tổng view <800 (ví dụ Why_Being_Understood_Feels_Different: 105 view/5 ngày = 21,0/ngày lọt top). Tôi đã chạy KIỂM CHỨNG: lọc riêng 35 bài ≥30 ngày tuổi rồi chia ba theo VIEW THÔ → nhóm trên 11 bài trùng 11/11 với nhóm trên theo view/ngày, nhóm dưới trùng 10/11. Mọi con số \"TOP11/BOT11\" trong báo cáo là từ bộ lọc sạch này.\n4) Không có dữ liệu thumbnail, CTR, retention, tag, description dài (48/48 description KHÔNG có chapter timestamp) → chiều 5 (bộ xương chương) phải SUY RA từ câu chuyển, không phải số YouTube cấp.\n5) Kênh mới toanh: 47 video trong 92 ngày, 3.130 sub. Chưa đủ dài để nói nhịp đăng ảnh hưởng gì.",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~130 từ)",
+   "phat_hien": [
+    {
+     "y": "Khuôn A — CHỒNG LỜI BUỘC TỘI: mở bằng 2-4 câu cực ngắn là lời người khác mắng thẳng vào mặt người xem, CHƯA có chủ ngữ, chưa có bối cảnh. Đây là khuôn phân hoá mạnh nhất giữa hai nhóm.",
+     "so_lieu": "7/47 bài dùng khuôn này. Chia nhóm sạch (11 bài view cao nhất ≥30 ngày tuổi vs 11 bài thấp nhất): 5/11 nhóm CAO vs 1/11 nhóm THẤP. Trong đó CẢ HAI quả nổ (238.767 view và 62.292 view) đều mở bằng khuôn này.",
+     "trich": [
+      "\"Sit still. / Pay attention. / Stop fidgeting. / If you heard those words enough times as a kid, your brain learned something.\" (20260510_Why_Ancient_People_With_ADHD_Were_Better_Survivors — 2.653 view/ngày)",
+      "\"You are too much. / Stop overreacting. / I'm talking to you. / Those were the complaints.\" (20260527_Why_Ancient_Tribes_Needed_Autistic_Minds — 853 view/ngày)",
+      "\"You're too sensitive. / Stop over eacting. / You need to be stronger. / You've heard it your whole life.\" (20260605_Why_Ancient_Humans_Needed_Sensitive_People — 35,7 view/ngày)",
+      "\"'Just do it. / It's not hard. / Stop being lazy.' You heard some version of that a thousand times.\" (20260619_Why_ADHD_Brains_Ignore_Important_Things — 29,0 view/ngày)",
+      "\"Pick something new. / No. / Finish the old thing first. / There are 40 old things.\" (20260531_Why_AuDHD_Feels_Like_Two_Brains_Fighting — 106,3 view/ngày; biến thể: hai giọng trong đầu cãi nhau thay vì người ngoài mắng)",
+      "\"Too sensitive. / Too dramatic. / Too intense. / You need to calm down. / Those were the notes on you long before there was ever a file.\" (20260724_Why_Autism_In_Women_Go_Unseen — 4,3 view/ngày — bài DUY NHẤT nhóm thấp dùng khuôn này mà vẫn chìm)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Khuôn B — CẢNH VI MÔ NGÔI HAI: mở bằng một cảnh đời thường tí hon xảy ra VỚI BẠN, có con số cụ thể (giờ, phút, khoảng cách), rồi một thứ nhỏ trục trặc. Đây là khuôn ĐÔNG NHẤT và CẢ HAI NHÓM đều dùng ngang nhau → NẾT CỦA KÊNH, KHÔNG phải bí quyết.",
+     "so_lieu": "27/47 bài. Nhóm CAO 8/16, nhóm giữa 11/15, nhóm THẤP 8/16 — phân bố gần như đều.",
+     "trich": [
+      "NHÓM CAO: \"Someone moved a mug 2 inches to the left. / Nobody said anything. / Nobody planned to, but you saw it the second you walked in and now you can't stop seeing it.\" (20260716_The_Ancient_Reason_Why_You_See_1_001_Distractions)",
+      "NHÓM CAO: \"You arrived in the middle of a party, sat down at a dinner table full of people you know, a group chat that never stops. / You're there. / Everyone's there. / And something is missing anyway, and you can't explain what.\" (20260505_The_Ancient_Reason_Loneliness_Hurts_So_Much)",
+      "NHÓM CAO: \"It's 1:00 a.m. / Everyone you know is asleep. / Your brain just woke up. / Not wired, not anxious, sharp.\" (20260612_Why_Some_Brains_Wake_Up_After_Dark)",
+      "NHÓM THẤP: \"You sit down to write one email. / 4 minutes, maybe 3. / You open your laptop, you find your inbox, and then, without deciding to, you're gone. / 11 minutes later, you're reading about he construction of the Hoover Dam.\" (20260514_Why_Your_Brain_Keeps_Breaking_Focus — 3,2 view/ngày)",
+      "NHÓM THẤP: \"You open the app at 9:47 p.m. / You scroll. / You keep scrolling. / You close it at 10:14 p.m. having watched nothing.\" (20260517_Why_Too_Many_Choices_Exhaust_You — 5,1 view/ngày)",
+      "NHÓM THẤP: \"You opened Instagram feeling fine. / Nothing dramatic, just neutral. / Maybe a little bored.\" (20260515_Why_Social_Media_Exhausts_You — 1,6 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn C — CẢNH CỔ ĐẠI / NGÔI BA mở màn (không có 'you' ngay).",
+     "so_lieu": "7/47 bài. Nhóm CAO 2/16, giữa 2/15, THẤP 3/16 → không phân hoá.",
+     "trich": [
+      "\"An ancient human living 50,000 years ago almost never experienced brain fog. / Not because life was simple.\" (20260518_Why_Ancient_Humans_Don_t_Burn_Out — 35,6 view/ngày)",
+      "\"Ernest Shackleton's ship sank in Antarctica in 1914. / 27 men, no radio, no rescue, temperatures that killed exposed skin in minutes. / Every single one of them survived.\" (20260524_How_ADHD_Leaders_Shaped_History — 17,8 view/ngày)",
+      "\"A campfire, 100,000 years ago, a handful of people around it. / One of them is talking to someone who isn't there.\" (20260610_Why_Ancient_Tribes_Kept_the_People_Who_Heard_Voices — 7,9 view/ngày)",
+      "\"A lion can run 50 miles an hour. / Your ancestor knew this, not from a documentary, from experience.\" (20260511_If_Ancient_Humans_Faced_Lions — 1,9 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn D — CÂU HỎI GIẢ ĐỊNH / GIỌNG TÁC GIẢ NGÔI MỘT ('tôi từng tưởng… tôi sai'). Đây là khuôn CHẾT: gần như chỉ nằm ở nhóm dưới.",
+     "so_lieu": "6/47 bài. Nhóm CAO 1/16, THẤP 4/16. Kiểm chứng riêng nét tự giễu ngôi một ('I was wrong' / 'I assumed' / 'my first instinct'): 0/11 nhóm CAO sạch vs 3/11 nhóm THẤP sạch.",
+     "trich": [
+      "\"Here's something I assumed for years without checking, that this was a reasonable plan. / A volcano is already on fire. / Trash burns. / … I was wrong. / Not a little wrong.\" (20260530_What_If_We_Dump_Our_Thrash_Into_Volcanos — 2,9 view/ngày)",
+      "\"What if all the world's electricity stopped for 1 second? … And my first instinct was nothing much, right? … I was wrong about that. / I was wrong in a way that ook me a while to fully accept.\" (20260522_What_If_You_ve_Switched_Off_All_The_World_s_Electricity — 1,7 view/ngày)",
+      "\"This question comes from a friend, Andy, who asked, 'How long would it take to count to a billion out loud?'\" (20260520_How_Long_Would_It_Take_To_Count_To_One_Billion — 1,7 view/ngày)",
+      "\"My first assumption was that this would be mostly fine. … I was wrong by a margin that is difficult to overstate.\" (20260525_Why_We_Might_Not_Last_24_Hours_in_A_World_Without_Fear — 1,6 view/ngày)",
+      "Ngoại lệ duy nhất phía trên: \"This question was inspired by a there on [Patreon] who asks, what if ADHD people ran the modern world? / And the honest first answer is they already built most of it.\" (20260526_What_If_People_With_ADHD_Runs_The_Modern_World — 16,7 view/ngày; nổi được vì ĐỀ TÀI là ADHD chứ không phải nhờ khuôn hook)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "XƯNG 'YOU' NGAY LẬP TỨC là nết chung, không phải bí quyết.",
+     "so_lieu": "44/47 bài có 'you/your' trong 130 từ đầu; 35/47 có trong 15 TỪ ĐẦU. Nhóm sạch: 7/11 CAO vs 6/11 THẤP có 'you' trong 12 từ đầu — chênh 1 bài, vô nghĩa. 3 bài KHÔNG có 'you' trong hook: Why_Ancient_Humans_Don_t_Burn_Out (35,6 — cao), How_ADHD_Leaders (17,8 — cao), What_If_We_Dump_Our_Thrash (2,9 — thấp).",
+     "trich": [
+      "\"You are the reason the numbers look good. / That is the problem.\" — 'you' ở từ thứ 1 (20260727_Why_Groups_Reject_Most_Useful_Member, 280,6 view/ngày)",
+      "\"You wake up in the morning and reach for your phone.\" — 'you' ở từ thứ 1 (20260516_Why_Your_Brain_Hates_Missing_Out, 4,7 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU HỎI LÕI RẤT MUỘN, thường KHÔNG nằm trong 45 giây đầu. Kênh này không mở bằng câu hỏi — nó mở bằng lời buộc tội hoặc cảnh, rồi mới bẻ.",
+     "so_lieu": "44/47 bài có ít nhất một dấu '?'. Vị trí dấu '?' ĐẦU TIÊN: trung vị từ thứ 239,5 (≈83 giây ở nhịp 175 wpm); chỉ 21/47 bài có câu hỏi trong 130 từ đầu; 3/47 bài (Why_Being_Understood, Why_Too_Many_Choices, Why_Social_Media_Exhausts) KHÔNG có dấu hỏi nào trong 130 từ đầu. Cực trị: bài Stop_Punishing_Yourself mãi từ thứ 1.992 mới có dấu hỏi đầu tiên.",
+     "trich": [
+      "Quả nổ số 1 mãi tới từ thứ 800 mới hỏi; thay vào đó nó DÁN NHÃN thay vì hỏi: \"Here's what nobody told you. / For 200,000 years, that brain didn't just survive. / It led.\" (từ thứ ~48, file 20260510_Why_Ancient_People_With_ADHD)",
+      "Khi có hỏi sớm thì hỏi kiểu đối chọi hai vế: \"Same brain, both times. / The one that can't start the dishes is the one that stays steady while the car's still smoking. / Why does this brain go quiet at he exact moment everything falls apart?\" (từ thứ 96, file 20260720_Why_You_re_Actually_Best_in_a_Crisis)",
+      "\"So, what changed?\" (từ thứ 69, file 20260518_Why_Ancient_Humans_Don_t_Burn_Out)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU trong hook: gần như luôn là lời hứa ĐẢO NGƯỢC PHÁN XÉT ('cái họ gọi là bệnh của bạn thực ra là công cụ sinh tồn'), chứ không phải hứa 'sẽ chỉ cho bạn N cách'.",
+     "so_lieu": "Câu 'thesis flip' xuất hiện ở 14/47 bài, vị trí trung vị 5% chiều dài bài (tức ngay trong 45 giây đầu).",
+     "trich": [
+      "\"Here's what nobody told you.\" (20260510, @3%)",
+      "\"Because here's what the diagnosis doesn't tell you. / The traits on that list… They're ancient.\" (20260527_Why_Ancient_Tribes_Needed_Autistic_Minds, @3%)",
+      "\"The thing they call your problem isn't the problem. / Watch what's actually happening.\" (20260607_The_Reasons_Autistic_People_Go_Silent, @4%)",
+      "\"You called it laziness because that was the only word you had. / There's a better word, and it has nothing to do with willpower.\" (20260619_Why_ADHD_Brains_Ignore_Important_Things)",
+      "\"You call it indecision. / That's the wrong diagnosis entirely.\" (20260517_Why_Too_Many_Choices_Exhaust_You — nhóm thấp, cùng khuôn)",
+      "\"You call it a flaw. / For 200,000 years, it was a job.\" (20260612_Why_Some_Brains_Wake_Up_After_Dark)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — kho câu re-hook, câu nối, vòng tò mò",
+   "phat_hien": [
+    {
+     "y": "CỖ MÁY RE-HOOK CHÍNH là mẫu \"Here's + danh từ\": một câu 4-9 từ đứng một mình, hứa rằng đoạn sau sẽ khó chịu/lạ hơn đoạn vừa rồi. CẢ HAI NHÓM đều dùng dày như nhau → NẾT CỦA KÊNH.",
+     "so_lieu": "73 lần trên 47 bài (0,82 lần/1000 từ), có mặt ở 27/47 bài. Nhóm CAO 26 lần / 29.007 từ = 0,90 trên 1000 từ; nhóm THẤP 30 lần / 27.493 từ = 1,09 trên 1000 từ — nhóm THẤP còn dùng dày HƠN.",
+     "trich": [
+      "\"Here's where it gets genuinely uncomfortable.\" (20260510, @67%)",
+      "\"Here's where it gets stranger.\" (20260527, @39%)",
+      "\"Here's where it gets strange.\" (20260518, @22%)",
+      "\"And here's the part that should sit with you.\" (20260527 @77% và 20260524 @75% — dùng lại y nguyên ở hai bài)",
+      "\"Here's the part that should make you stop.\" (20260531_Why_AuDHD, @36%)",
+      "\"But here's the turn obody tells you.\" (20260531_Why_AuDHD, @80%)",
+      "\"And here's the fear underneath it, the one almost nobody says out loud.\" (20260531_Why_AuDHD, @13%)",
+      "\"Now, here's the first thing most people get wrong about ADHD.\" (20260510, @15%)",
+      "\"Here's what the diagnosis leaves out.\" (20260510, @54%)",
+      "\"And here's what makes it strange.\" (20260510, @36%)",
+      "\"Here's the part nobody tells you.\" (20260506_Why_You_re_Still_Tired @39% VÀ 20260511_If_Ancient_Humans_Faced_Lions @27% — nhóm THẤP)",
+      "\"And here's where it turns from annoying into something that quietly hurts.\" (20260629_Why_Your_Brain_Won_t_Let_Go, @48%)",
+      "\"Now, here's the part that is harder to sit with.\" (20260515_Why_Social_Media_Exhausts, @57%)",
+      "\"And here's the part that should bother you.\" (20260509_Why_Your_Best_Ideas, @10%)",
+      "\"Here's the honest answer and it's not the clean one.\" (20260610_Why_Ancient_Tribes_Kept_the_People, @75%)",
+      "\"So, here's the part that's actually about you.\" (20260614_Why_Your_Brain_Says_No, @75%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU NỐI NGẮN TRƯỚC FACT SỐC: mẫu mệnh lệnh 2-5 từ bắt người xem đổi tư thế ('Think about…', 'Picture…', 'Watch…', 'Look at…'). Nhóm CAO dùng 'think about' dày gấp ~2 lần.",
+     "so_lieu": "'think about/of': nhóm CAO 15 lần (0,52/1000 từ, 11/16 bài) vs nhóm THẤP 8 lần (0,29/1000 từ, 4/16 bài). 'picture/imagine': CAO 9 (8/16 bài) vs THẤP 3 (3/16 bài). 'watch/look at': CAO 14 (9/16) vs THẤP 5 (4/16). Tổng ba nhóm mệnh lệnh: CAO 1,31/1000 từ vs THẤP 0,58/1000 từ.",
+     "trich": [
+      "\"Think about what that means.\" — CÂU DÙNG LẠI NHIỀU NHẤT KÊNH: xuất hiện ở 20260527 (@21%), 20260518 (@55%), 20260722 (@13%), 20260610 (@60%), 20260714 (@11%), 20260511 (@19%) = 6 bài khác nhau",
+      "\"Think of it as the brain's novelty dial.\" (20260510, @33%)",
+      "\"Think of that book as the official list of recognized mental conditions.\" (20260510, @78%)",
+      "\"Think of it as air traffic control for everything you feel.\" (20260605, @46%)",
+      "\"Think of it like a circuit with too much pulling on it at once.\" (20260607, @38%)",
+      "\"Think of it as a spark.\" (20260720, @26%)",
+      "\"Picture a rope.\" (20260531, @10%) — hai từ, đứng riêng một dòng",
+      "\"Picture a hill.\" (20260720, @37%)",
+      "\"Picture a theater.\" (20260607, @16%)",
+      "\"Picture a band of 30 people and one hunter better than all of them.\" (20260727, @51%)",
+      "\"Imagine attention is water.\" (20260531, @57%)",
+      "\"Watch what's actually happening.\" (20260607, @4%)",
+      "\"Watch them both.\" (20260622, @6%)",
+      "\"Look at what just happened.\" (20260731, @80%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "VÒNG TÒ MÒ MỞ RỒI ĐÓNG (plant → flip): mở một hình ảnh rồi bảo thẳng người xem giữ nó, cuối bài quay lại. Rất HIẾM, chỉ 13/47 bài có, nhưng khi có thì thường ở nhóm trên.",
+     "so_lieu": "13/47 bài có câu hứa-trả-sau tường minh. Nhóm CAO 5/16, giữa 5/15, THẤP 3/16.",
+     "trich": [
+      "\"But, there's a plant hat wilts faster than anything in the wrong spot, and out blooms a whole garden in the right one. / Hold on to that. / We'll come back to it.\" (20260605_Why_Ancient_Humans_Needed_Sensitive_People, @4% — đóng ở @98%: \"You are an orchid told to survive like a weed and then blamed for struggling at it.\")",
+      "\"Hold on to that question.\" (20260531_Why_AuDHD, @17%)",
+      "\"One cell in the middle of a monkey's brain is about to explain your Wednesday.\" (20260731_Stop_Punishing_Yourself, @6%)",
+      "\"Before we get to the room, we need to understand the brain that walked into it.\" (20260510, @6%)",
+      "\"Because in about 90 seconds, a brain scanner is going to show us something strange. … But first, that feeling that something in you is missing.\" (20260614_Why_Your_Brain_Says_No, @4-7%)",
+      "\"Hold on to that because it explains everything that follows.\" (20260805_Why_Life_Seems_To_Speed_Up, @23%)",
+      "\"Hold that image because the evidence keeps refusing to cooperate.\" (20260722_Why_Ancient_Tribes_Depended_On_Autistic_Women, @29%)",
+      "\"Hold that feeling for a second.\" (20260711_Why_Ancient_Humans_Sabotaged_Success, @23%)",
+      "\"His name comes up in a second.\" (20260703_Why_You_Aren_t_Lazy, @25%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG BÀI NÀO BÁO TRƯỚC 'PHẦN HAY NHẤT Ở CUỐI'. Đây là phát hiện âm bản đáng chú ý: kênh này bỏ hẳn thủ pháp 'stay till the end'.",
+     "so_lieu": "0/47 bài chứa 'stick around' / 'stay till the end' / 'by the end of this video' / 'keep watching' / 'don't skip'. Thay vào đó kênh dùng 'here's where it gets…' rải giữa bài (17/47 bài có tín hiệu cú lật tường minh, vị trí trung vị 39% bài).",
+     "trich": [
+      "Không có câu nào để trích — đây là phát hiện bằng KHÔNG. Chỗ đáng lẽ là 'phần hay nhất ở cuối' thì kênh đặt: \"Here's where it gets genuinely uncomfortable.\" (20260510, @67%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MẪU CÂU 'KHÔNG PHẢI X, MÀ LÀ Y' là mạch máu của kênh — đảo phán xét bằng cấu trúc phủ định-rồi-thay-thế, dùng cả trong hook, giữa bài lẫn đoạn kết.",
+     "so_lieu": "'not because…' xuất hiện 64 lần trên 47 bài (0,72/1000 từ): nhóm CAO 19 lần (9/16 bài), giữa 18 (10/15), THẤP 27 lần (11/16) — nhóm THẤP dùng NHIỀU HƠN. 'you were never / it was never / that was never': 39 lần, CAO 11 (7/16), giữa 24 (10/15), THẤP 4 (4/16).",
+     "trich": [
+      "\"Not how to focus. / Something else.\" (20260510, @1%)",
+      "\"It's not a deficit. / It's a surplus aimed at he whole world simultaneously.\" (20260510, @18%)",
+      "\"Not because their brains were different, because the Swedish school year starts in January.\" (20260510, @70%)",
+      "\"Not because it suddenly found iscipline. / Because it found prey.\" (20260510, @65%)",
+      "\"That's not happiness. / That's relief.\" (20260803_Why_Being_Understood, @2%)",
+      "\"Not wired, not anxious, sharp.\" (20260612, @1%)",
+      "\"Not a deficit, not a broken attention system, a brain built for a world that moved fast…\" (20260510, @90%)",
+      "\"Not weakness, not a broken will, a forager who smelled the next valley…\" (20260731_Stop_Punishing_Yourself, @98%)",
+      "\"That wasn't impulsive. / That was the fastest thinker in the group.\" (20260510, @11%)",
+      "\"The gene didn't change. / The room did.\" (20260510, @51%) — bản gọn nhất của cả kênh",
+      "\"The traits didn't change, the world did.\" (20260527, @77%) — cùng khuôn, bài khác"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180 từ cuối)",
+   "phat_hien": [
+    {
+     "y": "BOOKEND GẦN NHƯ TUYỆT ĐỐI: đoạn kết luôn quay về đúng hình ảnh của hook. Nhưng vì 46/47 bài đều làm → đây là NẾT CỦA KÊNH, KHÔNG phải bí quyết thắng.",
+     "so_lieu": "46/47 bài có ≥2 từ nội dung riêng của hook xuất hiện lại trong 180 từ cuối (nhóm CAO 16/16, giữa 15/15, THẤP 15/16). Bài duy nhất không có: 20260506_Why_You_re_Still_Tired_After_Doing_Nothing (4,4 view/ngày). Ngoài ra 29 lần câu 'Go back to…' xuất hiện, phần lớn ở mốc 80-95% bài.",
+     "trich": [
+      "Mở: \"Sit still. / Pay attention. / Stop fidgeting.\" → Kết @94%: \"Sit still. / Pay attention. / Stop fidgeting. / Somewhere on a open ground, 50,000 years ago, a child heard none of that.\" (20260510)",
+      "\"Go back to that camp one last time. / The fire low and orange. … They belonged to the one keeping everyone else alive. / Those are your eyes.\" (20260612_Why_Some_Brains_Wake_Up_After_Dark)",
+      "\"Now, go back to the kid in the chair. / The room waiting. / The sentence that won't hold still. / Here's what was actually happening.\" (20260604_Why_So_Many_Brilliant_People_Have_Dyslexia)",
+      "\"Go back to that person in the dark striking rock against rock.\" (20260527, @82%)",
+      "\"Tick. / Tick. / Tick. / The clock is still going. / It was always going.\" (20260729_Why_You_Hear_Every_Sound — mở bằng \"T, T, T. That's the clock.\")",
+      "\"Go back to the email you sat down to write. / You didn't lose 11 minutes because you're bad at focusing.\" (20260514 — nhóm THẤP, cùng thủ pháp)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU CẦU NỐI CHUẨN HOÁ 'Now that you know X, you might also want to watch this next video on Y' — kênh có một câu khuôn cứng dùng đi dùng lại gần như nguyên văn ở cuối bài.",
+     "so_lieu": "22/47 bài dùng đúng khuôn 'Now that you know/understand/can see…' (CAO 8/16, giữa 7/15, THẤP 7/16). 23/47 bài kết bằng mồi video kế bất kỳ. → CẢ HAI NHÓM.",
+     "trich": [
+      "\"Now that you know why the room goes quiet after you do good work, you might also want to watch this next video on why ancient humans never burned out but you do.\" (20260727)",
+      "\"Now that you know your brain runs on fuel and not willpower, you might also want to watch this next video on what if people with ADHD ran the modern world.\" (20260619)",
+      "\"Now that you know your sensitivity was never fragility, but an orchid waiting for the right place to bloom, you might also want to watch this next video on why some brilliant minds truggle to read.\" (20260605)",
+      "\"Now that you can see the two ancient programs deciding your week for you, you might also want to watch this next video n why your brain keeps breaking focus. / Why the thing pulling your attention away was once the thing that kept you alive.\" (20260731 — bản duy nhất có thêm một câu bán lý do)",
+      "\"Now that you know the mask was never weakness, but the most expensive thing you've ever done, you might also want to watch this next video on the reasons autistic people go silent.\" (20260626)",
+      "\"Now that you know your inability to focus is a survival system doing its job. / If this resonated with you, consider subscribing.\" (20260514 — nhóm THẤP, cùng cầu nối nhưng rẽ sang xin sub thay vì mồi video)",
+      "Biến thể ngắn: \"That video is next.\" (20260510 và 20260722)",
+      "Biến thể mạnh nhất: \"That video's called Why Some Brains Wake Up After Dark. / It's the other half of this story and it's on screen right now.\" (20260703)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU ĐỊNH DANH NGƯỜI XEM ('That's you' / 'Those are your eyes') RẤT HIẾM nhưng chỉ có ở nhóm trên.",
+     "so_lieu": "4/47 bài (CAO 3/16, giữa 1/15, THẤP 0/16).",
+     "trich": [
+      "\"They belonged to the one keeping everyone else alive. / Those are your eyes. / You were never failing at mornings. / You were succeeding at the hours the world leaves unguarded.\" (20260612_Why_Some_Brains_Wake_Up_After_Dark)",
+      "\"That's not a stranger who only shows up in emergencies. / That's you, finally handed the fuel your brain was always waiting for. / The same you who couldn't start the dishes this morning. / It was always, only ever, the same you.\" (20260720_Why_You_re_Actually_Best_in_a_Crisis)",
+      "\"You are the descendant of that person. / The trait didn't survive by accident.\" (20260705_Why_You_Can_t_Stop_Overthinking)",
+      "\"You are the animal it was supposed to serve and you were never built to stand in one patch until it's bare.\" (20260731_Stop_Punishing_Yourself)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÂU XÁ TỘI 'You were never X' đóng vai trò câu chốt cảm xúc, đứng ngay trước cầu nối video kế.",
+     "so_lieu": "13/47 bài có câu xá tội trong 180 từ cuối (CAO 5/16, giữa 6/15, THẤP 2/16).",
+     "trich": [
+      "\"You were never lazy. / You were running an engine the world forgot to build a road for.\" (20260619)",
+      "\"You are never too sensitive. / You are an orchid told to survive like a weed and then blamed for struggling at it.\" (20260605)",
+      "\"You were never hearing too much. / You were hearing exactly what you were built to hear in a world that forgot to stay quiet.\" (20260729)",
+      "\"That was never igidity. / You just found the one still place in a loud world and you sat down in it.\" (20260718)",
+      "\"Your competence is not a character flaw. / It never was. / It is just arriving somewhere that lost the other half of the instructions.\" (20260727)",
+      "\"These minds were never wrong. / They were always just expensive.\" (20260527) — và bản gần như y hệt ở 20260722: \"This mind was never wrong. / It was only ever expensive.\"",
+      "\"They were never failing to read. / They were reading the one thing the page could never hold.\" (20260604)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "'The next time you…' — chỉ thị hành động rất nhẹ, đặt ngay trước câu chốt. Hiếm và không phân hoá.",
+     "so_lieu": "8/47 bài có trong 180 từ cuối (CAO 2/16, giữa 3/15, THẤP 3/16).",
+     "trich": [
+      "\"So, the next time you walk into a room and something is off, the mug moved, the word changed, one small thing sitting wrong, you're going to get the look.\" (20260716)",
+      "\"The next time you ask for the room to be quieter, ask without apologizing for it.\" (20260729)",
+      "\"The next time it goes off, you don't have to silence it. / You just have to recognize the sound. / That's the whole trick, not turning the alarm off. / Learning, finally, to tell a truck from a thief.\" (20260711)",
+      "\"The next time someone's mind slips, in your family, on your street, in the seat next to you, don't look away. / Stay a little longer than is comfortable.\" (20260610)",
+      "\"So, tonight, when it taps your shoulder, you don't have to argue with it. / You already know what it is. / A held breath, not a verdict.\" (20260629 — nhóm THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "HẠ NHIỆT HAY CHỐT MẠNH: kênh CHỐT MẠNH rồi mới dán cầu nối video kế lên trên. 15/47 bài dừng lạnh hẳn, không mồi không xin gì.",
+     "so_lieu": "15/47 bài kết KHÔNG có mồi video kế lẫn CTA (CAO 6/16, giữa 4/15, THẤP 5/16) — dừng đột ngột ngay sau câu chốt.",
+     "trich": [
+      "Dừng lạnh, nhóm CAO: \"Not one broken voice, two strong ones. / Both yours, both of them\" (20260531 — hết bài, không một chữ mời gì)",
+      "Dừng lạnh, nhóm CAO: \"It moved. / You didn't imagine it. / You didn't make it a thing. / It was already a thing. / You're just the one who didn't look away.\" (20260716)",
+      "Dừng lạnh, nhóm CAO: \"The Ju/'hoansi didn't have a word for it because the fire was always lit and there was always omeone sitting next to it who already knew you. / Not your name. / You. / That's what's missing. / And now, at least, you know what it's called.\" (20260505)",
+      "Dừng lạnh, nhóm CAO: \"Sometimes a thing that built the future couldn't sit still long enough to be recognized for it.\" (20260526)",
+      "Dừng lạnh, nhóm THẤP: \"It's still looking for the famine. / The famine just never came.\" (20260507)",
+      "Dừng lạnh, nhóm THẤP: \"Sometimes it's nice to be slightly terrified of everything.\" (20260525)",
+      "Hạ nhiệt kiểu ngược đời (đuổi người xem đi) — chỉ thấy 1 lần: \"The irony of this video taking up your time to tell you to do nothing is not lost on us. / So, what should you do now? / Honestly, turn off this video. / Go sit somewhere with nothing in your hands… 5 minutes. / Your ancestors managed 2 hours, but 5 minutes is a start.\" (20260506, 4,4 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ / LIKE / COMMENT",
+   "phat_hien": [
+    {
+     "y": "PHÁT HIỆN LỚN: 38/47 bài KHÔNG XIN GÌ CẢ. Kênh gần như không kêu gọi hành động. Khi có, luôn ở 99-100% chiều dài bài, KHÔNG BÀI NÀO xin giữa bài.",
+     "so_lieu": "9/47 bài có ít nhất một lời xin sub/like/comment (nhóm CAO 3/16, nhóm giữa 0/15, nhóm THẤP 6/16). Tổng cộng 5 lần nhắc subscribe, 3 lần nhắc like, 3 lần nhắc comment trên toàn bộ 47 bài / 88.929 từ = 0,12 lời xin trên 1000 từ. Vị trí: 9/9 lần nằm ở mốc 99-100% bài; 0/9 nằm trước 99%. Nhóm THẤP xin NHIỀU HƠN nhóm CAO (6 vs 3).",
+     "trich": [
+      "Gắn vào nội dung (nhóm CAO, gắn khéo nhất): \"Now that you know what ancient tribes understood about minds that work differently and if this one sat with you, give this video a like to help more people find it.\" (20260527, @100%)",
+      "Gắn vào nội dung, dùng chính ẩn dụ của bài (sân khấu / hậu đài): \"If any of this landed, if someone in your life needs to see the backstage, like it so it reaches them, and subscribe to sit with the next one.\" (20260607, @100%)",
+      "Tách rời, khô khốc: \"If this made you see something differently, like the video and subscribe. / We're just getting started.\" (20260524, @100%)",
+      "Tách rời, câu MẪU LẶP 3 LẦN Y NGUYÊN ở 3 bài nhóm THẤP: \"If this resonated with you, consider subscribing. / We will be exploring human behavior, history, and the hidden forces shaping how we feel.\" (20260516 @99%, 20260514 @99%, 20260515 @99%)",
+      "Xin comment — chỉ có ở 3 bài thể loại giả định, đều chìm: \"If that made you think of something you've been sitting on, drop your own question below. / The stranger, the better.\" (20260530, 2,9 view/ngày)",
+      "\"If you got a what-if question, something that's been sitting in the back of your head that you can't quite let go of? / Drop it below. / Numbers, physics, systems, decisions, disasters, any of it. / If it makes me want to check the math, we'll work it out.\" (20260522, 1,7 view/ngày)",
+      "\"If you've got a what if question, drop it below. / If it makes me want to check the math, we'll work it out.\" (20260525, 1,6 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Thứ thay thế lời xin sub là MỒI VIDEO KẾ. Kênh đổi 'subscribe' lấy 'watch next' — và đây mới là thứ dùng đều.",
+     "so_lieu": "23/47 bài kết bằng mồi video kế, so với 9/47 bài xin sub/like/comment. 3 bài vừa mồi vừa xin. Tỷ lệ mồi: CAO 7/16, giữa 11/15, THẤP 5/16.",
+     "trich": [
+      "\"…you might also want to know why ancient humans almost never felt lonely. / That video is next.\" (20260510)",
+      "\"Now that you know boring fidgeting does real work, watch next four keys to motivation for ADHD.\" (20260707)",
+      "\"And if you want to know why a brain like yours couldn't even be diagnosed, both alves officially recognized together until 2013. / That's the first video and it's where this whole story begins.\" (20260622 — mồi NGƯỢC về video cũ)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "phat_hien": [
+    {
+     "y": "BỘ XƯƠNG THỰC ĐO TAY của quả nổ số 1 (238.767 view, 1.529 từ, 8:52): 11 khối, trung bình ~139 từ/khối. Thứ tự leo thang là: buộc tội → dựng thế giới cổ → bẻ chữ (từ 'deficit' sai) → nghiên cứu 1 → cơ chế (gen) → nghiên cứu 2 (CÚ LẬT) → xử lý phản biện → nghiên cứu 3 (khó chịu nhất) → lịch sử cái nhãn → đơn thuốc → bookend + mồi.",
+     "so_lieu": "Đo tay 1/47 bài (bài top), 11 khối. Vị trí % chính xác từng khối: 0-4% buộc tội+lật luận đề (65 từ) · 5-14% thế giới cổ (145 từ) · 15-22% bẻ chữ 'deficit' (110 từ) · 23-31% nghiên cứu foraging 2024 (130 từ) · 32-40% gen DRD4/7R (130 từ) · 41-51% Eisenberg 2008 + CÚ LẬT (160 từ) · 51-66% hyperfocus, xử phản biện (230 từ) · 66-75% nghiên cứu Thuỵ Điển tháng sinh (145 từ) · 75-87% lịch sử DSM 1968 + nông nghiệp (180 từ) · 87-94% đơn thuốc (110 từ) · 94-100% bookend + mồi (95 từ).",
+     "trich": [
+      "Khối 6 là cú lật, nằm ở 49-51%: \"In the settled group, same gene, same tribe, same generation, those men were worse nourished than those without it. / Not slightly worse. / The advantage had completely flipped. / Same gene, same people, same century, two different environments, two completely opposite outcomes. / The gene didn't change. / The room did.\" (20260510)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Đo máy trên cả 47 bài (cắt khối tại câu biển báo, tối thiểu 90 từ/khối): số khối khá đều giữa hai nhóm — bộ xương KHÔNG phải chỗ phân hoá. Cái phân hoá là ĐỘ DÀY BẰNG CHỨNG bên trong mỗi khối.",
+     "so_lieu": "Nhóm CAO: trung vị 6 khối (dải 4-8), 282 từ/khối. Nhóm giữa: 7 khối (dải 3-9), 333 từ/khối. Nhóm THẤP: 5 khối (dải 2-10), 314 từ/khối. NHƯNG số khối mở bằng 'In <năm>,' (khối nghiên cứu): CAO trung vị 2,0/bài (12/16 bài có, tổng 36) vs giữa 1,0 (11/15, tổng 19) vs THẤP 1,5 (13/16, tổng 25).",
+     "trich": [
+      "Bài chỉ có 2 khối và chìm nhất kênh: 20260525_Why_We_Might_Not_Last_24_Hours (1.980 từ / 2 khối = 990 từ/khối, 1,6 view/ngày)",
+      "Bài 3 khối, 837 từ/khối, chìm: 20260724_Why_Autism_In_Women_Go_Unseen (4,3 view/ngày)",
+      "Bài top: 1.533 từ / 8 khối máy = 192 từ/khối (11 khối khi đo tay = 139 từ/khối)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÚ LẬT LỚN NHẤT nằm ở khoảng GIỮA bài, không phải cuối. Kênh đánh dấu nó bằng một câu biển báo tường minh.",
+     "so_lieu": "17/47 bài có câu biển báo cú lật ('here's where it gets…' / 'the part that should bother you'), vị trí trung vị 39% chiều dài bài (tứ phân vị 27%-59%). Ngôn ngữ đảo chiều ('didn't change' / 'backwards' / 'the opposite') có ở 26/47 bài, lần đầu tiên trung vị ở 34% bài.",
+     "trich": [
+      "\"Here's where it gets genuinely uncomfortable.\" @67% (20260510)",
+      "\"Here's where it gets stranger.\" @39% (20260527)",
+      "\"Here's the part that should make you stop.\" @36% (20260531)",
+      "\"Here's where it gets strange.\" @22% (20260518)",
+      "\"But they had it backwards.\" @1% (20260614)",
+      "\"We have been telling her story backwards.\" @9% (20260722)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG",
+   "phat_hien": [
+    {
+     "y": "KHUÔN 1 — MỞ CHƯƠNG BẰNG NGHIÊN CỨU CÓ NIÊN ĐẠI + TÊN + NƠI. Câu mở dài, đầy danh từ riêng; câu đóng chương trước luôn NGẮN, tạo nhịp dài-ngắn.",
+     "so_lieu": "80 lần câu mở đầu bằng 'In <năm>,' trên 47 bài (36 lần ở nhóm CAO, 19 giữa, 25 THẤP). Trung vị độ dài câu mở chương: 9 từ; nhưng riêng câu mở kiểu nghiên cứu dài 25-60 từ.",
+     "trich": [
+      "ĐÓNG (10 từ): \"It said nothing about what he brain actually was.\" → MỞ (12 từ): \"So in 2024, a team of researchers decided to find out.\" (20260510, @24%)",
+      "ĐÓNG (7 từ): \"So, researchers went looking for living proof.\" → MỞ (24 từ): \"In 2008, an anthropologist named Dan Eisenberg traveled to northern Kenya to study a tribe called the Aari al.\" (20260510, @43%)",
+      "ĐÓNG (8 từ): \"But, the tools are only the beginning.\" → MỞ (54 từ): \"In 2010, a researcher named Simon Baron-Cohen, not the comedian, the Cambridge psychologist, published a paper arguing that what we call the autistic cognitive style is essentially a drive to systematize, to find the rules inside a system, to map it, master it, repeat it until it's perfect.\" (20260527, @27%)",
+      "ĐÓNG (5 từ): \"That's a cognitive signature.\" → MỞ (5 từ): \"Here's where it gets stranger.\" → MỞ TIẾP (48 từ): \"In 2017, archaeologist Derek Hodgson published an analysis of Paleolithic ave paintings, the ones in Lascaux, Altamira, Chauvet, the ones that stopped experts cold when they were first discovered because they shouldn't exist, not at that level.\" (20260527, @39-42%)",
+      "ĐÓNG (4 từ): \"Then the brain scanners arrived.\" → MỞ (16 từ): \"In 2011, Judzia Jagiellowicz scanned sensitive people while they spotted tiny differences between photos.\" (20260605, @42%)",
+      "ĐÓNG (4 từ): \"Most people do.\" → MỞ (18 từ): \"In 2014, two researchers named Eugene Kim and Teresa Glomb went looking for that exact silence.\" (20260727, @19%)",
+      "ĐÓNG (6 từ): \"The genes didn't disappear.\" → MỞ (33 từ): \"In 2019 a large-scale genomic study found that many of the genetic variants associated with autism have been present in the human population for at least 100,000 years.\" (20260527, @79%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN 2 — MỞ CHƯƠNG BẰNG MỆNH LỆNH 2-6 TỪ ('Picture…', 'Think of it as…', 'Go back to…'). Đây là câu chuyển ngắn nhất và dùng nhiều nhất.",
+     "so_lieu": "Trung vị câu mở chương = 9 từ trên 191 cặp chuyển đo được. Riêng nhóm mệnh lệnh: 'go back' 29 lần / 24 bài, 'picture/imagine' 27 lần / 20 bài, 'think about/of' 29 lần / 20 bài.",
+     "trich": [
+      "\"Let's go back 300,000 years.\" (5 từ, 20260527 @7%)",
+      "\"Let's time travel back.\" (4 từ, 20260612 @5%)",
+      "\"Go back 200,000 years.\" (4 từ, 20260505 @4%)",
+      "\"Go back a long way first, tens of thousands of years.\" (10 từ, 20260720 @5%)",
+      "\"Go back to that camp, but in daylight.\" (8 từ, 20260605 @33%)",
+      "\"Rewind the clock.\" (3 từ, 20260614 @51%)",
+      "\"Go back a very long way.\" (6 từ, 20260729 @29%)",
+      "\"To see why, leave the lab and go back tens of thousands of years to a person very hungry, standing in a patch of berries.\" (24 từ, 20260731 @31%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN 3 — ĐÓNG CHƯƠNG BẰNG CÂU CỤT ĐỐI XỨNG rồi để câu 'Here's…' kéo sang chương sau. Câu đóng thường ≤8 từ và là một mệnh đề đảo.",
+     "so_lieu": "27/47 bài dùng cặp [câu đóng cụt] + ['Here's…']. Trên toàn kênh, 27% câu dài ≤5 từ (nhóm CAO 27%, nhóm THẤP 23%) → nhịp cụt là NẾT chung.",
+     "trich": [
+      "ĐÓNG: \"Same body, same second.\" → MỞ: \"So, here's what hat does on the outside.\" (20260531 @26%)",
+      "ĐÓNG: \"They don't.\" → MỞ: \"Here's how the engineer pays attention.\" (20260531 @55%)",
+      "ĐÓNG: \"First, the thing.\" → MỞ: \"Imagine attention is water.\" (20260531 @57%)",
+      "ĐÓNG: \"That's the feeling.\" → MỞ: \"And here's the fear underneath it, the one almost nobody says out loud.\" (20260531 @13%)",
+      "ĐÓNG: \"The traits didn't change, the world did.\" → MỞ: \"And here's the part that should sit with you.\" (20260527 @77%)",
+      "ĐÓNG: \"The genome kept the receipt.\" → MỞ: \"Go back to that person in the dark striking rock against rock.\" (20260527 @82%)",
+      "ĐÓNG: \"The environment just rarely gives it anything worth hunting.\" → MỞ: \"Here's where it gets genuinely uncomfortable.\" (20260510 @67%)",
+      "ĐÓNG: \"There just wasn't enough in the tank yet o move.\" → MỞ: \"Picture a hill.\" (20260720 @37%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 4 — CHUYỂN BẰNG CÂU HỎI TU TỪ ĐẶT NGAY TRƯỚC CẢNH MỚI.",
+     "so_lieu": "Chỉ 21/47 bài có dấu hỏi trong 130 từ đầu, nhưng câu hỏi ở giữa bài thì thường đứng đúng chỗ giao chương. Đếm trên 191 cặp chuyển: câu đóng là câu hỏi ở khoảng 1/6 số cặp.",
+     "trich": [
+      "ĐÓNG (câu hỏi): \"Why would a group that needs food punish the person who finds it?\" → MỞ: \"Picture a band of 30 people and one hunter better than all of them.\" (20260727 @51%)",
+      "ĐÓNG: \"Now, there's an obvious question. / If this brain is so well-built, why does it cause so much real pain?\" → MỞ: \"Here's what the diagnosis leaves out.\" (20260510 @52-54%)",
+      "\"What did they know that we forgot?\" (20260610, @5% — chuyển từ cảnh cổ sang phần dữ liệu)",
+      "\"So what broke between yesterday and today?\" (20260622, @2%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "phat_hien": [
+    {
+     "y": "CÓ NÊU TÊN NHÀ NGHIÊN CỨU, NĂM, NƠI — mật độ cao và đều. Đây là NẾT của kênh: cả bài nổ lẫn bài chìm đều neo bằng nghiên cứu.",
+     "so_lieu": "120 mốc năm trên 47 bài (1,35 mốc/1000 từ). Nhóm CAO 1,76/1000 từ (14/16 bài) · giữa 1,05 (14/15) · THẤP 1,27 (13/16). Tên nhà nghiên cứu kèm chức danh: 52 lần, CAO 0,62/1000 từ (11/16 bài) vs THẤP 0,58 (8/16) — gần như y hệt. Tên trường/viện: CAO 0,34 vs THẤP 0,33.",
+     "trich": [
+      "\"In 1990, a researcher named Louis Liebenberg spent years living alongside San Bushmen trackers in the Kalahari Desert.\" (20260518)",
+      "\"In 2003, a neuroscientist named Naomi Eisenberger sat volunteers down in front of computers at UCLA and had them play a simple digital game.\" (20260516 — nhóm THẤP, mỏ neo chuẩn y hệt bài nổ)",
+      "\"In 2010, two psychologists at Washington State University published that result. / Craig Parks and Asako Stone.\" (20260727)",
+      "\"In 2008, a researcher named Max Wolf put this into a model of how sensitivity survives across generations.\" (20260605)",
+      "\"In 2021, a team at Queen Mary University of London studied thousands of twins to measure how much of sensitivity is inherited.\" (20260605)",
+      "\"In 2005, two researchers, Thomas Boyce and Bruce Ellis, were studying why some children fall apart under stress while others shrug it off.\" (20260605)",
+      "\"In 2024, a lab at UC Davis strapped tiny motion sensors to 70 adults with ADHD. / Wrist and ankle.\" (20260707 — nhóm THẤP)",
+      "\"In 2011, a scientist named Mareike Wieth gave hundreds of students two kinds of problems.\" (20260509 — nhóm THẤP)",
+      "\"A scientist named Maryanne Wolf spent her life studying this.\" (20260604)",
+      "\"In 1978, researchers found the first clue in a strange place. / People who just won the lottery. / They tracked own 22 winners in Illinois.\" (20260711)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHỈ NHÓM TRÊN NEO VÀO DI CHỈ / TỘC NGƯỜI CÓ THẬT (Kalahari, Ju/'hoansi, Ariaal, Lascaux, Hadza…). Nhóm giữa gần như bỏ hẳn.",
+     "so_lieu": "33 lần nhắc tên tộc người/di chỉ trên 47 bài. Nhóm CAO 18 lần, 0,62/1000 từ, 6/16 bài · nhóm giữa 1 lần, 0,03/1000 từ, 1/15 bài · nhóm THẤP 14 lần, 0,51/1000 từ, 6/16 bài. Kiểm chứng bộ sạch: 'nhảy về quá khứ' (go back N years / N.000 years ago) có ở 6/11 nhóm CAO vs 1/11 nhóm THẤP.",
+     "trich": [
+      "\"In 2008, an anthropologist named Dan Eisenberg traveled to northern Kenya to study a tribe called the Aari al [Ariaal]. / Some of them still lived as nomads… Others from the same tribe had recently settled into villages and started farming.\" (20260510)",
+      "\"In 2017, archaeologist Derek Hodgson published an analysis of Paleolithic ave paintings, the ones in Lascaux, Altamira, Chauvet…\" (20260527)",
+      "\"The Ju/'hoansi didn't have a word for it because the fire was always lit…\" (20260505)",
+      "\"Look at what the Ju/hoansi actually do after the insult stop?\" (20260727, @87%)",
+      "\"It's called DRD4/7R. … Researchers call it the hunter's gene. … It appears at high frequency in nomadic populations all over the world.\" (20260510)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÓ TÁCH SỰ THẬT KHỎI SUY DIỄN, nhưng THƯA và bằng câu rất ngắn. Đây là nết chung, không phân hoá.",
+     "so_lieu": "57 lần hedge trên 47 bài (0,64/1000 từ). Nhóm CAO 17 lần, 0,59/1000 từ, 9/16 bài · giữa 22, 0,68, 11/15 · THẤP 18, 0,65, 11/16 — ba nhóm gần bằng nhau. Trung bình chỉ ~1,2 câu hedge mỗi video 1.900 từ.",
+     "trich": [
+      "\"We can't prove what an ancient brain did.\" (20260619, @59%)",
+      "\"We don't know their name. / We don't know if they were ever thanked, but we know the result.\" (20260527, @35-36%)",
+      "\"Anthropologists still argue about how far this framework stretches, and Boehm himself admitted no single theory explains every egalitarian society.\" (20260727, @49%)",
+      "\"The honest answer is nobody's sure yet.\" (20260720, @20%)",
+      "\"The link between the shaman and the modern diagnosis is a strong idea, not a settled fact.\" (20260610, @50%)",
+      "\"It's an argument, not a settled fact. / Hold it loosely. / But the shape of it fits.\" (20260705, @94%)",
+      "\"Nobody was there with electrodes 60,000 years ago.\" (20260729, @35%)",
+      "\"We can't prove any single person was kept alive for this.\" (20260614, @71%)",
+      "\"Scientists still argue about how deep that overlap goes, whether social pain and a broken bone truly share the same wiring or just sit close to each other.\" (20260714, @44%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "phat_hien": [
+    {
+     "y": "BIẾN SỐ MẠNH NHẤT CẢ BÁO CÁO: TITLE CÓ GỌI TÊN MỘT CHẨN ĐOÁN (ADHD / autism / AuDHD / dyslexia / schizoid / sensitive / 'brains wake up after dark'). Trên bộ sạch, tách hoàn toàn: 9/11 nhóm cao vs 0/11 nhóm thấp.",
+     "so_lieu": "17/47 bài có tên chẩn đoán trong title: trung vị 16,7 view/ngày. 30/47 bài không có: trung vị 4,9 view/ngày → chênh 3,4 lần. Trên bộ sạch (35 bài ≥30 ngày): 9/11 nhóm CAO vs 0/11 nhóm THẤP.",
+     "trich": [
+      "\"Why Ancient People With ADHD Were Better Survivors\" — 238.767 view (2.653/ngày)",
+      "\"Why Ancient Tribes Needed Autistic Minds?\" — 62.292 view (853/ngày)",
+      "\"Why AuDHD Feels Like Two Brains Fighting?\" — 7.337 view (106/ngày)",
+      "\"Why Ancient Humans Needed Sensitive People?\" — 2.282 view (35,7/ngày)",
+      "Đối chứng cùng công thức kể chuyện nhưng title không tên chẩn đoán: \"Why Social Media Exhausts You Even When You're Just Scrolling\" — 133 view (1,6/ngày); \"Why You Can't Stop Eating Even When You're Full?\" — 171 view (1,8/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "BIẾN SỐ MẠNH THỨ HAI: title có chữ 'ancient' hoặc 'tribes'. Cộng dồn với chẩn đoán thì ra hai quả nổ.",
+     "so_lieu": "11/47 bài có 'ancient/tribe' trong title: trung vị 17,8 view/ngày vs 36 bài không có: 6,5 → chênh 2,7 lần. Bộ sạch: 5/11 nhóm CAO vs 1/11 nhóm THẤP. Cả 2 quả nổ đều có ĐỒNG THỜI 'ancient/tribes' + tên chẩn đoán.",
+     "trich": [
+      "Có cả hai: \"Why Ancient People With ADHD Were Better Survivors\" (238.767) · \"Why Ancient Tribes Needed Autistic Minds?\" (62.292) · \"Why Ancient Humans Needed Sensitive People?\" (2.282)",
+      "Chỉ có 'ancient', không chẩn đoán: \"Why Ancient Humans Feared Rejection More Than Death\" (111 view, 4,4/ngày) · \"If Ancient Humans Faced Lions, Why Do Emails Feel So Scary?\" (172 view, 1,9/ngày) → ancient MỘT MÌNH không cứu được"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "NHÓM ĐỀ TÀI GIẢ ĐỊNH VẬT LÝ ('What If…' / 'How Long…') LÀ NGHĨA ĐỊA. Kênh đã thử 6 bài rồi bỏ hẳn.",
+     "so_lieu": "6/47 bài thuộc nhóm này, trung vị 2,3 view/ngày — thấp nhất trong 7 nhóm đề tài. Bài duy nhất khá là bài có ADHD trong title (16,7). Nhóm này chết hẳn sau 30/05: 0 bài nào từ 2026-05-31 tới 2026-08-05.",
+     "trich": [
+      "\"What If Gravity Got 10% Lighter?\" — 493 view (6,4/ngày)",
+      "\"What If We Dump Our Thrash Into Volcanos\" — 204 view (2,9/ngày)",
+      "\"How Long Would It Take To Count To One Billion Out Loud?\" — 134 view (1,7/ngày)",
+      "\"What If You've Switched Off All The World's Electricity For One Second?\" — 131 view (1,7/ngày)",
+      "\"Why We Might Not Last 24 Hours in A World Without Fear?\" — 122 view (1,6/ngày)",
+      "Ngoại lệ duy nhất: \"What If People With ADHD Runs The Modern World?\" — 1.237 view (16,7/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "TRUNG VỊ VIEW/NGÀY THEO 7 NHÓM ĐỀ TÀI (đủ mẫu số).",
+     "so_lieu": "AuDHD 2 bài: 58,1 · ADHD 4 bài: 35,0 · Cổ đại chung 6 bài: 13,2 · Thần kinh-khác (dyslexia/schizoid/HSP/cú đêm/nghe tiếng nói) 6 bài: 10,2 · Autism 7 bài: 9,8 · Tâm lý đời sống hiện đại 16 bài: 4,6 · Giả định vật lý 6 bài: 2,3.",
+     "trich": [
+      "Nhóm to nhất (16/47 bài) lại là nhóm gần bét: \"Why Your Brain Keeps Breaking Focus?\" (3,2) · \"Why Your Best Ideas Only Appear After You Give Up?\" (3,2) · \"Why You Aren't Lazy. Why Your Brain Just Can't Feel Time.\" (3,2)",
+      "Ngoại lệ nổ trong nhóm bét: \"Why Groups Reject Most Useful Member\" (3.367 view, 280,6/ngày) — bài duy nhất của nhóm này vọt lên"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ LOẠT (SERIES) VÀ CÓ LÀM LẠI ĐỀ TÀI CŨ — kênh xoay quanh 2 quả nổ, đẻ ra biến thể, và khâu các bài bằng mồi video kế trỏ chéo lẫn nhau.",
+     "so_lieu": "Sau quả nổ thứ hai (27/05), tỷ lệ title thần-kinh-đa-dạng nhảy từ 3/17 (18%) lên 17/30 (57%). 23/47 bài kết bằng mồi trỏ tên cụ thể một video khác của kênh → mạng liên kết nội bộ.",
+     "trich": [
+      "Loạt ADHD, 5 bài đẻ từ quả nổ 10/05: \"How ADHD Leaders Shaped History Through Hyperfocus\" (24/05) · \"What If People With ADHD Runs The Modern World?\" (26/05) · \"Why ADHD Brains Ignore Important Things?\" (19/06) · \"Why You're Actually Best in a Crisis (ADHD Explained)\" (20/07) · \"Stop Using Fidget Toys To Focus\" (07/07)",
+      "Làm LẠI chính quả nổ 27/05 sau 8 tuần: \"Why Ancient Tribes Needed Autistic Minds?\" (27/05, 62.292 view) → \"Why Ancient Tribes Depended On Autistic Women\" (22/07, 167 view). Bản làm lại chỉ ra 167 view — NHÂN BẢN TITLE KHÔNG TÁI LẬP ĐƯỢC CÚ NỔ.",
+      "Khâu chuỗi tường minh: \"…you might also want to know why that same woman so often reaches adulthood before anyone realizes he's autistic at all. / Why autistic girls get missed, mislabeled, and misdiagnosed for decades. / That video is next.\" (20260722 trỏ sang 20260724)",
+      "3 bài mở bằng 'Stop …' như một dòng riêng: \"Stop Using Fidget Toys To Focus (Do This Instead)\" (4,1) · \"Stop Telling Me to 'Just Be Flexible' (Autism Explained)\" (8,1) · \"Stop Punishing Yourself for Changing Plan\" (15,8) — trung vị 8,1, không hơn nền kênh"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TITLE KẾT THÚC BẰNG DẤU HỎI KHÔNG GIÚP GÌ, thậm chí hơi kém.",
+     "so_lieu": "22/47 bài title có '?': trung vị 6,5 view/ngày. 25/47 bài không có '?': trung vị 9,8 view/ngày. Title chứa 'you/your': 19/47 bài, trung vị 5,1 — thấp hơn 28 bài không chứa (10,0).",
+     "trich": [
+      "Không dấu hỏi, nổ: \"Why Ancient People With ADHD Were Better Survivors\" (2.653/ngày) · \"Why Groups Reject Most Useful Member\" (280,6/ngày)",
+      "Có dấu hỏi + có 'you', chìm: \"Why You're Still Tired After Doing Nothing?\" (4,4) · \"Why Too Many Choices Exhaust You?\" (5,1) · \"Why Your Brain Hates Missing Out?\" (4,7)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "phat_hien": [
+    {
+     "y": "47 VIDEO / 92 NGÀY, KHÔNG NGHỈ NGÀY NÀO QUÁ 4 NGÀY. Nhịp cực đều, không gom đợt.",
+     "so_lieu": "Từ 2026-05-05 tới 2026-08-05 = 92 ngày, 47 video = 1 video mỗi 1,96 ngày. Khoảng cách trung vị 2,0 ngày, trung bình 2,0, nhỏ nhất 1, LỚN NHẤT 4. Phân bố 46 khoảng cách: 1 ngày × 15 lần · 2 ngày × 19 · 3 ngày × 9 · 4 ngày × 3. KHÔNG có khoảng trống ≥5 ngày → không gom đợt, không nghỉ tuần nào.",
+     "trich": [
+      "Chuỗi 6 ngày đầu đăng 5 video: 05/05, 06/05, 07/05, 09/05, 10/05 — quả nổ 238.767 view rơi vào video thứ 5, ngày thứ 6 của kênh."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP CHẬM DẦN, VIDEO DÀI RA GẦN GẤP ĐÔI. Đây là đổi hướng có chủ ý sau khi trúng.",
+     "so_lieu": "Tháng 5: 20 video/27 ngày (0,74/ngày), trung vị 1.526 từ, 9,1 phút. Tháng 6: 12 video (0,40/ngày), 1.770 từ, 9,5 phút. Tháng 7: 13 video (0,42/ngày), 2.458 từ, 13,9 phút. Tháng 8 (2 bài đầu): 2.867 từ, 16,2 phút. Độ dài tăng 78% từ tháng 5 sang tháng 7.",
+     "trich": [
+      "Bài dài nhất kênh là bài mới nhất và chìm nhất: \"Why Life Seems To Speed Up As We Age\" (05/08) — 21:26, 3.761 từ, 30 view sau 3 ngày.",
+      "Bài ngắn nhất: \"Why Do Autistic Mind Hide Who They Really Are?\" (26/06) — 7:20, 1.278 từ, 282 view."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP ĐĂNG KHÔNG LIÊN QUAN GÌ TỚI VIEW/NGÀY. Nghỉ dài hơn trước khi đăng không giúp bài đó ăn hơn.",
+     "so_lieu": "Tương quan hạng giữa 'số ngày nghỉ trước bài' và view/ngày của bài đó: rho = 0,12 trên 46 cặp → gần như bằng 0. Tương quan giữa số từ và view/ngày: rho = 0,17. Tương quan giữa thứ tự đăng và view/ngày: rho = 0,29 (và phần lớn là do hiệu ứng bài mới bị thổi phồng view/ngày, xem phần giới hạn).",
+     "trich": [
+      "Quả nổ 2.653 view/ngày đăng sau đúng 1 ngày nghỉ (09/05 → 10/05). Bài 1,6 view/ngày (25/05) cũng đăng sau 1 ngày nghỉ (24/05 → 25/05)."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỘ DÀI VIDEO KHÔNG PHÂN HOÁ.",
+     "so_lieu": "24 bài <10 phút: trung vị 7,2 view/ngày. 23 bài ≥10 phút: trung vị 8,5 view/ngày. Chênh không đáng kể. Nhưng CẢ 2 QUẢ NỔ đều là bài NGẮN (8:52 và 8:38), và 4/5 bài dài nhất kênh (≥15 phút) đều nằm nhóm giữa/dưới.",
+     "trich": [
+      "Nổ: 8:52 / 1.529 từ (238.767 view) và 8:38 / 1.450 từ (62.292 view).",
+      "Dài mà chìm: 16:05 / 2.976 từ → 216 view · 15:00 / 2.657 từ → 171 view · 21:26 / 3.761 từ → 30 view. Ngoại lệ duy nhất: 15:16 / 2.730 từ → 3.367 view (Why Groups Reject Most Useful Member)."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ]
+}

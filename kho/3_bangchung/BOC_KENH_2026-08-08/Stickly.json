@@ -1,0 +1,487 @@
+{
+ "kenh": "Stickly (Simply A Stickman) — 2_KHO_BANGHI/Stickly/",
+ "so_bai": 43,
+ "view_ngay_cao": "Nhóm CAO = 14 bài trên cùng, view/ngày 1.527 – 39.968, trung vị 2.497. Gồm: Predators Ignore Sleeping Humans (39.968), During the Night (8.231), Bring Babies (7.991), Pet Everything (7.590), Eat Before Fire (3.770), Become Obese (2.778), Before Medicine (2.682), Animals Terrified (2.313), Private Life (1.982), Technologies Lost (1.865), Drink Milk (1.645), Orcas (1.628), At What Age Die (1.616), Without Jobs (1.527)",
+ "view_ngay_thap": "Nhóm THẤP = 14 bài dưới cùng, view/ngày 72 – 243, trung vị 183. Gồm: One Hand Dominant (243), Homosexual (243), Hunt Giant Animals 22/07 (238), Abandon Caves (235), Hunt Giant Animals 21/06 (220), Become White (197), Found Fire (193), Die at 30 (173), Give Birth (172), Sleepless Night (130), Cancer (127), Find Humans Adorable (109), Invent Music (109), Actually Drink (72). Nhóm GIỮA 15 bài (246–1.286) chỉ dùng để đối chiếu.",
+ "gioi_han": "1) View/ngày tính tới 08/08/2026; tuổi video từ 3 tới 74 ngày. Bài mới nhất (Pharaoh, 3 ngày tuổi) có mẫu số cực nhỏ nên vị trí nhóm của nó không đáng tin. 2) Bản ghi là auto-caption của YouTube: rơi rụng chữ cái đầu (\"hing\" = thing, \"ntire\" = entire, \"imple\" = simple), nên đếm từ chính xác ±1%, và mọi trích dẫn giữ nguyên lỗi này. 3) KHÔNG đếm được số chương thật: file không có mốc chương, VTT thì mất chữ nên khoảng lặng không dùng làm mốc được; số chương trong Chiều 5 là đo bằng regex tín hiệu, chắc chắn ĐẾM THIẾU — chỉ bài 2,08M được đọc tay toàn văn. 4) heatmap \"most replayed\" chỉ có ở 10/44 file info.json và toàn bộ 10 file đó đăng TRƯỚC 13/07, tức trước khi kênh chèn quảng cáo khoá học — nên KHÔNG kiểm được quảng cáo có làm tụt giữ chân không. 5) Toàn bộ so sánh là tương quan trên n=43, không phải nhân quả; bài 2,08M chiếm 42% tổng view của cả 43 bài nên mọi \"khuôn thắng\" đều bị nó kéo.",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~130 từ)",
+   "ca_nguoc": "CẢ 5 KHUÔN MỞ ĐỀU CÓ Ở CẢ HAI NHÓM. Khuôn 'you + cảnh hiện tại' có 6 bài CAO nhưng cũng có 4 bài THẤP; khuôn 'mệnh lệnh tưởng tượng' có 3 CAO và 4 THẤP (nhiều hơn ở nhóm chìm); khuôn 'phủ định-đính chính' 2 CAO / 3 THẤP. Lời hứa chiều sâu: 8/14 CAO vs 7/14 THẤP. Câu đùa/tự giễu trong hook: 8/14 CAO vs 7/14 THẤP. Bốn thứ này là NẾT CỦA KÊNH, KHÔNG phải bí quyết thắng. Bài chìm nhất kênh (Actually Drink, 72 view/ngày) mở bằng đúng công thức của bài 2,08M: 'You're thirsty.' + 6 lần 'you' + 7 đồ vật hiện đại + câu cắt cảnh 'Now, imagine you can't just walk to your kitchen' + lời hứa 'fascinating, disgusting, surprisingly genius'. Nó vẫn chìm. Hook không cứu được đề tài.",
+   "phat_hien": [
+    {
+     "y": "Năm khuôn mở đầu, đếm nguyên văn câu đầu tiên của cả 43 bài",
+     "so_lieu": "A. 'YOU + cảnh hiện tại' 12/43 (CAO 6/14 · GIỮA 2/15 · THẤP 4/14) — B. mệnh lệnh tưởng tượng 8/43 (CAO 3 · GIỮA 1 · THẤP 4) — C. khẳng định phủ định/đính chính 8/43 (CAO 2 · GIỮA 3 · THẤP 3) — D. sự vật/con vật cụ thể 13/43 (CAO 2 · GIỮA 9 · THẤP 2) — E. meta 'đây là một câu hỏi' 2/43 (CAO 1 · THẤP 1)",
+     "trich": [
+      "A: \"You're asleep, completely out, drooling on your pillow, probably snoring, zero awareness of the world around you.\" (20260617_Why_Do_Predators_Ignore_Sleeping_Humans_.txt, CAO 39.968)",
+      "A: \"You go to bed tonight.\" (20260529_What_Did_Ancient_Humans_Do_During_the_Night_.txt, CAO 8.231)",
+      "A: \"You wake up. Alarm. Coffee. Commute. Eight hours staring at a screen. Come home. Eat. Sleep. Repeat. That's your life.\" (20260603_What_Did_Ancient_Humans_Do_Without_Jobs.txt, CAO 1.527)",
+      "A nhưng CHÌM: \"You're thirsty. Like, really thirsty. It's been hours. Your mouth feels like someone stuffed it with sand and then added more sand for flavor.\" (20260611_What_Did_Ancient_Humans_Actually_Drink_.txt, THẤP 72)",
+      "B: \"Okay, stop scrolling. Just for a second. I want you to imagine something.\" (20260622_Could_Ancient_Humans_Become_Obese_.txt, CAO 2.778)",
+      "B nhưng CHÌM: \"Raise your right hand. Don't actually do it. You're watching a video. People will think you're taking an oath alone in your living room.\" (20260621_Why_Is_One_Hand_Dominant_.txt, THẤP 243)",
+      "C: \"The most dangerous thing in the prehistoric world did not have claws.\" (20260726_Why_Were_Animals_Terrified_of_Ancient_Humans_.txt, CAO 2.313)",
+      "C: \"The average ancient human did not die at 30.\" (20260721_At_What_Age_Did_Most_Ancient_Humans_Die_.txt, CAO 1.616)",
+      "C nhưng CHÌM: \"A mammoth was not killed by the spear that entered its body.\" (20260722_How_Did_Ancient_Humans_Hunt_Giant_Animals_.txt, THẤP 238)",
+      "D: \"An orca can kill a human whenever it wants.\" (20260725_Why_Don_t_Orcas_Hunt_Humans_.txt, CAO 1.628)",
+      "D: \"Every human is born with a superpower. Then, for most of history, the body quietly took it away.\" (20260731_Why_Couldn_t_Most_Ancient_Humans_Drink_Milk_.txt, CAO 1.645)",
+      "D nhưng CHÌM: \"A 40,000 year old vulture bone with precisely spaced holes drilled into it was found in a German cave called Hohle Fels.\" (20260709_How_Did_Humans_Accidentally_Invent_Music_.txt, THẤP 109)",
+      "E: \"Here is a question that sounds almost like a trick question, but isn't.\" (20260625_What_Did_Humans_Eat_Before_Fire_.txt, CAO 3.770)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Mật độ 'you' trong 130 từ đầu — đây là chỉ số phân biệt mạnh nhất tìm được ở chiều hook, nhưng vẫn không tuyệt đối",
+     "so_lieu": "Trung vị /1000 từ trong 130 từ đầu: CAO 34,6 · GIỮA 0,0 · THẤP 7,7. Số bài có ≥3 lần 'you' trong 130 từ đầu: CAO 8/14 · GIỮA 3/15 · THẤP 5/14. Ba bài top (≥7.500 view/ngày) đếm được 14, 8 và 12 lần.",
+     "trich": [
+      "14 lần: \"You're asleep... zero awareness of the world around you. You are, by every biological definition, helpless. Now, imagine you're not in your bedroom. You're in a tent.\" (20260617_Why_Do_Predators_Ignore_Sleeping_Humans_.txt)",
+      "12 lần: \"You see a dog across the street. You don't know this dog. You have never met his dog. You have no prior relationship with this dog, no shared history, no mutual friends.\" (20260614_Why_Do_We_Always_Need_to_Pet_Everything_.txt)",
+      "0 lần mà vẫn CAO: \"Picture this. A fisherman is out on a quiet stretch of water minding his own business when a wild dolphin suddenly appears next to his boat nudging something toward him.\" (20260704_Why_Do_Animals_Bring_Babies_to_Humans_.txt, 7.991)",
+      "0 lần mà vẫn CAO: \"The most dangerous thing in the prehistoric world did not have claws.\" (20260726_Why_Were_Animals_Terrified_of_Ancient_Humans_.txt, 2.313)",
+      "13 lần mà vẫn CHÌM: (20260621_Why_Is_One_Hand_Dominant_.txt, 243)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Đồ vật đời sống hiện đại nhồi vào hook để làm điểm tựa cho cú cắt sang cổ đại",
+     "so_lieu": "Số đồ vật hiện đại trong 130 từ đầu, trung vị: CAO 2 · GIỮA 0 · THẤP 0. Số bài có ≥3 đồ vật: CAO 5/14 · GIỮA 2/15 · THẤP 2/14",
+     "trich": [
+      "\"You pull up your blanket, you scroll your phone for 40 minutes watching videos of dogs failing to catch frisbees, and eventually, after three trips to the kitchen for no reason, you fall asleep.\" (20260529_What_Did_Ancient_Humans_Do_During_the_Night_.txt)",
+      "\"He's standing in the cereal aisle. There are 47 types of cereal. One of them is literally called Honey Smacks. Another one has a cartoon tiger on the box telling him it's great.\" (20260622_Could_Ancient_Humans_Become_Obese_.txt)",
+      "\"They didn't have a LinkedIn profile saying passionate about synergizing cross-functional value delivery.\" (20260603_What_Did_Ancient_Humans_Do_Without_Jobs.txt)",
+      "\"You pop an ibuprofen, drink some water, and move on with your life. Total time invested, maybe 45 seconds.\" (20260605_How_Did_Ancient_Humans_Survive_Before_Medicine_.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Câu 'cắt cảnh' hiện đại → cổ đại, đặt ngay sau cảnh mở",
+     "so_lieu": "6/14 CAO · 4/15 GIỮA · 3/14 THẤP có câu cắt cảnh (Now imagine / Now picture / And yet) trong 220 từ đầu",
+     "trich": [
+      "\"Now, imagine you're not in your bedroom.\" (20260617_Why_Do_Predators_Ignore_Sleeping_Humans_.txt)",
+      "\"Now, imagine doing all of that minus the blanket, minus the phone, minus the bed, minus the walls, minus the kitchen, minus literally everything, and instead you're sitting in a dark forest wrapped in animal skin listening to something large moving in the bushes 20 ft away from you. That was Tuesday for our ancestors.\" (20260529_What_Did_Ancient_Humans_Do_During_the_Night_.txt)",
+      "\"Now imagine waking up with that same headache 50,000 years ago.\" (20260605_How_Did_Ancient_Humans_Survive_Before_Medicine_.txt)",
+      "\"Now, imagine dropping him into a modern grocery store.\" (20260622_Could_Ancient_Humans_Become_Obese_.txt)",
+      "\"Now, imagine that this martphone is the only one left. Its creen is shattered.\" (20260729_Which_Ancient_Technologies_Have_We_Lost_.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Câu hỏi lõi rơi ở đâu — KHÔNG phân biệt được hai nhóm",
+     "so_lieu": "Vị trí dấu '?' đầu tiên trong lời đọc, trung vị: CAO từ thứ 135 · GIỮA từ thứ 169 · THẤP từ thứ 111. Có '?' ngay trong 130 từ đầu: CAO 5/14 · GIỮA 6/15 · THẤP 5/14. Nhóm THẤP đặt câu hỏi SỚM HƠN nhóm CAO.",
+     "trich": [
+      "Sớm nhất nhóm CAO (từ thứ 21): \"Here is a question that sounds almost like a trick question, but isn't. What did humans actually eat before they had fire?\" (20260625_What_Did_Humans_Eat_Before_Fire_.txt)",
+      "Muộn (từ thứ 108) mà vẫn 2,08M: \"And yet, you wake up in the morning every single time. Why? Seriously, think about this for a second.\" (20260617_Why_Do_Predators_Ignore_Sleeping_Humans_.txt)",
+      "Sớm (từ thứ 15) mà chìm: \"Let's start with a question that sounds imple, but really isn't. Did ancient people get cancer?\" (20260618_Did_Cancer_Kill_Ancient_Humans_.txt, 127)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Người dẫn gần như VÔ HÌNH và dấu chấm than gần như bằng 0 trên toàn kênh",
+     "so_lieu": "Tổng 'I/me/my' ≈ 100 lần trên 148.000 từ = 0,68/1000 từ; chỉ 5/43 bài có ≥5 lần trong cả bài 3.400 từ. Dấu '!' xuất hiện ĐÚNG 1 lần trong toàn bộ 43 bản ghi.",
+     "trich": [
+      "Bài dùng 'I' nhiều nhất (21 lần) lại nằm nhóm GIỮA: 20260613_How_Did_Ancient_Humans_Actually_Fall_in_Love_.txt (1.111)",
+      "Chỗ hiếm hoi người dẫn lộ diện: \"Now, let's address the compulsive part of all this, because I think this is genuinely the most interesting aspect.\" (20260614_Why_Do_We_Always_Need_to_Pet_Everything_.txt)",
+      "\"...which is, when you think about it, the most romantic thing I've ever said.\" (20260613_How_Did_Ancient_Humans_Actually_Fall_in_Love_.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — kho câu re-hook, câu nối, vòng tò mò",
+   "ca_nguoc": "Toàn bộ bộ máy giữ chân này CHẠY GIỐNG HỆT NHAU ở hai nhóm. 'Let's...' xuất hiện 77 lần, có ở 9/14 bài CAO nhưng 12/14 bài THẤP — nhóm chìm dùng NHIỀU HƠN. 'here's the thing' 4/14 CAO vs 3/14 THẤP. 'gets interesting' 4/14 vs 4/14. Đây là NẾT KÊNH, không phải bí quyết. Khác biệt duy nhất đo được là 'But here's...' (6/14 CAO vs 2/14 THẤP) và 'the answer is / the real answer' (6/14 vs 3/14) — chênh nhỏ, n=14, không đủ để gọi là luật.",
+   "phat_hien": [
+    {
+     "y": "Mật độ câu re-hook trên 1000 từ, toàn kênh",
+     "so_lieu": "Trên 43 bài / ~148.000 từ: \"here's the thing\" 14 câu · \"here's where...\" 19 câu · \"here's the/what...\" 30 câu · \"and yet\" 22 câu · \"but here's...\" 18 câu · \"now, here's...\" 12 câu · \"let's...\" 77 câu · \"this is where / that's where\" 23 câu · \"the answer is / the real answer\" 23 câu. Mật độ trung bình /1000 từ (CAO vs THẤP): here's-the-thing 0,12 vs 0,11 · here's-where 0,15 vs 0,08 · but-here's 0,19 vs 0,04 · and-yet 0,21 vs 0,11 · let's 0,38 vs 0,57.",
+     "trich": [
+      "\"And here's the thing that nobody really asks.\" (20260529_What_Did_Ancient_Humans_Do_During_the_Night_.txt)",
+      "\"Here's the thing nobody really thinks about.\" (20260605_How_Did_Ancient_Humans_Survive_Before_Medicine_.txt)",
+      "\"But here's the thing that doesn't get talked about enough.\" (20260605_How_Did_Ancient_Humans_Survive_Before_Medicine_.txt)",
+      "\"Because here's the thing nobody tells you in school.\" (20260611_What_Did_Ancient_Humans_Actually_Drink_.txt — bài CHÌM nhất kênh)",
+      "\"But here's where it gets interesting.\" (20260614_Why_Do_We_Always_Need_to_Pet_Everything_.txt)",
+      "\"And here's where it gets genuinely strange.\" (20260614_Why_Do_We_Always_Need_to_Pet_Everything_.txt)",
+      "\"And here's where the story becomes almost poetic.\" (20260605_How_Did_Ancient_Humans_Survive_Before_Medicine_.txt)",
+      "\"Now, here's where it gets stranger because this same pattern of test, evaluate, trust, then deploy the babies shows up in animals that are nowhere near as domesticated as your average backyard cat colony.\" (20260704_Why_Do_Animals_Bring_Babies_to_Humans_.txt)",
+      "\"Here's where volution enters the chat, doing what it always does.\" (20260606_How_Humans_Accidentally_Domesticated_Dogs.txt)",
+      "\"And here's where it gets a little tragic and a little funny in that way that's only funny because it's so dumb.\" (20260626_How_Did_Ancient_Humans_Handle_Sleepless_Night_.txt)",
+      "\"This is where things get genuinely difficult to sit with.\" (20260618_Did_Cancer_Kill_Ancient_Humans_.txt)",
+      "\"Now, brace yourself because what comes next is one of the most extraordinary discoveries in the entire history of archaeology.\" (20260605_How_Did_Ancient_Humans_Survive_Before_Medicine_.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Câu CHỐT CỤT ngay trước mốc chuyển chương — đây là kho dùng lại giá trị nhất, đóng vòng tò mò cũ rồi mở vòng mới",
+     "so_lieu": "48 cặp 'câu chốt ≤9 từ → câu mở chương' đo được trong 43 bài (CAO 28 cặp, GIỮA 12, THẤP 8)",
+     "trich": [
+      "\"This goes deep.\" → \"Let's go.\" (20260617_Why_Do_Predators_Ignore_Sleeping_Humans_.txt)",
+      "\"It's a biological memory, and it runs deep.\" → \"Now, let's talk about your smell.\" (20260617)",
+      "\"Smart move, honestly.\" → \"Now, let's tackle the biggest myth about predators, because movies have spent decades getting this completely wrong.\" (20260617)",
+      "\"Not perfect, not foolproof, but present.\" → \"And then there's the group factor.\" (20260617)",
+      "\"Until now.\" → \"Let's start with the obvious question: is it just that animals are cute?\" (20260614)",
+      "\"Case closed, everybody go home.\" → \"But here's where it gets interesting.\" (20260614)",
+      "\"You're welcome.\" → \"Now, here is a question that is worth sitting with.\" (20260614)",
+      "\"They are remarkable.\" → \"Now, let's address the compulsive part of all this...\" (20260614)",
+      "\"That reputation apparently travels.\" → \"Let's talk about birds for a second...\" (20260704)",
+      "\"It's the absence of a worse alternative.\" → \"But here's the thing, even desperation-based trust still requires the animal's brain to make a calculated risk assessment hat we, historically, don't deserve.\" (20260704)",
+      "\"Evolution is efficient like that.\" → \"Now, here's the part that really puts it in perspective...\" (20260529)",
+      "\"That was Tuesday for our ancestors.\" → \"And here's the thing that nobody really asks.\" (20260529)",
+      "\"It was curiosity.\" → \"Let's go through it properly.\" (20260726)",
+      "\"Scarcity was doing all the heavy lifting.\" → \"Now we have to talk about the most important piece of this entire puzzle, because this is where it gets genuinely fascinating and a little unsettling.\" (20260622)",
+      "\"It finds another shape.\" → \"Now let's address the thing everyone is thinking about and nobody ever wants to say out loud, toilets...\" (20260526)",
+      "\"It is as old as we are.\" → \"Let's talk about play, because this one genuinely surprises people.\" (20260603)",
+      "\"The emperor's bones don't lie.\" → \"And then there's the straightforward, uncomfortable question of access and inequality.\" (20260611, bài CHÌM)",
+      "\"Natural selection does its thing silently, as usual.\" → \"Here's where volution enters the chat, doing what it always does.\" (20260606)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "HỌ GẦN NHƯ KHÔNG BÁO TRƯỚC 'phần hay nhất ở cuối' — đây là phát hiện ngược với thói quen ngách explainer",
+     "so_lieu": "CHỈ 4 câu hứa-trước trong toàn bộ 43 bài / 148.000 từ (2 bài CAO, 1 GIỮA, 1 THẤP). Không bài nào nói 'stay till the end', 'at the end of this video I'll show you'.",
+     "trich": [
+      "\"It's a stack of overlapping reasons, and honestly, by the end of this, you might start side-eying your pets a little differently.\" (20260704_Why_Do_Animals_Bring_Babies_to_Humans_.txt, CAO)",
+      "\"And is it worth the energy it costs me to get it?\" That last part matters enormously, and we'll come back to it.\" (20260622_Could_Ancient_Humans_Become_Obese_.txt, CAO)",
+      "\"Stay with me.\" (20260606_How_Humans_Accidentally_Domesticated_Dogs.txt, GIỮA)",
+      "\"In fact, by the end of this, you might stop calling them a problem at all.\" (20260626_How_Did_Ancient_Humans_Handle_Sleepless_Night_.txt, THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Vòng tò mò mở bằng khuôn 'không ai hỏi/không ai kể' — dùng để tuyên bố đề tài chưa ai chạm",
+     "so_lieu": "8 câu trong 43 bài (CAO 4 bài · GIỮA 1 · THẤP 3)",
+     "trich": [
+      "\"And here's the thing that nobody really asks.\" (20260529, CAO)",
+      "\"Here's the thing nobody really thinks about.\" (20260605, CAO)",
+      "\"And nobody has ever eally sat down and properly explained why. Until now.\" (20260614, CAO)",
+      "\"Let's start with the part nobody tells you, because it's the part that ruins the whole modern panic in one sentence.\" (20260626, THẤP)",
+      "\"Genuinely fascinating and we'll get into a fair amount of it, but notice what's conspicuously missing from basically all of it. Nobody seems to have flipped the question around with anything like the same enthusiasm.\" (20260630_Do_Animals_Find_Humans_Adorable_.txt, THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180 từ cuối) — chiều chưa ai bóc",
+   "ca_nguoc": "Callback về hook có ở 38/43 bài (CAO 13/14 · GIỮA 14/15 · THẤP 11/14) → NẾT KÊNH, không phải bí quyết. Có 'you' trong 180 từ cuối: 26/43 (CAO 9/14 · GIỮA 9/15 · THẤP 8/14) → cũng là nết kênh. Thứ DUY NHẤT chỉ nhóm trên có là bộ đôi 'Next time you...' + 'That's you.' — và ngay cả nó cũng chỉ có ở 3/14 và 2/14 bài CAO, tức phần lớn bài thắng KHÔNG dùng.",
+   "phat_hien": [
+    {
+     "y": "Khuôn kết 'Next time you...' — quy đề tài cổ đại về một hành vi cụ thể người xem sẽ làm tối nay. 0 bài chìm nào dùng",
+     "so_lieu": "5/43 bài (CAO 3/14 · GIỮA 2/15 · THẤP 0/14)",
+     "trich": [
+      "\"So, yeah. Next time you're lying in a tent in the middle of nowhere, listening to the sounds of the dark beyond the nylon wall, and you feel that little pulse of ancient anxiety, that's fine. That feeling kept your ancestors alive. But he thing outside the tent, it's not coming in. It knows better.\" (20260617_Why_Do_Predators_Ignore_Sleeping_Humans_.txt, 39.968)",
+      "\"So, next time you wake up at 3:00 a.m. and lie there inexplicably alert, thoughts moving clearly through your mind like water, don't panic. Don't reach for your phone. Don't start the anxiety spiral. Just lie there in the dark for a little while.\" (20260529_What_Did_Ancient_Humans_Do_During_the_Night_.txt, 8.231)",
+      "\"So, the next ime you hear about a dolphin nudging an injured calf toward a boat, or a stray cat parading kittens onto someone's porch, or an elephant herd standing patiently beside a calf waiting for help, don't just file it away as a wholesome animal video. File it away as proof that...\" (20260704_Why_Do_Animals_Bring_Babies_to_Humans_.txt, 7.991)",
+      "\"The next time you close your bedroom door or put on headphones or simply sit somewhere by yourself for a few minutes, you are participating in one of the oldest human dramas there is.\" (20260526_How_Did_Ancient_Humans_Have_a_Private_Life_.txt, 1.982)",
+      "\"So the next time you're staring at your phone paralyzed by the question of whether to use a period or not... just know this. You are doing something ancient.\" (20260613_How_Did_Ancient_Humans_Actually_Fall_in_Love_.txt, GIỮA 1.111)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Câu ĐỊNH DANH người xem ở giây cuối — chốt bằng cách gán chủ ngữ của cả video vào chính khán giả",
+     "so_lieu": "3/43 bài (CAO 2/14 · GIỮA 1/15 · THẤP 0/14)",
+     "trich": [
+      "\"The most dangerous animal on the planet is the one that figured out fire before it figured out everything else... The one that sleeps light, travels in groups, and carries 10,000 generations of successful survival in its DNA. That's you. That's what you are.\" (20260617_Why_Do_Predators_Ignore_Sleeping_Humans_.txt)",
+      "\"You're not malfunctioning. You're membering.\" (20260529_What_Did_Ancient_Humans_Do_During_the_Night_.txt — 'remembering' bị caption ăn mất chữ r)",
+      "\"You are not lazy for wanting those things. You are not broken for struggling in a world that systematically denies them. You're just old. 300,000 years old to be precise. And some part of you still remembers.\" (20260603_What_Did_Ancient_Humans_Do_Without_Jobs.txt)",
+      "\"You are doing something ancient.\" (20260613_How_Did_Ancient_Humans_Actually_Fall_in_Love_.txt, GIỮA)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Mật độ 'you' trong 10% cuối bài",
+     "so_lieu": "Trung vị /1000 từ: CAO 15,1 · GIỮA 3,0 · THẤP 5,9 (CAO gấp 2,6 lần THẤP)",
+     "trich": [
+      "\"Every time you feel like you can't stop after a few chips, that's not a character flaw. That's a nervous system that evolved to maximize caloric intake ncountering food specifically designed to prevent satisfaction.\" (20260622_Could_Ancient_Humans_Become_Obese_.txt)",
+      "\"You were never going to not pet he dog. The only question was always how many seconds it would take.\" (20260614_Why_Do_We_Always_Need_to_Pet_Everything_.txt)",
+      "\"And if any of that made you feel slightly better about the ibuprofen you took this morning, good. You're standing at the end of a very long line of people who were trying to solve the exact same problem you had.\" (20260605_How_Did_Ancient_Humans_Survive_Before_Medicine_.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Chốt MẠNH bằng câu châm ngôn cụt, không hạ nhiệt — đây là nết chung của cả kênh và cả nhóm chìm cũng làm rất giỏi",
+     "so_lieu": "Đọc tay 43 đoạn kết: 41/43 kết bằng một câu tuyên bố ngắn (≤20 từ), chỉ 2/43 kết bằng câu dài giải thích (What Did Humans Eat Before Fire — CAO 3.770; Why Do Wild Animals Ask Humans for Help — GIỮA 246). Không bài nào hạ nhiệt kiểu 'chúc ngủ ngon'.",
+     "trich": [
+      "\"A lion was terrifying because it was a lion. A human was terrifying because it might be carrying the accumulated ideas of a hundred dead humans. The animal saw one body. The danger was a culture. And by the time animals learned to fear that, some had already disappeared.\" (20260726, CAO 2.313)",
+      "\"History is filled with brilliant answers to questions we have forgotten how to ask.\" (20260729_Which_Ancient_Technologies_Have_We_Lost_.txt, CAO 1.865)",
+      "\"Milk did not wait for humans to evolve. Humans fermented it until evolution caught up.\" (20260731, CAO 1.645)",
+      "\"An orca could kill us. It simply was never taught to begin.\" (20260725, CAO 1.628)",
+      "\"Modern life has not invented old people. It has allowed far more people to become them.\" (20260721, CAO 1.616)",
+      "\"Humans did not become larger than the animals. Their knowledge did.\" (20260722_How_Did_Ancient_Humans_Hunt_Giant_Animals_.txt, THẤP 238)",
+      "\"Gold changed the funeral. Power changed who held the knife. Neither changed the ending.\" (20260805_How_Did_Every_Egyptian_Pharaoh_Die_.txt, GIỮA 308)",
+      "\"That decision was not written in their genes. That decision was entirely their own. And unlike genes, decisions can be changed.\" (20260528_Why_Did_Ancient_Humans_Become_White_.txt, THẤP 197)",
+      "\"A constructed shelter is where you sleep. A cave, as it turned out, was where something else happened entirely.\" (20260720, THẤP 235)",
+      "\"The problem isn't fully solved. It never was.\" (20260611, THẤP 72)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Mồi video kế: gần như KHÔNG có",
+     "so_lieu": "1/43 bài có mồi video kế; 42/43 kết xong là hết, không nhắc video sau",
+     "trich": [
+      "\"Let me know in the comments what video you want me to make next. See you soon.\" (20260605_How_Did_Ancient_Humans_Survive_Before_Medicine_.txt, ở mốc 99,5% của bài)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ — PHÁT HIỆN LỚN: KÊNH KHÔNG XIN GÌ CẢ",
+   "ca_nguoc": "Không có gì để so nhóm ở đây: 0 bài nào xin sub, ở CẢ hai nhóm. Nhưng quảng cáo khoá học thì có ở cả CAO (6 bài) lẫn THẤP (4 bài) lẫn GIỮA (5 bài) — nghĩa là chèn quảng cáo giữa bài KHÔNG tương ứng với việc bài đó chìm hay nổi. 15 bài có quảng cáo có view/ngày trung vị 616; 28 bài không có quảng cáo có trung vị 435 — nhưng 15 bài có quảng cáo đều là bài MỚI (≤26 ngày tuổi) nên con số này bị tuổi video làm nhiễu, KHÔNG kết luận được.",
+   "phat_hien": [
+    {
+     "y": "KHÔNG MỘT BÀI NÀO xin subscribe, like, hay bấm chuông trong lời đọc",
+     "so_lieu": "0/43 bài chứa 'subscribe' · 0/43 chứa 'hit the bell' · 0/43 chứa 'leave a like'/'thumbs up'. Đếm trên toàn bộ 148.000 từ.",
+     "trich": [
+      "Đối chiếu: phần MÔ TẢ video thì có xin — \"📌 Don't forget to like, subscribe, and hit the bell to never miss an episode of human history brought to life.\" (_vtt/20260526_gZr9Ul5xwgg.info.json). Tức họ cố ý đẩy CTA ra khỏi audio, chỉ để trong text."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Chỉ ĐÚNG MỘT bài trong 43 bài xin comment, và nó nằm ở giây cuối cùng",
+     "so_lieu": "1/43 bài (CAO, 2.682 view/ngày), đặt ở mốc 99,5% của bài, dài 15 từ, TÁCH RỜI nội dung",
+     "trich": [
+      "\"They just had to do it he hard way first, so the rest of us wouldn't have to. Let me know in the comments what video you want me to make next. See you soon.\" (20260605_How_Did_Ancient_Humans_Survive_Before_Medicine_.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Thứ họ THẬT SỰ bán là khoá học trả tiền, chèn GIỮA BÀI, và mốc chèn đã bị dời một lần",
+     "so_lieu": "15/43 bài có quảng cáo khoá học (CAO 6/14 · GIỮA 5/15 · THẤP 4/14). Xuất hiện lần đầu 13/07/2026 và có ở 15/15 video từ đó về sau; 0/28 video trước 13/07. Vị trí: 5 video đầu (13/07–20/07) đặt ở 60,6% – 74,6%; từ 21/07 dời hẳn về 37,9% – 47,0% (trung vị 43,3%). Độ dài lời quảng cáo ~50 từ = khoảng 20 giây.",
+     "trich": [
+      "Nguyên văn (giống nhau gần như từng chữ ở cả 15 bài): \"By the way, if you want to go even deeper into the secret lives of ancient humans, I just launched a full course called The Secret Lives of Ancient Humans. 10 modules, three plus hours of content covering everything we never talk about on YouTube, what they feared, how they communicated, what hunted them, and much more. Link in the description.\" (20260726_Why_Were_Animals_Terrified_of_Ancient_Humans_.txt, ở mốc 38,0%)",
+      "Biến thể kết: \"Link in the description, see you inside.\" (20260805_How_Did_Every_Egyptian_Pharaoh_Die_.txt, ở mốc 42,9%)",
+      "Chèn thô, KHÔNG gắn vào nội dung — câu ngay sau nó quay lại mạch bài: \"See you inside.\" → \"Now, let's address omething that rarely gets discussed in this context...\" (20260718_Did_Ancient_Humans_Really_Die_at_30_.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "ca_nguoc": "Câu bản lề 'Let's...' kết thúc hook có ở 37/43 bài, vị trí trung vị 5,9% (CAO) / 6,4% (GIỮA) / 7,7% (THẤP) — gần như y hệt nhau. Độ dài bài, tốc độ đọc, số chương: KHÔNG có chỉ số nào phân biệt được hai nhóm (Spearman ≤0,18). Bộ xương là NẾT KÊNH hoàn toàn.",
+   "phat_hien": [
+    {
+     "y": "Kích thước chuẩn của một bài — cực kỳ ổn định, và KHÔNG dự báo view",
+     "so_lieu": "43 bài: 3.047–4.067 từ (trung vị ~3.478); 16:45–27:27 (trung vị 22:33); 134–185 wpm (trung vị 156). Trung vị độ dài CAO 22:02 vs THẤP 20:56. Tốc độ đọc trung vị CAO 158 wpm vs THẤP 157 wpm. Spearman với view/ngày: độ dài 0,12 · số từ 0,18 · wpm 0,00.",
+     "trich": [
+      "Bài dài nhất kênh (27:27, 4.067 từ) nằm nhóm THẤP: 20260621_Why_Is_One_Hand_Dominant_.txt (243 view/ngày)",
+      "Bài ngắn thứ nhì (18:27, 3.165 từ) là bài 2,08M: 20260617_Why_Do_Predators_Ignore_Sleeping_Humans_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Câu BẢN LỀ đóng hook mở thân bài, luôn rơi vào khoảng từ thứ 150–260 (~1 phút 20 giây)",
+     "so_lieu": "37/43 bài có (CAO 12/14 · GIỮA 12/15 · THẤP 13/14). Vị trí trung vị: CAO 5,9% · GIỮA 6,4% · THẤP 7,7% của bài. 6 bài không có câu bản lề nào.",
+     "trich": [
+      "\"Let's go.\" — 2 từ (20260617, mốc 7,3%; và 20260622, mốc 10,9%)",
+      "\"Let's go back.\" (20260529, mốc 6,7%)",
+      "\"Let's go through it properly.\" (20260726 mốc 3,5% · 20260725 mốc 4,6% · 20260721 mốc 7,4%)",
+      "\"Let's start with the obvious question, the one you're probably already asking.\" (20260704, mốc 4,1%)",
+      "\"Let us start with the single most important point to establish before anything else.\" (20260625, mốc 4,6%)",
+      "\"Let's start at the very beginning.\" (20260526 mốc 5,5% · và 20260528 mốc 5,7% — bài THẤP dùng y hệt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Bộ xương đọc tay bài 2,08M (3.163 từ, 8 chương, trung bình ~390 từ/chương) — đây là mẫu đầy đủ duy nhất trong báo cáo này",
+     "so_lieu": "1/43 bài được đọc tay toàn văn. Cấu trúc theo % vị trí từ: hook 0–7,3% · C1 'chúng ta đáng sợ' 7,3–29,4% · C2 mùi cơ thể 29,4–40% · C3 lửa 40–47,7% · C4 phép tính rủi ro của thú săn 47,7–62% (có 3 mốc con: 'First, unfamiliarity' 53,8% · 'Second, the size question' 56,7% · 'Third, and maybe most importantly, why bother?' 60,3%) · C5 giấc ngủ lính gác 62–72,3% · C6 yếu tố bầy 72,3–78,1% · C7 PHẢN ĐỀ tự bác 78,1–90% · C8 hệ luỵ sinh thái 90–95% · kết 95–100%.",
+     "trich": [
+      "Mốc C4: \"Now, let's tackle the biggest myth about predators, because movies have spent decades getting this completely wrong.\" (47,7%)",
+      "Mốc C6: \"And then there's the group factor.\" (72,3%)",
+      "Mốc C7 — cú lật lớn nhất, tự bác bài của chính mình ở 78,1%: \"Now, let's be honest about something because this video would be irresponsible if it wasn't.\" → \"None of this means you're untouchable.\" → dẫn vụ sư tử Tsavo 1898 giết 35–135 công nhân đường sắt.",
+      "Mốc C8: \"When pumas avoid areas where humans are active, the deer in those areas face reduced predation pressure.\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CHƯƠNG PHẢN ĐỀ đặt ở 64–79% bài — chương tự bác lại luận điểm chính, rồi mới chốt. Có ở cả hai nhóm",
+     "so_lieu": "Tìm thấy ở ít nhất 4/43 bài (2 CAO, 2 THẤP) bằng cụm 'let's be honest' / 'none of this means' / 'this whole story isn't just'",
+     "trich": [
+      "\"Now, let's be honest about something because this video would be irresponsible if it wasn't.\" (20260617, 78,1%, CAO)",
+      "\"Let's be honest about something.\" (20260605, 64,3%, CAO)",
+      "\"Now, this whole story isn't just one long heartwarming tale of ancient ingenuity.\" (20260611, 74,9%, THẤP)",
+      "\"Now, before you start romanticizing this as some kind of pure, liberated existence, stop.\" (20260526, 16,9%, CAO)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG đo được số chương trung bình toàn kênh — nói rõ vì sao",
+     "so_lieu": "Regex tín hiệu chương đếm ra: CAO trung vị 4 mốc · GIỮA 7 · THẤP 3,5. Con số này KHÔNG dùng được: bài 2,08M đọc tay có 8 chương mà regex chỉ bắt được 5; 3/43 bài regex chỉ bắt 1 mốc. File .txt không có mốc chương; info.json có trường 'chapters' nhưng = null ở 44/44 file; VTT auto-caption rơi chữ nên khoảng lặng không dùng làm mốc được.",
+     "trich": [
+      "Bằng chứng chapters rỗng: 44/44 file _vtt/*.info.json có \"chapters\": null"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG",
+   "ca_nguoc": "Toàn bộ khuôn chuyển chương giống hệt nhau ở hai nhóm — bài chìm nhất kênh (Actually Drink, 72 view/ngày) có 8 mốc chuyển chương đẹp bằng đúng khuôn của bài 2,08M. Số từ câu mở chương trung vị 17 ở cả hai nhóm. Đây là NẾT KÊNH tuyệt đối.",
+   "phat_hien": [
+    {
+     "y": "Bốn khuôn câu MỞ chương, trung vị 17 từ",
+     "so_lieu": "45 câu mở chương đo được trên 43 bài. Khuôn 1 'Now, let's talk about X' — Khuôn 2 'Let's talk about X, because Y' (mệnh đề because giải thích TẠI SAO đáng nghe) — Khuôn 3 'Here's where it gets [tính từ]' — Khuôn 4 'And then there's the X'.",
+     "trich": [
+      "K1: \"Now, let's talk about your smell.\" — 6 từ (20260617, CAO)",
+      "K1: \"Now, let's talk about what the falling dream reveals.\" (20260717, GIỮA)",
+      "K2: \"Let's talk about trauma, because this is where ancient medicine gets its most direct, immediate, and well-documented results.\" — 18 từ (20260605, CAO)",
+      "K2: \"Let's talk about play, because this one genuinely surprises people.\" (20260603, CAO)",
+      "K2: \"Let's get into elephants for a second because lephant behavior around humans might be the single most emotionally devastating example in this entire topic.\" — 24 từ (20260704, CAO)",
+      "K2: \"Now, let's talk about traps because the cleanest way to defeat strength is to remove the option of using it.\" (20260722, THẤP)",
+      "K3: \"But here's where it gets interesting.\" — 6 từ (20260614, CAO)",
+      "K3: \"Here's where things get genuinely interesting, and where modern medicine looks kind of weird by comparison.\" (20260608, THẤP)",
+      "K4: \"And then there's the group factor.\" — 6 từ (20260617, CAO)",
+      "K4: \"Then there's chicha, a fermented drink made from maize, which was absolutely central to pre-Columbian South America.\" (20260611, THẤP)",
+      "K4: \"And then there's the psychological dimension of cancer in the ancient world which is something that rarely gets discussed but matters enormously.\" (20260618, THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MỘT CÂU MẪU BỊ ĐÓNG KHUÔN CỨNG từ 13/07/2026 — dấu hiệu kênh chuyển sang viết theo template",
+     "so_lieu": "\"Let's go through it properly.\" xuất hiện 8 lần trong 43 bài, và TẤT CẢ 8 lần đều ở video đăng từ 13/07 trở đi (13/07, 17/07, 20/07, 21/07, 22/07, 25/07, 26/07, 02/08). 0 lần trong 28 video trước đó. Cùng mốc thời gian với việc chèn quảng cáo khoá học.",
+     "trich": [
+      "\"And some animals discovered this too late because their first reaction to humans was not error. It was curiosity. Let's go through it properly. Start with the correction because the title makes ancient animals sound as though they saw one human silhouette and immediately understood the future.\" (20260726, CAO 2.313)",
+      "\"The answer is stranger... Let's go through it properly.\" (20260725, CAO 1.628)",
+      "\"It was short because becoming old was never guaranteed. Let's go through it properly.\" (20260721, CAO 1.616)",
+      "Cùng câu đó ở bài chìm: 20260722_How_Did_Ancient_Humans_Hunt_Giant_Animals_.txt (238) và 20260720_Why_Did_Ancient_Humans_Abandon_Caves_.txt (235)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Cặp câu bản lề đặc trưng: 'Let's go through it properly.' + 'Start with the correction because...' — dùng để đính chính chính cái title của mình",
+     "so_lieu": "Ít nhất 2/43 bài dùng nguyên cặp này, cả hai đều là bài viết sau 13/07",
+     "trich": [
+      "\"Let's go through it properly. Start with the correction because the title makes ancient animals sound as though they saw one human silhouette and immediately understood the future. They did not.\" (20260726, CAO)",
+      "Cùng cơ chế, không cùng chữ: \"Start with the thing that sounds like an ego trip, but is actually just biology.\" (20260617, CAO, 7,4%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "ca_nguoc": "Hedge và niên đại có ở cả hai nhóm với mật độ NGANG NHAU hoặc nhóm THẤP còn cao hơn (hedge tổng: CAO 1,73 vs THẤP 2,37 /1000 từ; niên đại: CAO 0,44 vs THẤP 0,68). Neo khoa học KHÔNG phải thứ làm nên bài thắng. Chiều duy nhất đi ĐÚNG hướng ngược là mật độ TÊN RIÊNG: bài càng nhồi tên riêng càng chìm.",
+   "phat_hien": [
+    {
+     "y": "Họ neo bằng CHỨC DANH CHUNG chứ gần như không bao giờ nêu tên nhà nghiên cứu hay năm công bố — tỉ lệ 362 : 7",
+     "so_lieu": "Trên 43 bài: 'researchers/scientists/archaeologists/anthropologists...' 362 lần, có ở 43/43 bài. Nhưng tên trường/viện chỉ 7 lần trong cả 43 bài (1/14 bài CAO, 3/14 bài THẤP), và năm công bố nghiên cứu ('a 2019 study') chỉ 4 lần trong cả 43 bài.",
+     "trich": [
+      "Kiểu neo điển hình, không tên: \"Researchers studying predator-prey dynamics have noted that bipedalism is itself a kind of threat display.\" (20260617)",
+      "Một trong 4 lần hiếm hoi nêu năm + viện: \"And yet, a study published in 2019 by researchers at UC Santa Cruz found something remarkable.\" (20260617)",
+      "Neo bằng SỐ LOÀI thay vì bằng tên tác giả: \"Researchers ran this exact experiment across 19 different species in Kruger National Park. Giraffes, leopards, hyenas, zebras, kudu, warthogs, rhinos.\" (20260620, GIỮA 439)",
+      "Neo bằng năm sự kiện thay vì năm nghiên cứu: \"In 1898, two male lions attacked and killed somewhere between 35 and 135 railway workers over about nine months.\" (20260617)",
+      "Nêu di chỉ mà không nêu người: \"At Shoneningan in Germany, recovered wooden spears, sticks...\" (20260726) và \"a 40,000 year old vulture bone ... found in a German cave called Hohle Fels\" (20260709)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỒI TÊN RIÊNG LÀ DẤU HIỆU BÀI SẼ CHÌM — đây là phát hiện đi ngược trực giác 'càng nhiều dẫn chứng càng uy tín'",
+     "so_lieu": "Mật độ danh từ riêng /1000 từ, trung vị: CAO 7,63 · GIỮA 10,26 · THẤP 9,62 (Spearman với view/ngày = −0,14). Sáu bài nhồi tên riêng nhất kênh và view/ngày của chúng: Pharaoh 56,2 (308) · Go to America 36,8 (616) · Give Birth 26,5 (172) · Become White 25,3 (197) · Actually Drink 23,3 (72 — bài chìm nhất kênh) · Homosexual 23,0 (243). KHÔNG bài nào trong 6 bài này nằm nhóm CAO. Ngược lại, 4 bài top kênh có mật độ 7,58 / 1,92 / 3,82 / 3,50.",
+     "trich": [
+      "Bài 2,08M chỉ dùng 24 danh từ riêng trong 3.163 từ, và chúng là tên loài chứ không phải tên người: \"Lions, bears, wolves, leopards, creatures that can hear your heartbeat from across a clearing...\" (20260617)",
+      "Bài chìm nhất kênh mở bằng 6 nhãn hàng/địa danh trong hook: \"No tap, no bottle, no vending machine, no Evian, no Fiji water with its suspiciously satisfying label.\" (20260611, 72)",
+      "Bài Pharaoh (201 danh từ riêng / 3.579 từ) kết bằng một danh sách tên: \"Narmer, Djoser, Khufu, Hatshepsut, Akhenaten, Tutankhamun, Ramesses, and Cleopatra still move through human memory.\" (20260805, 308)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "Cách hedge — 4 kiểu, đếm chính xác",
+     "so_lieu": "Trên 43 bài: 'probably/likely' 127 lần (11/14 bài CAO, 14/14 bài THẤP) · 'may have/might have/could have' 151 lần (13/14 vs 12/14) · 'suggests/appears to/seems to/indicates' 149 lần (12/14 vs 13/14) · 'we don't know / nobody knows / remains debated / unconfirmed' 29 lần (5/14 vs 5/14). Tổng hedge /1000 từ: CAO 1,73 · GIỮA 2,08 · THẤP 2,37.",
+     "trich": [
+      "Hedge kiểu thú nhận thẳng: \"But, for the men who raised the great pyramids, the answer is far less satisfying. We have no idea.\" (20260805)",
+      "\"We do not know when that moment happened. We do not know who it was, what species they were, or what exactly was going through their head when they stayed instead of led.\" (20260624, THẤP 193)",
+      "\"Cleopatra almost certainly chose poison, though the snake remains unconfirmed.\" (20260805)",
+      "\"timing and causes of prehistoric [extinctions] remain debated and differ by [region]. Climate change mattered.\" (20260726, CAO)",
+      "\"And if you mean every ancient human across hundreds of thousands of years, the only honest answer is that no single number can carry that much history.\" (20260721, CAO)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Họ hầu như KHÔNG tách tường minh SỰ THẬT khỏi SUY DIỄN — chỉ hedge trong câu, không dán nhãn",
+     "so_lieu": "Cụm dán nhãn tường minh ('the evidence shows', 'this is speculation', 'no direct evidence', 'inference') chỉ 12 lần trong cả 43 bài (2/14 bài CAO · 4/14 bài THẤP). Nghĩa là ~1 lần mỗi 12.000 từ.",
+     "trich": [
+      "Một trong số ít lần dán nhãn: \"which is the usual situation with evolutionary hypotheses about complex behaviors that leave no direct fossil trace.\" (20260709, THẤP 109)",
+      "\"Not because that person never existed, because desire does not fossilize.\" (20260801, THẤP 243)",
+      "\"The past was complete when people lived it. The vidence is what broke. We are not reading humanity's book. We are constructing it from the pieces that fire, water, soil, power, and chance failed to erase.\" (20260802, GIỮA 651)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "ca_nguoc": "Nhóm đề tài lớn nhất của kênh (C — đời sống cổ đại, 17/43 bài) có view/ngày trung vị 435 và chứa 7/14 bài chìm. Tức là ĐỀ TÀI LÕI CỦA KÊNH LÀ ĐỀ TÀI YẾU NHẤT. Khuôn title dùng nhiều nhất ('How Did...', 12/43 bài) cũng là khuôn có trung vị thấp nhất (368). Cả hai đều là quán tính, không phải công thức.",
+   "phat_hien": [
+    {
+     "y": "Khuôn title × view/ngày trung vị — khuôn dùng nhiều nhất lại là khuôn tệ nhất",
+     "so_lieu": "41/43 title là câu hỏi · trung vị 7 từ · 25/43 có chữ 'Ancient' · 33/43 có 'Human(s)' · chỉ 4/43 có We/Our/Us/You. Trung vị view/ngày theo khuôn: 'When/At What Age/Which/Were/Could/Do' n=6 → 1.451 · 'Why Do / Why Don't' n=8 → 1.428 · 'What Did/What Happened' n=6 → 1.089 · 'Why Did/Were/Couldn't/Is/Are' n=8 → 400 · 'How Did / How Humans' n=12 → 368 · 'Did ...?' n=3 → 173",
+     "trich": [
+      "Khuôn mạnh nhất: \"Why Do Predators Ignore Sleeping Humans?\" (39.968) · \"Why Do Animals Bring Babies to Humans?\" (7.991) · \"Why Do We Always Need to Pet Everything?\" (7.590) · \"Why Don't Orcas Hunt Humans?\" (1.628)",
+      "Khuôn yếu nhất, dùng 12 lần: \"How Did Ancient Humans Hunt Giant Animals?\" (220 và 238) · \"How Did Ancient Women Give Birth?\" (172) · \"How Did Ancient Humans Handle Sleepless Night?\" (130) · \"How Did Humans Accidentally Invent Music?\" (109)",
+      "Khuôn Yes/No tệ nhất (n=3): \"Did Ancient Humans Really Die at 30?\" (173) · \"Did Cancer Kill Ancient Humans?\" (127) · \"Did Ancient Humans Actually Live Underground?\" (394)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Nhóm đề tài × view/ngày trung vị",
+     "so_lieu": "A. Động vật ↔ con người n=14 → trung vị 786 (5 bài CAO / 3 bài THẤP) · E. Đại sử–di cư–tri thức mất n=3 → 651 (1 CAO / 0 THẤP) · C. Đời sống cổ đại n=17 → 435 (5 CAO / 7 THẤP) · B. Cơ thể của BẠN n=6 → 414 (2 CAO / 3 THẤP) · D. Cái chết & tuổi thọ n=3 → 308 (1 CAO / 1 THẤP)",
+     "trich": [
+      "Nhóm A mạnh nhất, và 3/4 bài top kênh nằm ở đây: \"Why Do Predators Ignore Sleeping Humans?\" (39.968) · \"Why Do Animals Bring Babies to Humans?\" (7.991) · \"Why Do We Always Need to Pet Everything?\" (7.590)",
+      "Nhưng nhóm A cũng chứa 3 bài chìm: \"How Did Ancient Humans Hunt Giant Animals?\" ×2 (238, 220) và \"Do Animals Find Humans Adorable?\" (109) → nhóm đề tài KHÔNG bảo đảm gì"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "HỌ LÀM LẠI ĐỀ TÀI CŨ, VÀ 2/3 LẦN LÀM LẠI ĐỀU THẮNG ĐẬM — bí quyết nằm ở cách ĐỔI TITLE chứ không đổi đề tài",
+     "so_lieu": "3 cặp làm lại trong 43 bài. Cặp 1 (title y hệt) THẤT BẠI: 'How Did Ancient Humans Hunt Giant Animals?' 21/06 (10.539 view, 220/ngày) → làm lại y nguyên title 22/07 (4.052 view, 238/ngày), gần như không cải thiện. Cặp 2 THẮNG 5,3 lần: 'Why Did Animals Learn to Fear Us?' 20/06 (439/ngày) → 'Why Were Animals Terrified of Ancient Humans?' 26/07 (2.313/ngày). Cặp 3 THẮNG 9,3 lần chỉ sau 3 ngày: 'Did Ancient Humans Really Die at 30?' 18/07 (173/ngày) → 'At What Age Did Most Ancient Humans Die?' 21/07 (1.616/ngày).",
+     "trich": [
+      "Bản thua, mở bằng phủ định trừu tượng: \"You've probably heard this before. Ancient humans died young. Life xpectancy was 30, maybe 35.\" (20260718_Did_Ancient_Humans_Really_Die_at_30_.txt, 173)",
+      "Bản thắng 3 ngày sau, cùng đề tài, mở bằng phủ định + CẢNH CỤ THỂ: \"The average ancient human did not die at 30... It means babies died. A great many of them. Imagine 10 people born in the same ancient community.\" (20260721_At_What_Age_Did_Most_Ancient_Humans_Die_.txt, 1.616)",
+      "Bản thua: \"Why Did Animals Learn to Fear Us?\" mở bằng cảnh thí nghiệm loa giấu trong bụi (20260620, 439)",
+      "Bản thắng: \"Why Were Animals Terrified of Ancient Humans?\" mở bằng \"The most dangerous thing in the prehistoric world did not have claws.\" (20260726, 2.313)",
+      "Quy luật rút ra từ 3 cặp: đổi câu hỏi Yes/No → câu hỏi mở, và thay động từ trung tính ('Learn to Fear') bằng động từ cảm xúc mạnh ('Terrified'). Giữ y nguyên title thì không ăn thêm gì."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Không có loạt (series) đánh số, không có playlist nội dung nối tiếp trong lời đọc",
+     "so_lieu": "0/43 bài nhắc 'part 1', 'part 2', 'episode', hay tham chiếu tới một video khác của kênh. 42/43 bài kết mà không mồi video kế.",
+     "trich": [
+      "Chỗ duy nhất có ý niệm 'loạt' là mô tả video, không phải lời đọc: \"never miss an episode of human history brought to life\" (_vtt/20260526_gZr9Ul5xwgg.info.json)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "ca_nguoc": "Khoảng cách ngày trước mỗi video KHÔNG tương quan với view/ngày của video đó: Spearman = 0,07 trên n=42. Nhịp không phải đòn bẩy đo được ở kênh này. Trung vị theo khoảng cách: 0 ngày → 302 · 1 ngày → 431 · 2 ngày → 584 · 3 ngày → 1.628 (n chỉ 5) · 5 ngày → 818. Xu hướng có vẻ tăng theo khoảng cách nhưng n quá nhỏ ở các mốc dài, KHÔNG kết luận được.",
+   "phat_hien": [
+    {
+     "y": "Tốc độ tổng: 43 video trong 71 ngày = 4,18 video/tuần",
+     "so_lieu": "26/05/2026 → 05/08/2026, 71 ngày, 43 video. Khoảng cách trung vị 1 ngày. Phân bố 42 khoảng cách: 0 ngày ×2 · 1 ngày ×20 · 2 ngày ×13 · 3 ngày ×5 · 5 ngày ×2. Không có khoảng nghỉ nào quá 5 ngày.",
+     "trich": [
+      "2 lần đăng đôi trong cùng một ngày: 21/06 (How Did Ancient Humans Hunt Giant Animals? + Why Is One Hand Dominant?) và 27/06 (How Did Ancient Humans Build Everything? + Why Are Predators Afraid of Our Thumbs?). Cả 4 video này đều nằm nhóm THẤP hoặc GIỮA (220, 243, 588, 361) — không bài nào lọt nhóm CAO."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Nhịp CHẬM LẠI gần một nửa ở nửa sau, và view/ngày trung vị lại nhỉnh hơn",
+     "so_lieu": "22 video đầu (26/05–28/06, 33 ngày): khoảng cách trung vị 1 ngày, view/ngày trung vị 433. 21 video sau (29/06–05/08, 37 ngày): khoảng cách trung vị 2 ngày, view/ngày trung vị 616. Nhưng 21 video sau đều trẻ hơn (3–40 ngày tuổi vs 41–74 ngày), nên chênh lệch này KHÔNG tách được khỏi hiệu ứng tuổi video.",
+     "trich": [
+      "Không có bằng chứng gom đợt (batch): không ngày nào đăng quá 2 video, và 2 ngày đăng đôi đều nằm ở nửa đầu."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Mốc 13/07/2026 là điểm gãy của cả kênh — ba thứ đổi cùng lúc",
+     "so_lieu": "Từ 13/07: (a) 15/15 video có quảng cáo khoá học, trước đó 0/28; (b) câu bản lề 'Let's go through it properly.' xuất hiện 8/8 lần ở giai đoạn này, trước đó 0 lần; (c) nhịp giãn từ trung vị 1 ngày sang 2 ngày. Sau mốc này, 4/15 video vẫn lọt nhóm CAO (Animals Terrified 2.313 · Technologies Lost 1.865 · Drink Milk 1.645 · Orcas 1.628 · At What Age 1.616 — thực tế là 5/15), nhưng KHÔNG video nào sau 13/07 vượt 2.400 view/ngày, trong khi 7 video trước 13/07 vượt mốc đó.",
+     "trich": [
+      "Quảng cáo lần đầu, đặt muộn ở 64,2%: 20260713_When_Did_Early_Humans_Start_Eating_Salt_.txt",
+      "Sau 8 ngày họ dời quảng cáo lên giữa bài: 20260721_At_What_Age_Did_Most_Ancient_Humans_Die_.txt ở 43,3% — và từ đó mọi video đều đặt ở 37,9%–47,0%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ]
+}

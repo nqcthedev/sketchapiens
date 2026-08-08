@@ -1,0 +1,586 @@
+{
+ "kenh": "BeforeCivilization (Ancient Humans Explained, faceless EN)",
+ "so_bai": 65,
+ "view_ngay_cao": "Nhóm TRÊN toàn kênh (21/65 bài, hạng 1-21): trung vị 1.161,1 view/ngày; khoảng 547,9 - 6.061,4. Trung vị ngày đăng 2026-07-13, trung vị 4.749 từ/bài.",
+ "view_ngay_thap": "Nhóm DƯỚI toàn kênh (21/65 bài, hạng 45-65): trung vị 34,5 view/ngày; khoảng 15,0 - 66,0. Trung vị ngày đăng 2026-05-25, trung vị 1.351 từ/bài.",
+ "gioi_han": "⚠️ CÓ MỘT CÁI BẪY LỚN, ĐỌC TRƯỚC KHI DÙNG BẤT KỲ SỐ NÀO Ở DƯỚI.\n\nNgày 2026-06-13 kênh ĐỔI HẲN ĐỊNH DẠNG: từ video ~1.350 từ / 8 phút sang ~4.700 từ / 28 phút. Trước mốc đó 28 bài (trung vị 1.352 từ), sau mốc đó 37 bài (trung vị 4.714 từ). Trung vị view/ngày của kỳ NGẮN là 46,0; của kỳ DÀI là 460,8 — GẤP 10 LẦN.\n\nHậu quả: chia ba toàn kênh theo view/ngày như đề bài yêu cầu thì nhóm TRÊN = gần như toàn bộ kỳ DÀI (trung vị 4.749 từ, đăng 13/07) còn nhóm DƯỚI = gần như toàn bộ kỳ NGẮN (trung vị 1.351 từ, đăng 25/05). Nếu chỉ so hai nhóm này, MỌI khác biệt câu chữ đều là \"kỳ dài khác kỳ ngắn\", không phải \"bài thắng khác bài chìm\". Đây đúng là cái lỗi mà đề bài cảnh báo, và ở kênh này nó nghiêm trọng đến mức làm hỏng toàn bộ phép so.\n\nNên tôi làm HAI phép so:\n(A) chia ba toàn kênh (21/23/21) — dùng để báo cáo con số theo đúng yêu cầu;\n(B) chia ba TRONG TỪNG KỲ — kỳ NGẮN n=28 (nhóm trên 9 / giữa 10 / dưới 9), kỳ DÀI n=37 (nhóm trên 12 / giữa 13 / dưới 12). Trong từng kỳ, số từ KHÔNG còn phân biệt nhóm (kỳ DÀI: trên 4.701 từ, giữa 5.066, dưới 4.285 — nhóm dưới còn hơi ngắn hơn nhóm giữa).\nMọi câu \"chỉ nhóm CAO\" ở dưới đều đo bằng (B), ghi rõ kỳ. Ký hiệu: DAI = kỳ dài (từ 13/06), NGAN = kỳ ngắn.\n\nGIỚI HẠN KHÁC:\n• Cỡ mẫu mỗi ô chỉ 9-13 bài. Chênh dưới 2 lần với n=12 thì không kết luận được, tôi có ghi rõ chỗ nào yếu.\n• Bài số 1 (490.973 view, 6.061 view/ngày, 19/05) là một cú TRÚNG SỐ của kỳ NGẮN: nó gấp 40 lần trung vị kỳ đó và chỉ 1.214 từ. Nó kéo lệch mọi trung bình — tôi dùng trung vị khắp nơi để chặn.\n• Transcript là auto-caption, rơi rụng chữ cái đầu ở nhiều chỗ (\"omething\", \"he Hodza\", \"till\"). Các câu trích tôi giữ NGUYÊN VĂN kể cả lỗi này, không sửa.\n• Bộ xương chương (chiều 5, 6) lấy từ chapters thật do tác giả tự viết trong description (65/65 bài có), ranh giới câu chuyển chương định vị bằng mốc thời gian trong file .en.vtt nên có sai số ±1 câu.\n• Không có dữ liệu retention/CTR, nên không nói được khúc nào giữ chân — chỉ nói được cấu trúc.",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~130 từ đầu)",
+   "ca_nguoc": "Khuôn mở mà kênh hay dùng nhất lại là khuôn của nhóm CHÌM. Nếu chỉ nhìn nhóm thắng mà không đối chiếu, rất dễ kết luận ngược: 'kênh này mở bằng Tonight/Right now nên phải mở như vậy'. Thực tế trong kỳ DÀI, nhóm TRÊN dùng khuôn đó ÍT NHẤT (5/12) còn nhóm GIỮA+DƯỚI dùng 19/25. Cũng đừng tưởng 'câu hỏi lõi phải rơi sớm' — ở kênh này nó rơi rất muộn ở CẢ hai nhóm.",
+   "phat_hien": [
+    {
+     "y": "Khuôn mở chủ đạo là GƯƠNG HIỆN ĐẠI: câu đầu tiên mô tả một hành vi tầm thường mà người xem sẽ làm tối nay / đang làm ngay lúc này, chưa hề nhắc tới người cổ đại. Đây là NẾT CỦA KÊNH, cả bài thắng lẫn bài chìm đều dùng.",
+     "so_lieu": "37/65 bài toàn kênh mở kiểu này. Chia theo nhóm: kỳ DÀI nhóm TRÊN 5/12 · nhóm GIỮA 10/13 · nhóm DƯỚI 9/12. Kỳ NGẮN nhóm TRÊN 3/9 · nhóm DƯỚI 6/9. Tức nhóm THẮNG dùng ÍT NHẤT.",
+     "trich": [
+      "\"Tonight, you'll lie down, pull something warm over you, and hand your consciousness away completely while rain taps the glass and nothing bad happens.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt (nhóm TRÊN, 4.975 view/ngày)",
+      "\"Right now, somewhere in your home, there's a small plastic box on the wall quietly keeping you alive.\" — 20260613_The_CRAZIEST_Survival_Methods_Used_by_Ancient_Humans_During_.txt (nhóm TRÊN)",
+      "\"Your phone dies tonight.\" / \"Everything on it is gone.\" / \"Photos, numbers, notes, everything.\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt (nhóm TRÊN)",
+      "\"Tonight, you'll sleep in a warm bed, soft sheets, a roof over your head.\" — 20260624_Why_Ancient_Humans_Slept_Inside_Dead_Animals.txt (nhóm DƯỚI, 164,6 view/ngày)",
+      "\"Tonight, you're going to open your phone, type in a destination, and a calm voice will tell you exactly where to go.\" — 20260503_Why_Ancient_Humans_Never_Got_Lost_And_You_Still_Have_This_Sk.txt (nhóm DƯỚI, 15,0 view/ngày — bài chìm nhất kênh)",
+      "\"Right now, while you're watching this, part of your brain is already itching.\" — 20260625_Ancient_Humans_Had_Perfect_Focus_Here_s_Exactly_What_Destroy.txt (nhóm DƯỚI, 64,1 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khác biệt hook DUY NHẤT nghiêng về nhóm thắng: mở bằng CẢNH LẠNH (cold open) — thả người xem vào giữa một đêm cổ đại đang diễn ra, thì hiện tại, không có chữ 'imagine'. Nhóm TRÊN kỳ DÀI dùng nhiều gấp 3 lần hai nhóm kia cộng lại. NHƯNG n chỉ có 3 bài, không đủ để coi là luật.",
+     "so_lieu": "Kỳ DÀI: nhóm TRÊN 3/12 · nhóm GIỮA 1/13 · nhóm DƯỚI 1/12. Toàn kênh 5/65.",
+     "trich": [
+      "\"It's the middle of the night, and rain is hammering the earth so hard you can't hear yourself think.\" / \"Thunder rolls omewhere over the hills.\" / \"You're huddled under a rock overhang with your family, soaked to the bone.\" / \"And in front of you sits the only thing standing between your children and death, a fire.\" / \"And it's dying.\" — 20260706_How_Did_Ancient_Humans_Keep_Fire_Alive_in_Endless_Rain_.txt (2.180,3 view/ngày)",
+      "\"It is the worst winter anyone can remember.\" / \"The animals are gone.\" / \"The snow ill not stop, and the children are starting to die.\" — 20260701_Why_Ancient_Humans_Couldn_t_Survive_Without_Grandparents.txt (1.513,3 view/ngày)",
+      "\"It's been raining for 9 days straight.\" / \"Your food ran out on day six.\" / \"The tracks are gone.\" / \"The animals are hidden.\" / \"The fire is dying.\" — 20260708_How_Did_Ancient_Humans_Hunt_During_Weeks_of_Rain_.txt (810,2 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Có xưng 'you' NGAY câu đầu tiên — nhưng cả hai nhóm đều làm, nên đây là nết chứ không phải bí quyết. Mật độ 'you/your' trong 130 từ đầu ở nhóm DƯỚI còn CAO HƠN nhóm TRÊN.",
+     "so_lieu": "41/65 bài có 'you/your' ngay câu đầu. Kỳ DÀI: TRÊN 9/12 · DƯỚI 7/12. Số lần 'you/your' trong 130 từ đầu (trung vị): kỳ DÀI TRÊN 6 lần · DƯỚI 9 lần.",
+     "trich": [
+      "\"You freeze for just a second, because you hear something outside your house that doesn't sound right.\" — 20260725_The_Terrifying_Sound_Every_Ancient_Human_Recognized.txt (TRÊN)",
+      "\"You walk through your front door after a long day.\" / \"You toss your keys onto the table.\" — 20260714_What_Did_Ancient_Humans_Do_When_Their_Cave_Flooded_.txt (DƯỚI)",
+      "\"Right now, you can sit down and eat without once listening for something that wants to eat you.\" — 20260722_The_Largest_Animals_Hunted_by_Ancient_Humans.txt (DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU HỎI LÕI RƠI RẤT MUỘN. Dấu '?' đầu tiên của cả bài rơi ở khoảng từ thứ 200-240 (tức phút 1:15-1:30), tức là 45 giây đầu KHÔNG có câu hỏi nào. Trong 130 từ đầu của cả 12 bài nhóm TRÊN kỳ DÀI cộng lại chỉ có 3 dấu '?'.",
+     "so_lieu": "Vị trí dấu '?' đầu tiên (trung vị, tính bằng chỉ số từ): kỳ DÀI TRÊN 237,5 · GIỮA 209 · DƯỚI 204. Kỳ NGẮN TRÊN 198 · DƯỚI 195. Tổng số '?' trong 130 từ đầu của cả nhóm: kỳ DÀI TRÊN 3 (trên 12 bài) · DƯỚI 3 (trên 12 bài).",
+     "trich": [
+      "Mở bằng 5 câu KHẲNG ĐỊNH liên tiếp rồi mới tới câu hỏi: \"There's a light on your face right now.\" / \"There're almost always is.\" / \"Screen, ceiling bulb, street light bleeding through the curtain.\" / \"You've never once had to ask the question that ran every single human life for most of our existence.\" / \"How much light is left?\" — 20260803_How_Ancient_Humans_Survived_6_Months_Without_Seeing_The_Sun.txt (1.749,6 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG CÓ CÂU TỰ GIỄU và gần như không có ngôi 'I'. Người dẫn hoàn toàn vô hình trong hook. Cả 65 bài không có bài nào mở bằng kiểu 'tôi cũng từng nghĩ...' hay đùa về bản thân.",
+     "so_lieu": "Chỉ 3/65 bài có chữ 'I/me/my' trong 130 từ đầu (1 bài mỗi nhóm kỳ DÀI). Toàn kênh 0/65 bài có dấu chấm than '!' và 0/65 bài có gạch ngang em-dash '—'.",
+     "trich": [
+      "Chỗ duy nhất giọng người dẫn ló ra, và nó vẫn không phải tự giễu: \"Sometime in the last day, you ate, and whatever it was, I'd bet it wasn't the xact same thing you ate the day before.\" — 20260713_The_Deadliest_Mistake_Ice_Age_Humans_Ever_Made.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU TƯỜNG MINH gần như bị bỏ. Kênh không nói 'trong video này chúng ta sẽ...'. Thay vào đó lời hứa được cài ngầm bằng một mệnh đề nghịch lý ở cuối hook.",
+     "so_lieu": "Chỉ 18/65 bài có bất kỳ dạng lời hứa nào ('by the end of this' 9/65 · 'in this video' 2/65 · 'I'll show you'/'we're going to' phần còn lại) trong 200 từ đầu. Kỳ DÀI: TRÊN 5/12 · DƯỚI 4/12 — không phân biệt.",
+     "trich": [
+      "Lời hứa cài ngầm: \"That simple act, falling asleep dry, is one of the hardest one victories your species ever pulled off.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "Lời hứa cài ngầm bằng cách bác bỏ hình ảnh sẵn có trong đầu người xem: \"Close your eyes and picture the ice age.\" / \"You see it, don't you?\" / \"Endless white, a frozen wasteland...\" / \"That picture is a lie.\" — 20260703_What_Did_Humans_Do_During_Ice_Age_Summers_.txt",
+      "Một trong số ít lời hứa tường minh, và nó nằm ở bài chìm: \"I'll prove that last part before this video is over.\" — 20260622_Why_Didn_t_Ice_Age_Babies_Freeze_to_Death_.txt (66,0 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — re-hook, câu nối, vòng tò mò",
+   "ca_nguoc": "Kênh này KHÔNG dùng bộ đồ nghề giữ chân kinh điển của YouTube. Không hoãn lại ('more on that later' 0/65), không 'đừng đi đâu cả' (0/65), không 'phần hay nhất ở cuối'. Nếu chép công thức retention thường thấy vào đây là chép sai kênh. Và mật độ 'Here's the...' — thứ trông giống bí quyết nhất — lại CAO HƠN ở nhóm chìm, nên nó là nết chứ không phải đòn bẩy.",
+   "phat_hien": [
+    {
+     "y": "ĐỘNG CƠ RE-HOOK CHÍNH là công thức 'Here's the <danh từ>' — một câu cực ngắn báo hiệu sắp có tiết lộ. Đây là kho câu dùng lại được nhất của kênh. NHƯNG mật độ ở nhóm DƯỚI cao hơn nhóm TRÊN, nên nó là NẾT.",
+     "so_lieu": "194 dòng trên 37 bài kỳ DÀI. Mật độ trung vị/1000 từ: kỳ DÀI TRÊN 1,49 · DƯỚI 2,51; kỳ NGẮN TRÊN 0,72 · DƯỚI 1,39. Nhóm chìm dùng nhiều hơn ~1,7 lần.",
+     "trich": [
+      "\"Here's the part.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "\"And here's the strange part.\" — 20260613_The_CRAZIEST_Survival_Methods_Used_by_Ancient_Humans_During_.txt",
+      "\"And here's the part that makes it worse.\" — 20260706_How_Did_Ancient_Humans_Keep_Fire_Alive_in_Endless_Rain_.txt",
+      "\"And here's the detail that gives the game away.\" — 20260706_How_Did_Ancient_Humans_Keep_Fire_Alive_in_Endless_Rain_.txt",
+      "\"Here's the shocking part.\" — 20260703_What_Did_Humans_Do_During_Ice_Age_Summers_.txt",
+      "\"And here's the strangest thought to leave you with.\" — 20260623_SHOCKING_Reason_Why_Predators_Feared_Ancient_Humans_Even_in_.txt",
+      "\"Here's the deeper truth.\" — 20260708_How_Did_Ancient_Humans_Hunt_During_Weeks_of_Rain_.txt",
+      "\"Here's the reframe.\" — 20260801_Why_Ancient_Humans_Risked_Everything_To_Teach_Children.txt",
+      "\"And here's the detail that makes it genuinely eerie.\" — 20260713_The_Deadliest_Mistake_Ice_Age_Humans_Ever_Made.txt",
+      "\"And here's the impossible part.\" — 20260617_How_Did_Humans_Actually_Sleep_In_The_Ice_Age_Without_Freezin.txt",
+      "\"Here's the strangest chapter in the whole story, and it's the one nobody makes a documentary about because there's nothing to film.\" — 20260717_The_Worst_Place_to_Spend_One_Night_During_the_Ice_Age.txt",
+      "\"But here's the twist that almost nobody ever hears.\" — 20260705_Why_Did_Ancient_Humans_Walk_Straight_Into_the_Ice_.txt",
+      "\"But here's the detail that stops you cold.\" — 20260715_What_Did_Ancient_Humans_Do_When_a_Predator_Followed_Them_Hom.txt",
+      "\"Here's the statistic that changes everything.\" — 20260624_Why_Ancient_Humans_Slept_Inside_Dead_Animals.txt",
+      "\"But here's the question that haunts me most.\" — 20260624_Why_Ancient_Humans_Slept_Inside_Dead_Animals.txt",
+      "\"Here's the first myth I need to destroy.\" — 20260615_Why_Ancient_Humans_Would_ve_Died_Without_Animals_Shocking_Tr.txt",
+      "\"Here's why that one embedded splinter is a bomb going off.\" — 20260722_The_Largest_Animals_Hunted_by_Ancient_Humans.txt",
+      "\"Here's the science.\" — 20260621_How_Did_Ancient_Humans_Actually_Find_Water_During_the_Ice_Ag.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU NỐI CỰC NGẮN (≤5 từ) ĐẶT NGAY TRƯỚC MỘT CON SỐ SỐC — đây là nhịp đặc trưng: một mảnh câu cụt lấy đà, rồi thả số. Có ở cả hai nhóm với mật độ gần bằng nhau.",
+     "so_lieu": "117 cặp trong 37 bài kỳ DÀI. Mật độ trung vị/1000 từ: TRÊN 0,56 · GIỮA 1,18 · DƯỚI 0,57 — không đơn điệu, không phân biệt nhóm.",
+     "trich": [
+      "\"Read that number again.\" → \"40 to 50° of warmth conjured out of bone, hide, and a small flame.\" — 20260613_The_CRAZIEST_Survival_Methods_Used_by_Ancient_Humans_During_.txt",
+      "\"Forget the empty snow field.\" → \"20,000 years ago at the coldest point of the last glacial maximum, most of the land your ancestors walked was...\" — 20260703_What_Did_Humans_Do_During_Ice_Age_Summers_.txt",
+      "\"You stop moving.\" → \"For 7 or 8 hours, you are soft, warm meat that cannot run, cannot fight...\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "\"Station four.\" → \"Around 12,800 years ago, the largest animals on Earth vanish, and the prime suspect isn't the cold.\" — 20260713_The_Deadliest_Mistake_Ice_Age_Humans_Ever_Made.txt",
+      "\"Read that again.\" → \"In plain terms, researchers found that being cut off rom real human connection is a bout as deadly as smoking...\" — 20260711_What_Happened_If_Ancient_Humans_Lost_Their_Tribe_.txt",
+      "\"It's called Shanidar.\" → \"and between 1951 and 1960, an American archaeologist named Ralph Solecki dug down through its floor...\" — 20260724_What_Did_Ancient_humans_Do_If_They_Were_Injured_Far_From_Hom.txt",
+      "\"Footprints.\" → \"In 2018, a team led by Matthew Bennett published something in Science Advances...\" — 20260722_The_Largest_Animals_Hunted_by_Ancient_Humans.txt",
+      "\"The lichen was still there.\" → \"Every gram of food those animals needed was underneath them, unharmed, perfectly preserved, 6 inches down.\" — 20260730_What_Happened_When_It_Didn_t_Snow_During_the_Ice_Age_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỆNH DỪNG LẠI NGẪM ('Sit with that') — một khuôn ngắn dùng để ép người xem đứng lại ở một con số, thay cho việc hứa hẹn về sau.",
+     "so_lieu": "31 dòng trong 37 bài kỳ DÀI (nhóm khuôn 'sit with / hold on / stay with me / remember that'). Xuất hiện ở cả nhóm TRÊN lẫn DƯỚI.",
+     "trich": [
+      "\"Sit with the date again.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt (TRÊN)",
+      "\"Sit with that for a second.\" — 20260623_SHOCKING_Reason_Why_Predators_Feared_Ancient_Humans_Even_in_.txt (TRÊN)",
+      "\"Sit with that image for a second.\" — 20260713_The_Deadliest_Mistake_Ice_Age_Humans_Ever_Made.txt (GIỮA)",
+      "\"Sit with that for a moment.\" — 20260621_How_Did_Ancient_Humans_Actually_Find_Water_During_the_Ice_Ag.txt (DƯỚI)",
+      "\"Sit with that for a second because it's easy to hear a number like that and let it slide past.\" — 20260803_How_Ancient_Humans_Survived_6_Months_Without_Seeing_The_Sun.txt (TRÊN)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TỰ ĐẶT CÂU HỎI RỒI TỰ TRẢ LỜI là cách mở đoạn mới thay cho 'phần hay nhất ở cuối'. Câu hỏi ngắn, đứng riêng một dòng, câu sau bắt đầu bằng 'The answer...'.",
+     "so_lieu": "131 dòng câu-hỏi-đứng-riêng trong 37 bài kỳ DÀI + 49 dòng bắt đầu bằng 'The answer'. Có ở cả TRÊN lẫn DƯỚI.",
+     "trich": [
+      "\"Why would you sleep on ash?\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "\"The answer isn't a better bed.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "\"So where do you find dry firewood in a world where everything is wet?\" / \"The answer, you stop looking where you would look.\" — 20260706_How_Did_Ancient_Humans_Keep_Fire_Alive_in_Endless_Rain_.txt",
+      "\"The answer isn't luck.\" — 20260623_SHOCKING_Reason_Why_Predators_Feared_Ancient_Humans_Even_in_.txt",
+      "\"And the answer is hiding inside your own body right now.\" — 20260705_Why_Did_Ancient_Humans_Walk_Straight_Into_the_Ice_.txt (DƯỚI)",
+      "\"The answer is buried in the ground, and it's incredible what the dirt remembers.\" — 20260624_Why_Ancient_Humans_Slept_Inside_Dead_Animals.txt (DƯỚI)",
+      "\"How do we even know any of this?\" — 20260624_Why_Ancient_Humans_Slept_Inside_Dead_Animals.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "PHÁT HIỆN NGƯỢC ĐỜI: kênh gần như KHÔNG dùng vòng tò mò kiểu 'để lát nữa tôi kể'. Không có 'more on that later', không 'don't go anywhere', không 'phần hay nhất ở cuối'.",
+     "so_lieu": "Đếm nguyên văn trên 65 bài: 'more on that' 0/65 · 'later in this video' 0/65 · \"don't go anywhere\" 0/65 · 'keep watching' 1/65 · \"we'll get to\" 3/65 · 'in a moment' 1/65 · 'hold that thought' 2/65 · 'stay with me' 6/65 · 'by the end of this' 9/65. Cộng lại chỉ 18/65 bài có bất kỳ dạng nào, và chia đều hai nhóm.",
+     "trich": [
+      "Một trong hai lần duy nhất dùng 'hold that thought' và nó là kiểu hoãn CÓ MỐC RÕ: \"Hold on to that question.\" / \"It's going to follow you for the next half hour.\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt (3.149,8 view/ngày)",
+      "\"Stay with me because this matters more than it sounds.\" — 20260625_Ancient_Humans_Had_Perfect_Focus_Here_s_Exactly_What_Destroy.txt (64,1 view/ngày, nhóm DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "VÒNG TÒ MÒ ĐÓNG LẠI TƯỜNG MINH ('cái tôi hứa lúc nãy') cực hiếm — chỉ 8 dòng trên toàn bộ 65 bài, và nằm ở cả bài thắng lẫn bài chìm.",
+     "so_lieu": "8 dòng / 5 bài / 65 bài (2 bài nhóm TRÊN, 3 bài nhóm DƯỚI, đều kỳ DÀI). Kỳ NGẮN 0/28.",
+     "trich": [
+      "\"And now, the discovery I promised you at the very beginning.\" — 20260706_How_Did_Ancient_Humans_Keep_Fire_Alive_in_Endless_Rain_.txt (TRÊN)",
+      "\"And you know about that one strange ritual I promised you, the saving of the fat, the obsessive storing of life itself for a winter that hadn't arrived yet.\" — 20260703_What_Did_Humans_Do_During_Ice_Age_Summers_.txt (TRÊN)",
+      "\"But here's the thing I promised you back at the very start.\" — 20260619_How_Did_Humans_Actually_Eat_During_the_Ice_Age_at_40_C_.txt (DƯỚI)",
+      "\"Remember the eyes I promised you at the start?\" — 20260615_Why_Ancient_Humans_Would_ve_Died_Without_Animals_Shocking_Tr.txt (DƯỚI)",
+      "\"Remember the number?\" — 20260624_Why_Ancient_Humans_Slept_Inside_Dead_Animals.txt (DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP CÂU: mỗi câu một dòng, câu ngắn, rất nhiều mảnh câu cụt. Giống hệt nhau ở mọi nhóm — đây là nết định dạng của kênh, không phải biến số thắng thua.",
+     "so_lieu": "Trung vị từ/dòng: kỳ NGẮN TRÊN 10,5 · DƯỚI 10,6; kỳ DÀI TRÊN 10,9 · GIỮA 11,8 · DƯỚI 11,1. Tỷ lệ dòng ≤4 từ (trung vị): kỳ DÀI TRÊN 15,5% · GIỮA 14,9% · DƯỚI 12,6%. Số dòng/bài kỳ DÀI: TRÊN 420 · DƯỚI 381. Tốc độ đọc trung vị 155-175 wpm.",
+     "trich": [
+      "\"You go blind.\" / \"You go deaf, mostly.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "\"The tracks are gone.\" / \"The animals are hidden.\" / \"The fire is dying.\" — 20260708_How_Did_Ancient_Humans_Hunt_During_Weeks_of_Rain_.txt",
+      "\"It wasn't.\" — 20260615_Why_Ancient_Humans_Would_ve_Died_Without_Animals_Shocking_Tr.txt (DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180 từ cuối)",
+   "ca_nguoc": "Đừng tưởng 'kết phải có Next time you...' — chỉ 13/65 bài dùng và nó phân bố đều hai nhóm. Cũng đừng tưởng 'phải mồi video kế' — chỉ 12/65 bài có, và tỷ lệ giống hệt nhau giữa nhóm TRÊN (4/12) và nhóm DƯỚI (4/12) kỳ DÀI. Thứ CÓ ở gần như mọi bài là callback về hook, tức nó cũng chỉ là nết.",
+   "phat_hien": [
+    {
+     "y": "KẾT LUÔN QUAY VỀ CÂU MỞ ĐẦU (callback). Khối kết nhặt lại đúng đồ vật/hành vi hiện đại đã dùng ở hook rồi gắn nó vào tổ tiên. Đây là nết cực mạnh của kênh — cả bài thắng lẫn bài chìm.",
+     "so_lieu": "54/65 bài có ≥3 từ khoá riêng chung giữa 60 từ đầu và 180 từ cuối. Kỳ DÀI: TRÊN 9/12 · GIỮA 11/13 · DƯỚI 9/12. Kỳ NGẮN: TRÊN 7/9 · GIỮA 10/10 · DƯỚI 8/9.",
+     "trich": [
+      "Hook: \"Tonight, you'll lie down, pull something warm over you...\" → Kết: \"You didn't invent the dry night.\" / \"You inherited it from people who lay awake in the rain so that one day ou wouldn't have to.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "Hook: \"You flick the stove on without even looking.\" → Kết: \"So the next time that flame catches under your dinner, give it the half second it's owed.\" / \"Because you are not using a stove.\" / \"You are the current runner in the oldest relay on Earth olding a light that has not gone out since before your species had a name for itself.\" — 20260729_What_Happned_When_Ancient_Humans_Discovered_Fire_.txt",
+      "Hook: \"Tonight, before you fall asleep, you'll do one small thing without even thinking about it.\" / \"You'll make sure the door is locked.\" → Kết: \"You don't lock the door out of fear.\" / \"You lock it out of memory, 2 million years of it.\" — 20260715_What_Did_Ancient_Humans_Do_When_a_Predator_Followed_Them_Hom.txt (DƯỚI, 266,3 view/ngày)",
+      "Hook: \"You open your freezer and cold air rolls over the back of your hand.\" → Kết: \"The ice kept them for 40,000 years, and it kept them for us, and now it's handing them back one at a time, and nobody gets to choose what comes out next.\" — 20260731_6_Scary_Prehistoric_Animals_Found_Frozen_in_Ice.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU ĐỊNH DANH NGƯỜI XEM ở khối kết — nhưng KHÔNG phải 'That's you'. Khuôn thật là 'BẠN LÀ MẮT XÍCH CUỐI CỦA MỘT CUỘC CHẠY TIẾP SỨC' (relay / unbroken chain / inherited / baton). Có nghiêng về nhóm TRÊN nhưng khoảng chồng lấn lớn.",
+     "so_lieu": "26/65 bài toàn kênh. Kỳ DÀI: TRÊN 7/12 · GIỮA 8/13 · DƯỚI 4/12. Kỳ NGẮN: TRÊN 1/9 · GIỮA 2/10 · DƯỚI 4/9 (ngược chiều) → đây gần như chắc chắn là ĐỔI PHONG CÁCH THEO KỲ, không phải biến số thắng thua.",
+     "trich": [
+      "\"You are the output of an unbroken chain of transmission.\" / \"Hundreds of thousands of years of somebody older sitting down with somebody younger and saying, 'Listen, this is what happened last time.'\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt (3.149,8)",
+      "\"Every breath you take is the finish line of a relay race that has been running for hundreds of thousands of years.\" / \"And the baton was passed by grandparents through the ice age, through famine, through the long cold winters... all the way down to you watching this on a screen.\" — 20260701_Why_Ancient_Humans_Couldn_t_Survive_Without_Grandparents.txt (1.513,3)",
+      "\"You're the current end of it, which means you're not just the one being taught anymore.\" / \"You're the one holding it.\" / \"That's how the relay works.\" / \"You get handed something you didn't earn, and then it's yours to pass or drop.\" — 20260801_Why_Ancient_Humans_Risked_Everything_To_Teach_Children.txt",
+      "\"You are not descended from the strongest people who ever lived.\" / \"You are descended from the ones somebody came back for.\" — 20260724_What_Did_Ancient_humans_Do_If_They_Were_Injured_Far_From_Hom.txt",
+      "\"You are the descendant of the ones who won.\" / \"Every quiet night you sleep through is their victory still standing.\" — 20260715_What_Did_Ancient_Humans_Do_When_a_Predator_Followed_Them_Hom.txt (DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "'So the next time you...' là khuôn hạ cánh: chỉ cho người xem một hành vi cụ thể để làm lại ngoài đời. Dùng ít hơn tưởng, và phân bố đều hai nhóm.",
+     "so_lieu": "13/65 bài (đo trong 300 từ cuối). Kỳ NGẮN TRÊN 3/9 · DƯỚI 2/9; kỳ DÀI TRÊN 1/12 · GIỮA 4/13 · DƯỚI 2/12.",
+     "trich": [
+      "\"So the next time the cold reaches for you and something ancient in your chest quietly tells you to go and find warmth, listen to it.\" / \"It is the oldest voice you carry and it is the only reason you are still alive.\" — 20260728_The_Most_Horrifying_Ways_Ancient_Humans_Stayed_Warm.txt",
+      "\"So, the next time you feel that pull, the quiet nagging need to reach out, to call someone, to not be alone tonight, don't fight it.\" / \"Don't alk yourself out of it.\" — 20260711_What_Happened_If_Ancient_Humans_Lost_Their_Tribe_.txt",
+      "\"So the next time you're hurt and you catch yourself scanning the room for a face, understand exactly what that is.\" / \"It's not weakness.\" — 20260724_What_Did_Ancient_humans_Do_If_They_Were_Injured_Far_From_Hom.txt",
+      "\"So, the next time you flip on a light, open a full fridge, or feel that pull towards something warm and rich on a cold night, remember, that's not just hunger.\" — 20260619_How_Did_Humans_Actually_Eat_During_the_Ice_Age_at_40_C_.txt (DƯỚI)",
+      "\"So, the next time you open your phone for directions, pause for a second.\" / \"Look around.\" — 20260503_Why_Ancient_Humans_Never_Got_Lost_And_You_Still_Have_This_Sk.txt (15,0 view/ngày — bài chìm nhất)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MỒI VIDEO KẾ (end-screen pitch) chỉ có ở 12/65 bài, và tỷ lệ Y HỆT NHAU giữa nhóm TRÊN và nhóm DƯỚI kỳ DÀI. Khi có, nó luôn viết dưới dạng một BÍ ẨN MỚI chứ không phải 'xem video này nữa nhé'.",
+     "so_lieu": "12/65 bài toàn kênh. Kỳ DÀI: TRÊN 4/12 · GIỮA 2/13 · DƯỚI 4/12 → hoàn toàn không phân biệt. Kỳ NGẮN 2/28.",
+     "trich": [
+      "\"But if you think the Ice Age summer was extreme, wait until you see what these same humans did during the Ice Age night.\" / \"Because when the sun finally went down, something even stranger began.\" / \"I've got that story ready for you right now, right on your screen.\" / \"Go watch it, and I'll see you there.\" — 20260703_What_Did_Humans_Do_During_Ice_Age_Summers_.txt (TRÊN)",
+      "\"That story is waiting for you right here on screen.\" / \"Click it.\" / \"Because once you nderstand what truly terrified the most ingenious survivors who ever lived, you'll understand something about yourself, too.\" — 20260613_The_CRAZIEST_Survival_Methods_Used_by_Ancient_Humans_During_.txt (TRÊN)",
+      "\"If this changed how you see a single flame, there's another story you need to hear because fire solved the cold and the dark, but it created a problem our ancestors never expected.\" / \"That video is on screen now.\" / \"Go watch it.\" — 20260802_The_Ancient_Survival_Trick_That_Kept_Fire_Alive_for_Days.txt (GIỮA)",
+      "\"And if you think the story of the wolf is incredible, wait until you hear what happened around the fire those same humans were sleeping beside.\" / \"I made a whole video about it.\" / \"It's right here on the screen.\" / \"Go watch it next.\" / \"I'll see you there.\" — 20260615_Why_Ancient_Humans_Would_ve_Died_Without_Animals_Shocking_Tr.txt (DƯỚI, 45,5 view/ngày)",
+      "\"I'll see you there, by the fire.\" — 20260618_How_Did_ancient_humans_ACTUALLY_Survive_40_C_Winters_Without.txt (DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHỐT MẠNH, KHÔNG HẠ NHIỆT, KHÔNG CẢM ƠN. Câu cuối cùng gần như luôn là một mệnh đề khẳng định ngắn mang tính phán quyết. Kênh gần như không bao giờ nói lời tạm biệt.",
+     "so_lieu": "'Thank you for watching' chỉ 1/65 bài. 0/65 bài kết bằng lời xin đăng ký ở đúng câu cuối (bài xin muộn nhất kết thúc ở 99% nhưng vẫn còn 1-2 câu chốt sau đó).",
+     "trich": [
+      "\"The rain tried to end us for thousands of years.\" / \"It tried and it never won.\" — 20260708_How_Did_Ancient_Humans_Hunt_During_Weeks_of_Rain_.txt",
+      "\"It is still waiting for that world.\" / \"It has been waiting for 12,000 years.\" / \"And it has no idea it's not coming back.\" — 20260805_Why_Were_Ancient_Humans_Healthier_Than_Us_.txt",
+      "\"The dark never really let go of us.\" / \"It just got kinder about how it holds on.\" — 20260803_How_Ancient_Humans_Survived_6_Months_Without_Seeing_The_Sun.txt",
+      "\"The ice age never buried us in snow.\" / \"It buried us in dust, and every meal you will ever eat still grows out of it.\" — 20260730_What_Happened_When_It_Didn_t_Snow_During_the_Ice_Age_.txt",
+      "\"And the terrifying truth is, if you had lived back then, you probably would have done the exact same things, too.\" — 20260519_The_Darkest_Things_Ancient_Humans_Did_To_Survive_The_Cold.txt (6.061,4 — bài lớn nhất kênh)",
+      "\"The ice age is over, but the love that beat it never went anywhere.\" / \"It's till right there every time a parent holds a child against the cold.\" — 20260622_Why_Didn_t_Ice_Age_Babies_Freeze_to_Death_.txt (DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ",
+   "ca_nguoc": "Đây là chiều mà 'chia ba toàn kênh' đánh lừa nặng nhất. Nhìn toàn kênh sẽ thấy 'bài thắng xin sub ở phút thứ 5, bài chìm xin ở phút cuối' và tưởng đã tìm ra bí quyết. Sự thật: kênh ĐỔI CHỖ ĐẶT CTA cùng lúc với đổi định dạng ngày 13/06. Trong kỳ DÀI, nhóm TRÊN xin ở 21% và nhóm DƯỚI xin ở 24,5% — gần như bằng nhau. Vị trí CTA là NẾT CỦA KỲ, không phải biến số thắng thua.",
+   "phat_hien": [
+    {
+     "y": "46/65 bài CÓ xin đăng ký, nhưng chỉ đúng MỘT lần mỗi bài. Kênh không nhắc lại lần hai.",
+     "so_lieu": "46/65 bài có chữ 'subscribe'; tổng 47 lần trên cả kênh; chỉ 1/46 bài xin 2 lần (20260624_Why_Ancient_Humans_Slept_Inside_Dead_Animals.txt). Kỳ DÀI 34/37 bài có xin; kỳ NGẮN 12/28 bài.",
+     "trich": [
+      "\"If you're enjoying uncovering these forgotten truths, subscribe.\" — 20260725_The_Terrifying_Sound_Every_Ancient_Human_Recognized.txt (đây là bản ngắn nhất, 8 từ)",
+      "\"Subscribe.\" — 20260625_Ancient_Humans_Had_Perfect_Focus_Here_s_Exactly_What_Destroy.txt (một từ, đứng riêng một dòng)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "VỊ TRÍ CTA DỜI HẲN THEO KỲ, KHÔNG THEO THẮNG THUA. Kỳ NGẮN xin muộn (trung vị 43% bài, có 3 lần xin ở 92-99%). Kỳ DÀI xin sớm và tập trung: trung vị 21%, 30/35 lần nằm trong khoảng 14-28% bài.",
+     "so_lieu": "Kỳ NGẮN 12 lần, trung vị 43% (dải 33-99%). Kỳ DÀI 35 lần, trung vị 21% (dải 8-79%, chỉ 1 ngoại lệ ở 79%). Trong kỳ DÀI: TRÊN trung vị 21% (11/12 bài) · GIỮA 17% (12/13 bài) · DƯỚI 24,5% (11/12 bài) → không phân biệt nhóm.",
+     "trich": [
+      "Kỳ DÀI, xin ở 16% bài: \"If you're already hooked on this, on the idea that he most ordinary things you do are secretly ancient, subscribe now because very station we climb from here gets tranger.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "Kỳ NGẮN, xin ở 96% bài: \"And if this changed the way you see prehistory, subscribe right now, because this channel uncovers the hidden truths behind human evolution, prehistoric animals, extinct human species, paleontology, and the terrifying reality of our ancestors.\" — 20260523_Smartest_Ways_Ancient_Humans_Used_to_Kill_Animals_10x_Their_.txt",
+      "Kỳ NGẮN, xin ở 99% bài: \"If this changed how you see human history, subscribe because the real story of ancient humans is far stranger, darker, and more fascinating than most people realize.\" — 20260522_Why_Ancient_Humans_Started_Hiding_Their_Bodies.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CTA ĐƯỢC HÀN CHẶT VÀO NỘI DUNG, KHÔNG TÁCH RỜI. Khuôn cố định 2 vế: 'If <cảm xúc bạn VỪA có xong>, subscribe because <mồi cụ thể cho chương kế tiếp>'. Vế sau luôn là một mồi nội dung, không bao giờ là 'để ủng hộ kênh'.",
+     "so_lieu": "35/47 lần bắt đầu bằng 'If...'; 28/47 lần có mệnh đề 'because...' đi kèm. Có ở cả nhóm TRÊN lẫn DƯỚI kỳ DÀI.",
+     "trich": [
+      "\"If that just landed for you, hit subscribe now because the rest of this is about what those old people actually knew and why losing one could kill a whole family.\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt (3.149,8)",
+      "\"If you're into this kind of thing, the forgotten stuff about how ancient humans actually lived, hit subscribe because the next hing they figured out is even stranger, and it's the reason they could see in the dark at all.\" — 20260803_How_Ancient_Humans_Survived_6_Months_Without_Seeing_The_Sun.txt",
+      "\"If orgotten survival secrets like these are your thing, subscribe now because this channel digs up one every week.\" — 20260706_How_Did_Ancient_Humans_Keep_Fire_Alive_in_Endless_Rain_.txt",
+      "\"If you're finding this as unsettling as I do, subscribe because the next animal we pull out of this ice is preserved so completely that researchers could count its individual whiskers.\" — 20260731_6_Scary_Prehistoric_Animals_Found_Frozen_in_Ice.txt",
+      "\"If you're enjoying uncovering these forgotten truths, take 1 second and subscribe because the next station on this ladder rewrites what the oldest fire even means and I don't want you to miss where the number goes.\" — 20260729_What_Happned_When_Ancient_Humans_Discovered_Fire_.txt",
+      "\"If you're the kind of person who wants the real story under the cartoon, the version with the evidence still stuck in the bone, subscribe now because the next thing we dig up is going to snap the timeline you were handed in school clean in half.\" — 20260722_The_Largest_Animals_Hunted_by_Ancient_Humans.txt (DƯỚI, 184,6)",
+      "\"If you're feeling the weight of week three right now, subscribe because what happened next is the reason you exist.\" — 20260708_How_Did_Ancient_Humans_Hunt_During_Weeks_of_Rain_.txt",
+      "\"That is what this channel exists for, recovering the buried genius of the people history wrote off as savages.\" / \"If that idea grips you the way it grips me, subscribe right now because I promise you the story of ancient survival is about to get so much bigger than a clever hole in the ground.\" — 20260613_The_CRAZIEST_Survival_Methods_Used_by_Ancient_Humans_During_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CTA đặt ngay SAU khi chương 1 vừa đóng — tức đúng lúc người xem vừa nhận được cú tiết lộ đầu tiên. Khoảng cách này giống nhau ở mọi nhóm.",
+     "so_lieu": "Khoảng cách từ điểm kết chương 1 tới CTA (điểm phần trăm, trung vị, kỳ DÀI): TRÊN +11 · GIỮA +9,5 · DƯỚI +10.",
+     "trich": [
+      "Chương 1 kết ở 10% bài, CTA ở 16%: \"If you're already hooked on this...\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "Chương 1 kết ở 9% bài, CTA ở 17%: \"If that just landed for you, hit subscribe now...\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "PHÁT HIỆN LỚN KIỂU VẮNG MẶT: KHÔNG BÀI NÀO XIN LIKE, KHÔNG BÀI NÀO XIN COMMENT (trừ 1), KHÔNG BÀI NÀO NHẮC CHUÔNG. Kênh chỉ xin đúng một thứ: subscribe.",
+     "so_lieu": "Đếm nguyên văn trên 65 bài: 'like this video' 0/65 · 'leave a comment' 0/65 · 'comment below' 0/65 · 'let me know' 0/65 · 'share this' 0/65 · 'hit the bell'/nhắc chuông 0/65 · 'patreon' 0/65. Chỉ 1/65 bài xin comment: 20260506_How_Did_Ancient_Humans_get_High_What_They_Did_will_Surprise_.txt (bài này ở nhóm DƯỚI, 53,1 view/ngày).",
+     "trich": [
+      "Lần duy nhất xin comment trên cả 65 bài: \"Drop a comment.\" / \"What part of this genuinely surprised you?\" / \"I read every single one.\" — 20260506_How_Did_Ancient_Humans_get_High_What_They_Did_will_Surprise_.txt",
+      "Tỷ lệ like/1000 view lại NGƯỢC với thứ hạng: kỳ DÀI TRÊN 20,2 · GIỮA 25,8 · DƯỚI 30,4 like/1000 view — bài chìm được like nhiều hơn theo tỷ lệ, tức không xin like không làm mất like."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "ca_nguoc": "Số chương KHÔNG phải biến số: 5 chương là chuẩn ở cả nhóm thắng lẫn nhóm chìm (30/37 bài kỳ DÀI). Khối payload cũng chiếm đúng 31% thời lượng ở cả ba nhóm. Hai thứ CÓ nghiêng về nhóm thắng là (a) chương 1 ngắn hơn và (b) khối payload đến sớm hơn — nhưng cả hai đều có khoảng chồng lấn lớn, đừng coi là luật cứng.",
+   "phat_hien": [
+    {
+     "y": "5 CHƯƠNG LÀ KHUNG CHUẨN của kỳ DÀI, bất kể thắng thua. Video 26-36 phút vẫn chỉ 5 chương, tức mỗi chương 730-880 từ (5-7 phút liền mạch).",
+     "so_lieu": "Kỳ DÀI (37 bài): 5 chương ở 30 bài · 6 chương 4 bài · 4 chương 1 · 7 chương 1 · 9 chương 1. Từ/chương (trung vị): TRÊN 733 · GIỮA 876 · DƯỚI 825. Kỳ NGẮN (28 bài): 5 chương ở 16 bài, từ/chương 161-237.",
+     "trich": [
+      "Khung 5 chương của bài 4.975 view/ngày: \"You Hand Your Consciousness Away Every Night\" (0:00-2:37) → \"The Circle Of Stones That Started The Argument\" (2:37-7:17) → \"Someone Built A Roof 400,000 Years Ago\" (7:17-11:24) → \"Why They Slept On Ash\" (11:24-18:13) → \"The House Made From Mammoths\" (18:13-26:20) — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "Khung 5 chương của bài 64,1 view/ngày, cùng cấu trúc: \"The Hand That Moves Without You\" → \"Why a Stone-Age Hunter Would Out-Focus You\" → \"The Bright Room Watching Your Weakness\" → \"The Predator Living in Your Pocket\" → \"How to Wake the Ancient Mind Back Up\" — 20260625_Ancient_Humans_Had_Perfect_Focus_Here_s_Exactly_What_Destroy.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHƯƠNG 1 (mở bài) NGẮN HƠN Ở NHÓM THẮNG. Nhóm TRÊN vào việc sau ~9% bài (~2,5 phút, ~420 từ); nhóm DƯỚI kéo mở bài tới ~16% bài (~4,6 phút, ~808 từ) — gần gấp đôi.",
+     "so_lieu": "Kỳ DÀI, chương 1 chiếm bao nhiêu % bài (trung vị): TRÊN 9% · GIỮA 9% · DƯỚI 16%. Phân bố đầy đủ — TRÊN [5,5,6,7,8,9,10,11,13,17,19,28] · DƯỚI [5,6,10,11,12,16,16,19,19,20,25,26]. Chồng lấn rõ, nhưng 8/12 bài nhóm DƯỚI ≥12% trong khi chỉ 4/12 bài nhóm TRÊN ≥12%.",
+     "trich": [
+      "Chương 1 = 1:39/30:48 (5% bài): \"Why the Kill Was the Easy Part\" — 20260719_What_Happened_After_Ancient_Humans_Killed_a_Mammoth_.txt (1.712,7 view/ngày)",
+      "Chương 1 = 1:09/24:59 (5% bài): \"The Winter That Should Have Killed Everyone\" — 20260701_Why_Ancient_Humans_Couldn_t_Survive_Without_Grandparents.txt (1.513,3)",
+      "Chương 1 = 6:01/24:01 (25% bài): \"You'd Be Dead In Two Hours\" — 20260618_How_Did_ancient_humans_ACTUALLY_Survive_40_C_Winters_Without.txt (270,5)",
+      "Chương 1 = 4:54/24:13 (20% bài): \"The Hand That Moves Without You\" — 20260625_Ancient_Humans_Had_Perfect_Focus_Here_s_Exactly_What_Destroy.txt (64,1)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÚ LẬT LỚN NHẤT = CHƯƠNG DÀI NHẤT, và nó đến SỚM HƠN ở nhóm thắng. Nhóm TRÊN đặt khối payload bắt đầu ở ~42% bài (thường là chương 4/5); nhóm DƯỚI đẩy nó tới ~60% bài (thường là chương 5/5, tức khối cuối).",
+     "so_lieu": "Kỳ DÀI, vị trí bắt đầu chương dài nhất (trung vị % bài): TRÊN 42,5% · GIỮA 42% · DƯỚI 60,5%. Chương dài nhất là chương thứ mấy (trung vị): TRÊN chương 4 · GIỮA chương 4 · DƯỚI chương 5. Ở nhóm DƯỚI, 8/12 bài có chương dài nhất là chương CUỐI; nhóm TRÊN chỉ 4/12. Khối này chiếm 30,5-31% thời lượng ở CẢ BA nhóm — độ lớn là nết, chỉ VỊ TRÍ mới khác.",
+     "trich": [
+      "Nhóm TRÊN, chương 4/5 bắt đầu ở 33% bài và chiếm 42% thời lượng: \"The Face a Predator Refuses to Attack\" (8:02-21:09 trong bài 26:21) — 20260623_SHOCKING_Reason_Why_Predators_Feared_Ancient_Humans_Even_in_.txt (937,8)",
+      "Nhóm TRÊN, chương 4/5 bắt đầu ở 33% bài: \"The Night Humans Finally Fought Back\" (9:12-22:43 trong bài 27:52) — 20260725_The_Terrifying_Sound_Every_Ancient_Human_Recognized.txt (1.700,6)",
+      "Nhóm DƯỚI, chương dài nhất là chương CUỐI bắt đầu ở 67% bài: \"The Instinct Still Inside You\" (19:56-29:54) — 20260710_What_Happened_When_a_Prehistoric_Child_Made_Their_First_kill.txt (202,5)",
+      "Nhóm DƯỚI, chương dài nhất là chương CUỐI bắt đầu ở 59% bài: \"The Ice Age Memory Still Hiding in Your Skin\" (14:38-24:43) — 20260624_Why_Ancient_Humans_Slept_Inside_Dead_Animals.txt (164,6)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "THỨ TỰ LEO THANG cố định 5 nấc, đọc được ngay từ tiêu đề chương: (1) neo vào đồ vật/hành vi hiện đại của người xem → (2) đập vỡ hình dung sẵn có / dựng bí ẩn → (3) bằng chứng khảo cổ cụ thể → (4) KHỐI LỚN NHẤT: cơ chế thật, chi tiết kỹ thuật → (5) trả người xem về hiện tại và định danh họ.",
+     "so_lieu": "Đọc được ở 30/37 bài kỳ DÀI có đúng 5 chương. Nấc 1 và nấc 5 nhận diện được qua tiêu đề chương ở 22/37 bài (tiêu đề chương cuối chứa 'You'/'Still'/'Why You').",
+     "trich": [
+      "Nấc 1 (neo hiện đại): \"The Box on Your Wall That's Secretly 300,000 Years Old\" → nấc 2 (đập vỡ): \"The Caveman Myth You Were Taught Is a Lie\" → nấc 3 (bằng chứng): \"They Built Houses From the Bones of Giants\" → nấc 4 (cơ chế, khối lớn nhất): \"The Fuel Secret That Still Stuns Engineers\" → nấc 5 (trả về bạn): \"What Firelight Did to the Human Mind\" — 20260613_The_CRAZIEST_Survival_Methods_Used_by_Ancient_Humans_During_.txt",
+      "Nấc 5 điển hình: \"You Are The Proof They Survived\" — 20260621_How_Did_Ancient_Humans_Actually_Find_Water_During_the_Ice_Ag.txt",
+      "Nấc 5 điển hình: \"Why You're Still Standing at the End of the Chain\" — 20260703_What_Did_Humans_Do_During_Ice_Age_Summers_.txt",
+      "Nấc 5 điển hình: \"The Ice Age Instincts Still Hiding in You\" — 20260519_The_Darkest_Things_Ancient_Humans_Did_To_Survive_The_Cold.txt",
+      "Nấc 5 điển hình: \"The Fear That's Still Out There Tonight\" — 20260623_SHOCKING_Reason_Why_Predators_Feared_Ancient_Humans_Even_in_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG",
+   "ca_nguoc": "Kênh KHÔNG dùng câu chuyển chương kiểu tổng-kết-rồi-báo-trước ('Chúng ta vừa xem X, giờ sang Y'). Nếu chép khuôn đó vào là chép sai. Cũng KHÔNG dùng mệnh lệnh hay câu hỏi để mở chương (chỉ 12/157 mối nối). Đây là nết chung, đo trên cả nhóm thắng lẫn nhóm chìm — không có khuôn chuyển chương nào chỉ riêng nhóm thắng có.",
+   "phat_hien": [
+    {
+     "y": "CÂU ĐÓNG CHƯƠNG LÀ MẢNH CÂU CỤT, RẤT NGẮN — thường 1-4 từ, đứng riêng một dòng, dùng như một cú đóng sập. Trung vị 9 từ, nhưng đuôi ngắn rất dày.",
+     "so_lieu": "157 mối nối chương trong 37 bài kỳ DÀI. Câu đóng chương: trung vị 9 từ. Câu mở chương: trung vị 13 từ. Câu mở chương dài hơn câu đóng ~1,4 lần.",
+     "trich": [
+      "\"A needle.\" — 20260803_How_Ancient_Humans_Survived_6_Months_Without_Seeing_The_Sun.txt (TRÊN)",
+      "\"They're hungry.\" — 20260706_How_Did_Ancient_Humans_Keep_Fire_Alive_in_Endless_Rain_.txt (TRÊN)",
+      "\"It was the group.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt (TRÊN)",
+      "\"More daylight.\" — 20260703_What_Did_Humans_Do_During_Ice_Age_Summers_.txt (TRÊN)",
+      "\"Height dropped.\" — 20260805_Why_Were_Ancient_Humans_Healthier_Than_Us_.txt (TRÊN)",
+      "\"You tire out.\" — 20260708_How_Did_Ancient_Humans_Hunt_During_Weeks_of_Rain_.txt (TRÊN)",
+      "\"It's coming.\" — 20260717_The_Worst_Place_to_Spend_One_Night_During_the_Ice_Age.txt (GIỮA)",
+      "\"It still burns.\" — 20260801_Why_Ancient_Humans_Risked_Everything_To_Teach_Children.txt (GIỮA)",
+      "\"Not one skipped handover.\" — 20260801_Why_Ancient_Humans_Risked_Everything_To_Teach_Children.txt (GIỮA)",
+      "\"Boredom.\" — 20260625_Ancient_Humans_Had_Perfect_Focus_Here_s_Exactly_What_Destroy.txt (DƯỚI)",
+      "\"Case closed.\" — 20260715_What_Did_Ancient_Humans_Do_When_a_Predator_Followed_Them_Hom.txt (DƯỚI)",
+      "\"Read that again.\" — 20260705_Why_Did_Ancient_Humans_Walk_Straight_Into_the_Ice_.txt (DƯỚI)",
+      "\"They planned.\" — 20260619_How_Did_Humans_Actually_Eat_During_the_Ice_Age_at_40_C_.txt (DƯỚI)",
+      "\"It wasn't fur.\" — 20260622_Why_Didn_t_Ice_Age_Babies_Freeze_to_Death_.txt (DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN CHUYỂN CHƯƠNG SỐ 1 — 'PHỦ ĐỊNH RỒI LẬT': câu cuối chương cũ dựng lên hình dung quen thuộc, câu đầu chương mới bắt đầu bằng 'But' và bác nó.",
+     "so_lieu": "Đếm dòng bắt đầu bằng 'But' trong kỳ DÀI: mật độ trung vị 2,34/1000 từ (nhóm TRÊN) và 2,56/1000 từ (nhóm DƯỚI) — không phân biệt nhóm.",
+     "trich": [
+      "Đóng: \"He finds a cave and crawls in.\" / \"He's a scavenger of shelter, not a maker of it.\" → Mở: \"But Terra Amata says omething wildly different, that 400,000 years ago on an open hillside with no cave in sight, someone drove posts into the earth, bent branches into a roof, and lit a fire under it to keep the rain and the cold on the outside where they belonged.\" / \"That's not crawling into shelter, that's manufacturing it.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "Đóng: \"The myth is the caveman.\" / \"The image burned into your brain since childhood.\" → Mở: \"Hunked, grunting figures crowded around a tiny smoky fire in the mouth of a cave, barely making it through the night, just praying for the sun to come back.\" / \"Here's the shocking truth.\" — 20260613_The_CRAZIEST_Survival_Methods_Used_by_Ancient_Humans_During_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN CHUYỂN CHƯƠNG SỐ 2 — 'CÂU HỎI ĐÓNG, BẰNG CHỨNG MỞ': chương cũ đóng bằng một câu hỏi, chương mới mở bằng một cái tên/địa danh/năm cụ thể.",
+     "so_lieu": "49/157 mối nối kỳ DÀI có câu đóng hoặc câu mở chứa dấu '?'. Có ở cả TRÊN lẫn DƯỚI.",
+     "trich": [
+      "Đóng: \"So, what does an old person actually do to earn their food?\" / \"The first answer came out of Tanzania, and it wasn't the one anyone expected.\" → Mở: \"An anthropologist named Kristen Hawks went to live with e Hodza, one of the last true huntergatherer peoples on Earth.\" / \"She went to study the hunters.\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt",
+      "Đóng: \"So where do you find dry firewood in a world where everything is wet?\" / \"The answer, you stop looking where you would look.\" → Mở: \"Drop an untrained person in a rainforest during monsoon and tell them to gather firewood, and they'll do the obvious thing, pick wood up off the ground.\" / \"And they'll fail.\" — 20260706_How_Did_Ancient_Humans_Keep_Fire_Alive_in_Endless_Rain_.txt",
+      "Đóng: \"Inside it, fragments of charcoal carefully wrapped in fresh maple leaves.\" / \"At first, it made no sense.\" → Mở: \"Why would a man crossing freezing storm-swept mountains seal leaves and charcoal in a container?\" / \"Then it clicked.\" — 20260706_How_Did_Ancient_Humans_Keep_Fire_Alive_in_Endless_Rain_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN CHUYỂN CHƯƠNG SỐ 3 — 'MỞ RỘNG ĐỘT NGỘT': chương mới mở bằng một câu tuyên bố rằng câu chuyện vừa lớn hơn nhiều so với những gì vừa kể.",
+     "so_lieu": "Nhận diện được ở 12/157 mối nối kỳ DÀI có câu mở bắt đầu bằng mệnh lệnh/định hướng ('Go back to', 'Think about', 'Now', 'So').",
+     "trich": [
+      "\"And that's where the story becomes much bigger than a single carcass.\" — 20260719_What_Happened_After_Ancient_Humans_Killed_a_Mammoth_.txt (TRÊN)",
+      "\"Go back to the group I opened with, the polar Inuit, living further north than almost anyone on Earth.\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt (TRÊN)",
+      "\"The answer takes us far beyond civilization, far beyond the ice age, past the first humans, past the first tools, into a world so ancient hat our ancestors didn't even look human yet.\" / \"And somehow, they're still iving inside your nervous system.\" — 20260725_The_Terrifying_Sound_Every_Ancient_Human_Recognized.txt (TRÊN)",
+      "\"And this goes back further than Neanderthalss.\" / \"Much further.\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt",
+      "\"Think about what that means in this war.\" — 20260715_What_Did_Ancient_Humans_Do_When_a_Predator_Followed_Them_Hom.txt (DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TIÊU ĐỀ CHƯƠNG (hiện trong description + thanh chapter) là chỗ tập trung khe tò mò nhiều nhất kênh: gần một nửa là danh ngữ 'The X That Y'. Không có bài nào đặt tiêu đề chương kiểu mô tả trung tính ('Phần 2: Công cụ').",
+     "so_lieu": "369 tiêu đề chương trên 65 bài: 'The X' 119/369 · câu hỏi Why/What/How 74/369 · 'The X That Y' 66/369 · 'You...' 7/369 · 'They...' 4/369 · còn lại 99/369. 65/65 bài đều có chapters do tác giả tự viết (có mốc thời gian trong description).",
+     "trich": [
+      "\"The Circle Of Stones That Started The Argument\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "\"The File That Gets Deleted, Not Corrupted\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt",
+      "\"The 5,000-Year-Old Ember In A Dead Man's Pocket\" — 20260706_How_Did_Ancient_Humans_Keep_Fire_Alive_in_Endless_Rain_.txt",
+      "\"The Most Boring Object in Any Museum\" — 20260803_How_Ancient_Humans_Survived_6_Months_Without_Seeing_The_Sun.txt",
+      "\"The Job Where Falling Asleep Killed Everyone You Loved\" — 20260728_The_Most_Horrifying_Ways_Ancient_Humans_Stayed_Warm.txt",
+      "\"Nothing Ate Her. Why?\" — 20260731_6_Scary_Prehistoric_Animals_Found_Frozen_in_Ice.txt",
+      "\"We Didn't Invent The Unicorn. We Forgot It.\" — 20260731_6_Scary_Prehistoric_Animals_Found_Frozen_in_Ice.txt",
+      "\"It's Not A Museum. It's A Lid.\" — 20260731_6_Scary_Prehistoric_Animals_Found_Frozen_in_Ice.txt",
+      "\"Why Nobody Got Old (Until They Suddenly Did)\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt",
+      "\"Who Gets The Warm Middle, And Who Gets The Edge\" — 20260728_The_Most_Horrifying_Ways_Ancient_Humans_Stayed_Warm.txt",
+      "\"The Grave That Proves They Loved Like We Do\" — 20260622_Why_Didn_t_Ice_Age_Babies_Freeze_to_Death_.txt (DƯỚI — chất lượng tiêu đề chương không cứu được bài)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "ca_nguoc": "Đây là chiều dễ kết luận sai nhất. Nếu chỉ đếm mật độ/1000 từ rồi so nhóm TRÊN toàn kênh với nhóm DƯỚI toàn kênh, sẽ ra 'bài thắng ít rào đón hơn' — nhưng đó chỉ vì bài thắng dài gấp 3,5 lần nên mẫu số lớn. Và đếm tên riêng thì hoàn toàn KHÔNG dự báo được gì: trung vị nhóm GIỮA (15 tên/bài) cao gấp 7 lần nhóm TRÊN (2 tên/bài) và gấp 30 lần nhóm DƯỚI (0,5). Khoảng của hai nhóm chồng lấn hoàn toàn: TRÊN [0…24], DƯỚI [0…26]. Mật độ mỏ neo khoa học KHÔNG phải biến số thắng thua ở kênh này.",
+   "phat_hien": [
+    {
+     "y": "CÓ nêu tên nhà nghiên cứu thật, di chỉ thật, năm thật — nhưng thưa, và chỉ ở kỳ DÀI mới có tên di chỉ.",
+     "so_lieu": "Tên di chỉ trong danh sách chuẩn (Shanidar/Dmanisi/Olduvai/Terra Amata/Chauvet/Pinnacle Point/Border Cave/Wonderwerk/Göbekli/Koobi Fora…): 62 lần trên 17/65 bài, trung vị 0,5/bài ở nhóm TRÊN kỳ DÀI, 0/bài ở kỳ NGẮN. Từ nghề (archaeologist/anthropologist/paleontologist…): trung vị 1-2 lần/bài. 'scientists/researchers/archaeologists': 4 lần/bài (TRÊN kỳ DÀI).",
+     "trich": [
+      "\"And in the 1970s, the legendary archaeologist Mary Leakey found something in that ancient dirt hat has been starting arguments ever since, a circle of stones, not scattered, not random, a rough ring of basalt rocks piled and spaced in a way that, to Leakey's eye, looked placed.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "\"An anthropologist named Kristen Hawks went to live with e Hodza, one of the last true huntergatherer peoples on Earth.\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt",
+      "\"It's called Shanidar.\" / \"and between 1951 and 1960, an American archaeologist named Ralph Solecki dug down through its floor and pulled...\" — 20260724_What_Did_Ancient_humans_Do_If_They_Were_Injured_Far_From_Hom.txt",
+      "\"In 2018, a team led by Matthew Bennett published something in Science Advances that reads less like a research...\" — 20260722_The_Largest_Animals_Hunted_by_Ancient_Humans.txt",
+      "\"In 2011, a researcher at he Natural History Museum named Sylvia Bellow published what was actually on that cave floor.\" — 20260717_The_Worst_Place_to_Spend_One_Night_During_the_Ice_Age.txt",
+      "\"In a cave in Iraq called Shannidar, archaeologists found a Neanderthal man.\" — 20260726_Why_Ancient_Humans_Couldn_t_Afford_to_Lose_Their_Grandparent.txt",
+      "Các tên xuất hiện nhiều nhất trên toàn kênh: Mary Leakey (2), Lynn Wadley (2), Thomas Wehr (2), Polly Wiessner (2), Francesco Berna (2), Ruth Shahack (2), Fabrice Lambert (2), Kristen Hawkes, Rachel Caspari, David Samson, Charlie Nunn, Ralph Solecki, Matthew Bennett, Sylvia Bellow."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NIÊN ĐẠI là mỏ neo được dùng nhiều nhất, gấp nhiều lần tên người.",
+     "so_lieu": "Mẫu 'X years ago': 193 lần trên 53/65 bài. Trung vị/bài: kỳ DÀI TRÊN 2 · GIỮA 6 · DƯỚI 2 (không đơn điệu). Mốc năm cụ thể (in 2018 / in the 1970s): 33 lần trên 13/65 bài.",
+     "trich": [
+      "\"But for 300,000 years, every single one of your human ancestors fought a winter so violent it could stop your heart before sunrise.\" — 20260613_The_CRAZIEST_Survival_Methods_Used_by_Ancient_Humans_During_.txt",
+      "\"That reflex is 900,000 years old.\" / \"It has failed catastrophically at least nine times.\" — 20260717_The_Worst_Place_to_Spend_One_Night_During_the_Ice_Age.txt",
+      "\"Around 12,800 years ago, the largest animals on Earth vanish, and the prime suspect isn't the cold.\" — 20260713_The_Deadliest_Mistake_Ice_Age_Humans_Ever_Made.txt",
+      "\"Footprints Frozen in Ash for 3.6 Million Years\" (tiêu đề chương) — 20260725_The_Terrifying_Sound_Every_Ancient_Human_Recognized.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MẬT ĐỘ RÀO ĐÓN SỤT MẠNH KHI CHUYỂN SANG BÀI DÀI — kênh nói CHẮC hơn hẳn ở kỳ DÀI, dù bài dài gấp 3,5 lần. Đây là đổi PHONG CÁCH theo kỳ, không phải khác biệt thắng-thua.",
+     "so_lieu": "Số lần rào đón (may have/might/probably/likely/perhaps/believe/suggest) trên 1000 từ, trung vị: kỳ NGẮN TRÊN 8,96 · GIỮA 4,52 · DƯỚI 6,66; kỳ DÀI TRÊN 1,59 · GIỮA 1,21 · DƯỚI 1,24. Tuyệt đối/bài: kỳ NGẮN TRÊN 12 lần trên 1.438 từ; kỳ DÀI TRÊN 7 lần trên 4.701 từ. 61/65 bài có ít nhất một lần rào đón.",
+     "trich": [
+      "Rào đón kiểu kỳ NGẮN (dày): \"And archaeologists say this may not have been rare.\" / \"It may have happened all across the ancient world, which raises a horrifying possibility.\" — 20260516_What_Did_Ancient_Humans_Do_When_Food_Vanished_.txt",
+      "Rào đón kiểu kỳ NGẮN: \"In fact, some scientists believe alcohol helped create civilization itself.\" — 20260518_Ancient_Humans_Were_Drunk_Every_Single_Day.txt",
+      "Cách nói chắc kiểu kỳ DÀI: \"That's not crawling into shelter, that's manufacturing it.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "GẦN NHƯ KHÔNG TÁCH SỰ THẬT KHỎI SUY DIỄN. Kênh không bao giờ nói 'đây là điều ta biết chắc, còn đây là suy đoán'. Thay vào đó nó gói suy diễn vào giọng kể cảnh, và chỉ thỉnh thoảng thừa nhận tranh cãi bằng cách gọi thẳng đó là 'argument'.",
+     "so_lieu": "Mẫu tách bạch tường minh ('what we don't know' / 'here's what we know' / 'nobody was there'): chỉ 2 lần trên 65 bài. Mẫu thừa nhận không biết ('we don't know' / 'nobody knows' / 'still debated'): 18 lần trên 14/65 bài. Tức 51/65 bài không hề nói câu nào kiểu 'ta không biết'.",
+     "trich": [
+      "Cách thừa nhận tranh cãi duy nhất mà kênh dùng — biến nó thành tiêu đề chương gây tò mò: \"The Circle Of Stones That Started The Argument\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "\"And here's the thing that keeps the whole mystery wide open.\" / \"If humans were already this sophisticated 200,000 years ago, already treating their bedding, already thinking about it, then this can't be where it started.\" / \"You don't arrive at ash-lined mattresses on your first try.\" — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "\"But not one of these sites proves anyone could make it.\" — 20260729_What_Happned_When_Ancient_Humans_Discovered_Fire_.txt",
+      "\"How do we even know any of this?\" — 20260624_Why_Ancient_Humans_Slept_Inside_Dead_Animals.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG có mối liên hệ giữa số mỏ neo khoa học và view/ngày. Phải nói rõ chỗ này để không tự lừa.",
+     "so_lieu": "Số cụm tên riêng/bài, kỳ DÀI: nhóm TRÊN [0,1,2,3,3,5,5,8,11,16,22,24] (trung vị 2) · nhóm GIỮA [0,1,3,5,6,11,16,20,22,23,28,35,53] (trung vị 15) · nhóm DƯỚI [0,0,3,4,8,11,14,20,21,24,24,26] (trung vị 0,5 — sai lệch do lệch phân bố, thực tế nửa trên của nhóm DƯỚI có 11-26 tên/bài). Hai bài nhiều tên riêng nhất kênh (53 và 35) đều KHÔNG thuộc nhóm TRÊN.",
+     "trich": [
+      "Bài 4.975 view/ngày chỉ có 3 cụm tên riêng cả bài (Mary Leakey, Terra Amata, Olduvai) — 20260723_How_Did_Ancient_Humans_Sleep_Through_Endless_Rain_.txt",
+      "Bài 64,1 view/ngày (nhóm DƯỚI) có 11 cụm tên riêng — 20260625_Ancient_Humans_Had_Perfect_Focus_Here_s_Exactly_What_Destroy.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "ca_nguoc": "Cụm đề tài ĐÔNG NHẤT của kênh (Lạnh/Ice Age, 12/37 bài kỳ DÀI) lại có trung vị 421,3 view/ngày — DƯỚI trung vị chung của kỳ (460,8). Kênh đang dồn công vào cụm mình làm nhiều nhất chứ không phải cụm ăn nhất. Và làm LẠI đề tài cũ không hề bảo đảm: 3 lần làm lại, 1 lần thắng gấp 2, 2 lần thua thảm (còn 32% và còn 0,4%).",
+   "phat_hien": [
+    {
+     "y": "KHUÔN TITLE lặp rất chặt, chỉ 5 khuôn cho 61/65 bài. Nhưng khuôn title KHÔNG phân biệt thắng thua — chênh trung vị giữa khuôn tốt nhất và tệ nhất chỉ 1,76 lần với n=7-9, quá yếu để kết luận.",
+     "so_lieu": "Toàn kênh 65 bài: 'What Did/What Happened...?' 16 · 'How Did...?' 13 · 'Why...?' 13 · 'The X <mệnh đề>' 11 · 'Ancient Humans <làm gì>' 6 · khác 6. Trung vị view/ngày theo khuôn (chỉ kỳ DÀI): 'The X' 704,8 (n=7) · 'How Did' 623,2 (n=8) · 'Why' 495,2 (n=8) · 'What Did/What Happened' 400,1 (n=9). Dấu '?' trong title: 33/65 bài; kỳ DÀI TRÊN 6/12 vs DƯỚI 8/12 → không phân biệt. Độ dài title trung vị 8,5-10 từ ở mọi nhóm.",
+     "trich": [
+      "Khuôn 'The X': \"The Terrifying Sound Every Ancient Human Recognized\" (1.700,6 view/ngày)",
+      "Khuôn 'How Did': \"How Did Ancient Humans Sleep Through Endless Rain?\" (4.975,1)",
+      "Khuôn 'Why': \"Why Ancient Humans Couldn't Afford to Lose Their Grandparents\" (3.149,8)",
+      "Cùng khuôn 'Why' nhưng chìm: \"Why Ancient Humans Would've Died Without Animals (Shocking Truth!)\" (45,5)",
+      "Cùng khuôn 'The X' nhưng chìm: \"The Darkest Things Ancient Humans Did To Survive\" (21,8)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CỤM ĐỀ TÀI MẠNH NHẤT KỲ DÀI LÀ 'MƯA / NƯỚC' — và đây là tín hiệu đề tài rõ nhất tìm được trong toàn bộ dữ liệu: cả 3 bài có chữ 'Rain' trong title đều nằm nhóm TRÊN.",
+     "so_lieu": "Kỳ DÀI, trung vị view/ngày theo cụm: MƯA/NƯỚC 1.495,2 (n=4) · NGỦ/ĐÊM/TỐI 1.343,7 (n=2) · TRẺ CON-GIÀ-BỘ LẠC 1.105,6 (n=4) · THÚ DỮ 983,4 (n=2) · CƠ THỂ/TÂM TRÍ 430,5 (n=4) · LẠNH/ICE AGE 421,3 (n=12) · ĂN/SĂN BẮT 193,6 (n=6). Riêng 3 bài có chữ 'Rain': 810,2 · 2.180,3 · 4.975,1 — 3/3 nhóm TRÊN, so với trung vị kỳ 460,8. CẢNH BÁO: n=3, không đủ để coi là luật, nhưng đáng thử lại.",
+     "trich": [
+      "\"How Did Ancient Humans Keep Fire Alive in Endless Rain?\" 2026-07-06 — 2.180,3 view/ngày",
+      "\"How Did Ancient Humans Hunt During Weeks of Rain?\" 2026-07-08 — 810,2 view/ngày",
+      "\"How Did Ancient Humans Sleep Through Endless Rain?\" 2026-07-23 — 4.975,1 view/ngày (bài cao nhất kỳ DÀI)",
+      "Ngược lại, cụm ĐÔNG NHẤT là Ice Age với 12 bài kỳ DÀI, trung vị chỉ 421,3 — dưới trung vị kỳ."
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÓ LÀM LẠI ĐỀ TÀI CŨ — 3 cặp rõ ràng. Kết quả trái ngược nhau hoàn toàn, nên làm lại KHÔNG phải công thức an toàn.",
+     "so_lieu": "3/65 bài là bản làm lại của một bài trước đó (trùng ≥2 từ lõi trong title, cùng chủ đề). Kết quả: 1 thắng (gấp 2,08 lần bản gốc), 2 thua (còn 32% và còn 0,36%).",
+     "trich": [
+      "THẮNG: \"Why Ancient Humans Couldn't Survive Without Grandparents\" 2026-07-01 (1.513,3) → làm lại 25 ngày sau \"Why Ancient Humans Couldn't Afford to Lose Their Grandparents\" 2026-07-26 (3.149,8) = gấp 2,08 lần",
+      "THUA: \"How Did Ancient Humans Keep Fire Alive in Endless Rain?\" 2026-07-06 (2.180,3) → làm lại 27 ngày sau \"The Ancient Survival Trick That Kept Fire Alive for Days\" 2026-08-02 (706,5) = còn 32%",
+      "THUA NẶNG: \"The Darkest Things Ancient Humans Did To Survive The Cold\" 2026-05-19 (6.061,4 — bài lớn nhất kênh) → làm lại 23 ngày sau, bỏ chữ 'The Cold': \"The Darkest Things Ancient Humans Did To Survive\" 2026-06-11 (21,8) = còn 0,36%. Ghi chú: bản làm lại này rơi vào kỳ NGẮN sắp kết thúc và chỉ có 2.303 từ."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ LOẠT (series) rõ, ít nhất 2 loạt. Loạt 'Endless Rain' thắng đậm; loạt 'Ice Age Actually' đăng dồn 5 bài trong 6 ngày lại chỉ ở mức trung bình.",
+     "so_lieu": "Loạt MƯA (3 bài: 06/07, 08/07, 23/07): trung vị 2.180,3 view/ngày, 3/3 nhóm TRÊN. Loạt 'Ice Age' 17/06-22/06 (5 bài trong 6 ngày): trung vị 270,5 view/ngày, 0/5 nhóm TRÊN, 3/5 nhóm GIỮA, 1/5 nhóm DƯỚI. Chênh 8 lần giữa hai loạt.",
+     "trich": [
+      "Loạt MƯA: \"How Did Ancient Humans Keep Fire Alive in Endless Rain?\" · \"How Did Ancient Humans Hunt During Weeks of Rain?\" · \"How Did Ancient Humans Sleep Through Endless Rain?\"",
+      "Loạt ICE AGE dồn 6 ngày: \"How Did Humans Actually Sleep In The Ice Age Without Freezing To Death\" (436,1) · \"How Did ancient humans ACTUALLY Survive –40°C Winters Without Heat\" (270,5) · \"How Did Humans Actually Eat During the Ice Age at -40°C?\" (236,2) · \"How Did Ancient Humans Actually Find Water During the Ice Age?\" (334,5) · \"Why Didn't Ice Age Babies Freeze to Death?\" (66,0)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "TỪ 'Ancient Humans' XUẤT HIỆN Ở GẦN NHƯ MỌI TITLE — kênh khoá chặt từ khoá thương hiệu, kể cả bài chìm. Đây là nết, không phải đòn bẩy.",
+     "so_lieu": "'Ancient Humans' hoặc 'Humans' hoặc 'Ice Age' có trong 62/65 title. Khuôn 'Ancient Humans <làm gì>' (không có câu hỏi) là khuôn tệ nhất kỳ DÀI: n=1, 64,1 view/ngày; ở kỳ NGẮN có 3 bài, view/ngày 21,1 · 34,5 · 43,3 — tất cả nhóm DƯỚI.",
+     "trich": [
+      "\"Ancient Humans Had No TV, No Phones, No Internet... So What Did They Do?\" — 34,5 view/ngày",
+      "\"Ancient Humans Had No Jobs... So What Did They Do All Day?\" — 43,3 view/ngày",
+      "\"Ancient Humans Had To Do This To Keep Babies Alive\" — 21,1 view/ngày",
+      "\"Ancient Humans Had Perfect Focus — Here's Exactly What Destroyed It\" — 64,1 view/ngày",
+      "Ngoại lệ duy nhất của khuôn này: \"Ancient Humans Were Drunk Every Single Day\" — 1.386,2 view/ngày (kỳ NGẮN, nhóm TRÊN)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "ca_nguoc": "Nhìn qua sẽ thấy 'view/ngày tăng 17 lần từ tháng 5 sang tháng 8, chắc do đăng dày'. Sai — nhịp đăng KHÔNG đổi (vẫn 1-2 ngày/bài suốt 96 ngày). Thứ đổi là ĐỘ DÀI VIDEO (13/06) và kênh lớn dần. Trong cùng kỳ DÀI, đăng cách 1 ngày (trung vị 460,8) và cách 2 ngày (trung vị 528,2) cho kết quả gần như bằng nhau — khoảng cách đăng không dự báo gì.",
+   "phat_hien": [
+    {
+     "y": "NHỊP ĐĂNG CỰC ĐỀU VÀ CỰC DÀY, không đổi suốt 96 ngày, không gom đợt, không nghỉ.",
+     "so_lieu": "65 video trong 96 ngày (2026-05-01 → 2026-08-05) = 1,48 ngày/video. Trung vị khoảng cách = 1 ngày. Phân bố 64 khoảng cách: 1 ngày 36 lần · 2 ngày 25 lần · 3 ngày 2 lần · 4 ngày 1 lần. Khoảng nghỉ dài nhất cả kênh là 4 ngày (27/06 → 01/07). Không có tuần nào dưới 3 video.",
+     "trich": [
+      "Chuỗi dày nhất: 23/07, 24/07, 25/07, 26/07, 27/07, 28/07, 29/07, 30/07, 31/07, 01/08, 02/08, 03/08 — 12 video liên tiếp mỗi ngày một bài, mỗi bài 25-36 phút (3.904-5.602 từ).",
+      "Khoảng nghỉ 4 ngày duy nhất rơi ngay trước bài 20260701_Why_Ancient_Humans_Couldn_t_Survive_Without_Grandparents.txt (1.513,3 view/ngày, nhóm TRÊN) — n=1, không kết luận được gì."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP KHÔNG LIÊN QUAN VIEW/NGÀY. Đăng cách 1 ngày hay 2 ngày cho kết quả như nhau trong cùng một kỳ.",
+     "so_lieu": "Kỳ DÀI: khoảng cách 1 ngày → trung vị 460,8 view/ngày (n=23); khoảng cách 2 ngày → trung vị 528,2 (n=12). Chênh 1,15 lần, không có ý nghĩa. Kỳ NGẮN: 1 ngày → 125,0 (n=13); 2 ngày → 42,9 (n=13) — chênh ngược chiều, càng cho thấy nhiễu.",
+     "trich": [
+      "Ba bài liên tiếp 23-24-25/07 (mỗi ngày 1 bài): 4.975,1 → 400,1 → 1.700,6 view/ngày. Cùng nhịp, chênh nhau 12 lần."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "VIEW/NGÀY TĂNG ĐỀU THEO THÁNG — nhưng nguyên nhân là ĐỔI ĐỊNH DẠNG + kênh ấm dần, không phải nhịp đăng (nhịp không đổi).",
+     "so_lieu": "Trung vị view/ngày theo tháng: T5 43,3 (21 bài, trung vị 1.343 từ) · T6 119,5 (18 bài) · T7 507,4 (22 bài, trung vị ~4.750 từ) · T8 1-5 732,6 (4 bài). Tăng 16,9 lần từ T5 sang T8. Trung vị số từ theo tháng nhảy vọt đúng ở 13/06.",
+     "trich": [
+      "Bài cuối kỳ NGẮN 20260612_How_Did_Ancient_Humans_Face_A_Terrifying_Death_In_The_Dark_.txt: 1.257 từ, 56,4 view/ngày. Bài đầu kỳ DÀI ngay hôm sau 20260613_The_CRAZIEST_Survival_Methods_Used_by_Ancient_Humans_During_.txt: 4.714 từ, 2.350,8 view/ngày — gấp 41,7 lần chỉ sau một ngày."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG THỂ KẾT LUẬN về 4 bài mới nhất (03/08 - 05/08). Chúng mới 3-5 ngày tuổi nên view/ngày còn đang ở đỉnh đường cong tăng trưởng ban đầu và sẽ tụt.",
+     "so_lieu": "4/65 bài có tuổi ≤7 ngày (20260801 tuổi 7 · 20260802 tuổi 6 · 20260803 tuổi 5 · 20260805 tuổi 3). Ba trong bốn bài này lọt nhóm TRÊN kỳ DÀI chỉ nhờ mẫu số nhỏ: bài 20260805 mới có 2.276 view tuyệt đối nhưng ra 758,7 view/ngày. Không nên dùng chúng làm bằng chứng cho bất cứ khuôn nào.",
+     "trich": [
+      "20260805_Why_Were_Ancient_Humans_Healthier_Than_Us_.txt: 2.276 view / 3 ngày = 758,7 view/ngày — xếp hạng 12/12 trong nhóm TRÊN kỳ DÀI, tức nằm sát ranh giới."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ]
+}

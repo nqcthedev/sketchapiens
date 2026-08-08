@@ -1,0 +1,578 @@
+{
+ "kenh": "BrightPsycho",
+ "so_bai": 96,
+ "view_ngay_cao": "Nhóm TRÊN nội bộ thời kỳ động vật (13/38 bài): trung vị 2.354,8 view/ngày · dải 886,4 → 16.815,4. (Nhóm trên của CẢ kênh 32/96: trung vị 468,6 · dải 10,0 → 16.815,4)",
+ "view_ngay_thap": "Nhóm DƯỚI nội bộ thời kỳ động vật (13/38 bài): trung vị 10,0 view/ngày · dải 2,6 → 23,6. (Nhóm dưới của CẢ kênh 32/96: trung vị 0,3 · dải 0,1 → 0,7)",
+ "gioi_han": "1) KÊNH ĐÃ ĐỔI NGHỀ GIỮA CHỪNG — đây là điều kiện tiên quyết để đọc mọi con số dưới đây. 58/96 bài (29/12/2025 → 28/05/2026) là kênh tâm lý self-help người-que (\"Stop Overthinking in 10 Seconds\", trung vị 86 view, trung vị 0,7 view/ngày). 38/96 bài (30/05/2026 → 05/08/2026) là kênh động vật/cấm kỵ ăn uống (trung vị 2.871 view, trung vị 117,4 view/ngày). Nếu chia ba CẢ kênh theo view/ngày thì nhóm trên 32/32 bài đều thuộc thời kỳ động vật và nhóm dưới 32/32 bài đều thuộc thời kỳ tâm lý — phép so đó chỉ tái hiện lại cú đổi nghề, không nói được gì về thủ pháp. Vì vậy TOÀN BỘ so sánh cao/thấp trong báo cáo này chạy NỘI BỘ thời kỳ động vật: 38 bài, nhóm trên 13 / nhóm dưới 13. Số của thời kỳ tâm lý (58 bài) chỉ dùng làm nền đối chiếu. 2) TỒN DƯ TUỔI ĐỜI: trong 38 bài thời kỳ động vật, đề tài lại tương quan với ngày đăng (5 bài \"Ancient Humans\" đều nằm ở 30/05–10/06, 15 bài \"cấm kỵ ăn uống\" đều từ 09/07 trở đi), nên \"lane thắng\" và \"kênh đang được đẩy mạnh hơn\" bị dính vào nhau. Tôi đã bóc riêng tháng 07/2026 (21 bài, cùng một khoảng thời gian) để cắt bớt tồn dư này — kết quả vẫn giữ nguyên thứ hạng lane, xem chiều 8. 3) 96 view/ngày tính tới 08/08/2026; ba bài mới nhất (02–05/08) tuổi 3–6 ngày nên view/ngày của chúng có sai số lớn. 4) Bản ghi là phụ đề tự động, thỉnh thoảng rụng chữ cái (\"the xact same\", \"can't alk\", \"Messiah people\" = Maasai). Tôi trích Y NGUYÊN cả lỗi. 5) Không có mốc chương (chapters) trong metadata của bất kỳ bài nào trong 96 — \"bộ xương chương\" ở chiều 5 là do tôi cắt bằng bộ mốc ngôn ngữ, không phải số liệu kênh công bố. 6) Không đo được CTR/retention/thumbnail — chỉ có lời đọc.",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~130 từ đầu)",
+   "phat_hien": [
+    {
+     "y": "Khuôn hook thắng: đặt người xem vào MỘT ĐỘNG TÁC CỤ THỂ HỌ SẼ LÀM TỐI NAY, với một đồ vật trong nhà bếp. Không phải \"hãy tưởng tượng\", mà là \"tối nay bạn sẽ\". Đo trên 45 từ đầu.",
+     "so_lieu": "Có chữ \"tonight/right now/today\" trong 45 từ đầu: 9/13 bài nhóm trên vs 2/13 bài nhóm dưới. Có đồ vật ăn uống trong nhà (fridge/plate/kitchen/dinner/pan/table/glass/sushi/breakfast/menu): 8/13 nhóm trên vs 1/13 nhóm dưới. Ở nhóm 58 bài thời kỳ tâm lý: 2/58 bài.",
+     "trich": [
+      "\"Tonight, you might order sushi without a second thought.\" — 20260729_Why_Do_We_Eat_Raw_Fish_But_Avoid_Raw_Meat_.txt (4.671 view/ngày)",
+      "\"Open your fridge right now.\" — 20260713_Why_Don_t_We_Drink_Any_Other_Animal_s_Milk_.txt (1.972 view/ngày)",
+      "\"Tonight, you'll pour a glass of milk without thinking twice.\" — 20260721_Why_Can_t_We_Drink_Predator_Milk_.txt (1.780 view/ngày)",
+      "\"You crack an egg into a pan every single morning without thinking twice about it.\" — 20260711_Why_Do_We_Only_Eat_Chicken_Eggs_.txt (4.829 view/ngày)",
+      "\"You open your fridge tonight. / Salmon, tuna, maybe cod. / Same five or six fish over and over.\" — 20260725_Why_Don_t_We_Eat_Most_Ocean_Fish_.txt (2.637 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Khuôn \"What if I told you...\" và \"Imagine...\" là khuôn của nhóm CHÌM. Nó đẩy người xem ra khỏi hiện tại, vào một thế giới giả định 50.000 năm trước.",
+     "so_lieu": "Câu đầu tiên mở bằng \"What if\" hoặc \"Imagine\": 0/13 bài nhóm trên vs 8/13 bài nhóm dưới (4 \"IMAGINE\" + 4 \"WHAT IF\"). Trên cả 38 bài thời kỳ động vật: 11/38.",
+     "trich": [
+      "\"What if I told you that 50,000 years ago an ancient human stood in the middle of a hunt, no spear in hand, no stone axe, no trap, and instead reached out and grabbed a bird.\" — 20260605_Ancient_Humans_Had_the_Perfect_Hunting_Partner...txt (3,5 view/ngày, 221 view)",
+      "\"Imagine this, you're living 50,000 years ago.\" — 20260530_Ancient_Humans_Healed_Infections_Using_This_One_Plant.txt (2,6 view/ngày, 182 view)",
+      "\"What if the very first thing a man ever did to impress a woman happened 50,000 years ago and you are still doing the xact same thing today without even realizing it?\" — 20260607_How_Did_Ancient_Humans_Impress_A_Girl_.txt (6,0 view/ngày)",
+      "\"Imagine sitting alone in a forest.\" — 20260625_Gorillas_Share_Their_Pain_With_Humans_.txt (4,4 view/ngày, 192 view)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "BÙ NHÌN RỒI ĐẬP — trong 12% đầu bài, dựng một cách hiểu phổ biến rồi hạ nó bằng một câu cụt. Đây là cơ chế tạo nợ tò mò mạnh nhất tìm được trong kho, và nó có gradient sạch qua cả ba nhóm.",
+     "so_lieu": "Có câu \"Most people assume/think...\" (hoặc biến thể) đặt ở 3–12% bài: 8/13 bài nhóm trên · 6/12 bài nhóm giữa · 1/13 bài nhóm dưới. Trên 58 bài thời kỳ tâm lý: 14/58 (0,34 lần/1000 từ).",
+     "trich": [
+      "\"Most people assume predators avoid each other out of some kind of respect, like there's an unwritten code among killers, a rule of honor between hunters. / That's not quite right. / The real reason is far colder than respect, and it might be one of the most brutal survival calculations in all of nature.\" — 20260724_Why_Don_t_Predators_Eat_Other_Predators_.txt (10.768 view/ngày)",
+      "\"Most people assume this is just a lazy shortcut, a crude animal way of eating. / But that is not quite right.\" — 20260730_Why_Do_Predators_Swallow_Meat_Whole_.txt (7.332 view/ngày)",
+      "\"Most people assume it's just about taste or tradition, but that's not the real reason.\" — 20260729_Why_Do_We_Eat_Raw_Fish_But_Avoid_Raw_Meat_.txt",
+      "\"Most people assume it is because those other fish taste bad.\" — 20260725_Why_Don_t_We_Eat_Most_Ocean_Fish_.txt",
+      "\"Most people assume all milk is basically the same stuff, just from different animals.\" — 20260721_Why_Can_t_We_Drink_Predator_Milk_.txt",
+      "\"Most people think frogs are smooth and safe.\" — 20260802_Why_Do_People_Eat_Frogs_But_Never_Toads_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "XƯNG \"YOU\" NGAY LẬP TỨC — nết tuyệt đối của kênh, KHÔNG phải bí quyết. Cả bài 504K lẫn bài 182 view đều xưng \"you\" trong 45 từ đầu.",
+     "so_lieu": "Có \"you/your\" trong 45 từ đầu: 12/13 bài nhóm trên · 11/13 bài nhóm dưới · 55/58 bài thời kỳ tâm lý. Tổng 78/96 bài toàn kênh.",
+     "trich": [
+      "\"You are standing at the top of the food chain. / You feel safe there. / Nothing hunts you.\" — 20260724_Why_Don_t_Predators_Eat_Other_Predators_.txt (161.520 view)",
+      "\"Imagine you're drowning. / The water is pulling you under. / You can't breathe.\" — 20260706_Why_Do_Animals_Save_Human_Lives_.txt (2.657 view)",
+      "\"You're not tired.\" — 20260111_Stop_Overthinking_in_10_Seconds_Simple_Brain_Trick.txt (1.055 view, thời kỳ tâm lý)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU HỎI LÕI rơi trong khoảng từ thứ 65–150 ở cả hai nhóm — vị trí KHÔNG phân biệt. Cái phân biệt là LOẠI câu hỏi: nhóm trên hỏi một câu đố thật (người xem không có sẵn đáp án), nhóm dưới hỏi một câu tu từ để người xem gật đầu.",
+     "so_lieu": "Từ thứ mấy xuất hiện dấu \"?\" đầu tiên: trung vị 125 (13 bài nhóm trên) vs trung vị ~87 (10/13 bài nhóm dưới có dấu ?; 3/13 bài nhóm dưới không có câu hỏi nào trong 130 từ đầu). Cả hai đều nằm gọn trong 45 giây đầu ở nhịp 153–163 wpm.",
+     "trich": [
+      "Câu đố thật: \"So, why doesn't anything eat you?\" (từ thứ 72) — 20260614_Why_Don_t_Wild_Animals_Eat_Sleeping_Humans_.txt (129.514 view)",
+      "Câu đố thật: \"So, why does one species version of that sit in your fridge as a breakfast staple while almost every other animal's version on this planet never comes anywhere near your plate?\" (từ thứ 90) — 20260711_Why_Do_We_Only_Eat_Chicken_Eggs_.txt",
+      "Câu tu từ: \"Sounds like a nightmare, right?\" (từ thứ 74) — 20260702_Which_Animal_Bite_Can_Kill_You_in_60_Seconds_.txt (822 view)",
+      "Câu tu từ: \"Sounds impossible, right?\" (từ thứ 87) — 20260704_Which_Insect_Sting_Can_Kill_You_in_Minutes_.txt (309 view)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG CÓ MỘT CÂU TỰ GIỄU NÀO trong toàn bộ 96 bài. Không \"tôi biết nghe điên rồ\", không \"chịu khó nghe tôi\", không xin lỗi trước. Người kể không bao giờ hạ mình.",
+     "so_lieu": "0/96 bài chứa \"I know this sounds\", \"sounds crazy/insane/weird\", \"bear with me\", \"stick with me\". Đây là số đếm toàn bộ kho.",
+     "trich": [
+      "(không có câu nào để trích — đây là phát hiện dạng KHÔNG CÓ, đếm trên 96/96 bài)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU đặt ở 7–14% bài là NẾT KÊNH ở thời kỳ động vật, KHÔNG phải bí quyết thắng — cả bài 504K lẫn bài 182 view đều có. NHƯNG cách viết lời hứa thì tách bạch rõ: nhóm trên hứa một CÚ BẺ LÁI ĐỀ TÀI (\"chuyện này không thật sự về X\"), nhóm dưới hứa một CẢM XÚC CHUNG CHUNG (\"sẽ thay đổi hoàn toàn cách bạn nghĩ\").",
+     "so_lieu": "Có câu hứa cuối bài: 6/13 nhóm trên · 8/13 nhóm dưới · 23/38 thời kỳ động vật · chỉ 6/58 thời kỳ tâm lý. Vị trí: 7–14% bài (28/28 lần đo được). Cách viết: \"isn't really about X\" 6/13 nhóm trên vs 1/13 nhóm dưới; \"completely change how you think/see\" 1/13 nhóm trên vs 6/13 nhóm dưới (và 0/58 ở thời kỳ tâm lý).",
+     "trich": [
+      "Nhóm trên: \"Stay till the end, because the last part of this story isn't really about animals.\" (ở 11% bài) — 20260724_Why_Don_t_Predators_Eat_Other_Predators_.txt",
+      "Nhóm trên: \"Stay with me till the end, because the last part of the story is about something you do every single day without ever noticing it.\" (8%) — 20260730_Why_Do_Predators_Swallow_Meat_Whole_.txt",
+      "Nhóm trên: \"Stay till the end because the last part explains something about your own body you've never been told.\" (10%) — 20260729_Why_Do_We_Eat_Raw_Fish_But_Avoid_Raw_Meat_.txt",
+      "Nhóm trên: \"Stay till the end because the real answer isn't about frogs or toads.\" (10%) — 20260802_Why_Do_People_Eat_Frogs_But_Never_Toads_.txt",
+      "Nhóm dưới: \"Stay till the end because the last part of this video will completely change how you think about love, attraction, and what it actually means to be human.\" (7%) — 20260607_How_Did_Ancient_Humans_Impress_A_Girl_.txt (373 view)",
+      "Nhóm dưới: \"Stay till the end because the last part of this video will completely change how you think about ancient humans and just how far ahead of their time they really were.\" (8%) — 20260605_Ancient_Humans_Had_the_Perfect_Hunting_Partner...txt (221 view)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — kho câu nối, re-hook, vòng tò mò",
+   "phat_hien": [
+    {
+     "y": "MỐC RE-HOOK 5 TỪ. Cứ ~250 từ lại có một câu cụt duy nhất làm bản lề: \"But here's what's fascinating.\" Nó không mang thông tin gì, chỉ báo \"sắp có cú lật\". Đây là kho câu dùng lại được ngay.",
+     "so_lieu": "Họ \"here's what's fascinating / here's the twist / here's the strange part / here's where it gets...\": 12/13 bài nhóm trên · 31 lần · 1,59 lần/1000 từ, so với 4/13 bài nhóm dưới · 8 lần · 0,53 lần/1000 từ. Trên 58 bài thời kỳ tâm lý chỉ 6/58 bài · 0,11 lần/1000 từ. Độ dài mốc: n=39, trung vị 5 từ, ngắn nhất 3 từ, dài nhất 22 từ. Riêng nguyên văn \"But here's what's fascinating.\" xuất hiện 9 lần trong 38 bài.",
+     "trich": [
+      "\"But here's what's fascinating.\" (9 lần trong 38 bài)",
+      "\"But here's the strange part.\" — 20260724 và 20260713",
+      "\"And here's the twist most people miss entirely.\" — 20260724_Why_Don_t_Predators_Eat_Other_Predators_.txt",
+      "\"Here's the twist, though.\" — 20260725_Why_Don_t_We_Eat_Most_Ocean_Fish_.txt",
+      "\"Now, here's where it gets personal, because you actually have your own version of this tradeoff, just at a much smaller scale.\" — 20260730_Why_Do_Predators_Swallow_Meat_Whole_.txt",
+      "\"Now, here's where it gets uncomfortable.\" — 20260711_Why_Do_We_Only_Eat_Chicken_Eggs_.txt",
+      "\"But, here's what's fascinating about your own anatomy.\" — 20260730_Why_Do_Predators_Swallow_Meat_Whole_.txt",
+      "\"So, here's the twist most people never expect.\" — 20260726_Why_Humans_Don_t_Eat_Predator_Meat_.txt",
+      "\"But hen, here's the twist that connects it all back to right now, tonight at your own dinner table.\" — 20260730_Why_Do_Predators_Swallow_Meat_Whole_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "ĐẢO PHỦ ĐỊNH \"That's not X.\" — câu 3–5 từ phủ nhận cách hiểu vừa gợi ra, rồi câu sau mới đưa cái đúng. Đây là mật độ khác biệt lớn nhất đo được giữa hai nhóm.",
+     "so_lieu": "Dòng bắt đầu bằng \"That's not... / This isn't... / It's not...\": 11/13 bài nhóm trên · 51 lần · 2,62 lần/1000 từ, so với 4/13 bài nhóm dưới · 9 lần · 0,60 lần/1000 từ (chênh 4,4 lần mật độ). Thời kỳ tâm lý: 28/58 bài · 1,07 lần/1000 từ.",
+     "trich": [
+      "\"That's not quite right.\" (3 lần trong 38 bài) — 20260724, 20260730, 20260706",
+      "\"This isn't a flaw.\" — 20260730_Why_Do_Predators_Swallow_Meat_Whole_.txt",
+      "\"That's not a coincidence.\" — 20260730_Why_Do_Predators_Swallow_Meat_Whole_.txt",
+      "\"It's not intelligence. / It's not laziness.\" — 20260730_Why_Do_Predators_Swallow_Meat_Whole_.txt",
+      "\"This isn't cruelty, it's economics, brutal evolutionary economics.\" — 20260724_Why_Don_t_Predators_Eat_Other_Predators_.txt",
+      "\"It's not about food, it's about eliminating rivals.\" — 20260724_Why_Don_t_Predators_Eat_Other_Predators_.txt",
+      "\"It's not random.\" / \"It's not magic.\" — 20260729_Why_Do_We_Eat_Raw_Fish_But_Avoid_Raw_Meat_.txt",
+      "\"That's not a counter example. / That's the rule confirming itself.\" — 20260709_Why_Can_t_We_Eat_Predator_Meat_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "RELAY CÂU HỎI — mỗi khi trả lời xong một tầng, mở dòng mới bằng \"So, why/what/how...\". Người xem không bao giờ hết nợ tò mò. Nhóm trên dùng gấp 3 lần mật độ nhóm dưới, và 13/13 bài đều dùng.",
+     "so_lieu": "Dòng bắt đầu bằng \"So, why / So, what / So, how\": 13/13 bài nhóm trên · 28 lần · 1,44 lần/1000 từ, so với 6/13 bài nhóm dưới · 8 lần · 0,53 lần/1000 từ. Ở 58 bài thời kỳ tâm lý: 0/58 bài · 0 lần (khuôn này sinh ra cùng lúc với việc đổi nghề).",
+     "trich": [
+      "Bài 46.706 view có 6 mốc relay ở 33% / 47% / 57% / 72% / 73% / 83%: \"So, what killed people for centuries before we understood this?\" · \"So why do fish carry any danger at all?\" · \"So how did humans figure out which raw fish was safe to eat?\" · \"So, what about mammal meat?\" · \"Why can't we just freeze that too and eat it raw?\" · \"Why do we eat one raw and not the other?\" — 20260729_Why_Do_We_Eat_Raw_Fish_But_Avoid_Raw_Meat_.txt",
+      "\"So, what's actually going on?\" (20%) · \"So, what happens when two apex predators are forced to share the same space with no clear winner?\" (61%) — 20260724_Why_Don_t_Predators_Eat_Other_Predators_.txt",
+      "\"So, what killed the need to chew in the first place?\" (18%) · \"So, what did predators lose in that rade?\" (65%) — 20260730_Why_Do_Predators_Swallow_Meat_Whole_.txt",
+      "\"So, why stop at reptiles?\" (33%) — 20260711_Why_Do_We_Only_Eat_Chicken_Eggs_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÂU NỐI CỰC NGẮN NGAY TRƯỚC FACT SỐC — một câu 2–6 từ không mang số, dựng khoảng lặng, rồi câu kế tiếp giáng con số xuống. Đây là nhịp \"hít vào — đấm\".",
+     "so_lieu": "Đếm được 19 cặp như vậy chỉ trong 8/13 bài nhóm trên (dừng đếm ở 22 cặp). Câu nối trung vị 3–4 từ.",
+     "trich": [
+      "\"This isn't rare.\" → \"Researchers Francisco Palomares and Tim Caro studied this exact pattern across dozens of carnivore species in 1999, and they found something surprising.\" — 20260724",
+      "\"That's not bad manners.\" → \"That's 10,000 generations of ancestors who learned that a slow eater is a dead eater.\" — 20260730",
+      "\"Not even close.\" → \"In 2011, researchers tracking foodborne illness found something strange.\" — 20260729",
+      "\"Its intestines lengthen.\" → \"Its metabolism spikes over 40-fold just to power the digestion of that one massive meal.\" — 20260730",
+      "\"They multiplied.\" → \"Today, there are an estimated 200 million cane toads spread across Australia.\" — 20260802",
+      "\"That's it.\" → \"10,000 options.\" — 20260715_Why_Can_t_We_Eat_Wild_Bird_Meat_.txt",
+      "\"Light, easy, familiar.\" → \"Lion milk is closer to 10% fat.\" — 20260721",
+      "\"Here's why.\" → \"A baby seal has 30 days, sometimes less, to build enough blubber to survive freezing water.\" — 20260721"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "VÒNG TÒ MÒ MỞ SỚM — ĐÓNG MUỘN (cắm một câu hỏi ở đầu rồi quay lại trả lời ở giữa/cuối) GẦN NHƯ KHÔNG TỒN TẠI ở cả hai nhóm. Kênh này không dùng vòng tò mò dài; nó dùng chuỗi vòng ngắn nối đuôi nhau (relay câu hỏi ở trên).",
+     "so_lieu": "Câu đóng vòng kiểu \"remember that... / which brings us back / earlier I said\": 3/13 bài nhóm trên · 3 lần · 0,15 lần/1000 từ, so với 2/13 bài nhóm dưới · 2 lần · 0,13 lần/1000 từ. Thời kỳ tâm lý 3/58 bài. Chênh lệch không đáng kể → không phải biến phân biệt.",
+     "trich": [
+      "\"Which brings us back to the real mystery.\" (36%) — 20260805_Why_Don_t_Predators_Attack_Sleeping_Prey_.txt",
+      "\"Which brings us back to where we started.\" (95%) — 20260715_Why_Can_t_We_Eat_Wild_Bird_Meat_.txt",
+      "\"We will come back to that.\" (27%) — 20260728_Why_Do_Predators_Kill_Other_s_Babies_.txt (1.551 view)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MỞ DÒNG BẰNG \"But\" / \"And\" / \"Now,\" là NẾT VĂN của kênh ở mọi thời kỳ, KHÔNG phải bí quyết. Mật độ gần như trùng khít giữa nhóm thắng và nhóm chìm — nếu chỉ nhìn cái này sẽ tưởng tìm ra công thức.",
+     "so_lieu": "Dòng mở bằng \"And\": 4,77 lần/1000 từ (13/13 bài nhóm trên) vs 4,54 lần/1000 từ (12/13 bài nhóm dưới). Dòng mở bằng \"But\": 2,36 vs 2,67 lần/1000 từ. Dòng mở bằng \"Now,\": 0,97 (10/13 bài) vs 0,93 (9/13 bài). Ở thời kỳ tâm lý còn dày hơn cả hai: \"And\" 7,78 lần/1000 từ, 53/58 bài — mà thời kỳ đó trung vị 0,7 view/ngày.",
+     "trich": [
+      "\"And yet, almost none of them eat what they kill.\" — 20260724 (161.520 view)",
+      "\"And most of us never even knew it was still running.\" — 20260802 (9.522 view)",
+      "\"And knowing that difference might just be the thing that keeps you\" — 20260704 (309 view)",
+      "\"And somewhere deep inside every single person alive today, it is still there, waiting, ready, the same as it has always been.\" — 20260610 (329 view)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180 từ cuối)",
+   "phat_hien": [
+    {
+     "y": "CÚ LẬT \"CHUYỆN NÀY KHÔNG PHẢI VỀ CON VẬT — LÀ VỀ BẠN\" đặt ở khoảng 85% bài. Đây là phát hiện tách bạch nhất của cả chiều 3: nhóm trên gần như bài nào cũng có, nhóm dưới KHÔNG BÀI NÀO có.",
+     "so_lieu": "Có câu bẻ lái sang người xem trong 40–100% cuối bài: 9/13 bài nhóm trên (vị trí trung vị 85% bài) vs 0/13 bài nhóm dưới. 4 bài nhóm trên còn lại (20260709, 20260711, 20260614, 20260805) bẻ lái bằng cách khác — xem trích.",
+     "trich": [
+      "\"It's about you.\" (67%) — 20260725_Why_Don_t_We_Eat_Most_Ocean_Fish_.txt",
+      "\"And here's where it gets personal, because you do this too, every single day.\" (68%) — 20260802_Why_Do_People_Eat_Frogs_But_Never_Toads_.txt",
+      "\"This isn't really about fish or meat at all.\" (85%) — 20260729_Why_Do_We_Eat_Raw_Fish_But_Avoid_Raw_Meat_.txt",
+      "\"And you, you've spent your entire life drinking a message meant for a baby cow.\" (86%) — 20260721_Why_Can_t_We_Drink_Predator_Milk_.txt",
+      "\"Maybe the bigger takeaway here isn't really about milk at all.\" (92%) — 20260713_Why_Don_t_We_Drink_Any_Other_Animal_s_Milk_.txt",
+      "\"And somewhere in your own life, whether you've noticed it or not, you've probably done the exact same math.\" (99%) — 20260724_Why_Don_t_Predators_Eat_Other_Predators_.txt",
+      "\"What does it say about your own life and your own history that you got to evolve into a species that chew slowly at a table with your guard fully down.\" (76%) — 20260730_Why_Do_Predators_Swallow_Meat_Whole_.txt",
+      "Bẻ lái kiểu khác (bài 504K): \"The wolf was never on the menu. / The map decided that a very long time ago.\" — 20260709_Why_Can_t_We_Eat_Predator_Meat_.txt",
+      "Bẻ lái kiểu khác (bài 129K): \"Humans are not prey. / Humans are something else entirely. / Sleep well.\" — 20260614_Why_Don_t_Wild_Animals_Eat_Sleeping_Humans_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÂU ĐỊNH DANH NGƯỜI XEM Ở HAI DÒNG CUỐI — kết bằng \"you/your\" chứ không kết bằng con vật hay loài người nói chung.",
+     "so_lieu": "Có \"you/your\" trong 2 câu cuối cùng: 9/13 bài nhóm trên vs 4/13 bài nhóm dưới.",
+     "trich": [
+      "\"You're not eating the best one. / You're eating the one your ancestors happened to pick first.\" — 20260711_Why_Do_We_Only_Eat_Chicken_Eggs_.txt (135.214 view)",
+      "\"You're not fully built for cow milk either. / You just happen to carry the mutation that lets you get away with\" — 20260721_Why_Can_t_We_Drink_Predator_Milk_.txt",
+      "\"The bear never had that choice. / You still do.\" — 20260726_Why_Humans_Don_t_Eat_Predator_Meat_.txt",
+      "\"The forest never got safer. / You just never stopped standing guard.\" — 20260805_Why_Don_t_Predators_Attack_Sleeping_Prey_.txt",
+      "\"Someone else decided that for you, and you've been living by that decision ever since.\" — 20260804_Why_Do_We_Eat_Shrimp_But_Not_Cockroaches_.txt",
+      "\"You're both just running old code you never wrote.\" — 20260719_Why_Don_t_We_Eat_Crocodile_Meat_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "\"NEXT TIME YOU...\" đặt ở 89–99% bài là NẾT KÊNH ở thời kỳ động vật, không phải bí quyết — nhóm chìm cũng dùng, và bài 309 view dùng y hệt bài 135K view.",
+     "so_lieu": "Có câu \"next time you...\": 7/13 bài nhóm trên vs 4/13 bài nhóm dưới vs 3/12 nhóm giữa (tổng 14/38 bài thời kỳ động vật). Thời kỳ tâm lý 9/58 bài. Vị trí: 89–99% bài ở 14/14 lần đo được.",
+     "trich": [
+      "Bài 135K view: \"Next time you crack an egg into a pan, remember you're not eating the safest one.\" (99%) — 20260711",
+      "Bài 51K view: \"The next time you pour a glass of it's worth remembering that somewhere on the planet someone is doing the exact same thing with milk from an animal you've never even considered drinking from.\" (98%) — 20260713",
+      "Bài 822 view: \"So, the next time you're walking through grass, reaching under a rock, or slipping on your shoes without checking first, remember this video because sometimes the smallest things carry the biggest consequences.\" (93%) — 20260702",
+      "Bài 638 view: \"So, next time you're in that tent and feel a pulse of ancient anxiety in the dark, good.\" (98%) — 20260620",
+      "Bài 192 view: \"The next time you feel like your pain is invisible.\" (89%) — 20260625"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHỐT MẠNH, KHÔNG HẠ NHIỆT, KHÔNG CHÀO. Câu cuối là một câu tuyên bố cụt quay lại đúng đồ vật/con vật của hook. Không có \"see you in the next one\", không mồi video kế ở nhóm thắng.",
+     "so_lieu": "Câu cuối cùng: trung vị 11 từ ở nhóm trên, 6/13 bài có câu cuối ≤10 từ; nhóm dưới trung vị 13 từ, chỉ 2/13 bài ≤10 từ. Câu áp chót: trung vị 7 từ (nhóm trên) vs 9 từ (nhóm dưới). Mồi video kế / lời chào tạm biệt: 0/13 bài nhóm trên vs 2/13 bài nhóm dưới. (Đối chiếu: thời kỳ tâm lý kết rất cụt — trung vị 6 từ, 43/58 bài ≤10 từ — mà vẫn chìm, nên \"kết cụt\" một mình không cứu được gì.)",
+     "trich": [
+      "\"The wolf was never on the menu. / The map decided that a very long time ago.\" — 20260709 (504.462 view)",
+      "\"The lion never wanted the hyena's meat. / It just wanted the grassland to itself.\" — 20260724 (161.520 view)",
+      "\"Somewhere along the way something decided for you which ones counted.\" — 20260725 (36.920 view)",
+      "\"The forest never got safer. / You just never stopped standing guard.\" — 20260805",
+      "Nhóm dưới, mồi video kế: \"In my next video, we are exploring a chilling phenomenon. / Why do predators react with extreme aggression to the sound of a human baby crying? / Is it a hunting trigger or something far more disturbing? / Make sure you're subscribed so you don't miss that deep dive. / Stay curious, stay alert, and I'll see you in the next one.\" — 20260630_Why_Predators_Hunt_Humans_While_Others_Run_.txt (569 view)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CALLBACK TỪ KHOÁ CỦA HOOK VỀ ĐOẠN KẾT là NẾT KÊNH — cả ba nhóm đều làm gần bằng nhau. Đừng nhầm đây là bí quyết.",
+     "so_lieu": "Có ít nhất một từ khoá nội dung của 3 câu đầu xuất hiện lại trong 4 câu cuối: 7/13 bài nhóm trên · 9/12 bài nhóm giữa · 8/13 bài nhóm dưới.",
+     "trich": [
+      "Nhóm trên — hook \"You crack an egg into a pan\" → kết \"Next time you crack an egg into a pan, remember you're not eating the safest one.\" — 20260711",
+      "Nhóm dưới — hook \"Imagine this, you're living 50,000 years ago. / No hospitals, no doctors, no pills.\" → kết \"The aspirin in your medicine cabinet, a willow tree, the morphine in a hospital, an ancient poppy field...\" — 20260530 (182 view)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KẾT TRIẾT LÝ MỞ BẰNG \"maybe\" là dấu hiệu của nhóm CHÌM. Nhóm thắng chốt bằng khẳng định, không bằng \"có lẽ\".",
+     "so_lieu": "Có \"maybe\" trong 3 câu cuối: 0/13 bài nhóm trên vs 2/13 bài nhóm dưới. Mở rộng ra cả nhóm giữa và dưới của thời kỳ động vật thì kiểu kết \"Maybe that says more about...\" xuất hiện ở 5 bài, không bài nào vượt 705 view/ngày.",
+     "trich": [
+      "\"And maybe that's the part evolution never accounted for. / That somewhere between instinct and choice, there's a version of love that doesn't ask what species you belong to before decides to save you.\" — 20260710_Why_Do_Some_Animals_Adopt_Babies_From_Other_Species_.txt (1.431 view)",
+      "\"And maybe that says less about how smart they are and more about what kind of mind is even capable of trust in the first place.\" — 20260717_Why_Wild_Animals_Secretly_Ask_Humans_To_Help_Them_.txt (3.878 view)",
+      "\"And maybe the most mind-blowing thing of all, the most effective painkiller they had wasn't a plant or a ritual or a technique, it was simply not being alone.\" — 20260530 (182 view)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ / LIKE / COMMENT",
+   "phat_hien": [
+    {
+     "y": "PHÁT HIỆN LỚN: BÀI THẮNG KHÔNG XIN GÌ CẢ. Trong 13 bài đầu bảng của thời kỳ động vật, KHÔNG MỘT BÀI NÀO có một chữ subscribe / like / comment. Bài 504.462 view không xin đăng ký lấy một lần.",
+     "so_lieu": "Đếm chính xác trên toàn kho: 0/13 bài nhóm trên có bất kỳ CTA nào. Cả thời kỳ động vật chỉ 2/38 bài có CTA — và cả hai đều nằm ở nhóm dưới (822 view và 569 view). Trên toàn 96 bài, 25/96 bài có CTA, trong đó 23/58 thuộc thời kỳ tâm lý (thời kỳ trung vị 0,7 view/ngày).",
+     "trich": [
+      "Bài 822 view, đúng dòng cuối cùng (100% bài): \"Hit like, drop a comment telling us which one scared you the most, and subscribe because next time we're uncovering something even wilder that most people have never heard of.\" — 20260702_Which_Animal_Bite_Can_Kill_You_in_60_Seconds_.txt",
+      "Bài 569 view, chèn CTA giữa bài ở 23% rồi lặp ở 98%: \"If you want to master the secrets of the natural world, knowledge that could literally save your life one day, hit that subscribe button right now and...\" · \"Make sure you're subscribed so you don't miss that deep dive.\" — 20260630_Why_Predators_Hunt_Humans_While_Others_Run_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "CTA CỦA THỜI KỲ CŨ LUÔN DÁN Ở ĐUÔI, 94–101% BÀI, TÁCH RỜI HẲN NỘI DUNG — một mẫu câu duy nhất copy-paste qua hàng chục bài. Cả thời kỳ đó chết (trung vị 86 view).",
+     "so_lieu": "28 lần CTA trong 23/58 bài thời kỳ tâm lý. Vị trí: 28/28 lần nằm ở 94–101% bài, không lần nào chèn giữa. Mẫu \"And if you want content every week that actually helps you understand your mind, hit subscribe\" và biến thể sát nghĩa lặp ở 7/23 bài.",
+     "trich": [
+      "\"And if you want content every week that actually helps you build a stronger, calmer, sharper mind, hit subscribe.\" (98%) — 20260430_Do_This_Before_Bed_Wake_Up_Happy_8_Second_Trick_.txt",
+      "\"And if you want weekly content hat actually helps you understand your mind, hit subscribe.\" (99%) — 20260504_The_Night_Habit_That_Makes_You_Wake_Up_Happy_in_10_second.txt",
+      "\"If you're trying the jaw reset today, comment jaw relax and subscribe for more stick figure brain tools that build calm, focus, discipline, and emotio...\" (98%) — 20260131_Relax_Your_JAW_in_3_Seconds_with_this_Simple_Trick.txt",
+      "\"If this freed you, smash like.\" (94%) · \"Subscribe for more mind resets that work.\" (95%) — 20260208_Calm_on_Sundays_Is_Meditation_Really_Better_Than_Deep_Breath.txt (15 view — bài thấp nhất kênh)",
+      "\"Subscribe for more tools that turn chaos into control.\" (100%) — 20251229_Do_This_for_20_Seconds_to_Reset_Your_Mind.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "KHÔNG CÓ BẤT KỲ CTA NÀO GẮN VÀO NỘI DUNG (kiểu \"nếu bạn cũng thấy vậy thì comment\") trong 96 bài. CTA hoặc là khối copy-paste ở đuôi, hoặc là không có gì.",
+     "so_lieu": "31 dòng CTA đếm được trong 96 bài; 30/31 dòng nằm ở ≥94% bài, 1/31 dòng nằm ở 23% bài (bài 569 view). 0/31 dòng có liên hệ nội dung với đoạn đứng trước nó.",
+     "trich": [
+      "Ví dụ CTA giữa bài duy nhất, và nó vẫn tách rời: \"If you want to master the secrets of the natural world, knowledge that could literally save your life one day, hit that subscribe button right now and...\" (23%) — 20260630"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "phat_hien": [
+    {
+     "y": "BÀI THẮNG DÀI HƠN VÀ CHIA NHỎ HƠN. Nhóm trên chạy ~1.460 từ / 9–10 phút / 6 mốc chương; nhóm dưới ~1.100 từ / 7 phút / 4 mốc chương. Cùng lúc nhóm trên đọc CHẬM hơn.",
+     "so_lieu": "Từ trung vị: 1.461 (13 bài nhóm trên) · 1.436 (12 bài nhóm giữa) · 1.103 (13 bài nhóm dưới). Thời lượng trung vị: 9 phút vs 9 phút vs 7 phút. Nhịp đọc trung vị: 153 wpm vs 153 vs 163 wpm. Số câu/bài trung vị: 122 vs 122 vs 85. Số mốc chương trung vị: 6 vs — vs 4. Từ/chương: 145–545 (nhóm trên, trung vị ~211) vs 159–1.367 (nhóm dưới, trung vị ~262).",
+     "trich": [
+      "Bài 65.984 view: 2.085 từ, 13:04, 9 mốc chương, 231 từ/chương — 20260730_Why_Do_Predators_Swallow_Meat_Whole_.txt",
+      "Bài 46.706 view: 1.306 từ, 8:32, 9 mốc chương, 145 từ/chương, 11 câu hỏi — 20260729_Why_Do_We_Eat_Raw_Fish_But_Avoid_Raw_Meat_.txt",
+      "Bài 569 view: 1.367 từ, 9:14, chỉ 1 mốc chương duy nhất trên cả bài — 20260630_Why_Predators_Hunt_Humans_While_Others_Run_.txt",
+      "Bài 638 view: 987 từ, 7:03, 2 mốc chương, 493 từ/chương — 20260620_Why_Not_Predators_Attack_Sleeping_Humans_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CHƯƠNG 1 LUÔN LÀ \"CÂU HỎI HIỂN NHIÊN\", ĐẶT Ở 6–17% BÀI. Nó cố ý trả lời cái mà người xem đã đoán trước, để rồi bác nó ở chương 2.",
+     "so_lieu": "Có mốc \"Let's start with...\" ở 6–19% bài: 7/13 bài nhóm trên · 4/12 nhóm giữa · 2/13 nhóm dưới. Riêng nguyên văn \"the obvious question\": 4/13 nhóm trên · 1/12 nhóm giữa · 0/13 nhóm dưới.",
+     "trich": [
+      "\"Let's start with e math, because the math alone almost settles this argument by itself.\" (15%) — 20260709 (504K view)",
+      "\"Let's start with a scene most people never think about.\" (12%) — 20260724 (161K view)",
+      "\"Let's start with the obvious question.\" (8%) — 20260730 · và (9%) — 20260725 · và (15%) — 20260805",
+      "\"Let's start with a question most people never ask.\" (6%) — 20260713",
+      "\"Let's start with fat. / Cow milk is about 4% fat.\" (viết trong bản ghi là \"Let's tart with fat.\") — 20260721"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "ĐỌC THÀNH LỜI NHÃN CHƯƠNG \"ACT ONE / ACT TWO / ACT THREE\" LÀ DẤU HIỆU CỦA NHÓM CHÌM. Khuôn 3 hồi cứng nhắc chia bài thành 3 khối 20%/40%/65% — nó chết cùng lane \"Ancient Humans\".",
+     "so_lieu": "Có \"Act one/two/three\" đọc thành lời: 1/13 bài nhóm trên · 3/12 nhóm giữa · 6/13 bài nhóm dưới (14 lần, 0,93 lần/1000 từ so với 0,10 ở nhóm trên). Vị trí gần như bất biến: hồi 1 ở 18–24%, hồi 2 ở 38–49%, hồi 3 ở 62–71%. LƯU Ý: 1 bài nhóm trên (129.514 view) vẫn dùng khuôn này → không phải thứ giết bài, chỉ là tương quan.",
+     "trich": [
+      "\"Act one, the parrot that asked a question.\" (18%) · \"Act two, the apes who learned to sign.\" (40%) · \"Act three, the elephant, the whale, and the seal.\" (62%) — 20260602_Did_Ancient_Humans_Talk_To_Animals_.txt (670 view)",
+      "\"Act one, prove you can provide.\" (18%) · \"Act two, show off your body and your bravery.\" (43%) — 20260607_How_Did_Ancient_Humans_Impress_A_Girl_.txt (373 view)",
+      "\"Act one, what happened to rphans in the ancient world?\" (21%) · \"Act two, how it actually worked.\" (42%) · \"Act three, the deeper reason.\" (67%) — 20260610_Why_Did_Ancient_Humans_Raise_Other_Kids_.txt (329 view)",
+      "Ngoại lệ ở nhóm trên: \"Act one, you don't compute.\" (18%) · \"Act two, the lesson written in blood.\" (49%) — 20260614_Why_Don_t_Wild_Animals_Eat_Sleeping_Humans_.txt (129.514 view)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "THỨ TỰ LEO THANG CỐ ĐỊNH Ở BÀI THẮNG: (1) hiện tượng thường ngày → (2) câu hỏi hiển nhiên + đáp án hiển nhiên → (3) bác đáp án hiển nhiên → (4) cơ chế sinh học/kinh tế thật, có số → (5) ngoại lệ và tại sao ngoại lệ vẫn xác nhận luật → (6) bẻ lái về người xem ở ~85%.",
+     "so_lieu": "Đo trên 3 bài đầu bảng: bài 504K có mốc ở 5% / 12% / 15% / 67% / 91%; bài 161K có 7 mốc ở 1% / 9% / 12% / 20% / 32% / 61% / 80%; bài 66K có 8 mốc ở 8% / 11% / 18% / 21% / 39% / 65% / 71% / 97%. Bước \"ngoại lệ vẫn xác nhận luật\" xuất hiện ở 67–80% bài trong 2/3 bài này.",
+     "trich": [
+      "\"Now, the rule isn't completely absolute.\" (67%) → \"That's not a counter example. / That's the rule confirming itself.\" (73%) — 20260709_Why_Can_t_We_Eat_Predator_Meat_.txt",
+      "\"So, what happens when two apex predators are forced to share the same space with no clear winner?\" (61%) — 20260724",
+      "\"So, the real answer was never just one thing.\" (91%) — 20260709"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÚ LẬT LỚN NHẤT nằm ở 85% bài (trung vị của 9 bài đo được ở nhóm trên) — tức khoảng 1 phút 20 giây trước khi hết video 9 phút. Nhóm dưới không có mốc này ở đâu cả.",
+     "so_lieu": "9/13 bài nhóm trên có cú lật, vị trí 67% / 68% / 76% / 77% / 85% / 86% / 92% / 95% / 99%, trung vị 85%. 0/13 bài nhóm dưới.",
+     "trich": [
+      "\"Now, here's where it gets personal, because you actually have your own version of this tradeoff, just at a much smaller scale.\" (39%, rồi lặp cú lật ở 76%) — 20260730",
+      "\"And here's where it gets personal, because you do this too, every single day.\" (68%) — 20260802"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "SỐ CÂU HỎI/BÀI KHÔNG PHÂN BIỆT — trung vị 4 câu hỏi ở CẢ nhóm trên lẫn nhóm dưới. Cái phân biệt là câu hỏi có được RẢI ĐỀU làm bản lề chương hay không, chứ không phải số lượng.",
+     "so_lieu": "Số dòng kết thúc bằng \"?\": trung vị 4 (nhóm trên, dải 2–12) và trung vị 4 (nhóm dưới, dải 0–7). Nhưng dòng MỞ ĐẦU bằng \"So, why/what/how\" thì chênh gấp 3 (xem chiều 2).",
+     "trich": [
+      "Nhóm dưới có 6 câu hỏi mà vẫn 569 view: 20260630_Why_Predators_Hunt_Humans_While_Others_Run_.txt",
+      "Nhóm trên có 2 câu hỏi mà 504.462 view: 20260709_Why_Can_t_We_Eat_Predator_Meat_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG",
+   "phat_hien": [
+    {
+     "y": "CÔNG THỨC CHUYỂN CHƯƠNG BA NHỊP, DÙNG ĐI DÙNG LẠI: (a) câu cụt đóng chương cũ · (b) MỐC 5 TỪ không mang thông tin · (c) câu mở chương mới ném ngay dữ kiện. Đây là khối lắp ráp có thể chép nguyên.",
+     "so_lieu": "39 mốc chuyển đo được trong 38 bài thời kỳ động vật; độ dài mốc trung vị 5 từ (ngắn nhất 3, dài nhất 22).",
+     "trich": [
+      "(a) \"Nothing dares to touch you.\" → (b) \"But here's the strange part.\" → (c) \"You are surrounded by other hunters just like you, and they are close, closer than you think.\" — 20260724 (161K view)",
+      "(a) \"Sometimes you have to erase them.\" → (b) \"But here's what's fascinating.\" → (c) \"If it's really about competition, why not eat he body afterward?\" — 20260724",
+      "(a) \"On the surface, this looks like nature being messy, inefficient, almost embarrassing.\" → (b) \"But here's what's fascinating.\" → (c) \"This isn't a flaw.\" — 20260730 (66K view)",
+      "(a) \"It's just what milk is.\" → (b) \"But, here's the strange part.\" → (c) \"Humans have drunk the milk of at least eight different animals throughout history, and cow milk isn't even the most nutr...\" — 20260713 (51K view)",
+      "(a) \"They live coiled inside fish muscle waiting.\" → (b) \"But here's the twist.\" → (c) \"These worms are adapted to survive inside cold-blooded hosts, seals, whales, other sea creatures, not humans.\" — 20260729",
+      "(a) \"Basically invisible.\" → (b) \"But here's what's fascinating.\" → (c) \"That small fish gets eaten by a bigger fish.\" — 20260726",
+      "(a) \"You're tasting a business decision made generations before you were born.\" → (b) \"Here's the twist, though.\" → (c) \"That template can change.\" — 20260725"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÂU ĐÓNG CHƯƠNG MÓC SANG CHƯƠNG SAU BẰNG CỤM \"THE REAL REASON / THE REAL ANSWER\" — hứa rằng cái vừa nói CHƯA phải đáp án. Nhóm trên dùng gấp 10 lần nhóm dưới.",
+     "so_lieu": "Cụm \"the real/bigger/biggest/deeper/actual reason|problem|answer|story\": 10/13 bài nhóm trên · 15 lần · 0,77 lần/1000 từ, so với 1/13 bài nhóm dưới · 1 lần · 0,07 lần/1000 từ. Nhóm giữa 6/12 bài. Thời kỳ tâm lý 6/58 bài.",
+     "trich": [
+      "\"The real reason is far colder than respect, and it might be one of the most brutal survival calculations in all of nature.\" (9%) — 20260724",
+      "\"Because the real answer isn't really about predators at all.\" (6%) → \"So, the real answer to why predators swallow meat whole isn't really about jaws or acid or metabolism.\" (96%) → \"The real answer is about what an animal's world demands of it.\" (97%) — 20260730",
+      "\"The real reason is stranger and darker.\" (5%) — 20260725",
+      "\"The real reason is buried inside your own biology and inside a war between you and invisible killers you can't see.\" (7%) — 20260729",
+      "\"But that's not the real reason. / The real reason is hiding inside the predator's own body.\" (8–9%) — 20260726",
+      "\"But cost isn't even the biggest problem.\" (29%) · \"So, the real answer was never just one thing.\" (91%) — 20260709",
+      "\"And once it's installed, it almost never gets uninstalled, which brings us to the real answer.\" (76%) — 20260711"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "MỞ CHƯƠNG PHỤ BẰNG \"THERE'S ANOTHER... / ONE MORE...\" — báo cho người xem biết còn tầng nữa, giữ họ qua mốc 50%. Chỉ nhóm trên dùng.",
+     "so_lieu": "5/13 bài nhóm trên · 6 lần · 0,31 lần/1000 từ, so với 0/13 bài nhóm dưới · 0 lần. Nhóm giữa 1/12 bài. Thời kỳ tâm lý 1/58 bài.",
+     "trich": [
+      "\"And then, there's disease.\" — 20260709_Why_Can_t_We_Eat_Predator_Meat_.txt",
+      "\"The differences don't stop at fat and immunity.\" — 20260721_Why_Can_t_We_Drink_Predator_Milk_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "MỐC CHUYỂN CHƯƠNG DẠNG \"CÂU HỎI THAY TIÊU ĐỀ\" — thay vì đọc tên chương, họ đặt một câu hỏi mới. Đây là cách nhóm trên thay thế khuôn \"Act one/two/three\" của nhóm dưới.",
+     "so_lieu": "Trung bình mỗi bài nhóm trên có 2,2 mốc \"So, why/what/how\" (28 lần / 13 bài) so với 0,6 ở nhóm dưới (8 lần / 13 bài). Vị trí các mốc trải từ 8% tới 83% bài.",
+     "trich": [
+      "\"So, what killed the need to chew in the first place?\" (18%) — 20260730",
+      "\"So, what did predators lose in that rade?\" (65%) — 20260730",
+      "\"So, why stop at reptiles?\" (33%) — 20260711",
+      "\"So, what killed people for centuries before we understood this?\" (33%) — 20260729",
+      "\"So, what about mammal meat?\" (72%) — 20260729",
+      "\"So, what happened? / Why did we go all in on a handful of birds and just quit on the other 99.9%?\" — 20260715"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "phat_hien": [
+    {
+     "y": "MẬT ĐỘ MỎ NEO KHOA HỌC LÀ NẾT CỦA THỜI KỲ ĐỘNG VẬT, KHÔNG PHẢI BÍ QUYẾT THẮNG. Bài 504K và bài 182 view đều rắc \"researchers\", \"scientists\", tên địa danh với mật độ gần bằng nhau. Đây đúng là chỗ dễ tưởng nhầm nhất trong cả báo cáo.",
+     "so_lieu": "\"research/researchers\": 10/13 bài nhóm trên · 1,03 lần/1000 từ vs 10/13 bài nhóm dưới · 1,53 lần/1000 từ (nhóm DƯỚI còn dày hơn). \"scientists\": 10/13 · 0,92 vs 6/13 · 1,13. Tên tạp chí/đại học/viện: 9/13 · 0,87 vs 10/13 · 1,13. Tên địa danh cụ thể: 10/13 · 0,92 vs 8/13 · 1,27. Không có chỉ số nào trong bốn cái này nghiêng về nhóm thắng.",
+     "trich": [
+      "Nhóm trên: \"In 1942, an ecologist named Raymond Lindeman worked out something that would later be called the 10% rule.\" (16%) — 20260709 (504K view)",
+      "Nhóm dưới, dày y hệt: \"A 2018 study published in Science found that animals across six continents had become significantly more nocturnal in response to human activity, not because of habitat destruction, simply because humans were around.\" — 20260616_Why_Are_This_Animals_Fear_Of_Humans_.txt (2.691 view)",
+      "Nhóm dưới: \"In 2016, researchers at Brown University decided to test exactly that.\" (65%) — 20260805"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHỖ THẬT SỰ KHÁC: NĂM CỤ THỂ. Nhóm trên neo bằng MỐC NĂM (1942, 1972, 1999, 2011, 1914) chứ không chỉ bằng chữ \"scientists\". Nhóm dưới neo bằng \"50.000 năm trước\" — một con số không kiểm chứng được và không tạo cảm giác hồ sơ.",
+     "so_lieu": "Có năm cụ thể dạng 18xx–20xx: 10/13 bài nhóm trên · 16 lần · 0,82 lần/1000 từ, so với 4/13 bài nhóm dưới · 7 lần · 0,47 lần/1000 từ. Ngược lại \"X years ago\": 6/13 nhóm trên · 0,36 lần/1000 từ vs 4/13 nhóm dưới · 0,60 lần/1000 từ. Toàn bộ 58 bài thời kỳ tâm lý: 0/58 bài có năm cụ thể, 0/58 bài có tên địa danh.",
+     "trich": [
+      "\"Researchers Francisco Palomares and Tim Caro studied this exact pattern across dozens of carnivore species in 1999, and they found something surprising.\" (18%) — 20260724",
+      "\"Biologist Jose Feghali studied this among coyotes, foxes, and bobcats in California back in 2000.\" (27%) — 20260724",
+      "\"The last passenger pigeon on Earth, a bird named Martha, died alone in captivity in 1914.\" (56%) — 20260711",
+      "\"A landmark study by researchers Ransom Myers and Boris Worm in 2003 estimated that industrial fishing had wiped out roughly 90% of large predatory fish populations since the mid-20th century.\" (62%) — 20260725",
+      "\"In 2010, researchers led by Jérôme Regier published a study in the journal Nature that reshaped how scientists see this family tree.\" (11%) — 20260804",
+      "\"In 1987, Rozin and psychologist April Fallon published a paper in the journal Psychological Review called A Perspective on Disgust.\" (24%) — 20260804",
+      "\"Bald eagle populations in the continental United States dropped to under a thousand nesting pairs before DDT was finally banned in 1972.\" (44%) — 20260709"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "HEDGE MỀM (might/may/probably/likely) DÀY NHƯ NHAU Ở CẢ HAI NHÓM — nết kênh. Nhóm giữa còn dày gấp đôi nhóm trên mà view/ngày thấp hơn 20 lần.",
+     "so_lieu": "\"might/may/probably/likely/possibly/perhaps/maybe/seems/appears to\": 12/13 bài nhóm trên · 33 lần · 1,69 lần/1000 từ · 11/12 bài nhóm giữa · 61 lần · 3,47 lần/1000 từ · 12/13 bài nhóm dưới · 29 lần · 1,94 lần/1000 từ. Thời kỳ tâm lý 20/58 bài · 1,01.",
+     "trich": [
+      "\"The real reason is far colder than respect, and it might be one of the most brutal survival calculations in all of nature.\" — 20260724 (nhóm trên)",
+      "\"A calf helped once by a ranger might not remember that one specific person, but it might carry forward a category.\" — 20260717 (nhóm giữa, 3.878 view)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "HẦU NHƯ KHÔNG TÁCH SỰ THẬT KHỎI SUY DIỄN. Kênh gần như không bao giờ nói \"cái này chưa chứng minh được\". Đây là chỗ trống lớn nhất trong toàn bộ 96 bài — và nó KHÔNG cản họ đạt 504K.",
+     "so_lieu": "Cụm \"we don't know / no one knows / can't be sure / remains a mystery / scientists still debate\": 0/13 bài nhóm trên · 0/13 bài nhóm dưới · 1/12 bài nhóm giữa · 0/58 bài thời kỳ tâm lý. Tổng: 2/96 bài trên toàn kho có tách bạch tri thức–suy diễn (20260717 và 20260618). Cụm \"the honest answer\" thêm 3/96 bài.",
+     "trich": [
+      "Bài DUY NHẤT làm tử tế (3.878 view): \"We don't know what a whale is truly thinking underneath 100 ft of crab line. / We don't know if a manta ray flipping onto its back is a decision or just instinct refined over millions of years of survival. / What we do know is this: Somewhere in the ocean, somewhere in the African brush, animals with absolutely no reason to trust us occasionally do anyway for reasons we are still only partway to understanding.\" — 20260717_Why_Wild_Animals_Secretly_Ask_Humans_To_Help_Them_.txt",
+      "\"So, here's the honest answer.\" (91%) — 20260711_Why_Do_We_Only_Eat_Chicken_Eggs_.txt",
+      "\"So if you lined up cow, goat, sheep, buffalo, camel, and donkey milk and asked which one is objectively the healthiest, the honest answer is that there isn't a single winner.\" (54%) — 20260713",
+      "\"The honest answer is that we probably could once.\" (70%) — 20260618_Animals_Know_What_s_Coming_The_Signal_Humans_Lost.txt (672 view)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG BAO GIỜ DÙNG DANH XƯNG \"DR.\" HAY \"PROFESSOR\" — họ gọi bằng nghề: \"an ecologist named X\", \"Biologist X\", \"researchers X and Y\". Nghe như hồ sơ, không nghe như quảng cáo chuyên gia.",
+     "so_lieu": "\"Dr.\" hoặc \"professor\": 0/13 bài nhóm trên · 0/12 nhóm giữa · 1/13 nhóm dưới (2 lần) · 0/58 thời kỳ tâm lý. Trong khi đó 5 bài nhóm trên nêu tên riêng đầy đủ của nhà nghiên cứu kèm năm.",
+     "trich": [
+      "\"an ecologist named Raymond Lindeman\" — 20260709",
+      "\"Biologist Jose Feghali\" — 20260724",
+      "\"Researchers Francisco Palomares and Tim Caro\" — 20260724",
+      "\"researchers Ransom Myers and Boris Worm\" — 20260725",
+      "\"researchers led by Jérôme Regier\" — 20260804",
+      "Đối chiếu, TITLE thì vẫn dùng chiêu chuyên gia — và bài đó chỉ 22 view: \"Top Doctor Reveals 5 Second ENERGY BOOST with Cold Water Wri...\" — 20260202"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "phat_hien": [
+    {
+     "y": "KHUÔN TITLE ĐỘC TÔN Ở THỜI KỲ THẮNG: \"Why + [do/don't/can't] + [we/humans/predators] + [động từ ăn uống] + [con vật]?\" — câu hỏi có dấu chấm hỏi, không con số, không tính từ giật gân.",
+     "so_lieu": "30/38 title thời kỳ động vật bắt đầu bằng \"Why\"; 35/38 kết bằng dấu \"?\". Ở thời kỳ tâm lý ngược hẳn: chỉ 3/58 bắt đầu bằng \"Why\", 2/58 kết bằng \"?\", trong khi 12/58 bắt đầu bằng \"The...\" và 12/58 bắt đầu bằng một con số. 0/38 title thời kỳ động vật mở bằng con số.",
+     "trich": [
+      "Thắng: \"Why Can't We Eat Predator Meat?\" (504.462 view) · \"Why Don't Predators Eat Other Predators?\" (161.520) · \"Why Do We Only Eat Chicken Eggs?\" (135.214)",
+      "Chìm: \"5 Things You're Doing WRONG When Trying to Build Habits\" (42 view) · \"Top Doctor Reveals 5 Second ENERGY BOOST with Cold Water Wri...\" (22 view) · \"The 5 SECOND Brain Hack to Boost Productivity\" (165 view)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "XẾP HẠNG LANE ĐỀ TÀI (trung vị view/ngày, trong 38 bài thời kỳ động vật). Lane \"cấm kỵ ăn uống của CON NGƯỜI\" ăn đứt mọi lane khác; lane \"ANCIENT HUMANS\" — đúng cái tên ngách — là lane CHẾT NHẤT của kênh.",
+     "so_lieu": "A. Cấm kỵ ăn uống của người (\"why we don't/can't eat X\"): n=15, trung vị 1.633,5 vpd, max 16.815, min 93,9. B. Hành vi thú săn mồi: n=6, trung vị 643,2, max 10.768. C. Quan hệ thú–người: n=10, trung vị 44,2, max 176,3. E. List nguy hiểm (\"which X can kill you\"): n=2, trung vị 15,5. D. ANCIENT HUMANS: n=5, trung vị 5,6 vpd, max 10,0, min 2,6. Chênh giữa lane A và lane D: 292 lần trung vị.",
+     "trich": [
+      "Lane A đỉnh: \"Why Can't We Eat Predator Meat?\" 16.815 vpd — 20260709",
+      "Lane A đáy: \"Why Don't We Drink Animal Blood?\" 93,9 vpd — 20260722",
+      "Lane D toàn bộ 5 bài: \"Did Ancient Humans Talk To Animals?\" 10,0 · \"How Did Ancient Humans Impress A Girl ?\" 6,0 · \"Why Did Ancient Humans Raise Other Kids?\" 5,6 · \"Ancient Humans Had the Perfect Hunting Partner — And It Could Fly\" 3,5 · \"Ancient Humans Healed Infections Using This One Plant\" 2,6"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KIỂM TỒN DƯ TUỔI ĐỜI: cắt riêng THÁNG 07/2026 (21 bài đăng trong cùng 31 ngày, cùng tuổi, cùng thời kỳ) thì thứ hạng lane KHÔNG ĐỔI. Nên chênh lệch lane không chỉ là hiệu ứng \"kênh mới được đẩy\".",
+     "so_lieu": "Trong 21 bài của riêng tháng 7: lane A cấm kỵ ăn uống 12 bài, trung vị ~1.706 vpd; lane B thú săn mồi 3 bài, trung vị 7.332 vpd; lane C quan hệ thú–người 4 bài, trung vị ~65 vpd; lane E list nguy hiểm 2 bài, trung vị 15,5 vpd. Lane A+B vượt lane C khoảng 26–113 lần ngay trong cùng một tháng.",
+     "trich": [
+      "Cùng tuần 15–19/07: \"Why Can't We Eat Wild Bird Meat ?\" 886,4 vpd (lane A) vs \"Why Wild Animals Secretly Ask Humans To Help Them?\" 176,3 vpd (lane C)",
+      "Cùng tuần 06–11/07: \"Why Can't We Eat Predator Meat?\" 16.815 vpd (lane A) vs \"Why Do Animals Save Human Lives ?\" 80,5 vpd và \"Why Do Elephants Bury Their Dead?\" 14,5 vpd (lane C)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "HỌ LÀM LẠI ĐỀ TÀI CỦA CHÍNH MÌNH, CÓ HỆ THỐNG — 5 cặp remake trong 38 bài. Cách làm: giữ nguyên cơ chế, đổi con vật hoặc đổi góc, đăng lại sau 6–46 ngày. Remake KHÔNG bao giờ vượt bản gốc khi bản gốc đã nổ, nhưng remake một bài CHÌM thì có thể nổ gấp 88 lần.",
+     "so_lieu": "5/38 bài thời kỳ động vật là remake trực tiếp của một bài trước đó của chính kênh (13% số bài). Kết quả: 2 cặp remake làm TỐT HƠN nhiều (88×, 1,0×), 3 cặp remake làm TỆ HƠN (0,10×, 0,68×, 0,90×).",
+     "trich": [
+      "Remake bài CHÌM → nổ 88 lần: \"Why Not Predators Attack Sleeping Humans?\" (20/06, 638 view, 13,0 vpd) → \"Why Don't Predators Attack Sleeping Prey ?\" (05/08, 3.436 view, 1.145,3 vpd)",
+      "Remake bài NỔ → tụt 10 lần nhưng vẫn vào top: \"Why Can't We Eat Predator Meat?\" (09/07, 504.462 view) → \"Why Humans Don't Eat Predator Meat ?\" (26/07, 21.236 view)",
+      "Đổi con vật giữ nguyên cơ chế: \"Why Don't We Drink Any Other Animal's Milk?\" (13/07, 51.283 view) → \"Why Can't We Drink Predator Milk?\" (21/07, 32.044 view)",
+      "Remake sau 4 ngày, gần như y hệt title: \"Why Are Animals Afraid Of Humans?\" (12/06, 4.262 view) → \"Why Are This Animals Fear Of Humans?\" (16/06, 2.691 view)",
+      "Cùng cụm \"ngủ\": \"Why Don't Wild Animals Eat Sleeping Humans ?\" (14/06, 129.514 view) đứng giữa hai bài trên"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ LOẠT (SERIES) NHƯNG KHÔNG ĐÁNH SỐ, KHÔNG GỌI TÊN LOẠT. Loạt được nhận ra bằng khuôn câu chứ không bằng nhãn \"Part 1/2/3\" hay playlist trong lời đọc.",
+     "so_lieu": "Cụm \"Why (don't/can't) we eat/drink ___\" xuất hiện trong 11/38 title thời kỳ động vật, chạy liên tục từ 09/07 tới 04/08 (27 ngày). 0/96 title có chữ \"Part\", \"Episode\", \"#\". 0/96 bài nhắc tới tên một loạt trong lời đọc.",
+     "trich": [
+      "\"Why Don't We Eat Most Ocean Fish?\" · \"Why Don't We Eat Crocodile Meat?\" · \"Why Don't We Eat Enough Insects ?\" · \"Why Don't We Drink Animal Blood?\" · \"Why Can't We Eat Wild Bird Meat ?\" · \"Why Do We Eat Shrimp But Not Cockroaches ?\" · \"Why Do People Eat Frogs But Never Toads?\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "phat_hien": [
+    {
+     "y": "NHỊP CỰC DÀY VÀ CỰC ĐỀU: gần như ngày nào cũng có hoặc cách một ngày. 96 video trong 219 ngày.",
+     "so_lieu": "96 video từ 29/12/2025 tới 05/08/2026 = 219 ngày. Khoảng cách trung vị 1 ngày, trung bình 2,31 ngày. Phân bố 95 khoảng cách: 1 ngày × 48 · 2 ngày × 32 · 3 ngày × 10 · 4 ngày × 3 · 10 ngày × 1 · 55 ngày × 1. Tức 90/95 khoảng cách (95%) nằm trong 1–3 ngày.",
+     "trich": [
+      "(số liệu rút từ tên file, ví dụ chuỗi liên tiếp 20260709 → 20260710 → 20260711 → 20260713)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG GOM ĐỢT. Không có ngày nào đăng 2 bài.",
+     "so_lieu": "0/95 khoảng cách bằng 0 ngày. 96 ngày đăng khác nhau cho 96 video.",
+     "trich": [
+      "(phát hiện dạng KHÔNG CÓ, đếm trên 95/95 khoảng cách)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "HAI LẦN NGẮT: một lần 10 ngày và một lần 55 ngày. Lần ngắt 55 ngày là điểm gãy của kênh — sau nó kênh bỏ hẳn khuôn video ngắn 4–5 phút.",
+     "so_lieu": "Ngắt 1: 20/01/2026 → 30/01/2026 (10 ngày). Ngắt 2: 12/02/2026 → 08/04/2026 (55 ngày). Trước ngắt 2: 32 bài, độ dài trung vị 5:10–5:45, từ trung vị 793–826. Sau ngắt 2: 64 bài, độ dài trung vị leo dần lên 9:34, từ trung vị leo lên 1.451.",
+     "trich": [
+      "Bài cuối trước ngắt: 20260212_Reset_Social_Anxiety_in_7_Seconds_Hands_Breath_Trick_.txt (8:03)",
+      "Bài đầu sau ngắt: 20260408_Why_Quiet_People_Are_The_Strongest_Psychology_Facts.txt (5:00, 25 view)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP ĐĂNG KHÔNG GIẢI THÍCH ĐƯỢC GÌ VỀ VIEW. Nhịp gần như bất biến ~1,4–2,0 ngày/bài suốt cả ba thời kỳ, trong khi view/ngày trung vị nhảy từ 0,3 lên 1.145 — gấp gần 4.000 lần. Cái đổi là ĐỀ TÀI + BỘ XƯƠNG, không phải tần suất.",
+     "so_lieu": "Thời kỳ tâm lý đợt 1 (29/12–12/02): 32 bài / 46 ngày = 1,44 ngày/bài, trung vị 0,3–0,4 vpd. Thời kỳ tâm lý đợt 2 (08/04–28/05): 26 bài / 51 ngày = 1,96 ngày/bài, trung vị 0,7–1,2 vpd. Thời kỳ động vật (30/05–05/08): 38 bài / 67 ngày = 1,76 ngày/bài, trung vị 117,4 vpd.",
+     "trich": [
+      "Tháng 01/2026: 18 video, trung vị 0,4 view/ngày, từ trung vị 793, dài trung vị 5:10",
+      "Tháng 07/2026: 21 video (nhiều hơn tháng 1), trung vị 705,1 view/ngày, từ trung vị 1.451, dài trung vị 9:34"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỘ DÀI BÀI TĂNG ĐỀU THEO THỜI GIAN VÀ VIEW/NGÀY TĂNG THEO — nhưng đây là tương quan chứ không phải nhân quả tách rời, vì độ dài đổi CÙNG LÚC với đề tài và bộ xương.",
+     "so_lieu": "Từ trung vị theo tháng: 12/2025 = 684 · 01/2026 = 793 · 02/2026 = 826 · 04/2026 = 1.104 · 05/2026 = 930 · 06/2026 = 1.125 · 07/2026 = 1.451 · 08/2026 = 1.435. View/ngày trung vị cùng dãy: 0,3 · 0,4 · 0,3 · 0,7 · 1,2 · 13,2 · 705,1 · 1.145,3. Cú nhảy view/ngày lớn nhất (1,2 → 13,2 → 705) rơi vào 06–07/2026, chậm hơn cú nhảy độ dài của 04/2026 hai tháng — tức độ dài tăng TRƯỚC mà view chưa lên.",
+     "trich": [
+      "04/2026 đã dài 8:42 / 1.104 từ mà trung vị vẫn 0,7 view/ngày — 15 bài, ví dụ 20260410_4_Mistakes_That_Make_Overthinking_Worse.txt (11:21, 1.489 từ, 56 view)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG CÓ QUAN HỆ GIỮA KHOẢNG CÁCH ĐĂNG VÀ VIEW/NGÀY CỦA CHÍNH BÀI ĐÓ. Bài nổ nhất kênh đăng sau đúng 1 ngày nghỉ; bài đăng sau kỳ nghỉ 55 ngày chỉ được 25 view.",
+     "so_lieu": "Bài 504.462 view (09/07) đăng cách bài trước 1 ngày. Bài 161.520 view (24/07) cách bài trước 2 ngày. Bài 25 view (08/04) đăng sau kỳ nghỉ 55 ngày. Trong 21 bài tháng 7 (khoảng cách 1–2 ngày gần như đồng nhất) view/ngày vẫn trải từ 8,8 tới 16.815 — chênh 1.900 lần với cùng một nhịp.",
+     "trich": [
+      "04/07: \"Which Insect Sting Can Kill You in Minutes ?\" 8,8 vpd và 09/07: \"Why Can't We Eat Predator Meat?\" 16.815 vpd — cách nhau 5 ngày, cùng kênh, cùng nhịp"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ]
+}

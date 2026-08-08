@@ -1,0 +1,615 @@
+{
+ "kenh": "NeonRush — ngách \"Ancient Humans / How Did Humans Invent X\", lời đọc EN, 33 bản ghi (23/05/2026 → 07/08/2026)",
+ "so_bai": 33,
+ "view_ngay_cao": "NHÓM TRÊN (11 bài, view/ngày 2.365 → 19.168; trung vị 4.824). Xếp theo view/ngày tính tới 08/08/2026: War 19.168 (38.337 view/2 ngày) · Countries 15.568 (124.545/8) · Bread 11.753 (58.765/5) · Swords 10.648 (159.715/15) · Axe 5.527 (5.527/1) · Shoes 4.824 (19.297/4) · Bow and Arrow 4.024 (84.503/21) · Armor 3.884 (34.952/9) · Wheel 2.864 (48.692/17) · Slavery 2.563 (28.192/11) · Boats 2.365 (42.565/18). Trung vị: 26,4 phút · 4.362 từ · 160 wpm.",
+ "view_ngay_thap": "NHÓM DƯỚI (11 bài, view/ngày 3,0 → 229,8; trung vị 13,0). Nukes 229,8 (4.595 view/20 ngày) · Guns 55,2 (1.768/32) · Wolves 32,9 (1.547/47) · Rarest Human 23,3 (1.164/50) · Found Water 20,7 (827/40) · Wild Animals Protect Children 13,0 (337/26) · Prey vs Predator 7,0 (307/44) · Animals Remember Humans 5,4 (190/35) · Tickle Yourself 3,9 (299/77) · Grow Up 3,4 (255/74) · Different Races 3,0 (208/70). Trung vị: 18,4 phút · 3.192 từ · 167 wpm. Khoảng cách trung vị giữa hai nhóm là 371 lần.",
+ "gioi_han": "BỐN GIỚI HẠN PHẢI ĐỌC TRƯỚC KHI DÙNG KẾT QUẢ NÀY.\n\n(1) NHÓM TRÊN ≈ NHÓM MỚI. Kênh chỉ 76 ngày tuổi. 10/11 bài nhóm TRÊN đăng trong 18/07–07/08; 10/11 bài nhóm DƯỚI đăng trong 23/05–19/07. Bài duy nhất đăng sau 18/07 mà rơi xuống nhóm DƯỚI là Nukes (19/07). Nghĩa là phép chia ba theo view/ngày ở kênh này gần như trùng khít với phép chia \"trước / sau khi thuật toán bắt được kênh\" (mốc nổ: Bow and Arrow 18/07, 84.503 view). Mọi khác biệt HIGH-vs-LOW dưới đây đều nhiễm biến này — không được đọc là \"viết thế này thì thắng\".\n\n(2) VIEW/NGÀY THỔI PHỒNG BÀI MỚI. War có view/ngày cao nhất kênh (19.168) nhưng tổng view mới 38.337, trong khi Swords 159.715 view chỉ xếp thứ 4. Axe (1 ngày tuổi) vào nhóm TRÊN chỉ vì mẫu số bằng 1. Nếu xếp theo TỔNG view thì Axe (5.527) rơi xuống nhóm giữa-dưới. Đừng dùng bảng xếp hạng này để chấm chất lượng từng bài.\n\n(3) BIẾN THẬT SỰ TÁCH ĐƯỢC KHỎI TUỔI LÀ ĐỀ TÀI + KHUÔN TITLE, KHÔNG PHẢI CÂU CHỮ. 7 bài khuôn \"Why ...?\" có trung vị 5 view/ngày; 19 bài khuôn \"How Did Humans Invent X?\" có trung vị 2.563 view/ngày. Nhưng cả 7 bài \"Why\" đều đăng trước 14/07, nên vẫn còn dính biến tuổi — bằng chứng gỡ được một phần là Nukes (19/07, đúng khuôn \"Invent\", nằm trong đợt sau mốc nổ) vẫn chỉ 230 view/ngày, và Guns (07/07, \"How Humans Invented Guns?\" — sai khuôn một chữ) chỉ 55.\n\n(4) TRANSCRIPT LÀ AUTO-CAPTION, CÓ LỖI. Có lỗi nghe nhầm (\"in a museum in cartoon\" = \"in Khartoum\", \"Samrians\" = \"Sumerians\", \"failank\" = \"phalanx\", \"Isabel Krevkur\" = Isabelle Crevecoeur), rớt chữ cái đầu (\"hat/ hink/ tarted\"), và 4 chỗ còn ký tự rác \"&gt;&gt;\" (3 bài). Bài Boats bị cắt cụt — 180 từ cuối vẫn đang kể về Phoenician/Viking, không có đoạn kết. Mọi trích dẫn dưới đây giữ NGUYÊN VĂN kể cả lỗi.",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~130 từ đầu)",
+   "ca_nguoc": "⚠️ NẾT KÊNH, KHÔNG PHẢI BÍ QUYẾT: khuôn 'You are standing...' có mặt ở 6/11 bài nhóm TRÊN NHƯNG cũng ở 5/11 bài nhóm GIỮA và 2/11 nhóm DƯỚI. Bài chìm nhất dùng khuôn này (Prey vs Predator, 7 view/ngày) mở y hệt bài 124K view: 'You're standing in the middle of the Serengeti.' Ngôi hai ('you' trong 130 từ đầu) có ở 28/33 bài — 11/11 nhóm TRÊN nhưng cũng 8/11 nhóm DƯỚI. Vị trí câu hỏi lõi (~từ 194, ~71 giây) giống hệt nhau ở cả hai nhóm. Tất cả những thứ này là PHONG CÁCH CHUNG của kênh, không phân biệt thắng-thua.",
+   "phat_hien": [
+    {
+     "y": "Khuôn mở lớn nhất: đặt người xem ĐỨNG trong một cảnh cụ thể, ngôi hai, thì hiện tại, kèm mốc năm + địa danh ngay câu đầu. 10/13 bài dùng khuôn này đặt cảnh ở thời cổ; 3 bài còn lại đặt ở hiện tại/1945.",
+     "so_lieu": "13/33 bài (nhóm TRÊN 6/11 · GIỮA 5/11 · DƯỚI 2/11)",
+     "trich": [
+      "\"You are standing on a hilltop 15,000 years ago.\" — 20260731_How_Did_Humans_Invent_Countries_.txt",
+      "\"You are standing in a field roughly 5,000 years ago in what is now Eastern Turkey.\" — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "\"You are standing in a forest 70,000 years ago.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt",
+      "\"You are crouching at the edge of a wetland in Australia roughly 20,000 years ago.\" — 20260727_How_Did_Humans_Invent_the_Boomerang_.txt",
+      "\"You're standing in the middle of the Serengeti.\" — 20260625_Why_It_s_Better_to_Be_Prey_Than_a_Predator_.txt (bài chìm nhất nhóm DƯỚI, 7 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn thứ hai: ngôi hai nhưng KHÔNG 'standing' — đặt người xem vào một BÀI TOÁN hoặc một trạng thái cơ thể ngay câu đầu.",
+     "so_lieu": "7/33 bài (TRÊN 2/11: Wheel, Slavery · GIỮA 4/11 · DƯỚI 1/11)",
+     "trich": [
+      "\"You need to move a boulder, a big one.\" — 20260722_How_Did_Humans_Invent_Wheel_.txt",
+      "\"You own things.\" — 20260728_How_Did_Humans_Invent_Slavery_.txt",
+      "\"You are sick.\" / \"Genuinely, dangerously sick.\" — 20260725_How_Did_Humans_Invent_Medicines_.txt",
+      "\"You used fire today.\" — 20260723_How_Did_Humans_Discover_Fire_.txt",
+      "\"You cracked two eggs into a pan this morning without a single thought.\" — 20260723_When_Did_Ancient_Humans_Start_Eating_Eggs_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn thứ ba: RA LỆNH cho người xem làm một động tác THÂN THỂ ngay lập tức. Đây là khuôn hiếm nhưng nằm ở cả hai đầu bảng.",
+     "so_lieu": "4/33 bài (TRÊN 2/11: Axe, Shoes · DƯỚI 2/11: Tickle, Races)",
+     "trich": [
+      "\"Pick up anything heavy right now.\" / \"A book, a mug, a water bottle, anything.\" / \"Hold it in your hand and swing it at a table.\" / \"Go ahead, just a light tap.\" — 20260807_How_Did_Humans_Invent_Axe_.txt",
+      "\"Look at your feet.\" / \"Whatever is on them right now, sneakers, boots, sandals, slippers, whatever it is, take it off or a second.\" / \"Actually, take it off.\" / \"Feel the floor.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt",
+      "\"Try to tickle yourself.\" / \"Go ahead, right now.\" — 20260523_Why_You_Can_t_Tickle_Yourself_.txt (3,9 view/ngày)",
+      "\"Look at any group of humans and your brain does something automatic.\" — 20260530_Why_Do_Humans_have_different_Races_.txt (3,0 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn ngôi BA — mở bằng một hiện vật / một vụ án có thật, không có 'you'. Khuôn này gần như chỉ nằm ở nhóm DƯỚI (4/5), ngoại lệ duy nhất là War — và War lại là bài cao nhất kênh.",
+     "so_lieu": "5/33 bài (TRÊN 1/11: War · DƯỚI 4/11: Guns, Animals Remember, Wild Animals Protect, + Nukes mở bằng mốc giờ)",
+     "trich": [
+      "\"There is a skeleton in a museum in cartoon.\" / \"It belongs to a person who lived roughly 13,400 years ago in the Nile Valley in what is now northern Sudan.\" / \"There is a stone point embedded in the left side of the rib cage, not resting near the bones.\" — 20260806_How_Did_Humans_Invent_War_.txt (19.168 view/ngày)",
+      "\"A gorilla named Quieby was released into the forests of Gabon in 2004.\" — 20260704_Why_Do_Animals_Remember_Humans_for_Years_.txt (5,4 view/ngày)",
+      "\"In 2005, a 12-year-old girl was kidnapped in rural Ethiopia by a group of men trying to force her into marriage.\" — 20260713_Why_Do_Wild_Animals_Protect_Human_Children_.txt",
+      "\"Somewhere in China roughly 1,200 years ago, a man is hunched over a clay pot.\" / \"He is not building a weapon.\" / \"He is not planning a war.\" / \"He is trying to live forever.\" — 20260707_How_Humans_Invented_Guns_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Bốn khuôn lẻ, mỗi khuôn 1 bài: mở bằng SỐ LIỆU (Astronomy, Grow Up); mở bằng chính TITLE dạng câu hỏi (Australia); mở bằng lệnh 'Imagine' (Wolves); mở bằng tuyên bố nghịch lý (Rarest Human).",
+     "so_lieu": "5/33 bài (TRÊN 0/11 · GIỮA 2/11 · DƯỚI 3/11)",
+     "trich": [
+      "\"On a clear night away from any city, roughly 4,000 stars are visible to the naked eye.\" — 20260804_How_Did_Humans_Invent_Astronomy_.txt",
+      "\"A mayfly lives for 1 day.\" / \"In that single day, it hatches, finds a mate, reproduces, and dies.\" — 20260526_Why_Humans_Take_Forever_to_Grow_Up_.txt",
+      "\"How did humans end up in Australia?\" / \"That question sounds simple.\" / \"It is absolutely not simple.\" — 20260615_How_Did_Humans_End_Up_in_Australia_.txt",
+      "\"Imagine it's 25,000 years ago.\" — 20260622_Why_Ancient_Humans_Needed_Wolves_to_Survive_.txt",
+      "\"There's someone out there, and I'm not being poetic here.\" — 20260619_The_Rarest_Human_Who_Could_Ever_Exist_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "CÂU HỎI LÕI rơi rất muộn và rất đều: trung vị TỪ THỨ 194, tức ~71 giây (theo wpm thật của từng bài). Không có bài nào trong 25 bài 'Invent/Discover' đặt câu hỏi lõi trước từ thứ 145. Nghĩa là NeonRush cho chạy trọn một CẢNH ~70 giây trước khi nói video này về cái gì.",
+     "so_lieu": "30/33 bài có câu hỏi lõi dạng 'So, how/why/when/did...'. Trung vị từ thứ 194 ≈ 71 giây. Nhóm TRÊN: từ 158–278 (trừ Wheel 519). Nhóm GIỮA: từ 145–281. Nhóm DƯỚI lệch mạnh: 61, 96, 102, 111, 182, 200, 490, 1449, 1728, 3073.",
+     "trich": [
+      "\"So, how did we get from sharpened stones to forged steel?\" (từ thứ 187) — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "\"So, how did humans invent countries?\" (từ thứ 158) — 20260731_How_Did_Humans_Invent_Countries_.txt",
+      "\"So, did humans invent war?\" / \"Or has war always been part of who we are?\" (từ thứ 195) — 20260806_How_Did_Humans_Invent_War_.txt",
+      "\"So, how did we actually get from a stone in the fist to an axe in the hand?\" (từ thứ 247) — 20260807_How_Did_Humans_Invent_Axe_.txt",
+      "\"So, how did we go from an empty hand to a sharpened stick?\" (từ thứ 267) — 20260726_How_Did_Humans_Invent_Spears_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU nằm ngay sau câu hỏi lõi, luôn ở dạng 'The answer is/starts/stretches...' + một mệnh đề gây bất ngờ. Đây là câu duy nhất trong hook thực sự HỨA điều gì.",
+     "so_lieu": "18/33 bài (TRÊN 8/11 · GIỮA 7/11 · DƯỚI 3/11)",
+     "trich": [
+      "\"The answer stretches across 5,000 years, three continents, and at least four completely independent metallurgical traditions.\" — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "\"The answer is older than farming, older than pottery, older than civilization, and it might be the reason civilization exists at all.\" — 20260803_How_Did_Humans_Invent_Bread_.txt",
+      "\"The answer is not simple, and it does not start where you think it does.\" — 20260731_How_Did_Humans_Invent_Countries_.txt",
+      "\"The story starts earlier than you think, much earlier, and it does not start with us.\" — 20260807_How_Did_Humans_Invent_Axe_.txt",
+      "\"The answer is longer than you'd expect, and it starts before our species even existed.\" — 20260721_How_Did_Humans_Invent_Boats_.txt",
+      "\"The answer is older than our species, and that is not a figure of speech.\" — 20260726_How_Did_Humans_Invent_Spears_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "GẦN NHƯ KHÔNG TỰ GIỄU. Chỉ 5/33 bài có một câu đùa khô, và không câu nào nằm trong hook 130 từ đầu trừ Grow Up. Giọng kênh là giọng nghiêm, hài hước chỉ len vào bằng trạng từ 'honestly' rải rác.",
+     "so_lieu": "5/33 bài có câu tự giễu/đùa rõ rệt (TRÊN 1/11 · GIỮA 1/11 · DƯỚI 3/11); từ 'honestly'/'which is' dùng như van hài ở 20/33 bài, 37 lần, 0,29 lần/1000 từ",
+     "trich": [
+      "\"And honestly, anyone who's met a 22-year-old knows that's being generous.\" — 20260526_Why_Humans_Take_Forever_to_Grow_Up_.txt",
+      "\"One of the greatest scientific minds of the 20th century is about to measure the most powerful explosion in human history with confetti.\" / \"That's not a joke.\" — 20260719_How_Did_Humans_Invent_Nukes_.txt",
+      "\"By the standards of Celtic and Germanic swords, it was almost laughably small.\" — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "\"No complaints.\" (câu cuối cùng của cả video) — 20260723_When_Did_Ancient_Humans_Start_Eating_Eggs_.txt",
+      "\"IPAs, stouts, lagers, wheat beers, sours, things with names you cannot pronounce brewed by people with beards you cannot explain.\" — 20260717_How_Did_Ancient_Humans_Discover_Beer_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — re-hook, câu nối, vòng tò mò",
+   "ca_nguoc": "⚠️ ĐÂY LÀ CHIỀU DỄ TƯỞNG NHẦM NHẤT. Mật độ thiết bị giữ chân (gộp 'here's the...', 'think about', 'most people', 'this is where', 'changes everything') là: nhóm TRÊN trung vị 2,98/1000 từ · nhóm GIỮA 3,03 · nhóm DƯỚI 3,23. Nhóm DƯỚI DÙNG NHIỀU HƠN. Bài dày nhất kênh là Rarest Human (5,61/1000 từ, 23 view/ngày) và Different Races (5,38/1000 từ, 3 view/ngày); bài thưa nhất là Boats (1,48/1000 từ, 42.565 view). Toàn bộ kho câu dưới đây là NẾT CỦA KÊNH — đáng chép về dùng, nhưng KHÔNG phải thứ tách bài thắng khỏi bài chìm ở kênh này.",
+   "phat_hien": [
+    {
+     "y": "Họ hàng re-hook 'here's the...' là xương sống. 60 lần trên toàn kênh. Công thức: [And/But/Now/So] + here is/here's + [the thing / the part / the detail / something / a fact / where / the answer] + mệnh đề 'about X' hoặc 'that + gây tò mò'. Trung bình một bài 4.400 từ có 2 lần.",
+     "so_lieu": "30/33 bài · 60 lần · 0,47 lần/1000 từ (TRÊN 10/11 · GIỮA 10/11 · DƯỚI 10/11)",
+     "trich": [
+      "\"And here's the thing that should keep you up tonight.\" — 20260806_How_Did_Humans_Invent_War_.txt @1,3%",
+      "\"And here is the detail that matters for the story of countries.\" — 20260731_How_Did_Humans_Invent_Countries_.txt @12,9%",
+      "\"And here is where the story gets genuinely interesting because writing was not invented for poetry or prayer or philosophy.\" — 20260731_How_Did_Humans_Invent_Countries_.txt @41,8%",
+      "\"Now, here is where bread takes a turn that nobody saw coming, because at some point someone left their dough out too long, and instead of throwing it away, they baked it anyway, and it puffed up.\" — 20260803_How_Did_Humans_Invent_Bread_.txt @39,6%",
+      "\"And here's the detail that caught researchers off guard.\" — 20260807_How_Did_Humans_Invent_Axe_.txt @30,9%",
+      "\"And here is the detail that should make you sit up.\" — 20260721_How_Did_Humans_Invent_Boats_.txt @56,9%",
+      "\"Here is a fact that should stop you.\" — 20260721_How_Did_Humans_Invent_Boats_.txt @9,1%",
+      "\"And here is the part that should stay with you.\" — 20260807_How_Did_Humans_Invent_Axe_.txt @95,2%",
+      "\"But here's the part that stays with me.\" — 20260803_How_Did_Humans_Invent_Bread_.txt @94,7%",
+      "\"And here is something that should feel ike the end of a very long circle.\" — 20260726_How_Did_Humans_Invent_Spears_.txt @90,2%",
+      "\"Now, here's where the story loops back to something that matters more than sneakers or fashion or billion-dollar brands.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt @85,8%",
+      "\"And here's the thing that connects all of these stories.\" — 20260723_How_Did_Humans_Discover_Fire_.txt @87,9%",
+      "\"But here is your problem.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt @1,3%",
+      "\"Here's the problem with that question.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt @6,0%",
+      "\"And here is the real breakthrough.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt @20,4%",
+      "\"Now, here is something that puzzles archaeologists.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt @78,0%",
+      "\"Now, here is something worth pausing on.\" — 20260807_How_Did_Humans_Invent_Axe_.txt @13,0%",
+      "\"Here's the the that should genuinely puzzle you.\" — 20260722_How_Did_Humans_Invent_Wheel_.txt @74,5%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỆNH DỪNG SUY NGHĨ 'Think about...' — câu cực ngắn chặn ngang mạch ngay sau một fact sốc. Đây là thiết bị dày đặc nhất kênh sau 'here's the...'. 11/11 bài nhóm TRÊN và 11/11 nhóm GIỮA đều có.",
+     "so_lieu": "30/33 bài · 74 lần · 0,58 lần/1000 từ (TRÊN 11/11 · GIỮA 11/11 · DƯỚI 8/11)",
+     "trich": [
+      "\"Think about that.\" — 20260803_How_Did_Humans_Invent_Bread_.txt @9,5%",
+      "\"Think about hat.\" — 20260724_How_Did_Humans_Invent_Swords_.txt @28,5% (đứng ngay sau: \"3,000 years ago, a supply chain stretched from the mines of southwestern England to the forges of the eastern Mediterranean just so people could make swords.\")",
+      "\"Think about what that means for the invention of countries.\" — 20260731_How_Did_Humans_Invent_Countries_.txt @8,8% và lặp lại y nguyên @21,6%",
+      "\"Think about what that actually means for warfare.\" — 20260724_How_Did_Humans_Invent_Swords_.txt @37,0%",
+      "\"Think about what that means for the question you came here for.\" — 20260807_How_Did_Humans_Invent_Axe_.txt @8,7%",
+      "\"Think about that the next time you spend $200 on hiking boots.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt @34,9%",
+      "\"Think about the timeline.\" — 20260722_How_Did_Humans_Invent_Wheel_.txt @27,1%",
+      "\"Think about the difference.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt @21,4%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "VÒNG TÒ MÒ mở bằng cách BÁC BỎ hiểu biết sẵn có ('most people get wrong'), rồi đóng bằng bằng chứng khảo cổ. Trung vị lần bác bỏ ĐẦU TIÊN rơi ở 20,9% của bài — tức ngay đầu chương 2, chứ không phải ở hook.",
+     "so_lieu": "20/33 bài · 33 lần · 0,26 lần/1000 từ (TRÊN 7/11 · GIỮA 9/11 · DƯỚI 4/11). Trung vị vị trí lần đầu: 20,9% độ dài bài",
+     "trich": [
+      "\"Let's start with the part that most people get wrong because almost everyone assumes the same thing.\" / \"We settled down, we planted crops, and then we figured out how to make bread.\" / \"That is the story most of us learned.\" / \"It is also, according to the last two decades of archaeological evidence, probably backwards.\" — 20260803_How_Did_Humans_Invent_Bread_.txt @5,4%",
+      "\"But here is omething most people get wrong about what happened next.\" / \"Iron did not replace bronze because iron was better.\" / \"Early iron was often worse than high-quality bronze.\" — 20260724_How_Did_Humans_Invent_Swords_.txt @33,8%",
+      "\"Here is something else most people get wrong about medieval swords.\" — 20260724_How_Did_Humans_Invent_Swords_.txt @77,7%",
+      "\"Let's begin with what should be obvious but almost nobody thinks about.\" — 20260730_How_Did_Humans_Invent_Armor_.txt @4,8%",
+      "\"And this is the part almost nobody talks about.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt @27,2%",
+      "\"And this the point where most people assume this was a Mesopotamian problem, a Middle Eastern thing, maybe a Mediterranean thing.\" — 20260728_How_Did_Humans_Invent_Slavery_.txt @35,3%",
+      "\"Let's start with what most people assume, which is wrong.\" — 20260725_How_Did_Humans_Invent_Medicines_.txt @3,6%",
+      "\"Now, here's the part that most Western textbooks skip entirely.\" — 20260804_How_Did_Humans_Invent_Astronomy_.txt @64,1%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU NỐI SIÊU NGẮN đứng NGAY SAU fact sốc để đóng đinh — dạng 'That is not a ...' (4–6 từ).",
+     "so_lieu": "13/33 bài · 17 lần · 0,13 lần/1000 từ (TRÊN 4/11 · GIỮA 6/11 · DƯỚI 3/11)",
+     "trich": [
+      "\"That is not a small change.\" — 20260731_How_Did_Humans_Invent_Countries_.txt @70,3%",
+      "\"That is not a family project.\" — 20260731_How_Did_Humans_Invent_Countries_.txt @33,3%",
+      "\"That is not a toy.\" — 20260727_How_Did_Humans_Invent_the_Boomerang_.txt @15,3% và 20260730_How_Did_Humans_Invent_Sling_.txt @13,5%",
+      "\"That is not a 5-minute job.\" — 20260727_How_Did_Humans_Invent_the_Boomerang_.txt @38,2%",
+      "\"That is not a guess.\" — 20260725_How_Did_Humans_Invent_Medicines_.txt @27,6%",
+      "\"That is not ancient history.\" — 20260729_How_Did_Humans_Invent_Whip_.txt @69,5%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG BAO GIỜ BÁO TRƯỚC 'phần hay nhất ở cuối'. Quét toàn kênh các cụm 'by the end of this video', 'stay with me', 'at the end of this video', 'later in this video', 'hold that thought', 'keep that in mind', 'I'll come back to' → KHÔNG CÓ BÀI NÀO. Thay vào đó họ giữ chân bằng một beat 'trả lời chính thức' đặt ở ~88% bài, tạo cảm giác 'sắp có kết luận' chứ không hứa trước.",
+     "so_lieu": "0/33 bài báo trước phần hay ở cuối. 8/33 bài có beat trả lời chính thức 'here is the answer' (TRÊN 4/11 · GIỮA 4/11 · DƯỚI 0/11), trung vị vị trí 88,0% độ dài bài",
+     "trich": [
+      "\"So here's the answer to the question you came for.\" (@91,8%) — 20260806_How_Did_Humans_Invent_War_.txt",
+      "\"So, here is the answer to the question you came for.\" (@90,0%) — 20260730_How_Did_Humans_Invent_Armor_.txt",
+      "\"So, here is the answer to the question you came for.\" (@90,7%) — 20260804_How_Did_Humans_Invent_Astronomy_.txt",
+      "\"So, here's the answer, as clearly as the evidence allows.\" (@92,1%) — 20260804_How_Did_Humans_Invent_Shoes_.txt",
+      "\"Here is the answer, and it is clearer than you might expect.\" (@89,8%) — 20260807_How_Did_Humans_Invent_Axe_.txt",
+      "\"So, here is the answer to the question this video has been building toward.\" (@85,3%) — 20260727_How_Did_Humans_Invent_the_Boomerang_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Hai câu nối 'máy' dùng dày nhất: 'Now,' mở câu và 'And then' mở câu. Đây là chất keo nối các đoạn nhỏ trong một chương.",
+     "so_lieu": "'Now,' mở câu: 31/33 bài · 96 lần · 0,76/1000 từ (TRÊN 11/11 · GIỮA 11/11 · DƯỚI 9/11). 'And then' mở câu: 26/33 bài · 75 lần · 0,59/1000 từ (TRÊN 10/11 · GIỮA 9/11 · DƯỚI 7/11)",
+     "trich": [
+      "\"Now, here's where the story accelerates because once you have surplus grain and walls, the next thing you get is inequality.\" — 20260731_How_Did_Humans_Invent_Countries_.txt",
+      "\"And then someone, somewhere, probably by accident, mixed copper with arsenic.\" — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "\"And then at some point someone wrapped a piece of wood around a piece of rock, tied it tight, and swung it, and the world changed.\" — 20260807_How_Did_Humans_Invent_Axe_.txt",
+      "\"And then that entire system collapsed.\" — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "\"And then the community split.\" — 20260806_How_Did_Humans_Invent_War_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180 từ cuối)",
+   "ca_nguoc": "⚠️ KHUÔN KẾT 'Tonight, somewhere...' là NẾT KÊNH TUYỆT ĐỐI: 9/11 nhóm TRÊN, 10/11 nhóm GIỮA, 7/11 nhóm DƯỚI. Bài 3 view/ngày và bài 19.168 view/ngày kết giống hệt nhau về cấu trúc. Callback từ vựng hook→kết có ở 32/33 bài, kể cả bài chìm nhất. Không có gì trong đoạn kết tách được nhóm thắng khỏi nhóm chìm ở kênh này. Điểm KHÁC duy nhất đo được: 3 câu 'định danh người xem' kiểu 'That's you' chỉ xuất hiện ở nhóm DƯỚI — tức khuôn 'về BẠN' nằm ở đúng phía chìm.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN KẾT DUY NHẤT CỦA KÊNH — 'PHÓNG VỀ ĐÊM NAY': câu bắt đầu bằng 'Tonight' hoặc 'Tomorrow morning', chỉ ra một người vô danh đang làm đúng hành động cổ xưa đó NGAY LÚC NÀY, rồi chốt bằng 'nguyên lý không đổi'.",
+     "so_lieu": "26/33 bài (TRÊN 9/11 · GIỮA 10/11 · DƯỚI 7/11); trong đó 9 bài dùng nguyên cụm 'somewhere on this planet / on Earth / in the world'",
+     "trich": [
+      "\"Tonight, somewhere on this planet, someone is pulling back a bowstring.\" / \"Maybe a hunter, maybe an athlete, maybe a kid in a backyard with a toy, and they are performing the same act, bending a piece of material and storing energy in it, that a human being in Southern Africa performed 64,000 years ago.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt",
+      "\"Tonight, somewhere in the world, a police officer is putting on a Kevlar vest before a shift.\" / \"A soldier is trapping ceramic plates into a plate carrier.\" / \"A lab technician is testing a new composite material.\" — 20260730_How_Did_Humans_Invent_Armor_.txt",
+      "\"Tomorrow morning, somewhere on this planet, someone will swing an axe into a piece of wood.\" / \"Maybe a logger, maybe a carpenter, maybe a homeowner splitting firewood in the backyard.\" — 20260807_How_Did_Humans_Invent_Axe_.txt",
+      "\"Tonight, somewhere, a factory is stamping out rubber soles by the thousand.\" / \"A cobbler in a workshop somewhere is hand-stitching leather the way cobblers have done for centuries.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt",
+      "\"Right now, tonight, somewhere on this planet, a soldier is carrying a rifle with a bayonet attached.\" / \"Somewhere else, a fisherman is standing in shallow water with a wooden spear...\" / \"Somewhere else, a child has picked up a stick, broken the nd off, and pointed it at nothing in particular.\" — 20260726_How_Did_Humans_Invent_Spears_.txt",
+      "\"And tonight, somewhere near you, there is probably a dog, maybe at your feet, maybe on your couch, maybe taking up more of your bed than seems physically possible for something that weighs 30 kg.\" — 20260622_Why_Ancient_Humans_Needed_Wolves_to_Survive_.txt (32,9 view/ngày — NHÓM DƯỚI, y hệt khuôn)",
+      "\"Tonight, somewhere on the Serengeti, a wildebeest is going to fall asleep standing up...\" — 20260625_Why_It_s_Better_to_Be_Prey_Than_a_Predator_.txt (7,0 view/ngày — NHÓM DƯỚI)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU CHỐT CUỐI CÙNG là một cặp đối xứng 'cái này đổi — cái kia không đổi', hoặc một mệnh đề cụt gãy. Không hạ nhiệt, không tổng kết — chốt mạnh rồi cắt.",
+     "so_lieu": "3/33 bài dùng nguyên cặp 'has changed / has not' (TRÊN 3/11 · GIỮA 0/11 · DƯỚI 0/11); 4/33 bài dùng mô-típ 'người phát minh vô danh' (TRÊN 2/11 · GIỮA 2/11 · DƯỚI 0/11)",
+     "trich": [
+      "\"The technology has changed beyond anything a Neolithic farmer could have imagined.\" / \"The reason has not.\" / \"Somebody has something.\" / \"Somebody else wants it.\" / \"And the distance between those two facts is still measured in the same unit.\" — 20260806_How_Did_Humans_Invent_War_.txt",
+      "\"The materials have changed, the engineering has changed, the principle has not.\" / \"A sharp edge, a long handle.\" / \"Swing it hard, the person who figured that out did not leave a name.\" / \"They left something better, they left the tool that built the world.\" — 20260807_How_Did_Humans_Invent_Axe_.txt",
+      "\"The person who first figured that out did not have a name that survived.\" / \"They did not have a written language.\" / \"They had a problem and a piece of wood and an idea that bent but did not break.\" / \"And somehow, across 3,000 generations, that idea is still in our hands.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt",
+      "\"That is what a country is.\" / \"A story that enough people believed for long enough that it became real.\" / \"And every morning without anyone asking, you wake up and believe it again.\" — 20260731_How_Did_Humans_Invent_Countries_.txt",
+      "\"The question was never really how humans invented slavery.\" / \"The question is why we keep reinventing\" (transcript cắt ở đây) — 20260728_How_Did_Humans_Invent_Slavery_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CALLBACK VỀ HOOK gần như bắt buộc: 32/33 bài có ≥3 từ đặc trưng của 130 từ đầu quay lại trong 180 từ cuối. Nhiều bài lặp nguyên hình ảnh và nguyên con số của câu mở.",
+     "so_lieu": "32/33 bài có callback từ vựng hook→kết (TRÊN 11/11 · GIỮA 11/11 · DƯỚI 10/11). Bài duy nhất KHÔNG có: 20260713_Why_Do_Wild_Animals_Protect_Human_Children_.txt (13,0 view/ngày)",
+     "trich": [
+      "MỞ: \"You are standing in a field roughly 5,000 years ago in what is now Eastern Turkey.\" → KẾT: \"And the people who made the first ones in that palace workshop in eastern Turkey, shaping arsenical copper into something the world had never seen, they could not have known what they were starting.\" — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "MỞ: \"There is a stone point embedded in the left side of the rib cage...\" → KẾT: \"The bones at Jebel Sahaba are 13,400 years old.\" — 20260806_How_Did_Humans_Invent_War_.txt",
+      "MỞ: \"You are standing in a field roughly 4,500 years ago in what is now southern Iraq.\" / \"Overlapping plates of hardened leather stitched together and strapped across his chest...\" → KẾT: \"...the same thing that a Sumerian soldier did 4,500 years ago when he strapped overlapping leather plates across his chest...\" — 20260730_How_Did_Humans_Invent_Armor_.txt",
+      "MỞ: \"You cracked two eggs into a pan this morning without a single thought.\" → KẾT: \"You cracked it in about half a second.\" / \"Tomorrow morning, when you do it again...\" — 20260723_When_Did_Ancient_Humans_Start_Eating_Eggs_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU ĐỊNH DANH NGƯỜI XEM ('That's you') CHỈ CÓ Ở NHÓM CHÌM — 3/33 bài, cả ba đều nhóm DƯỚI. Nhóm TRÊN không định danh người xem; nó định danh MỘT NGƯỜI VÔ DANH ĐANG LÀM VIỆC ĐÓ. Đây là khác biệt đo được duy nhất của chiều này, và nó khớp với ghi chép sẵn có rằng lane 'về BẠN' không nổ.",
+     "so_lieu": "3/33 bài (TRÊN 0/11 · GIỮA 0/11 · DƯỚI 3/11)",
+     "trich": [
+      "\"You are a one-time event.\" / \"The rarest human possible is a fun thought experiment, but the rarest human who actually exists, that's you.\" / \"That's always been you.\" — 20260619_The_Rarest_Human_Who_Could_Ever_Exist_.txt (23,3 view/ngày)",
+      "\"You don't need to be the rarest possible human to be statistically impossible.\" / \"You already are.\" — cùng file trên",
+      "\"You are descended from the people who figured out where the water was hiding, every time.\" — 20260629_How_Ancient_Humans_Found_Water_.txt (20,7 view/ngày)",
+      "\"It doesn't know that its ancestors helped your ancestors survive ice ages, cross continents, and outlast every other human species that ever lived.\" / \"But now you do.\" — 20260622_Why_Ancient_Humans_Needed_Wolves_to_Survive_.txt (32,9 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "KHÔNG CÓ 'Next time you...'. Quét toàn kênh cụm 'next time you' trong 180 từ cuối → 0 bài. Cách duy nhất họ chạm tới hành vi tương lai của người xem là 'Tomorrow morning, you are probably going to...' — mô tả chứ không ra lệnh.",
+     "so_lieu": "0/33 bài dùng 'Next time you...' ở đoạn kết. 19/33 bài có bất kỳ 'you/your' nào trong 180 từ cuối (TRÊN 6/11 · GIỮA 6/11 · DƯỚI 7/11)",
+     "trich": [
+      "\"Tomorrow morning, you are probably going to eat bread.\" / \"Toast, maybe.\" / \"A sandwich for lunch.\" / \"Flatbread with dinner.\" / \"You will not think about the 14,000-year chain of human effort that put it in your hands.\" — 20260803_How_Did_Humans_Invent_Bread_.txt",
+      "\"Tonight, you will go home to a country.\" / \"You will probably not think about it, but that country, whatever it is, is younger than pottery, younger than agriculture, younger than the dog sleeping on your couch.\" — 20260731_How_Did_Humans_Invent_Countries_.txt",
+      "\"Tonight, you will probably turn off a light before you go to sleep.\" / \"You will press a switch and the room will go dark.\" / \"You will not hink about it.\" / \"But that light was fire.\" — 20260723_How_Did_Humans_Discover_Fire_.txt",
+      "\"And tonight, you're going to open a beer.\" / \"You're going to drink it without thinking about any of this, and that's fine.\" / \"That's the point.\" — 20260717_How_Did_Ancient_Humans_Discover_Beer_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MỒI VIDEO KẾ chỉ xuất hiện ĐÚNG MỘT LẦN trong 33 bài — ở video ĐẦU TIÊN của kênh, rồi bỏ hẳn, không bao giờ quay lại.",
+     "so_lieu": "1/33 bài (nhóm DƯỚI, video đầu kênh 23/05/2026)",
+     "trich": [
+      "\"Did you know that ancient humans lived for an average of about 35 years before dying?\" / \"but that's only partially true.\" / \"I don't want to make this video too long by explaining it here.\" / \"So, watch the video you're seeing on your screen right now.\" — 20260523_Why_You_Can_t_Tickle_Yourself_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ / LIKE / COMMENT",
+   "ca_nguoc": "Không có gì để so nhóm — vì cả kênh chỉ có 1 lần duy nhất, ở video đầu tiên. Sau đó là 32 video liên tiếp không xin gì cả.",
+   "phat_hien": [
+    {
+     "y": "PHÁT HIỆN LỚN: KHÔNG BÀI NÀO XIN ĐĂNG KÝ. Quét toàn bộ 33 file với 'subscribe', 'subscriber', 'follow me/us', 'hit the', 'ring the', 'notification', 'patreon', 'membership', 'join the channel' → 0 kết quả thật (3 kết quả 'hit the' đều là dương tính giả: 'hit the ground', 'hit the animal', 'disasters hit the eastern Mediterranean').",
+     "so_lieu": "0/33 bài xin đăng ký. 0/33 bài nhắc tên kênh, chào mở, 'welcome to', 'in this video', hay 'my name is'.",
+     "trich": [
+      "(dương tính giả) \"Around 1200 BCE, a cascading series of disasters hit the eastern Mediterranean.\" — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "(dương tính giả) \"A herder with a cracking whip does not need to hit the animal.\" — 20260729_How_Did_Humans_Invent_Whip_.txt",
+      "(dương tính giả) \"You throw it, and instead of lying straight to hit the ground 100 m away, it curves hard.\" — 20260727_How_Did_Humans_Invent_the_Boomerang_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỜI XIN LIKE/SHARE/COMMENT DUY NHẤT của cả kênh nằm ở CÂU CUỐI CÙNG của video ĐẦU TIÊN (23/05/2026), tức 100% độ dài bài, tách rời hoàn toàn khỏi nội dung, gắn liền với mồi video kế. Từ video thứ hai trở đi (32 bài) không còn dòng nào.",
+     "so_lieu": "1/33 bài · 1 lần · ở 100% độ dài bài (câu cuối cùng)",
+     "trich": [
+      "\"And before you go to that video, like this video, share it, and tell me in the comments who tickled you the most in your lifetime.\" — 20260523_Why_You_Can_t_Tickle_Yourself_.txt (299 view, 3,9 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "HỆ QUẢ CÓ THỂ RÚT: ở ngách này, bài 159.715 view (Swords) và bài 124.545 view (Countries) đều KHÔNG có một chữ nào kêu gọi đăng ký. Toàn bộ chỗ đáng lẽ đặt CTA được dùng cho câu chốt 'Tonight, somewhere...'. Nếu muốn thử CTA, đây là biến CHƯA AI TRONG KÊNH NÀY TEST — không có dữ liệu ủng hộ lẫn phản bác.",
+     "so_lieu": "0/33 bài có CTA đăng ký; 2 bài top view/ngày (Countries 15.568, Swords 10.648) đều 0 CTA",
+     "trich": [
+      "Câu cuối Countries: \"And every morning without anyone asking, you wake up and believe it again.\" — 20260731_How_Did_Humans_Invent_Countries_.txt",
+      "Câu cuối Swords: \"They just knew that stone breaks and metal bends, and the person with the longer blade goes home.\" — 20260724_How_Did_Humans_Invent_Swords_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "ca_nguoc": "⚠️ Số chương và độ dài chương gần như GIỐNG NHAU giữa nhóm TRÊN và nhóm GIỮA: trung vị 7 chương, 718 vs 659 từ/chương. Nhóm DƯỚI ít chương hơn (trung vị 5) NHƯNG lý do chính là bài ngắn hơn (trung vị 3.192 từ so với 4.362), chứ không phải cách chia khác. Ba bài ngắn nhất kênh (Tickle 1.522 từ, Grow Up 1.576, Races 1.665) đều ở nhóm DƯỚI và đều là ba video đầu tiên — đây lại là biến TUỔI, không phải biến cấu trúc.",
+   "phat_hien": [
+    {
+     "y": "KHUNG 5 KHỐI CỐ ĐỊNH của mọi bài 'How Did Humans Invent X?': (A) CẢNH NHẬP VAI 0–4% ~190 từ · (B) CÂU HỎI LÕI + LỜI HỨA 4–5% ~40 từ · (C) 'Let's start with what came before' — chương nền, cái tồn tại TRƯỚC phát minh, 5–20% · (D) 5–10 chương leo thang theo VẬT LIỆU rồi theo ĐỊA LÝ, 20–88% · (E) BEAT TRẢ LỜI CHÍNH THỨC ~88–92% + ĐOẠN 'Tonight, somewhere...' 92–100%.",
+     "so_lieu": "Trung vị số chương: TRÊN 7 · GIỮA 7 · DƯỚI 5. Trung vị từ/chương: TRÊN 718 · GIỮA 659 · DƯỚI 668. Trung vị tổng từ: TRÊN 4.362 · GIỮA 4.471 · DƯỚI 3.192",
+     "trich": [
+      "Ví dụ đầy đủ khối (C): \"Let's start with what came before, because for most of human history, the answer to where are you from was not a place.\" / \"It was a family.\" — 20260731_How_Did_Humans_Invent_Countries_.txt @3,9%",
+      "\"Let's start with what came before because the bow did not appear out of nowhere.\" / \"It was the end of a very long chain of increasingly clever ideas about how to kill things from further away.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt @5,7%",
+      "\"Let's start with what came before.\" — 20260728_How_Did_Humans_Invent_Slavery_.txt @4,2%",
+      "\"Let's start with what came before because the spear did not solve a new problem.\" — 20260726_How_Did_Humans_Invent_Spears_.txt @6,9%",
+      "\"Let's start with the bones because the bones do not lie.\" — 20260806_How_Did_Humans_Invent_War_.txt @6,2%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "THỨ TỰ LEO THANG LÀ THEO VẬT LIỆU / KHẢ NĂNG, KHÔNG PHẢI THEO THỜI GIAN THUẦN. Bài Swords (159.715 view) đi: đá (12,5%) → đồng (13,5%) → đồng arsenic (14,2%) → sập mạng thiếc (26–33%) → sắt (33,8%) → thép Ấn Độ (46%) → Trung Quốc (52,7%) → La Mã (57,8%) → Viking (73,6%) → kỵ binh 1942 (90,7%). Mỗi bậc mở bằng một CÂU CHUYỂN, không bằng một mốc năm.",
+     "so_lieu": "Swords: 12 chương / 4.048 từ = 337 từ/chương (ngắn nhất kênh). Bow and Arrow: 13 chương / 3.443 từ = 264 từ/chương. Hai bài chương ngắn nhất kênh đều nằm nhóm TRÊN (10.648 và 4.024 view/ngày)",
+     "trich": [
+      "\"This where the oldest known swords enter the story.\" @15,1%",
+      "\"And this where tin changes everything.\" @20,8%",
+      "\"And this is where the story of swords becomes inseparable from the story of global trade.\" @26,0%",
+      "\"On the other side of the world, Chinese metallurgists were solving the same problem by completely different means.\" @52,7%",
+      "\"Back in Europe, the Romans answered that question not with metallurgical innovation but with design philosophy.\" @57,8% — tất cả từ 20260724_How_Did_Humans_Invent_Swords_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÚ LẬT LỚN NHẤT rơi ở đầu-giữa bài, KHÔNG ở cuối. Trung vị vị trí lần bác-bỏ-hiểu-biết đầu tiên là 20,9% độ dài bài. Bài Bread đặt cú lật lớn nhất ở 5,4% — ngay câu đầu của chương 1.",
+     "so_lieu": "20/33 bài có ít nhất một cú lật đo được; trung vị vị trí lần đầu 20,9%. Nhóm TRÊN: 4,8% – 68,7% (trung vị 9,7%). Nhóm GIỮA: 3,6% – 95,5% (trung vị 27,9%)",
+     "trich": [
+      "\"Let's start with the part that most people get wrong because almost everyone assumes the same thing.\" / \"We settled down, we planted crops, and then we figured out how to make bread.\" / \"That is the story most of us learned.\" / \"It is also, according to the last two decades of archaeological evidence, probably backwards.\" — 20260803_How_Did_Humans_Invent_Bread_.txt @5,4%",
+      "\"For decades, Jebel Sahaba was cited as the oldest evidence of warfare, a prehistoric battle, a massacre, the first war.\" ... \"But in 2021, a paleoanthropologist named Isabel Krevkur at the University of Bordeaux re-examined every single skeleton using modern microscopic analysis.\" — 20260806_How_Did_Humans_Invent_War_.txt @~9%",
+      "\"But here is omething most people get wrong about what happened next.\" / \"Iron did not replace bronze because iron was better.\" — 20260724_How_Did_Humans_Invent_Swords_.txt @33,8%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỘ DÀI CHUẨN CỦA KÊNH SAU KHI NỔ: 20–33 phút, 3.350–5.030 từ, 150–190 wpm. Ba video đầu (8–10 phút, 1.500–1.700 từ) đã bị bỏ hẳn khuôn ngắn. KHÔNG có tương quan độ dài ↔ view/ngày trong nhóm dài: Medicines dài nhất kênh (33:15) chỉ 253 view/ngày, còn Boats ngắn thứ hai trong nhóm TRÊN (20:38) được 42.565 view.",
+     "so_lieu": "Trung vị phút: TRÊN 26,4 · GIỮA 26,8 · DƯỚI 18,4. Trung vị wpm: TRÊN 160 · GIỮA 161 · DƯỚI 167. Trong 25 bài khuôn 'Invent/Discover', độ dài trải từ 19:08 (Nukes, 230 vpd) tới 33:15 (Medicines, 253 vpd) — cả hai đầu đều chìm",
+     "trich": [
+      "Bài dài nhất kênh, chìm: \"# How Did Humans Invent Medicines?\" / \"# id=Hhy-W3-qjH8 · 3,538 view · 33:15 · 4800 từ · 144 wpm\" — 20260725_How_Did_Humans_Invent_Medicines_.txt",
+      "Bài ngắn nhất nhóm TRÊN, 42.565 view: \"# How Did Humans Invent Boats?\" / \"# id=yK96BF3BW_E · 42,565 view · 20:38 · 3353 từ · 163 wpm\" — 20260721_How_Did_Humans_Invent_Boats_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG",
+   "ca_nguoc": "⚠️ Ba họ câu chuyển ('Let's start with', 'here is the...', 'This is where...') có ở CẢ HAI NHÓM. Nhóm DƯỚI dùng y hệt: \"Let's start with the numbers, because the numbers are not even close.\" (Prey, 7 view/ngày) · \"Let's start with what memory actually is inside an imal's brain, because most people picture it as a filing cabinet.\" (Animals Remember, 5 view/ngày). Khác biệt DUY NHẤT tách được là họ 'NHẢY ĐỊA LÝ' (6/11 TRÊN vs 2/11 DƯỚI) — nhưng cái này bị đề tài quyết định: đề tài công cụ mới có nhiều nền văn minh song song để nhảy, đề tài 'Why do animals...' thì không.",
+   "phat_hien": [
+    {
+     "y": "ĐỘ DÀI CHUẨN CỦA CÂU CHUYỂN: trung vị 12 TỪ, khoảng 4–37 từ. Câu chuyển ngắn nhất kênh là 4 từ (\"Here is the answer.\"). Cấu trúc chuẩn: [nối] + [danh từ chỉ 'phần/chi tiết/chỗ'] + [mệnh đề 'that/because' nói TẠI SAO đáng nghe tiếp].",
+     "so_lieu": "68 câu chuyển cấp-chương đếm được ở 33 bài; trung vị 12 từ · min 4 · max 37",
+     "trich": [
+      "\"Let's start with the bones because the bones do not lie.\" (11 từ) — 20260806_How_Did_Humans_Invent_War_.txt",
+      "\"And here is the part that matters for our story.\" (10 từ) — 20260731_How_Did_Humans_Invent_Countries_.txt",
+      "\"Now here is the connection to bread that matters.\" (9 từ) — 20260803_How_Did_Humans_Invent_Bread_.txt",
+      "\"This is where Gobekli Tepe enters the story.\" (8 từ) — 20260803_How_Did_Humans_Invent_Bread_.txt",
+      "\"And this where tin changes everything.\" (6 từ) — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "\"But here is something worth pausing on.\" (7 từ) — 20260731_How_Did_Humans_Invent_Countries_.txt",
+      "\"Here is the answer.\" (4 từ) — 20260728_How_Did_Humans_Invent_Slavery_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 1 — 'ĐƯA NHÂN VẬT/DI CHỈ MỚI VÀO CÂU CHUYỆN': dùng động từ 'enter the story' hoặc 'this is where X...' để giới thiệu một di chỉ, một vật liệu, một dân tộc mới. Đây là cái thay cho tiêu đề chương.",
+     "so_lieu": "25/33 bài · 36 lần · 0,28 lần/1000 từ (TRÊN 9/11 · GIỮA 8/11 · DƯỚI 8/11)",
+     "trich": [
+      "\"This where the oldest known swords enter the story.\" — 20260724_How_Did_Humans_Invent_Swords_.txt @15,1%",
+      "\"This is where Gobekli Tepe enters the story.\" — 20260803_How_Did_Humans_Invent_Bread_.txt @31,5%",
+      "\"This is where Neanderthals enter the story in a way most people do not expect.\" — 20260726_How_Did_Humans_Invent_Spears_.txt @37,6%",
+      "\"This is where the axe stops being a personal tool and starts reshaping the entire planet.\" — 20260807_How_Did_Humans_Invent_Axe_.txt @54,6%",
+      "\"This is where prehistory ends and history begins.\" — 20260804_How_Did_Humans_Invent_Astronomy_.txt @34,3%",
+      "\"This is where the debate gets heated.\" — 20260806_How_Did_Humans_Invent_War_.txt @27,9%",
+      "\"And this where it gets genuinely interesting, because what they developed wasn't echnology, it was knowledge.\" — 20260629_How_Ancient_Humans_Found_Water_.txt @11,3% (nhóm DƯỚI, cùng khuôn)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 2 — 'NHẢY ĐỊA LÝ' để mở chương nửa sau. Bốn biến thể: 'Meanwhile, in X', 'On the other side of the world', 'Back in Europe', 'Across the Atlantic'. Luôn rơi vào 40–83% của bài, không bao giờ ở 30 phần trăm đầu.",
+     "so_lieu": "14/33 bài · 21 lần · 0,17 lần/1000 từ (TRÊN 6/11 · GIỮA 6/11 · DƯỚI 2/11). Vị trí: 40,6%–82,8%",
+     "trich": [
+      "\"On the other side of the world, Chinese metallurgists were solving the same problem by completely different means.\" — 20260724_How_Did_Humans_Invent_Swords_.txt @52,7%",
+      "\"Back in Europe, the Romans answered that question not with metallurgical innovation but with design philosophy.\" — 20260724_How_Did_Humans_Invent_Swords_.txt @57,8%",
+      "\"Meanwhile, in Europe, the Vikings were carrying swords inscribed with the word V L F B E R H T.\" — 20260724_How_Did_Humans_Invent_Swords_.txt @73,6%",
+      "\"Meanwhile, on the other side of the Mediterranean, the Romans were turning shoes into an industrial-scale operation.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt @40,6%",
+      "\"Meanwhile, in China, a parallel path was unfolding.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt @68,4%",
+      "\"Across the Atlantic, in civilizations with zero contact with Europe or Asia, slavery existed independently.\" — 20260728_How_Did_Humans_Invent_Slavery_.txt @53,6%",
+      "\"Back in Europe, the arms race was reaching its peak, and the answer to every new weapon was more steel.\" — 20260730_How_Did_Humans_Invent_Armor_.txt @52,8%",
+      "\"Meanwhile, on the other side of the planet, archaeological evidence tells its own story.\" — 20260806_How_Did_Humans_Invent_War_.txt @78,5%"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 3 — CÂU ĐÓNG CHƯƠNG kiểu 'domino': tóm chương vừa xong bằng một câu cụt rồi tự nó là bản lề sang chương sau.",
+     "so_lieu": "Đếm được ở nhóm TRÊN qua các cụm 'And then + [sự sụp đổ/thay đổi]': 10/11 bài nhóm TRÊN có ít nhất 1 lần (75 lần trên toàn kênh, 26/33 bài)",
+     "trich": [
+      "\"And then that entire system collapsed.\" (đóng chương thương mại thiếc, mở chương sụp đổ Đồ Đồng) — 20260724_How_Did_Humans_Invent_Swords_.txt @31,5%",
+      "\"Dominoes falling across an entire civilization.\" (câu đóng, 5 từ) — cùng file @33,3%",
+      "\"And then warfare changed.\" — 20260730_How_Did_Humans_Invent_Armor_.txt",
+      "\"And then the community split.\" — 20260806_How_Did_Humans_Invent_War_.txt",
+      "\"And then, somewhere in Africa, someone solved that problem with a bent stick and a piece of string.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt",
+      "\"And then, somewhere around 3000 BC, shoes stopped being only about protection.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 4 — 'CÀI CẦU NGANG' giữa hai chương xa nhau, dùng để tạo cảm giác cả bài là một vòng khép: 'And here is the connection back to...' / 'here's where the story loops back'.",
+     "so_lieu": "Đếm riêng cụm 'connection/loops back/circles back': 6 lần ở 5 bài (TRÊN 3/11 · GIỮA 2/11 · DƯỚI 0/11)",
+     "trich": [
+      "\"And here is the connection back to the original invention.\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt @61,7%",
+      "\"Now, here's where the story loops back to something that matters more than sneakers or fashion or billion-dollar brands.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt @85,8%",
+      "\"And here's the connection to the wheel that makes this worth understanding.\" — 20260722_How_Did_Humans_Invent_Wheel_.txt @10,2%",
+      "\"And here's where the domestication story circles back to the theme in a way you might not expect.\" — 20260802_How_Did_Humans_Invent_Animal_Domestication_.txt @64,0%",
+      "\"Here's the thing that connects the telescope back to the very beginning of this story.\" — 20260804_How_Did_Humans_Invent_Astronomy_.txt @83,6%"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "ca_nguoc": "⚠️ Mật độ mốc NĂM và mật độ ĐẠI HỌC gần như bằng nhau ở ba nhóm (năm: 1,36 vs 1,27 vs 1,40 /1000 từ; đại học: 0,58 vs 0,44 vs 0,54). Chỉ có hai chỉ số THẬT SỰ tách nhóm: tên NHÀ NGHIÊN CỨU (0,52 vs 0,00) và tên DI CHỈ (0,64 vs 0,00). Nhưng cảnh báo: cả hai đều bị đề tài quyết định — bài 'Why Do Animals Remember Humans' không có di chỉ khảo cổ để nêu. Không được đọc thành 'cứ nêu tên nhà khoa học là thắng'.",
+   "phat_hien": [
+    {
+     "y": "CÔNG THỨC DẪN NGUỒN CHUẨN, LẶP GẦN NHƯ NGUYÊN VĂN: [Năm] + [chức danh] + [tên riêng] + [tại đại học] + [đăng bài trên tạp chí] + [phát hiện gì]. Một câu duy nhất chở đủ 5 mảnh.",
+     "so_lieu": "Tên nhà nghiên cứu có chức danh: 57 lần · 0,45/1000 từ · 25/33 bài. Trung vị theo nhóm: TRÊN 0,52/1000 từ (11/11 bài có) · GIỮA 0,43 (10/11) · DƯỚI 0,00 (chỉ 3/11 bài có: Nukes, Wolves, Wild Animals)",
+     "trich": [
+      "\"In 2018, archaeobotanist Amaia Arranz-Otaegui at he University of Copenhagen published a paper in the Proceedings of the National Academy of Sciences that changed the timeline.\" — 20260803_How_Did_Humans_Invent_Bread_.txt",
+      "\"In 2011, a team led by Christopher Lepre at Rutgers University published a paper in Nature that pushed the oldest known hand axes back to approximately 1.76 million years ago.\" — 20260807_How_Did_Humans_Invent_Axe_.txt",
+      "\"Robin Dunbar, an evolutionary psychologist at the University of Oxford, published a paper in 1992 in the Journal of Human Evolution proposing that the human brain has a cognitive limit on the number of stable social relationships it can maintain.\" — 20260731_How_Did_Humans_Invent_Countries_.txt",
+      "\"In the early 1980s, Professor Marcella Frangipane of Sapienza University of Rome was excavating a site called Arslantepe, a monumental mound in the Malatya province of eastern Turkey.\" — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "\"In 2020, archaeologist Bruce Hardy at Kenyon College published a paper in Scientific Reports describing a fragment of twisted cord...\" — 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt",
+      "\"But in 2021, a paleoanthropologist named Isabel Krevkur at the University of Bordeaux re-examined every single skeleton using modern microscopic analysis.\" — 20260806_How_Did_Humans_Invent_War_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "DI CHỈ LUÔN CÓ TÊN RIÊNG + TOẠ ĐỘ THẬT. Không bao giờ 'ở châu Phi' chung chung; luôn 'a site called X on the western shore of Lake Y in Z'. Đây là chỉ số tách nhóm mạnh nhất đo được: 11/11 bài nhóm TRÊN có, chỉ 1/11 bài nhóm DƯỚI có.",
+     "so_lieu": "45 lần · 0,35/1000 từ · 19/33 bài. Trung vị: TRÊN 0,64/1000 từ (11/11 bài) · GIỮA 0,24 (7/11) · DƯỚI 0,00 (1/11)",
+     "trich": [
+      "\"They were found at a site called Kokiselei on the western shore of Lake Turkana in Kenya.\" — 20260807_How_Did_Humans_Invent_Axe_.txt",
+      "\"Her team had been excavating a site called Shubayqa 1, a Natufian hunter-gatherer camp in the Black Desert of Jordan between 2012 and 2015.\" — 20260803_How_Did_Humans_Invent_Bread_.txt",
+      "\"That skeleton and cartoon came from a place called Jebel Sahaba, also known as Cemetery 117.\" / \"It was excavated in 1964 by archaeologist Fred Wendorf during construction work related to the Aswan Dam.\" — 20260806_How_Did_Humans_Invent_War_.txt",
+      "\"In 2014, archaeologists excavating a site near the Irtysh River in Omsk, Siberia, unearthed a near-complete suit of armor made entirely of bone.\" — 20260730_How_Did_Humans_Invent_Armor_.txt",
+      "\"In 1938, archaeologist Luther Cressman of the University of Oregon was excavating Fort Rock Cave in the high desert of central Oregon.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt",
+      "\"In 1982, a shipwreck was discovered off the coast of Kaş, Turkey, the Uluburun wreck, a late Bronze Age merchant vessel that sank in the late 14th century BCE.\" — 20260724_How_Did_Humans_Invent_Swords_.txt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "HEDGE CỰC DÀY NHƯNG CHỈ MỘT KIỂU: 'roughly' đứng trước MỌI con số niên đại. Đây là hedge mặc định của kênh, dùng 486 lần trên 33 bài. Nó không phải hedge nhận thức luận — nó là hedge SỐ HỌC, để không phải cam kết một con số chính xác.",
+     "so_lieu": "486 lần · 3,83 lần/1000 từ · 32/33 bài (TRÊN 11/11 · GIỮA 11/11 · DƯỚI 10/11). Trung bình 1 lần mỗi 261 từ, tức khoảng 1 lần mỗi 95 giây đọc",
+     "trich": [
+      "\"It belongs to a person who lived roughly 13,400 years ago in the Nile Valley in what is now northern Sudan.\" — 20260806_How_Did_Humans_Invent_War_.txt",
+      "\"For roughly 96% of our species' existence, humans lived in small, mobile bands of 20 to 50 related individuals.\" — 20260731_How_Did_Humans_Invent_Countries_.txt",
+      "\"For roughly 2 and 1/2 million years, every cutting tool humans ever made was stone.\" — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "\"And for roughly 99% of human existence, that is exactly how we lived, barefoot.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt",
+      "\"For roughly 10,000 years, that was the reality for millions of human beings on every inhabited continent in civilizations that had nothing else in common.\" — 20260728_How_Did_Humans_Invent_Slavery_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TÁCH SỰ THẬT KHỎI SUY DIỄN: CÓ, NHƯNG RẤT THƯA — chỉ 10 lần trên 33 bài (0,08/1000 từ). Nghĩa là trung bình cứ 2,7 bài mới có 1 câu thừa nhận 'ta không biết'. Khi có, họ đóng khung nó thành TRANH CÃI HỌC THUẬT (có phe A, phe B) chứ không thành 'chưa rõ'.",
+     "so_lieu": "10 lần · 0,08/1000 từ · 9/33 bài (TRÊN 4/11 · GIỮA 3/11 · DƯỚI 2/11). Trung vị mọi nhóm đều = 0,00/1000 từ",
+     "trich": [
+      "\"Anthropologists still argue about which came first, the bread or the beer, and whether the real incentive for domesticating grain was food or alcohol.\" — 20260803_How_Did_Humans_Invent_Bread_.txt",
+      "\"So, we cannot point at the first shoe and say, \\\"Here it is.\\\" What we can do is look at the bones of the people who wore them.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt",
+      "\"Or maybe it was about something we cannot reconstruct from bones alone.\" — 20260806_How_Did_Humans_Invent_War_.txt",
+      "\"Climate change, drought, trade disruptions, internal rebellions, and the mysterious Sea Peoples, a coalition of maritime raiders whose identity historians still argue about.\" — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "\"You can't prove that theory, not yet.\" / \"But the sensitivity is real, and it is extreme, and it is specific to a compound associated with one thing.\" — 20260629_How_Ancient_Humans_Found_Water_.txt",
+      "\"The probability of independent invention across multiple species and multiple continents is conservatively above 95%.\" (cách họ định lượng suy diễn thay vì thú nhận không biết) — 20260726_How_Did_Humans_Invent_Spears_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU CÓ ≥3 CON SỐ (niên đại, khối lượng, tốc độ, tỉ lệ) là mật độ dày nhất trong toàn bộ dữ liệu: 9,80 câu/1000 từ. Bài dày nhất là Countries với 74 câu như vậy trong 4.548 từ. Nghĩa là cứ ~102 từ (~38 giây) lại có một câu nhồi số.",
+     "so_lieu": "33/33 bài · 1.242 câu · 9,80 câu/1000 từ (TRÊN 11/11 · GIỮA 11/11 · DƯỚI 11/11)",
+     "trich": [
+      "\"26 bones, 33 joints, over 100 muscles, tendons, and ligaments all working together to let you walk upright on two legs, something almost no other animal on Earth does full-time.\" — 20260804_How_Did_Humans_Invent_Shoes_.txt",
+      "\"Obsidian, volcanic glass, fractures into edges as thin as 3 nanometers.\" / \"To put hat in perspective, a modern surgical steel scalpel has an edge roughly 25,000 nanometers thick.\" — 20260724_How_Did_Humans_Invent_Swords_.txt",
+      "\"That animal weighs roughly 200 kg.\" / \"It can run at 80 km/h.\" / \"You weigh maybe 60 kg and the fastest you have ever run in your life is about 35 km/h.\" — 20260726_How_Did_Humans_Invent_Spears_.txt",
+      "\"Humans eat over 1.6 trillion eggs every single year.\" / \"That is roughly 200 eggs per person on the planet...\" — 20260723_When_Did_Ancient_Humans_Start_Eating_Eggs_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "ca_nguoc": "⚠️ CẢNH BÁO NẶNG NHẤT CỦA CẢ BÁO CÁO: khuôn title 'How Did Humans Invent X?' vừa là khuôn thắng, VỪA là khuôn của mọi video đăng sau 17/07. Nghĩa là ta KHÔNG tách được 'khuôn title tốt' khỏi 'thời điểm kênh được thuật toán đẩy'. Bằng chứng gỡ được một phần: trong CÙNG đợt sau mốc nổ, khuôn này vẫn cho ra Medicines 253 vpd, Whip 406 vpd, Sling 675 vpd bên cạnh Countries 15.568 vpd — chênh 61 lần trong cùng khuôn, cùng tuần, cùng bộ xương kịch bản. Khuôn title KHÔNG quyết định; nó chỉ là điều kiện cần.",
+   "phat_hien": [
+    {
+     "y": "KÊNH ĐÃ ĐỔI HẲN SANG MỘT KHUÔN TITLE DUY NHẤT VÀ BỎ HẲN KHUÔN CŨ. Từ 18/07/2026 trở đi, 21/22 video mang đúng khuôn 'How Did Humans Invent [danh từ đơn]?'. Trước 17/07, 0/11 video mang khuôn đó.",
+     "so_lieu": "19/33 bài dùng đúng 'How Did Humans Invent X?' · trung vị 2.563 view/ngày · trải từ 230 (Nukes) tới 19.168 (War). 7/33 bài dùng 'Why ...?' · trung vị 5 view/ngày · trải từ 3 tới 33",
+     "trich": [
+      "Khuôn hiện hành: \"# How Did Humans Invent Swords?\" — 20260724_How_Did_Humans_Invent_Swords_.txt (159.715 view)",
+      "Khuôn hiện hành: \"# How Did Humans Invent Countries?\" — 20260731_How_Did_Humans_Invent_Countries_.txt (124.545 view)",
+      "Khuôn đã bỏ: \"# Why Do Animals Remember Humans for Years?\" — 20260704_Why_Do_Animals_Remember_Humans_for_Years_.txt (190 view)",
+      "Khuôn đã bỏ: \"# Why It's Better to Be Prey Than a Predator?\" — 20260625_Why_It_s_Better_to_Be_Prey_Than_a_Predator_.txt (307 view)",
+      "Bản nháp sai khuôn một chữ, ngay trước khi chốt: \"# How Humans Invented Guns?\" — 20260707_How_Humans_Invented_Guns_.txt (1.768 view). 11 ngày sau họ làm lại đúng khuôn với Bow and Arrow và được 84.503 view"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ MỘT LOẠT (SERIES) RÕ RỆT: 19 video 'Invent X' đăng liên tiếp trong 21 ngày (18/07–07/08), gần như 1 video/ngày, mỗi video một VẬT DỤNG. Đây là chiến lược 'quét cạn danh mục đồ vật cổ đại' chứ không phải chọn đề tài lẻ.",
+     "so_lieu": "19 video series trong 21 ngày (18/07–07/08). Danh mục đã dùng: Bow and Arrow, Nukes, Boats, Wheel, Fire, Swords, Medicines, Spears, Boomerang, Slavery, Whip, Armor, Sling, Countries, Animal Domestication, Bread, Astronomy, Shoes, War, Axe",
+     "trich": [
+      "\"# How Did Humans Invent Armor?\" và \"# How Did Humans Invent Sling?\" — cùng ngày 20260730",
+      "\"# How Did Humans Invent Astronomy?\" và \"# How Did Humans Invent Shoes?\" — cùng ngày 20260804",
+      "\"# How Did Humans Invent Bow and Arrow?\" — 20260718 (video đầu tiên của loạt, 84.503 view)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHÔNG LÀM LẠI ĐỀ TÀI CŨ. 33 title, 33 chủ đề khác nhau, không có cặp nào trùng. Kể cả khi Guns (07/07, sai khuôn, 1.768 view) chìm, họ KHÔNG làm lại 'How Did Humans Invent Guns?' — họ đi sang vật khác.",
+     "so_lieu": "0/33 cặp title trùng đề tài. Trường hợp gần nhất là hai bài vũ khí lửa (Guns 07/07 và Nukes 19/07) nhưng là hai vật khác nhau",
+     "trich": [
+      "\"# How Humans Invented Guns?\" — 20260707 (1.768 view, 55 view/ngày)",
+      "\"# How Did Humans Invent Nukes?\" — 20260719 (4.595 view, 230 view/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "SO TRUNG VỊ VIEW/NGÀY GIỮA CÁC CỤM ĐỀ TÀI. Cụm THỂ CHẾ/XÃ HỘI ăn đậm nhất nhưng chỉ 2 bài (mẫu quá nhỏ để tin). Cụm ĐỘNG VẬT/CƠ THỂ là nghĩa địa rõ ràng nhất — 8 bài, không bài nào vượt 33 view/ngày.",
+     "so_lieu": "XÃ HỘI/THỂ CHẾ (Countries, Slavery): 2 bài · trung vị 9.066 vpd · trung vị 76.368 view || DI CHUYỂN/HẠ TẦNG (Wheel, Boats, Shoes): 3 bài · trung vị 2.864 vpd · 42.565 view || VŨ KHÍ/CHIẾN TRANH: 11 bài · trung vị 1.180 vpd · 13.607 view || THỨC ĂN/ĐỒ UỐNG: 4 bài · trung vị 1.137 vpd · 12.158 view || TRI THỨC/SINH TỒN (Fire, Astronomy, Medicines, Water, Australia): 5 bài · trung vị 253 vpd · 7.710 view || ĐỘNG VẬT/CƠ THỂ pop-sci: 8 bài · trung vị 6 vpd · 303 view",
+     "trich": [
+      "Cụm mạnh nhất: \"# How Did Humans Invent Countries?\" (124.545 view) và \"# How Did Humans Invent Slavery?\" (28.192 view) — hai đề tài TRỪU TƯỢNG/THỂ CHẾ chứ không phải đồ vật",
+      "Cụm yếu nhất: \"# Why Do Animals Remember Humans for Years?\" (190 view) · \"# Why Do Humans have different Races?\" (208 view) · \"# Why Humans Take Forever to Grow Up?\" (255 view)",
+      "Trong cụm vũ khí, chênh lệch nội bộ khổng lồ: Swords 159.715 view vs Whip 4.063 view vs Sling 6.077 view — cùng khuôn, cùng tuần"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "BÊN TRONG CÙNG MỘT KHUÔN VÀ CÙNG MỘT TUẦN, ĐỘ NHẬN BIẾT CỦA VẬT QUYẾT ĐỊNH. Xếp 19 bài 'Invent X' theo mức quen thuộc của danh từ: vật ai cũng cầm/biết (Swords, Bread, Wheel, Boats, Shoes, War, Armor) trung vị cao; vật ngách (Whip, Sling, Boomerang, Medicines, Astronomy) trung vị thấp.",
+     "so_lieu": "Trong 19 bài cùng khuôn: 7 danh từ phổ thông (Swords 159.715 · Countries 124.545 · Bow and Arrow 84.503 · Bread 58.765 · Wheel 48.692 · Boats 42.565 · War 38.337) — trung vị 58.765 view. 6 danh từ ngách (Sling 6.077 · Axe 5.527 · Whip 4.063 · Medicines 3.538 · Astronomy 7.710 · Nukes 4.595) — trung vị 5.336 view. Chênh 11 lần",
+     "trich": [
+      "\"# How Did Humans Invent Swords?\" — 159.715 view",
+      "\"# How Did Humans Invent Whip?\" — 4.063 view (đăng 29/07, giữa đợt nổ)",
+      "\"# How Did Humans Invent Sling?\" — 6.077 view (đăng 30/07, CÙNG NGÀY với Armor 34.952 view)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "ca_nguoc": "⚠️ Nhịp đăng và view/ngày ĐI CÙNG NHAU nhưng KHÔNG chứng minh được nhân quả theo chiều nào. Đúng là 22 video đăng với nhịp trung vị 1 ngày đều nằm ở nửa trên bảng, còn 11 video nhịp 3–16 ngày nằm ở nửa dưới. Nhưng đây chính là biến TUỔI đã cảnh báo ở mục giới hạn: họ tăng nhịp NGAY SAU khi Bow and Arrow nổ (18/07), nên 'nhịp dày' và 'sau khi nổ' là cùng một khoảng thời gian. Cũng có thể đọc ngược: kênh nổ nên họ mới đủ động lực đăng mỗi ngày.",
+   "phat_hien": [
+    {
+     "y": "33 video trong 76 ngày (23/05/2026 → 07/08/2026). Khoảng cách TRUNG VỊ giữa hai lần đăng: 1,0 ngày. Trung bình 2,375 ngày (bị kéo lên bởi một quãng nghỉ 16 ngày).",
+     "so_lieu": "33 video / 76 ngày = 0,43 video/ngày trung bình cả kỳ. Trung vị gap 1,0 ngày. Phân bố 32 gap: 0 ngày ×3 · 1 ngày ×15 · 2 ngày ×3 · 3 ngày ×4 · 4 ngày ×4 · 5 ngày ×1 · 6 ngày ×1 · 16 ngày ×1",
+     "trich": [
+      "Chuỗi gap đầy đủ theo thứ tự thời gian: 3, 4, 16, 4, 3, 3, 4, 5, 3, 6, 4, 1, 1, 2, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 2, 1, 1, 0, 2, 1",
+      "Video đầu: 20260523_Why_You_Can_t_Tickle_Yourself_.txt · Video cuối: 20260807_How_Did_Humans_Invent_Axe_.txt"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP ĐỔI DỨT KHOÁT LÀM ĐÔI, ĐÚNG NGÀY 18/07. Giai đoạn 1 (23/05–17/07, 12 video đầu): gap trung vị 4 ngày, có một quãng nghỉ 16 ngày (30/05→15/06). Giai đoạn 2 (18/07–07/08, 21 video sau): gap trung vị 1 ngày, không quãng nghỉ nào quá 2 ngày.",
+     "so_lieu": "Giai đoạn 1: 12 video / 55 ngày = 1 video mỗi 4,6 ngày. Giai đoạn 2: 21 video / 20 ngày = 1,05 video/ngày — nhanh gấp 4,8 lần",
+     "trich": [
+      "Quãng nghỉ dài nhất kênh: 20260530_Why_Do_Humans_have_different_Races_.txt → 20260615_How_Did_Humans_End_Up_in_Australia_.txt (16 ngày)",
+      "Mốc đổi nhịp: 20260717_How_Did_Ancient_Humans_Discover_Beer_.txt → 20260718_How_Did_Humans_Invent_Bow_and_Arrow_.txt (1 ngày), và từ đó không bao giờ chậm lại"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ GOM ĐỢT: 3 lần đăng HAI VIDEO CÙNG MỘT NGÀY, tất cả đều ở giai đoạn 2. Đáng chú ý, hai video cùng ngày cho kết quả rất lệch nhau — bằng chứng trực tiếp rằng ngày đăng không phải biến quyết định.",
+     "so_lieu": "3/32 gap = 0 ngày. Cặp 23/07: Fire 25.950 view vs Eggs 5.674 view (lệch 4,6 lần). Cặp 30/07: Armor 34.952 view vs Sling 6.077 view (lệch 5,8 lần). Cặp 04/08: Shoes 19.297 view vs Astronomy 7.710 view (lệch 2,5 lần)",
+     "trich": [
+      "20260723_How_Did_Humans_Discover_Fire_.txt (25.950 view) và 20260723_When_Did_Ancient_Humans_Start_Eating_Eggs_.txt (5.674 view)",
+      "20260730_How_Did_Humans_Invent_Armor_.txt (34.952 view) và 20260730_How_Did_Humans_Invent_Sling_.txt (6.077 view)",
+      "20260804_How_Did_Humans_Invent_Shoes_.txt (19.297 view) và 20260804_How_Did_Humans_Invent_Astronomy_.txt (7.710 view)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "VIỆC ĐĂNG DÀY KHÔNG BẢO ĐẢM ĐỀU TAY. Trong 21 ngày đăng mỗi ngày, view/ngày dao động từ 253 (Medicines, 25/07) tới 19.168 (War, 06/08) — biên độ 76 lần, với các bài chìm nằm XEN KẼ giữa các bài nổ chứ không thành cụm. Nghĩa là ở kênh này, nhịp đăng mua được LƯỢT THỬ, còn thắng-thua vẫn do từng video.",
+     "so_lieu": "Trong giai đoạn 2 (21 video): 6 video dưới 1.000 view/ngày (Medicines 253, Whip 406, Sling 675, Beer 667, Eggs 355, Nukes 230) xen giữa 15 video trên 1.000. Không có chuỗi liên tiếp nào quá 2 bài cùng chìm",
+     "trich": [
+      "Chuỗi 24/07→31/07 (8 ngày liên tiếp): Swords 10.648 vpd → Medicines 253 → Spears 1.180 → Boomerang 1.134 → Slavery 2.563 → Whip 406 → Armor 3.884 & Sling 675 → Countries 15.568",
+      "Hai bài kề nhau lệch 42 lần: 20260724_How_Did_Humans_Invent_Swords_.txt (10.648 vpd) và 20260725_How_Did_Humans_Invent_Medicines_.txt (253 vpd)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TUỔI KÊNH LÀ 76 NGÀY — quá ngắn để bất kỳ kết luận nào ở đây bền. Video mới nhất mới 1 ngày tuổi, video cũ nhất 77 ngày. 6/11 bài nhóm TRÊN mới dưới 10 ngày tuổi, nghĩa là view/ngày của chúng chưa qua đỉnh và sẽ tụt.",
+     "so_lieu": "Tuổi video: 1–77 ngày, trung vị 15 ngày. Nhóm TRÊN trung vị tuổi 9 ngày · nhóm DƯỚI trung vị tuổi 44 ngày — chênh 4,9 lần",
+     "trich": [
+      "Trẻ nhất: 20260807_How_Did_Humans_Invent_Axe_.txt (1 ngày, 5.527 view)",
+      "Già nhất: 20260523_Why_You_Can_t_Tickle_Yourself_.txt (77 ngày, 299 view)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ]
+}

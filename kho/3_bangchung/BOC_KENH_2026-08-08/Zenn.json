@@ -1,0 +1,504 @@
+{
+ "kenh": "Zenn (YouTube, 174.000 sub, description kênh đúng một dòng: \"dontreadthisgowatchmyvideos.\")",
+ "so_bai": 28,
+ "view_ngay_cao": "NHÓM CAO = 9 bài view/ngày 1.317–62.653 (tính tới 08/08/2026): 20260405_What_Did_Ancient_Humans_Do_at_Night_ (62.653) · 20260429_The_Calhoun_Effect (39.835) · 20260403_Why_You_Can_t_Remember_Being_a_Baby (14.706) · 20260416_What_If_WE_Are_The_Aliens_ (7.125) · 20260424_What_Did_Ancient_Humans_Actually_Eat_ (6.914) · 20260402_What_Happens_After_We_Die_ (4.023) · 20260509_What_Did_Ancient_Humans_Do_All_Day_ (3.996) · 20260411_Why_Hasn_t_Anyone_Raised_the_Titanic_ (2.172) · 20260730_Why_Don_t_Animals_Have_Wheels_ (1.317)",
+ "view_ngay_thap": "NHÓM THẤP = 9 bài view/ngày 298–547: 20260604_What_If_Humans_Lived_4_5_Billion_Years_Ago_ (547) · 20260614_What_Happens_to_Unvisited_Graves_ (542) · 20260401_Why_Are_Humans_Dumber_Now_ (516) · 20260531_Why_Are_Exactly_10_of_People_Left_Handed_ (443) · 20260419_The_Pratfall_Effect (434) · 20260618_Why_Were_Vikings_So_Scared_at_Night_ (424) · 20260704_The_Marshmallow_Effect (412) · 20260628_Do_Animals_Remember_Human_Faces_ (381) · 20260624_Why_Do_Dogs_Love_Humans_ (298)",
+ "gioi_han": "BỐN GIỚI HẠN PHẢI ĐỌC TRƯỚC KHI DÙNG BẤT CỨ SỐ NÀO Ở DƯỚI.\n\n(1) PHÉP CHIA BA GẦN NHƯ TRÙNG VỚI PHÉP CHIA THEO THỜI GIAN. 8/9 bài nhóm CAO đăng 02/04–09/05/2026 (5 tuần đầu đời kênh); 7/9 bài nhóm THẤP đăng 04/06–04/07. Trung vị view/ngày theo tháng: 04/2026 = 5.468 (10 bài) · 05 = 750 (3 bài) · 06 = 547 (9 bài) · 07 = 675 (7 bài). Nghĩa là: mọi khác biệt văn phong tôi đo được giữa hai nhóm ĐỀU CÓ THỂ chỉ là kênh đổi cách viết theo thời gian, chứ không phải nguyên nhân của view. Hai bài tháng 4 rơi vào nhóm THẤP (Pratfall 19/04 = 434 · Dumber Now 01/04 = 516) là hai điểm duy nhất phá được phần nào cái nhiễu này — và cả hai đều nghèo đúng những dấu hiệu mà nhóm CAO giàu, nên tôi giữ lại các phát hiện, nhưng ở mức \"gợi ý\", không phải \"nhân quả\".\n\n(2) BÀI SỐ 9 CỦA NHÓM CAO LÀ ẢO. 20260730_Why_Don_t_Animals_Have_Wheels_ mới 9 ngày tuổi (11.849 view) nên view/ngày 1.317 là cú nhồi view tuần đầu, không phải sức bền. Bỏ nó ra thì nhóm CAO chỉ còn 8 bài và toàn bộ là tháng 4–5.\n\n(3) DỮ LIỆU THIẾU 1 VIDEO. Thư mục _vtt có 29 video; bản .txt chỉ có 28. Video thiếu là 20260716 \"What Does Dying Feel Like?\" (11.018 view, 10:14, view/ngày 479). Tôi đã dùng nó cho chiều 8 và 9 (đề tài + nhịp đăng) vì lấy được từ info.json, nhưng KHÔNG dùng cho các chiều cần lời đọc.\n\n(4) 0/29 VIDEO CÓ CHAPTER YOUTUBE và transcript không có timestamp, nên \"bộ xương chương\" ở chiều 5 là (a) bản đồ đọc tay 3 bài + (b) một phép đếm biển báo chương bằng máy. Tôi ghi rõ chỗ nào là (a) chỗ nào là (b).\n\n(5) Bản ghi là caption tự động của YouTube nên có lỗi rơi chữ cái đầu (\"spent\" → \"pent\", \"the\" → \"he\", \"started\" → \"tarted\"). Tôi trích NGUYÊN VĂN kể cả lỗi này, không sửa.",
+ "chieu": [
+  {
+   "ten": "CHIỀU 1 — HOOK (130 từ đầu ≈ 45 giây ở nhịp 195 wpm)",
+   "ca_nguoc": "Ba thứ tôi tưởng là bí quyết, đo ra là NẾT KÊNH: (a) mở bằng sân khấu lạnh ngôi thứ ba — nhóm CAO 3/9, nhóm THẤP 4/9, nhóm thấp còn dùng nhiều hơn; (b) xưng \"you\" sớm — CAO 4/9, THẤP 4/9, y hệt nhau; (c) không chào hỏi, không giới thiệu kênh — 28/28 bài. Ba thứ này KHÔNG phân biệt được bài thắng với bài chìm. Ngược lại, mật độ \"you/your\" trên toàn bài của nhóm THẤP còn CAO HƠN nhóm CAO (trung vị 19,5 vs 14,4 lần/1000 từ) — càng nói về \"BẠN\" càng không cứu được bài.",
+   "phat_hien": [
+    {
+     "y": "KHÔNG bài nào chào, giới thiệu kênh, hay tự giễu. Câu đầu tiên luôn là nội dung. Người dẫn hoàn toàn vô hình: chỉ 2/28 bài có chữ \"I\" ở đầu câu, và cả hai đều là lời nhân vật trong truyện chứ không phải người dẫn.",
+     "so_lieu": "28/28 bài mở thẳng bằng nội dung · 0/28 bài có câu tự giễu · 2/28 bài có \"I\" đầu câu · 0/28 bài dùng dấu \"!\" trong TOÀN BỘ lời đọc (đếm trên 46.851 từ)",
+     "trich": [
+      "\"Eight mice were placed inside a perfect world.\" (20260429_The_Calhoun_Effect.txt — câu số 1)",
+      "\"Your heart just stopped.\" (20260402_What_Happens_After_We_Die_.txt — câu số 1)",
+      "\"This crow is hurling itself at a man's head, screaming in his face.\" (20260628_Do_Animals_Remember_Human_Faces_.txt — câu số 1)",
+      "\"Let me ask you something.\" (20260401_Why_Are_Humans_Dumber_Now_.txt — câu số 1, là bài DUY NHẤT trong 28 bài mở bằng lời người dẫn nói với người xem, và nó nằm ở nhóm THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Năm khuôn câu mở, đếm trên câu số 1 của cả 28 bài. Khuôn K1 \"SÂN KHẤU LẠNH\" (ngôi thứ ba + một địa danh hoặc một con số + thì hiện tại) là khuôn đông nhất và có mặt đều ở cả hai nhóm.",
+     "so_lieu": "K1 sân khấu lạnh 9/28 (CAO 3/9, THẤP 4/9) · K2 \"bạn, ngay bây giờ\" 7/28 (CAO 3/9, THẤP 1/9) · K3 mệnh lệnh 5/28 (CAO 1/9, THẤP 2/9) · K4 khẳng định to / bác điều ai cũng tin 6/28 (CAO 2/9, THẤP 1/9) · K5 hỏi thẳng ở câu 1 chỉ 1/28 (THẤP 1/9)",
+     "trich": [
+      "K1: \"In the Namib desert, on the face of a sand dune, there is a spider being hunted.\" (20260730_Why_Don_t_Animals_Have_Wheels_.txt)",
+      "K1: \"Right now, somewhere in northern Tanzania, a Hadza man is napping in the shade.\" (20260509_What_Did_Ancient_Humans_Do_All_Day_.txt)",
+      "K1: \"Somewhere in Germany right now, a man with a shovel is standing over a grave that hasn't had a visitor in 26 years.\" (20260614_What_Happens_to_Unvisited_Graves_.txt — NHÓM THẤP, cùng khuôn y hệt bài trên)",
+      "K1: \"On a fur farm in Siberia, there are two kinds of fox.\" (20260624_Why_Do_Dogs_Love_Humans_.txt — bài view/ngày THẤP NHẤT kênh)",
+      "K2: \"Tonight, when the sun goes down, you're going to flip a switch.\" (20260405_What_Did_Ancient_Humans_Do_at_Night_.txt — bài 7,83 triệu view)",
+      "K2: \"You lived an entire life before the age of three.\" (20260403_Why_You_Can_t_Remember_Being_a_Baby.txt)",
+      "K3: \"Open your fridge right now.\" (20260424_What_Did_Ancient_Humans_Actually_Eat_.txt)",
+      "K3: \"Look around your room.\" (20260604_What_If_Humans_Lived_4_5_Billion_Years_Ago_.txt — NHÓM THẤP)",
+      "K4: \"The Titanic is sitting at the bottom of the Atlantic Ocean right now.\" (20260411_Why_Hasn_t_Anyone_Raised_the_Titanic_.txt)",
+      "K4: \"The Vikings were terrified of the night.\" (20260618_Why_Were_Vikings_So_Scared_at_Night_.txt — NHÓM THẤP)",
+      "K5: \"Why are you right-handed or left-handed?\" (20260531_Why_Are_Exactly_10_of_People_Left_Handed_.txt — bài DUY NHẤT hỏi thẳng ngay câu 1, nhóm THẤP)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU HỎI LÕI (thường là chính cái title, mở bằng \"So,\") rơi rất sớm ở nhóm CAO — trong 150 từ đầu. Nhóm THẤP hay để câu hỏi lõi trôi ra sau, hoặc không có câu hỏi lõi nào.",
+     "so_lieu": "Câu hỏi đầu tiên nằm trong 150 TỪ ĐẦU: CAO 6/9 · THẤP 3/9. Vị trí chính xác (số từ) nhóm CAO: 39, 41, 102, 113, 141, 143 · nhóm THẤP: 6, 13, 85, 225, 236, 657, và 3/9 bài KHÔNG có câu hỏi nào trong cả bài",
+     "trich": [
+      "từ thứ 39: \"So, why hasn't anyone just brought it back up?\" (20260411_Why_Hasn_t_Anyone_Raised_the_Titanic_.txt)",
+      "từ thứ 41: \"So, what did they actually eat?\" (20260424_What_Did_Ancient_Humans_Actually_Eat_.txt)",
+      "từ thứ 113: \"So, what did they actually do for all those hours?\" (20260405_What_Did_Ancient_Humans_Do_at_Night_.txt)",
+      "từ thứ 141: \"So, what do they actually do all day?\" (20260509_What_Did_Ancient_Humans_Do_All_Day_.txt)",
+      "từ thứ 143: \"What happens to a society when othing is hard anymore?\" (20260429_The_Calhoun_Effect.txt)",
+      "Khuôn 4 chữ dùng lại được: \"So, what did they actually ___?\" — xuất hiện y nguyên ở 3 bài nhóm CAO (Night, Eat, All Day)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU cắm ngay sau câu hỏi lõi, trong 130 từ đầu. Đây là dấu hiệu lệch mạnh nhất của chiều 1.",
+     "so_lieu": "6/28 bài có lời hứa trong 130 từ đầu · CAO 4/9 · THẤP 1/9 · nhóm giữa 1/10",
+     "trich": [
+      "\"The answer changes everything we think we know about sleep, storytelling, and what it means to be human.\" (20260405_What_Did_Ancient_Humans_Do_at_Night_.txt)",
+      "\"The answer would horrify most people alive today.\" và ngay sau đó \"Proof that changes everything we thought we knew about our own species.\" (20260424_What_Did_Ancient_Humans_Actually_Eat_.txt)",
+      "\"This is Universe 25, the most disturbing experiment ever run on a society.\" (20260429_The_Calhoun_Effect.txt)",
+      "\"Most people assume the answer is simple.\" → \"But, that's not quite right, and the real answer is far stranger than you'd expect.\" (20260403_Why_You_Can_t_Remember_Being_a_Baby.txt)",
+      "Nhóm THẤP chỉ có 1 bài: \"This is one of the weirdest findings in social psychology.\" (20260419_The_Pratfall_Effect.txt)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "CHIỀU 2 — GIỮ CHÂN (kho câu dùng lại)",
+   "ca_nguoc": "Vòng tò mò kiểu \"mở câu hỏi title ở đầu, đóng lại ở cuối\" là NẾT KÊNH chứ không phải bí quyết: nhóm THẤP làm đầy đủ và đẹp không kém. 20260630_Were_Ancient_Humans_Loyal_to_One_Partner_.txt (574 view/ngày) mở vòng ở 13,6% và đóng đúng câu title ở 92,1% — kỹ thuật sạch hơn cả bài 7,83 triệu view.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN RE-HOOK CHỦ LỰC là \"Here's the/what/where/why/how ___\" — câu cực ngắn, đặt ngay trước một fact sốc. Đây là dấu hiệu văn bản LỆCH MẠNH NHẤT giữa hai nhóm trong toàn bộ 9 chiều.",
+     "so_lieu": "23 lần trong 12/28 bài · NHÓM CAO 6/9 bài · NHÓM THẤP 1/9 bài · độ dài trung vị của câu re-hook = 5 từ (ngắn nhất 3 từ, dài nhất 20 từ)",
+     "trich": [
+      "\"But here's what's fascinating.\" (4 từ, ở 18,6% bài — 20260405_..._Do_at_Night_.txt)",
+      "\"And here's the part nobody talks about.\" (7 từ, ở 70,5% — 20260405_..._Do_at_Night_.txt)",
+      "\"But here's what we lost.\" (5 từ, ở 78,0% — 20260405_..._Do_at_Night_.txt)",
+      "\"Here's what they meant.\" (4 từ, ở 33,7% — 20260403_Why_You_Can_t_Remember_Being_a_Baby.txt)",
+      "\"So, here's what actually happened to your earliest years.\" (9 từ, ở 89,5% — 20260403_...Baby.txt)",
+      "\"And here's the thing.\" (4 từ, ở 51,2% — 20260416_What_If_WE_Are_The_Aliens_.txt)",
+      "\"But here's where it gets complicated because mainstream biology actually has a pretty good answer for almost all of it.\" (20 từ, ở 58,8% — 20260416_..._Aliens_.txt)",
+      "\"And here's what's strange, that exact same craving is still alive in you today, sugar.\" (15 từ, ở 41,5% — 20260424_..._Actually_Eat_.txt)",
+      "\"But here's the thing, your brain doesn't know that yet.\" (10 từ, ở 7,4% — 20260402_What_Happens_After_We_Die_.txt)",
+      "\"And here's why.\" (3 từ, ở 5,5% — 20260411_..._Titanic_.txt)",
+      "\"But here's the problem.\" (4 từ, ở 31,4% — 20260411_..._Titanic_.txt)",
+      "\"But here's the reality.\" (4 từ, ở 54,8% — 20260411_..._Titanic_.txt)",
+      "Biến thể ở nhóm giữa, vẫn dùng được: \"Here's the uncomfortable turn.\" · \"So, here's the one signal that still works.\" · \"Now, here's the twist hat made this entire world so much crueler.\" · \"And here's the part that makes this actually useful.\" · \"Here's what makes this even more striking.\"",
+      "Cả nhóm THẤP chỉ có ĐÚNG 1 câu: \"Now, here's the part that flips the whole story.\" (20260704_The_Marshmallow_Effect.txt, ở 50,9%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÂU CỤT ≤7 TỪ rải dày giữa bài — đây là cách họ tạo nhịp và đặt cú đấm, không phải bằng dấu \"!\".",
+     "so_lieu": "Mật độ câu ≤7 từ trong khoảng 8%–88% của bài: NHÓM CAO trung vị 21,3 câu/1000 từ · NHÓM THẤP trung vị 12,5 câu/1000 từ (chênh 1,7 lần). Có 1 ngoại lệ phá luật trong nhóm THẤP: 20260614_..._Unvisited_Graves_.txt đạt 46,1/1000 từ mà vẫn chỉ 542 view/ngày",
+     "trich": [
+      "\"Inside that circle, predators won't come.\" / \"Outside that circle, you die.\" / \"This is not an exaggeration.\" (3 câu liên tiếp ở 15,8–16,5% — 20260405_..._Do_at_Night_.txt)",
+      "\"Think about this.\" (20260405_..._Do_at_Night_.txt, ở 19,9%)",
+      "\"They emigrate.\" / \"They find new ground somewhere lse.\" (20260429_The_Calhoun_Effect.txt, ở 27,3%)",
+      "\"They stopped interacting with males.\" / \"They stopped reproducing.\" (20260429_The_Calhoun_Effect.txt)",
+      "\"It surged.\" (2 từ, 20260402_What_Happens_After_We_Die_.txt, ở 21,9%)",
+      "\"That's not what they found.\" (20260402_What_Happens_After_We_Die_.txt, ở 20,4%)",
+      "\"Babies can form memories.\" / \"We know this for a fact.\" (20260403_...Baby.txt)",
+      "\"They were dinner.\" (20260424_..._Actually_Eat_.txt)",
+      "\"No crane on Earth can lift that.\" (20260411_..._Titanic_.txt)",
+      "\"Sunrise.\" (1 từ, 20260509_..._Do_All_Day_.txt, ở 11,8%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÂU HỎI GIỮA BÀI làm việc mở vòng tò mò cho chương mới. Nhóm CAO hỏi gấp 4 lần nhóm THẤP.",
+     "so_lieu": "Số câu hỏi/bài: NHÓM CAO trung vị 4 · NHÓM THẤP trung vị 1. Bài KHÔNG có câu hỏi nào: CAO 1/9 · THẤP 4/9. Mật độ: CAO 2,79 câu hỏi/1000 từ · THẤP 0,62/1000 từ",
+     "trich": [
+      "\"So, what killed it?\" (ở 65,1% — mở chương mới, 20260405_..._Do_at_Night_.txt)",
+      "\"And what did people do during that wakeful period in the middle of the night?\" (ở 43,5% — 20260405_..._Do_at_Night_.txt)",
+      "Chùm 4 câu hỏi liên tiếp làm nhịp, không cần trả lời: \"Who is sleeping with whom?\" / \"Who took more than their share yesterday?\" / \"Who told a good joke last week?\" / \"Who has been quiet and might be sick?\" (19,3%–20,3%, 20260509_..._Do_All_Day_.txt)",
+      "\"So, what else did your ancestors learn to crave?\" (ở 52,3% — 20260424_..._Actually_Eat_.txt)",
+      "\"So, if we really don't belong here, where did we come from?\" (ở 37,9% — 20260416_..._Aliens_.txt)",
+      "\"So, that settles it, right?\" (ở 72,1% — 20260416_..._Aliens_.txt)",
+      "\"Or are they?\" (3 từ, ở 55,5% — 20260402_What_Happens_After_We_Die_.txt)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "HỌ KHÔNG BÁO TRƯỚC \"phần hay nhất ở cuối\" theo kiểu YouTube thông thường. Không một bài nào nói \"stick around\", \"keep watching\", \"later in this video\". Thay vào đó họ dùng đúng một khuôn: gắn nhãn \"the strangest/worst part\" ngay tại chỗ.",
+     "so_lieu": "0/28 bài có \"stick around\" / \"keep watching\" / \"we'll get to that\" / \"come back to\" · 1/28 bài có \"By the end of this...\" (và đó là 20260401_Why_Are_Humans_Dumber_Now_.txt, nhóm THẤP) · nhãn \"the strangest/worst part\" xuất hiện 6 lần trong 5/28 bài",
+     "trich": [
+      "\"By the end of this you will know what is pulling those scores down and why it is happening to you right now, whether you realize it or not.\" (20260401_Why_Are_Humans_Dumber_Now_.txt — bài DUY NHẤT dùng khuôn này, view/ngày 516)",
+      "\"But the strangest part isn't physical.\" → ngay sau: \"It's in your head.\" (20260416_..._Aliens_.txt, ở 23,2%)",
+      "\"But, there's another layer to this, and it might be the strangest part of all.\" (20260402_What_Happens_After_We_Die_.txt)",
+      "\"But the worst part is till coming.\" (20260713_What_Did_Surgery_Feel_Like_Before_Anesthesia_.txt)",
+      "\"It came bundled with something else ntirely, and that is the strangest part of all.\" (20260624_Why_Do_Dogs_Love_Humans_.txt, ở 9,6% — nhóm THẤP dùng y hệt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "\"But\" mở đầu dòng là bản lề bẻ hướng chính. Nhóm CAO bẻ hướng gấp ~3,5 lần nhóm THẤP.",
+     "so_lieu": "Số dòng bắt đầu bằng \"But \": NHÓM CAO trung vị 7 lần/bài (4,54/1000 từ) · NHÓM THẤP trung vị 2 lần/bài (1,29/1000 từ)",
+     "trich": [
+      "\"But fire didn't just keep eople warm.\" (20260405_..._Do_at_Night_.txt, ở 10,3%)",
+      "\"But he night wasn't just about stories around the fire.\" (20260405_..._Do_at_Night_.txt, ở 32,7% — câu mở chương 2)",
+      "\"But sugar wasn't the only thing your body got hooked on.\" (20260424_..._Actually_Eat_.txt, ở 51,6%)",
+      "\"But then science confirmed what history had been saying all along.\" (20260405_..._Do_at_Night_.txt, ở 53,0%)",
+      "\"But that reading was not what Calhoun actually said.\" (20260429_The_Calhoun_Effect.txt, ở 77,6% — câu bẻ lái lớn nhất bài)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "CHIỀU 3 — 60 GIÂY CUỐI (~180 từ cuối)",
+   "ca_nguoc": "CALLBACK VỀ HOOK KHÔNG PHẢI BÍ QUYẾT — 28/28 bài đều làm, cả bài 7,83 triệu lẫn bài 13.394 view. Và hai kỹ thuật kết mà sách vở hay khen — \"The next time you...\" và câu định danh người xem \"You are/You were never...\" — lại NGHIÊNG VỀ NHÓM THẤP: \"next time you\" CAO 0/9 vs THẤP 2/9; \"You are/You were never…\" CAO 0/9 vs THẤP 3/9. Nếu chép theo, là chép đúng thứ nhóm chìm đang làm.",
+   "phat_hien": [
+    {
+     "y": "0/28 bài mồi video kế tiếp. Không \"see you next time\", không \"watch this next\", không nhắc tên video khác. Video kết là hết.",
+     "so_lieu": "0/28 bài có bất kỳ chuỗi nào trong: \"next video\" / \"watch next\" / \"see you next\" / \"another video\" / \"thanks for watching\" / \"until next time\" / \"if you enjoyed\" (grep trên toàn bộ 46.851 từ)",
+     "trich": [
+      "Câu cuối cùng của bài 7,83 triệu view, không có gì đằng sau: \"We traded all of that for a light switch, and most of us never even knew it was gone.\" (20260405_..._Do_at_Night_.txt)",
+      "\"What happens next is on us.\" (20260429_The_Calhoun_Effect.txt — câu cuối, 6 từ)",
+      "\"We just stopped doing it.\" (20260509_..._Do_All_Day_.txt — câu cuối, 5 từ)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CALLBACK VỀ HOOK là bắt buộc trong cả 28 bài: 180 từ cuối luôn nhặt lại một hình ảnh cụ thể của 130 từ đầu. Trung vị 10 từ nội dung trùng lặp giữa hook và kết.",
+     "so_lieu": "28/28 bài có từ khoá hook quay lại trong 180 từ cuối · trung vị 10 từ nội dung trùng (thấp nhất 5, cao nhất 15)",
+     "trich": [
+      "Hook: \"Tonight, when the sun goes down, you're going to flip a switch.\" → Kết: \"We traded all of that for a light switch, and most of us never even knew it was gone.\" (20260405_..._Do_at_Night_.txt)",
+      "Hook: \"Eight mice were placed inside a perfect world.\" → Kết: \"But the experiment is still sitting there in the data, a perfectly designed paradise, eight mice, five years, a complete extinction, and a cause of death no toxicology report would ever be able to name.\" (20260429_The_Calhoun_Effect.txt)",
+      "Hook: \"Open your fridge right now.\" → Kết: \"But if you dropped a 50,000-year-old human into your kitchen, they would think they had walked into a god's pantry.\" (20260424_..._Actually_Eat_.txt)",
+      "Hook: \"On a fur farm in Siberia, there are two kinds of fox.\" → Kết: \"It did not choose to love you.\" / \"Neither did the foxes in Siberia.\" (20260624_Why_Do_Dogs_Love_Humans_.txt — NHÓM THẤP làm y hệt)",
+      "Hook: \"You'll count backwards from 10, make it o about 7...\" → Kết: \"Counting backwards from 10 and waking up whole, that's the ntire experience now.\" (20260713_..._Before_Anesthesia_.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHỐT MẠNH chứ không hạ nhiệt. 180 từ cuối bỏ sạch số liệu và tên nhà nghiên cứu, chuyển sang câu ngắn có nhịp, và câu cuối cùng là một cú đấm ngắn.",
+     "so_lieu": "Câu cuối cùng của 28 bài: trung vị 13 từ (ngắn nhất 4 từ, dài nhất 24 từ) · 0/28 câu cuối có dấu \"!\" · chỉ 1/28 bài kết bằng câu hỏi",
+     "trich": [
+      "\"We still do.\" → \"What happens next is on us.\" (20260429_The_Calhoun_Effect.txt)",
+      "\"And you have no idea how rare that is.\" (20260424_..._Actually_Eat_.txt)",
+      "\"It was becoming you, and that required, quite literally, destroying the person who came before.\" (20260403_...Baby.txt)",
+      "\"And in your final minute it might just play it all back.\" (20260402_What_Happens_After_We_Die_.txt)",
+      "\"Somewhere out here, something is crossing a plane right now, and it is almost certainly walking.\" (20260730_..._Have_Wheels_.txt)",
+      "\"Not a museum, not an attraction, just the quiet deep, and time doing what time does.\" (20260411_..._Titanic_.txt)",
+      "Bài DUY NHẤT kết bằng câu hỏi: \"Who will be holding the controls?\" / \"And will it be you?\" (20260521_The_ENTIRE_History_of_MONEY.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "\"The next time you...\" và câu định danh người xem (\"You are / You were never / You've been...\") nằm chủ yếu ở nhóm THẤP. Đây là bằng chứng ngược với trực giác thông thường.",
+     "so_lieu": "\"the next time you\": 3/28 bài — CAO 0/9, THẤP 2/9, giữa 1/10 · câu định danh \"You are/You were never/You've been\": 7/28 bài — CAO 0/9, THẤP 3/9, giữa 4/10",
+     "trich": [
+      "\"The next ime you feel every eye in the room locking onto you, remember this.\" → \"They're not looking at you.\" → \"They're worried about who's looking at them.\" (20260414_The_Spotlight_Effect.txt, 1.080 view/ngày, nhóm giữa)",
+      "\"So, the next time you watch someone reach for the thing they want right now, and you feel that little flicker of judgment...\" (20260704_The_Marshmallow_Effect.txt, 412 view/ngày — NHÓM THẤP)",
+      "\"So the next time you feel watched by something out there, you are probably right.\" → \"Somewhere out there an animal is still keeping score.\" → \"And it knows your face.\" (20260628_Do_Animals_Remember_Human_Faces_.txt, 381 view/ngày — NHÓM THẤP)",
+      "\"You are simply what happened to be left standing when the dust finally settled.\" (20260604_..._4_5_Billion_Years_Ago_.txt — NHÓM THẤP)",
+      "\"You are the reason the rest of us still have to be ready for a punch we did not see coming.\" (20260531_..._Left_Handed_.txt — NHÓM THẤP)",
+      "Nhóm CAO thay bằng câu \"chúng ta/họ\", không chỉ mặt người xem: \"We are still hunter-gatherers.\" / \"We just stopped doing it.\" (20260509_..._Do_All_Day_.txt)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    }
+   ]
+  },
+  {
+   "ten": "CHIỀU 4 — XIN ĐĂNG KÝ (PHÁT HIỆN LỚN NHẤT: KHÔNG CÓ)",
+   "phat_hien": [
+    {
+     "y": "KHÔNG MỘT BÀI NÀO trong 28 bài xin sub, xin like, xin comment, nhắc bell, nhắc playlist, nhắc description, nhắc Patreon, hay nhắc tên kênh. Với 174.000 sub và 29 video, kênh này chưa từng đọc một câu CTA nào. Ở % nào của bài cũng không có, vì con số là 0.",
+     "so_lieu": "0/28 bài chứa bất kỳ chuỗi nào trong 30 chuỗi CTA đã grep: subscribe / subscribing / subscription / like button / leave a like / thumbs up / bell / notification / playlist / patreon / merch / comment below / leave a comment / let me know / tell me / link in the description / link below / down below / this channel / my channel / more videos / next video / watch next / see you next / thanks for watching / until next time / if you enjoyed / if you liked / share this video / check out. Tổng cơ sở đếm: 46.851 từ, 28 bài. Toàn bộ hit của grep đều là từ nội dung trùng âm (\"a follow-up study\", \"letting everything else follow\", \"they smash them open with stone flakes\").",
+     "trich": [
+      "Bằng chứng phản diện — 3 câu cuối của bài 4,02 triệu view, kết thẳng, không có gì sau đó: \"The mice didn't have a choice.\" / \"We still do.\" / \"What happens next is on us.\" (20260429_The_Calhoun_Effect.txt)",
+      "3 câu cuối bài 1,87 triệu view: \"And the answer to why isn't that your brain was too simple.\" / \"It's that your brain was doing something far more important than remembering.\" / \"It was becoming you, and that required, quite literally, destroying the person who came before.\" (20260403_Why_You_Can_t_Remember_Being_a_Baby.txt)",
+      "3 câu cuối bài view/ngày thấp nhất kênh — cũng không CTA: \"It was built o love you by forces it never knew before it ever drew breath.\" / \"And when it crosses the room and lays its head in your lap, none of that makes the love any less real.\" / \"It only makes it older and stranger than you ever thought.\" (20260624_Why_Do_Dogs_Love_Humans_.txt)",
+      "Kể cả mô tả kênh cũng từ chối CTA — nguyên văn description của kênh Zenn: \"dontreadthisgowatchmyvideos.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "CHIỀU 5 — BỘ XƯƠNG CHƯƠNG",
+   "ca_nguoc": "BÀI CHÌM KHÔNG HỀ THIẾU XƯƠNG. Tôi đọc tay toàn văn bài view/ngày CAO NHẤT và bài THẤP NHẤT: bài thấp nhất (Dogs, 298 view/ngày) có 6 chương thân, NHIỀU HƠN bài 7,83 triệu view (Night, 4 chương thân), và có một cú lật cấu trúc sạch ở 60,3% (\"Belyaev proved it does not work that way.\"). Kết luận: chất lượng bộ xương KHÔNG giải thích được khoảng cách 210 lần về view/ngày giữa hai bài này.",
+   "phat_hien": [
+    {
+     "y": "BẢN ĐỒ CHƯƠNG ĐỌC TAY của bài 7,83 triệu view (20260405_..._Do_at_Night_.txt, 1.598 từ, 8:32). Cấu trúc: hook → câu hỏi lõi + lời hứa → 4 chương thân leo thang → kết. Chương DÀI NHẤT nằm ở giữa bài, không phải đầu.",
+     "so_lieu": "6 khối, tổng 1.598 từ: HOOK 0–6,4% (~130 từ) · CÂU HỎI LÕI + LỜI HỨA 6,4–8,2% (~30 từ) · CH1 \"LỬA\" 8,2–32,7% (~390 từ) · CH2 \"HAI GIẤC NGỦ\" 32,7–65,1% (~520 từ — chương dài nhất) · CH3 \"CÁI GÌ ĐÃ GIẾT NÓ\" 65,1–78,0% (~205 từ) · CH4 \"TA ĐÃ MẤT GÌ\" 78,0–89,1% (~180 từ) · KẾT 89,1–100% (~175 từ)",
+     "trich": [
+      "Câu mở CH1 (8,2%): \"Let's tart with fire, because fire is the reason any of this was possible.\"",
+      "Câu mở CH2 (32,7%): \"But he night wasn't just about stories around the fire.\" → \"There was something else happening, something that scientists only rediscovered in the last 30 years.\"",
+      "Cú lật nội dung của CH2 (34,2%): \"You were not designed to sleep the way you sleep right now.\"",
+      "Câu mở CH3 (65,1%): \"So, what killed it?\" → \"The answer is simpler than you'd think, light.\"",
+      "Câu mở CH4 (78,0%): \"But here's what we lost.\"",
+      "Câu mở KẾT (89,8%): \"But what if it's not a disorder at all?\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "BẢN ĐỒ CHƯƠNG ĐỌC TAY của bài 4,02 triệu view (Calhoun) — kiểu khác hẳn: leo thang bằng MỐC NGÀY của thí nghiệm, rồi lật ở 77,6%, rồi còn một lớp lật thứ hai ở 88,8%.",
+     "so_lieu": "1.636 từ. HOOK 0–4,2% · DỰNG THÍ NGHIỆM 4,2–21,1% · LEO THANG THEO MỐC NGÀY 21,1–70,6% (day 104 → day 315 → day 560 → day 920 → 23/05/1973, ~810 từ) · \"CÁCH ĐỌC PHỔ THÔNG\" 72,6–77,6% · CÚ LẬT 1 ở 77,6% · CÚ LẬT 2 ở 88,8% · KẾT 96,9–100%",
+     "trich": [
+      "Mốc leo thang, nguyên văn: \"For the first 104 days, almost nothing happened.\" · \"By day 315, more than 600 animals were living inside.\" · \"On day 560, the population peaked at 2,200 mice.\" · \"The last successful conception inside Universe 25 happened on day 920.\" · \"On May 23rd, 1973, the last mouse in Universe 25 died 4 years and 10 months after Calhoun shut the lid.\"",
+      "Câu báo hiệu điểm gãy giữa bài (25,6%): \"This is the moment everything began to come apart.\"",
+      "CÚ LẬT 1 (77,6%): \"But that reading was not what Calhoun actually said.\"",
+      "CÚ LẬT 2 (88,8%): \"And here is the part almost nobody quotes.\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "MẬT ĐỘ BIỂN BÁO CHƯƠNG (đo bằng máy, không phải chương thật): đếm số lần kịch bản cắm một biển báo cấu trúc rõ ràng (câu hỏi / \"Here's the X\" / \"But X wasn't just Y\" / \"Let's–First–Start with\" / \"Then, in <năm>\"), gộp các biển cách nhau <140 từ, bỏ 6% đầu và 10% cuối. Nhóm CAO cắm biển dày gấp ~2,4 lần.",
+     "so_lieu": "NHÓM CAO: trung vị 4 khối/bài, trung vị 268 từ mỗi khối · NHÓM THẤP: trung vị 3 khối/bài, trung vị 654 từ mỗi khối. Nghĩa là nhóm THẤP để người nghe đi ~654 từ (≈3 phút 20 giây) mới gặp một biển báo mới.",
+     "trich": [
+      "Bài dày biển báo nhất kênh (8 khối, khối dài nhất 345 từ): 20260405_What_Did_Ancient_Humans_Do_at_Night_.txt (62.653 view/ngày)",
+      "Bài thưa biển báo nhất (1 khối duy nhất, 1.756 từ liền mạch): 20260722_Why_Do_Mosquitoes_Always_Bite_YOU_.txt (732 view/ngày)",
+      "Nhóm THẤP thưa nhất: 20260531_..._Left_Handed_.txt (2 khối: 875 + 781 từ) và 20260624_Why_Do_Dogs_Love_Humans_.txt (2 khối: 128 + 1.476 từ)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "VỊ TRÍ CÚ LẬT LỚN NHẤT: nhóm CAO đẩy cú lật cuối cùng ra sát cuối bài; nhóm THẤP xả cú lật sớm rồi hết bài không còn gì.",
+     "so_lieu": "16/28 bài có câu lật rõ (đếm bằng khuôn \"turns out / was never what / that reading was not / the real answer / had it backward / mostly fell apart\"). Vị trí cú lật CUỐI CÙNG trong bài: NHÓM CAO trung vị 89% (n=5) · NHÓM THẤP trung vị 47% (n=5)",
+     "trich": [
+      "CAO, ở 89,5%: \"So, here's what actually happened to your earliest years.\" (20260403_...Baby.txt)",
+      "CAO, ở 89,1%: \"So, the real answer to the question is layered.\" (20260411_..._Titanic_.txt)",
+      "CAO, ở 88,8%: \"And here is the part almost nobody quotes.\" (20260429_The_Calhoun_Effect.txt)",
+      "THẤP, xả sớm ở 13,9%: \"Except when scientists finally tested that idea properly, it mostly fell apart.\" (20260704_The_Marshmallow_Effect.txt — lật xong ở phút thứ 1, còn 7 phút không còn gì để lật)",
+      "THẤP, ở 46,6%: \"A small visible flaw does the opposite.\" (20260419_The_Pratfall_Effect.txt)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "ĐỘ DÀI KHÔNG PHÂN BIỆT ĐƯỢC GÌ. Kênh gần như đóng khuôn cứng ~1.650 từ / 8 phút 20 giây / 195 wpm, và hai nhóm chênh nhau đúng 32 từ.",
+     "so_lieu": "Trung vị toàn kênh 1.664 từ · NHÓM CAO 1.636 từ · NHÓM THẤP 1.604 từ. Thời lượng: 24/28 bài nằm trong khoảng 7:07–10:32. Hai ngoại lệ: 3:58 (Pratfall, 434 view/ngày) và 12:57 (Money, 750 view/ngày) — cả hai đều KHÔNG thuộc nhóm cao. Nhịp đọc: trung vị 195 wpm, thấp nhất 165, cao nhất 223",
+     "trich": [
+      "Bài 7,83 triệu view: 8:32 / 1.571 từ / 184 wpm (20260405_..._Do_at_Night_.txt)",
+      "Bài 13.394 view: 8:07 / 1.598 từ / 197 wpm (20260624_Why_Do_Dogs_Love_Humans_.txt) — gần như trùng khít"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "CHIỀU 6 — CÂU CHUYỂN CHƯƠNG (kho câu nguyên văn)",
+   "ca_nguoc": "Khuôn \"Then, ...\" (nhảy mốc thời gian) là NẾT KÊNH nặng nhất: 51 lần trong 23/28 bài, nhóm CAO 5/9 bài và nhóm THẤP 9/9 bài. Nhóm THẤP dùng khuôn này NHIỀU HƠN. Đừng tưởng đây là bí quyết — nó chỉ là cách kể chuyện mặc định của kênh.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN 1 — \"Here's the/what/where ___\" (đã đếm ở chiều 2). Trung bình 5 từ, cắm ngay trước fact sốc, luôn có \"But/And/So/Now\" đứng trước ở 15/23 lần.",
+     "so_lieu": "23 lần / 12 bài · CAO 6/9 bài, THẤP 1/9 bài · độ dài trung vị 5 từ",
+     "trich": [
+      "\"And here's why.\" (3 từ) · \"But here's the problem.\" (4) · \"And here's the thing.\" (4) · \"But here's the reality.\" (4) · \"Here's what they meant.\" (4) · \"Here's the same problem.\" (4) · \"Here's the uncomfortable turn.\" (4) · \"But here's what we lost.\" (5) · \"So, here's the uncomfortable version.\" (5) · \"And here's what's crazier.\" (4)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN 2 — \"But/And [chủ đề vừa xong] wasn't just / isn't only [điều vừa nói]\" : đóng chương cũ và mở chương mới trong ĐÚNG MỘT CÂU. Đây là câu chuyển tốt nhất trong kho, dùng lại được ngay.",
+     "so_lieu": "12 lần / 7 bài · độ dài trung vị 8 từ · CAO 4/9 bài, THẤP 2/9 bài",
+     "trich": [
+      "\"But fire didn't just keep eople warm.\" (7 từ — 20260405_..._Do_at_Night_.txt, ở 10,3%)",
+      "\"But he night wasn't just about stories around the fire.\" (10 từ — 20260405_..._Do_at_Night_.txt, ở 32,7%)",
+      "\"But sugar wasn't the only thing your body got hooked on.\" (11 từ — 20260424_..._Actually_Eat_.txt, ở 51,6%)",
+      "\"And Gough's Cave isn't the only site.\" (7 từ — 20260424_..._Actually_Eat_.txt, ở 69,0%)",
+      "\"And it isn't just bacteria.\" (5 từ — 20260730_..._Have_Wheels_.txt, ở 47,6%)",
+      "\"And this isn't just heory.\" (5 từ — 20260403_...Baby.txt, ở 80,3%)",
+      "\"And it wasn't just dark, it was deadly.\" (8 từ — 20260618_..._Vikings_.txt)",
+      "\"And Mozart isn't the strangest case.\" (6 từ — 20260614_..._Unvisited_Graves_.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 3 — \"Let's / First / Start with ___\" : câu mở chương đầu tiên, luôn kèm LÝ DO tại sao bắt đầu từ đó.",
+     "so_lieu": "11 lần / 10 bài · CAO 4/9 bài, THẤP 1/9 bài",
+     "trich": [
+      "\"Let's tart with fire, because fire is the reason any of this was possible.\" (14 từ — 20260405_..._Do_at_Night_.txt, ở 8,2%)",
+      "\"Let's start at he beginning.\" (5 từ — 20260402_What_Happens_After_We_Die_.txt, ở 3,6%)",
+      "\"So, let's walk through their day.\" (6 từ — 20260509_..._Do_All_Day_.txt, ở 11,4%)",
+      "\"Let's go back to the body because while your brain may be lighting up the rest of you is going dark.\" (21 từ — 20260402_..._After_We_Die_.txt, ở 46,0% — câu quay-về-mạch-cũ)",
+      "\"First, fire.\" (2 từ — 20260424_..._Actually_Eat_.txt, ở 23,6%)",
+      "\"Start with the fire because that's the part that sounds the most impossible.\" (13 từ — 20260625_Why_Don_t_Dragons_Exist_.txt)",
+      "\"Let's ay you build equipment that can handle it and operate at the bottom of the ocean.\" (17 từ — 20260411_..._Titanic_.txt, ở 16,6% — khuôn \"giả sử bạn giải được vấn đề vừa nêu\")",
+      "\"Let's put you there.\" (4 từ — 20260713_..._Before_Anesthesia_.txt, ở 6,0%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 4 — \"Then, ...\" nhảy mốc thời gian. Đây là NẾT KÊNH, không phải bí quyết: nhóm THẤP dùng nhiều hơn nhóm CAO.",
+     "so_lieu": "51 lần / 23 bài · CAO 9 lần trong 5/9 bài · THẤP 17 lần trong 9/9 bài · độ dài trung vị 10 từ",
+     "trich": [
+      "\"Then came cheaper candles, then gas lamps in the 1800s.\" (20260405_..._Do_at_Night_.txt, ở 68,2%)",
+      "\"Then, in 1879, Thomas Edison commercialized the lectric light bulb, and within a generation, the night as humans had known it for 300,000 years was gone.\" (26 từ — 20260405_..._Do_at_Night_.txt, ở 68,8%)",
+      "\"Then the mothers who were still trying to raise pups began to fail in a much darker way.\" (20260429_The_Calhoun_Effect.txt, ở 46,1%)",
+      "\"Then it began and it did not stop.\" (8 từ — 20260624_Why_Do_Dogs_Love_Humans_.txt, ở 28,5% — NHÓM THẤP)",
+      "\"Then, a little over half a billion years ago, in a burst called the Cambrian Explosion, life suddenly got big, and weird, and fast.\" (20260604_..._4_5_Billion_Years_Ago_.txt — NHÓM THẤP)",
+      "\"Then reversed.\" (2 từ — 20260401_Why_Are_Humans_Dumber_Now_.txt, ở 67,8%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 5 — \"And then there's ___\" : dùng để xâu chuỗi một danh sách bằng chứng mà không nghe như đọc danh sách. Nhóm CAO dùng gấp đôi.",
+     "so_lieu": "14 lần / 9 bài · CAO 8 lần trong 4/9 bài · THẤP 4 lần trong 3/9 bài",
+     "trich": [
+      "\"And then there's us.\" (4 từ — 20260416_..._Aliens_.txt, xuất hiện HAI LẦN, ở 1,8% và lặp lại y nguyên ở 76,6% làm bookend)",
+      "\"And then there are allergies.\" (5 từ — 20260416_..._Aliens_.txt, ở 19,7%)",
+      "\"And then there's the one that's hardest o explain away.\" (10 từ — 20260416_..._Aliens_.txt, ở 31,4%)",
+      "\"And then there's the life review.\" (6 từ — 20260402_What_Happens_After_We_Die_.txt, ở 31,1%)",
+      "\"And then a hurricane arrived.\" (5 từ — 20260411_..._Titanic_.txt, ở 50,1%)",
+      "\"And then we conquered it.\" (5 từ — 20260405_..._Do_at_Night_.txt, ở 77,0%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN 6 — \"So, [chính câu title]?\" đóng vòng tò mò ở cuối bài. Đây là NẾT KÊNH, cả hai nhóm đều làm.",
+     "so_lieu": "5/28 bài đóng vòng bằng chính câu title · vị trí đóng: 87,0% – 99,6% của bài",
+     "trich": [
+      "Mở ở 13,6%: \"Humans are one of the rare few, but did a bond like that last a lifetime?\" → đóng ở 92,1%: \"So, were ancient humans loyal to one partner?\" (20260630_Were_Ancient_Humans_Loyal_to_One_Partner_.txt — 574 view/ngày, NHÓM THẤP, kỹ thuật sạch nhất kênh)",
+      "Mở ở 0,2%: \"How many fingers do you have?\" → đóng ở 87,0%: \"So, are you real?\" (20260620_Are_You_Real_.txt)",
+      "Đóng ở 93,4%: \"So why do mosquitoes always bite you specifically?\" (20260722_Why_Do_Mosquitoes_Always_Bite_YOU_.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "CHIỀU 7 — MỎ NEO KHOA HỌC",
+   "ca_nguoc": "HEDGE KHÔNG PHẢI BÍ QUYẾT. Mật độ hedge số lượng (\"roughly/about/around/nearly + số\") gần như bằng nhau: CAO 2,59/1000 từ vs THẤP 2,88/1000 từ — nhóm THẤP còn hedge nhiều hơn một chút. Cái phân biệt hai nhóm là MẬT ĐỘ MỎ NEO (tên người + năm + tạp chí), không phải cách rào đón.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN NÊU NHÀ NGHIÊN CỨU CỐ ĐỊNH: [năm], [chức danh] [Tên Họ] + [động từ hành động]. Chức danh LUÔN đứng trước tên, không bao giờ sau. Không bao giờ nói \"a study found\" trống không mà không có người.",
+     "so_lieu": "16/28 bài có ≥1 cụm [chức danh]+[Tên riêng] · CAO 6/9 · THẤP 4/9. Chức danh đã dùng: anthropologist, historian, psychiatrist, psychologist, neuroscientist, chemist, physicist, mathematician, economist, biologist, ethologist, surgeon, doctor",
+     "trich": [
+      "\"In 2014, anthropologist Polly Wiessner published a study in the Proceedings of the National Academy of Sciences.\" (20260405_..._Do_at_Night_.txt)",
+      "\"In 2001, historian Roger E. Ekirch published a paper that changed sleep science.\" (20260405_..._Do_at_Night_.txt)",
+      "\"In 1992, psychiatrist Thomas Wehr at the National Institute of Mental Health ran an experiment.\" (20260405_..._Do_at_Night_.txt)",
+      "\"In 1968, an American scientist named John Calhoun built something he called a paradise for mice.\" (20260429_The_Calhoun_Effect.txt)",
+      "\"The man who ran the xperiment was a Soviet biologist named Dmitri Belyaev, and when he started it in 1959, the Soviet Union had banned genetics itself.\" (20260624_Why_Do_Dogs_Love_Humans_.txt)",
+      "\"In 1966, a social psychologist named Elliot Aronson designed one of the simplest experiments in the history of psychology.\" (20260419_The_Pratfall_Effect.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MẬT ĐỘ MỎ NEO (tên nhà nghiên cứu + tạp chí/đại học + \"In <năm>\" + \"N years ago\") — nhóm CAO dày gấp 1,8 lần. Mật độ CON SỐ nói chung cũng dày hơn 1,4 lần.",
+     "so_lieu": "Mỏ neo/1000 từ: NHÓM CAO trung vị 3,24 · NHÓM THẤP trung vị 1,81. Con số/1000 từ: CAO 12,2 · THẤP 8,6. Bài dày nhất: 20260405_..._Do_at_Night_ (6,88 mỏ neo/1000 từ, 3 nhà nghiên cứu có tên + 3 mốc năm + 1 hang di chỉ). Bài rỗng nhất: 20260618_..._Vikings_ và 20260730_..._Wheels_ (0,00 — không một tên người, không một năm)",
+     "trich": [
+      "\"He had spent 16 years digging through istorical records, and he found something nobody expected, over 500 references spanning centuries, prayer books from the 1400s, court records, diaries, medical texts, letters from ordinary people, even passages in Homer's Odyssey.\" (20260405_..._Do_at_Night_.txt — một câu chứa 4 mỏ neo)",
+      "\"During the day, about 80% of conversations were practical.\" → \"But at night, around the fire, the entire character of conversation changed.\" → \"81% of conversations were stories, tales of people in distant places, adventures, myths about the origins of the world, jokes that made the whole camp laugh.\" (cặp số 80%/81% đối xứng, 20260405_..._Do_at_Night_.txt)",
+      "\"He calculated the space could comfortably support around 3,800 mice.\" → \"It would never come close to that number.\" (20260429_The_Calhoun_Effect.txt)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÁCH HEDGE: họ KHÔNG rào bằng \"có thể\", \"nhiều người cho rằng\". Họ rào bằng cách để chữ hedge dính vào CON SỐ, giữ nguyên giọng khẳng định. Đây là nết chung của cả kênh.",
+     "so_lieu": "Hedge số lượng (\"roughly/about/around/approximately/nearly/almost/more than/over/close to\" + số): CAO trung vị 2,59/1000 từ · THẤP 2,88/1000 từ — CHÊNH KHÔNG ĐÁNG KỂ, đây là nết kênh",
+     "trich": [
+      "\"For over 300,000 years, every single one of your ancestors spent roughly half their life in near total darkness.\"",
+      "\"The arliest solid evidence of humans controlling fire comes from Wonderwerk Cave in South Africa, roughly 1 million years ago.\"",
+      "\"A campfire creates a circle of safety roughly 30 ft in diameter.\"",
+      "\"Before roughly 18 to 24 months of age, infants don't recognize themselves as distinct individuals.\" (20260403_...Baby.txt)",
+      "\"In a cave in England called Gough's Cave, researchers found human bones from about 14,700 years ago.\" (20260424_..._Actually_Eat_.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TÁCH SỰ THẬT KHỎI SUY DIỄN gần như KHÔNG có. Chỉ 4/28 bài nói thẳng ra rằng chỗ này là chưa biết / là tranh cãi. 24/28 bài kể suy diễn bằng giọng khẳng định y hệt giọng kể sự thật.",
+     "so_lieu": "4/28 bài có câu tách bạch tường minh (grep 24 khuôn: nobody knows / we don't know / no evidence / the leading theory / speculation / mainstream science / scientists disagree / as far as we know / we may never)",
+     "trich": [
+      "\"We don't know.\" (2 từ — 20260402_What_Happens_After_We_Die_.txt)",
+      "\"But here's where it gets complicated because mainstream biology actually has a pretty good answer for almost all of it.\" (20260416_What_If_WE_Are_The_Aliens_.txt — bài suy diễn nhiều nhất kênh, và họ tự phản biện chính mình ở 58,8%)",
+      "\"Plenty of scientists argue this can't be tested at all, and they may well be right.\" (20260620_Are_You_Real_.txt)",
+      "\"And as far as we know, they are the only other mammals on Earth that show the same kind of species-wide hand preference humans do.\" (20260531_..._Left_Handed_.txt)",
+      "Cách họ lách khi phải nói về thuyết gây tranh cãi — đẩy trách nhiệm sang \"khoa học là thế\": \"And when real scientists, including one of the founders of modern genetics, look at the vidence and say, \\\"Something here doesn't quite add up.\\\" That's not conspiracy talk.\" → \"That's just science doing what science does.\" (20260416_..._Aliens_.txt, đoạn kết)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "DI CHỈ / TÊN ĐỊA ĐIỂM KHẢO CỔ cực thưa. Kênh này KHÔNG dựa vào di chỉ để tạo uy tín.",
+     "so_lieu": "Chỉ 2/28 bài nêu tên hang khảo cổ (Wonderwerk Cave ở 2 bài, Gough's Cave ở 1 bài). 26/28 bài không có tên di chỉ nào",
+     "trich": [
+      "\"The arliest solid evidence of humans controlling fire comes from Wonderwerk Cave in South Africa, roughly 1 million years ago.\" (20260405_..._Do_at_Night_.txt)",
+      "\"In a cave in England called Gough's Cave, researchers found human bones from about 14,700 years ago.\" → \"And Gough's Cave isn't the only site.\" (20260424_..._Actually_Eat_.txt)",
+      "\"In a grave in Obercastel, Germany, two people were buried with a dog laid carefully between them.\" (20260624_Why_Do_Dogs_Love_Humans_.txt — địa danh chứ không phải di chỉ có tên)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "CHIỀU 8 — ĐỀ TÀI",
+   "ca_nguoc": "LÀM LẠI GÓC ĐÃ THẮNG KHÔNG CỨU ĐƯỢC GÌ — đây là phát hiện quan trọng nhất chiều này. Kênh thử lại hai lần và cả hai lần đều sập: góc \"at Night\" từ 62.653 xuống 424 view/ngày (1/148 lần), góc \"chết\" từ 4.023 xuống 479 view/ngày (1/8,4 lần). Đề tài trúng KHÔNG tái sử dụng được bằng cách đổi nhân vật.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN TITLE: kênh chạy 2 khuôn song song. Khuôn \"The [Tên] Effect/Point\" (đặt tên một hiện tượng tâm lý) và khuôn câu hỏi. Trong khuôn câu hỏi, \"What...?\" ăn hơn hẳn \"Why...?\".",
+     "so_lieu": "29 title: \"What ...?\" 7 bài — trung vị 3.996 view/ngày · \"What If ...?\" 2 bài — 3.836 · \"The X Effect/Point\" 5 bài — 963 · \"Why ...?\" 9 bài (khuôn đông nhất) — 599 · trợ động từ (Are/Were/Do/Would/When) 5 bài — 574 · \"The ENTIRE History of...\" 1 bài — 750",
+     "trich": [
+      "Khuôn \"What...?\" — 4 bài đầu bảng đều thuộc khuôn này: \"What Did Ancient Humans Do at Night?\" (62.653) · \"What Did Ancient Humans Actually Eat?\" (6.914) · \"What Happens After We Die?\" (4.023) · \"What Did Ancient Humans Do All Day?\" (3.996)",
+      "Khuôn \"Why...?\" đông nhất nhưng trung vị thấp thứ nhì: \"Why Do Dogs Love Humans?\" (298) · \"Why Were Vikings So Scared at Night?\" (424) · \"Why Are Exactly 10% of People Left-Handed?\" (443) · \"Why Are Humans Dumber Now?\" (516)",
+      "Khuôn \"The X Effect\" là canh bạc all-or-nothing: The Calhoun Effect 39.835 vs The Marshmallow Effect 412 và The Pratfall Effect 434 — chênh 97 lần trong cùng một khuôn title"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ ĐÚNG MỘT LOẠT THẬT: \"…Ancient Humans…?\" — 4 bài, và đây là nhóm chủ điểm có trung vị view/ngày CAO NHẤT kênh, hơn nhóm kế tiếp 6,8 lần. Nhưng bài thứ 4 của loạt đã rớt xuống đáy.",
+     "so_lieu": "Trung vị view/ngày theo nhóm chủ điểm: ANCIENT HUMANS 4 bài = 5.455 · TÂM LÝ CÓ TÊN RIÊNG 8 bài = 803 · VŨ TRỤ/LOÀI NGƯỜI 4 bài = 649 · CÁI CHẾT 5 bài = 643 · ĐỘNG VẬT 5 bài = 599 · CƠ THỂ-NÃO BẠN 3 bài = 565",
+     "trich": [
+      "Loạt Ancient Humans theo thứ tự đăng: \"What Did Ancient Humans Do at Night?\" 05/04 = 62.653 → \"What Did Ancient Humans Actually Eat?\" 24/04 = 6.914 → \"What Did Ancient Humans Do All Day?\" 09/05 = 3.996 → \"Were Ancient Humans Loyal to One Partner?\" 30/06 = 574",
+      "Bài thứ 4 đổi khuôn title từ \"What Did Ancient Humans...\" sang \"Were Ancient Humans...\" và rơi 6,9 lần so với bài thứ 3"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "HAI LẦN LÀM LẠI ĐỀ TÀI ĐÃ TRÚNG, HAI LẦN SẬP.",
+     "so_lieu": "Lần 1 — góc \"at Night\": 05/04 \"What Did Ancient Humans Do at Night?\" 62.653 view/ngày → 18/06 \"Why Were Vikings So Scared at Night?\" 424 view/ngày = còn 1/148. Lần 2 — góc \"chết\": 02/04 \"What Happens After We Die?\" 4.023 → 16/07 \"What Does Dying Feel Like?\" 479 = còn 1/8,4",
+     "trich": [
+      "Bản làm lại còn nghèo hơn hẳn về mỏ neo: 20260618_Why_Were_Vikings_So_Scared_at_Night_.txt có 0 tên nhà nghiên cứu, 0 mốc \"In <năm>\", 0 câu \"Here's the X\", chỉ 1 câu hỏi trong cả bài — trong khi bản gốc 20260405 có 3 nhà nghiên cứu có tên, 3 mốc năm, 3 câu \"Here's\", 8 câu hỏi",
+      "Câu mở bản gốc: \"Tonight, when the sun goes down, you're going to flip a switch.\" (hướng vào người xem, hiện tại)",
+      "Câu mở bản làm lại: \"The Vikings were terrified of the night.\" (khẳng định về người khác, quá khứ)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "PHÂN BỐ VIEW CHO THẤY KÊNH NÀY PHẦN LỚN LÀ TRÚNG SỐ — cần nhớ trước khi chép bất cứ thứ gì.",
+     "so_lieu": "Tổng 17.080.806 view / 29 video. Top 2 video (Night 7,83M + Calhoun 4,02M) chiếm 69,4% tổng view. Trung vị view của cả kênh chỉ 30.550. 7/29 video có dưới 15.000 view",
+     "trich": [
+      "Video số 1: \"What Did Ancient Humans Do at Night?\" 7.831.687 view",
+      "Video số 2: \"The Calhoun Effect\" 4.023.379 view",
+      "Video trung vị: \"Why Are Exactly 10% of People Left-Handed?\" 30.550 view",
+      "Video thấp nhất: \"What Does Dying Feel Like?\" 11.018 view"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "CHIỀU 9 — NHỊP ĐĂNG",
+   "ca_nguoc": "NHỊP ĐĂNG KHÔNG GIẢI THÍCH ĐƯỢC VIEW. Tương quan hạng (Spearman) giữa khoảng cách ngày và view/ngày = -0,188 trên n=28, tức gần như bằng 0. Bài đăng cách nhau ≤3 ngày: 15 bài, trung vị 732 view/ngày; cách nhau ≥4 ngày: 13 bài, trung vị 643. Chênh 14% — vô nghĩa. Kênh đã lấy lại nhịp 2-4 ngày suốt tháng 6-7 mà view KHÔNG hồi (trung vị tháng 6 = 547, tháng 7 = 675, so với tháng 4 = 5.468).",
+   "phat_hien": [
+    {
+     "y": "29 video trong 120 ngày. Nhịp nền là 3 ngày một video, rất đều.",
+     "so_lieu": "01/04/2026 → 30/07/2026 = 120 ngày, 29 video. Khoảng cách trung vị 3,0 ngày · trung bình 4,29 ngày · ngắn nhất 1 ngày · dài nhất 12 ngày. Phân bố khoảng cách: 1 ngày ×3 · 2 ngày ×5 · 3 ngày ×7 · 4 ngày ×4 · 5 ngày ×3 · 6 ngày ×1 · 8 ngày ×1 · 9 ngày ×1 · 10 ngày ×2 · 12 ngày ×1",
+     "trich": [
+      "Video/tháng: tháng 4 = 10 video · tháng 5 = 3 · tháng 6 = 9 · tháng 7 = 7",
+      "Nhịp nửa đầu vs nửa sau gần như không đổi: trung vị 3,5 ngày (14 khoảng đầu) vs 3,0 ngày (14 khoảng sau)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ GOM ĐỢT MỞ KÊNH: 4 video trong 5 ngày đầu tiên (01–05/04). Và đúng video thứ 4 của đợt gom này là quả 7,83 triệu.",
+     "so_lieu": "01/04, 02/04, 03/04, 05/04 = 4 video / 5 ngày. Trong 29 ngày đầu (01–29/04) kênh đăng 10 video, trung bình 2,9 ngày/video, và 6/10 video đó nằm trong nhóm CAO",
+     "trich": [
+      "01/04 \"Why Are Humans Dumber Now?\" 516 view/ngày · 02/04 \"What Happens After We Die?\" 4.023 · 03/04 \"Why You Can't Remember Being a Baby\" 14.706 · 05/04 \"What Did Ancient Humans Do at Night?\" 62.653 — leo dốc trong 5 ngày"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "NHỊP GÃY ĐÚNG THÁNG 5, VÀ VIEW KHÔNG BAO GIỜ VỀ LẠI. Tháng 5 chỉ 3 video với khoảng cách 10, 12, 10 ngày. Từ 04/06 kênh lấy lại nhịp 2-4 ngày nhưng trung vị view/ngày đứng nguyên ở mức ~550-680.",
+     "so_lieu": "Khoảng cách tháng 5: 09/05 (cách 10 ngày), 21/05 (cách 12), 31/05 (cách 10) — 3 khoảng dài nhất trong toàn bộ lịch sử kênh nằm liền nhau. Trung vị view/ngày: tháng 4 = 5.468 (n=10) · tháng 5 = 750 (n=3) · tháng 6 = 547 (n=9) · tháng 7 = 675 (n=7)",
+     "trich": [
+      "Video cuối cùng còn ở nhóm CAO là 09/05 \"What Did Ancient Humans Do All Day?\" (3.996 view/ngày). Sau ngày đó, trong 20 video tiếp theo KHÔNG có video nào vượt 1.317 view/ngày, và con số 1.317 đó lại là bài mới 9 ngày tuổi",
+      "Tôi KHÔNG kết luận được nhịp gãy tháng 5 là NGUYÊN NHÂN của cú sập, vì cùng lúc đó kênh cũng đổi đề tài (rời loạt Ancient Humans) và đổi văn phong (mất khuôn \"Here's the X\", mất mật độ câu hỏi). Ba biến này trùng nhau về thời gian, dữ liệu 28 bài không tách được chúng ra."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ]
+}

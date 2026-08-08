@@ -1,0 +1,667 @@
+{
+ "kenh": "Rune",
+ "so_bai": 13,
+ "view_ngay_cao": "NHÓM TRÊN (4/13 bài, view/ngày tính tới 2026-08-08): Bored 1.400,7 (142.867 view/102 ngày) · Flirt 320,8 (29.516/92) · Favorite Foods 32,7 (1.765/54) · Olympics 32,0 (2.305/72). CẢNH BÁO: bài #2 cách bài #1 4,4 lần, bài #3 cách bài #2 9,8 lần — \"nhóm trên\" thực chất là 2 cú nổ + 2 bài trung bình.",
+ "view_ngay_thap": "NHÓM DƯỚI (4/13 bài): Romans Love 3,3 (153 view/47 ngày) · Apex Predators 2,6 (64/25) · Cats 1,6 (95/58) · Clap 1,5 (48/32). Nhóm giữa (5/13): Roman Slave 18,8 · Speed Limit 13,4 · Clothes 8,9 · Get High 6,0 · Milk 3,5.",
+ "gioi_han": "1) Cỡ mẫu 13 bài, chỉ 2 bài trên 100 view/ngày (Bored 1.400,7 và Flirt 320,8). Mọi so sánh \"nhóm trên\" thực chất đứng trên 2 điểm dữ liệu; bài #3 và #4 của nhóm trên (32,7 và 32,0) gần nhóm giữa hơn gần nhóm đỉnh — chênh 43 lần. 2) Không có dữ liệu CTR/AVD/thumbnail, nên KHÔNG tách được \"hook giữ chân tốt\" khỏi \"thumbnail được bấm nhiều\". Mọi chênh lệch view/ngày ở đây có thể do thumbnail/title hoàn toàn, không do lời đọc. 3) Bản ghi là auto-caption có rơi chữ (\"ired\"=tired, \"moji\"=emoji, \"hey\"=they, \"elationship\", \"epeatedly\", \"ccasionally\", \"TASR\"=TAS2R38) — số đếm từ đơn lẻ có sai số nhỏ; số đếm khuôn câu và vị trí % thì không ảnh hưởng. 4) Chỉ 12/13 bài có chapter marker trong info.json (Roman Slave 0 chương), nên mọi số về bộ xương chương là trên 12 bài. 5) Kênh mới 86 ngày tuổi, video mới nhất mới 25 ngày — view/ngày của bài mới còn biến động mạnh.",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~130-155 từ đầu)",
+   "ca_nguoc": "Khuôn hook mạnh nhất của kênh (cảnh đời thường ngôi 2 → 'chuyện này cổ xưa lắm') xuất hiện Ở CẢ HAI NHÓM: 3/4 bài nhóm trên VÀ 2/4 bài nhóm dưới. Cats (1,6 vpd) mở bằng 'You let it in. / You feed it. / You move your legs when it wants to sleep on the couch.' — đúng khuôn của bài 1.400,7 vpd, mà chìm. Vậy khuôn hook này là NẾT KÊNH, KHÔNG phải bí quyết thắng. Điều duy nhất phân biệt được là ĐỘ DÀI mở màn và VIỆC KHÔNG DÙNG DẤU HỎI, và cả hai đều bị Clap (41s, nhóm dưới) phản chứng một phần.",
+   "phat_hien": [
+    {
+     "y": "Khuôn A — mở bằng CẢNH ĐỜI THƯỜNG NGÔI 2, THÌ HIỆN TẠI, không hề nhắc gì cổ đại: người xem đang làm một việc tầm thường ngay lúc này.",
+     "so_lieu": "7/13 bài. Nhóm trên 3/4 (Bored, Flirt, Favorite Foods) · nhóm giữa 2/5 (Clothes, Get High) · nhóm dưới 2/4 (Cats, Clap).",
+     "trich": [
+      "\"You're sitting on your couch right now, phone in hand, scrolling through nothing.\" (20260428_What_Did_Ancient_Humans_Do_When_They_Were_Bored_.txt — 1.400,7 vpd)",
+      "\"You've rewritten that text four times. / You changed the emoji. / You deleted the moji. / You put it back.\" (20260508_How_Did_Ancient_Humans_Actually_Flirt_.txt — 320,8 vpd)",
+      "\"You let it in. / You feed it. / You move your legs when it wants to sleep on the couch.\" (20260611_How_Cats_Slowly_Conquered_Humanity.txt — 1,6 vpd)",
+      "\"You pour yourself a drink tonight, and you don't think twice about it.\" (20260519_How_Did_Ancient_Humans_Actually_Get_High_.txt — 6,0 vpd)",
+      "\"You just watched something incredible. / A concert, a speech, a performance, doesn't matter.\" (20260707_Why_Do_We_Actually_Clap_Our_Hands_.txt — 1,5 vpd)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn B — mở bằng MỆNH LỆNH 'Picture/Imagine/Close your eyes' thay vì tả người xem.",
+     "so_lieu": "3/13 bài: Olympics (32,0 — nhóm trên) · Speed Limit (13,4 — giữa) · Milk (3,5 — giữa). Nhóm dưới 0/4.",
+     "trich": [
+      "\"Picture the opening ceremony.\" (20260528_Why_Ancient_Humans_Would_Dominate_the_Modern_Olympics.txt)",
+      "\"Close your eyes for a second. / Imagine a gun fires. / A bullet tears through the air at 900 m/s.\" (20260421_Why_Does_the_Universe_Have_a_Speed_Limit_.txt)",
+      "\"Picture a glass of milk, cold, white, sitting on your kitchen counter right now.\" (20260425_Why_We_Weren_t_Supposed_to_Drink_Milk.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn C+D — 2 khuôn LỆCH, cả hai đều rơi vào nhóm dưới/giữa: 'bạn LÀ nhân vật lịch sử' (ngôi 2 quá khứ) và 'nhân vật lịch sử ngôi 3'.",
+     "so_lieu": "2/13 bài. Roman Slave 18,8 (giữa) dùng khuôn C · Romans Love 3,3 (dưới) dùng khuôn D. Nhóm trên 0/4.",
+     "trich": [
+      "\"There's no single way you ended up here. / Maybe you were born to a mother who was already enslaved, which meant you were never anything else from your first breath.\" (20260626_What_It_Was_Actually_Like_to_Be_a_Roman_Slave.txt — 18,8 vpd)",
+      "\"Somewhere in Rome, around 60 BC, a man amed Gaius Valerius Catullus saw a woman at a dinner party and lost his mind completely. / He never recovered.\" (20260622_How_Did_Ancient_Romans_Actually_Fall_in_Love_.txt — 3,3 vpd)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "Chữ 'you/your' xuất hiện NGAY CÂU ĐẦU TIÊN. Bài DUY NHẤT không có chữ 'you' nào trong 145 từ đầu là bài mở bằng nhân vật lịch sử — và nó nằm nhóm dưới.",
+     "so_lieu": "11/13 bài có you/your ở CÂU ĐẦU (2 bài không: Olympics 'Picture the opening ceremony.' và Romans Love). 12/13 bài có you/your trong 130-155 từ đầu; 1/13 (Romans Love, 3,3 vpd) không có chữ nào.",
+     "trich": [
+      "\"Someone asks you what your favorite food is, and you probably don't even have to think about it.\" (20260615_Did_Ancient_Humans_Have_Favorite_Foods_.txt)",
+      "\"Here's a fun fact that should probably terrify you a little. / You are right now sitting there watching this video one of the most efficient killing machines biology has ever produced.\" (20260714_How_Ancient_Humans_Became_Apex_Predators.txt)",
+      "\"You rush out the door, halfway down the street, and then a cold wave hits you.\" (20260419_The_Terrifying_Reason_Humans_Wear_Clothes.txt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Mật độ 'you/your' trên toàn bài — nhóm trên đặc hơn nhóm dưới, nhưng KHÔNG sạch: bài đặc nhất cả kênh (57,9/1000) lại nằm nhóm giữa và bài 25,5/1000 nằm nhóm dưới cùng.",
+     "so_lieu": "Nhóm trên (4 bài): 28,3 / 28,4 / 27,2 / 9,3 lần/1000 từ — trung vị 27,7. Nhóm dưới (4 bài): 6,1 / 14,1 / 15,4 / 25,5 — trung vị 14,8. Chênh 1,9×. Nhưng Roman Slave (nhóm giữa) 57,9 và Clothes (giữa) 49,9 đều cao hơn cả nhóm trên.",
+     "trich": [
+      "Bored 49 lần 'you' / 1.734 từ = 28,3/1000 (1.400,7 vpd)",
+      "Romans Love 10 lần 'you' / 1.637 từ = 6,1/1000 (3,3 vpd)",
+      "Roman Slave 49 lần 'you' / 846 từ = 57,9/1000 (18,8 vpd — chỉ nhóm giữa)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Bản lề hook — câu 'Here is what nobody tells you about X' đặt ở khoảng từ thứ 90-145, ngay trước khi vào thân bài. Đây là câu bẻ từ 'cảnh của bạn' sang 'sự thật cổ đại'.",
+     "so_lieu": "4/13 bài có câu này TRONG hook (Flirt, Cats, Get High, Favorite Foods); tổng 5/13 bài có cụm 'nobody tells you'/'nobody asks' ở bất kỳ đâu. Nhóm trên 2/4 · nhóm dưới 1/4.",
+     "trich": [
+      "\"Here is what nobody tells you about that feeling. / It is not modern. / It is not unique to you.\" (Flirt — 320,8 vpd, ở từ thứ ~90)",
+      "\"Here is what nobody tells you about your elationship with cats. / You did not choose it. / It chose you.\" (Cats — 1,6 vpd, ở từ thứ ~86)",
+      "\"But here is the thing nobody tells you about that drink in your hand.\" (Get High — 6,0 vpd)",
+      "\"But, here's the question nobody asks. / Did a human 50,000 years ago have a favorite food, too?\" (Favorite Foods — 32,7 vpd)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khuôn CHẾT — 'We've always been told the same story' chỉ nằm trong 3 video ĐẦU TIÊN của kênh (19/04, 21/04, 25/04) rồi biến mất hoàn toàn khỏi 10 bài sau. Cả 3 bài đó đều ≤13,4 vpd.",
+     "so_lieu": "3/13 bài, đều thuộc nhóm giữa (Clothes 8,9 · Speed Limit 13,4 · Milk 3,5). Nhóm trên 0/4, nhóm dưới 0/4. Không xuất hiện lần nào sau 2026-04-25.",
+     "trich": [
+      "\"We've always been told the answer is imple. / Clothes are for warmth, nakedness is for the bedroom. / Society has rules, you follow them.\" (Clothes)",
+      "\"And we've always been told the same story. / Light is fast. / The universe is big. / So there's a limit. / End of story. / But that answer is a child's answer.\" (Speed Limit)",
+      "\"And we've always been told the same story. / Early humans were clever. / They domesticated cows. / Milk was nutritious. / They drank it. / The end.\" (Milk)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "CÂU HỎI LÕI KHÔNG phải câu hỏi. 2 bài thắng nhất KHÔNG có một dấu hỏi nào trong 260 từ đầu — hook là một LỜI HỨA khẳng định, không phải một câu hỏi.",
+     "so_lieu": "5/13 bài có dấu '?' trong 260 từ đầu. Nhóm trên chỉ 1/4 (Favorite Foods, ở từ thứ 89). Bored (1.400,7) và Flirt (320,8) đều 0 dấu hỏi trong 260 từ đầu. Nhóm dưới 2/4 (Clap 4 câu hỏi trong 91 từ đầu; Apex 1 câu ở từ 111). Clothes (8,9) có 3 câu hỏi trong 233 từ đầu.",
+     "trich": [
+      "Bored, thay cho câu hỏi là lời hứa: \"Your ancestors felt it, too. / And what hey did about it built civilization.\" (từ thứ ~95)",
+      "Flirt, thay cho câu hỏi là lời hứa: \"And the ways ancient humans tried to make it happen will make you feel a lot better about those four drafts.\" (từ thứ ~144)",
+      "Clap dồn 4 câu hỏi liền: \"Why do we do this? / Like, genuinely, why is the universal signal for I enjoyed that the act of rhythmically slapping your own palms together? / Who decided this? / When and why did every culture on Earth somehow end up doing the same weird thing?\" (1,5 vpd)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU đóng hook — 13/13 bài đều có một câu chốt hứa hẹn ngay trước khi vào thân bài. Đây là NẾT KÊNH tuyệt đối, không phân biệt được nhóm nào.",
+     "so_lieu": "13/13 bài. Nhóm trên 4/4, nhóm giữa 5/5, nhóm dưới 4/4.",
+     "trich": [
+      "\"And what hey did about it built civilization.\" (Bored — 1.400,7)",
+      "\"Here is what happens next, and it is not what you expect.\" (Olympics — 32,0)",
+      "\"And the answer, when you actually sit with it, will break something inside you.\" (Speed Limit — 13,4)",
+      "\"The answer starts in Rome, and it's stranger than you'd expect.\" (Clap — 1,5)",
+      "\"And the process by which it happened is one of the most successful long-term strategies in the history of life on Earth.\" (Cats — 1,6)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TỰ GIỄU: KHÔNG CÓ. Người dẫn hoàn toàn vô hình trong hook của cả 13 bài — không một chữ 'I' nào của người dẫn trong 130-155 từ đầu. Không có câu đùa về bản thân, không có 'I know this sounds crazy', không chào hỏi.",
+     "so_lieu": "0/13 bài có câu tự giễu hoặc đại từ 'I' của người dẫn trong hook. Trên toàn bài, 8/13 bài có 0 lần 'I' của người dẫn; bài nhiều nhất là Clothes 6 lần (8,9 vpd) và Clap 3 lần (1,5 vpd) — cả hai đều ngoài nhóm trên.",
+     "trich": [
+      "Clap là bài hiếm hoi để lộ người dẫn: \"Roman audiences were unhinged, and I mean that as a compliment.\" và \"Now, here's the part of this that I find genuinely strange.\" — bài này 1,5 vpd, thấp nhất kênh"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỘ DÀI MỞ MÀN (chương 1 theo chapter marker YouTube) — nhóm trên mở màn NGẮN hơn nhóm dưới khoảng 22 giây.",
+     "so_lieu": "Nhóm trên (4/4 có chapter): 45s / 46s / 49s / 64s — trung vị 47,5s. Nhóm dưới (4/4): 75s / 65s / 75s / 41s — trung vị 70,0s. PHẢN CHỨNG: Clap có mở màn ngắn nhất cả kênh (41s) mà vẫn 1,5 vpd.",
+     "trich": [
+      "Bored chương 1 = 0-45s, tên 'The couch and the phone' (1.400,7 vpd)",
+      "Flirt chương 1 = 0-46s, tên 'The Anxiety of Dating' (320,8 vpd)",
+      "Cats chương 1 = 0-75s, tên 'The Only Predator That Won' (1,6 vpd)",
+      "Romans Love chương 1 = 0-75s, tên 'The \"Madness\" of Roman Love (Furor)' (3,3 vpd)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — kho câu re-hook, câu nối, vòng tò mò",
+   "ca_nguoc": "Hai chỉ số 'giữ chân' hiển nhiên nhất đều PHẢN LẠI giả thuyết: (a) mật độ câu cực ngắn ≤4 từ gần như y hệt nhau ở hai nhóm (11,1 vs 11,4 trên 1000 từ) — và bài dùng nhiều nhất cả kênh (Speed Limit 47,5/1000, 57 câu cực ngắn) chỉ được 13,4 vpd; (b) mật độ câu re-hook 'Here is/Here's' ở nhóm dưới còn CAO HƠN nhóm trên (1,9 vs 1,4 trên 1000 từ). Cả hai là NẾT KÊNH, không phải bí quyết.",
+   "phat_hien": [
+    {
+     "y": "KHO CÂU RE-HOOK — họ Here is/Here's là xương sống. Mọi bài đều dùng, tổng 38 câu.",
+     "so_lieu": "13/13 bài có ít nhất 1 câu mở bằng 'Here is/Here's'. Tổng 38 câu / 13 bài. Mật độ nhóm trên 9 câu/6.210 từ = 1,4/1000; nhóm dưới 12 câu/6.384 từ = 1,9/1000 — nhóm DƯỚI dày hơn.",
+     "trich": [
+      "\"Here is what nobody tells you about boredom.\" (Bored, @86% bài)",
+      "\"Here is what is strange about all of this.\" (Flirt, @90%)",
+      "\"Here is what all of this actually means.\" (Olympics, @85%)",
+      "\"Here is what all of this adds up to.\" (Get High, @91%)",
+      "\"Here is what's wild about all of this.\" (Milk, @84%)",
+      "\"Here is what most people get wrong.\" (Milk, @19%)",
+      "\"But here is what makes this genuinely interesting.\" (Clap, @19%)",
+      "\"Here's what Einstein realized in 1905.\" (Speed Limit, @16%)",
+      "\"Here is the summary of what happened.\" (Cats, @91%)",
+      "\"So, here's what actually happened when you put the whole timeline together.\" (Apex)",
+      "\"And here's what's strange about music.\" (Bored)",
+      "\"Now, here's the thing about Roman love that most people don't know.\" (Romans Love)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHO CÂU 'gets [tính từ]' — báo hiệu sắp có fact sốc, luôn 5-9 từ.",
+     "so_lieu": "6/13 bài dùng khuôn 'here's/this is where it gets [adj]'.",
+     "trich": [
+      "\"And here is where everything fractures.\" (Speed Limit, 6 từ, @23%)",
+      "\"And here is where it gets complicated.\" (Cats, 7 từ, @64%)",
+      "\"Now, here's where it gets strange.\" (Romans Love, 6 từ, @27%)",
+      "\"That sounds reasonable, but here's where it gets strange.\" (Clothes)",
+      "\"Here's where it stops being about the body entirely.\" (Apex, 9 từ, @49%)",
+      "\"And this is where it gets complicated, because applause doesn't mean the same thing everywhere, and it hasn't always meant what it means now.\" (Clap, 24 từ, @45%)",
+      "\"Here's where it gets complicated, though, because not every enslaved life looked the same, and the gap between the best and worst version of this was enormous.\" (Roman Slave, 27 từ, @25%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU NỐI CỰC NGẮN (≤4 từ) làm nhịp trước/sau fact sốc — mật độ hai nhóm gần như bằng nhau. Đây là NẾT KÊNH rõ rệt nhất, KHÔNG phải bí quyết.",
+     "so_lieu": "Nhóm trên: 15,0 / 16,9 / 6,4 / 7,2 câu ≤4 từ trên 1000 từ — trung vị 11,1. Nhóm dưới: 10,4 / 8,4 / 13,7 / 12,4 — trung vị 11,4. Toàn kênh 13/13 bài đều dùng. Bài dùng nhiều nhất là Speed Limit 47,5/1000 (57 câu ≤4 từ trong 159 câu) mà chỉ 13,4 vpd.",
+     "trich": [
+      "Bored: \"It wasn't a map. / It wasn't a calendar. / That person was bored. / Art came from boredom.\" (1.400,7 vpd)",
+      "Flirt: \"Display. / Signal. / Be noticed. / Show what you have.\" và \"Resources. / Can you provide? / Not just having meat. / Giving it away.\" (320,8 vpd)",
+      "Cats: \"Nobody captured them. / Nobody bred them selectively. / They domesticated themselves.\" (1,6 vpd)",
+      "Clap: \"Nobody planned this. / Nobody gave a signal. / It just emerged.\" (1,5 vpd)",
+      "Milk: \"Not you. / Never you.\" và \"Crops fail. / Droughts come.\" (3,5 vpd)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "PHẢN MẪU 3 NHỊP — khuôn 'Not because X. Not because Y. Not because Z.' để bác bỏ trước khi khẳng định.",
+     "so_lieu": "3/13 bài dùng: Speed Limit (13,4 — giữa), Apex (2,6 — dưới), Milk (3,5 — giữa). Nhóm trên 0/4.",
+     "trich": [
+      "\"Not because of the engine. / Not because of the fuel. / Not because of any engineering problem you could ever solve. / Because the universe itself will not allow it.\" (Speed Limit)",
+      "\"Not because you're strong. / You're not. / Not because you're fast. / A golden retriever would beat you in a foot race without trying.\" (Apex)",
+      "\"Cheetahs can't do this. / Wolves can't do this. / Lions can't do this.\" (Apex)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "VÒNG TÒ MÒ: kênh này KHÔNG dùng vòng tò mò dài. Không một bài nào hứa hẹn 'phần hay nhất ở cuối', 'ta sẽ quay lại chuyện này', 'nhưng trước hết'. Vòng tò mò chỉ mở-và-đóng NGAY trong cùng một chương.",
+     "so_lieu": "0/13 bài có 'we'll get to' · 'come back to that' · 'in a moment' · 'hold that thought' · 'but first' · 'by the end of' · 'stay tuned'. Cụm 'stick around' xuất hiện đúng 1 lần trên 13 bài và nằm trong câu xin đăng ký, không phải câu giữ chân nội dung.",
+     "trich": [
+      "Lần duy nhất có chữ 'stick around' trong cả 13 bản ghi: \"Subscribe and stick around.\" (Apex, @49% bài)",
+      "Thay vì hứa hẹn xa, họ chỉ hứa NGAY câu sau: \"Here is what happens next, and it is not what you expect.\" (Olympics, @5%)",
+      "\"The answer starts in Rome, and it's stranger than you'd expect.\" (Clap, @12%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP ĐỌC (wpm) — nhóm trên đọc đều 141-149 wpm; hai bài chậm nhất và hai bài nhanh nhất cả kênh đều nằm ngoài nhóm trên.",
+     "so_lieu": "Nhóm trên: 144 / 149 / 142 / 141 wpm — biên độ 8. Nhóm dưới: 139 / 166 / 138 / 165 — biên độ 28. Hai bài nhanh nhất kênh (Clap 165, Apex 166) đều ở nhóm dưới; bài chậm nhất (Speed Limit 121) ở nhóm giữa.",
+     "trich": [
+      "Bored 1.724 từ / 12:00 = 144 wpm (1.400,7 vpd)",
+      "Flirt 1.829 từ / 12:18 = 149 wpm (320,8 vpd)",
+      "Apex 1.547 từ / 9:18 = 166 wpm (2,6 vpd)",
+      "Clap 1.372 từ / 8:18 = 165 wpm (1,5 vpd)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180 từ cuối)",
+   "ca_nguoc": "Callback về hook là NẾT KÊNH tuyệt đối — 12/13 bài có, cả nhóm trên lẫn nhóm dưới. Callback ĐẸP NHẤT cả kênh lại nằm ở bài 1,6 vpd (Cats: 'You moved over on the couch, didn't you?'). Vậy callback không cứu được bài chìm. Điểm KHÁC BIỆT thật sự là: nhóm trên chốt bằng CÚ MỈA NGƯỢC (bạn có nhiều hơn nhưng lại tệ hơn), nhóm dưới chốt bằng TỔNG KẾT hoặc CÂU TRỮ TÌNH.",
+   "phat_hien": [
+    {
+     "y": "CALLBACK VỀ HOOK — gần như bắt buộc, cả hai nhóm. Câu cuối gọi lại đúng hình ảnh mở màn.",
+     "so_lieu": "12/13 bài có callback rõ về hình ảnh hook (bài duy nhất không: Roman Slave 18,8 vpd, kết bằng vụ xử 400 nô lệ, không quay về câu mở 'There's no single way you ended up here'). Nhóm trên 4/4 · nhóm dưới 4/4.",
+     "trich": [
+      "Hook: \"You're sitting on your couch right now, phone in hand, scrolling through nothing.\" → Kết: \"You pull out your phone before it even has a chance to turn into something. / You scroll until the feeling goes away.\" (Bored, 1.400,7)",
+      "Hook: \"You've rewritten that text four times.\" → Kết: \"That text you're rewriting, that outfit you're reconsidering, that joke you're wondering whether to tell...\" (Flirt, 320,8)",
+      "Hook: \"Someone asks you what your favorite food is...\" → Kết: \"The next time someone asks what your favorite food is and the answer just appears, no thinking required.\" (Favorite Foods, 32,7)",
+      "Hook: \"You move your legs when it wants to sleep on the couch.\" → Kết (câu cuối cùng): \"You moved over on the couch, didn't you?\" (Cats, 1,6)",
+      "Hook: \"You pour yourself a drink tonight...\" → Kết: \"When you pour that drink tonight, you are participating in something that connects you to the first farmers...\" (Get High, 6,0)",
+      "Hook: \"Odi et amo. / I hate and I love.\" → Kết: \"Odi et amo. / 2,000 years later, you know exactly what he meant.\" (Romans Love, 3,3)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÚ MỈA NGƯỢC ở câu chốt — 'bạn có nhiều hơn tổ tiên, nhưng lại tệ hơn'. Chỉ nhóm trên dùng kiểu chốt này.",
+     "so_lieu": "2/13 bài, đều là 2 bài duy nhất trên 100 vpd (Bored 1.400,7 và Flirt 320,8). Nhóm dưới 0/4.",
+     "trich": [
+      "\"For 3 million years, boredom was the ngine of human creativity. / Your ancestors didn't have anything to kill it with. / So instead, they built art, music, language, games, and eventually everything else. / You have more tools to kill boredom than y human who has ever lived. / And somehow, you've never been more bored.\" (Bored)",
+      "\"Your ancestors were terrified, too. / They sent the message anyway.\" (Flirt — 5 từ chốt, đảo ngược nỗi lo mở màn thành lời cổ vũ)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÂU ĐỊNH DANH NGƯỜI XEM ('That's you' / 'You are the X') — chỉ 3/13 bài, và KHÔNG bài nào thuộc nhóm trên. Đây là bằng chứng ngược với trực giác: định danh người xem ở đoạn kết không tương quan với view.",
+     "so_lieu": "3/13 bài, cả 3 thuộc nhóm GIỮA: Speed Limit 13,4 · Milk 3,5 · Clothes 8,9. Nhóm trên 0/4, nhóm dưới 0/4.",
+     "trich": [
+      "\"That is you.\" (Speed Limit, 3 từ, gần cuối)",
+      "\"You are the original blueprint.\" và \"That's the original human. / The factory default.\" (Milk)",
+      "\"You are not just an animal that survived. / You are the animal that learned to mean something, that decided mere existence wasn't enough, that the body needed a story wrapped around it.\" (Clothes)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "'The next time you...' — mồi hành vi tương lai. Ít dùng hơn tưởng.",
+     "so_lieu": "3/13 bài (4 câu). Nhóm trên 1/4 (Favorite Foods) · nhóm giữa 2/5 (Milk 2 câu, Get High biến thể) · nhóm dưới 0/4.",
+     "trich": [
+      "\"The next time someone asks what your favorite food is and the answer just appears, no thinking required. / That's not really a small thing. / That's tens of thousands of years of genetics, ecology, and social history compressed into a single instant craving.\" (Favorite Foods, 32,7)",
+      "\"The next time someone tells you they're lactose intolerant, that's not a flaw. / That's the original human.\" (Milk, 3,5)",
+      "\"And the next time you pour milk into your coffee without thinking, that's a 5,000-year-old survival hack running silently in the background.\" (Milk)",
+      "\"When you pour that drink tonight, you are participating in something that connects you to the first farmers who gave up nomadic life to brew grain...\" (Get High, 6,0)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MỒI VIDEO KẾ: gần như KHÔNG CÓ. Không bài nào gợi ý một video cụ thể để xem tiếp.",
+     "so_lieu": "0/13 bài nêu tên hoặc chủ đề một video kế. 1/13 bài có câu chào tạm biệt chung chung ('See you in the next one' — Milk, 3,5 vpd, đăng 25/04, khuôn này không lặp lại lần nào trong 10 bài sau).",
+     "trich": [
+      "Lần duy nhất trong 13 bản ghi: \"More videos like this every week. / Subscribe. / Hit the bell. / Tell a friend who drinks too much milk. / See you in the next one.\" (Milk)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHỐT MẠNH, KHÔNG HẠ NHIỆT — 13/13 bài kết bằng câu cắm phập, không có câu tạm biệt, không tóm tắt lại bài. Câu cuối trung vị 9 từ.",
+     "so_lieu": "13/13 bài. Độ dài câu cuối: 3,3,5,6,7,8,8,9,14,18,24,33,35 từ — trung vị 9 từ. 8/13 câu cuối có chữ 'you/your'. Nhóm trên 2/4 có 'you' ở câu cuối, nhóm dưới 4/4 có.",
+     "trich": [
+      "\"And somehow, you've never been more bored.\" (7 từ — Bored 1.400,7)",
+      "\"They sent the message anyway.\" (5 từ — Flirt 320,8)",
+      "\"Not even light. / Not even you.\" (3 từ — Speed Limit 13,4)",
+      "\"You moved over on the couch, didn't you?\" (8 từ — Cats 1,6)",
+      "\"That lion your ancestors used to hide from.\" (8 từ, câu cụt cố ý bỏ lửng — Apex 2,6)",
+      "\"And then the starting gun would fire. / And you would see what a human body actually looks like when it has never been allowed to forget what it was built for.\" (Olympics 32,0)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ",
+   "ca_nguoc": "Bài view/ngày CAO NHẤT của kênh (Bored, 142.867 view, 1.400,7 vpd) KHÔNG xin đăng ký một lần nào. Nhưng 4/4 bài nhóm dưới đều có xin — nên đây KHÔNG phải bằng chứng 'xin sub làm mất view'; nó chỉ cho thấy việc xin sub không liên quan gì tới việc bài nổ hay chìm. Đừng rút ra luật từ đây.",
+   "phat_hien": [
+    {
+     "y": "8/13 bài có xin đăng ký, 5/13 hoàn toàn không. Bài đỉnh kênh nằm trong nhóm KHÔNG xin.",
+     "so_lieu": "CÓ CTA 8/13: Flirt (320,8) · Favorite Foods (32,7) · Olympics (32,0) · Milk (3,5) · Romans Love (3,3) · Apex (2,6) · Cats (1,6) · Clap (1,5). KHÔNG CÓ 5/13: Bored (1.400,7) · Roman Slave (18,8) · Speed Limit (13,4) · Clothes (8,9) · Get High (6,0). Nhóm trên 3/4 có · nhóm dưới 4/4 có.",
+     "trich": [
+      "Bored (1.400,7 vpd, 1.734 từ): không có chữ 'subscribe', 'channel', 'like', 'comment', 'bell' nào trong toàn bộ bản ghi"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Vị trí: 7/8 bài đặt CTA ở GIỮA BÀI (43%-74%), chứ không ở đầu hay cuối. Chỉ 1/8 đặt ở cuối.",
+     "so_lieu": "Vị trí % theo số từ: 43-44% (Favorite Foods) · 48% (Flirt) · 49% (Apex) · 59% (Romans Love) · 71% (Cats) · 73% (Olympics) · 74% (Clap) · 98-99% (Milk). Trung vị 59%. 0/8 bài đặt CTA trong 40% đầu bài.",
+     "trich": [
+      "\"If this kind of thing fascinates you, the hidden ancient wiring behind everyday stuff, there's a lot more of it on this channel. / Subscribe so you don't miss the next one.\" (Favorite Foods @43-44%)",
+      "\"This channel goes deeper into things like this every week. / Hit subscribe if you want to come back.\" (Flirt @48%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Chỉ xin MỘT lần duy nhất mỗi bài — không bài nào xin hai lần. Không bài nào xin like hoặc comment.",
+     "so_lieu": "8/8 bài có CTA chỉ xin 1 lần. 0/13 bài xin like. 0/13 bài xin comment/'let me know'/'down below'. 1/13 bài nhắc chuông ('Hit the bell' — Milk).",
+     "trich": [
+      "\"Subscribe if this kind of thing is your thing. / More on the channel every week.\" (Clap @74% — chỉ 1 lần trong 1.371 từ)",
+      "\"Subscribe and stick around.\" (Apex @49% — chỉ 1 lần trong 1.556 từ)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "6/8 CTA có CÂU BẮC CẦU gắn thẳng vào chủ đề đang nói (dạng 'If [chủ đề này] X you, there's more on this channel'), chỉ 2/8 là câu trần trụi.",
+     "so_lieu": "CÓ bắc cầu 6/8: Flirt, Favorite Foods, Olympics, Romans Love, Cats, Apex. TRẦN TRỤI 2/8: Milk ('Subscribe. / Hit the bell.'), Clap (câu 'Subscribe if this kind of thing is your thing' đứng ngay sau một đoạn về Nero, không bắc cầu chủ đề).",
+     "trich": [
+      "\"This channel goes deeper into what humans actually were before the modern world took over. / Subscribe if that interests you.\" (Olympics @73%)",
+      "\"If the distance between what we tell ourselves about love and what we actually do about it sounds familiar, there's more on this channel. / Subscribe so you don't miss the next one.\" (Romans Love @59%)",
+      "\"If you've made it this far, you'd probably like everything else on this channel. / Subscribe.\" (Cats @71%)",
+      "\"If any of this is making you rethink what a human body is actually built for, there's more of this on the channel. / Subscribe and stick around.\" (Apex @49%)",
+      "\"More videos like this every week. / Subscribe. / Hit the bell. / Tell a friend who drinks too much milk.\" (Milk @98% — dạng trần trụi, chỉ dùng đúng 1 lần ngày 25/04 rồi bỏ hẳn)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CTA luôn chèn vào GIỮA hai chương chứ không cắt ngang mạch. Ở Olympics nó nằm đúng mốc chuyển chương 435s.",
+     "so_lieu": "1/8 bài có CTA rơi đúng mốc chapter marker (Olympics @435s = ranh giới chương 'Ancient Wrestling and Pankration'). 7/8 còn lại nằm ở đoạn nghỉ giữa hai ý, luôn ngay sau một câu chốt ý và ngay trước một câu mở ý mới.",
+     "trich": [
+      "Olympics, đóng ý: \"...against opponents who were not following any rules at all.\" → CTA → mở ý mới: \"There are events, of course, where the modern athlete wins easily.\"",
+      "Favorite Foods, đóng ý: \"You were arguing about a single letter difference in a gene ither of you has ever seen.\" → CTA → mở ý mới: \"Now, here's the flip side.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "ca_nguoc": "Số chương KHÔNG phân biệt được hai nhóm (nhóm trên 7/8/7/7, nhóm dưới 4/7/6/7 — 3/4 bài nhóm dưới cũng có 6-7 chương). Vị trí cú lật lớn (84-97% bài) cũng có ở CẢ HAI nhóm — 9/13 bài đều đặt cú lật ở đó. Cái phân biệt được là ĐỘ DÀI chương giữa và mức độ chương cuối bị phình.",
+   "phat_hien": [
+    {
+     "y": "Số chương: 4-9, trung vị 7. Nhóm trên đều đặn 7-8 chương; nhóm dưới có 1 bài chỉ 4 chương và bị phình đuôi nặng.",
+     "so_lieu": "12/13 bài có chapter marker (Roman Slave 0 chương). Nhóm trên: 7 / 8 / 7 / 7 chương. Nhóm dưới: 4 / 7 / 6 / 7. Toàn kênh trung vị 7 chương.",
+     "trich": [
+      "Bored 7 chương: 'The couch and the phone' → 'Hunter-gatherers had more free time than you think' → 'The oldest evidence of boredom is paint' → 'Before paint — the 75,000 year old necklace' → 'The first music' → 'Ancient humans played actual games' → \"Why you've never been more bored\"",
+      "Flirt 8 chương: 'The Anxiety of Dating' → 'Attraction Started With Fish' → 'The Oldest Evidence of Flirting (Red Ochre)' → 'The Evolutionary Power of Meat & Resources' → 'Why Musicians Are More Attractive' → 'The Psychology of Humor' → 'Why Human Eyes Have White Sclera' → \"The Signals Haven't Changed\"",
+      "Romans Love chỉ 4 chương: 'The \"Madness\" of Roman Love (Furor)' → 'Catullus & The Most Toxic Roman Romance' → 'Roman Love Curse Tablets (Dark Magic)' → \"Ovid's Banned Dating Guide\" (3,3 vpd)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỘ DÀI CHƯƠNG GIỮA — bài đỉnh có chương DÀI GẤP ĐÔI phần còn lại của kênh. Bored để mỗi chương chạy 140-145 giây (~336 từ) thay vì 65-100 giây.",
+     "so_lieu": "Trung vị độ dài chương giữa (bỏ chương 1 và chương cuối): Bored 140s (~336 từ) · Olympics 100s (~235 từ) · Speed Limit 90s · Get High 95s · Cats 100s · Romans Love 98s · Clap 80s · Apex 75s · Milk 77s · Flirt 70s (~175 từ) · Clothes 67s · Favorite Foods 65s (~154 từ). Toàn kênh trung vị 82,5s. Bored cao hơn trung vị kênh 1,7 lần.",
+     "trich": [
+      "Bored, độ dài từng chương (giây): [45, 85, 140, 140, 145, 145, 20] — bốn chương giữa đều ≥140s",
+      "Favorite Foods, độ dài từng chương: [49, 56, 55, 85, 65, 65, 155] — chương giữa chỉ 55-85s (32,7 vpd)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "PHÌNH ĐUÔI — chương cuối chiếm bao nhiêu % video. Nhóm dưới phình nặng hơn nhiều; bài Bored gần như không phình (chương cuối chỉ 20s = 2,8% video).",
+     "so_lieu": "Chương cuối / tổng thời lượng: Bored 20s/720s = 2,8% · Olympics 47s/587s = 8,0% · Get High 96s/826s = 11,6% · Clap 89s/498s = 17,9% · Apex 133s/558s = 23,8% · Favorite Foods 155s/530s = 29,2% · Flirt 283s/738s = 38,3% · Cats 319s/794s = 40,2% · Speed Limit 239s/589s = 40,6% · Clothes 194s/509s = 38,1% · Milk 217s/487s = 44,6% · Romans Love 436s/706s = 61,8%. Nhóm trên trung vị 19,1%; nhóm dưới trung vị 32,0%.",
+     "trich": [
+      "Romans Love: một chương duy nhất ('Ovid's Banned Dating Guide') chiếm 436/706 giây = 61,8% video — không có mốc chuyển nào trong 7 phút cuối (3,3 vpd)",
+      "Bored: chương cuối \"Why you've never been more bored\" chỉ 20 giây — chốt xong là hết (1.400,7 vpd)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "THỨ TỰ LEO THANG của 2 bài thắng đều là DANH MỤC: mỗi chương = MỘT hiện vật hoặc MỘT tín hiệu cụ thể, không phải một luận điểm trừu tượng.",
+     "so_lieu": "2/2 bài trên 100 vpd dùng cấu trúc danh mục. Bored: 4 chương giữa = 4 hiện vật khảo cổ (tranh hang, chuỗi vòng vỏ sò, sáo xương, bàn cờ). Flirt: 6 chương giữa = 6 tín hiệu tán tỉnh (cá, thổ hoàng đỏ, thịt, nhạc, hài, mắt). Trong nhóm dưới, 0/4 bài có cấu trúc danh mục hiện vật rõ như vậy.",
+     "trich": [
+      "Bored, các chương leo theo trục thời gian NGƯỢC (mới → cổ nhất): 'The oldest evidence of boredom is paint' rồi 'Before paint — the 75,000 year old necklace'",
+      "Flirt, các chương leo theo trục 'từ ngoài vào trong': cá → sắc đỏ → của cải → nhạc → hài → ánh mắt"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÚ LẬT LỚN NHẤT rơi ở 84-97% bài — đây là NẾT KÊNH, cả hai nhóm đều làm.",
+     "so_lieu": "9/13 bài đặt câu lật lớn ở 84-97%: Clothes @84% · Milk @84% · Olympics @85% · Bored @86% · Flirt @90% · Get High @91% · Cats @91% · Clap @92% · Favorite Foods @97%. Nhóm trên 4/4 · nhóm dưới 2/4.",
+     "trich": [
+      "\"Here is what nobody tells you about boredom.\" (Bored @86% — sau câu này là cú mỉa 'you've never been more bored')",
+      "\"Here is what is strange about all of this. / The signals haven't changed.\" (Flirt @90%)",
+      "\"Here is the summary of what happened.\" (Cats @91% — nhóm dưới, cùng vị trí, không cứu được bài)",
+      "\"So, here's where we land.\" (Clap @92% — nhóm dưới)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Độ dài bài KHÔNG dự báo view. Bài dài nhất và bài ngắn nhất đều ngoài nhóm trên.",
+     "so_lieu": "Nhóm trên: 1.724 / 1.829 / 1.253 / 1.383 từ — trung vị 1.553 từ (8:50-12:18). Nhóm dưới: 1.637 / 1.556 / 1.820 / 1.371 — trung vị 1.596 từ (8:18-13:14). Gần như bằng nhau. Bài dài nhất kênh (Get High 1.937 từ, 13:46) chỉ 6,0 vpd; bài ngắn nhất (Roman Slave 842 từ, 5:38) được 18,8 vpd.",
+     "trich": [
+      "Get High 1.937 từ / 13:46 = 6,0 vpd (dài nhất kênh)",
+      "Roman Slave 842 từ / 5:38 = 18,8 vpd (ngắn nhất kênh, cao hơn 3 lần)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG",
+   "ca_nguoc": "Cả 4 khuôn chuyển chương đều có mặt ở CẢ HAI nhóm. Cats (1,6 vpd) dùng đủ 4 khuôn còn Bored (1.400,7 vpd) chỉ dùng 2. Số lượng và độ tinh của câu chuyển KHÔNG dự báo view — đây là kho câu để DÙNG LẠI, không phải chỉ số để chấm.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN 1 — 'Here is/Here's what + [mệnh đề trừu tượng]'. Câu ngắn 6-12 từ, mở một chương giải thích. Khuôn dùng nhiều nhất kênh.",
+     "so_lieu": "38 câu mở đầu bằng 'Here is/Here's' trên 13/13 bài. Trung vị độ dài câu chuyển toàn kênh: 8 từ.",
+     "trich": [
+      "\"Here is what nobody tells you about boredom.\" (8 từ — Bored @86%)",
+      "\"Here is what nobody tells you about that feeling.\" (9 từ — Flirt @3%)",
+      "\"Here is what nobody tells you about your elationship with cats.\" (11 từ — Cats @3%)",
+      "\"Here is what happens next, and it is not what you expect.\" (12 từ — Olympics @5%)",
+      "\"Here is what all of this actually means.\" (8 từ — Olympics @85%)",
+      "\"Here is what all of this adds up to.\" (9 từ — Get High @91%)",
+      "\"Here is what's wild about all of this.\" (8 từ — Milk @84%)",
+      "\"Here is what most people get wrong.\" (7 từ — Milk @19%)",
+      "\"Here is what is strange about all of this.\" (9 từ — Flirt @90%)",
+      "\"Here's what Einstein realized in 1905.\" (6 từ — Speed Limit @16%)",
+      "\"But here is what makes this genuinely interesting.\" (8 từ — Clap @19%)",
+      "\"Here is the summary of what happened.\" (7 từ — Cats @91%)",
+      "\"And here's what's strange about music.\" (6 từ — Bored)",
+      "\"And here is what it means about you, specifically.\" (9 từ — Get High @~93%)",
+      "\"So, here's what actually happened when you put the whole timeline together.\" (12 từ — Apex)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 2 — 'Then/And then there was [DANH TỪ ĐƠN]'. Câu 4-6 từ, mở một mục mới trong danh mục. Đây là khuôn của cấu trúc danh mục ở mục 5.",
+     "so_lieu": "8/13 bài dùng. Nhóm trên 3/4 (Bored, Flirt ×2, Favorite Foods) · nhóm dưới 2/4 (Cats ×2, Romans Love). Độ dài 4-6 từ, trung vị 5 từ.",
+     "trich": [
+      "\"Then there was music.\" (4 từ — Bored @36%)",
+      "\"Then there was humor.\" (4 từ — Flirt @62%)",
+      "\"And then, there were eyes.\" (5 từ — Flirt @76%)",
+      "\"And then there were toads.\" (5 từ — Get High @41%)",
+      "\"And then there is Toxoplasma.\" (5 từ — Cats @58%)",
+      "\"Then came Egypt, and everything accelerated.\" (6 từ — Cats @34%)",
+      "\"But then came the catastrophe.\" (5 từ — Milk @47%)",
+      "\"And then there's the social layer, because in nearly every documented hunter-gatherer society, certain foods aren't just preferred, they're privileges.\" (20 từ — Favorite Foods @75%)",
+      "\"And then there's the part that complicates everything else.\" (9 từ — Romans Love @73%)",
+      "\"And then there was something darker, because not all boredom is peaceful.\" (12 từ — Bored @72%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 3 — 'Let's start with [X]' luôn đặt ở 5-12% bài, ngay sau hook, để chốt cửa vào thân bài.",
+     "so_lieu": "5/13 bài. Vị trí: 6% (Olympics) · 7% (Get High) · 9% (Apex) · 10% (Favorite Foods) · 12% (Romans Love). Nhóm trên 2/4 · nhóm dưới 2/4. Độ dài 6-16 từ.",
+     "trich": [
+      "\"Let's start with the part of this written into your DNA before you ever tasted anything.\" (16 từ — Favorite Foods @10%)",
+      "\"Let's start with what your ancestors actually were physically.\" (9 từ — Olympics @6%)",
+      "\"Let's start with what scientists call the oldest drug on Earth, alcohol.\" (12 từ — Get High @7%)",
+      "\"Let's start with the official position.\" (6 từ — Romans Love @12%)",
+      "\"Let's get the humbling part out of the way first.\" (10 từ — Apex @9%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 4 — 'here's where it gets [tính từ]' để báo sắp có phần khó/lạ.",
+     "so_lieu": "6/13 bài. Nhóm trên 0/4 · nhóm giữa 3/5 · nhóm dưới 3/4. Đây là khuôn của nhóm DƯỚI nhiều hơn.",
+     "trich": [
+      "\"And here is where everything fractures.\" (6 từ — Speed Limit @23%)",
+      "\"Now, here's where it gets strange.\" (6 từ — Romans Love @27%)",
+      "\"And here is where it gets complicated.\" (7 từ — Cats @64%)",
+      "\"Here's where it stops being about the body entirely.\" (9 từ — Apex @49%)",
+      "\"And this is where it gets complicated, because applause doesn't mean the same thing everywhere, and it hasn't always meant what it means now.\" (24 từ — Clap @45%)",
+      "\"Here's where it gets complicated, though, because not every enslaved life looked the same, and the gap between the best and worst version of this was enormous.\" (27 từ — Roman Slave @25%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "CÂU ĐÓNG CHƯƠNG — họ đóng bằng một câu KHẲNG ĐỊNH CỤT rồi vào chương mới ngay, không có câu 'chuyển tiếp' đệm. Đo tại đúng mốc chapter marker trong VTT.",
+     "so_lieu": "Kiểm tại 12/13 bài có chapter marker. Không bài nào có câu đệm kiểu 'Now let's move on to' hay 'That brings us to'. 0/13 bài dùng cụm 'moving on'/'next up'/'that brings us'.",
+     "trich": [
+      "Bored, đóng chương 'The first music' rồi vào chương game: \"...Play isn't wasted time. / It is practice for everything.\" → \"But in humans, something extra happened.\" (mốc 410s)",
+      "Olympics, đóng chương marathon rồi vào chương lao: \"The 2-hour barrier that the entire world celebrated breaking in 2019 would not impress them.\" → \"Now let's talk about throwing.\" (mốc 250s)",
+      "Olympics, đóng chương lao rồi vào chương vật: \"...the timing of release, is something your ancestor practiced daily.\" → \"But the event where this gets truly interesting is wrestling.\" (mốc 335s)",
+      "Flirt, đóng chương thổ hoàng rồi vào chương thịt: \"Red makes you visible. / Red makes you impossible to look away from.\" → \"Resources. / Can you provide?\" (mốc 182s)",
+      "Milk, đóng chương gen rồi vào chương nạn đói: \"They didn't need the mutation. / Fermentation was the workaround.\" → \"But then came the catastrophe.\" (mốc 220s)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "ca_nguoc": "MẬT ĐỘ mỏ neo PHẢN LẠI trực giác: nhóm DƯỚI dày danh từ riêng hơn nhóm trên (trung vị 18,2 vs 14,5 trên 1000 từ). Bài dày nhất cả kênh là Romans Love 34,2/1000 (56 danh từ riêng) mà chỉ 3,3 vpd. Việc TÁCH SỰ THẬT KHỎI SUY DIỄN cũng chỉ có ở 2/13 bài và cả hai đều KHÔNG thuộc nhóm trên. Vậy 'nhiều mỏ neo' và 'hedge cẩn thận' đều KHÔNG phải bí quyết thắng của kênh này.",
+   "phat_hien": [
+    {
+     "y": "13/13 bài đều có mỏ neo (tên di chỉ, niên đại, hoặc tên nhà nghiên cứu). Không bài nào kể chay.",
+     "so_lieu": "13/13 bài. Mật độ danh từ riêng (không tính đầu câu): 7,7 - 34,2 lần/1000 từ, trung vị toàn kênh 16,5.",
+     "trich": [
+      "\"In a cave in Sulawesi, Indonesia, researchers found a painting of a pig.\" (Bored)",
+      "\"In a 9,500-year-old grave in Cyprus, researchers found something unexpected.\" (Cats)",
+      "\"Across the Roman world, archaeologists have found objects called defixiones, curse tablets.\" (Romans Love)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MẬT ĐỘ MỎ NEO KHÔNG dự báo view — nhóm dưới còn dày hơn nhóm trên.",
+     "so_lieu": "Nhóm trên (danh từ riêng/1000 từ): Bored 23,6 · Flirt 12,5 · Favorite Foods 8,0 · Olympics 16,5 — trung vị 14,5. Nhóm dưới: Romans Love 34,2 · Apex 7,7 · Cats 15,9 · Clap 20,4 — trung vị 18,2. Bài dày nhất kênh (Romans Love 56 danh từ riêng/1.637 từ) chỉ được 3,3 vpd.",
+     "trich": [
+      "Romans Love, 34,2 danh từ riêng/1000 từ: Roman×15, Rome×6, Romans×6, Lesbia×2, Ovid×2, Gaius, Valerius, Catullus, Propertius, Tibullus, Ars, Amatoria, Augustus, Bath (3,3 vpd)",
+      "Favorite Foods, chỉ 8,0/1000: TAS2R38, Brussels, Neanderthal, Hadza, Tanzania, Africa, DNA, Earth (32,7 vpd — cao hơn Romans Love 10 lần)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "BÀI ĐỈNH THAY TÊN NGƯỜI BẰNG TÊN NƠI. Bored không nêu MỘT tên nhà nghiên cứu nào — thay vào đó là 5 lần khuôn 'In [nơi], researchers found [hiện vật]' với tên di chỉ cụ thể.",
+     "so_lieu": "Khuôn 'In [nơi], researchers found [hiện vật]' xuất hiện 6 lần trong toàn bộ 13 bản ghi; 5/6 lần nằm trong ĐÚNG MỘT bài — bài view/ngày cao nhất kênh. Lần thứ 6 ở Get High. Bored có 0 tên nhà nghiên cứu cá nhân nhưng 8 tên địa danh/di chỉ (Chauvet, Blombos, Divje Babe, Sulawesi, El Castillo, Kalahari, Tanzania, Slovenia).",
+     "trich": [
+      "\"In a cave in Sulawesi, Indonesia, researchers found a painting of a pig.\" (Bored)",
+      "\"In a cave in South Africa called Blombos Cave, researchers found a piece of ochre, a reddish-brown rock that had been carefully engraved with a crosshatch pattern.\" (Bored)",
+      "\"In a cave in Slovenia called Divje Babe, researchers found a fragment of a bear femur with two holes in it positioned exactly where your fingers would go to play notes.\" (Bored)",
+      "\"In Egypt, researchers found a board game called Senet buried in tombs dating back to 3500 BC.\" (Bored)",
+      "\"In Turkey, researchers found dice made from sheep knuckle bones that are over 5,000 years old.\" (Bored)",
+      "\"In caves in the Tassili n'Ajjer Plateau in Algeria, researchers have found rock paintings estimated to be between 7 and 9,000 years old.\" (Get High)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "TÊN NHÀ NGHIÊN CỨU CÓ ĐỊNH DANH TRƯỜNG — 6/13 bài. Nhóm trên chỉ 1/4 bài dùng (và bài đỉnh 0 lần).",
+     "so_lieu": "6/13 bài nêu tên người + nơi công tác: Flirt (nhóm trên) · Clothes, Milk, Speed Limit, Get High (nhóm giữa) · Cats (nhóm dưới). Nhóm trên 1/4. Bored (1.400,7 vpd) 0 tên người.",
+     "trich": [
+      "\"Helen Fisher at Rutgers has spent decades studying the biology of human attraction.\" (Flirt — 320,8)",
+      "\"June Tangney at George Mason University published a landmark analysis of shame versus guilt across species.\" (Clothes — 8,9)",
+      "\"Mark Thomas at University College London led a landmark 2022 study.\" (Milk — 3,5)",
+      "\"Richard Evershed at Bristol\" (Milk)",
+      "\"Joseph Hafele and Richard Keating\" (Speed Limit — 13,4)",
+      "\"Terence McKenna\" và \"Richard Evans Schultes\" (Get High — 6,0)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MẬT ĐỘ HEDGE (researchers/scientists/estimate/suggest/probably/likely/may have) — nhóm trên hedge dày gần gấp đôi nhóm dưới, nhưng bài hedge dày NHẤT kênh lại nằm nhóm giữa.",
+     "so_lieu": "Nhóm trên: Bored 11,0 · Flirt 13,1 · Favorite Foods 5,6 · Olympics 3,6 lần/1000 từ — trung vị 8,3. Nhóm dưới: Romans Love 2,4 · Apex 6,4 · Cats 7,1 · Clap 1,5 — trung vị 4,4. PHẢN CHỨNG: Get High hedge dày nhất kênh 14,4/1000 mà chỉ 6,0 vpd; Clap thấp nhất 1,5/1000 và cũng thấp nhất về view.",
+     "trich": [
+      "\"For most of human history, scientists assumed our ancestors were too busy surviving to be bored. / ... / But they were wrong.\" (Bored — hedge dùng làm bàn đạp lật)",
+      "\"This pattern almost certainly goes back much further than any study can measure.\" (Flirt)",
+      "\"The reason this variation exists at all is almost certainly about poison.\" (Favorite Foods)",
+      "\"Researchers believe humans were almost certainly consuming fermented substances long before they had the ability to write anything down.\" (Get High)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "TÁCH SỰ THẬT KHỎI SUY DIỄN — chỉ 2/13 bài làm rõ ràng, và cả hai đều KHÔNG phải bài thắng nhất. Đây là kỹ thuật của kênh nhưng không tương quan view.",
+     "so_lieu": "2/13 bài: Get High (6,0 vpd — nhóm giữa) và Flirt (320,8 vpd — nhóm trên). Bored (1.400,7) 0 lần tách rõ. Nhóm dưới 0/4.",
+     "trich": [
+      "\"The hypothesis is controversial. / Mainstream science has not accepted it. / But it has also never been definitively disproven. / And the timing is difficult to dismiss entirely.\" (Get High, về giả thuyết Stoned Ape của Terence McKenna)",
+      "\"We don't know exactly what they did with it, but anthropologists have a strong suspicion.\" (Flirt, về thổ hoàng đỏ ở Blombos)",
+      "\"Two facts existed simultaneously. / [Whether] one caused the other, we [cannot know].\" (Get High, đoạn nối tại mốc 600s)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "DẤU CHẤM THAN = 0 trên toàn bộ 13 bản ghi. Cảm xúc tạo bằng câu cụt và câu hỏi xoáy, không bằng dấu câu.",
+     "so_lieu": "0 dấu '!' trong 13/13 bản ghi (tổng 18.062 từ). Dấu '?' toàn bài: nhóm trên 2/1/2/0 — trung vị 1,5; nhóm dưới 0/1/3/4 — trung vị 2,0.",
+     "trich": [
+      "Bored, 1.734 từ, 0 dấu '!' và chỉ 2 dấu '?'",
+      "Clothes, 1.203 từ, 0 dấu '!' nhưng 11 dấu '?' — nhiều nhất kênh, chỉ 8,9 vpd"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "ca_nguoc": "Khuôn 'thói quen bạn làm HÔM NAY, giải thích bằng tiền sử' KHÔNG phải bí quyết: cụm này gồm 6 bài, trong đó có cả 2 quả nổ (1.400,7 và 320,8) LẪN 3 bài chìm (Milk 3,5 · Get High 6,0 · Clothes 8,9). Cats (1,6) và Clap (1,5) cũng đúng khuôn 'thói quen hôm nay' mà chìm sâu nhất kênh. Chênh lệch giữa cụm chỉ đúng ở mức TRUNG VỊ, và mọi trung vị ở đây đứng trên 2-6 bài.",
+   "phat_hien": [
+    {
+     "y": "Có 'Ancient Humans' trong title là biến số phân biệt mạnh nhất trong 13 title — chênh 9,3 lần ở trung vị. 2/2 quả nổ đều có.",
+     "so_lieu": "6/13 bài có 'Ancient Humans' trong title: view/ngày 2,6 · 6,0 · 32,0 · 32,7 · 320,8 · 1.400,7 — trung vị 32,4. 7/13 bài không có: 1,5 · 1,6 · 3,3 · 3,5 · 8,9 · 13,4 · 18,8 — trung vị 3,5. Chênh 9,3×. PHẢN CHỨNG: Apex Predators có 'Ancient Humans' mà chỉ 2,6 vpd.",
+     "trich": [
+      "\"What Did Ancient Humans Do When They Were Bored?\" — 1.400,7 vpd",
+      "\"How Did Ancient Humans Actually Flirt?\" — 320,8 vpd",
+      "\"How Ancient Humans Became Apex Predators\" — 2,6 vpd (phản chứng)",
+      "\"Why Do We Actually Clap Our Hands?\" — 1,5 vpd"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Chữ 'Actually' trong title KHÔNG dự báo thắng — thậm chí trung vị thấp hơn nhóm không có.",
+     "so_lieu": "5/13 title có 'Actually': 1,5 · 3,3 · 6,0 · 18,8 · 320,8 — trung vị 6,0. 8/13 không có: 1,6 · 2,6 · 3,5 · 8,9 · 13,4 · 32,0 · 32,7 · 1.400,7 — trung vị 11,2. Nhóm 'Actually' thấp hơn 1,9×.",
+     "trich": [
+      "\"How Did Ancient Romans Actually Fall in Love?\" — 3,3 vpd",
+      "\"Why Do We Actually Clap Our Hands?\" — 1,5 vpd",
+      "\"How Did Ancient Humans Actually Get High?\" — 6,0 vpd",
+      "\"How Did Ancient Humans Actually Flirt?\" — 320,8 vpd (ngoại lệ duy nhất)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CỤM ĐỀ TÀI so trung vị view/ngày: cụm LA MÃ là nghĩa địa của kênh này.",
+     "so_lieu": "Cụm TIỀN SỬ / thói quen hôm nay (6 bài: Bored, Flirt, Favorite Foods, Get High, Milk, Clothes): trung vị 20,8 vpd. Cụm CƠ THỂ/SỨC MẠNH tổ tiên (2 bài: Olympics, Apex): trung vị 17,3. Cụm NGOÀI NGÁCH (2 bài: Speed Limit vật lý, Cats động vật): trung vị 7,5. Cụm LA MÃ (3 bài: Romans Love, Roman Slave, Clap): trung vị 3,3 — thấp nhất.",
+     "trich": [
+      "Cụm La Mã: \"How Did Ancient Romans Actually Fall in Love?\" 3,3 · \"What It Was Actually Like to Be a Roman Slave\" 18,8 · \"Why Do We Actually Clap Our Hands?\" 1,5 (bài này 2/7 chương là về La Mã: 'The Roman Applause System (Plaudite)', \"Emperor Nero's Fake Fans\")",
+      "Kênh nhảy sang La Mã từ 22/06 và cả 3 bài sau đó đều dưới 20 vpd"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "Dấu '?' trong title — có lợi thế nhẹ nhưng KHÔNG sạch.",
+     "so_lieu": "7/13 title có dấu '?': 1,5 · 3,3 · 6,0 · 13,4 · 32,7 · 320,8 · 1.400,7 — trung vị 13,4. 6/13 không có: 1,6 · 2,6 · 3,5 · 8,9 · 18,8 · 32,0 — trung vị 6,2. Chênh 2,2×. Nhưng bài thấp nhất kênh (Clap 1,5) cũng có dấu '?'.",
+     "trich": [
+      "\"What Did Ancient Humans Do When They Were Bored?\" — 1.400,7 vpd",
+      "\"Did Ancient Humans Have Favorite Foods?\" — 32,7 vpd",
+      "\"Why Do We Actually Clap Our Hands?\" — 1,5 vpd (phản chứng)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG làm lại đề tài cũ, KHÔNG có loạt đánh số. 13 đề tài hoàn toàn khác nhau trong 86 ngày.",
+     "so_lieu": "0/13 bài trùng đề tài với bài khác. 0/13 title có đánh số phần/tập hoặc tên loạt. Có 2 'cụm ẩn' không đặt tên: cụm Ancient Humans 6 bài và cụm La Mã 3 bài.",
+     "trich": [
+      "13 title, 13 chủ đề: quần áo · tốc độ ánh sáng · sữa · buồn chán · tán tỉnh · chất kích thích · Olympic · mèo · món khoái khẩu · tình yêu La Mã · nô lệ La Mã · vỗ tay · thú săn đỉnh"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Trục lặp lại của mọi title: MỘT ĐỘNG TỪ ĐỜI THƯỜNG áp lên người cổ đại. Không title nào nói về một thời kỳ, một nền văn minh hay một sự kiện.",
+     "so_lieu": "11/13 title xoay quanh một hành vi/trạng thái đời thường: wear clothes · drink milk · bored · flirt · get high · dominate the Olympics · conquered · favorite foods · fall in love · clap hands · became apex predators. 2/13 không theo trục này: 'Why Does the Universe Have a Speed Limit?' (13,4) và 'What It Was Actually Like to Be a Roman Slave' (18,8).",
+     "trich": [
+      "Động từ đời thường trong 2 title thắng: \"...Do When They Were Bored?\" và \"...Actually Flirt?\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "ca_nguoc": "Nhịp đăng KHÔNG liên quan gì tới view/ngày. Bài đỉnh (28/04) đăng sau khoảng 3 ngày; bài nhì (08/05) sau 10 ngày. Bài bét (07/07) sau 11 ngày; bài áp bét (11/06) sau 14 ngày. Cả khoảng ngắn lẫn khoảng dài đều cho ra cả bài thắng lẫn bài chìm. Phát hiện đáng kể duy nhất về thời gian là kênh đang TỤT chứ không lên.",
+   "phat_hien": [
+    {
+     "y": "13 video trong 86 ngày (2026-04-19 → 2026-07-14). Trung vị khoảng cách 7,0 ngày, trung bình 7,2 ngày.",
+     "so_lieu": "13 video / 86 ngày. 12 khoảng cách: 2, 4, 3, 10, 11, 9, 14, 4, 7, 4, 11, 7 ngày. Trung vị 7,0 · TB 7,2 · ngắn nhất 2 · dài nhất 14.",
+     "trich": [
+      "19/04 → 21/04 (2 ngày) → 25/04 (4) → 28/04 (3) → 08/05 (10) → 19/05 (11) → 28/05 (9) → 11/06 (14) → 15/06 (4) → 22/06 (7) → 26/06 (4) → 07/07 (11) → 14/07 (7)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ GOM ĐỢT ở đầu: 4 video trong 9 ngày đầu (19, 21, 25, 28/04) rồi giãn hẳn ra. Quả nổ là video thứ 4, ngay cuối đợt gom.",
+     "so_lieu": "4/13 video đăng trong 9 ngày đầu (khoảng cách 2, 4, 3 ngày). 9 video còn lại rải trong 77 ngày, trung vị khoảng cách 9,0 ngày. Quả nổ duy nhất (1.400,7 vpd) là video số 4/13, đăng ngày thứ 9 của kênh.",
+     "trich": [
+      "Đợt gom: 19/04 Clothes (8,9) → 21/04 Speed Limit (13,4) → 25/04 Milk (3,5) → 28/04 Bored (1.400,7)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Nhịp KHÔNG đổi theo thời gian — nửa đầu và nửa sau gần như bằng nhau.",
+     "so_lieu": "6 khoảng đầu: 2, 4, 3, 10, 11, 9 — trung vị 6,5 ngày. 6 khoảng sau: 14, 4, 7, 4, 11, 7 — trung vị 7,0 ngày. Chênh 0,5 ngày.",
+     "trich": [],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Khoảng cách đăng KHÔNG tương quan view/ngày. Cả khoảng ngắn lẫn khoảng dài đều ra cả bài thắng lẫn bài chìm.",
+     "so_lieu": "4 bài đăng sau khoảng ≤4 ngày: 3,5 · 1.400,7 · 32,7 · 18,8 vpd (biên độ 400×). 4 bài đăng sau khoảng ≥10 ngày: 320,8 · 6,0 · 1,6 · 1,5 (biên độ 214×). Trung vị hai nhóm: khoảng ngắn 25,8 · khoảng dài 3,8 — nhưng cả hai đều bị 1 quả nổ chi phối, không kết luận được.",
+     "trich": [
+      "Bài đỉnh Bored đăng sau khoảng 3 ngày (1.400,7 vpd); bài Milk cũng đăng sau khoảng 4 ngày (3,5 vpd) — chênh 400 lần cùng một nhịp"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KÊNH ĐANG TỤT, không lên. Cú nổ nằm ở video số 4 và số 5 trên 13; 8 video sau đó không lặp lại được.",
+     "so_lieu": "7 video ĐẦU (19/04-28/05): view/ngày trung vị 13,4. 6 video SAU (11/06-14/07): trung vị 2,9. Tụt 4,6×. Trong 8 video sau quả nổ thứ hai (08/05), video cao nhất chỉ đạt 32,7 vpd — bằng 2,3% của quả đỉnh.",
+     "trich": [
+      "Sau 08/05 (Flirt 320,8), 8 video tiếp theo: 6,0 · 32,0 · 1,6 · 32,7 · 3,3 · 18,8 · 1,5 · 2,6 vpd",
+      "3 video gần nhất (26/06, 07/07, 14/07): 18,8 · 1,5 · 2,6 vpd"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ]
+}

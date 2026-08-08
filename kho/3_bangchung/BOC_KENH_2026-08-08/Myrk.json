@@ -1,0 +1,666 @@
+{
+ "kenh": "Myrk — 17 bản ghi, /Users/admin/Claude/Projects/Build Channel Người Que Cổ Đại/2_KHO_BANGHI/Myrk/",
+ "so_bai": 17,
+ "view_ngay_cao": "NHÓM CAO (6/17 bài, trung vị 412 view/ngày): 20260603_Why_are_animals_afraid_of_humans (337.806 view / 66 ngày = 5.118) · 20260531_Why_Did_Humans_Start_Cooking_Everything (40.603 / 69 = 588) · 20260729_Why_Humans_Cant_Eat_Raw_Meat (4.664 / 10 = 466) · 20260522_How_Ancient_Humans_Survived_Every_Apex_Predators (27.895 / 78 = 358) · 20260526_What_Do_Animals_Think_About_Humans (11.008 / 74 = 149) · 20260705_Why_Did_Humans_Start_Cooking_Food (3.838 / 34 = 113)",
+ "view_ngay_thap": "NHÓM THẤP (6/17 bài, trung vị 19,8 view/ngày): 20260714_What_Did_Ancient_Humans_Do_When_Its_Wouldnt_Stop_Raining (749 / 25 = 30) · 20260620_Do_Animals_Remember_Humans_Who_Saved_Them (1.441 / 49 = 29) · 20260806_why_cant_Humans_drink_other_animals_milk (47 / 2 = 23,5) · 20260725_How_Humans_Became_The_Ultimate_Predators (226 / 14 = 16) · 20260802_Why_predators_never_eat_other_predators (61 / 6 = 10) · 20260728_Which_Fish_Did_Human_Evolve_from (31 / 11 = 2,8). Chênh nhóm cao/thấp = 21 lần.",
+ "gioi_han": "1) MẪU QUÁ NHỎ: 17 bài, mỗi nhóm 6 bài. Mọi so sánh nhóm dưới đây là GỢI Ý, không phải bằng chứng. 2) KÊNH NÀY CÓ THỂ CHỈ TRÚNG SỐ 1 QUẢ: 1 video chiếm 76,4% tổng view kênh (337.806 / 442.123 view); top-2 chiếm 85,6%. Trung vị view cả kênh chỉ 2.780. Chưa chứng minh được kênh có CÔNG THỨC — có thể chỉ là 1 cú nổ + 16 bài thường. 3) 3/17 video mới 2-6 ngày tuổi (0802, 0803, 0806) nên view/ngày chưa ổn định. Đã kiểm chéo: bỏ hết video <10 ngày tuổi (còn n=14) thì top-5 nhóm cao KHÔNG ĐỔI và nhóm thấp vẫn là rain/remember/ultimate-predators/fish → kết luận nhóm bền. 4) Transcript là bản tự động, rơi chữ cái đầu từ (\"otice\"=notice, \"o function\"=to function, \"pent\"=spent, \"Tectalic\"=Tiktaalik, \"For For of years\"). Mọi trích dẫn dưới đây giữ NGUYÊN lỗi này, không sửa. 5) Không có dữ liệu thumbnail/CTR/retention/traffic-source → không xác định được nguyên nhân thật của cú nổ; kịch bản chỉ là 1 trong nhiều biến. 6) Chiều 4 (xin sub) và chiều 7 (mỏ neo khoa học có tên) có n quá nhỏ (2/17 và 1/17) để so nhóm.",
+ "chieu": [
+  {
+   "ten": "1. HOOK — 45 giây đầu (~130 từ đầu)",
+   "ca_nguoc": "Khuôn nhập vai cảnh cổ đại KHÔNG chết hẳn: bài 20260522 (358 view/ngày, nhóm CAO) mở bằng 'You're standing in tall grass, sun almost gone.' Nhưng nó là 1/5, còn 4/5 bài dùng khuôn này nằm nhóm thấp/giữa. Ngoài ra 2 bài ăn nhất (5.118 và 358 v/ngày) lại HOÃN câu hỏi lõi lâu nhất (từ thứ 488 và 584 = 20-24% bài), trong khi 4 bài nhóm cao còn lại thả câu hỏi ở từ 48-237 → hoãn hay không hoãn đều có bài thắng, không kết luận được.",
+   "phat_hien": [
+    {
+     "y": "Ba khuôn hook. Khuôn A 'MỐC THỜI GIAN HÔM NAY + you' (Tonight / Right now / Look at your…) ăn hơn hẳn khuôn B 'nhập vai cảnh cổ đại / Imagine' và khuôn C 'tuyên ngôn ngôi 3 (Every X…)'.",
+     "so_lieu": "Khuôn A: 8/17 bài, trung vị 108 view/ngày, chiếm 4/6 bài nhóm CAO. Khuôn B: 5/17 bài, trung vị 30 view/ngày, chỉ 1/6 bài nhóm cao. Khuôn C: 4/17 bài, trung vị 41,5 view/ngày, 1/6 bài nhóm cao.",
+     "trich": [
+      "Khuôn A — \"Tonight, you might walk outside.\" (20260603, 5.118 v/ngày)",
+      "Khuôn A — \"Tonight, you might cook a piece of meat.\" (20260729, 466 v/ngày)",
+      "Khuôn A — \"Look at your dinner tonight.\" (20260705, 113 v/ngày)",
+      "Khuôn A — \"Your body is no longer built to survive on raw food.\" (20260531, 588 v/ngày)",
+      "Khuôn A — \"Right now, you are warm.\" (20260611, 82 v/ngày)",
+      "Khuôn A — \"There's a glass of milk sitting in front of you.\" (20260806, 23,5 v/ngày)",
+      "Khuôn B — \"You are standing in a river, not beside it, inside it.\" (20260728, 2,8 v/ngày)",
+      "Khuôn B — \"Imagine you're watching the African savanna at sunset.\" (20260802, 10 v/ngày)",
+      "Khuôn B — \"Imagine the rain doesn't stop today, or tomorrow, or even the day after that.\" (20260714, 30 v/ngày)",
+      "Khuôn B — \"You are standing in a cold valley hundreds of thousands of years ago.\" (20260803, 44 v/ngày)",
+      "Khuôn C — \"Every social animal carries a hidden record of its past.\" (20260620, 29 v/ngày)",
+      "Khuôn C — \"Every predator on Earth was born with something that made killing possible.\" (20260725, 16 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Câu THỨ HAI của khuôn A luôn là câu 'maybe…' liệt kê 3 khả năng đời thường, để người xem tự chọn cảnh của mình. Đây là bản lề của khuôn.",
+     "so_lieu": "3/8 bài khuôn A dùng nguyên cấu trúc 'Maybe…, maybe…, maybe…' ở câu 2; cả 3 đều nhóm CAO hoặc sát nhóm cao (5.118 · 466 · 113 view/ngày).",
+     "trich": [
+      "\"Maybe to your backyard, maybe to the car, maybe down a quiet road where the street light ends and the trees begin.\" (20260603)",
+      "\"Maybe in a frying pan, inside an oven, or over a small fire while smoke rises into the air.\" (20260729)",
+      "\"Rice, meat, bread, soup, maybe something fried, baked, boiled, or warmed in a microwave.\" (20260705)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "Xưng 'you' ngay từ TỪ ĐẦU TIÊN là nết chung của kênh, nhưng MẬT ĐỘ 'you/your' trong 130 từ đầu mới là chỗ tách nhóm.",
+     "so_lieu": "'you/your' ở câu đầu tiên: 12/17 bài (nhóm cao 6/6, nhóm thấp 3/6) → NẾT KÊNH. Nhưng mật độ 'you/your' trong 130 từ đầu: nhóm cao trung vị 10,5 lần (3-17), nhóm thấp trung vị 2 lần (0-16). 2/6 bài nhóm thấp có ĐÚNG 0 lần.",
+     "trich": [
+      "17 lần — \"You're standing in tall grass, sun almost gone. / Something moves behind you. / You don't turn around. / … / Your legs want to run. / Your brain says, \\\"Don't.\\\"\" (20260522, nhóm cao)",
+      "12 lần — \"Your body is no longer built to survive on raw food. / Think about that. / Your teeth are too small. / Your jaw is too weak. / Your gut is too short. / You are physically dependent on cooked food just o function.\" (20260531, nhóm cao)",
+      "0 lần — \"Every social animal carries a hidden record of its past. / Faces, voices, scents, moments that changed everything.\" (20260620, nhóm thấp)",
+      "0 lần — \"Every predator on Earth was born with something that made killing possible. / Lions got claws and crushing jaws. / Cheetahs got speed.\" (20260725, nhóm thấp)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG CÓ CÂU TỰ GIỄU, KHÔNG CÓ HÀI, KHÔNG CÓ NGƯỜI DẪN. Kênh này là giọng tường thuật vô danh 100%.",
+     "so_lieu": "0/17 bài có câu tự giễu hay đùa. Từ 'I/me/my' xuất hiện tổng cộng 20 lần trên 17 bài (46.505 từ) và KHÔNG lần nào là người dẫn tự xưng — toàn là 'I' của con thú hoặc của một nhân vật giả định. 0/17 bài nhắc tên kênh.",
+     "trich": [
+      "'I' của con thú: \"So instead of asking, \\\"Can I kill this?\\\" the predator asks a more important question. / \\\"What happens if I am wrong?\\\"\" (20260712)",
+      "'I' của người dẫn giả định trong thí nghiệm tưởng tượng: \"Now I tell you it came from a dog. / Your hand just pulled back.\" (20260806)",
+      "Gần nhất với hài, nhưng vẫn không phải đùa: \"Sounds like a mistake. / It wasn't.\" (20260527)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "LỜI HỨA CHIỀU SÂU trong ~260 từ đầu là nết kênh, không phải bí quyết: cả bài thắng lẫn bài chìm đều bơm câu 'câu trả lời lạ hơn/tối hơn bạn nghĩ'.",
+     "so_lieu": "14/17 bài có ít nhất 1 câu hứa chiều sâu trong 260 từ đầu (nhóm cao 6/6, nhóm thấp 5/6).",
+     "trich": [
+      "\"And the story of how that happened, why humans became the only species on Earth that must cook to survive, is darker and stranger than yone tells you.\" (20260531, nhóm cao, từ thứ ~128)",
+      "\"The answer is darker than taste.\" (20260705, nhóm cao, từ thứ ~64)",
+      "\"Most people assume cooking started as an accident. / … / Clean, simple, wrong.\" (20260531, nhóm cao)",
+      "\"The answer is far more surprising than most people realize.\" (20260714, nhóm THẤP, từ thứ ~152)",
+      "\"Most people think it's respect. / … / The real answer is far stranger.\" (20260802, nhóm THẤP, từ thứ ~155-176)",
+      "\"But that explanation falls apart almost immediately.\" (20260806, nhóm THẤP, từ thứ ~234)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Vị trí câu hỏi lõi. Dấu '?' đầu tiên rơi ở từ thứ mấy — không tách được nhóm, nên ĐỪNG dùng cái này làm luật.",
+     "so_lieu": "Dấu '?' đầu tiên: nhóm cao trung vị từ thứ 194,5 (dải 21-597); nhóm thấp trung vị từ thứ 155,5 (dải 133-1.747). Câu hỏi lõi nhắc lại title: 15/17 bài đặt trong 260 từ đầu.",
+     "trich": [
+      "Sớm nhất nhóm cao, từ thứ 21 — \"How fast are you moving?\" (20260526)",
+      "Từ thứ 48 — \"So, why did ancient humans start putting food into fire?\" (20260705)",
+      "Muộn nhất nhóm cao, từ thứ 597 — \"How does the weakest animal in the ecosystem become the last one standing?\" (20260522)",
+      "Muộn nhất nhóm thấp, từ thứ 1.747 — \"Too cold?\" (20260725, bài này không có câu hỏi lõi nào ở đầu)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "2. GIỮ CHÂN — re-hook, câu nối, vòng tò mò",
+   "ca_nguoc": "Bài 20260802 (10 view/ngày, nhóm thấp) có MẬT ĐỘ mốc re-hook DÀY NHẤT kênh (1 mốc / 193 từ, 24 mốc) mà vẫn chìm → dày mốc không cứu được bài. Ngược lại bài 20260705 (113 v/ngày, nhóm cao) chỉ có 5 mốc / 1.942 từ. Vậy KHÔNG phải cứ nhiều re-hook là thắng; thứ tách nhóm là LOẠI mốc (xem phát hiện 'Imagine' bên dưới) chứ không phải số lượng.",
+   "phat_hien": [
+    {
+     "y": "KHO CÂU RE-HOOK 'Here's / Here is + danh từ trừu tượng' — đây là kho dùng lại được ngay. Trung vị 7 từ/câu.",
+     "so_lieu": "9 câu trên 6/17 bài. Nhóm cao 7 câu / 4 bài; nhóm thấp 2 câu / 2 bài. Độ dài: 3-11 từ, trung vị 7 từ.",
+     "trich": [
+      "\"Here's the truth the whole story has been building toward.\" (20260522, 82,3% bài, 10 từ)",
+      "\"Here is the part that should unsettle you.\" (20260531, 84,8% bài, 8 từ)",
+      "\"Here is where the science gets honest.\" (20260531, 68,5% bài, 7 từ)",
+      "\"Here is the irony.\" (20260603, 68,2% bài, 4 từ)",
+      "\"Here is what makes raw meat dangerous.\" (20260729, 8,8% bài, 7 từ)",
+      "\"But here's the warning.\" (20260526, 76,1% bài, 4 từ)",
+      "\"But here's what the climate argument cannot explain.\" (20260522, 70,4% bài, 8 từ)",
+      "\"Here's what most people get wrong.\" (20260527, 41,0% bài, 6 từ)",
+      "\"Here's the whole puzzle in one sentence.\" (20260527, 58,1% bài, 7 từ)",
+      "\"But here's the problem.\" (20260611, 16,8% bài, 4 từ)",
+      "\"But here's what makes this truly remarkable.\" (20260611, 34,7% bài)",
+      "\"Here's something nobody tells you about surviving an Ice Age winter.\" (20260611, 87,3% bài, 11 từ)",
+      "\"Here's the key.\" (20260802, 58,2% bài, 3 từ)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHO CÂU CHỐT-VÀ-BẮC-CẦU 'That's why / This is where / That is how' — công cụ dùng nhiều nhất kênh, đóng ý vừa xong và mở ý kế trong 1 câu.",
+     "so_lieu": "33 câu trên 17 bài. Nhóm cao 15 câu, nhóm giữa 10, nhóm thấp 8. Bài dùng dày nhất là 20260526 (nhóm cao) với 5 câu / 1.633 từ.",
+     "trich": [
+      "\"This is where the story stops being theory.\" (20260603, 35,0% bài) — ngay sau đó là nghiên cứu có tên",
+      "\"And this is where the story becomes uncomfortable because humans till know fear, too.\" (20260603, 74,2%)",
+      "\"And this is where the problem begins.\" (20260531, 35,2%)",
+      "\"And this is where a steak and ground meat become very different meals.\" (20260729, 26,2%)",
+      "\"That's why the same human means completely different things to different animals.\" (20260526, 17,0%)",
+      "\"That's why trapped animals thrash harder when rescuers approach.\" (20260526, 38,7%)",
+      "\"This is why rescue videos feel so mysterious.\" (20260526, 44,3%)",
+      "\"That's where humans get confused.\" (20260526, 58,9%)",
+      "\"That's why the question stays so difficult.\" (20260526, 86,8%)",
+      "\"This is why the evidence in the ground matters as much as it does.\" (20260705, 78,4%)",
+      "\"That is why no other animal builds a kitchen.\" (20260705, 93,2%)",
+      "\"And this is where the idea of race completely falls apart.\" (20260527, 50,5%)",
+      "\"That's where the story takes one final turn.\" (20260715, 72,4%)",
+      "\"This is where FOXP2 enters the story.\" (20260803, 40,5%)",
+      "\"But that's where the mystery begins, not where it ends.\" (20260620, 26,8%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN 'So, the real question is…' — nâng câu hỏi title lên một tầng sâu hơn. Đây là khuôn LỆCH HẲN về nhóm cao.",
+     "so_lieu": "5 lần trên 17 bài: nhóm cao 4 lần / 3 bài (trong đó 2 bài ăn nhất kênh), nhóm thấp 1 lần / 1 bài, nhóm giữa 0.",
+     "trich": [
+      "\"So, the real question is not only why animals run from humans. / The real question is, what did humans become that made the rest of nature start rearranging itself around us?\" (20260603, 19,1-19,6% bài, 5.118 v/ngày)",
+      "\"So, the real question isn't how we survived. / It's what kind of creature gets hunted by everything and ends up winning.\" (20260522, 8,4% bài, 358 v/ngày)",
+      "\"The real question is this, why did every single human culture that has ever existed cook its food? / No exception.\" (20260531, 19,3% bài, 588 v/ngày)",
+      "\"The real reason cooking became universal is not about taste. / It is about a crisis your body could not solve on its own.\" (20260531, 14,0% bài)",
+      "Nhóm thấp — \"The real question is why certain memories survive because most experiences don't.\" (20260620, 50,6% bài, 29 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CẢNH BÁO NGƯỢC: mô phỏng ngôi 2 GIỮA BÀI ('Imagine you're a wolf…', 'Now imagine…') là dấu hiệu của nhóm THẤP, không phải của nhóm cao.",
+     "so_lieu": "Nhóm cao dùng 0 lần / 6 bài. Nhóm giữa 4 lần. Nhóm thấp 13 lần / 4 bài, trong đó 9 lần dồn vào một bài 61 view (20260802). Lưu ý: nhóm cao vẫn nhập vai ngôi 2 ở HOOK, chỉ không lặp lại thủ thuật đó ở thân bài.",
+     "trich": [
+      "\"Now imagine you're a wolf. / … / Now imagine you eat another wolf.\" (20260802, 36,5-37,6% bài, 10 v/ngày)",
+      "\"Imagine standing before two possible meals, a wildebeest or another lion. / … / Which fight would you choose? / Now imagine fighting another weapon.\" (20260802, 40,9-42,8%)",
+      "\"Imagine you're a lion.\" (20260802, 50,1%)",
+      "\"Imagine you're a wolf defending your territory.\" (20260802, 67,7%)",
+      "\"Imagine you are a kudu standing beneath the midday sun.\" (20260725, 20,1% bài, 16 v/ngày)",
+      "\"Imagine sitting beside that fire for hours, listening to rain hammer against he stone outside.\" (20260714, 36,9% bài, 30 v/ngày)",
+      "\"Imagine the channel narrowing around you.\" (20260728, 47,3% bài, 2,8 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "MẬT ĐỘ RE-HOOK: nhóm cao thả một mốc cấu trúc mỗi ~396 từ; nhóm thấp để trôi ~515 từ, có bài trôi 741 và 809 từ không mốc nào.",
+     "so_lieu": "Từ/chương (khoảng cách giữa 2 mốc re-hook): nhóm cao trung vị 396 từ (dải 257-415); nhóm thấp trung vị 515 từ (dải 193-809). 2/6 bài nhóm thấp vượt 740 từ/chương (20260620 = 809; 20260806 = 741). 0/6 bài nhóm cao vượt 415.",
+     "trich": [
+      "Nhóm cao, mốc dày — 20260531: 5 mốc / 1.287 từ = 257 từ/chương (588 v/ngày)",
+      "Nhóm cao — 20260526: 6 mốc / 1.633 từ = 272 từ/chương (149 v/ngày)",
+      "Nhóm thấp, mốc thưa — 20260620: 4 mốc / 3.238 từ = 809 từ/chương (29 v/ngày)",
+      "Nhóm thấp — 20260806: 4 mốc / 2.967 từ = 741 từ/chương (23,5 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÂU NỐI NGẮN TRƯỚC FACT SỐC — khuôn 'The answer/result là…' rồi mới thả số.",
+     "so_lieu": "17 câu trên 11/17 bài (nhóm cao 6 câu, nhóm giữa 4, nhóm thấp 7) → NẾT KÊNH, cả bài thắng lẫn bài chìm đều dùng.",
+     "trich": [
+      "\"The result was disturbing.\" (20260603) — ngay trước con số 'nine times'",
+      "\"The result was immediate.\" (20260603) — ngay trước 'feeding time dropped by more than half'",
+      "\"The answer is darker than taste.\" (20260705)",
+      "\"The answer wasn't hidden inside the predator.\" (20260715)",
+      "\"The answer begins with one of the predator's most powerful senses.\" (20260712)",
+      "\"And the answer begins at the exact moment an imal stops being alive and starts becoming food.\" (20260729)",
+      "\"The answer turns out to be far stranger.\" (20260620, nhóm thấp)",
+      "\"What they found was much larger and stronger than expected.\" (20260728, nhóm thấp)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "BÁO TRƯỚC 'PHẦN HAY NHẤT Ở CUỐI' GẦN NHƯ KHÔNG TỒN TẠI — và lần duy nhất dùng lại là bài chìm nhất.",
+     "so_lieu": "1/17 bài có câu hứa hẹn kiểu 'by the end of this video'. Bài đó là 20260802, 61 view, 10 view/ngày — nhóm THẤP. 0/6 bài nhóm cao có câu này.",
+     "trich": [
+      "\"Because by the end of this video, you'll understand why the same rules that stop a lion from eating a leopard are quietly shaping human behavior, too.\" (20260802, 10 v/ngày)",
+      "Thứ thay thế nó ở nhóm cao là câu mở tò mò KHÔNG hẹn giờ: \"And the strangest part is this. / They can react when no human is visible.\" (20260603)",
+      "\"And fire did one more thing.\" (20260522)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "NHỊP CÂU CỤT (dòng ≤4 từ) là nết kênh, KHÔNG phải bí quyết thắng — cả nhóm thắng lẫn nhóm chìm đều bơm dày như nhau.",
+     "so_lieu": "Trung vị dòng ≤4 từ trên 1.000 từ: nhóm cao 16,4 · nhóm giữa 15,2 · nhóm thấp 15,6 → gần như bằng nhau. Toàn kênh có 884 dòng ≤5 từ.",
+     "trich": [
+      "Nhóm cao — \"Cave lion. / 700 lb, shoulders level with your chest.\" (20260522)",
+      "Nhóm cao — \"Move earlier. / Feed later. / Listen harder. / Stay farther away.\" (20260603)",
+      "Nhóm cao — \"Clean, simple, wrong.\" (20260531)",
+      "Nhóm THẤP dùng y hệt — \"A face. / A voice. / A scent. / A single moment.\" (20260620, 29 v/ngày)",
+      "Nhóm THẤP — \"Not mercy. / Not respect. / Not restraint.\" (20260802, 10 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "THỦ THUẬT LẶP ECHO (nhắc lại cụm vừa nói ở dòng riêng) chỉ xuất hiện ĐÚNG 1 LẦN trong cả kênh — và nó nằm ở bài ăn nhất.",
+     "so_lieu": "1 lần / 17 bài (46.505 từ). Nằm ở 20260603 (5.118 view/ngày). n=1 nên KHÔNG kết luận được gì, chỉ ghi lại làm mẫu câu.",
+     "trich": [
+      "\"They waited longer before turning, and their feeding time dropped by more than half. / More than half.\" (20260603)",
+      "Biến thể gần nhất trong cùng bài: \"Humans kill large carnivores, lions, leopards, bears, and wolves at about nine times the rate those carnivores kill each other, nine times.\" (20260603)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "3. 60 GIÂY CUỐI (~180 từ cuối) — CHIỀU CHƯA AI BÓC",
+   "ca_nguoc": "Callback về hook là thứ trông giống 'bí quyết' nhất nhưng KHÔNG PHẢI: 17/17 bài đều có, kể cả bài 31 view. Đây là chỗ dễ nhầm nhất trong cả bản bóc này — đừng ghi 'callback = bí quyết thắng' vào luật kênh. Ngoài ra 'Next time you…' chỉ xuất hiện ở 2 bài và cả hai đều KHÔNG thuộc nhóm cao → nếu có luật cũ bảo phải dùng 'next time you', kênh này không ủng hộ nó.",
+   "phat_hien": [
+    {
+     "y": "CALLBACK VỀ HOOK = 17/17 BÀI. Đây là NẾT KÊNH, không phải bí quyết. Đo bằng số từ đặc trưng dùng chung giữa 130 từ đầu và 180 từ cuối: nhóm cao trung vị 15 từ, nhóm thấp trung vị 13,5 từ — gần như bằng nhau.",
+     "so_lieu": "17/17 bài (6/6 nhóm cao, 6/6 nhóm thấp) đóng lại đúng hình ảnh đã mở. Từ dùng chung hook↔kết: nhóm cao 8-20 từ (trung vị 15), nhóm thấp 5-17 từ (trung vị 13,5).",
+     "trich": [
+      "Nhóm cao — hook: \"A deer stops chewing, a fox freezes under a branch…\" → kết: \"It still echoes in the stillness of a deer, in the caution of a fox, in the mountain lion that lifts its head from food…\" (20260603)",
+      "Nhóm cao — hook: \"Cave lion. / 700 lb…\" → kết: \"The cave lion is gone, the saber tooth is gone.\" (20260522)",
+      "Nhóm cao — hook: \"Look at your dinner tonight.\" → kết: \"So tonight, when you finally sit down to eat, look at it differently.\" (20260705)",
+      "Nhóm cao — hook: \"A wolf tears into a deer.\" → kết: \"The wolf adapted its body to raw meat. / Humans adapted raw meat to the body.\" (20260729)",
+      "Nhóm THẤP dùng y hệt — hook: \"There's a glass of milk sitting in front of you.\" → kết: \"That glass was never simply filled with milk.\" (20260806, 23,5 v/ngày)",
+      "Nhóm THẤP — hook: \"You are standing in a river… Now imagine you do not have legs.\" → kết: \"Now look at your hand. … hidden beneath your skin is the memory of a fish\" (20260728, 2,8 v/ngày)",
+      "Nhóm THẤP — hook: \"Imagine you're watching the African savanna at sunset. / A lion… a cheetah.\" → kết: \"So the next time you watch a lion steal a cheetah's kill…\" (20260802, 10 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÂU CHỐT CUỐI CÙNG LUÔN LÀ TUYÊN NGÔN ĐỊNH NGHĨA LOÀI NGƯỜI, không hạ nhiệt, không tổng kết. Nhóm cao 6/6.",
+     "so_lieu": "6/6 bài nhóm cao kết bằng một mệnh đề định nghĩa 'con người là gì'. Nhóm thấp 4/6 (2 bài kết bằng chi tiết kỹ thuật, không phải tuyên ngôn).",
+     "trich": [
+      "\"That's not luck, that's not accident. / That's what humans are.\" (20260522, 358 v/ngày)",
+      "\"We told ourselves we left nature behind, but nature still hears us coming.\" (20260603, 5.118 v/ngày)",
+      "\"Cooking is not something your species does, it is omething your species is.\" (20260531, 588 v/ngày)",
+      "\"And after countless generations, fire did not simply change what humans ate. / It helped change what humans became.\" (20260729, 466 v/ngày)",
+      "\"And maybe the strangest thing fire ever cooked wasn't the meat or the roots or the marrow. / It was us.\" (20260705, 113 v/ngày)",
+      "\"And maybe when an animal looks at a human, it's not asking, \\\"What are you?\\\" Maybe it's asking the only question that matters. / Which kind of human are you?\" (20260526, 149 v/ngày)",
+      "Nhóm THẤP kết KHÔNG tuyên ngôn — \"And after thousands of mammals had been left behind, one animal became so dominant hat humans stopped saying its name. / They simply called what came from it milk.\" (20260806)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHÔNG MỒI VIDEO KẾ, KHÔNG PLAYLIST, KHÔNG END-SCREEN BẰNG LỜI. Zero.",
+     "so_lieu": "0/17 bài nhắc tới video tiếp theo, series, hay playlist. 2/17 bài có nhắc cụm 'this video' và cả hai đều nằm nhóm THẤP, dùng để chốt ý chứ không phải mồi.",
+     "trich": [
+      "\"And one that still shapes the choices of every predator alive today. / Including the one watching this video.\" (20260802, 10 v/ngày — chốt ý, không mồi)",
+      "\"…and inside those small movements was the beginning of every hand that would one day build, draw, point, create, and press play on this video.\" (20260728, 2,8 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "'NEXT TIME YOU…' — chỉ 2/17 bài, và KHÔNG bài nào thuộc nhóm cao.",
+     "so_lieu": "2/17 bài (20260715 = 54 v/ngày nhóm giữa; 20260802 = 10 v/ngày nhóm thấp). 0/6 bài nhóm cao dùng khuôn này. Biến thể mềm 'So tonight, when you…' có ở 1 bài nhóm cao.",
+     "trich": [
+      "\"So, the next time you walk through a supermarket past the beef, the chicken, the lamb, the pork, remember what's missing.\" (20260715, 54 v/ngày)",
+      "\"So the next time you watch a lion steal a cheetah's kill, or see a wolf chase away a rival without taking a single bite, remember what you're really seeing.\" (20260802, 10 v/ngày)",
+      "Biến thể mềm ở nhóm cao — \"So tonight, when you finally sit down to eat, look at it differently. / You are not just looking at dinner.\" (20260705, 113 v/ngày)",
+      "Biến thể mềm ở nhóm giữa — \"So, when footsteps move outside your tent tonight, then slowly fade back into the darkness, remember this.\" (20260712, 103 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "CÂU ĐỊNH DANH NGƯỜI XEM ('That's you') KHÔNG có nguyên văn ở bài nào, nhưng biến thể 'thứ này nằm trong CƠ THỂ BẠN' thì có.",
+     "so_lieu": "0/17 bài dùng đúng chữ 'That's you'. 4/17 bài có biến thể gán đặc điểm cổ đại vào cơ thể người xem ở phần kết (2 nhóm cao, 1 nhóm giữa, 1 nhóm thấp).",
+     "trich": [
+      "\"That primate is your ancestor.\" (20260611, hook — không phải kết)",
+      "\"That need you feel for human connection? / That's not weakness. / That's 40,000 years of Ice Age survival coded directly into your biology.\" (20260611, kết, 82 v/ngày)",
+      "\"You are not a raw animal that learned to cook. / You are a cooked animal.\" (20260531, kết, 588 v/ngày)",
+      "\"You were human, and in the wild, that can be the most dangerous thing of all.\" (20260712, kết, 103 v/ngày)",
+      "\"The bones in your arms are older than arms. / The bones in your wrists are older than hands.\" (20260728, kết, 2,8 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KẾT MẠNH, KHÔNG HẠ NHIỆT. Không bài nào đưa lời chúc, lời cảm ơn, hay câu chậm dần. Chỉ 1/17 bài kết bằng câu hỏi.",
+     "so_lieu": "0/17 bài có câu cảm ơn/chào tạm biệt. 1/17 bài kết bằng dấu '?': 20260526 (149 v/ngày, nhóm cao). Mật độ 'you/your' trong 180 từ cuối: nhóm cao trung vị 3 lần, nhóm thấp trung vị 0 lần (4/6 bài nhóm thấp có ĐÚNG 0 lần).",
+     "trich": [
+      "Kết bằng câu hỏi (duy nhất) — \"Which kind of human are you?\" (20260526)",
+      "Nhóm cao, 14 lần 'you' ở 180 từ cuối — \"Your body was redesigned around cooked food so completely that it cannot function properly without it. … You are running a million-year-old survival script in an environment it was never designed for, and you cannot turn it off.\" (20260531)",
+      "Nhóm THẤP, 0 lần 'you' ở 180 từ cuối — \"Looking back, it is easy to imagine rain as nothing more than an obstacle… Sometimes, it came from what happened around the fire while everyone waited for the rain to stop.\" (20260714)",
+      "Nhóm THẤP, 0 lần 'you' — \"Human digestion became the final filter. … They simply called what came from it milk.\" (20260806)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "4. XIN ĐĂNG KÝ — CTA",
+   "ca_nguoc": "Không có gì để lật: bài ăn nhất kênh (337.806 view) KHÔNG xin sub, và bài xin sub mạnh nhất (20260611, có cả 'subscribe and share') chỉ được 82 view/ngày. Với n=2 thì không đo được CTA giúp hay hại. Điều CHẮC CHẮN là kênh này gần như bỏ hẳn CTA.",
+   "phat_hien": [
+    {
+     "y": "PHÁT HIỆN LỚN: 15/17 BÀI KHÔNG XIN GÌ CẢ. Kênh này gần như bỏ hẳn CTA.",
+     "so_lieu": "Xin subscribe: 2/17 bài. Xin like: 0/17. Xin comment: 0/17. Nhắc chuông/notification: 0/17. Nhắc tên kênh: 0/17. Nhắc share: 1/17 (gộp trong 1 trong 2 câu subscribe).",
+     "trich": [
+      "Toàn bộ CTA của cả kênh chỉ có 2 câu này, không còn câu nào khác."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Cả 2 CTA đều nằm SÁT CÂU CUỐI (98,1% và 98,8% số từ), và đều được GẮN VÀO NỘI DUNG chứ không tách rời — không có câu 'hãy đăng ký kênh' trần trụi nào.",
+     "so_lieu": "CTA 1 ở 98,1% bài (20260531, 588 v/ngày, nhóm CAO). CTA 2 ở 98,8% bài (20260611, 82 v/ngày, nhóm GIỮA). 0/6 bài nhóm thấp có CTA. 2/2 CTA gắn vào chủ đề bài.",
+     "trich": [
+      "\"And if you want more stories buried inside the human body, subscribe.\" (20260531, ở 98,1% bài — gắn vào chủ đề 'cơ thể', và sau nó vẫn còn 1 câu chốt tuyên ngôn: \"Cooking is not something your species does, it is omething your species is.\")",
+      "\"If this changed how you see yourself, subscribe and share it with someone you'd survive an Ice Age with.\" (20260611, ở 98,8% bài — gắn vào chủ đề 'Ice Age', và là câu CUỐI CÙNG của video)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "Bài ăn nhất kênh không hề xin sub — 337.806 view mà 0 câu CTA.",
+     "so_lieu": "20260603 (337.806 view = 76,4% tổng view kênh): 0 lần xin sub, 0 lần xin like, 0 lần xin comment. Tương tự 20260522 (27.895 view) và 20260526 (11.008 view): 0 CTA.",
+     "trich": [
+      "Câu cuối cùng của bài 337.806 view, không có CTA nào phía sau: \"We told ourselves we left nature behind, but nature still hears us coming.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "5. BỘ XƯƠNG CHƯƠNG",
+   "ca_nguoc": "Cú lật lớn nhất rơi ở 82-93% bài ở nhóm cao (trung vị 85,8%) NHƯNG nhóm thấp cũng đặt ở 88,4% → vị trí cú lật là NẾT KÊNH, không phải bí quyết. Thứ tách nhóm là ĐỘ DÀI TỔNG và SỐ TỪ MỖI CHƯƠNG, không phải chỗ đặt cú lật.",
+   "phat_hien": [
+    {
+     "y": "BÀI CÀNG DÀI CÀNG CHÌM — đây là tín hiệu SỐ mạnh nhất tìm được trong cả bản bóc.",
+     "so_lieu": "Bài <2.000 từ: n=7, trung vị 112,9 view/ngày. Bài ≥2.000 từ: n=10, trung vị 37,1 view/ngày → chênh 3,0 lần. Trung vị số từ: nhóm cao 1.797 từ, nhóm thấp 2.446 từ. Trung vị thời lượng: nhóm cao 10:18, nhóm thấp 14:18. 5/6 bài nhóm thấp trên 2.100 từ; bài dài nhất kênh (3.239 từ, 18:34) được 29 v/ngày.",
+     "trich": [
+      "Ngắn nhất kênh, 1.285 từ / 6:58 → 588 v/ngày (20260531)",
+      "1.652 từ / 9:04 → 466 v/ngày (20260729)",
+      "Dài nhất kênh, 3.239 từ / 18:34 → 29 v/ngày (20260620)",
+      "3.060 từ / 19:46 → 44 v/ngày (20260803)",
+      "2.968 từ / 18:09 → 23,5 v/ngày (20260806)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "SỐ CHƯƠNG: nhóm cao 4-6 chương (trung vị 5,5), mỗi chương 257-415 từ. Nhóm thấp 4-5 chương nhưng mỗi chương 435-809 từ.",
+     "so_lieu": "Nhóm cao: 6/6 bài có 4-6 mốc chương, từ/chương trung vị 396 (không bài nào vượt 415). Nhóm thấp: từ/chương trung vị 515, 2/6 bài vượt 740. Ngoại lệ ngược: 20260802 có 13 chương / 193 từ mỗi chương mà vẫn chỉ 10 v/ngày.",
+     "trich": [
+      "20260531 (588 v/ngày): 5 chương × 257 từ",
+      "20260526 (149 v/ngày): 6 chương × 272 từ",
+      "20260603 (5.118 v/ngày): 6 chương × 415 từ",
+      "20260620 (29 v/ngày): 4 chương × 809 từ",
+      "20260806 (23,5 v/ngày): 4 chương × 741 từ"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "THỨ TỰ LEO THANG CHUẨN của nhóm cao — 6 nấc, đo bằng % số từ. Đây là bộ xương chép được.",
+     "so_lieu": "Bộ xương này đúng với 4/6 bài nhóm cao (20260522, 20260531, 20260603, 20260729). Vị trí trung bình mỗi nấc lấy từ 4 bài đó.",
+     "trich": [
+      "Nấc 1 (0-8%) — CẢNH/TUYÊN BỐ GÂY SỐC ở hiện tại: \"Your body is no longer built to survive on raw food.\" (20260531)",
+      "Nấc 2 (8-20%) — NÂNG CÂU HỎI LÊN TẦNG SÂU: \"So, the real question isn't how we survived. / It's what kind of creature gets hunted by everything and ends up winning.\" (20260522, 8,4%)",
+      "Nấc 3 (20-35%) — ĐÁNH SỐ CÁC BƯỚC: \"The first weapon wasn't a spear, wasn't even a tool. / It was fire.\" (26,0%) rồi \"The second weapon no predator saw coming, endurance.\" (32,4%) (20260522)",
+      "Nấc 4 (35-40%) — ĐỔ BẰNG CHỨNG: \"This is where the story stops being theory. / In 2017, researcher Justine Smith and colleagues at UC Santa Cruz studied mountain lions.\" (20260603, 35,0%)",
+      "Nấc 5 (68-75%) — BẺ GIẢ THUYẾT DỄ / NÊU NGHỊCH LÝ: \"But here's what the climate argument cannot explain. / These animals had survived warming periods before.\" (20260522, 70,4%) · \"Here is the irony. / Most of us no longer feel like dangerous animals.\" (20260603, 68,2%)",
+      "Nấc 6 (82-93%) — CÚ LẬT LỚN NHẤT rồi tuyên ngôn: \"Here's the truth the whole story has been building toward.\" (20260522, 82,3%) · \"Here is the part that should unsettle you.\" (20260531, 84,8%)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "CÚ LẬT LỚN NHẤT rơi ở 82-93% bài — nhưng cả hai nhóm đều làm vậy, nên đây là NẾT KÊNH.",
+     "so_lieu": "Vị trí mốc cấu trúc cuối cùng (trong khoảng 55-95% bài): nhóm cao trung vị 85,8% · nhóm giữa 83,8% · nhóm thấp 88,4%. Chênh không đáng kể.",
+     "trich": [
+      "Nhóm cao — \"Now return to the wolf and the human.\" (20260729, 88,1%)",
+      "Nhóm cao — \"That is why no other animal builds a kitchen.\" (20260705, 93,2%)",
+      "Nhóm THẤP y hệt — \"So, what did early humans do when it rained for days?\" (20260714, 94,6%)",
+      "Nhóm THẤP — \"So, return to the kudu one final time.\" (20260725, 93,2%)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CHƯƠNG LÀM VIỆC GÌ: kênh không dùng chương 'kể lịch sử theo thời gian'. Mỗi chương giải 1 CÂU HỎI PHỤ và luôn đóng bằng 1 mệnh đề trừu tượng.",
+     "so_lieu": "Đo trên 6/6 bài nhóm cao: mọi mốc chương đều đứng ngay sau một cặp 2 câu cụt song song đóng ý cũ. 0/6 bài dùng mốc kiểu 'Chapter 1' hay mốc thời gian ('50.000 năm trước…') làm ranh giới chương.",
+     "trich": [
+      "Đóng: \"Most predators are bodies. / Humans are bodies carrying memory.\" → Mở: \"This is where the story stops being theory.\" (20260603)",
+      "Đóng: \"Take cooking away and you are not left with a simpler human. / You are left with a body that no longer makes biological sense.\" → Mở: \"Here is the part that should unsettle you.\" (20260531)",
+      "Đóng: \"They had no framework for what we had become. / Neither did we.\" → Mở: \"Here's the truth the whole story has been building toward.\" (20260522)",
+      "Đóng: \"A dirty hand can move it. / A warm surface gives it time to grow.\" → Mở: \"And this is where a steak and ground meat become very different meals.\" (20260729)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "6. CÂU CHUYỂN CHƯƠNG — kho câu nguyên văn",
+   "ca_nguoc": "Khuôn 'Then + chủ ngữ mới' (Then a new animal appeared) trông giống công cụ của bài đỉnh nhưng nhóm thấp dùng NHIỀU HƠN: nhóm cao 5 lần, nhóm thấp 15 lần. Với nhóm thấp nó thường chỉ là kể tiếp chuyện chứ không phải chuyển chương. Đừng chép khuôn này như bí quyết.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN CHUYỂN 1 — 'Here's/Here is + danh từ' (3-11 từ, trung vị 7 từ). Dùng cho cú lật, đặt ở 68-88% bài.",
+     "so_lieu": "9 câu / 6 bài. Nhóm cao 7 câu / 4 bài; nhóm thấp 2 câu / 2 bài. 6/9 câu đặt sau mốc 68% bài.",
+     "trich": [
+      "\"Here's the truth the whole story has been building toward.\" (10 từ, 82,3%, 20260522)",
+      "\"Here is the part that should unsettle you.\" (8 từ, 84,8%, 20260531)",
+      "\"Here is where the science gets honest.\" (7 từ, 68,5%, 20260531)",
+      "\"Here is the irony.\" (4 từ, 68,2%, 20260603)",
+      "\"But here's the warning.\" (4 từ, 76,1%, 20260526)",
+      "\"But here's what the climate argument cannot explain.\" (8 từ, 70,4%, 20260522)",
+      "\"Here's what most people get wrong.\" (6 từ, 41,0%, 20260527)",
+      "\"Here's the whole puzzle in one sentence.\" (7 từ, 58,1%, 20260527)",
+      "\"Here's something nobody tells you about surviving an Ice Age winter.\" (11 từ, 87,3%, 20260611)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN CHUYỂN 2 — 'That's why / This is where + mệnh đề'. Vừa đóng ý cũ vừa mở ý mới trong 1 câu. Công cụ dùng nhiều nhất kênh (33 câu).",
+     "so_lieu": "33 câu / 17 bài. Nhóm cao 15, nhóm giữa 10, nhóm thấp 8. Độ dài 5-20 từ, trung vị 9 từ.",
+     "trich": [
+      "\"That's why the same human means completely different things to different animals.\" (12 từ, 20260526)",
+      "\"This is where the story stops being theory.\" (8 từ, 20260603)",
+      "\"And this is where the story becomes uncomfortable because humans till know fear, too.\" (13 từ, 20260603)",
+      "\"And this is where the problem begins.\" (7 từ, 20260531)",
+      "\"That's where the story takes one final turn.\" (8 từ, 20260715)",
+      "\"That is what made us different.\" (6 từ, 20260603)",
+      "\"That's where humans get confused.\" (5 từ, 20260526)",
+      "\"That is when communication begins to escape the present.\" (9 từ, 20260803)",
+      "\"And this is where the idea of race completely falls apart.\" (11 từ, 20260527)",
+      "\"But that's where the mystery begins, not where it ends.\" (10 từ, 20260620)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN CHUYỂN 3 — 'The first/second X wasn't Y. It was Z.' Đánh số các bước leo thang, chỉ nhóm cao và nhóm thấp cùng dùng nhưng nhóm cao dùng đúng vị trí 26-32% bài.",
+     "so_lieu": "6 câu / 4 bài (nhóm cao 3, nhóm thấp 3). Nhóm cao đặt ở 14-32% bài; nhóm thấp đặt ở 6,7-15,1% bài.",
+     "trich": [
+      "\"The first weapon wasn't a spear, wasn't even a tool. / It was fire.\" (26,0%, 20260522, nhóm cao)",
+      "\"The second weapon no predator saw coming, endurance. / We're terrible sprinters.\" (32,4%, 20260522, nhóm cao)",
+      "\"The real reason cooking became universal is not about taste. / It is about a crisis your body could not solve on its own.\" (14,0%, 20260531, nhóm cao)",
+      "\"The first problem was not boredom. / It was cold.\" (7,0%, 20260714, nhóm thấp)",
+      "\"The first problem was the head.\" (15,1%, 20260728, nhóm thấp)",
+      "\"The real answer is far stranger.\" (6,7%, 20260802, nhóm thấp)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHUÔN ĐÓNG CHƯƠNG — luôn là CẶP 2 CÂU CỤT SONG SONG rồi mới sang mốc mới. Đây là chỗ dễ chép nhất.",
+     "so_lieu": "Kiểm trên 6/6 bài nhóm cao: 100% mốc chương đứng ngay sau cặp câu song song hoặc cặp câu đối lập.",
+     "trich": [
+      "\"Most predators are bodies. / Humans are bodies carrying memory.\" → mốc mới (20260603)",
+      "\"Clean, simple, wrong.\" → \"That version treats one of the most important biological events in human history like a lifestyle choice.\" (20260531)",
+      "\"They had no framework for what we had become. / Neither did we.\" → mốc mới (20260522)",
+      "\"And climate change did play a role. / That evidence is real.\" → \"But here's what the climate argument cannot explain.\" (20260522)",
+      "\"The threat system is still on. / It just loses the script.\" → \"This is why rescue videos feel so mysterious.\" (20260526)",
+      "\"Once hunger became something a group could control, survival stopped being only a negotiation between humans and nature. / It became a negotiation between humans.\" → \"This is why the evidence in the ground matters as much as it does.\" (20260705)",
+      "\"A scent is enough. / A footprint can be enough.\" → \"So, the real question is not only why animals run from humans.\" (20260603)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "KHUÔN CHUYỂN 4 — 'But that explanation doesn't hold up' (bẻ giả thuyết dễ). Đặt SỚM (7-11% bài) để dựng vòng tò mò.",
+     "so_lieu": "3 câu / 3 bài, tất cả đặt trong 7-11% đầu bài. 0/6 bài nhóm cao — 1 nhóm giữa, 2 nhóm thấp.",
+     "trich": [
+      "\"But that explanation doesn't hold up for very long.\" (9,1%, 20260715, 54 v/ngày)",
+      "\"But that explanation falls apart almost immediately.\" (7,7%, 20260806, 23,5 v/ngày)",
+      "\"But this story isn't really about lions.\" (78,7%, 20260802, 10 v/ngày)",
+      "Bản nhóm cao dùng cách khác, không dùng 'explanation' mà đánh thẳng vào 'most people': \"Most people assume cooking started as an accident. / Meat fell into a fire, someone tried it, tasted better, everybody started doing it. / Clean, simple, wrong.\" (20260531)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_THAP"
+    },
+    {
+     "y": "KHUÔN CHUYỂN 5 — 'Now return to X' / 'Now look at your hand' (gọi lại hình ảnh hook trước khi chốt). Đặt ở 88-93% bài.",
+     "so_lieu": "4 câu / 4 bài: 1 nhóm cao (88,1%), 3 nhóm thấp (89,7% · 93,2% · 93,5%). Cả 2 nhóm dùng → nết kênh.",
+     "trich": [
+      "\"Now return to the wolf and the human.\" (88,1%, 20260729, nhóm cao)",
+      "\"Now look at your hand.\" (89,7%, 20260728, nhóm thấp)",
+      "\"So, return to the kudu one final time.\" (93,2%, 20260725, nhóm thấp)",
+      "\"So, the next time you walk through a supermarket…\" (93,5%, 20260715, nhóm giữa)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  },
+  {
+   "ten": "7. MỎ NEO KHOA HỌC",
+   "ca_nguoc": "ĐÂY LÀ CHỖ CÓ TÍN HIỆU MẠNH NHẤT NHƯNG n=1 NÊN KHÔNG ĐƯỢC BIẾN THÀNH LUẬT. Bài duy nhất có nghiên cứu-có-tên-có-năm cũng là bài duy nhất nổ (337.806 view = 76,4% view kênh). Nhưng 1 bài không chứng minh được nhân quả: 5 bài nhóm cao còn lại KHÔNG có tên nhà nghiên cứu nào mà vẫn 113-588 v/ngày. Cách đọc an toàn: mỏ neo có tên là thứ ĐÁNG THỬ, không phải thứ đã được chứng minh.",
+   "phat_hien": [
+    {
+     "y": "CHỈ 1/17 BÀI NÊU TÊN NHÀ NGHIÊN CỨU + NĂM + VIỆN — và đó chính là bài nổ duy nhất của kênh.",
+     "so_lieu": "1/17 bài có tên người thật (20260603, 337.806 view, 5.118 v/ngày) với 3 nghiên cứu được nêu tên+năm. 16/17 bài còn lại: 0 tên người, 0 năm nghiên cứu. Tìm 'In [năm 19xx/20xx]' trong cả kênh: 3 lần, cả 3 nằm trong đúng bài đó.",
+     "trich": [
+      "\"In 2015, researcher Chris Darimont and his team analyzed data from more than 300 studies about human hunting around the world. / The result was disturbing. / Humans kill large carnivores, lions, leopards, bears, and wolves at about nine times the rate those carnivores kill each other, nine times.\" (20260603)",
+      "\"In 2017, researcher Justine Smith and colleagues at UC Santa Cruz studied mountain lions.\" (20260603)",
+      "\"In 2019, researcher Justin Suraci and his team expanded the question. / They did not only ask whether one animal fears people, they asked what happens to an entire wildlife community when human voices enter the landscape.\" (20260603)",
+      "Cùng bài, cách dựng thí nghiệm cho người xem hình dung: \"So, the researchers set up speakers near mountain lion feeding sites. / At some sites, they played frogs. / At others, ordinary human conversation. / Not shouting, not gunshots, not engines, not hunting dogs, just people talking.\"",
+      "Cùng bài, đặt tên khái niệm: \"Ecologists call this kind of effect a landscape of fear.\""
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "DI CHỈ / TÊN RIÊNG KHOA HỌC CỰC MỎNG TOÀN KÊNH — trung bình chưa tới 1 tên riêng mỗi bài.",
+     "so_lieu": "Đếm toàn bộ tên riêng khoa học trong 17 bài (46.505 từ): Wonderwerk 4 lần (4 bài, mỗi bài 1 lần) · Yellowstone 2 · Neanderthal 3 · Homo sapiens 4 · FOXP2 5 (dồn trong 1 bài) · 'Tectalic' (= Tiktaalik, lỗi transcript) 11 (dồn trong 1 bài). Cộng lại 29 lần / 17 bài. 8/17 bài KHÔNG có bất kỳ tên riêng khoa học nào.",
+     "trich": [
+      "\"This is where FOXP2 enters the story.\" (20260803, 44 v/ngày — bài duy nhất dùng tên gene)",
+      "\"Tectalic never walked through a city. / It never held a tool. / It never saw a human.\" (20260728, 2,8 v/ngày — bài duy nhất bám 1 tên loài xuyên suốt)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "MẬT ĐỘ TỪ KHOA HỌC CHUNG CHUNG ('scientists/researchers/study/evidence/data') KHÔNG tách được nhóm — đây là nết kênh.",
+     "so_lieu": "Trung vị lần/1.000 từ: nhóm cao 2,82 · nhóm giữa 4,19 · nhóm thấp 2,00. Nhóm GIỮA cao nhất → không có quan hệ. Bài đặc nhất kênh (20260611, 12,3/1.000 từ) chỉ được 82 v/ngày.",
+     "trich": [
+      "Nhóm giữa, đặc nhất — \"Archaeologists studying ancient shelter layouts found evidence of grouped sleeping arrangements. / Bodies positioned together deliberately, not comfort, survival technology.\" (20260611, 82 v/ngày)",
+      "Nhóm cao, loãng — \"Studies show cats can recognize their owners' voice.\" (20260526, 149 v/ngày — đây gần như là mỏ neo duy nhất của bài)",
+      "Nhóm cao — \"Ash, burned bone, heated stone, tools found resting beside the traces of old fires.\" (20260705)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "HEDGE (may/might/perhaps/probably) DÙNG DÀY Ở CẢ HAI NHÓM — nết kênh, và nhóm THẤP hedge nhiều hơn một chút.",
+     "so_lieu": "Trung vị lần/1.000 từ: nhóm cao 3,84 · nhóm giữa 4,35 · nhóm thấp 4,90. Bài hedge dày nhất kênh là 20260712 (12,7/1.000 từ, 103 v/ngày, nhóm giữa).",
+     "trich": [
+      "\"Some animals may understand our patterns before we understand ourselves.\" (20260526)",
+      "\"And maybe when an animal looks at a human…\" (20260526)",
+      "\"Perhaps that is part of what made humans o adaptable.\" (20260714, nhóm thấp)",
+      "\"And perhaps in a few rare cases, a memory of a human who appeared at exactly the right moment.\" (20260620, nhóm thấp)",
+      "\"The greatest advantage in human history may not always have come from what happened during the hunt.\" (20260714, nhóm thấp)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ TÁCH SỰ THẬT KHỎI SUY DIỄN, nhưng chỉ 5 chỗ trong cả 17 bài — và nhóm cao biến việc thú nhận đó thành một MỐC CHƯƠNG (bán được sự trung thực) thay vì chỉ rào đón.",
+     "so_lieu": "5 chỗ tách rõ sự thật/suy diễn trên 17 bài: 2 ở nhóm cao (đều dùng làm mốc chương), 1 nhóm giữa, 1 nhóm thấp, 1 nhóm giữa-cao.",
+     "trich": [
+      "Nhóm cao, biến thành mốc chương — \"Here is where the science gets honest. / We know cooking changed everything.\" (20260531, 68,5% bài)",
+      "Nhóm cao, biến thành mốc chương — \"This is why the evidence in the ground matters as much as it does. / Ash, burned bone, heated stone, tools found resting beside the traces of old fires.\" (20260705, 78,4% bài)",
+      "Nhóm cao, thú nhận thẳng — \"We don't fully know. / Maybe one day we will. / Better brain imaging, better long-term tracking, better ways to ask questions without forcing animal minds into human shapes.\" (20260526)",
+      "Nhóm giữa — \"We may never know the first word. / We may never know who made the first sound that another human understood as a symbol. / But we know what our ancestors ultimately invented.\" (20260803)",
+      "Nhóm thấp, rào đón khô, không thành mốc — \"Early humans learned to use and control fire long before we have clear evidence that every group could reliably create it whenever they wanted.\" (20260714)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "SỐ CỤ THỂ CÓ TỶ LỆ (chứ không phải niên đại) chỉ xuất hiện tập trung ở bài nổ. Kênh gần như không dùng niên đại.",
+     "so_lieu": "Cụm 'X năm trước' có số: 0 lần trong 17 bài theo mẫu chuẩn — thay vào đó kênh nói chung chung ('tens of thousands of years ago', 'a few million years'). Số có tỷ lệ so sánh: 4 con số trong 20260603 (bài nổ), 0-1 con số ở mỗi bài còn lại.",
+     "trich": [
+      "\"…at about nine times the rate those carnivores kill each other, nine times.\" (20260603)",
+      "\"And in the ocean, humans harvest adult fish at rates about 14 times higher than natural marine predators.\" (20260603)",
+      "\"…analyzed data from more than 300 studies…\" (20260603)",
+      "\"…their feeding time dropped by more than half. / More than half.\" (20260603)",
+      "Bài khác chỉ có số trần, không so sánh — \"Temperatures across Europe dropped below -20.\" (20260611)",
+      "\"Cave lion. / 700 lb, shoulders level with your chest.\" (20260522)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "8. ĐỀ TÀI",
+   "ca_nguoc": "Nhóm đề tài A (động vật nghĩ gì về người) có trung vị cao nhất (126 v/ngày) NHƯNG con số đó bị 1 quả 5.118 kéo lên; 3 bài còn lại của nhóm A là 149, 103, 29 — tức trung vị thật của nhóm A nếu bỏ quả nổ chỉ còn ~103, ngang nhóm B. Với n=2 đến n=5 mỗi cụm, xếp hạng cụm ở đây KHÔNG đủ tin để làm luật chọn đề tài.",
+   "phat_hien": [
+    {
+     "y": "KHUÔN TITLE gần như cố định: câu hỏi 6 từ, có chữ 'human(s)'. Hai bài phá khuôn đều nằm nhóm THẤP.",
+     "so_lieu": "16/17 title có dấu '?'. 16/17 title có chữ 'human(s)'. Trung vị 6 từ/title (dải 5-10). Mở bằng 'Why': 9/17 · 'How': 4/17 · 'What': 2/17 · 'Which': 1/17 · 'Do': 1/17. Bài DUY NHẤT không có '?' = 'How Humans Became The Ultimate Predators' (16 v/ngày, nhóm thấp). Bài DUY NHẤT không có 'human' = 'Why predators never eat other predators ?' (10 v/ngày, nhóm thấp).",
+     "trich": [
+      "\"Why are animals afraid of humans?\" (6 từ, 5.118 v/ngày)",
+      "\"Why Did Humans Start Cooking Everything?\" (6 từ, 588 v/ngày)",
+      "\"Why Humans Can't Eat Raw Meat?\" (6 từ, 466 v/ngày)",
+      "\"How Humans Became The Ultimate Predators\" (6 từ, KHÔNG có '?', 16 v/ngày)",
+      "\"Why predators never eat other predators ?\" (6 từ, KHÔNG có 'human', 10 v/ngày)",
+      "\"What Did Ancient Humans Do When It's Wouldn't Stop Raining?\" (10 từ — title dài nhất kênh, 30 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "NĂM CỤM ĐỀ TÀI, xếp theo trung vị view/ngày. Cụm 'không có con người trong đề bài' chìm hẳn.",
+     "so_lieu": "A ĐỘNG VẬT NGHĨ GÌ VỀ NGƯỜI: n=4, trung vị 126 v/ngày (5.118 · 149 · 103 · 29). B ĂN / BẾP / THỊT / SỮA: n=5, trung vị 113 (588 · 466 · 113 · 54 · 23,5). C SỐNG SÓT CỔ ĐẠI (cảnh khắc nghiệt): n=3, trung vị 82 (358 · 82 · 30). D TIẾN HOÁ CƠ THỂ NGƯỜI: n=3, trung vị 44 (64 · 44 · 2,8). E SINH THÁI THÚ ĂN THỊT (không có người trong đề bài): n=2, trung vị 13 (16 · 10).",
+     "trich": [
+      "Cụm A — \"Why are animals afraid of humans?\" (5.118) · \"What Do Animals Think About Humans?\" (149) · \"Why Can't Wild Animals Attack Sleeping Humans?\" (103) · \"Do Animals Remember Humans Who Saved Them?\" (29)",
+      "Cụm B — \"Why Did Humans Start Cooking Everything?\" (588) · \"Why Humans Can't Eat Raw Meat?\" (466)",
+      "Cụm E, chìm nhất — \"How Humans Became The Ultimate Predators\" (16) · \"Why predators never eat other predators ?\" (10)",
+      "Cụm D, chìm nhì — \"Which Fish Did Human Evolve from?\" (2,8)"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ LÀM LẠI ĐỀ TÀI CŨ — và bản làm lại ăn kém hơn 5,2 lần dù dài hơn 657 từ.",
+     "so_lieu": "1 cặp làm lại rõ ràng: 'Why Did Humans Start Cooking Everything?' (31/05, 1.285 từ, 40.603 view, 588 v/ngày) → 'Why Did Humans Start Cooking Food?' (05/07, 1.942 từ, 3.838 view, 113 v/ngày). Khoảng cách 35 ngày. Bản làm lại DÀI HƠN 657 từ và ăn ÍT HƠN 5,2 lần. Cụm 'ăn/thịt' còn được khai thác thêm 3 lần nữa (raw meat, predator meat, milk).",
+     "trich": [
+      "Bản 1 mở — \"Your body is no longer built to survive on raw food.\" (20260531, 588 v/ngày)",
+      "Bản 2 mở — \"Look at your dinner tonight.\" (20260705, 113 v/ngày)",
+      "Bản 1 kết — \"Cooking is not something your species does, it is omething your species is.\"",
+      "Bản 2 kết — \"And maybe the strangest thing fire ever cooked wasn't the meat or the roots or the marrow. / It was us.\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "KHÔNG CÓ SERIES. Không đánh số tập, không nhắc playlist, không nhân vật xuyên suốt.",
+     "so_lieu": "0/17 title có số tập hay chữ 'Part'. 0/17 bản ghi nhắc tới playlist hay 'in the last video'. Thứ duy nhất giữ tính liên tục là cụm chủ đề (ăn: 5 bài · thú ăn thịt: 4 bài) chứ không phải series có tên.",
+     "trich": [
+      "Chuỗi ĂN không được đánh dấu là series ở bất cứ đâu trong lời đọc: \"Why Did Humans Start Cooking Everything?\" → \"Why Did Humans Start Cooking Food?\" → \"Why Humans Can't Eat Predator Meat?\" → \"Why Humans Can't Eat Raw Meat?\" → \"why can't Humans drink other animal's milk?\""
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "ĐỀ BÀI PHẢI ĐẶT NGƯỜI XEM VÀO THẾ ĐỐI DIỆN — mọi title nhóm cao đều là 'con người vs thứ khác', không title nào là bài học lịch sử thuần.",
+     "so_lieu": "6/6 title nhóm cao chứa cặp đối kháng (người vs thú, người vs lửa, người vs thịt sống). 3/6 title nhóm thấp KHÔNG có cặp đối kháng nào ('How Humans Became The Ultimate Predators', 'Which Fish Did Human Evolve from?', 'What Did Ancient Humans Do When It's Wouldn't Stop Raining?').",
+     "trich": [
+      "Nhóm cao, có đối kháng — \"Why are animals afraid of humans?\" · \"Why Humans Can't Eat Raw Meat?\" · \"How Ancient Humans Survived Every Apex Predators?\" · \"What Do Animals Think About Humans?\"",
+      "Nhóm thấp, không đối kháng — \"Which Fish Did Human Evolve from?\" (2,8 v/ngày) · \"What Did Ancient Humans Do When It's Wouldn't Stop Raining?\" (30 v/ngày)"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    }
+   ]
+  },
+  {
+   "ten": "9. NHỊP ĐĂNG",
+   "ca_nguoc": "Nhịp đăng KHÔNG giải thích được view: video đăng sau khoảng nghỉ ≥7 ngày có trung vị 82,1 v/ngày (n=5), video đăng sau nghỉ ≤3 ngày có 49,3 (n=8) — chênh nằm trong nhiễu với n nhỏ như vậy, và quả nổ 5.118 lại đăng sau khoảng nghỉ chỉ 3 ngày. Đừng rút ra luật 'nghỉ lâu thì video mạnh hơn'. Sự sụt view theo tháng cũng bị lẫn với tuổi video (bài mới ít ngày tích view hơn), dù đã chia theo view/ngày thì hiệu ứng đuôi dài của video cũ vẫn còn.",
+   "phat_hien": [
+    {
+     "y": "17 video trong 76 ngày. Nhịp trung bình 4,75 ngày/video, khoảng cách TRUNG VỊ 3,5 ngày.",
+     "so_lieu": "17 video từ 22/05/2026 đến 06/08/2026 = 76 ngày. 16 khoảng cách: [4, 1, 4, 3, 8, 9, 15, 7, 2, 1, 10, 3, 1, 4, 1, 3]. Trung vị 3,5 ngày, trung bình 4,75 ngày.",
+     "trich": [
+      "Dòng thời gian: 22/05 → 26/05 → 27/05 → 31/05 → 03/06 → 11/06 → 20/06 → 05/07 → 12/07 → 14/07 → 15/07 → 25/07 → 28/07 → 29/07 → 02/08 → 03/08 → 06/08"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "CÓ GOM ĐỢT và CÓ ĐỨT QUÃNG DÀI — kênh không chạy lịch đều.",
+     "so_lieu": "5/16 khoảng cách ≤2 ngày (gom đợt): 26→27/05, 14→15/07, 28→29/07, 02→03/08. 5/16 khoảng cách ≥7 ngày (đứt): 8, 9, 15, 7, 10 ngày. Khoảng đứt dài nhất 15 ngày (20/06 → 05/07).",
+     "trich": [
+      "Đợt gom mạnh nhất: 28/07 ('Which Fish', 2,8 v/ngày) rồi 29/07 ('Raw Meat', 466 v/ngày) — hai bài cách nhau 1 ngày mà chênh view/ngày 166 lần → nhịp không quyết định gì, chất bài mới quyết định."
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP TĂNG DẦN NHƯNG VIEW/NGÀY SỤT DẦN — và kịch bản DÀI DẦN cùng lúc. Đây là mối tương quan đáng chú ý nhất của chiều này.",
+     "so_lieu": "T5/2026: 4 video, trung vị 253 v/ngày, trung vị 1.460 từ. T6: 3 video, 82 v/ngày, 2.493 từ. T7: 7 video (tháng năng suất nhất), 54 v/ngày, 2.044 từ. T8 (mới 6 ngày): 3 video, 23,5 v/ngày, 2.968 từ. Số từ tăng 2,0 lần từ T5 sang T8; view/ngày giảm 10,8 lần.",
+     "trich": [
+      "Bài đầu kênh 22/05, 2.392 từ → 358 v/ngày",
+      "Bài 31/05, 1.285 từ (ngắn nhất kênh) → 588 v/ngày",
+      "Bài 03/06, 2.493 từ → 5.118 v/ngày (quả nổ)",
+      "Bài 03/08, 3.060 từ → 44 v/ngày",
+      "Bài 06/08, 2.968 từ → 23,5 v/ngày"
+     ],
+     "cao_hay_ca_hai": "CHI_NHOM_CAO"
+    },
+    {
+     "y": "QUẢ NỔ ĐẾN Ở VIDEO THỨ 5, NGÀY THỨ 12 CỦA KÊNH — và không kéo được bài sau lên.",
+     "so_lieu": "Video thứ 5 (03/06) nổ 337.806 view. Video ngay sau đó (11/06, cách 8 ngày) chỉ 4.759 view = 82 v/ngày, tức bằng 1,6% view/ngày của quả nổ. 12 video sau quả nổ: trung vị 42 v/ngày. 4 video trước quả nổ: trung vị 253 v/ngày.",
+     "trich": [
+      "Trước nổ (22/05-31/05): 358 · 149 · 64 · 588 v/ngày",
+      "Quả nổ (03/06): 5.118 v/ngày",
+      "Sau nổ (11/06-06/08, 12 bài): 82 · 29 · 113 · 103 · 30 · 54 · 16 · 2,8 · 466 · 10 · 44 · 23,5 v/ngày"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    },
+    {
+     "y": "NHỊP KHÔNG DỰ BÁO ĐƯỢC VIEW — không kết luận được gì từ chiều này ngoài việc nó KHÔNG phải biến quyết định.",
+     "so_lieu": "Video đăng sau nghỉ ≥7 ngày: n=5, trung vị 82,1 v/ngày. Video đăng sau nghỉ ≤3 ngày: n=8, trung vị 49,3 v/ngày. Chênh 1,7 lần với n=5 và n=8 → nằm trong nhiễu. Quả nổ 5.118 v/ngày đăng sau khoảng nghỉ chỉ 3 ngày; bài 2,8 v/ngày đăng sau khoảng nghỉ 3 ngày.",
+     "trich": [
+      "Cùng khoảng nghỉ 3 ngày: 03/06 → 5.118 v/ngày và 28/07 → 2,8 v/ngày (chênh 1.828 lần)",
+      "Cùng khoảng nghỉ 1 ngày: 29/07 → 466 v/ngày và 27/05 → 64 v/ngày"
+     ],
+     "cao_hay_ca_hai": "CA_HAI_NHOM"
+    }
+   ]
+  }
+ ]
+}
