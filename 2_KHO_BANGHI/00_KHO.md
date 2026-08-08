@@ -91,6 +91,11 @@ do.py tim "cụm từ"    tìm nguyên văn trong toàn kho
 do.py trung <file>    dò trùng 8-từ với đối thủ — cổng 11
 ```
 
+### 🆕 NeonRush — thêm 08/08/2026
+`@Neon-Rush-3D` · 7,84K sub · **kéo được 33/90 video** *(57 quả không có phụ đề — mọi trung vị tính trên tập con này đều có thể lệch)*. Cùng ngách ancient-humans, faceless, tiếng Anh, ✅ đang bật kiếm tiền.
+Trung vị long-form **6.077** · dài **24:08** · **164 wpm**. ⛔ Đừng dùng con số "2,84 triệu view" của kênh — nó **gồm cả Shorts**; 33 video dài chỉ tổng 775.448.
+→ Phát hiện chính: `kho/3_bangchung/NEONRUSH_DoiCongThuc_2026-08-08.md`
+
 🔴 **Vì sao bắt buộc dùng nó thay vì tự đo lại.** Ngày 06/08/2026 tôi đo tốc độ đọc **bốn lần, sai cả bốn** — không lần nào sai vì tính nhầm, cả bốn đều vì mỗi lần chọn một **nền thời gian** khác: `từ ÷ thời lượng video` ≠ `từ ÷ độ dài audio` ≠ `từ ÷ thời gian đang nói`. Ba con số lệch nhau tới 20%; so nhầm là ra kết luận ngược. `do.py` in kèm nền thời gian ở mọi bảng nên không lẫn được nữa.
 
 ⚠️ **`ADayInHistory/` rỗng** — lần kéo đó hỏng mà không ai biết cho tới 07/08. `do.py` báo thư mục rỗng ở đầu mỗi bảng. **Kho thật là 761 bản ghi / 18 kênh có dữ liệu**, không phải 19.

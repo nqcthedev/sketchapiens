@@ -84,3 +84,24 @@ khối mới chưa ai ghép → nén còn một phần ba.
 **Hai thứ đáng học nhất:** *(1)* dùng **thang thời gian** làm xương sống thay vì chia chương
 theo chủ đề — mỗi mốc một chương, lùi dần về hiện tại; *(2)* **công khai việc tổng hợp**
 (*"all the research is linked in the description"*) → biến việc xào lại thành uy tín.
+
+---
+
+## ⚠️ CÂU HỎI LUẬT NÀY CHƯA TRẢ LỜI: chọn TỪNG đề tài, hay xây MỘT LOẠT?
+
+Toàn bộ luật trên dạy cách chọn **một đề tài cho video kế tiếp**. Nó không nói gì về việc
+**19 video rời có tự cộng lại thành một kênh hay không**.
+
+Đo 08/08/2026 trên `@Neon-Rush-3D` — **cùng ngách, cùng định dạng, cùng tiếng Anh, cùng độ dài**:
+
+| | trước 18/07 | từ 18/07 |
+|---|---|---|
+| kiểu | 14 đề tài lẻ | **19 tập cùng loạt** `How Did Humans Invent ___?` |
+| **view/ngày trung vị** | **23** | **2.563** |
+
+**111 lần.** Và **độ dài không giải thích gì** — trong loạt đó, `rho` giữa độ dài và view/ngày
+chỉ **+0,16**, nửa ngắn còn ăn hơn nửa dài.
+
+⛔ **Chưa nâng thành luật.** Nó đổi **hai** thứ cùng lúc *(công thức title + nhịp đăng ~1/ngày)*
+và mình không đăng nổi 1 video/ngày. → **`D-26`** trong `governance/DECISIONS_REQUIRED.md`.
+Bằng chứng đầy đủ + giới hạn: `kho/3_bangchung/NEONRUSH_DoiCongThuc_2026-08-08.md`.

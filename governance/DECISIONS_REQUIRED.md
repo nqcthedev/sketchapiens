@@ -37,6 +37,7 @@
 | **D-24** 🆕 | Một con số bị bác thì có kéo cả **đợt đo** đó sang `SUSPECT` không? | Đợt 29/07 sinh ≥3 con số thumbnail, **một cái đã sai** *(chữ 13-19% → thật ra 22%)*. Hai cái còn lại chưa ai soi lại | `NEEDS_HUMAN_DECISION` |
 | **D-25** 🆕 | `/audit-script` có **dừng hẳn** khi lớp kiểm tất định trượt không? | Đỡ đốt token cho agent nói lại thứ `qa_kichban.py` đã biết. Nhưng có lúc muốn nghe agent dù script chưa sạch | `NEEDS_HUMAN_DECISION` |
 
+| **D-26** 🆕 | Kênh có chuyển sang làm **MỘT LOẠT có công thức title** thay vì mỗi video một đề tài lẻ không? | Neon Rush *(cùng ngách, cùng định dạng, cùng tiếng Anh, cùng độ dài ~20-26')* đổi từ đề tài lẻ sang loạt `How Did Humans Invent ___?` ngày 18/07/2026: view/ngày trung vị **23 → 2.563**, tức **111×**. Kênh mình đang làm đúng thời kỳ 23 view/ngày của nó — 19 video, 19 đề tài rời. ⚠️ Nhưng nó đổi **hai** thứ cùng lúc *(công thức title + nhịp đăng 19 video/20 ngày)*, tách không được; và mình **không đăng nổi 1 video/ngày**. Bằng chứng: `kho/3_bangchung/NEONRUSH_DoiCongThuc_2026-08-08.md` | `NEEDS_HUMAN_DECISION` |
 
 ## Cách đóng một mục
 ```
