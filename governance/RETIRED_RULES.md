@@ -220,3 +220,35 @@ Ngưỡng cũ 80-110 **nằm dưới cả khoảng giữa** — nó loại oan p
 **Cấm kỵ KHÔNG phải điều kiện cần.** 5/7 quả thắng có yếu tố cấm kỵ vẽ thẳng, nhưng **hai quả cao nhất (7.81M và 3.00M) hoàn toàn sạch** — không máu, không cơ thể, không từ cấm. Quả bẩn nhất được 516K.
 
 **Nhân vật KHÔNG cần to.** Một quả 59K có nhân vật chỉ chiếm **35% khung**, nằm dang tay giữa cảnh wide, không cấm kỵ, không ai to. Nó thắng bằng **tư thế + 1 đạo cụ (cây giáo bị vứt)** và **chữ chỉ chiếm 71% chiều ngang để cảnh được thở**.
+
+---
+
+# ⛔ RUBRIC — bốn mục gỡ khỏi thang điểm *(09/08/2026, sau khi bóc 16 kênh)*
+
+Nguồn: `kho/3_bangchung/TONGHOP_16Kenh_2026-08-09.md` — 16 kênh cùng định dạng, mỗi kênh qua
+một agent bóc và một giám khảo mở bản ghi gốc đối chiếu từng câu trích.
+
+| mục | rubric chấm gì | 16 kênh nói gì |
+|---|---|---|
+| **A1.2** tự giễu loài người | *"≥1 câu tự giễu buồn cười trong 15s đầu"* | ⛔ **0 ca thắng toàn kho.** BrightPsycho **0/96 bài** *(grep 4 cụm cố định)*. Simply A Stickman dùng ở 4 bài — **cả 4 nhóm chìm**, kênh đã tự bỏ hẳn từ 31/05. Zenn: bài DUY NHẤT có người dẫn lộ diện = **516 view/ngày, nhóm THẤP** |
+| **A2.8** vế *"BÁO TRƯỚC cú lật"* | câu mẫu `"one last layer I saved for the end"` | ⛔ **14/16 kênh grep 0 TUYỆT ĐỐI** trên 8 cụm hứa-hoãn. NeonRush 0 hit / 126.798 từ. Stickly 4 câu / 148.000 từ. Zenn có đúng 1 bài dùng → bài đó **nhóm THẤP**. Câu mẫu trong rubric là thứ **cả ngách không dùng** |
+| **A6.26** cọc *"để dành cuối"* | signposting hứa hoãn | ⛔ cùng lý do A2.8. *(Cọc "nhiều lớp" ở mục 6 thì GIỮ — nó khác hẳn cọc hứa hoãn)* |
+| **A5.23** callback hook · **A6.29** BOOKEND | video "tròn" | ⚠️ **HẠ CẤP, không bỏ.** Là **nết ~100% của ngách**: Stickly 43/43 · Simply A Stickman 47/47 · Zenn 28/28 · Mack 49/52 · BC 59/65. Bài **298 view/ngày** của Zenn callback sạch y như bài **7,83 triệu**. Chỉ số bắn trúng mọi bài là chỉ số **đo được số 0** → vẫn cứ làm, nhưng **không tính điểm** |
+
+**Thang điểm: 36 mục / 72 điểm / ngưỡng ≥62 → 32 mục / 64 điểm / ngưỡng ≥55** *(giữ 86%)*.
+
+## 🔴 Và điểm số đổi Ý NGHĨA, không chỉ đổi thang
+
+Trước: *"ĐẠT NGANG = ngang đối thủ, có cơ sở ăn view"*. **Sai.**
+
+**L3** — cùng một kênh, cùng khuôn hook, cùng khuôn title, cùng bút pháp → view chênh
+**42 đến 1.938 lần**. SuperJoy 1.938× *(9 bài/37 ngày)* · PaintItSimple 304× *(hai bài cách nhau
+2 ngày)* · NeonRush 42× *(cách nhau 1 ngày)*. Ca đắt nhất: **Axen** — bài chìm chép lại **cả 5 mỏ
+neo** của bài thắng *(Wiessner + Ju/'hoansi · Blombos · Chauvet · "for 99% of human history" ·
+"bands of 15 to 50 people")*, giám khảo grep xác nhận có thật ở cả hai file → **kém 67,5 lần**.
+
+→ Điểm rubric đo **register**, không đo **triển vọng**. Đạt ngưỡng = mua được vé vào cửa.
+**Hook là SÀN, không phải con hào.**
+
+⚠️ Kèm theo, **L5**: đoạn kết viết hay **KHÔNG cứu được bài**. Mack có 4 đoạn kết đẹp nhất kho,
+cả 4 nằm nhóm đáy. Giám khảo Mack: *"Đọc đoạn kết mà đoán view thì đoán ngược."*

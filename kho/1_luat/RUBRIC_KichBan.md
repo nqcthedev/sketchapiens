@@ -65,7 +65,7 @@
 | # | Tiêu chí | Câu-mẫu chuẩn đối thủ | 0/1/2 |
 |---|---|---|---|
 | 1 | Nhập vai ngôi 2, cảnh cụ thể ngay câu đầu | "You're asleep, drooling on your pillow, probably snoring" | |
-| 2 | Có ≥1 câu **tự giễu loài người** buồn cười trong 15s đầu | "soft, slow, mostly hairless apes who get winded climbing two flights of stairs" | |
+| ~~2~~ | ⛔ **BỎ 09/08 — tự giễu loài người.** Đo 16 kênh: **0 ca thắng toàn kho.** BrightPsycho **0/96 bài**. Simply A Stickman dùng khuôn này ở 4 bài — **cả 4 nhóm chìm**, và kênh đã tự bỏ hẳn. Zenn: bài DUY NHẤT có người dẫn lộ diện là bài **nhóm THẤP** | — | **không chấm** |
 | 3 | Dựng **nghịch lý/đe doạ** khiến phải biết đáp án, và **câu hỏi lõi rơi TRƯỚC giây 31** | "A sleeping human is just meat… so why don't they eat us?" · đo thật: Eating giây **11** · Smoking giây **18** · Predators giây **31** | |
 | 4 | **Lời hứa chiều sâu** ("goes deeper than you think") | "the evidence is genuinely insane" | |
 | 5 | Vào thẳng, KHÔNG "hi guys"/intro kênh | (cả 11 video: 0 intro) | |
@@ -75,8 +75,9 @@
 |---|---|---|---|
 | 6 | Câu "**không phải 1 lý do**" mở khung liệt kê | "It's not one thing. It's never just one thing." | |
 | 7 | 3-7 **tầng leo thang**, tầng sau bất ngờ hơn | | |
-| 8 | **Có một cú lật rõ ràng + BÁO TRƯỚC nó sắp tới** | "one last layer I saved for the end — the most mind-bending part" | |
-| | ⚠️ *Sửa 29/07: KHÔNG ép cú lật phải nằm ở cuối. Winner rải từ 55% đến 88% (2,03M đặt ở 88% · 1,5M ở 60% · 7,81M ở 55-64%). Chấm điểm cho **có** cú lật và **có** báo trước, không chấm vị trí.* | | |
+| 8 | **Có một cú lật rõ ràng** | — | |
+| | ⛔ **BỎ vế "BÁO TRƯỚC" 09/08.** Câu mẫu cũ `"one last layer I saved for the end"` là thứ **cả ngách KHÔNG dùng**: grep 8 cụm hứa-hoãn *(stick around · stay till the end · by the end of this video · keep watching · don't go anywhere · hold that thought · I'll come back to · later in this video)* ra **0 tuyệt đối ở 14/16 kênh**. Zenn có đúng 1 bài dùng — bài đó **nhóm THẤP**. |
+| | ⚠️ Vị trí cú lật: **KHÔNG ép**. 16 kênh cãi nhau bốn phía *(M7)*, và bốn kênh đang **đo bốn thứ khác nhau**. Phát biểu an toàn duy nhất: đẩy khối lớn nhất xuống chương CUỐI là dấu hiệu bài **CHÌM**. | | |
 | 9 | Có **khúc thành thật/mặt tối** trước kết (tăng uy tín) | "none of this means you're untouchable" + sư tử Tsavo | |
 
 ### A3. GIỌNG & HÀI
@@ -103,17 +104,17 @@
 | 20 | **Trả lời thẳng câu hỏi tiêu đề** (kể cả "chưa ai biết chắc") | | |
 | 21 | **Tâng danh tính người xem** — câu định danh ngắn | "That's you. That's what you are." | |
 | 22 | **"Next time you…"** nối cổ đại vào đời người xem | "next time you flip a light switch… You're breathing." | |
-| 23 | **Callback hook** (hình/ý ở đầu quay lại cuối) → video "tròn" | | |
+| ~~23~~ | ⚠️ **HẠ CẤP 09/08 — callback hook.** Vẫn cứ làm, nhưng **KHÔNG chấm điểm**: đo 12/16 kênh cho thấy nó là **nết ~100% của ngách** — Stickly **43/43** · Simply A Stickman **47/47** · Zenn **28/28** *(bài 298 view/ngày callback sạch y như bài 7,83 triệu)* · Mack 49/52 · BC 59/65. **Chỉ số bắn trúng mọi bài là chỉ số đo được số 0.** | — | **ghi nhận** |
 
 ### A6. RETENTION MECHANICS (lớp "dân trong nghề" — câu-mẫu = trích THẬT từ đối thủ triệu view)
 | # | Tiêu chí | Câu-mẫu THẬT của đối thủ | 0/1/2 |
 |---|---|---|---|
 | 24 | **Vòng mẹ + open loop chồng** — mở 1 câu hỏi lớn 30s đầu, giữ mở tới câu chốt cuối; mở vòng con trước khi đóng vòng cũ | "It's not one thing. It's never just one thing. Several layered explanations, each more fascinating than the last." | |
 | 25 | **Re-hook lớn mỗi ~60-90s** — mở section bằng câu hứa món ngon hơn | "Now, let's talk about your smell." · "Here's something that almost never comes up." | |
-| 26 | **Signposting** — cọc "nhiều lớp, mỗi lớp hay hơn" + cọc "để dành cuối" | "one last layer I saved for the end because it's the most mind-bending part" | |
+| ~~26~~ | ⛔ **BỎ 09/08 — cọc "để dành cuối".** Cùng lý do với mục 8: **14/16 kênh grep ra 0 tuyệt đối**. Cọc "nhiều lớp" *(mục 6)* thì giữ — nó khác hẳn cọc **hứa hoãn**. | — | **không chấm** |
 | 27 | **Setup–payoff (cài sớm, lật cuối)** — nêu 1 nghiên cứu/chi tiết ở đầu → lật thành twist lớn nhất ở climax | UC Santa Cruz study nêu phút 1 → phút 16 lật thành "fear cascades cả hệ sinh thái" | |
 | 28 | **Bucket brigade mỗi ~20-30s** — câu nối cực ngắn trước fact sốc (xem file NganHang_ReHook) | "But here's the thing nobody tells you." · "Think about that for a second." | |
-| 29 | **BOOKEND** — câu chốt cuối gọi lại NGUYÊN XI hình ảnh hook, ngôi 2 "Next time you…" | hook "You're in a tent…" → chốt "Next time you're lying in a tent…" | |
+| ~~29~~ | ⚠️ **HẠ CẤP 09/08 — BOOKEND.** Cùng lý do mục 23: callback là nết ngách. Và **L5: đoạn kết viết hay KHÔNG cứu được bài** — Mack có 4 đoạn kết đẹp nhất kho, cả 4 nằm **nhóm đáy**; giám khảo viết *"đọc đoạn kết mà đoán view thì đoán ngược"*. | — | **ghi nhận** |
 | 30 | **'So what' + vá DIP** — mỗi chương buộc vào người xem; đoạn list khô vá bằng đùa khô ngay sau fact | "A lion doesn't have health insurance." (vá dip đoạn giải thích) | |
 
 ### A7. SÁU ĐẶC ĐIỂM RUBRIC CŨ THIẾU HẲN *(bổ sung 29/07/2026)*
@@ -130,15 +131,38 @@
 
 ---
 
-## NGƯỠNG *(sửa 29/07 — bản cũ tự mâu thuẫn: chỗ ghi ≥52/60, chỗ ghi ≥40)*
+## NGƯỠNG *(sửa 09/08/2026 sau khi bóc 16 kênh)*
 
-**36 mục × 2 điểm = 72 tối đa.**
+**32 mục chấm × 2 điểm = 64 tối đa.**
+*(4 mục đã gỡ khỏi thang: **2** tự giễu · **23** callback · **26** cọc để-dành-cuối · **29** bookend.
+Mục 23 và 29 vẫn cứ làm, chỉ không tính điểm.)*
 
 | Mức | Điểm | Nghĩa |
 |---|---|---|
-| Chưa ngang | < 62 | sửa mục 0/1 trước, chưa xét Tầng B |
-| **ĐẠT NGANG** | **≥ 62/72 (86%) VÀ không mục nào = 0** | có cơ sở đăng |
+| Chưa vào register | < 55 | sửa mục 0/1 trước |
+| **VÀO ĐÚNG REGISTER** | **≥ 55/64 (86%) VÀ không mục nào = 0** | đủ điều kiện đăng |
 | Vượt | Tầng A đạt + ≥5/7 đòn B ở mức 2 | mục tiêu mọi video |
+
+> # 🔴 ĐỔI TÊN Ý NGHĨA CỦA ĐIỂM SỐ — 09/08/2026
+>
+> Trước đây "ĐẠT NGANG" nghe như *"kịch bản này ngang đối thủ, có cơ sở ăn view"*. **Sai.**
+>
+> Bóc 16 kênh cùng ngách cho **L3**: cùng một kênh, cùng khuôn hook, cùng khuôn title, cùng bút
+> pháp → view chênh **42 đến 1.938 lần**.
+>
+> | kênh | hai bài giống hệt nhau về cách viết | chênh |
+> |---|---|---|
+> | SuperJoy | 9 bài / 37 ngày, cùng giọng cùng bộ xương | **1.938×** |
+> | PaintItSimple | hai bài cách nhau **2 ngày**, cùng chữ `CRAZIEST` | 304× |
+> | NeonRush | hai bài cách nhau **1 ngày**, cùng bộ xương | 42× |
+> | **Axen** | bài chìm chép lại **cả 5 mỏ neo** của bài thắng *(Wiessner · Blombos · Chauvet …)* | **67,5×** |
+>
+> → **Điểm rubric đo việc bài viết có nằm đúng REGISTER của ngách không. Nó KHÔNG dự báo view.**
+> Đạt ngưỡng = **mua được vé vào cửa**, không phải mua được cú nổ.
+> Hook là **SÀN**, không phải con hào.
+>
+> **Hệ quả thao tác:** đừng sửa đi sửa lại một kịch bản đã đạt ngưỡng để mong nó nổ hơn.
+> Đạt rồi thì **đăng**, rồi dồn sức vào thứ rubric không chạm tới — thumbnail, đề tài, và **số lần thử**.
 
 **Kho câu tái dùng:** `../2_nguyenlieu/NganHang_ReHook_BucketBrigade.md` · **Kho ẩn dụ + truyện chêm:** `../2_nguyenlieu/KHO_AnDu_TruyenChem_LachLuat.md`
 
@@ -165,8 +189,8 @@
 
 ## CÁCH ĐỌC KẾT QUẢ
 *(số cũ "<40 / ≥40" đã xoá — nó mâu thuẫn với ngưỡng ≥52 ghi ở trên trong cùng file. Nay thống nhất theo thang 72.)*
-- **< 62/72 Tầng A** → chưa ngang. Sửa mục 0/1 trước, chưa xét vượt.
-- **≥ 62/72 Tầng A, B yếu** → NGANG đối thủ (đã có cơ sở đăng), nhưng chưa vượt.
+- **< 55/64 Tầng A** → chưa vào register. Sửa mục 0/1 trước, chưa xét vượt.
+- **≥ 55/64 Tầng A, B yếu** → đã vào đúng register của ngách (đủ điều kiện đăng), nhưng điểm KHÔNG dự báo view.
 - **Tầng A đạt + B ≥ 5/7** → VƯỢT. Đây là mục tiêu mọi video.
 
 > Nhắc: rubric là SÀN để đứng, không phải trần. Đạt hết vẫn cần packaging (title×thumbnail) + kênh ấm + đăng đều. Rubric lo phần KỊCH BẢN — phần mình kiểm soát được 100%.
