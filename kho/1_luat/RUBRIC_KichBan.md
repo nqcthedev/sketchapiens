@@ -78,6 +78,8 @@
 | 8 | **Có một cú lật rõ ràng** | — | |
 | | ⛔ **BỎ vế "BÁO TRƯỚC" 09/08.** Câu mẫu cũ `"one last layer I saved for the end"` là thứ **cả ngách KHÔNG dùng**: grep 8 cụm hứa-hoãn *(stick around · stay till the end · by the end of this video · keep watching · don't go anywhere · hold that thought · I'll come back to · later in this video)* ra **0 tuyệt đối ở 14/16 kênh**. Zenn có đúng 1 bài dùng — bài đó **nhóm THẤP**. |
 | | ⚠️ Vị trí cú lật: **KHÔNG ép**. 16 kênh cãi nhau bốn phía *(M7)*, và bốn kênh đang **đo bốn thứ khác nhau**. Phát biểu an toàn duy nhất: đẩy khối lớn nhất xuống chương CUỐI là dấu hiệu bài **CHÌM**. | | |
+| **37** 🆕 | **NỐI CHƯƠNG bằng MỘT trong ba cơ chế** *(thay cho cliffhanger đã gỡ ở mục 8 và 26)* — **①** giải pháp vừa nêu **đẻ ra vấn đề mới** · **②** phủ định độc quyền `X wasn't the only Y` / `X wasn't just Y` · **③** mở chương gắn `because` để bán lại lý do nghe tiếp | **10/16 kênh** *(09/08)*. ① giám khảo Ink Explainer: *"kỹ thuật mạnh nhất tìm được"*; MrHell đặt ở 41/44/68/69/83%. ② MrHell n=3, **0/3 ở nhóm thấp**. ③ Mogo lặp `"Now, let's talk about X, because this is where…"` **9 lần** | |
+| **38** 🆕 | **HÌNH DẠNG MỐI NỐI**: câu ĐÓNG chương **cụt 1-10 từ** → câu MỞ chương **dài hơn ~1,56 lần** | **9/16 kênh, 0 kênh làm ngược.** Before Civilization đo mốc VTT thật trên **157 mối nối**: đóng trung vị **9 từ**, mở **14 từ**. ⚠️ Đây là HÌNH DẠNG, không phải đòn bẩy — M9 cho thấy mật độ câu cụt **không** dự báo view | |
 | 9 | Có **khúc thành thật/mặt tối** trước kết (tăng uy tín) | "none of this means you're untouchable" + sư tử Tsavo | |
 
 ### A3. GIỌNG & HÀI
@@ -98,12 +100,15 @@
 | 18 | **Con số chính xác** đi kèm fact (không "rất nhiều/lâu lắm") | "burns in about 12 minutes of summer sun" | |
 | 19 | Contractions + câu hỏi thả vào (nghe "nói" không "đọc") | "So what's going on there?" · "You're welcome." | |
 
+| **40** 🆕 | **Mỏ neo nén trọn vào MỘT câu**, chức danh nghề đứng **TRƯỚC** tên riêng. ⛔ Không `Dr.`, không `Professor`, không `a study found` trống không | **7/16 kênh, 0 ngược.** BrightPsycho **0/96 bài** dùng Dr./Professor *(title thời kỳ chết vẫn viết "Top Doctor Reveals…" — bài đó **22 view**)*. Zenn 21/28 bài có cụm `[chức danh]+[Tên]`, **0 lần** `"a study found"` trống. **Không kênh nào rải mỏ neo ra nhiều câu.**<br>**(A)** `In [năm], [chức danh] [Tên Họ] at [Trường] + [động từ] (+ published a paper in [Tạp chí])`<br>**(B)** `In [ĐỊA DANH], researchers found [HIỆN VẬT] (+ niên đại)` | |
+
 ### A5. KẾT
 | # | Tiêu chí | Mẫu | 0/1/2 |
 |---|---|---|---|
 | 20 | **Trả lời thẳng câu hỏi tiêu đề** (kể cả "chưa ai biết chắc") | | |
 | 21 | **Tâng danh tính người xem** — câu định danh ngắn | "That's you. That's what you are." | |
 | 22 | **"Next time you…"** nối cổ đại vào đời người xem | "next time you flip a light switch… You're breathing." | |
+| **39** 🆕 | **Câu cuối là câu KHẲNG ĐỊNH**, không phải câu hỏi. Và đoạn kết là một **CẶP**: câu dựng → câu lật **NGẮN HƠN**, thu hẹp hoặc đảo nghĩa câu trước | **Mack 0/52 bài** kết bằng câu hỏi · SuperJoy 9/9 khẳng định · Zenn 1/28 · Ink Explainer bài kết bằng câu hỏi = **đáy kênh** · Paint It Simple bài duy nhất kết bằng hỏi = 1.060 view, gần đáy. Khuôn CẶP: **9/16 kênh**. ⚠️ **Độ dài câu kết KHÔNG dự báo gì** — MrHell bài bét chốt 42 từ *ngắn hơn* quả nổ 79 từ | |
 | ~~23~~ | ⚠️ **HẠ CẤP 09/08 — callback hook.** Vẫn cứ làm, nhưng **KHÔNG chấm điểm**: đo 12/16 kênh cho thấy nó là **nết ~100% của ngách** — Stickly **43/43** · Simply A Stickman **47/47** · Zenn **28/28** *(bài 298 view/ngày callback sạch y như bài 7,83 triệu)* · Mack 49/52 · BC 59/65. **Chỉ số bắn trúng mọi bài là chỉ số đo được số 0.** | — | **ghi nhận** |
 
 ### A6. RETENTION MECHANICS (lớp "dân trong nghề" — câu-mẫu = trích THẬT từ đối thủ triệu view)
@@ -133,14 +138,14 @@
 
 ## NGƯỠNG *(sửa 09/08/2026 sau khi bóc 16 kênh)*
 
-**32 mục chấm × 2 điểm = 64 tối đa.**
-*(4 mục đã gỡ khỏi thang: **2** tự giễu · **23** callback · **26** cọc để-dành-cuối · **29** bookend.
-Mục 23 và 29 vẫn cứ làm, chỉ không tính điểm.)*
+**36 mục chấm × 2 điểm = 72 tối đa.**
+*(gỡ 4: **2** tự giễu · **23** callback · **26** cọc để-dành-cuối · **29** bookend — 23 và 29 vẫn cứ làm, chỉ không tính điểm.
+Thêm 4 từ đợt bóc 16 kênh: **37** nối chương ba cơ chế · **38** hình dạng mối nối · **39** câu cuối khẳng định + cặp · **40** khuôn nén mỏ neo.)*
 
 | Mức | Điểm | Nghĩa |
 |---|---|---|
-| Chưa vào register | < 55 | sửa mục 0/1 trước |
-| **VÀO ĐÚNG REGISTER** | **≥ 55/64 (86%) VÀ không mục nào = 0** | đủ điều kiện đăng |
+| Chưa vào register | < 62 | sửa mục 0/1 trước |
+| **VÀO ĐÚNG REGISTER** | **≥ 62/72 (86%) VÀ không mục nào = 0** | đủ điều kiện đăng |
 | Vượt | Tầng A đạt + ≥5/7 đòn B ở mức 2 | mục tiêu mọi video |
 
 > # 🔴 ĐỔI TÊN Ý NGHĨA CỦA ĐIỂM SỐ — 09/08/2026
@@ -189,8 +194,8 @@ Mục 23 và 29 vẫn cứ làm, chỉ không tính điểm.)*
 
 ## CÁCH ĐỌC KẾT QUẢ
 *(số cũ "<40 / ≥40" đã xoá — nó mâu thuẫn với ngưỡng ≥52 ghi ở trên trong cùng file. Nay thống nhất theo thang 72.)*
-- **< 55/64 Tầng A** → chưa vào register. Sửa mục 0/1 trước, chưa xét vượt.
-- **≥ 55/64 Tầng A, B yếu** → đã vào đúng register của ngách (đủ điều kiện đăng), nhưng điểm KHÔNG dự báo view.
+- **< 62/72 Tầng A** → chưa vào register. Sửa mục 0/1 trước, chưa xét vượt.
+- **≥ 62/72 Tầng A, B yếu** → đã vào đúng register của ngách (đủ điều kiện đăng), nhưng điểm KHÔNG dự báo view.
 - **Tầng A đạt + B ≥ 5/7** → VƯỢT. Đây là mục tiêu mọi video.
 
 > Nhắc: rubric là SÀN để đứng, không phải trần. Đạt hết vẫn cần packaging (title×thumbnail) + kênh ấm + đăng đều. Rubric lo phần KỊCH BẢN — phần mình kiểm soát được 100%.

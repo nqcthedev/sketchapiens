@@ -590,3 +590,103 @@ Nếu 3 câu đều "không" → đổi đề tài hoặc xoay góc TRƯỚC khi
 - [ ] Có dùng ≥3 trong 7 cơ chế 12.3 (tránh 1 kiểu đùa lặp mãi) chưa?
 - [ ] Nhịp fact-dài → aside-ngắn giữ đúng chưa? Có chỗ nào 2 câu hài dính nhau (nhạt) không?
 - [ ] Đọc-to: aside nào gượng đã cắt chưa?
+
+---
+
+# PHẦN 13 — ĐO 16 KÊNH CÙNG NGÁCH *(09/08/2026)*
+
+*Nguồn: `kho/3_bangchung/TONGHOP_16Kenh_2026-08-09.md`. Mỗi kênh qua một agent bóc và một
+giám khảo mở bản ghi gốc đối chiếu từng câu trích. Chỉ những gì đúng ở **≥4 kênh và không kênh
+nào ngược** mới nằm dưới đây.*
+
+## 13.1 ⛔ BA THỨ PHẢI BỎ — cả ngách KHÔNG làm
+
+**① Đừng hứa trước "phần hay ở cuối".**
+Grep 8 cụm *(`stick around` · `stay till the end` · `by the end of this video` · `keep watching`
+· `don't go anywhere` · `hold that thought` · `I'll come back to` · `later in this video`)*
+→ **0 tuyệt đối ở 14/16 kênh.** Neon Rush **0 hit / 126.798 từ**. Stickly 4 câu / 148.000 từ.
+Zenn có đúng **1** bài dùng → bài đó **nhóm THẤP**.
+
+**② Đừng viết câu tự giễu loài người trong hook.**
+**0 ca thắng toàn kho.** BrightPsycho **0/96 bài**. Simply A Stickman dùng ở 4 bài — **cả 4 chìm**,
+kênh đã tự bỏ hẳn. Zenn: bài DUY NHẤT có người dẫn lộ diện = **nhóm THẤP**.
+*(Ranh giới: "I" của người dẫn thì KHÔNG cấm — Mack bài 9.200 view/ngày mở bằng
+`Okay, stop. / Before you click away, I need you to understand something.` Cấm là cấm TỰ GIỄU.)*
+
+**③ Đừng chào, đừng xưng tên kênh, đừng giới thiệu người dẫn.**
+Quét `welcome to · in this video · my name is · hey guys · thanks for watching`
+→ Neon Rush **0 hit / 126.798 từ**; giám khảo gọi là *"phát hiện chắc nhất của cả báo cáo"*.
+Toàn ngách có **đúng 1** ngoại lệ: Before Civilization, `"thank you for watching"` 1 lần / 65 bài.
+
+## 13.2 ✅ NỐI CHƯƠNG — ba cơ chế thay cho cliffhanger
+
+Đây là thứ **thay thế** cho "báo trước cú lật" đã bỏ. **10/16 kênh.**
+
+**① Giải pháp vừa nêu ĐẺ RA vấn đề mới.**
+Giám khảo Ink Explainer: *"kỹ thuật mạnh nhất tìm được"*. Paint It Simple dùng nhiều nhất kênh.
+MrHell đặt ở 41% · 44% · 68% · 69% · 83%.
+
+**② Phủ định độc quyền** — `X wasn't the only Y` · `X wasn't just Y`.
+MrHell n=3, **0/3 ở nhóm thấp**. Zenn 7 câu. Cộng Paint It Simple, BC, Rune, BrightPsycho.
+
+**③ Mở chương gắn `because`** — bán lại lý do nghe tiếp.
+Mogo lặp `"Now, let's talk about X, because this is where…"` **9 lần** (51–55% câu mở chương).
+
+⚠️ **Nhưng mật độ `Let's start with / Let's talk about` KHÔNG thắng.** BrightPsycho khoá lane:
+6/7 vs 6/7 phẳng tuyệt đối. Mack nhóm THẤP dày hơn nhóm CAO. Axen dày nhất ở bài **bét bảng**.
+
+## 13.3 ✅ HÌNH DẠNG MỐI NỐI
+
+Câu **ĐÓNG chương cụt 1-10 từ** → câu **MỞ chương dài hơn ~1,56 lần**.
+**9/16 kênh, 0 kênh làm ngược.** Before Civilization đo mốc VTT thật trên **157 mối nối**:
+đóng trung vị **9 từ**, mở **14 từ**.
+
+⚠️ Đây là **hình dạng**, không phải đòn bẩy: mật độ câu cụt **không** dự báo view. Axen — bài
+**cụt nhất kênh (54% câu ≤6 từ)** là bài **259 view/ngày**; bài top-1 chỉ 30,2%, hạng 5/12.
+
+## 13.4 ✅ CÂU CUỐI
+
+**Là câu KHẲNG ĐỊNH, không phải câu hỏi.** Mack **0/52** · SuperJoy 9/9 · Zenn 1/28 ·
+Ink Explainer bài kết bằng hỏi = **đáy kênh** · Paint It Simple bài duy nhất kết bằng hỏi =
+1.060 view, gần đáy.
+
+**Kết là một CẶP** *(9/16 kênh)*: câu dựng → câu lật **NGẮN HƠN**, thu hẹp hoặc đảo nghĩa câu trước.
+
+⚠️ **Độ dài câu kết không dự báo gì.** MrHell bài bét chốt **42 từ**, ngắn hơn quả nổ **79 từ**.
+
+## 13.5 ✅ CÁCH NÊU NGƯỜI VÀ MỎ NEO
+
+**Chức danh nghề đứng TRƯỚC tên riêng. Không `Dr.`, không `Professor`.**
+BrightPsycho **0/96 bài**. *(Ngược lại, title thời kỳ chết của họ vẫn viết `"Top Doctor Reveals…"`
+— bài đó **22 view**.)* Zenn 21/28 bài có cụm `[chức danh]+[Tên]`, và **0 lần** dùng
+`"a study found"` trống không.
+
+**Nén trọn vào MỘT câu — không kênh nào rải mỏ neo ra nhiều câu:**
+```
+(A)  In [năm], [chức danh] [Tên Họ] at [Trường] + [động từ] (+ published a paper in [Tạp chí])
+(B)  In [ĐỊA DANH có tên], researchers found [HIỆN VẬT] (+ niên đại)
+```
+
+⚠️ **Mật độ mỏ neo KHÔNG dự báo view.** SuperJoy: 2 bài dày mỏ neo nhất kho đều **nửa dưới bảng**;
+riêng tháng 5 tương quan **−0,60**. Zenn: bài **4,02 triệu** có mật độ mỏ neo **thấp thứ nhì tháng**.
+→ Mỏ neo để **đúng register và đủ tin**, không phải để ăn view.
+
+## 13.6 🔴 CÁI KHUNG PHẢI ĐỔI TRONG ĐẦU
+
+**Hook là SÀN, không phải con hào.**
+
+Cùng một kênh, cùng khuôn hook, cùng khuôn title, cùng bút pháp → view chênh **42 đến 1.938 lần**:
+
+| kênh | hai bài giống nhau về cách viết | chênh |
+|---|---|---|
+| SuperJoy | 9 bài / 37 ngày, cùng giọng cùng bộ xương | **1.938×** |
+| Paint It Simple | hai bài cách nhau **2 ngày**, cùng chữ `CRAZIEST` | 304× |
+| Neon Rush | hai bài cách nhau **1 ngày** | 42× |
+| **Axen** | bài chìm chép lại **cả 5 mỏ neo** của bài thắng | **67,5×** |
+
+→ Viết đúng khuôn = **mua vé vào cửa**, không phải mua cú nổ.
+**Đừng sửa đi sửa lại một kịch bản đã đạt ngưỡng rubric để mong nó nổ hơn.** Đạt rồi thì đăng.
+
+⚠️ **Giới hạn của cả PHẦN 13:** 16/16 kênh không có retention/CTR/impressions. Mọi kết luận ở
+đây suy từ VIEW, mà view do **thumbnail** quyết định. Nên phần này dạy **CÁCH VIẾT**, không dạy
+**CÁI GÌ ĂN VIEW**. Thứ trả lời câu sau nằm ở YouTube Studio của kênh mình.
