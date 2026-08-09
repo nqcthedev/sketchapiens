@@ -1,6 +1,6 @@
 # KHO BẢN GHI GỐC — chỉ số toàn ngách
 
-*Dựng 06/08/2026 bằng `yt-dlp` + nexlev. **488 bản ghi / 16 kênh vẽ** *(sau khi xoá 3 kênh documentary ngày 08/08)*. Phụ đề `en-orig` (bản gốc, không phải dịch máy).*
+*Dựng 06/08/2026 bằng `yt-dlp` + nexlev. **488 bản ghi / 16 kênh vẽ** *(kiểm lại 09/08: đủ 16, không còn kênh documentary nào)* *(sau khi xoá 3 kênh documentary ngày 08/08)*. Phụ đề `en-orig` (bản gốc, không phải dịch máy).*
 
 > ## 🔴 LUẬT DÙNG KHO — một câu
 > **Kho này chỉ để ĐO. Cấm mở trong chế độ ② VIẾT.**
@@ -45,7 +45,7 @@
 | `ExtinctZoo` | 144 | documentary · ngách **động vật tuyệt chủng** · 1,49 triệu sub *(view do sub mua, không do công thức)* |
 | `PaintExplainer` | 139 | documentary · ngách **liệt kê phổ thông** *(Every X Explained in N Minutes)* |
 | `HistoricalArchitect` | 23 | documentary |
-| `ADayInHistory` | 0 | thư mục rỗng — lần kéo hỏng, không ai biết cho tới 07/08 |
+| `ADayInHistory` | 0 | thư mục rỗng — lần kéo hỏng, không ai biết cho tới 07/08. **Đã xoá hẳn 09/08** |
 
 **Vì sao xoá thay vì để lại.** Bảng cũ ghi *"chỉ tra đề tài, KHÔNG đo nhịp/giọng/độ dài"* —
 tức là để lại kèm lời dặn. **Lời dặn không đủ.** Ngày 08/08 chính tôi định chạy đợt bóc kỹ
