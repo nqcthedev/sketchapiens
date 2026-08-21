@@ -20,6 +20,7 @@
 |---|---|---|---|
 | Luật phiên làm việc | `CLAUDE.md` | — | mới, canonical |
 | Luật theo khu vực | `.claude/rules/*.md` | — | mới, canonical |
+| **Roadmap kiến trúc / kế hoạch nâng cấp** | **`governance/MASTER_UPGRADE_PLAN.md`** | — | **roadmap canonical, KHÔNG phải sổ luật nội dung** |
 | Bản đồ tri thức cũ | `00_LUAT_HIEN_HANH.md` | `governance/` | **không sửa trong phiên thường** |
 | Lifecycle sản xuất | `kho/1_luat/WORKFLOW_Production.md` | `knowledge/production/` | ⚠️ chồng lấn với file dưới |
 | Cổng viết kịch bản | `kho/1_luat/FLOW_VietKichBan_11Cong.md` | `knowledge/writing/script-gates.md` | ⚠️ **D-01: chưa rõ file nào thắng** |
