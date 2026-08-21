@@ -1,24 +1,34 @@
 # Story Engine Test Results — KẾT QUẢ KIỂM STORY ENGINE
 
-Current Phase 2 verification report:
+## Verification records — Hồ sơ xác minh
 
-- [`phase2-verification-2026-08-21.md`](phase2-verification-2026-08-21.md)
+- [`phase2-verification-2026-08-21.md`](phase2-verification-2026-08-21.md) — **static verification / xác minh tĩnh trước runtime**. Giữ nguyên trạng thái `runtime pending` như lịch sử tại thời điểm nó được tạo.
+- [`runtime-verification-closeout-2026-08-21.md`](runtime-verification-closeout-2026-08-21.md) — **runtime closeout / hồ sơ đóng Phase 2 sau Claude Code smoke + corrective rerun**. Đây là record mới hơn cho trạng thái Phase 2.
 
 ## Current status — Trạng thái hiện tại
 
 ```text
-NEXT-02G: VERIFICATION COMPLETE
-PHASE 2: RELEASE CANDIDATE
+NEXT-02G: RUNTIME VERIFICATION PASS
+NEXT-02H: PHASE 2 CLOSEOUT COMPLETE
+PHASE 2: COMPLETE / STABLE
 STATIC VERIFICATION: PASS
-SEMANTIC CLAUDE CODE RUNTIME SMOKE: PENDING
-MERGE TO MAIN: NOT YET
-PHASE 3: DO NOT START YET
+STRUCTURE_SMOKE: PASS 15/15
+REVIEWER_SMOKE: PASS 6/6
+PROJECT_DOCTOR: FAIL 0
+P0: 0
+P1: 0
+CANDIDATE LEAKAGE: NONE
+TEMPLATE FORCING: NONE
+EVIDENCE BOUNDARY: PASS
+PHASE 3: GATE CLEARED — START WITH READ-ONLY WRITER AUDIT
 ```
 
-Phase 2 may be marked `COMPLETE / STABLE` only after the blockers listed in the verification report are executed and pass:
+Phase 2 được đóng vì cả ba blocker của static verification đã được chạy trong target runtime và không còn blocking regression:
 
-1. full `STRUCTURE_SMOKE`;
-2. `REVIEWER_SMOKE` using the actual `viewer-retention-judge` subagent;
-3. local `python3 tools/project_doctor.py` with no new blocking failure.
+1. full `STRUCTURE_SMOKE` → PASS 15/15 sau corrective rerun hợp lệ của H-03/H-04;
+2. `REVIEWER_SMOKE` bằng actual `viewer-retention-judge` → PASS 6/6;
+3. `python3 tools/project_doctor.py` → PASS 40 · WARN 7 · FAIL 0 · new Phase-2 blocker 0.
 
-`tests/results/**` is **non-runtime verification output**. Writer/reviewer must not load it during normal video work.
+`tests/results/**` là **non-runtime verification output — đầu ra xác minh không dùng trong runtime**. Writer/reviewer không được load thư mục này khi làm video bình thường.
+
+Một guardrail debt vẫn mở nhưng **không phải Story Engine blocker**: `project_doctor.py` đang nhận legacy folder bằng `basename.startswith("Video")`; cần đổi sang legacy allowlist cố định trước khi V21/new-video convention có thể vô tình lách `video.yaml` gate.

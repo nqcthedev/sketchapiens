@@ -46,7 +46,33 @@ Lý do: nếu model đọc Mechanism Lab trước thì Candidate Firewall test m
 
 ---
 
-## 3. Prompt chuẩn cho một fixture
+## 3. Input completeness gate — Cổng xác nhận input đầy đủ
+
+**Historical fixture không được chẩn đoán trước khi chứng minh input đã nạp đủ.**
+
+Trước diagnosis, ghi tối thiểu:
+
+```text
+FIXTURE: H-XX
+SOURCE BLOB: <full pinned sha>
+SOURCE TOTAL LINES: <n>
+LOADED LINES: <n>
+INPUT COMPLETE: YES / NO
+```
+
+Điều kiện:
+
+- `LOADED LINES == SOURCE TOTAL LINES`;
+- nếu có thể, chạy checksum / `git hash-object` trên file đã trích và xác nhận bằng pinned blob SHA;
+- `INPUT COMPLETE: NO` → **DỪNG**, lượt chạy là `EXECUTION FAULT — lỗi thực thi`, không được chẩn đoán và không được tính FAIL cho engine.
+
+Với micro fixture, phải cấp **toàn bộ INPUT/SURFACE block** của đúng fixture; không cắt theo token convenience.
+
+Lý do: runtime verification 2026-08-21 từng nạp H-03 `80/158` dòng và H-04 `60/126` dòng, tạo một P1 giả và một REVIEW giả dù engine không đổi.
+
+---
+
+## 4. Prompt chuẩn cho một fixture
 
 ```text
 Run Story Engine STRUCTURE_SMOKE on fixture <ID>.
@@ -66,21 +92,44 @@ Không cho model thấy expected behavior trước nếu mục tiêu là đo jud
 
 ---
 
-## 4. Blind-first protocol — Quy trình chấm mù trước
+## 5. Blind-first protocol — Quy trình chấm mù trước
 
-Để giảm overfit:
+Để giảm overfit, tách ba vai rõ:
 
-1. evaluator A chỉ đưa input/surface của fixture;
-2. model tạo diagnosis;
-3. evaluator B hoặc pass thứ hai mới so với `MUST DETECT / MUST NOT`;
-4. ghi fail theo behavior, không theo từ ngữ;
-5. không sửa fixture hoặc engine ngay sau một fail duy nhất; xác định fail do test hay do engine.
+1. **Evaluator A — người cấp input:** chỉ đưa input/surface + context profile; xác nhận Input Completeness Gate trước khi gọi model.
+2. **Diagnosis model — model chẩn đoán:** tạo diagnosis trong context chưa từng thấy `MUST DETECT / MUST NOT / EVIDENCE HANDOFF` của fixture đó.
+3. **Evaluator B — người chấm:** chỉ sau khi diagnosis đã đóng mới mở expectation để so.
+4. Ghi fail theo behavior, không theo từ ngữ.
+5. Không sửa fixture hoặc engine ngay sau một fail duy nhất; trước hết phân loại nguồn lỗi.
 
-Historical fixtures có expectation cùng file để bảo trì thuận tiện, nhưng khi chạy thật nên **copy input/path sang context riêng trước**, không preload cả file expectation.
+Historical fixtures có expectation cùng file để bảo trì thuận tiện, nhưng khi chạy thật phải **copy input/path sang context riêng trước**, không preload cả file expectation.
+
+### Corrective rerun — Chạy lại sửa lỗi thực thi
+
+Nếu evaluator/model của lượt gốc **đã nhìn expectation**, context đó **không được tự rerun cùng fixture** rồi gọi là blind-first.
+
+Corrective rerun phải dùng:
+
+```text
+Evaluator A có thể biết lịch sử / expectation
+        ↓ chỉ cấp full input + context profile
+CLEAN DIAGNOSIS CONTEXT chưa thấy expectation
+        ↓ diagnosis đóng
+Evaluator B mới mở expectation và chấm
+```
+
+Giữ nguyên kết quả lượt gốc trong lịch sử. Ghi:
+
+```text
+ORIGINAL RUN  → INVALID DUE TO EXECUTION FAULT
+CORRECTIVE RUN → PASS / FAIL / REVIEW
+```
+
+Không rewrite lịch sử để lượt gốc trông như đã pass.
 
 ---
 
-## 5. Report format — Mẫu báo cáo
+## 6. Report format — Mẫu báo cáo
 
 Tạo file tạm ngoài runtime hoặc trong working notes với format:
 
@@ -90,6 +139,10 @@ ENGINE COMMIT: <sha>
 PROFILE: STRUCTURE_SMOKE / REVIEWER_SMOKE
 
 FIXTURE: H-01
+SOURCE BLOB: <sha or N/A>
+SOURCE TOTAL LINES: <n or N/A>
+LOADED LINES: <n or N/A>
+INPUT COMPLETE: YES / NO / N/A
 RESULT: PASS / FAIL / REVIEW
 SEVERITY: P0 / P1 / P2 / P3 / none
 MUST DETECT: PASS / FAIL + note
@@ -108,7 +161,9 @@ P0:
 P1:
 ```
 
-## 6. PASS policy — Chính sách pass
+---
+
+## 7. PASS policy — Chính sách pass
 
 ### `PASS`
 
@@ -133,24 +188,56 @@ Ví dụ:
 - tự fact verdict ở M-06;
 - đổi title thay owner ở M-09.
 
+### `EXECUTION FAULT` — Lỗi thực thi
+
+Không phải verdict semantic của fixture.
+Dùng khi lượt chạy không đủ điều kiện để kết luận về engine, ví dụ:
+
+- input bị cắt / thiếu dòng;
+- pinned blob không khớp;
+- model đã thấy expectation trước diagnosis;
+- context profile vô tình preload Mechanism Lab/candidate;
+- test chạy sai file hoặc sai version.
+
+`EXECUTION FAULT` **không được tính PASS/FAIL cho engine**. Sửa execution rồi rerun đúng fixture bằng clean diagnosis context.
+
 ---
 
-## 7. Regression policy — Chính sách hồi quy
+## 8. Regression policy — Chính sách hồi quy
 
-Nếu suite fail sau refactor:
+Nếu suite xuất hiện FAIL/REVIEW sau refactor, **phân loại nguyên nhân trước khi sửa bất cứ thứ gì**:
 
-1. xác định **first bad commit — commit đầu tiên gây lỗi**;
-2. hỏi fixture có đang bảo vệ principle hay preference;
-3. nếu fixture đúng → sửa engine/reference nhỏ nhất có thể;
-4. nếu fixture sai → sửa fixture và ghi lý do;
-5. chạy lại **case fail + một case đối nghịch**, rồi mới full suite.
+### A. `ENGINE DEFECT — lỗi engine`
+
+Fixture hợp lệ + execution hợp lệ + behavior trái contract.
+
+→ xác định **first bad commit — commit đầu tiên gây lỗi**;
+→ sửa engine/reference nhỏ nhất có thể;
+→ chạy lại case fail + một case đối nghịch, rồi mới full suite nếu cần.
+
+### B. `FIXTURE DEFECT — lỗi ca thử`
+
+Expectation đang bảo vệ preference thay vì principle, hoặc script/fixture ambiguous hơn test giả định.
+
+→ sửa fixture và ghi lý do;
+→ không tune engine để làm test cũ xanh.
+
+### C. `EXECUTION FAULT — lỗi thực thi`
+
+Input/context/protocol không hợp lệ.
+
+→ không sửa engine;
+→ giữ lịch sử run lỗi;
+→ sửa execution;
+→ rerun bằng clean diagnosis context;
+→ chỉ kết luận engine sau corrective run hợp lệ.
 
 Không “tune” Story Engine bằng cách thêm một câu rule cho mỗi fixture fail.
 Đó là cách test suite biến thành rule pile.
 
 ---
 
-## 8. Deterministic checker — Máy kiểm phần máy kiểm được
+## 9. Deterministic checker — Máy kiểm phần máy kiểm được
 
 `check_smoke_report.py` chỉ kiểm:
 

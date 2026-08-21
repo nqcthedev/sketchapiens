@@ -331,11 +331,13 @@ Không nhét knowledge canonical vào video chỉ vì nó được phát hiện 
 
 # 4. KNOWN ARCHITECTURE DEBT — NỢ KIẾN TRÚC ĐÃ BIẾT
 
-## D-ARCH-01 — Writer skill quá lớn
+## D-ARCH-01 — Writer implementation monolith vẫn quá lớn
 
-`sketchapiens-viet-kich-ban/SKILL.md` đang gánh quá nhiều vai trò: public interface + implementation + history + overrides + old rules.
+Active `sketchapiens-viet-kich-ban/SKILL.md` đã được thu thành compatibility wrapper mỏng, nhưng implementation/history cũ vẫn nằm trong `references/runtime-monolith-legacy.md` và còn gánh quá nhiều responsibility bên trong một artifact.
 
-**Risk:** context pollution, self-conflict, hard-to-test changes.
+**Risk:** context pollution khi legacy reference phải mở, self-conflict, hard-to-test refactor.
+
+**Disposition:** Phase 3 — Writer Refactor.
 
 ## D-ARCH-02 — Dead rules vẫn có thể sống ở consumer
 
@@ -353,13 +355,28 @@ Ví dụ đã bắt trong đợt upgrade này: `I ≈ 0` chết ở rubric nhưn
 
 Migration này chưa được làm đồng loạt và không được làm vội.
 
-## D-ARCH-05 — Creative mechanisms chưa có lifecycle R&D rõ trong runtime
+## D-ARCH-05 — CLOSED: Creative mechanism lifecycle đã có canonical boundary
 
-Đã bắt đầu chữa bằng `mechanism-lab.md`, nhưng cần quy trình test → promotion/demotion có dấu vết.
+Đã đóng trong Phase 2 bằng:
 
-## D-ARCH-06 — Runtime validation chưa đủ để bắt documentation drift
+- `candidate-lifecycle.md` — status machine / promotion firewall;
+- `mechanism-lab.md` — candidate data store;
+- normal writer/reviewer không auto-load candidate;
+- runtime smoke xác nhận candidate leakage = NONE.
 
-`project_doctor.py` cần phát triển thành architecture linter, nhưng chỉ bắt thứ deterministic.
+Không reopen debt này chỉ vì có candidate mới; candidate mới đi qua lifecycle hiện hành.
+
+## D-ARCH-06 — Runtime validation chưa đủ để bắt mọi documentation/architecture drift
+
+`project_doctor.py` đã chuyển state/id ownership về schema và sửa review path, nhưng architecture linter vẫn còn scope mở cho Phase 7.
+
+## D-ARCH-07 — Legacy-folder exemption trong `project_doctor.py` quá rộng
+
+Legacy folder hiện được nhận bằng prefix tương đương `basename.startswith("Video")`.
+
+**Risk:** một video mới tên `Video21_*` có thể bị coi nhầm là legacy và lách `video.yaml` gate.
+
+**Disposition:** deterministic guardrail fix riêng trước khi new-video/V21 phụ thuộc vào convention mới; không phải Story Engine defect.
 
 ---
 
@@ -398,7 +415,7 @@ Xóa branch upgrade, `main` không đổi.
 
 ## PHASE 0.5 — ARCHITECTURE CONTRACT — KHÓA HỢP ĐỒNG KIẾN TRÚC
 
-**Status:** `IN PROGRESS — FILE NÀY LÀ DELIVERABLE CHÍNH`
+**Status:** `COMPLETE FOR CURRENT UPGRADE`
 
 ### Mục tiêu
 
@@ -428,28 +445,25 @@ Không ảnh hưởng runtime; đây là planning/governance layer.
 
 ## PHASE 1 — CONSISTENCY REPAIR — SỬA LỆCH NGUỒN CHUẨN
 
-**Status:** `IN PROGRESS`
+**Status:** `COMPLETE / STABLE — checkpoint 57991d61d0cb3a4b5496951b566f73254ac9753c`
 
 ### Mục tiêu
 
 Một constraint chỉ có một nghĩa active trên toàn runtime.
 
-### Đã làm trên branch
+### Đã hoàn tất trên branch
 
 - [x] `.claude/rules/script-files.md`: 4 → 3 hard constraints;
 - [x] bỏ `I ≈ 0` khỏi active hard constraints;
 - [x] `RULE_REGISTRY.yaml`: sửa R-HARD-01;
 - [x] `RULE_REGISTRY.yaml`: sửa version semantics thành immutable versions + mutable refs;
-- [x] kiểm `/audit-script`, `/apply-review`, `qa_kichban.py` — đã dùng 3 constraints;
-- [x] thêm bilingual Story Engine routing note vào script rule.
-
-### Còn làm
-
-- [ ] sửa frontmatter `sketchapiens-viet-kich-ban` từ English-first / 2-column / 8–25m sang contract hiện hành;
-- [ ] grep/search toàn project cho `I ≈ 0`, `four hard constraints`, `4 ràng buộc cứng` và phân loại historical vs active;
-- [ ] rà `approved.md` / `published.md` terminology cũ;
-- [ ] rà các duplicate lifecycle paths;
-- [ ] ghi migration note nếu có source active được retire.
+- [x] kiểm `/audit-script`, `/apply-review`, `qa_kichban.py` — dùng 3 constraints;
+- [x] writer routing/frontmatter được thay bằng compatibility wrapper theo VI-first contract;
+- [x] active-vs-historical occurrences của `I ≈ 0` được phân loại; historical sample không có runtime authority;
+- [x] `approved/published` semantics được đồng bộ thành immutable versions + mutable refs;
+- [x] canonical review path được khóa ở `04-review/`;
+- [x] lifecycle state/id pattern được giao cho `schemas/video.schema.json`;
+- [x] templates và `SOURCE_OF_TRUTH.md` được đồng bộ theo active architecture.
 
 ### Acceptance criteria
 
@@ -466,50 +480,62 @@ Revert riêng Phase 1 commits, không đụng creative engine.
 
 ## PHASE 2 — STORY ENGINE — CỖ MÁY CẤU TRÚC CÂU CHUYỆN
 
-**Status:** `IN PROGRESS`
+**Status:** `COMPLETE / STABLE — runtime verified 2026-08-21`
 
 ### Mục tiêu
 
 Tách structural reasoning khỏi writer monolith.
 
-### Đã làm
+### Đã hoàn tất
 
 - [x] tạo `sketchapiens-story-engine` — **Cỗ máy cấu trúc câu chuyện**;
-- [x] `SKILL.md` public interface + core framework;
+- [x] khóa `CONTRACT.md` — ownership / non-ownership / input-output / dependency;
+- [x] `SKILL.md` thành public interface + context router mỏng;
 - [x] `README.md` song ngữ;
-- [x] `mechanism-lab.md` — **Phòng thí nghiệm cơ chế**;
-- [x] thêm `Causal Debt` — **Món nợ nhân quả**;
-- [x] thêm `Belief Engine` — **Cỗ máy thay đổi niềm tin**;
-- [x] thêm `Domain Shift` — **Đổi miền câu chuyện**;
-- [x] thêm `Research-as-Entertainment` — **Biến nghiên cứu thành phần giải trí**;
-- [x] thêm `Original Synthesis` — **Tổng hợp nguyên bản**;
-- [x] thêm failure mode `Narrative Overreach` — **Cốt truyện chạy vượt bằng chứng**;
-- [x] preload Story Engine cho `viewer-retention-judge`;
-- [x] thêm `Causal Handoff` — **Bàn giao nhân quả** vào retention audit.
+- [x] tách `structural-mechanisms.md`, `evidence-in-story.md`, `workflows.md` theo progressive disclosure;
+- [x] `candidate-lifecycle.md` — **Vòng đời cơ chế ứng viên**;
+- [x] `mechanism-lab.md` — **Phòng thí nghiệm cơ chế** chỉ giữ candidate data;
+- [x] thêm / chuẩn hóa `Causal Debt` — **Món nợ nhân quả**;
+- [x] `Belief Engine` — **Cỗ máy thay đổi niềm tin**;
+- [x] `Domain Shift` — **Đổi miền câu chuyện**;
+- [x] `Research-as-Entertainment` — **Biến nghiên cứu thành phần giải trí**;
+- [x] `Original Synthesis` — **Tổng hợp nguyên bản**;
+- [x] failure mode `Narrative Overreach` — **Cốt truyện chạy vượt bằng chứng**;
+- [x] preload Story Engine cho `viewer-retention-judge` với minimum-context budget;
+- [x] `Causal Handoff` — **Bàn giao nhân quả** vào retention audit;
+- [x] retention skill cũ được thu thành sentence/paragraph craft support, không còn structural authority;
+- [x] `/audit-script` và `/apply-review` consumer boundaries được audit/aligned;
+- [x] smoke harness: 5 historical fixtures + 10 micro fixtures + deterministic checker;
+- [x] static verification PASS;
+- [x] full Claude Code `STRUCTURE_SMOKE` PASS 15/15 sau corrective rerun H-03/H-04 với full pinned input;
+- [x] `REVIEWER_SMOKE` bằng actual `viewer-retention-judge` PASS 6/6;
+- [x] `project_doctor.py` runtime check: PASS 40 · WARN 7 · FAIL 0 · new Phase-2 blocker 0;
+- [x] candidate leakage = NONE · template forcing = NONE · Evidence boundary = PASS.
 
-### Còn làm
+### Acceptance criteria — Kết quả
 
-- [ ] xác định phần nào của 455-line SKILL là public interface, phần nào nên tách reference;
-- [ ] không tách nhỏ quá sớm nếu chưa có lợi ích load/context rõ;
-- [ ] thêm smoke fixtures từ V17–V20 để kiểm engine không ép template;
-- [ ] xác nhận agent preload không kéo Mechanism Lab candidate vào review như rule.
+- [x] Story Engine dùng để structure/review mà không cần mở writer monolith như structural authority;
+- [x] không có quota như “mỗi bài phải có N causal debts”;
+- [x] candidate mechanism không bị gọi là rule;
+- [x] reviewer phát hiện topic jump nhưng không tự rewrite;
+- [x] valid Domain Shift/reset không bị ép thành Causal Debt;
+- [x] Evidence verdict vẫn thuộc Evidence system;
+- [x] V17–V20 không bị homogenize thành một skeleton.
 
-### Acceptance criteria
+### Verification records
 
-- Story Engine có thể dùng để structure/review mà không cần mở writer monolith;
-- không có quota như “mỗi bài phải có N causal debts”;
-- candidate mechanism không bị gọi là rule;
-- reviewer phát hiện topic jump nhưng không tự rewrite.
+- static: `.claude/skills/sketchapiens-story-engine/tests/results/phase2-verification-2026-08-21.md`;
+- runtime closeout: `.claude/skills/sketchapiens-story-engine/tests/results/runtime-verification-closeout-2026-08-21.md`.
 
 ### Rollback
 
-Gỡ skill preload + Story Engine routing; writer cũ vẫn hoạt động.
+Gỡ skill preload + Story Engine routing; writer compatibility wrapper/legacy implementation vẫn là fallback. Final Phase-2 Git checkpoint là rollback boundary ưu tiên trước khi mở Phase 3.
 
 ---
 
 ## PHASE 3 — WRITER REFACTOR — TÁI CẤU TRÚC BỘ NÃO VIẾT
 
-**Status:** `PLANNED — DO NOT START UNTIL PHASE 1–2 STABLE`
+**Status:** `PLANNED — GATE CLEARED; START WITH READ-ONLY WRITER AUDIT`
 
 ### Mục tiêu
 
@@ -671,7 +697,8 @@ Biến `project_doctor.py` và related tools thành content-architecture linter 
 - schema validation;
 - narration/shot mismatch;
 - generated-file integrity;
-- path casing / naming contract khi có ích.
+- path casing / naming contract khi có ích;
+- legacy-folder allowlist thay cho broad `Video*` prefix exemption.
 
 ### Không được làm
 
@@ -872,46 +899,85 @@ Trong đợt V21 architecture upgrade, mặc định **không đại phẫu** c�
 
 Branch: `upgrade/story-engine-v21`
 
-Các nhóm thay đổi đã thực hiện trước khi file plan này được tạo:
+Các nhóm thay đổi đã hoàn tất tới Phase-2 closeout:
 
-1. **Consistency repair — sửa lệch:** script rule + rule registry.
-2. **Story Engine — Cỗ máy cấu trúc:** skill mới.
-3. **Mechanism Lab — Phòng thí nghiệm cơ chế:** candidate R&D.
-4. **Retention integration — tích hợp giữ chân:** reviewer preload + causal handoff.
-5. **Bilingual naming — tên song ngữ:** README + convention trong module.
+1. **Consistency Repair — Sửa lệch:** Phase 1 complete/stable.
+2. **Story Engine — Cỗ máy cấu trúc:** contract + thin runtime interface + references.
+3. **Context Architecture — Kiến trúc ngữ cảnh:** progressive disclosure + consumer context budgets.
+4. **Candidate Isolation — Cách ly ứng viên:** lifecycle + firewall + Mechanism Lab data boundary.
+5. **Smoke Harness — Bộ ca thử:** 5 historical + 10 micro + deterministic checker.
+6. **Consumer Integration — Tích hợp consumer:** writer/retention/audit/apply-review boundaries.
+7. **Runtime Verification — Xác minh runtime:** Structure 15/15 · Reviewer 6/6 · project doctor FAIL 0.
+8. **Bilingual naming — Tên song ngữ:** technical English + nghĩa Việt ở human-facing docs.
 
 `main` chưa bị thay đổi bởi upgrade branch.
+
+Phase 3 gate đã được mở, nhưng **Phase 3 chưa bắt đầu**. Writer work kế tiếp phải bắt đầu bằng read-only audit.
 
 ---
 
 # 10. NEXT ACTIONS — VIỆC TIẾP THEO THEO ĐÚNG THỨ TỰ
 
-## NEXT-01 — Hoàn tất Phase 1
+## NEXT-01 — COMPLETE: Phase 1 Consistency Repair
 
-1. sửa writer skill frontmatter;
-2. scan active/historical occurrences của luật chết;
-3. scan version/ref terminology;
-4. ghi rõ những occurrence được giữ vì historical evidence.
+Checkpoint canonical:
 
-## NEXT-02 — Stabilize Story Engine
+`57991d61d0cb3a4b5496951b566f73254ac9753c`
 
-1. audit 455-line `SKILL.md` theo public-interface rule;
-2. chỉ tách reference nếu giảm context coupling thật;
-3. thêm 2–4 smoke fixtures từ V17–V20;
-4. kiểm retention agent không load candidate như canonical rule.
+Không reopen Phase 1 trừ khi phát hiện active contradiction mới.
 
-## NEXT-03 — Architecture validation before Writer Refactor
+## NEXT-02 — COMPLETE: Stabilize Story Engine
 
-Tạo một architecture review ngắn:
+Đã hoàn tất theo task chain:
 
-- module boundaries đúng chưa;
-- shared/local placement đúng chưa;
-- dependency inversion có smell không;
-- duplicate source-of-truth còn gì.
+```text
+02A Audit
+→ 02B Contract
+→ 02C Progressive Disclosure
+→ 02D Candidate Isolation
+→ 02E Smoke Fixtures
+→ 02F Consumer Audit
+→ 02G Static + Runtime Verification
+→ 02H Closeout
+```
 
-## NEXT-04 — Chỉ sau đó mới bắt đầu Phase 3 Writer Refactor
+Phase-2 acceptance đã được xác minh bằng target runtime, không chỉ bằng docs.
 
-Không nhảy trước.
+## NEXT-GUARD-01 — Siết legacy-folder exemption trước V21/new-video
+
+`project_doctor.py` không được coi mọi folder bắt đầu bằng `Video` là legacy.
+
+Target:
+
+- explicit legacy allowlist / equivalent deterministic contract;
+- video mới không thể dùng tên convention cũ để lách `video.yaml` gate;
+- không biến task này thành đại phẫu Phase 7.
+
+Đây là guardrail debt riêng, không reopen Story Engine.
+
+## NEXT-03A — Writer Refactor Audit — KIỂM TOÁN BỘ NÃO VIẾT
+
+**Read-only first.**
+
+Map:
+
+- public interface hiện tại;
+- active implementation;
+- historical/dead material;
+- responsibilities đang trộn;
+- deep links / source-of-truth duplicates;
+- consumer nào thực sự cần phần nào của writer monolith.
+
+Không rewrite writer trong 03A.
+
+## NEXT-03B+ — Chỉ sau audit/contract mới refactor Writer
+
+Không nhảy thẳng từ Phase-2 closeout sang chia file hàng loạt.
+Mỗi task vẫn theo:
+
+```text
+PHASE → TASK → CHECK → CHECKPOINT
+```
 
 ---
 
@@ -920,18 +986,19 @@ Không nhảy trước.
 Đợt upgrade được coi là hoàn thành khi:
 
 - [ ] mỗi phạm vi runtime-critical có một source of truth rõ;
-- [ ] `CLAUDE.md` vẫn mỏng và đóng vai router/control plane;
-- [ ] major skills có public interface rõ;
+- [x] `CLAUDE.md` vẫn mỏng và đóng vai router/control plane;
+- [x] Story Engine có public interface rõ;
+- [ ] các major skill còn lại có public interface rõ;
 - [ ] module-specific knowledge/tools/templates được owner module giữ;
-- [ ] shared folders có admission rule;
-- [ ] writer không còn phải tự giải active-vs-dead contradictions;
-- [ ] Story Engine dùng được mà không biến thành checklist;
-- [ ] evidence boundary chống narrative overreach hoạt động;
-- [ ] reviewer responsibilities không chồng nhau;
-- [ ] deterministic architecture/artifact errors có machine checks hợp lý;
+- [x] shared folders có admission rule ở Architecture Contract;
+- [ ] writer không còn phải tự giải active-vs-dead contradictions trong implementation legacy;
+- [x] Story Engine dùng được mà không biến thành checklist;
+- [x] evidence boundary chống Narrative Overreach hoạt động ở Story Engine/reviewer boundary;
+- [x] reviewer responsibilities của Phase-2 consumer path không chồng nhau;
+- [ ] deterministic architecture/artifact errors có machine checks hợp lý toàn project;
 - [ ] V21 chạy end-to-end trên architecture mới;
-- [ ] postmortem tạo candidate/proposal chứ không auto-create rules;
-- [ ] owner có thể nhìn cây repo và giải thích “thứ này thuộc module nào, vì sao”.
+- [x] postmortem/candidate path không auto-create rules;
+- [ ] owner có thể nhìn toàn cây repo và giải thích “thứ này thuộc module nào, vì sao”.
 
 ---
 
@@ -962,6 +1029,16 @@ Không nhảy trước.
 
 **Decision:** technical English identifier giữ nguyên; human-facing docs ghi English + nghĩa Việt.  
 **Reason:** vừa ổn định tooling vừa giúp owner học terminology lâu dài.
+
+## 2026-08-21 — D-ARCH-F
+
+**Decision:** Story Engine chỉ được gọi `COMPLETE / STABLE` sau khi **static verification + semantic target-runtime smoke + project doctor** cùng pass.  
+**Reason:** architecture nhìn đúng trên giấy không đủ chứng minh behavior runtime không ép template hoặc rò candidate.
+
+## 2026-08-21 — D-ARCH-G
+
+**Decision:** smoke failure có ba nguồn riêng: `ENGINE DEFECT` · `FIXTURE DEFECT` · `EXECUTION FAULT`. Corrective rerun phải dùng full input + clean diagnosis context nếu prior evaluator đã thấy expectation.  
+**Reason:** H-03/H-04 từng tạo fail/review giả chỉ vì input bị cắt; engine không được tune để chữa lỗi execution.
 
 ---
 
