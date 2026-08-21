@@ -26,9 +26,9 @@ Và nó trả lời được câu *"bản nào đã dùng?"* — câu mà V01 v�
 
 **Mọi con số khác là triệu chứng.** Lệch thì đi đọc đoạn đó và hỏi *"đoạn này có dở không?"*. Không dở thì để yên. **Cấm sửa một câu để con số đẹp hơn.**
 
-## Story engine — chỉ nạp khi đang xử lý cấu trúc
+## `sketchapiens-story-engine` — Cỗ máy cấu trúc câu chuyện
 
-Khi công việc là **lên xương · nối chương · chẩn đoán retention · sửa cấu trúc**, dùng skill project-local `sketchapiens-story-engine`.
+Khi công việc là **lên xương · nối chương · chẩn đoán retention · sửa cấu trúc**, dùng skill project-local `sketchapiens-story-engine` — **Cỗ máy cấu trúc câu chuyện Sketchapiens**.
 Đây là **bộ chẩn đoán**, không phải checklist bắt buộc. Không thêm câu chỉ để thoả một cơ chế.
 
 **Agent review không được sửa file này.** Chỉ `/apply-review` tạo version mới, và chỉ sau khi người dùng đã phân loại từng góp ý.
