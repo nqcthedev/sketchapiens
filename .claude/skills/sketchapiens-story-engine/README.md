@@ -13,7 +13,9 @@ public interface + context router
 references/structural-mechanisms.md
 references/evidence-in-story.md
 references/workflows.md
-        ↓ chỉ R&D
+        ↓ chỉ R&D / postmortem / explicit experiment
+references/candidate-lifecycle.md
+        ↓ sau khi hiểu lifecycle mới đọc data
 references/mechanism-lab.md
 ```
 
@@ -26,11 +28,12 @@ Không đọc mọi reference chỉ vì chúng tồn tại.
 |---|---|---|---|
 | `CONTRACT.md` | **Hợp đồng Story Engine / hợp đồng module** | Nguồn chuẩn cho ownership, non-ownership, input/output, dependency direction, consumer boundary | Khi có ambiguity về ai sở hữu quyết định nào |
 | `SKILL.md` | **Giao diện công khai / cửa vào runtime** | Luôn giữ context tối thiểu + định tuyến tới supporting files | Khi skill được invoke/preload |
-| `references/CONTEXT_ARCHITECTURE.md` | **Kiến trúc ngữ cảnh Story Engine** | Ghi rõ consumer matrix, load triggers, anti-patterns và stop condition của progressive disclosure | Khi refactor/debug context loading |
+| `references/CONTEXT_ARCHITECTURE.md` | **Kiến trúc ngữ cảnh Story Engine** | Consumer matrix, load triggers, context budget, candidate firewall | Khi refactor/debug context loading |
 | `references/structural-mechanisms.md` | **Cơ chế cấu trúc** | Core Causal Engine · Causal Debt · Belief Engine · Domain Shift · Macro Map · Advance | Lên xương, nối chapter, chẩn đoán structural progression |
 | `references/evidence-in-story.md` | **Bằng chứng trong câu chuyện** | Research-as-Entertainment · Original Synthesis · Narrative Overreach · evidence placement | Khi task có paper/site/experiment/synthesis/causal bridge |
 | `references/workflows.md` | **Quy trình dùng Story Engine** | Story Map · after-chapter check · structural review · stop condition | Khi cần artifact/workflow cụ thể |
-| `references/mechanism-lab.md` | **Phòng thí nghiệm cơ chế** | Candidate R&D | **Chỉ** research/postmortem/cross-corpus/promotion decision |
+| `references/candidate-lifecycle.md` | **Vòng đời cơ chế ứng viên** | Status machine, promotion gates, controlled experiment, consumer firewall | **Đọc trước Mechanism Lab** trong R&D/postmortem/experiment |
+| `references/mechanism-lab.md` | **Phòng thí nghiệm cơ chế** | Dữ liệu candidate cụ thể + evidence/counterexample/test | Chỉ sau `candidate-lifecycle.md`, khi task R&D thật sự cần |
 
 ## Context Profiles — Hồ sơ ngữ cảnh
 
@@ -50,7 +53,8 @@ story/evidence placement  → evidence-in-story.md
 Story Map / stress test   → workflows.md
 ```
 
-**Không load `mechanism-lab.md` khi viết bình thường.**
+**Không load `candidate-lifecycle.md` hoặc `mechanism-lab.md` khi viết bình thường.**
+Writer bình thường phải hoạt động như thể **không biết tên candidate cụ thể**.
 
 ### Viewer Retention Judge — Giám khảo giữ chân
 
@@ -62,21 +66,37 @@ SKILL.md only
 ```
 
 Không tự mở toàn bộ reference.
-Agent chỉ đọc supporting file nếu một mechanism cụ thể bị ambiguous.
-Không đọc `evidence-in-story.md` để tự kết án nguồn và không đọc `mechanism-lab.md`.
+Agent chỉ đọc supporting canonical file nếu một mechanism cụ thể bị ambiguous.
+Không đọc `evidence-in-story.md` để tự kết án nguồn.
+**Không đọc candidate lifecycle hoặc Mechanism Lab trong review thường.**
 
 ### R&D / Postmortem — Nghiên cứu & hậu kiểm
 
-Có thể load:
+Load theo thứ tự:
 
 ```text
 SKILL.md
-CONTRACT.md
-mechanism-lab.md
+CONTRACT.md nếu cần ownership
+candidate-lifecycle.md       ← hiểu status + firewall trước
+mechanism-lab.md             ← rồi mới xem candidate data
 + evidence/corpus artifact liên quan
 ```
 
-Nhưng candidate vẫn không tự biến thành requirement.
+Candidate vẫn không tự biến thành requirement.
+Observation mới không tự thành candidate.
+Candidate mới không tự thành canonical.
+
+### Controlled Experiment — Thử nghiệm có kiểm soát
+
+Chỉ khi owner mở rõ một experiment trên **một candidate cụ thể**.
+
+Khi đó:
+- candidate là lens thử nghiệm, không phải requirement;
+- không đọc các candidate khác chỉ vì đang ở R&D;
+- reviewer nên blind nếu test design không cần biết candidate;
+- một case thành công không tự promote.
+
+Chi tiết: `references/candidate-lifecycle.md`.
 
 ## Ownership — Phạm vi sở hữu
 
@@ -110,6 +130,20 @@ Khi hai module mâu thuẫn về cấu trúc, `CONTRACT.md` của Story Engine t
 Story Engine được **flag symptom — báo triệu chứng** `Narrative Overreach — Cốt truyện chạy vượt bằng chứng`.
 Evidence reviewer mới được **issue verdict — ra phán quyết** bằng nguồn.
 
+## Candidate Isolation — Cách ly cơ chế ứng viên
+
+Current candidate names như:
+
+- `Solution Ladder — Bậc thang giải pháp`;
+- `Constraint Migration — Dịch chuyển điểm nghẽn`;
+- `Scale-Out Escalation — Leo thang bằng mở rộng quy mô`;
+- `Evidence Fit — Độ khớp bằng chứng–nhân quả`;
+
+được phép xuất hiện trong **human map / R&D docs**, nhưng **không có runtime authority**.
+
+Tên xuất hiện không đồng nghĩa mechanism đã canonical.
+Authority chỉ đến từ destination + status + owner decision theo `candidate-lifecycle.md`.
+
 ## Từ khóa chính
 
 | English | Tiếng Việt |
@@ -118,6 +152,9 @@ Evidence reviewer mới được **issue verdict — ra phán quyết** bằng n
 | Progressive Disclosure | **Tải ngữ cảnh theo nhu cầu** |
 | Context Router | **Bộ định tuyến ngữ cảnh** |
 | Context Budget | **Ngân sách ngữ cảnh** |
+| Candidate Lifecycle | **Vòng đời cơ chế ứng viên** |
+| Candidate Firewall | **Tường lửa cơ chế ứng viên** |
+| Controlled Experiment | **Thử nghiệm có kiểm soát** |
 | Core Causal Engine | **Cỗ máy nhân quả lõi** |
 | Causal Debt | **Món nợ nhân quả** |
 | Causal Handoff | **Bàn giao nhân quả** |
