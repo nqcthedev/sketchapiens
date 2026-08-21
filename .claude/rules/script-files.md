@@ -8,8 +8,10 @@ paths: ["videos/**/03-script/**", "Video*/Script_*_narration.txt", "Video*/_nhap
 ```
 03-script/
 ├── versions/   v001.md  v002.md  v003.md    ← ĐÃ TẠO THÌ KHÔNG BAO GIỜ SỬA
-├── reviews/    REV-YYYYMMDD-NNN-*.md
 └── refs/       current.yaml  approved.yaml  published.yaml   ← đổi được
+
+04-review/
+└── RNNN-audit.md · RNNN-applied.md · review artifacts      ← review sống ở đây
 ```
 
 **Vì sao con trỏ chứ không phải bản sao:** bản sao có thể trôi khỏi nguồn, con trỏ thì không.
@@ -26,9 +28,9 @@ Và nó trả lời được câu *"bản nào đã dùng?"* — câu mà V01 v�
 
 **Mọi con số khác là triệu chứng.** Lệch thì đi đọc đoạn đó và hỏi *"đoạn này có dở không?"*. Không dở thì để yên. **Cấm sửa một câu để con số đẹp hơn.**
 
-## `sketchapiens-story-engine` — Cỗ máy cấu trúc câu chuyện
+## Story engine — Cỗ máy cấu trúc câu chuyện — chỉ nạp khi đang xử lý cấu trúc
 
-Khi công việc là **lên xương · nối chương · chẩn đoán retention · sửa cấu trúc**, dùng skill project-local `sketchapiens-story-engine` — **Cỗ máy cấu trúc câu chuyện Sketchapiens**.
+Khi công việc là **lên xương · nối chương · chẩn đoán retention · sửa cấu trúc**, dùng skill project-local `sketchapiens-story-engine` — **Cỗ máy cấu trúc câu chuyện**.
 Đây là **bộ chẩn đoán**, không phải checklist bắt buộc. Không thêm câu chỉ để thoả một cơ chế.
 
 **Agent review không được sửa file này.** Chỉ `/apply-review` tạo version mới, và chỉ sau khi người dùng đã phân loại từng góp ý.
