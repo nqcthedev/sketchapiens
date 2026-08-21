@@ -12,11 +12,11 @@ rules:
 
   - id: R-HARD-01
     scope: script
-    rule: "Bốn ràng buộc cứng của lời đọc: '!' = 0 · không gạch ngang giữa câu · mỗi câu một dòng · 'I' ≈ 0"
-    source: "kho/1_luat/RUBRIC_KichBan.md §LUẬT 0"
-    enforced_by: "~/.claude/skills/sketchapiens-bien-tap/qa_kichban.py"
+    rule: "Ba ràng buộc cứng của lời đọc: '!' = 0 · không gạch ngang giữa câu · mỗi câu một dòng"
+    source: "kho/1_luat/RUBRIC_KichBan.md §LUẬT 0; CLAUDE.md luật 8; .claude/rules/script-files.md"
+    enforced_by: ".claude/skills/sketchapiens-bien-tap/qa_kichban.py"
     confidence: high
-    evidence: "14/14 video winner nhất trí về dấu '!'; ba cái còn lại là ràng buộc sản xuất (TTS, chia shot)"
+    evidence: "Dấu '!' nhất trí 14/14 winner; gạch ngang và mỗi câu một dòng là ràng buộc sản xuất/TTS. 'I ≈ 0' đã retired 07/08/2026 và không còn là điều kiện chặn."
     status: active
 
   - id: R-HARD-02
@@ -29,11 +29,11 @@ rules:
 
   - id: R-VERSION-01
     scope: script
-    rule: "Không ghi đè kịch bản. Mỗi lần sửa tạo vNNN mới. approved.md và published.md bất biến."
-    source: "CLAUDE.md luật 1; .claude/rules/script-files.md"
+    rule: "Không ghi đè kịch bản. 03-script/versions/vNNN.md đã tạo thì bất biến; refs/current.yaml, refs/approved.yaml và refs/published.yaml là con trỏ được đổi. approved/published chỉ hợp lệ khi set_by: owner."
+    source: "CLAUDE.md luật 1-2; .claude/rules/script-files.md"
     enforced_by: ".claude/hooks/guard_project.py"
     confidence: high
-    evidence: "V02–V16 mỗi video một file duy nhất, không lịch sử, không git → mọi lần sửa đã mất vĩnh viễn"
+    evidence: "V02–V16 mỗi video một file duy nhất, không lịch sử, không git → mọi lần sửa đã mất vĩnh viễn. Con trỏ tránh bản sao trôi khỏi version nguồn."
     status: active
 
   - id: R-APPROVE-01
