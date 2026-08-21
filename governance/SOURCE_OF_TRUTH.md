@@ -21,6 +21,8 @@
 | Luật phiên làm việc | `CLAUDE.md` | — | mới, canonical |
 | Luật theo khu vực | `.claude/rules/*.md` | — | mới, canonical |
 | **Roadmap kiến trúc / kế hoạch nâng cấp** | **`governance/MASTER_UPGRADE_PLAN.md`** | — | **roadmap canonical, KHÔNG phải sổ luật nội dung** |
+| **Story structure / structural retention — cấu trúc câu chuyện / giữ chân bằng cấu trúc** | **`.claude/skills/sketchapiens-story-engine/CONTRACT.md`** + runtime `SKILL.md` | — | **Story Engine sở hữu structural causality · belief progression · explanatory progression · structural stress test.** Retention skill cũ không được override phạm vi này. |
+| **Retention craft support — kỹ thuật retention cấp câu/hook/nhịp** | `.claude/skills/sketchapiens-giu-chan-nguoi-xem/SKILL.md` | — | **supporting legacy module**, không phải structural authority; các observation cũ không tự biến thành template bắt buộc. |
 | **Video state vocabulary + artifact shape — tên trạng thái + shape artifact** | **`schemas/video.schema.json`** | — | schema sở hữu enum/shape; `CLAUDE.md` chỉ mô tả đường vận hành, không tạo bộ state thứ hai |
 | Bản đồ tri thức cũ | `00_LUAT_HIEN_HANH.md` | `governance/` | **không sửa trong phiên thường** |
 | Lifecycle sản xuất chi tiết | `kho/1_luat/WORKFLOW_Production.md` | `knowledge/production/` | mô tả quy trình nghiệp vụ; **không sở hữu enum trạng thái của `video.yaml`** |
@@ -28,7 +30,7 @@
 | Chất lượng kịch bản | `kho/1_luat/RUBRIC_KichBan.md` *(đọc LUẬT 0 trước)* + `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` | `knowledge/writing/script-rubric.md` | Tầng A đúc từ Mack — nay đã có 52 bản ghi Mack thật để kiểm |
 | Review ngoài | `kho/1_luat/LENH_GPT_ReviewKichBan_v3.md` + `kho/1_luat/LENH_GPT_BoiCanh_TayNghe.md` | `knowledge/writing/external-review.md` | ⚠️ **D-02: hai file mâu thuẫn nhau về việc dán bối cảnh** |
 | Review nội bộ | `.claude/agents/*.md` + `/audit-script` | — | mới, canonical |
-| Bằng chứng | `MONEO_V19.md` *(mẫu tốt nhất)* + `templates/claim-ledger.md` | `knowledge/evidence/` | 5 kiểu đặt tên đang tồn tại |
+| **Evidence verdict — phán quyết bằng chứng** | `.claude/agents/evidence-prosecutor.md` + `templates/claim-ledger.md` | `knowledge/evidence/` | Story Engine chỉ được flag `Narrative Overreach`; **DIRECT / INFERENCE / SPECULATION / STORY_DEVICE verdict thuộc Evidence reviewer** cho tới Phase 4. |
 | Chọn đề tài | `kho/3_bangchung/BANG_CAU_TatCa_CuNo_2026-07-29.md` + tra bầy clone **live** | `knowledge/topic-title/` | |
 | Vì sao đề tài hay vẫn chết | `kho/3_bangchung/NGHIENCUU_CloneSwarm_2026-07-29.md` | | |
 | Title | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` PHẦN C | `knowledge/topic-title/` | |
