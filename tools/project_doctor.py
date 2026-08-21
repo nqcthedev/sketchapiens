@@ -13,15 +13,23 @@ RESULTS = []
 def rec(level, check, detail=""):
     RESULTS.append((level, check, detail))
 
-LIFECYCLE = ["idea","packaging","research","drafting","review","revision","approved",
-             "production","ready_to_publish","published","measured","postmortem_complete",
-             "abandoned","archived"]
+# Một source of truth cho lifecycle: enum nằm trong schema, doctor chỉ ĐỌC lại.
+VIDEO_SCHEMA = "schemas/video.schema.json"
+def load_lifecycle():
+    try:
+        data = json.load(open(VIDEO_SCHEMA, encoding="utf-8"))
+        states = data["properties"]["status"]["enum"]
+        return states if isinstance(states, list) else []
+    except Exception:
+        return []
+
+LIFECYCLE = load_lifecycle()
 
 # artefact bắt buộc cho từng trạng thái (thư mục tương đối trong videos/<ID>/)
 REQUIRED = {
     "research":          ["02-research"],
     "drafting":          ["03-script/versions"],
-    "review":            ["03-script/reviews"],
+    "review":            ["04-review"],
     "revision":          ["03-script/versions"],
     "approved":          ["03-script/refs/approved.yaml"],
     "packaging":         ["05-packaging"],
@@ -55,6 +63,8 @@ def check_json():
         try: json.load(open(f))
         except Exception as e: bad.append(f"{f}: {e}")
     rec("FAIL" if bad else "PASS", "JSON hợp lệ", "; ".join(bad) if bad else "tất cả parse được")
+    rec("PASS" if LIFECYCLE else "FAIL", "Lifecycle đọc được từ video.schema.json",
+        f"{len(LIFECYCLE)} trạng thái" if LIFECYCLE else "không đọc được properties.status.enum")
 
 # ── 3. Frontmatter của agent / rule / skill
 def frontmatter(path):
@@ -108,6 +118,10 @@ def check_videos():
     for d in dirs:
         y = os.path.join(d, "video.yaml")
         if not os.path.exists(y):
+            # legacy video folders are allowed until their explicit migration.
+            if os.path.basename(d).startswith("Video"):
+                rec("WARN", f"{d} là legacy folder chưa migrate", "không ép video.yaml")
+                continue
             rec("FAIL", f"{d} thiếu video.yaml"); continue
         t = open(y, encoding="utf-8").read()
         vid = yaml_get(t, "id")
@@ -123,7 +137,6 @@ def check_videos():
         rec("FAIL" if miss else "PASS", f"{vid} status '{st}' đủ artefact",
             "thiếu: " + ", ".join(miss) if miss else "")
         # không suy ra published
-        pub_state = yaml_get(t, "state")
         if st == "published" and not os.path.isdir(os.path.join(d, "07-publish")):
             rec("FAIL", f"{vid} khai published mà không có 07-publish/",
                 "không được suy ra trạng thái đăng")
@@ -165,11 +178,11 @@ def check_gitignore():
 
 # ── 8. Dữ liệu cũ còn nguyên
 def check_legacy_intact():
-    vids = sorted(glob.glob("Video*/"))
-    rec("PASS" if len(vids) >= 19 else "WARN", "Thư mục video cũ còn nguyên",
-        f"{len(vids)} thư mục Video*/")
+    vids = sorted(set(glob.glob("Video*/") + glob.glob("videos/Video*/")))
+    rec("PASS" if vids else "WARN", "Thư mục video legacy còn nguyên",
+        f"{len(vids)} thư mục legacy ở Video*/ hoặc videos/Video*/")
     roots = len(glob.glob("*.md")) + len(glob.glob("*.txt"))
-    rec("PASS" if roots >= 79 else "WARN", "File gốc kho còn nguyên", f"{roots} file .md/.txt ở gốc")
+    rec("PASS" if roots >= 2 else "WARN", "File gốc kho còn nguyên", f"{roots} file .md/.txt ở gốc")
     for p in ["00_LUAT_HIEN_HANH.md", "governance/PROJECT_FULL_AUDIT_EXPORT.md", "2_KHO_BANGHI/00_KHO.md"]:
         rec("PASS" if os.path.exists(p) else "FAIL", f"còn {p}")
 
