@@ -105,13 +105,19 @@ Lý do (`governance/PROJECT_FULL_AUDIT_EXPORT.md` §5, R2): cả hai không có 
 
 ## 5. VÒNG ĐỜI VIDEO — không nhảy bậc
 
+**Vocabulary trạng thái canonical nằm ở `schemas/video.schema.json`.** `CLAUDE.md` không duy trì một bộ tên state thứ hai.
+
+Đường chính:
+
 ```
-idea → selected → researched → evidence_locked → draft → internally_audited
-→ externally_reviewed → revised → script_approved → packaged → production_ready
-→ produced → published → measured → postmortem_complete → archived
+idea → research → drafting → review → revision → approved
+→ packaging → production → ready_to_publish → published
+→ measured → postmortem_complete → archived
 ```
 
-Thiếu artefact bắt buộc thì **không được chuyển trạng thái**. Bảng artefact: `schemas/video.schema.json`.
+`abandoned` là **side exit — lối thoát bên**, không phải một bậc bắt buộc trong đường chính.
+
+Các milestone như **đã chọn đề tài · evidence locked · internal audit · external review** là **artifact/gate**, không phải state riêng. Thiếu artefact bắt buộc thì **không được chuyển trạng thái**. Contract artifact + enum: `schemas/video.schema.json`.
 
 ## 6. BẢO MẬT
 
