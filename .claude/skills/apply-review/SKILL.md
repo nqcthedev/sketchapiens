@@ -6,25 +6,36 @@ description: Editor duy nhất. Nhận bảng phân loại đã được chủ d
 # /apply-review — editor duy nhất
 
 ## Điều kiện vào — thiếu là dừng
-1. Có `videos/<ID>/04-review/RNNN-audit.md`
-2. Bảng phân loại **đã được chủ điền**: mỗi mục có `ÁP NGAY` / `ÁP CÓ SỬA` / `BỎ`
-3. Mục `BỎ` có ghi lý do
+1. Có `videos/<ID>/04-review/RNNN-audit.md`.
+2. Bảng phân loại **đã được chủ điền**: mỗi mục có `ÁP NGAY` / `ÁP CÓ SỬA` / `BỎ`.
+3. Mục `BỎ` có ghi lý do.
 
 Chưa đủ → **dừng và hỏi**. Không tự phân loại thay chủ.
 
 ## Luật
-- **Không ghi đè.** Tạo `03-script/versions/vNNN.md` kế tiếp, rồi trỏ `refs/current.yaml` sang nó.
+- **Không ghi đè.** Tạo `03-script/versions/vNNN.md` kế tiếp, rồi trỏ `03-script/refs/current.yaml` sang version mới.
 - Chỉ áp mục được đánh dấu. Không "tiện tay sửa thêm".
-- **`ÁP CÓ SỬA`** nghĩa là đúng vấn đề, sai cách chữa → tự nghĩ cách chữa, ghi rõ đã chữa khác thế nào.
-- ⛔ **Lỗi ẩn dụ thì CẮT CẢ CÂU, đừng thay chữ trong câu.** Vá tại chỗ để lại sẹo: khung câu cũ còn nguyên, đại từ mất chỗ bám. Đã đo được ba lần.
-- ⛔ **Câu nào thêm vào phải chạy lại cổng bằng chứng** (`/verify-claims`), kể cả khi thêm chỉ để đủ độ dài.
-- Không đụng `refs/approved.yaml` và `refs/published.yaml` — hook chặn nếu thiếu `set_by: owner`.
+- **`ÁP CÓ SỬA`** nghĩa là diagnosis được chủ giữ nhưng cách chữa có thể cần nghĩ lại; editor phải ghi rõ đã chữa khác thế nào.
+- Với góp ý cấu trúc từ Story Engine/retention judge: **áp vấn đề đã được owner duyệt, không biến tên mechanism thành requirement mới.** Ví dụ owner duyệt "transition nhảy topic" không đồng nghĩa editor phải chèn Causal Debt nếu một reset/domain shift khác giải quyết tốt hơn.
+- ⛔ **Lỗi ẩn dụ thì ưu tiên cắt cả câu hơn vá chữ trong khung cũ** khi diagnosis đúng như vậy; không biến observation này thành luật cho mọi câu.
+- ⛔ **Bất kỳ câu factual mới hoặc factual claim bị đổi** phải chạy lại `/verify-claims`, kể cả không có con số.
+- Không đụng `refs/approved.yaml` và `refs/published.yaml` — chỉ owner đặt.
+
+## Story Engine boundary — Ranh giới Story Engine
+
+`/apply-review` **không phải reviewer vòng hai**.
+Nó không tự mở Mechanism Lab, không tự re-audit toàn script, không thêm Causal Debt / Belief Flip / Domain Shift chỉ vì biết vocabulary đó.
+Nếu trong lúc áp review xuất hiện một structural problem **mới, ngoài bảng owner đã duyệt**, ghi vào applied log như `NEW ISSUE — CHƯA ÁP` và trả về vòng review/owner thay vì tự sửa lén.
 
 ## Sau khi tạo version mới
-1. Chạy `qa_kichban.py` — **BA** ràng buộc cứng phải sạch: `!`=0 · không gạch ngang giữa câu · mỗi câu một dòng.
-   ⛔ **Không phải bốn.** `I ≈ 0` đã gỡ 07/08 — người dẫn **được** có ý kiến riêng. Mọi con số
-   khác script in ra là **để đi đọc lại đoạn đó**, không phải ngưỡng. Cấm cắt một câu vì số.
-2. Chạy `/verify-claims` nếu có câu mới mang số liệu.
-3. Ghi vào `04-review/RNNN-applied.md`: **áp gì · bỏ gì · vì sao · sinh ra thay đổi nào**.
-4. Cập nhật `video.yaml`: `status: revised`, thêm version vào `script_versions`.
-5. **Không** đặt `refs/approved.yaml`. Chỉ chủ duyệt mới được.
+1. Chạy `qa_kichban.py` — **BA** ràng buộc cứng phải sạch: `!` = 0 · không gạch ngang giữa câu · mỗi câu một dòng.
+2. Chạy `/verify-claims` nếu có factual sentence/claim được thêm hoặc đổi.
+3. Ghi `04-review/RNNN-applied.md`: **áp gì · bỏ gì · chữa khác thế nào · issue mới nào chưa áp**.
+4. Cập nhật `video.yaml` theo schema canonical:
+   - `status: revision`;
+   - append version mới vào `script.versions`;
+   - cập nhật `script.refs.current` để trỏ version mới;
+   - giữ review provenance (`from_review`) nếu có review ID tương ứng.
+5. **Không** đặt `script.refs.approved` / `refs/approved.yaml`. Chỉ owner duyệt mới được.
+
+Schema canonical: `schemas/video.schema.json`.
