@@ -2,12 +2,15 @@
 
 > **Tên kỹ thuật giữ nguyên bằng English để đường dẫn ổn định. Nghĩa Việt luôn ghi ngay cạnh để chủ dễ nhớ.**
 >
-> **KHÔNG PHẢI LUẬT. KHÔNG AUTO-LOAD KHI VIẾT.**
+> **KHÔNG PHẢI LUẬT. KHÔNG AUTO-LOAD KHI VIẾT/REVIEW THƯỜNG.**
 >
-> File này giữ các cơ chế đang được thử nghiệm trước khi quyết định **promote (nâng cấp thành luật)**, **merge (gộp)**, **demote (hạ cấp)** hoặc **delete (loại bỏ)**.
-> Mọi cơ chế ở đây mặc định có `status: candidate` = **ứng viên đang thử**, trừ khi owner đổi rõ ràng.
+> File này là **candidate data store — kho dữ liệu cơ chế ứng viên**. Nó giữ giả thuyết, ví dụ, phản ví dụ, failure mode và next test.
 >
-> Promote thành canonical rule = **nâng thành luật chuẩn** phải tuân `governance/CHANGE_POLICY.md`.
+> **Lifecycle canonical — vòng đời chuẩn:** `candidate-lifecycle.md` — **Vòng đời cơ chế ứng viên**. Khi hai file có vẻ mâu thuẫn về status/promotion, lifecycle file thắng.
+>
+> Candidate có thể đi tới **canonical diagnostic framework — khung chẩn đoán chuẩn**, **canonical measured pattern — pattern đã đo chuẩn**, **canonical rule/guardrail — luật/hàng rào chuẩn**, hoặc bị **park / merge / reject**. Không có đường mặc định `candidate → RULE_REGISTRY`.
+>
+> Nếu destination là rule/guardrail, vẫn phải tuân `governance/CHANGE_POLICY.md` + owner approval.
 
 ---
 
@@ -19,7 +22,7 @@ Mỗi candidate phải có:
 ID:
 NAME:                         tên English
 VIETNAME:                     nghĩa tiếng Việt
-STATUS:                       trạng thái
+STATUS:                       trạng thái theo candidate-lifecycle.md
 FIRST OBSERVED IN:            thấy rõ lần đầu ở đâu
 WHAT IT CLAIMS:               cơ chế đang giả thuyết điều gì
 WHAT IT DOES NOT CLAIM:       không được suy quá thành điều gì
@@ -31,6 +34,8 @@ PROMOTION BAR:                điều kiện để được nâng cấp
 
 Đừng ghi một tên mới chỉ vì một video nghe hay.
 Nếu hai candidate hóa ra là cùng một cơ chế ở hai mức mô tả, **merge — gộp**, thay vì tích lũy thuật ngữ.
+
+**Candidate phải được thiết kế để có thể bị bác.** Nếu chỉ đi tìm thêm case ủng hộ, đó là confirmation bias — thiên kiến xác nhận, không phải validation.
 
 ---
 
@@ -82,6 +87,7 @@ Chỉ tính khi **constraint — điểm nghẽn thật của tầng trước** 
 
 Chưa promote.
 Cần cross-corpus evidence = bằng chứng kiểm chéo toàn corpus + ít nhất vài case Sketchapiens cho thấy nó hữu ích mà không tạo câu giả.
+Destination nếu sống sót **chưa được quyết**; không mặc định là rule.
 
 ---
 
@@ -140,13 +146,14 @@ Nếu nguồn không support cái giá / giới hạn đó, đây trở thành *
 
 Chưa promote.
 Trước mắt chỉ dùng để **nhìn**, không dùng để bắt writer phải tạo bottleneck.
+Destination nếu sống sót có khả năng là diagnostic framework hơn rule, nhưng **chưa quyết**.
 
 ---
 
 # M-003 — SCALE-OUT ESCALATION — LEO THANG BẰNG MỞ RỘNG QUY MÔ
 
 **Tên Việt:** Leo thang bằng mở rộng quy mô  
-**Status — trạng thái:** `candidate / possible merge with M-001` = ứng viên / có thể gộp với M-001  
+**Status — trạng thái:** `candidate` = ứng viên đang thử; **possible merge with M-001 — có thể gộp với M-001**  
 **Loại:** `inferred` = model suy ra
 
 ## Quan sát
@@ -184,7 +191,7 @@ Tìm bài có **Domain Shift — Đổi miền câu chuyện** mạnh nhưng sca
 # M-004 — EVIDENCE-FIT / CAUSAL PROOF FIT — ĐỘ KHỚP BẰNG CHỨNG–NHÂN QUẢ
 
 **Tên Việt tạm:** Độ khớp bằng chứng–nhân quả  
-**Status — trạng thái:** `candidate guardrail; likely Evidence Engine rather than Story Engine` = guardrail ứng viên; có thể thuộc Cỗ máy bằng chứng hơn Cỗ máy câu chuyện  
+**Status — trạng thái:** `candidate` = ứng viên đang thử; likely Evidence Engine destination = có thể thuộc Cỗ máy bằng chứng  
 **Loại:** `failure-mode guardrail` = hàng rào chống lỗi
 
 ## Quan sát
@@ -209,31 +216,43 @@ ngủ phân đoạn từng tồn tại trong một bối cảnh lịch sử / kh
 >
 > **Không trả món nợ nhân quả bằng bằng chứng chỉ trông giống đáp án câu chuyện đang cần.**
 
-Hiện principle này đã được **Story Engine — Cỗ máy cấu trúc câu chuyện** dùng dưới tên **Narrative Overreach — Cốt truyện chạy vượt bằng chứng**.
-Candidate M-004 tồn tại để kiểm xem sau này nó có nên chuyển sang **Evidence Engine — Cỗ máy bằng chứng** thành một check riêng hay không.
+### Boundary clarification — Làm rõ ranh giới
+
+**Narrative Overreach — Cốt truyện chạy vượt bằng chứng** đã là **canonical Story Engine symptom — triệu chứng chuẩn** và nằm ở `evidence-in-story.md`.
+
+Thứ còn là **candidate** trong M-004 **không phải** câu hỏi “overreach có tồn tại hay không”.
+Candidate đang kiểm:
+
+> Có cần một **Evidence Fit / Causal Proof Fit check** riêng trong Evidence Engine không, và nếu có thì contract/check đó phải khác Narrative Overreach ở đâu?
 
 ## Next test — Phép kiểm tiếp theo
 
 Audit = kiểm các bridge lớn ở V17–V20 và competitor winners:
 - bridge nào support trực tiếp;
 - bridge nào là inference = suy diễn hợp lệ;
-- bridge nào chỉ là evidence resemblance = bằng chứng gần giống.
+- bridge nào chỉ là evidence resemblance = bằng chứng gần giống;
+- kiểm xem Evidence Prosecutor hiện tại đã bắt đủ lỗi này chưa; nếu đã đủ, M-004 có thể **merge/reject** thay vì đẻ check mới.
 
 ---
 
-# PROMOTION LOG — SỔ NÂNG CẤP CƠ CHẾ
+# STATUS / PROMOTION LOG — SỔ TRẠNG THÁI / NÂNG CẤP CƠ CHẾ
 
 Chưa có mechanism nào được promote từ file này.
 
-Khi promote, ghi:
+Mọi status transition phải theo `candidate-lifecycle.md`.
+
+Khi đổi status / promote / merge / reject, ghi:
 
 ```text
 DATE:               ngày
 MECHANISM:          cơ chế
-DESTINATION:        chuyển vào đâu
-EVIDENCE:           bằng chứng
-OWNER DECISION:     quyết định của chủ
+FROM → TO:          trạng thái cũ → mới
+WHY:                vì sao
+EVIDENCE:           bằng chứng thuận
+COUNTEREVIDENCE:    bằng chứng nghịch
+DESTINATION:        diagnostic / measured pattern / rule-guardrail / merged target / none
+OWNER DECISION:     quyết định của chủ nếu có
 OLD / MERGED MECHANISM: cơ chế cũ / cơ chế được gộp
 ```
 
-Khi delete = loại bỏ, **đừng xóa dấu vết**. Ghi lý do delete/merge để project không phát minh lại cùng một thuật ngữ sáu tháng sau.
+Khi reject/delete = loại bỏ, **đừng xóa dấu vết**. Ghi lý do để project không phát minh lại cùng một thuật ngữ sáu tháng sau.
