@@ -4,7 +4,7 @@
 
 > **Bản đặc tả kiến trúc đề xuất chuyển nội dung sang `knowledge/**`. Việc đó CHƯA làm.**
 > Đây là **migration nội dung**, nằm ngoài phạm vi lần cài này. Bảng dưới trỏ tới **file đang tồn tại thật**.
-> Không file canonical nào bị sửa, đổi tên hay di chuyển.
+> Không file canonical nào bị sửa, đổi tên hay di chuyển chỉ vì destination đã được đề xuất.
 
 ## Luật ưu tiên — dùng khi hai file nói ngược nhau
 
@@ -21,9 +21,10 @@
 | Luật phiên làm việc | `CLAUDE.md` | — | mới, canonical |
 | Luật theo khu vực | `.claude/rules/*.md` | — | mới, canonical |
 | **Roadmap kiến trúc / kế hoạch nâng cấp** | **`governance/MASTER_UPGRADE_PLAN.md`** | — | **roadmap canonical, KHÔNG phải sổ luật nội dung** |
+| **Video state vocabulary + artifact shape — tên trạng thái + shape artifact** | **`schemas/video.schema.json`** | — | schema sở hữu enum/shape; `CLAUDE.md` chỉ mô tả đường vận hành, không tạo bộ state thứ hai |
 | Bản đồ tri thức cũ | `00_LUAT_HIEN_HANH.md` | `governance/` | **không sửa trong phiên thường** |
-| Lifecycle sản xuất | `kho/1_luat/WORKFLOW_Production.md` | `knowledge/production/` | ⚠️ chồng lấn với file dưới |
-| Cổng viết kịch bản | `kho/1_luat/FLOW_VietKichBan_11Cong.md` | `knowledge/writing/script-gates.md` | ⚠️ **D-01: chưa rõ file nào thắng** |
+| Lifecycle sản xuất chi tiết | `kho/1_luat/WORKFLOW_Production.md` | `knowledge/production/` | mô tả quy trình nghiệp vụ; **không sở hữu enum trạng thái của `video.yaml`** |
+| Cổng viết kịch bản | `kho/1_luat/FLOW_VietKichBan_11Cong.md` | `knowledge/writing/script-gates.md` | ⚠️ **D-01: chưa rõ file nào thắng khi chồng lấn với workflow** |
 | Chất lượng kịch bản | `kho/1_luat/RUBRIC_KichBan.md` *(đọc LUẬT 0 trước)* + `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` | `knowledge/writing/script-rubric.md` | Tầng A đúc từ Mack — nay đã có 52 bản ghi Mack thật để kiểm |
 | Review ngoài | `kho/1_luat/LENH_GPT_ReviewKichBan_v3.md` + `kho/1_luat/LENH_GPT_BoiCanh_TayNghe.md` | `knowledge/writing/external-review.md` | ⚠️ **D-02: hai file mâu thuẫn nhau về việc dán bối cảnh** |
 | Review nội bộ | `.claude/agents/*.md` + `/audit-script` | — | mới, canonical |
@@ -31,7 +32,7 @@
 | Chọn đề tài | `kho/3_bangchung/BANG_CAU_TatCa_CuNo_2026-07-29.md` + tra bầy clone **live** | `knowledge/topic-title/` | |
 | Vì sao đề tài hay vẫn chết | `kho/3_bangchung/NGHIENCUU_CloneSwarm_2026-07-29.md` | | |
 | Title | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` PHẦN C | `knowledge/topic-title/` | |
-| Thumbnail | skill `sketchapiens-thumbnail` + skill `sketchapiens-thumbnail` | `knowledge/packaging/` | |
+| Thumbnail | skill `sketchapiens-thumbnail` | `knowledge/packaging/` | |
 | Phong cách hình | **`identity/style.py`** *(nguồn chuẩn duy nhất — file thật sự sinh ảnh)* + skill `sketchapiens-chia-shot` *(chia shot, không phải bản sắc)* | `knowledge/visual/` | ⚠️ **D-03: `clean/smooth/cartoon` — bắt buộc hay bị cấm?** |
 | Nhân vật | **`identity/style.py`** *(khối `ANCIENT` · `MODERN` · `WOMAN` · `GROUP`)* · `Prompts_NhanVat_Kenh` · `SOP_NhatQuan_NhanVat` | `knowledge/visual/` | ⚠️ **D-04: `@token` hay lặp chữ? 4 file, không file nào thắng** |
 | Chính sách YouTube | `kho/1_luat/CHINHSACH_YOUTUBE_2026_AnhHuong.md` | `knowledge/policy/` | |
