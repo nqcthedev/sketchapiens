@@ -22,6 +22,7 @@
 | Luật theo khu vực | `.claude/rules/*.md` | — | mới, canonical |
 | **Roadmap kiến trúc / kế hoạch nâng cấp** | **`governance/MASTER_UPGRADE_PLAN.md`** | — | **roadmap canonical, KHÔNG phải sổ luật nội dung** |
 | **Story structure / structural retention — cấu trúc câu chuyện / giữ chân bằng cấu trúc** | **`.claude/skills/sketchapiens-story-engine/CONTRACT.md`** + runtime `SKILL.md` | — | **Story Engine sở hữu structural causality · belief progression · explanatory progression · structural stress test.** Retention skill cũ không được override phạm vi này. |
+| **Experimental mechanism lifecycle — vòng đời cơ chế thử nghiệm** | **`.claude/skills/sketchapiens-story-engine/references/candidate-lifecycle.md`** + data `mechanism-lab.md` | — | **R&D knowledge flow, KHÔNG phải luật runtime.** Lifecycle sở hữu status/promotion/firewall; lab chỉ giữ candidate data. |
 | **Retention craft support — kỹ thuật retention cấp câu/hook/nhịp** | `.claude/skills/sketchapiens-giu-chan-nguoi-xem/SKILL.md` | — | **supporting legacy module**, không phải structural authority; các observation cũ không tự biến thành template bắt buộc. |
 | **Video state vocabulary + artifact shape — tên trạng thái + shape artifact** | **`schemas/video.schema.json`** | — | schema sở hữu enum/shape; `CLAUDE.md` chỉ mô tả đường vận hành, không tạo bộ state thứ hai |
 | Bản đồ tri thức cũ | `00_LUAT_HIEN_HANH.md` | `governance/` | **không sửa trong phiên thường** |
