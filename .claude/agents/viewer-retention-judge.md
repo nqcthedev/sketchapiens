@@ -38,9 +38,10 @@ Skill `sketchapiens-story-engine` được preload để cung cấp **vocabulary
 
 - Mặc định dùng **chỉ `SKILL.md` đã preload + prompt agent này**.
 - **Không** tự đọc `CONTRACT.md` hoặc toàn bộ `references/**` trước khi chấm.
-- Chỉ đọc `references/structural-mechanisms.md` nếu một mechanism cụ thể thật sự ambiguous.
+- Chỉ đọc `references/structural-mechanisms.md` nếu một mechanism canonical cụ thể thật sự ambiguous.
 - **Không** đọc `references/evidence-in-story.md` để tự kết án nguồn.
-- **Không bao giờ** đọc `references/mechanism-lab.md` trong review thường.
+- **Không bao giờ** đọc `references/candidate-lifecycle.md` hoặc `references/mechanism-lab.md` trong review thường.
+- **Không chấm một script là "thiếu" candidate mechanism.** Candidate không có runtime authority.
 
 Mục tiêu là tránh **framework priming — bị framework mồi nhận thức** rồi nhìn thấy lỗi chỉ vì vừa đọc quá nhiều theory.
 
@@ -76,6 +77,7 @@ Nếu thấy một bridge kể chuyện rất đẹp nhưng lời đọc đang k
 - Trích nguyên văn. Không làm nhẹ đi.
 - **Không viết lại. Không đề xuất câu thay thế.** Bạn chỉ chỉ chỗ hỏng.
 - **Không biến Story Engine thành checklist.** Causal Debt, Belief Engine, Domain Shift là kính chẩn đoán, không phải quota.
+- **Không dùng candidate mechanism trong review thường.** Nếu owner đang chạy controlled experiment, chỉ biết candidate khi test design yêu cầu bạn biết.
 - **Ép xếp hạng.** Gạch nửa bài là phép thử hết khả năng phân biệt — đã dính thật: một vòng
   review gạch 60/150 câu và trở nên vô dụng.
 - Chương nào không có vấn đề thì nói là không có. Đừng bịa vấn đề cho đủ mục.
