@@ -13,17 +13,18 @@ RESULTS = []
 def rec(level, check, detail=""):
     RESULTS.append((level, check, detail))
 
-# Một source of truth cho lifecycle: enum nằm trong schema, doctor chỉ ĐỌC lại.
+# Một source of truth cho video contract: doctor chỉ ĐỌC schema, không duy trì bản sao.
 VIDEO_SCHEMA = "schemas/video.schema.json"
-def load_lifecycle():
+def load_video_contract():
     try:
         data = json.load(open(VIDEO_SCHEMA, encoding="utf-8"))
         states = data["properties"]["status"]["enum"]
-        return states if isinstance(states, list) else []
+        id_pattern = data["properties"]["id"]["pattern"]
+        return states if isinstance(states, list) else [], id_pattern if isinstance(id_pattern, str) else ""
     except Exception:
-        return []
+        return [], ""
 
-LIFECYCLE = load_lifecycle()
+LIFECYCLE, VIDEO_ID_PATTERN = load_video_contract()
 
 # artefact bắt buộc cho từng trạng thái (thư mục tương đối trong videos/<ID>/)
 REQUIRED = {
@@ -65,6 +66,8 @@ def check_json():
     rec("FAIL" if bad else "PASS", "JSON hợp lệ", "; ".join(bad) if bad else "tất cả parse được")
     rec("PASS" if LIFECYCLE else "FAIL", "Lifecycle đọc được từ video.schema.json",
         f"{len(LIFECYCLE)} trạng thái" if LIFECYCLE else "không đọc được properties.status.enum")
+    rec("PASS" if VIDEO_ID_PATTERN else "FAIL", "ID pattern đọc được từ video.schema.json",
+        VIDEO_ID_PATTERN if VIDEO_ID_PATTERN else "không đọc được properties.id.pattern")
 
 # ── 3. Frontmatter của agent / rule / skill
 def frontmatter(path):
@@ -118,15 +121,15 @@ def check_videos():
     for d in dirs:
         y = os.path.join(d, "video.yaml")
         if not os.path.exists(y):
-            # legacy video folders are allowed until their explicit migration.
+            # Legacy video folders are allowed until their explicit migration.
             if os.path.basename(d).startswith("Video"):
                 rec("WARN", f"{d} là legacy folder chưa migrate", "không ép video.yaml")
                 continue
             rec("FAIL", f"{d} thiếu video.yaml"); continue
         t = open(y, encoding="utf-8").read()
         vid = yaml_get(t, "id")
-        if not vid or not re.fullmatch(r"SKA-\d{4}-[a-z0-9-]+", vid):
-            rec("FAIL", f"{d} id sai khuôn", str(vid)); continue
+        if not vid or not VIDEO_ID_PATTERN or not re.fullmatch(VIDEO_ID_PATTERN, vid):
+            rec("FAIL", f"{d} id sai schema", str(vid)); continue
         if vid in seen:
             rec("FAIL", f"ID trùng: {vid}", f"{seen[vid]} và {d}")
         seen[vid] = d
