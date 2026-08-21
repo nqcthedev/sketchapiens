@@ -1,7 +1,7 @@
 # Sketchapiens — video manifest. Theo schemas/video.schema.json
 # SỬA 07/08: version BẤT BIẾN + con trỏ đổi được. Trạng thái chạy máy TÁCH khỏi trạng thái video.
 
-id: SKA-000-slug-here          # BẤT BIẾN, không mã hoá ý nghĩa đổi được vào ID
+id: SKA-0000-slug-here         # BẤT BIẾN, project tạo ID mới theo 4 chữ số
 slug: slug-here
 legacy_id: null                # tên cũ, vd "V17". Hai thư mục cùng số 17 → hai id mới, cùng legacy_id
 legacy_paths: []               # thư mục cũ. GHI LẠI, không di chuyển
@@ -30,7 +30,7 @@ script:
     published: { version: null, set_at: null, set_by: null, reason: null }   # set_by PHẢI là owner
 
 reviews: []                    # - { review_id: REV-20260807-001, on_version: v001,
-                               #     kind: internal_agents, files: [...], triaged_by: null }
+                               #     kind: internal_agents, files: ["04-review/..."], triaged_by: null }
 
 evidence:
   ledger: null                 # 02-research/claim-ledger.md
