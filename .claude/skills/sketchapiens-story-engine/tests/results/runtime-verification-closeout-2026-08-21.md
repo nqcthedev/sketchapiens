@@ -184,23 +184,25 @@ No mechanism is promoted/demoted in closeout.
 
 ## 7. OPEN NON-BLOCKING DEBT — NỢ CÒN MỞ
 
-### G-01 — Legacy bypass in `project_doctor.py`
+### G-01 — Legacy bypass in `project_doctor.py` — **CLOSED**
 
-Current legacy exemption uses a broad prefix test equivalent to:
+The former broad legacy exemption:
 
 ```text
 basename.startswith("Video")
 ```
 
-Risk:
+was removed by `NEXT-GUARD-01` and replaced with an explicit `LEGACY_VIDEO_DIRS` allowlist containing exactly the six historical folders that existed before the control plane.
 
-A future **new** folder named `Video21_*` could be treated as legacy and escape the `video.yaml` lifecycle gate.
+Current behavior:
 
-Disposition:
+- the six allowlisted historical folders may WARN when `video.yaml` is absent because they remain migration debt;
+- a new folder such as `Video21_*` is **not** legacy and will FAIL if it lacks `video.yaml`;
+- `check_legacy_intact()` uses the same exact allowlist instead of a broad `Video*` naming test.
 
-- **not a Story Engine blocker**;
-- do not change it inside Phase-2 closeout;
-- fix with an explicit legacy allowlist / equivalent deterministic guardrail before a new video can rely on the new lifecycle convention.
+Implemented in commit `5764df7ba337fe59cddab41a14537fab0abe5af6`; final guardrail checkpoint: `37b65242b2a163bd9ccff42230ea79d2867168b4`.
+
+**Disposition:** resolved. This item is retained here only as historical closeout provenance so future audits do not attempt to fix the same bypass again.
 
 ### G-02 — Writer implementation monolith
 
