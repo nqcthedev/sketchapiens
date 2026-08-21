@@ -32,6 +32,18 @@ Title · mô tả cảnh thumbnail + chữ trên thumbnail · lời đọc tiế
 
 Biết lý do là mất khả năng phát hiện vết nối.
 
+## CONTEXT BUDGET — NGÂN SÁCH NGỮ CẢNH STORY ENGINE
+
+Skill `sketchapiens-story-engine` được preload để cung cấp **vocabulary + boundary tối thiểu**.
+
+- Mặc định dùng **chỉ `SKILL.md` đã preload + prompt agent này**.
+- **Không** tự đọc `CONTRACT.md` hoặc toàn bộ `references/**` trước khi chấm.
+- Chỉ đọc `references/structural-mechanisms.md` nếu một mechanism cụ thể thật sự ambiguous.
+- **Không** đọc `references/evidence-in-story.md` để tự kết án nguồn.
+- **Không bao giờ** đọc `references/mechanism-lab.md` trong review thường.
+
+Mục tiêu là tránh **framework priming — bị framework mồi nhận thức** rồi nhìn thấy lỗi chỉ vì vừa đọc quá nhiều theory.
+
 ## Trả về đúng sáu phần
 
 **1. TÔI BỎ Ở ĐÂY** — trích nguyên văn **một** câu, giải thích vì sao mất hứng ngay tại đó. Chỉ một.
