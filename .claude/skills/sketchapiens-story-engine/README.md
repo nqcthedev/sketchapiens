@@ -17,6 +17,9 @@ references/workflows.md
 references/candidate-lifecycle.md
         ↓ sau khi hiểu lifecycle mới đọc data
 references/mechanism-lab.md
+
+NON-RUNTIME / REGRESSION ONLY
+tests/**
 ```
 
 Mục tiêu: **ít context hơn, nhưng đúng context hơn**.
@@ -34,6 +37,11 @@ Không đọc mọi reference chỉ vì chúng tồn tại.
 | `references/workflows.md` | **Quy trình dùng Story Engine** | Story Map · after-chapter check · structural review · stop condition | Khi cần artifact/workflow cụ thể |
 | `references/candidate-lifecycle.md` | **Vòng đời cơ chế ứng viên** | Status machine, promotion gates, controlled experiment, consumer firewall | **Đọc trước Mechanism Lab** trong R&D/postmortem/experiment |
 | `references/mechanism-lab.md` | **Phòng thí nghiệm cơ chế** | Dữ liệu candidate cụ thể + evidence/counterexample/test | Chỉ sau `candidate-lifecycle.md`, khi task R&D thật sự cần |
+| `tests/README.md` | **Kiến trúc bộ ca thử hồi quy** | Golden behavior, severity, context profiles, anti-overfit | Khi chạy/refactor smoke suite |
+| `tests/fixtures/historical-cases.md` | **Ca thử lịch sử** | 5 snapshot V17–V20 pin bằng path + blob SHA | Smoke/regression only |
+| `tests/fixtures/micro-cases.md` | **Ca thử vi mô** | 10 case cô lập false positive/boundary | Smoke/regression only |
+| `tests/RUNBOOK.md` | **Cách chạy smoke test** | Blind-first protocol, pass/fail policy, report contract | Khi chạy suite |
+| `tests/check_smoke_report.py` | **Máy kiểm báo cáo smoke** | Chỉ kiểm cấu trúc report + candidate leakage dễ bắt | Sau khi có report |
 
 ## Context Profiles — Hồ sơ ngữ cảnh
 
@@ -53,7 +61,7 @@ story/evidence placement  → evidence-in-story.md
 Story Map / stress test   → workflows.md
 ```
 
-**Không load `candidate-lifecycle.md` hoặc `mechanism-lab.md` khi viết bình thường.**
+**Không load `candidate-lifecycle.md`, `mechanism-lab.md` hoặc `tests/**` khi viết bình thường.**
 Writer bình thường phải hoạt động như thể **không biết tên candidate cụ thể**.
 
 ### Viewer Retention Judge — Giám khảo giữ chân
@@ -68,7 +76,7 @@ SKILL.md only
 Không tự mở toàn bộ reference.
 Agent chỉ đọc supporting canonical file nếu một mechanism cụ thể bị ambiguous.
 Không đọc `evidence-in-story.md` để tự kết án nguồn.
-**Không đọc candidate lifecycle hoặc Mechanism Lab trong review thường.**
+**Không đọc candidate lifecycle, Mechanism Lab hoặc tests trong review thường.**
 
 ### R&D / Postmortem — Nghiên cứu & hậu kiểm
 
@@ -97,6 +105,19 @@ Khi đó:
 - một case thành công không tự promote.
 
 Chi tiết: `references/candidate-lifecycle.md`.
+
+### Smoke / Regression — Ca thử hồi quy
+
+Chỉ khi đang kiểm Story Engine/refactor:
+
+```text
+SKILL.md
++ reference tối thiểu theo tests/RUNBOOK.md
++ đúng một fixture input
+```
+
+Expected behavior **không được preload vào model đang được test** nếu mục tiêu là judgment blind.
+`tests/**` không có runtime authority và không được dùng làm creative rule.
 
 ## Ownership — Phạm vi sở hữu
 
@@ -144,6 +165,16 @@ Current candidate names như:
 Tên xuất hiện không đồng nghĩa mechanism đã canonical.
 Authority chỉ đến từ destination + status + owner decision theo `candidate-lifecycle.md`.
 
+## Regression Tests — Bộ test hồi quy
+
+NEXT-02E thêm hai lớp fixture:
+
+- **Historical — Lịch sử:** V17 Death · V17 Rain · V18 Sleep · V19 NightWalk · V20 Cold;
+- **Micro — Vi mô:** true/false Causal Debt · valid Domain Shift · no-mystery case · false Belief Flip · Narrative Overreach handoff · candidate leak trap · additive evidence · packaging boundary · same-surface/different-function.
+
+Bộ test bảo vệ **behavior**, không đóng băng wording.
+Nếu test chỉ pass khi model lặp lại đúng thuật ngữ đã viết trong expectation, test đã overfit.
+
 ## Từ khóa chính
 
 | English | Tiếng Việt |
@@ -155,6 +186,8 @@ Authority chỉ đến từ destination + status + owner decision theo `candidat
 | Candidate Lifecycle | **Vòng đời cơ chế ứng viên** |
 | Candidate Firewall | **Tường lửa cơ chế ứng viên** |
 | Controlled Experiment | **Thử nghiệm có kiểm soát** |
+| Smoke Fixture | **Ca thử smoke / ca thử hồi quy** |
+| Golden Behavior | **Hành vi chuẩn cần giữ** |
 | Core Causal Engine | **Cỗ máy nhân quả lõi** |
 | Causal Debt | **Món nợ nhân quả** |
 | Causal Handoff | **Bàn giao nhân quả** |
