@@ -41,6 +41,20 @@ REQUIRED = {
     "postmortem_complete":["08-analytics"],
 }
 
+# Chỉ các folder lịch sử tồn tại trước control plane mới được miễn video.yaml.
+# Đây là migration allowlist cố định, KHÔNG phải naming pattern. Video mới tên Video21_* không được miễn.
+LEGACY_VIDEO_DIRS = frozenset({
+    "videos/Video17_Death",
+    "videos/Video17_Rain",
+    "videos/Video18_Sleep",
+    "videos/Video19_Moon",
+    "videos/Video19_NightWalk",
+    "videos/Video20_Cold",
+})
+
+def is_legacy_video_dir(path):
+    return os.path.normpath(path) in LEGACY_VIDEO_DIRS
+
 # ── 1. Control plane đủ chưa
 def check_control_plane():
     need = ["CLAUDE.md", ".gitignore", ".claude/settings.json",
@@ -121,9 +135,9 @@ def check_videos():
     for d in dirs:
         y = os.path.join(d, "video.yaml")
         if not os.path.exists(y):
-            # Legacy video folders are allowed until their explicit migration.
-            if os.path.basename(d).startswith("Video"):
-                rec("WARN", f"{d} là legacy folder chưa migrate", "không ép video.yaml")
+            # Chỉ exact historical allowlist được miễn cho tới khi migrate.
+            if is_legacy_video_dir(d):
+                rec("WARN", f"{d} là legacy folder chưa migrate", "allowlist cố định; không ép video.yaml")
                 continue
             rec("FAIL", f"{d} thiếu video.yaml"); continue
         t = open(y, encoding="utf-8").read()
@@ -181,9 +195,10 @@ def check_gitignore():
 
 # ── 8. Dữ liệu cũ còn nguyên
 def check_legacy_intact():
-    vids = sorted(set(glob.glob("Video*/") + glob.glob("videos/Video*/")))
-    rec("PASS" if vids else "WARN", "Thư mục video legacy còn nguyên",
-        f"{len(vids)} thư mục legacy ở Video*/ hoặc videos/Video*/")
+    present = sorted(p for p in LEGACY_VIDEO_DIRS if os.path.isdir(p))
+    missing = sorted(LEGACY_VIDEO_DIRS.difference(present))
+    rec("WARN" if missing else "PASS", "Thư mục video legacy allowlist còn nguyên",
+        ("thiếu: " + ", ".join(missing)) if missing else f"{len(present)}/{len(LEGACY_VIDEO_DIRS)} folder")
     roots = len(glob.glob("*.md")) + len(glob.glob("*.txt"))
     rec("PASS" if roots >= 2 else "WARN", "File gốc kho còn nguyên", f"{roots} file .md/.txt ở gốc")
     for p in ["00_LUAT_HIEN_HANH.md", "governance/PROJECT_FULL_AUDIT_EXPORT.md", "2_KHO_BANGHI/00_KHO.md"]:
