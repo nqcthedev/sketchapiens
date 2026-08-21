@@ -1,8 +1,19 @@
-# REVIEW KỊCH BẢN BẰNG GPT — v2 (06/08/2026)
+# REVIEW KỊCH BẢN BẰNG GPT — v3 *(06/08/2026 · header sửa 09/08)*
 
-> ## 🔴 LUẬT GỐC: GPT REVIEW NHƯ MỘT NGƯỜI NGHE, KHÔNG PHẢI CHUYÊN GIA NGÁCH
+> ## 🔴 LUẬT HIỆN HÀNH — dán TAY NGHỀ, cấm dán CHIẾN LƯỢC
 >
-> **KHÔNG dán luật kênh, không dán rubric, không dán bối cảnh ngách vào GPT.**
+> **✅ ĐƯỢC dán:** `LENH_GPT_BoiCanh_TayNghe.md` *(giọng · chống văn AI)*
+> **⛔ CẤM dán:** chiến lược · rubric · số đếm · benchmark · lý thuyết lane
+>
+> Ranh giới **không phải** "biết kênh hay không biết kênh". Ranh giới là:
+> **thứ dạy nó NGHE thì dán · thứ dạy nó CHẤM thì không** — vì chấm là việc của máy ở cổng 7.
+>
+> ### ⛔ Luật cũ ở đây từng ghi ngược lại, và file này TỰ BÁC nó ở §"KẾT QUẢ ĐỐI CHỨNG" (cuối file)
+> Bản v2 ghi *"KHÔNG dán bối cảnh ngách"*. Vòng 6 chạy đối chứng: dán tay nghề vào thì
+> **hai chỗ đánh nhầm biến mất** *(hedge · ngôi 2 ở đoạn kết)*, và không hề biến người nghe
+> thành máy đếm. **Kết luận đảo, nhưng header giữ nguyên suốt ba ngày** — ai đọc đầu file rồi
+> dừng thì làm theo luật đã chết. Sửa 09/08.
+> ⚠️ Đối chứng đó **yếu** *(đổi hai biến cùng lúc)* — xem ghi chú cuối file.
 >
 > **Vì sao.** Nạp luật vào là bắt nó chấm theo đúng bảng kiểm mà mình đã chấm bằng máy ở
 > cổng 7 — kiểm hai lần cùng một thứ, mà lại mất đúng thứ cần ở người ngoài: **tai nghe sạch**.
@@ -102,11 +113,11 @@ Dùng để phân loại góp ý **sau khi** nhận về. Ba nhóm:
 
 | Nếu GPT nói | Bỏ, vì |
 |---|---|
-| *"nên viết dài hơn"* | 8/9 kênh top làm **6–9 phút**; quả 1,5 triệu chỉ **1.543 từ** |
+| ~~*"nên viết dài hơn"*~~ | ⛔ **BỎ DÒNG NÀY 09/08.** Luật độ dài đã chết: **Mack 3.206 từ → 1,69 triệu** · **Stickly 3.165 từ → 2,08 triệu**. Đo nội bộ 16 kênh: độ dài **không dự báo view**. Dùng luật chết để **gạt một góp ý đúng** là cách tệ nhất — nếu người nghe bảo "dài hơn đi" thì hỏi lại **"chỗ nào bạn thấy thiếu?"**, đừng bác bằng con số |
 | *"nên nói nhiều về chính người xem hơn"* | lane "về BẠN" verify **0 cú nổ / 4 tháng** |
 | *"thêm dấu chấm than cho có cảm xúc"* | **0/14** winner dùng dấu chấm than |
 | *"bỏ chỗ thừa nhận khoa học chưa chắc đi cho dứt khoát"* | hedge tiết chế là **con hào** của kênh |
-| *"'Now, let's be honest about something' là filler"* | **nguyên văn cấu trúc** của video 2,05M view |
+| *"'Now, let's be honest about something' là filler"* | ⚠️ **Đọc kỹ trước khi bỏ.** Nó là **nguyên văn của một video 2,05M** — nghĩa là (a) đúng register, nhưng (b) **chép nguyên si là clone**. Nếu câu trong bài mình **trùng chữ** thì người nghe đúng, **viết lại câu khác cùng chức năng**. Chỉ giữ khi câu là của mình và chỉ giống về **chức năng** |
 | *"đổi giọng cho hào hứng hơn"* | ngách này là **deadpan**; hào hứng là sai tông |
 | *"nên có nhạc nền / hiệu ứng"* | ngoài phạm vi, đây là bản lời đọc |
 
@@ -264,7 +275,7 @@ Give me a critique in six parts:
    Does that part hold together on its own, or can you see the seam?
 ```
 
-**Kịch bản dán kèm:** `videos/Video19_NightWalk/Script_Video19_narration.txt` *(EN thuần, 128 dòng —
+**Kịch bản dán kèm:** `videos/Video19_NightWalk/Script_Video19_narration.txt` *(EN thuần, **126 dòng** —
 không kèm tiêu đề chương, không kèm cột dịch)*.
 
 ⚠️ **Cửa sổ chat MỚI.** Bản này là bản viết lại, chat cũ đã đọc bốn bản trước.
@@ -337,7 +348,7 @@ Give me a critique in six parts:
    Can you see either seam?
 ```
 
-⚠️ **Cửa sổ chat MỚI.** Và dán bản kịch bản **hiện tại** *(1.524 từ)* — bản vòng 5 đã lưu ở
+⚠️ **Cửa sổ chat MỚI.** Và dán bản kịch bản **hiện tại** *(⚠️ đếm thật: **1.488 từ**, không phải 1.524 — `CHOT_V19.md` ghi ba con số khác nhau cho cùng một file)* — bản vòng 5 đã lưu ở
 `_nhap/Script_V19_truoc_vong5.txt`, đừng dán nhầm.
 
 ---

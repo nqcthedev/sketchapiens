@@ -139,6 +139,52 @@ rong = [n for (n, b), su, t in zip(blocks, SUBJ, TEXT)
 chk("sơ đồ nào cũng phải NÓI được một điều", not rong,
     f"{rong} — biểu đồ/bảng/trục mà cấm chữ thì không nói gì cả  ({SD['nguon']})")
 
+# ── 4b. SCENE_N KHÔNG ĐƯỢC CÓ NGƯỜI TRONG SUBJECT ──────────────────────────
+# 15/08/2026 — bắt được ở V20: 3 khung khai SCENE_N nhưng subject ghi "a sleeping
+# figure", "several people lying around it". build_prompts dán khối NO_PERSON cho
+# SCENE_N không nhắc con vật → prompt TỰ CÃI NHAU, và model nghe luật chứ không
+# nghe subject. KHUNG CUỐI VIDEO ra một đống lửa không có ai.
+# "body shaped dent/outline/patch" là HÌNH DẠNG, không phải người → không tính.
+_NGUOI = r"\b(figures?|persons?|people|sleepers?|hunters?|somebody|someone)\b"
+_HINH  = r"body[- ]shaped"
+_CV_N  = (r"(?:lion|snake|wolf|hyena|leopard|bear|animal|prey|cat|dog|bird|"
+          r"elephant|mammoth|deer|horse|zebra)s?")
+_xung = []
+for _i, (_k, _su) in enumerate(zip(KIND, SUBJ), 1):
+    if _k != "SCENE_N":
+        continue
+    _sach = re.sub(r"\b(no|never|without)\s+" + _CV_N, "", _su, flags=re.I)
+    if re.search(_CV_N, _sach, re.I):      # có con vật -> engine KHÔNG dán NO_PERSON
+        continue
+    _su2 = re.sub(_HINH, "", _su, flags=re.I)
+    if re.search(_NGUOI, _su2, re.I):
+        _xung.append(_i)
+chk("SCENE_N không khai người trong subject", not _xung,
+    f"{_xung} — engine dán NO_PERSON cho SCENE_N, người trong subject sẽ BỊ XOÁ. "
+    "Đổi sang SCENE_A/GROUP.")
+
+# ── 4c. SUBJECT NÓI NGỦ THÌ FACE PHẢI LÀ asleep ───────────────────────────
+# 15/08/2026 — bắt được ở V20 ngay sau khi vá 4b: ba khung đổi SCENE_N -> SCENE_A
+# nhưng trường face vẫn để "flat" (hồi SCENE_N thì face không dùng tới). Chủ thể
+# ghi "lies asleep", khối FACE ghi mắt mở -> model vẽ người NẰM MỞ MẮT, đúng vào
+# câu "in order to sleep at all" ở KHUNG CUỐI.
+# phủ định phải bị loại TRƯỚC khi dò, y như engine làm với khối con vật:
+# "plainly not asleep" · "never sleeping" · "eyes wide open, not asleep"
+_NGU = r"\b(asleep|sleeping|eyes closed|fast asleep)\b"
+_PHU = r"\b(not|never|nobody|no one|hardly|barely|far from|plainly not)\s+(?:\w+\s+){0,2}?"
+
+
+def _co_ngu(su):
+    return bool(re.search(_NGU, re.sub(_PHU + _NGU, "", su, flags=re.I), re.I))
+
+
+_lech = [i for i, s in enumerate(SHOTS, 1)
+         if s[1] in ("SCENE_A", "SCENE_W", "GROUP")
+         and _co_ngu(s[2])
+         and (s[5] if len(s) > 5 else "flat") != "asleep"]
+chk("chủ thể nói ngủ thì face=asleep", not _lech,
+    f"{_lech} — subject ghi ngủ mà FACE vẽ mắt mở, prompt tự cãi nhau")
+
 # ── 5. CỬA CÓ NGUỒN ────────────────────────────────────────────────────────
 C = LUAT["cua_chan"]["tu_moi_shot"]
 w = sum(len(l.split()) for l in LOI) / N

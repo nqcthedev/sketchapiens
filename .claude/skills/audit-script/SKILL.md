@@ -1,6 +1,6 @@
 ---
 name: audit-script
-description: Chạy năm giám khảo độc lập trên một bản nháp kịch bản rồi gộp thành một bản chấm duy nhất cho chủ phân loại. Read-only, không sửa kịch bản. Dùng sau khi có bản nháp và trước khi sửa.
+description: Chạy ba giám khảo độc lập trên một bản nháp kịch bản rồi gộp thành một bản chấm duy nhất cho chủ phân loại. Read-only, không sửa kịch bản. Dùng sau khi có bản nháp và trước khi sửa.
 ---
 
 # /audit-script — ba giám khảo, một bản chấm
@@ -8,7 +8,7 @@ description: Chạy năm giám khảo độc lập trên một bản nháp kịc
 ## Luật cứng
 - **Read-only.** Không agent nào được sửa kịch bản.
 - Mỗi giám khảo chạy **ngữ cảnh riêng**, không thấy nhận xét của người khác.
-- Ba giám khảo đầu **không** được đọc research/rubric. Tai sạch là giá trị của họ.
+- **Cả ba** giám khảo **không** được đọc research/rubric. Tai sạch là giá trị của họ.
 - Kết quả là **đề nghị**, không phải quyết định. Chủ phân loại từng mục.
 
 ## Đầu vào
@@ -28,13 +28,14 @@ description: Chạy năm giám khảo độc lập trên một bản nháp kịc
 >
 > 🔴 **Lớp lạnh thật là cổng 10: review ngoài bằng ChatGPT, chat mới.** Không bỏ được.
 
-Ngoài ra chạy máy: `python3 ~/.claude/skills/sketchapiens-bien-tap/qa_kichban.py <file>` — 4 ràng buộc cứng.
+Ngoài ra chạy máy: `python3 .claude/skills/sketchapiens-bien-tap/qa_kichban.py <file>` — **BA** ràng buộc cứng
+*(`!`=0 · không gạch ngang giữa câu · mỗi câu một dòng)*. ⛔ Không phải bốn — `I ≈ 0` đã gỡ 07/08.
 
 ## Gộp — ghi vào `videos/<ID>/04-review/RNNN-audit.md`
 
 Dùng `templates/review-consolidated.md`. Bắt buộc có:
 
-1. **Kết quả máy** — 4 ràng buộc cứng đạt/trượt.
+1. **Kết quả máy** — BA ràng buộc cứng đạt/trượt. Các số còn lại script in ra là **triệu chứng**, ghi lại nhưng **không kết luận từ chúng**.
 2. **Lỗi bị bắt ĐỘC LẬP ở nhiều giám khảo** — xếp lên đầu. *Đếm số lần bị bắt độc lập, đừng đếm số câu bị gạch.*
 3. **Từng giám khảo một mục**, giữ nguyên văn, không làm nhẹ.
 4. **Bảng phân loại để trống** cho chủ điền: `ÁP NGAY / ÁP CÓ SỬA / BỎ + lý do`.

@@ -51,7 +51,7 @@ Chúng dựa trên 78 video của Stickly/Mogo/Polo — mà **Stickly là kênh 
 
 > ⚠️ **Đừng ép cho đủ chữ.** Quả **1,5 triệu view** *(Eating)* chỉ **1.543 từ**; quả **769K**
 > của Ink Explainer chỉ **~1.000 từ / 6 phút**. Độ dài **không phải** biến quyết định —
-> xem `00_LUAT_HIEN_HANH.md` mục 🔵 và `kho/1_luat/CONGTHUC_InkExplainer_BestOf.md`.
+> xem `00_LUAT_HIEN_HANH.md` mục 🔵. *(⛔ `CONGTHUC_InkExplainer_BestOf.md` đã gỡ 10/08 — kênh nguồn bị tắt kiếm tiền.)*
 
 Đừng dùng cữ 136 wpm của ngách nghe-ngủ — ở đây nhanh hơn 25%, dùng nhầm là video hụt cả chục phút.
 
@@ -132,7 +132,7 @@ Câu cuối của video thứ hai đáng học riêng: sau một đoạn cao tr�
 3. **Có câu hỏi thứ hai nâng mức cược sau câu hỏi thứ nhất không?**
 4. **Đoạn kết có quay lại câu hỏi mở đầu không?** Không thì chưa khép vòng.
 5. **Câu cuối có nối vào đời sống người xem không?**
-6. **Đếm từ ÷ 154 — ra đúng số phút mục tiêu chưa?**
+6. **Đếm từ ÷ 178** — ra đúng số phút mục tiêu chưa? *(⛔ số cũ `÷154` đã bị chính file này khai tử hai lần ở L20 và L34 — lệch 15%, đủ để cắt oan một chương.)*
 
 ## Chủ đề nào ăn
 
@@ -158,13 +158,26 @@ Câu cuối của video thứ hai đáng học riêng: sau một đoạn cao tr�
 
 Vỉa mạnh nhất là **ĐỘNG VẬT × CON NGƯỜI**, xuất hiện ở top của cả ba kênh.
 
+
+> ## 🔴 MỌI CÂU TIẾNG ANH TRONG FILE NÀY LÀ CÂU CỦA ĐỐI THỦ
+> Đọc để biết **register**. ⛔ **Chép là clone** — trùng câu chữ · trình tự beat · ví dụ ·
+> đùa · ẩn dụ · cú bẻ lái là **reused content**, thứ đã làm sập một kênh của chủ.
+> Số đo từng cụm *(cụm nào có trong bao nhiêu bản ghi đối thủ)*:
+> `kho/2_nguyenlieu/KHO_CauMau_DoiThu_DungChep.md`.
+
 ## Công thức title — ba luật
 
-1. **Thì hiện tại**: "Why Do…", không phải "How Did Ancient Humans…"
-2. **Chủ ngữ là bạn hoặc chúng ta**, không phải "ancient humans"
+> ⚠️ **Hai mục cuối file này đứng trên hai nền mà chính file đã bác ở đầu** *(cỡ mẫu 78
+> video · và Stickly là **kênh trúng số**, trung vị 27.000, top-1 chiếm 45% → "không rút
+> luật từ nó")*. Đọc như gợi ý, không như luật.
+
+1. ⛔ ~~**Thì hiện tại**: "Why Do…", không phải "How Did Ancient Humans…"~~ — **BỊ BÁC.**
+   `HE_THONG_KichBan_v2` PHẦN C xếp hạng **159 video**: `When Did Ancient Humans **First** ___?` đứng **đầu bảng, 287.075 view TB**; `How Did Ancient Humans [Verb]?` có **42 video, 101.957**. Luật này rút từ **78 video Stickly/Mogo/Polo** — đúng cỡ mẫu mà **đầu file này đã tự bác** *("Stickly là kênh trúng số, không rút luật từ nó")*. Và nó bảo tránh chính tên ngách của kênh.
+2. ⛔ ~~**Chủ ngữ là bạn hoặc chúng ta**~~ — **CHẾT.** Đây là lane "về BẠN": verify 27/07 ra **0 cú nổ / 4 tháng**, trong khi ngôi-3 có **25 breakout ≥80K**. Bảng ngay trong file này cho thấy quả 2M dùng **ngôi ba**, còn hai title có `you` nằm **đáy** *(567 · 346 view)*. Skill anh em `sketchapiens-chon-de-tai` đặt đúng câu này làm **CỬA LOẠI**.
 3. **6–9 từ**
 
-Ba trong bốn video top của Stickly ở thì hiện tại và nói về động vật hoặc chúng ta. Video quá khứ về người cổ đại nằm ở đáy bảng.
+⚠️ ~~Ba trong bốn video top của Stickly ở thì hiện tại… video quá khứ về người cổ đại nằm ở đáy bảng.~~
+Đây là quan sát **trong một kênh trúng số**, n=4. Bảng 159 video nói ngược: khuôn quá-khứ `When Did Ancient Humans First ___?` **đứng đầu**. Thứ còn đúng ở bảng THẮNG/THUA phía trên là **vỉa động vật × con người**, và **lane "về BẠN" chết** *(`Why Do You Keep Waking Up at 3AM?` = **346 view**)*.
 
 ## Cỡ mẫu cần để kết luận
 

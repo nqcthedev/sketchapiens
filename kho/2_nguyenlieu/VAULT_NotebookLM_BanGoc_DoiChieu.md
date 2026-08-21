@@ -32,7 +32,14 @@
 đúng ranh giới giữa các video *(hedge, view, kênh nào)* thì **hỏng lặp lại** — phải tự đếm
 lại trên transcript gốc.
 
-## Số benchmark rút từ bản gốc *(dùng để chấm kịch bản mới)*
+## Số benchmark rút từ bản gốc — ⛔ **KHÔNG DÙNG ĐỂ CHẤM** *(sửa 09/08)*
+
+> Bảng dưới đây từng ghi *"dùng để chấm kịch bản mới"*. **Bốn trong bảy dòng của nó đã chết:**
+> `mỏ neo/phút` *(Zenn 4,02M có 1,22/1000 từ, thấp thứ nhì tháng)* · `câu hỏi lõi giây 11-35`
+> *(đo 16 kênh ra ngược dấu; PrimalGlitch hai bài đỉnh **0 dấu hỏi cả bài**)* · `you:we`
+> *(Calhoun 4,02M có `you` = **0**)* · `"I"` *(gỡ 07/08)*.
+>
+> Giữ bảng làm **hiện vật của một lần đo**, để biết bốn video đó trông ra sao. **Đừng chấm bằng nó.**
 
 | Chỉ số | Predators 2,0M | Smoking 1,6M | Cold 488K | Eating 1,5M |
 |---|---|---|---|---|

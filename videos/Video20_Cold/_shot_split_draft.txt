@@ -1,0 +1,288 @@
+001| 2| Sixteen hours.
+002|14| That is how long the dark lasts on a winter night in northern Europe,
+003| 4| twenty thousand years back.
+004| 9| Sixteen hours is not a figure of speech here.
+005| 1| At
+006|14| that latitude the shortest day of the year holds under eight hours of light.
+007| 4| Everything else is night.
+008| 9| The temperature drops past freezing in the first hour
+009| 3| and keeps going.
+010| 5| And somewhere in that dark,
+011| 9| a person has to lie down on the ground
+012| 3| and lose consciousness.
+013| 9| Almost every account of this asks the same question.
+014| 5| How did they stay warm.
+015| 5| That is the wrong question.
+016| 5| Staying warm has obvious answers,
+017| 8| and they are the ones everybody already knows.
+018| 1| Fire.
+019| 1| Hides.
+020| 4| Other bodies pressed close.
+021| 9| Falling asleep is the part with no obvious answer,
+022| 5| because of something about sleep
+023| 6| that almost nobody has been told.
+024|10| A human being cannot fall asleep without giving heat away.
+025| 3| Not lying still.
+026| 4| Not being tired enough.
+027| 8| Giving heat away, through the skin, on purpose.
+028|17| And the first thing a freezing night does to a human body is shut down exactly that.
+029| 8| Which puts the fire in the middle of
+030|10| that camp in a different job from the obvious one.
+031| 2| Not comfort.
+032| 1| Permission.
+033| 5| That is a strong claim,
+034| 9| and it does not come out of the ground.
+035| 6| It comes out of sleep laboratories,
+036|10| from people wired to sensors in the last fifty years.
+037| 7| So here is where it comes from,
+038| 7| and here is where it runs out.
+039| 5| Start with the night itself,
+040| 8| because the number is larger than people expect.
+041| 6| At fifty degrees north, the line
+042| 6| that runs through the Ukrainian plain
+043| 6| where the mammoth bone houses stood,
+044| 9| the shortest day of the year gives about seven
+045| 6| and a half hours of daylight.
+046| 6| That leaves sixteen hours of dark.
+047| 6| Go further north, to sixty degrees,
+048| 9| and daylight falls to five and a half hours.
+049| 7| Eighteen and a half hours of night.
+050| 2| Not once.
+051| 4| Every night, for months,
+052| 8| with the worst of it in the middle.
+053| 5| None of that is reconstruction,
+054| 7| and none of it is an estimate.
+055| 8| The tilt of the planet has not moved,
+056| 9| and it is the one part of this story
+057| 4| that is simply settled.
+058| 8| Now put a human body next to it.
+059| 4| Nobody sleeps sixteen hours.
+060| 9| So for a large part of every winter night,
+061| 7| people were lying in the dark, awake,
+062| 4| in the cold, waiting.
+063|13| What they did with those waiting hours is a story of its own.
+064| 9| This one is about the other end of it.
+065| 7| How anybody stopped waiting, and went under.
+066| 8| Falling asleep does not feel like a process.
+067| 5| It feels like an absence.
+068| 9| One moment there is a person lying there, and
+069| 4| then there is not.
+070| 5| But it is a process,
+071| 6| and it has a first step,
+072| 9| and the first step is not in the brain.
+073| 8| It is in the hands and the feet.
+074| 5| In the hour before sleep,
+075| 7| the small blood vessels in the fingers
+076| 5| and the toes open up.
+077|13| Warm blood from the middle of the body runs out to the surface,
+078| 6| and heat leaves through the skin.
+079| 4| The hands get warmer.
+080| 4| The core gets cooler.
+081| 6| That is what a body does
+082| 7| when it is about to go under.
+083|14| In 2000 a team in Basel measured this on people in a sleep laboratory,
+084| 5| and asked one plain question.
+085| 2| Of everything
+086|11| that can be recorded about a person lying in the dark,
+087| 8| what actually predicts how fast they fall asleep.
+088| 9| They had all the obvious candidates on the list.
+089| 3| Core body temperature.
+090| 1| Melatonin.
+091| 2| Heart rate.
+092| 8| And how sleepy the person said they felt.
+093| 6| The winner was none of them.
+094|12| The best predictor was the gap between the temperature of the hands
+095| 8| and feet and the temperature of the trunk.
+096| 8| The wider that gap, the faster sleep arrived.
+097| 9| Their conclusion is worth saying in their own words.
+098| 6| Sleepiness is associated with heat loss,
+099| 8| and not with a drop in core temperature.
+100| 8| Which turns around the thing almost everyone assumes.
+101|10| The body does not cool down because it fell asleep.
+102| 8| It falls asleep because it is already cooling,
+103| 7| and it cools by opening the hands.
+104| 5| Now take that body outside,
+105| 6| on a night well below freezing.
+106| 5| The cold reaches the skin,
+107|12| and the body does the oldest thing it knows how to do.
+108| 4| It closes the hands.
+109| 8| Blood is pulled back out of the fingers
+110| 8| and the toes and held in the middle,
+111| 9| around the organs that are not allowed to cool.
+112| 6| This is why fingers go white
+113| 5| and clumsy in the cold,
+114| 8| and why they hurt on the way back.
+115| 5| It is not a fault.
+116| 7| It is heat conservation, and it works.
+117|10| But look at what it does to the other system.
+118| 2| The vessels
+119|17| that have to open before sleep can start are the exact vessels the cold has just shut.
+120| 7| Two survival programs, in the same body,
+121| 4| on the same night,
+122| 7| each one cancelling the other's first move.
+123| 7| Staying warm wins, because it has to.
+124|10| Which leaves a person who is not going to freeze
+125| 7| and is not going to sleep either.
+126| 6| That is the kind of claim
+127| 5| that ought to be testable,
+128| 5| and it has been tested.
+129|11| In 1981 researchers put six men to bed in a chamber
+130| 6| where the temperature could be set.
+131| 5| They wore nothing but shorts,
+132| 7| on a bed made of nylon webbing,
+133| 8| so air could reach them from every side.
+134| 2| Five settings.
+135| 8| Twenty one degrees Celsius, twenty four, twenty nine,
+136| 4| thirty four, thirty seven.
+137| 6| Twenty nine was the neutral point,
+138|14| where a bare body is neither working to warm itself nor working to cool.
+139| 5| Then they read the sleep.
+140| 4| Heat broke it up.
+141| 5| Cold broke it up worse.
+142|19| And the single most disruptive setting in the whole study was not the coldest thing a person can survive.
+143| 5| It was twenty one degrees.
+144| 2| Room temperature.
+145| 6| The number on an office thermostat,
+146|10| in the middle of an argument about the office thermostat.
+147|15| An uncovered human body is already losing sleep at a temperature nobody would call cold.
+148| 7| Now put that body outdoors, in winter,
+149| 4| at fifty degrees north.
+150|10| The cold has a cruder move than any of that.
+151| 1| Shivering.
+152| 7| When the closed hands are not enough,
+153| 4| the muscles start working,
+154| 7| and the body makes heat by moving.
+155| 6| It is effective, it is expensive,
+156| 6| and it has one obvious problem.
+157|13| A body busy shivering is not a body on its way to sleep.
+158|15| A person cold enough to shiver is a person who is not getting to sleep.
+159| 7| And a person who is not shivering,
+160| 9| on a night that cold, is either warm enough,
+161| 5| or is already in trouble.
+162|11| Now put the fire back in the middle of that camp,
+163|14| because it is doing something other than what it looks like it is doing.
+164|11| A fire does not warm the air around it very much.
+165| 2| Air moves,
+166|10| and on open ground it takes the heat with it.
+167| 6| What a fire warms is surfaces,
+168| 7| and the surface in question is skin.
+169|11| A person lying with one side turned to the flames has
+170| 6| that side held above the temperature
+171| 4| where the vessels shut.
+172|11| Which is the one condition the sleep system was waiting on.
+173| 9| So the fire is not making the night warm.
+174| 8| Nothing was going to make that night warm.
+175| 9| It is making a strip of skin warm enough
+176| 9| that the body will agree to let heat go.
+177| 8| Heat on the outside, permission on the inside.
+178|10| That is a small thing to ask of a fire,
+179|10| and it is not a small thing to be given.
+180| 7| Now, if any of that is right,
+181|11| it has to show up somewhere other than in an argument.
+182| 2| A body
+183|14| that needs one warm side would not lie down just anywhere in a camp.
+184| 8| It would lie in a ring, close in,
+185| 7| with one side turned to the fire,
+186| 8| and it would turn over in the night.
+187| 4| That is a prediction.
+188|13| And it is the kind of prediction the ground can be asked about.
+189|14| Everything to this point has been measured on living people in rooms with thermostats.
+190| 4| There is one place
+191| 8| where the ring turns up in the ground.
+192|10| A camp on the shore of the Sea of Galilee,
+193| 5| twenty three thousand years old,
+194| 8| spent most of the time since then underwater.
+195| 8| That is the only reason anything soft survived,
+196| 5| because plants normally do not.
+197| 4| When it was excavated,
+198|13| the floor of one brush hut still had the bedding lying on it.
+199| 6| Not a stain in the soil.
+200| 9| Not a dark shadow where something used to be.
+201| 3| The actual grass.
+202|11| Bunches of stems and leaves from a marsh grass, partly charred,
+203| 8| pressed flat under a thin layer of clay.
+204|10| And the excavators wrote down how it was laid out.
+205| 8| Arranged in a repeated pattern, on the floor,
+206| 4| around a central hearth.
+207| 8| That is the oldest bedding anybody has found,
+208|14| and the shape of it is a ring with a fire at the centre.
+209|12| So one third of the prediction is sitting there in the clay.
+210| 6| The other two thirds are not,
+211|10| and no amount of staring at it will produce them.
+212| 4| Grass does not record
+213| 6| which way a person was facing,
+214| 8| and it does not record anybody turning over.
+215| 9| Nor does the layout prove anything about blood vessels.
+216|15| A hearth in the centre of a room is useful for a list of reasons,
+217| 7| and warmth is only one of them.
+218| 1| But
+219|17| if a body needs a warm surface on one side before it will agree to shed heat,
+220|11| then bedding laid in a ring around a fire is what
+221| 6| that requirement looks like from above.
+222|13| And the shore of the Sea of Galilee is not a cold place.
+223| 7| Whatever pulled those people into that ring,
+224| 9| it was not a winter on the Ukrainian plain.
+225|11| The base under all of this is narrower than it sounds,
+226| 7| and it should be named out loud.
+227|13| Nobody has ever measured a night of sleep from twenty thousand years ago.
+228| 4| Nobody is going to.
+229| 8| There are no sensors in the archaeological record,
+230|11| and there is no way to get one onto a body
+231| 6| that has been gone that long.
+232| 9| Nearly every number in this comes from living people,
+233| 8| indoors, wired up, in the last fifty years.
+234| 3| And the study
+235| 7| that produced the sharpest number in it,
+236| 9| the one about room temperature, ran on six men.
+237| 1| Six.
+238| 7| The people who ran it said plainly
+239| 6| that the differences between one man
+240| 5| and the next were large.
+241|14| Some of them handled the cold setting nearly as well as the neutral one,
+242| 6| and some of them barely slept.
+243|13| So the honest shape of this is not a discovery about the past.
+244| 6| It is a set of constraints
+245| 7| that a human body carries now, and
+246| 8| that a human body almost certainly carried then,
+247| 6| because the parts involved are old.
+248| 2| Blood vessels
+249|10| that narrow in the cold are not a modern feature.
+250| 4| Neither is the shivering,
+251|11| and neither is the need to shed heat before sleep begins.
+252|13| What cannot be recovered is the part everybody would most like to have.
+253| 8| Whether a specific person, on a specific night,
+254|10| on frozen ground in what is now Ukraine, actually slept.
+255| 6| The record does not keep that.
+256| 8| It keeps the houses, the hearths, the bones
+257| 3| and the tools,
+258|11| and none of those can say whether anyone in them rested.
+259|12| So the answer here is narrower than the question sounds, and stranger.
+260| 5| Nobody slept through those nights,
+261| 7| because no sleep is sixteen hours long.
+262| 7| What the evidence will carry is this.
+263|11| A body has to give heat away before it will sleep,
+264| 9| a freezing night takes that option off the table,
+265| 9| and something warm on one side puts it back.
+266| 1| On
+267|11| that landscape there was one thing warm enough to do that,
+268| 7| and somebody had to keep it alight.
+269|11| Every other animal there answered the cold with its own body.
+270| 1| Fur.
+271| 1| Fat.
+272| 2| A burrow.
+273| 4| A season spent unconscious.
+274|14| No other animal there answered it by building the heat source outside the body,
+275| 6| and then lying down around it.
+276|13| A bedroom is the same arrangement with the fire moved inside the walls.
+277| 9| What that leaves is a picture nobody dug up,
+278| 7| and it is a very small one.
+279| 4| A person turns over.
+280| 7| The cold side goes to the flames,
+281| 7| the warm side goes to the dark,
+282|14| and the vessels in the hands open again by a fraction of a degree.
+283| 5| And for a few hours,
+284| 8| in the middle of a sixteen hour night,
+285| 6| the body stops arguing with itself,
+286|15| and gives away the heat it has to lose in order to sleep at all.
+
+TONG 286 shot

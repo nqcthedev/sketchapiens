@@ -1,7 +1,30 @@
 # BẢN DỊCH — "What Did Ancient Humans Do at Night?"
+
+> # 🔴🔴 FILE RỦI RO CLONE CAO NHẤT TRONG CẢ KHO — biển dán 09/08/2026
+>
+> Đây là **bản dịch TRỌN VẸN kịch bản của đối thủ**, quả **7,83 triệu view** của Zenn.
+> Không có file nào trong dự án nguy hiểm bằng nó.
+>
+> ## ⛔ ĐỌC ĐỂ HIỂU CÁCH DỰNG. TUYỆT ĐỐI KHÔNG LẤY MỘT CÂU NÀO.
+>
+> Trùng **đề tài** thì được. Trùng **trình tự beat · ví dụ · câu đùa · ẩn dụ · cú bẻ lái**
+> là **reused content** — chính sách đã làm sập một kênh của chủ, và YouTube xét theo KÊNH
+> chứ không theo video.
+>
+> **Bầy clone quanh đúng quả này đo được đỉnh 337 view.** Chép nó không đưa ai tới đâu cả.
+>
+> ⚠️ Và bài này có ít nhất một claim **không dẫn nguồn ai**: *"A campfire creates a circle
+> of safety roughly 30 ft in diameter."* V18 từng loại đúng claim đó vì không tra ra gốc.
+> **Thấy trong video triệu view không có nghĩa là dữ kiện.**
+>
+> ⛔ **Cấm mở file này trong chế độ ② VIẾT.**
 ### Zenn · **7.810.000 view** · 8 phút 33 · **1.598 từ** · đăng ~4 tháng trước
 
-> **Đây là video to nhất ngách.** Đọc một lần để hiệu chỉnh khẩu vị — sau đó chấm bài của mình sẽ chuẩn hơn hẳn.
+> ⚠️ **Đây là video to nhất ngách — VÀ ĐÓ CHÍNH LÀ VẤN ĐỀ.** Nó là **cú trúng số**, không phải mức bình thường:
+> top-2 của Zenn chiếm **70% tổng view**, trung vị thật **30K**, và Zenn **đang tụt** *(7 video mới: 9-16K)*;
+> chỉ **5/29** video của họ là ancient humans *(`BOCTACH_4Kenh_SoSanh_2026-08-04.md`)*.
+> **Đừng lấy 7,83 triệu làm chuẩn cho bất cứ tính toán nào.** Mức thật để nhắm là **sàn 7.000 / trung vị 18.500**.
+> Đọc file này để thấy **cách dựng một bài 1.598 từ**, không phải để hiệu chỉnh tham vọng.
 >
 > Chú ý ba thứ khi đọc: **(1)** nó mở ở phòng khách của bạn, không phải ở hang · **(2)** cứ khoảng 1,7 phút lại có một câu móc lại · **(3)** đọc xong thấy **hụt**, không thấy hào hùng.
 >

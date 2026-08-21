@@ -16,7 +16,17 @@
 
 ## ✍️ Quy tắc vàng khi viết prompt cảnh
 - **Đính ref nhân vật MỌI lần**; gọi rõ *"the character from Image 1"* (đánh số Image 1/2 nếu nhiều ảnh).
-- **Style block dán y nguyên** ở CUỐI mỗi prompt (ví dụ: *"hand-drawn 2D doodle cartoon, emotive chibi, flat colors, bold black marker outlines, white background"*). Style giống nhau = ảnh giống nhau.
+- **Style block dán y nguyên** ở CUỐI mỗi prompt. Style giống nhau = ảnh giống nhau.
+  > ⛔ **Ví dụ cũ ở đây chứa chữ CẤM.** Nó ghi *"hand-drawn 2D doodle **cartoon**, emotive chibi…"* —
+  > `cartoon` là một trong **ba chữ cấm tuyệt đối** *(`cartoon · clean · smooth`)*, và bốn bản
+  > thumbnail V18 đầu hỏng đúng vì prompt mở bằng ba chữ đó.
+  > **Style block đúng** *(chép từ skill `sketchapiens-thumbnail` §⑥ *(gộp 09/08)*)*:
+  > ```
+  > Crude hand-drawn 2D stickman explainer, raw imperfect indie doodle art style,
+  > VERY THICK and slightly shaky black marker outlines, flat solid colours with a
+  > grainy paper and sketch texture overlay. NO smooth digital lines, NO clean
+  > vectors, NO gradients, NO 3D shading. Colours dusty and muted.
+  > ```
 - **Trait token y chang từng chữ**: *"large round white eyes with small dot pupils"*, *"cobalt hoodie"*… Đừng đổi cách gọi (lúc "blue", lúc "navy" → trôi).
 - **Nói rõ cái GIỮ NGUYÊN**: *"keep face, outfit, proportions identical; change only the background to a snowy plain."*
 - **Dùng câu khẳng định thay vì phủ định** (Nano Banana nghe instruction, ít nghe "negative"): viết *"one relaxed visible hand"* thay vì *"no extra fingers"*; *"empty cave"* thay vì *"no people"*.
@@ -55,7 +65,7 @@ Từ sheet, **cắt riêng từng biểu cảm** (curious / shocked / smirk / co
 ## ✅ Checklist chốt 1 nhân vật
 - [ ] Sheet ra đủ góc + **4 biểu cảm**, **cùng 1 mặt**.
 - [ ] Lưu `refs/<token>.png` + tạo **Ingredient** trong Flow.
-- [ ] Đánh **✅** trong registry (`../1_luat/CastBible_DienVien.md`).
+- [ ] ⛔ ~~Đánh ✅ trong registry `CastBible`~~ — **file đã xoá 09/08**. Khối nhân vật chuẩn nay ở **`identity/style.py`**.
 - [ ] (tùy) cắt thư viện biểu cảm để tái dùng.
 
 ---

@@ -1,230 +1,407 @@
 ---
 name: sketchapiens-thumbnail
-description: Thumbnail cho KÊNH SKETCHAPIENS (người que cổ đại, faceless, tiếng Anh, ngách Ancient Humans Explained) — luật riêng đo từ 44 thumbnail của 9 kênh đối thủ cùng ngách, đè lên mọi nguyên tắc thiết kế chung. Gồm chữ trên thumbnail (phải chứa một đại lượng đo được), quan hệ title↔chữ (được phép lặp title), bốn luật chấm điểm đã bị bác, luật CENTRE ANCHOR, tỉ lệ trắng mặt-tay-chân, và quy trình hai bước concept-ở-cuối. CHỈ dùng cho dự án Sketchapiens / Build Channel Người Que Cổ Đại — dự án khác dùng skill `thiet-ke-thumbnail` chung. Dùng khi user nói "thumbnail v18/v19", "chữ trên thumbnail", "prompt thumbnail", "ảnh bìa cho video này", hoặc khi tới giai đoạn 5a của WORKFLOW_Production.
+description: Làm thumbnail cho kênh Sketchapiens (người que, Ancient Humans Explained). Dùng khi cần chấm concept thumbnail ở cửa 1, hoặc dựng ảnh thật ở giai đoạn 5a sau khi đã có ảnh video.
 ---
 
+# Thumbnail — Sketchapiens
 
-> **CHẾ ĐỘ ④ SẢN XUẤT** — giai đoạn 5a
-> Làm SAU khi đã có đủ ảnh video, không làm trước.
+> **Bản 13 KÊNH · 10/08/2026.** Bằng chứng: `kho/3_bangchung/THUMB_TEARDOWN_2026-08-10/`
+> — 13 kênh faceless vẽ tay tiếng Anh ngách người cổ đại, mỗi kênh **4 quả view/ngày cao nhất
+> ↔ 4 quả thấp nhất trong CÙNG kênh**, **102 ảnh thật** nhìn bằng mắt ở cỡ 246px của feed.
 >
-> Quy trình tổng + BẢN ĐỒ KHO 4 TẦNG + luật ưu tiên khi hai file mâu thuẫn:
-> `/Users/admin/Claude/Projects/Build Channel Người Que Cổ Đại/00_LUAT_HIEN_HANH.md` → `kho/1_luat/FLOW_VietKichBan_11Cong.md`
+> **Đây là nguồn DUY NHẤT về thumbnail.** Không có file thumbnail nào khác.
 
-# Thumbnail — kênh Sketchapiens
+## 🔴 LUẬT 0 — CTR ≈ 1%. THUMBNAIL LÀ CHỖ ĐANG HỎNG.
 
-> **Skill này CHỈ cho dự án `Build Channel Người Que Cổ Đại` / kênh Sketchapiens.**
-> Nguyên tắc thiết kế chung *(thiết kế cho ô 168×94, tương phản hơn đẹp, quét outlier đối thủ)* nằm ở skill `thiet-ke-thumbnail`. Skill này là **luật riêng đã đo**, đè lên phần chung khi hai bên đá nhau.
+**Chủ báo 10/08: CTR của kênh "toàn 1." — tức quanh 1%.**
 
-## File luật trong kho
+Chuẩn để đối chiếu: kênh mới nhắm **≥4%**, kênh đã ổn **≥6%**. **1% là đáy.**
+Nghĩa là **cứ 100 người nhìn thấy ảnh thì 1 người bấm.** Đây đúng định nghĩa **BỆNH B**
+*(được đẩy mà không ai bấm)* trong skill `chan-doan-kenh-youtube`, và đơn kê của nó là:
+**sửa thumbnail và title, giữ nguyên nội dung.**
 
-| Cần gì | File |
-|---|---|
-| Prompt điền chỗ trống + luật chữ | `kho/1_luat/PROMPT_TONG_Thumbnail_v6.md` |
-| 6 khối prompt cố định + 6 ô điền | `kho/1_luat/TEMPLATE_Thumbnail_KHOA_v1.md` |
-| Thứ tự trong dây chuyền | `kho/1_luat/WORKFLOW_Production.md` |
-| Số liệu 19 kênh đối thủ | `kho/3_bangchung/BOCTACH_16Kenh_2026-08-05.md` |
+> ### ⛔ BẢN TRƯỚC CỦA FILE NÀY VIẾT NGƯỢC — ĐÃ XOÁ
+> Sáng 10/08 tôi viết *"thumbnail không phải chỗ đang hỏng, đề tài mới là"*, dựa trên việc
+> **so thumbnail của ta với view của đối thủ**. **Sai chỉ số.** Thumbnail quyết **CTR**,
+> không quyết view. Có CTR rồi thì kết luận đó sụp.
+> Bài học: **đừng chấm thumbnail bằng view khi CTR đang nằm trong Studio.**
 
----
+### ⚠️ Chủ nói rõ: VỪA không được đẩy VỪA không ai bấm — và hai cái đó KHÔNG rời nhau
 
-# ① CHỮ TRÊN THUMBNAIL — đo 44 quả / 9 kênh *(05/08/2026)*
+Lô hiển thị đầu tiên là **buổi thử vai**. CTR ~1% trên lô đó chính là **lý do YouTube ngừng đẩy**.
+Nên đây không phải hai bệnh song song mà là **một chuỗi**: ảnh yếu → trượt buổi thử → hết đẩy.
 
-## ⛔ Luật cũ đã bị bác: `no text repeating the video title`
+**Ba hệ quả bắt buộc nhớ:**
+1. **Video cũ đã thi xong.** Đổi ảnh cho chúng gần như không cứu được — không còn lô hiển thị mới.
+   Sửa phải cưỡi lên **video KẾ TIẾP**.
+2. **Test & Compare cần hiển thị mới ra kết quả.** Ở vài trăm hiển thị/video, A/B **không đủ mẫu
+   để kết luận**. Chỉ chạy nó trên quả nào thật sự có hiển thị, và đọc kết quả rất dè dặt.
+3. **Một phần lô hiển thị nhỏ đến từ 8 sub, không từ thumbnail.** Kênh không có tệp mồi thì lô
+   thử vai vốn đã bé. Đừng quy 100% cho ảnh bìa — nhưng cũng đừng lấy nó làm cớ, vì
+   **1% lặp trên 13 video** thì phần của ảnh bìa là có thật.
 
-Hơn **25/36 quả lặp hoặc nén lại chính title**. Quả 1 triệu của Ink Explainer: title *"…When It Rained All Week?"* → chữ `RAINED ALL WEEK`. Explain In Paint lặp **6/6**. **Lặp title không bị phạt.** Đã gỡ khỏi NEG.
-
-## ⭐ Luật thay: CÁI MÓC CỤ THỂ phải có ở đâu đó — chữ HOẶC hình
-
-> ⚠️ **Bản 05/08 lúc 15h ghi "chữ BẮT BUỘC phải chứa một đại lượng" — SAI, do chọn ra sáu quả hợp ý rồi rút luật.** Đếm đủ 12 quả top: **5 có đại lượng trong chữ, 6 KHÔNG, 1 không có chữ nào.**
-
-| Có đại lượng trong chữ | KHÔNG có đại lượng — nhưng vẫn thắng |
-|---|---|
-| `2 SLEEPS?` 7,8M | `WHO ARE YOU?` **1,8M** |
-| `FREE ALL DAY` 3,1M | `SURVIVED HOW?` **1M** |
-| `-40° / +20°` 1,9M | `Rarest Human` **1M** |
-| `RAINED ALL WEEK` 1M | `WHY NOT EAT?` 882K |
-| `DRINKS ALL DAY` 769K | `Why Us?` 880K · `WHY WHITE?` 756K |
-
-**Sáu quả cột phải đều có cái móc nằm trong HÌNH:**
-
-| Chữ trống rỗng | Hình có gì |
-|---|---|
-| `WHO ARE YOU?` | **cái ti giả** nằm dưới đất |
-| `SURVIVED HOW?` | bóng thú **khổng lồ** ↔ người tí hon |
-| `Rarest Human` | **hai mắt khác màu** |
-| `WHY NOT EAT?` | **hai đĩa** thịt bò và thịt hổ |
-| `Why Us?` | **năm loài người** xếp một hàng |
-| `WHY WHITE?` | **hai màu da** cạnh nhau |
-
-### → Luật dùng được
-
-**Cái móc cụ thể phải có ở ÍT NHẤT MỘT chỗ:**
-- trong **chữ** — một con số, một khoảng thời gian, một nhiệt độ *(`2 SLEEPS` · `ALL WEEK` · `-40°`)*
-- hoặc trong **hình** — một nghịch lý nhìn thấy được, hoặc một vật nhỏ mã hoá câu hỏi
-
-**Chết là khi cả hai chỗ đều trừu tượng:** `THE IKEA EFFECT ?` **6.800** — chữ là khái niệm, hình là bộ não hồng lơ lửng. `FOCUS GONE` 2.800 · `THERAPY BACK THEN?` 1.700 — cùng lỗi.
-
-## Bốn dạng chữ dùng được
-
-Cả bốn đều có quả thắng lẫn quả chết — **dạng ngữ pháp không quyết định**.
-
-| Dạng | Ví dụ |
-|---|---|
-| **Câu hỏi rút gọn** *(bỏ chủ ngữ)* | `WHY WHITE?` 756K · `WHO ARE YOU?` 1,8M · `SURVIVED HOW?` 1M · `FELL ASLEEP?` 480K |
-| **Khẳng định — không dấu hỏi** | `FREE ALL DAY` **3,1M** · `RAINED ALL WEEK` **1M** · `DRINKS ALL DAY` 769K · `Rarest Human` 1M |
-| **Phủ định — nêu một sự vắng mặt** | `NO SLEEP?` 71K · `NO FIRE?` 70K · `NO CURE?` 139K · `NO PRIVACY?` 257K |
-| **`FIRST ___?`** | `FIRST GUN?` 325K · `FIRST DRUG?` 135K · `THE FIRST WHITE PEOPLE?` 291K |
-
-## Dạng mạnh nhất khi làm được: title HỎI → thumbnail TRẢ LỜI
-
-Quả to nhất toàn ngách — Zenn **7,8 triệu** — title *"What Did Ancient Humans Do at Night?"*, chữ thumbnail `2 SLEEPS?`. Trả lời bằng một đáp án lạ đến mức phải bấm mới hiểu.
-
-Khó, nên phần lớn kênh chọn nén lại title. Nhưng khi nghĩ ra được thì đây là dạng mạnh nhất.
-
-## Hình thức
-
-- **2–3 chữ** là trung vị. Trên 5 chữ không thấy ở nhóm thắng.
-- **Chữ VÀNG viền đen** gần như tuyệt đối: Mack 9/9 · Explain In Paint 6/6 · Before Civilization 9/9.
-- Khoảng **một nửa có dấu `?`** — không bắt buộc.
-- Phần lớn **IN HOA**, nhưng viết hoa-thường kiểu tay vẫn thắng: `Rarest Human` **1M** · `Why Us?` 880K.
-
----
-
-> ## ⚠️ CÁCH ĐỌC THUMBNAIL ĐỐI THỦ — BẪY ĐÃ DÍNH 05/08/2026
->
-> Ghép nhiều thumbnail thành lưới bằng `ffmpeg -i "%02d.jpg" ... tile=` thì **ô bị lệch nhãn** nếu một ảnh nào tải hỏng — ffmpeg dừng ở chỗ trống, các ô sau dồn lên. Đã đọc nhầm chữ của video 882K một lần, và dòng sai đó lọt vào skill này trước khi bị bắt.
->
-> **Cách an toàn:** đặt tên file theo `KÊNH_VIEW_TITLE.jpg` rồi ghép bằng `-pattern_type glob` — thứ tự alphabet khớp tên nên không lệch được. Khi cần trích dẫn chính xác thì **đọc từng ảnh một**.
->
-> **Và không bao giờ dùng script xoá dòng hàng loạt để sửa file luật** — lần sửa dòng sai đó đã xoá lây hai dòng đúng. Sửa từng chỗ, đọc trước khi ghi.
-
----
-
-# ①b HÌNH — đo 96 thumbnail / 8 kênh, có nhóm ĐỐI CHỨNG
-
-> **Thiết kế đo (05/08/2026, 4 agent song song).** Mỗi kênh lấy **8 quả cao + 4 quả thấp CỦA CHÍNH KÊNH ĐÓ**, ghi 22 trường mỗi ảnh, rồi mới đếm.
-> So trong nội bộ kênh vì cùng người vẽ, cùng lượng sub, cùng thuật toán — chênh lệch view chỉ còn do thumbnail và đề tài.
-> ⚠️ Bản trước của mục này rút từ **12 quả cao, KHÔNG có nhóm đối chứng** — nên không phân biệt được "thứ người thắng có" với "thứ ai cũng có". Hai trong sáu thiết bị cũ đã bị bác khi có đối chứng.
-
-## 🟢 TẦNG 1 — xác nhận ở 5+ kênh, dùng được
-
-### 1 · NGHỊCH LÝ NHÌN THẤY ĐƯỢC ⭐ trường mạnh nhất
-
-| Kênh | Quả cao có | Quả thấp có |
+### Sáu chỗ hỏng cụ thể — xếp theo mức chắc chắn
+| # | hỏng gì | số |
 |---|---|---|
-| Before Civilization | **7/8** | 1/4 |
-| Explain In Paint | **6/8** | 1/4 |
-| Mack *(cặp mặt ngược cảm xúc)* | **6/8** | 1/4 |
-| Simply A Stickman | **5/8** | 1/4 |
-| Paint It Simple | **3/3** | 1/4 |
-| ⚠️ Axen | 3/4 | **5/7 — ngược chiều** |
+| 1 | **8/13 quả có người/đồ hiện đại** — giường ×2 · điện thoại · giày · bàn chải · kính · tất | 51 quả thắng của 13 kênh: **gần như 0 quả** có |
+| 2 | **Nhân vật nhìn thẳng ống kính** thay vì nhìn vào cảnh | Mack · Stickly · Neon Rush: **không quả nào** nhìn ống kính |
+| 3 | **Chi tiết đều nhau** giữa người và nền → không có điểm neo mắt | quả thắng dồn chi tiết vào **đúng một vật** |
+| 4 | **Màu quá rực**: bão hoà trung vị **37%**, 10% số điểm vượt **86%** | ba kênh chuẩn **23-27%**, không điểm nào vượt 54% |
+| 5 | **Gần như luôn MỘT người đứng một mình** | hàng top hay có **cụm người** hoặc **người + vật to đang gây chuyện** |
+| 6 | **Nền không có nguồn sáng** — có chi tiết nhưng không có ánh sáng thật | kiểu "ở giữa" này **không xuất hiện ở quả thắng nào** |
 
-**Năm kênh xác nhận, một kênh bác.** Cộng lại: **27/35 quả cao vs 5/24 quả thấp**.
+### Việc rẻ nhất và duy nhất tách được thumbnail khỏi đề tài
+**Test & Compare trong Studio** — ba thumbnail trên **cùng một video**. Miễn phí, có sẵn,
+dự án chưa dùng lần nào. Mọi thứ khác trong file này là suy luận từ kênh người khác;
+cái này là số của chính kênh mình.
 
-Phải là **HAI THỨ CỤ THỂ trong cùng khung**: −40° ngoài ↔ +20° trong hố · người ngủ say ↔ bầy thú không dám lại · bố hoảng loạn ↔ mẹ mỉm cười · một người còn đặc ↔ năm người tan thành khói.
+⛔ **Không cổng nào trong file này được đúc từ dưới 3 kênh.** Dự án đã bốn lần đẻ luật
+từ mẫu quá nhỏ *(xem `insight_doi_chung_giet_luat`)*.
 
-⛔ **Hai nhân vật chưa đủ.** Mack quả 18K có đủ hai nhân vật và có nghịch lý trong *lời kể*, nhưng **cả hai cùng một vẻ cau có** → chết. **Nghịch lý phải nằm trên KHUÔN MẶT hoặc giữa HAI VẬT THỂ, không nằm trong câu chuyện.**
+---
 
-⚠️ Không mâu thuẫn với luật cấm `split-screen cổ đại/hiện đại`: cái bị cấm là chia đôi khung **cổ đại vs hiện đại**; cái được là hai thứ **cùng thời, cùng cảnh**.
+# PHẦN 1 — LUẬT DUY NHẤT ĐÁNG GỌI LÀ CỔNG
 
-### 2 · LẶP LẠI CHÍNH MÌNH = FLOP — xác nhận 4 kênh
+## ✅ CỔNG ĐỀ TÀI — vẽ NGƯỜI CỔ ĐẠI ĐANG SỐNG MỘT NGÀY BÌNH THƯỜNG
+**≥6 kênh thuận · 0 kênh ngược.** Đây là luật mạnh nhất tìm được trên 102 ảnh.
 
-| Kênh | Bằng chứng |
-|---|---|
-| Before Civilization | **3/4 quả thấp** là bản làm lại cụm lạnh/xác thú của chính quả 490K. Quả 7.300 lặp gần nguyên ý "ngủ trong xác voi ma mút" → **kém 67 lần** |
-| Explain In Paint | **3/4 quả thấp** cùng đề tài "động vật nghĩ gì", **2 quả dùng Y HỆT một dòng chữ** `DO THEY KNOW?` (18K và 17K). Tám quả cao: 8 dòng chữ khác nhau, **0 trùng** |
-| Tp Dossier | đổi mỗi danh từ 10 lần: 882.000 → 662 |
-| Past Tense | Rarest Human 1M → Rarest Traits 162K → Rarest Diseases 23K → **427** |
+Trong **cùng một kênh**, quả chìm gần như luôn là quả **trượt ra khỏi ô đó**:
 
-### 3 · RỜI KHỎI KHUÔN "người cổ đại ngoài thiên nhiên" = FLOP
-Ink 2/4 quả thấp lệch khuôn · Mack 2/4 · Axen 4/4 quả cao đúng ngách vs 2/7 quả thấp · Simply A Stickman 8/8 cao đúng ngách vs 1/4 thấp. **0/16 quả cao nào lệch khuôn.**
-
-### 4 · BÁN "CON NGƯỜI THẮNG BẰNG MƯU", ĐỪNG BÁN "CON NGƯỜI CHỊU CHẾT"
-Cặp đắt nhất — Paint It Simple, **cùng kênh, cùng đề tài chống rét, chênh 288 lần**:
-
-| | **1.900.000** | **6.600** |
+| kênh | quả THẮNG | quả CHÌM trượt đi đâu |
 |---|---|---|
-| Nội dung | hầm đào dưới đất, sườn bằng xương ma mút | một người đang đóng băng |
-| Nhân vật | **4 người, mặt mãn nguyện** | 1 người, khóc |
-| Lửa | **đang cháy, ở tâm** | **đã tắt** |
-| Số | `-40°` **và** `+20°` | chỉ `-40°C` |
+| Simply A Stickman | caveman bên lửa · lều · vác bao | **hiện đại**: quả địa cầu · điện thoại · xe qua đường |
+| Axen | ngồi lửa · trốn thú · nằm chen chúc | đồng cỏ voi ma mút *(không có chuyện người)* · **Napoleon** |
+| Ink Explainer | trú mưa · kéo đồ qua sa mạc · uống bên lửa | bãi biển hiện đại · chiến tranh có súng · **sơ đồ não** |
+| Myrk | người cầm giáo đối mặt thú | **chỉ có con vật**: hổ · sư tử vồ mồi · cá |
+| Rune | ngồi trong hang tranh vẽ · tán tỉnh bên lửa | **La Mã** · **ảnh chụp con mèo** · đền Hy Lạp |
+| Mogo | trú mưa · gấu · làng | phòng ngủ hiện đại · nghĩa địa ma · giấc mơ vũ trụ |
+| Neon Rush | 4 cảnh `FIRST ___` có đủ môi trường | sơ đồ phẳng · nền vàng trơn · mũi tên đỏ |
 
-Đối chứng: **Simply A Stickman có 0/12 thumbnail cho thấy nhân vật đang THẮNG** — toàn hoảng sợ, kiệt sức, bị ruồng bỏ. Trung vị kênh **510**.
-Cùng chiều: hai quả cao nhất của Before Civilization đều là **mưu sinh tồn thông minh** (ngủ trong xác voi ma mút · hố ngầm +20°).
+### Năm ô làm CHÌM — kiểm trước khi vẽ bất cứ thứ gì
+1. **đời hiện đại** *(điện thoại, xe, phòng ngủ, quả địa cầu)*
+2. **sơ đồ / khái niệm trừu tượng** không gắn vào một cảnh sống cụ thể
+3. **chỉ có con vật, không có người**
+4. **lịch sử có niên đại** — La Mã, Hy Lạp, Napoleon, súng đạn
+5. **cái chết / xương / ma**
 
-## 🟡 TẦNG 2 — chỉ đúng ở vài kênh, KHÔNG phải luật chung
+⚠️ Ngoại lệ đã kiểm: Paint It Simple thắng bằng **sơ đồ mặt cắt hầm trú đông** *(19.497 vpd)* —
+sơ đồ **của chính đời sống cổ đại** thì vẫn nằm trong ô, không phạm ①②.
 
-**Khung-trong-khung** *(một cửa mở ra thế giới khác)*: Before Civilization **6/8 vs 1/4** ✅ · Axen **3/4 vs 0/7** ✅ · Explain In Paint 3/8 vs 0/4 yếu · **Mack 0/12 — không dùng bao giờ**. Dùng được, nhưng không bắt buộc.
+## ⛔ CỔNG CHẶN CỨNG — KHÔNG NGƯỜI HIỆN ĐẠI, KHÔNG ĐỒ HIỆN ĐẠI
+**7 kênh thuận · 0 ngược.** Trong **51 quả thắng của 13 kênh: gần như 0 quả** có người/đồ hiện đại.
+Người que trắng trơn thì có, nhưng luôn **cầm giáo · trong hang · bên lửa**.
+Đồ hiện đại nằm ở **phía chìm**, lặp ở 7 kênh:
 
-**Nền có chiều sâu**: Before Civilization 6/8 vs 1/4 ✅ · Ink 5/8 vs 2/4 ❌ *(tỉ lệ y hệt)* · Explain In Paint 5/8 vs 1/4 yếu.
+Simply A Stickman quả địa cầu · điện thoại · xe hơi → **cả ba 1 vpd** ·
+Axen đám đông cầm điện thoại **258**, quả đất đầy điện thoại **184** ·
+Ink Explainer ghế bãi biển **1.540**, sơ đồ não hồng **68** ·
+Mogo phòng ngủ hiện đại **23** · Neon Rush người cầm cà phê + laptop **2 vpd (đáy kênh)** ·
+Bright Psycho 96 bài self-help hiện đại kéo trung vị cả kênh xuống **1** ·
+Mr. Hell chuồng chó biển `FIDO` **26**.
 
-**Nén title xuống ≤2 từ**: Explain In Paint **7/8 vs 1/4** ✅ nhưng **không chuyển sang Before Civilization** — ở đó `280 FEET DOWN?` lặp gần nguyên title vẫn được 49K.
+🔴 **Kênh ta phạm 8/13 quả** — giường ×2 · điện thoại · giày thể thao · bàn chải · kính/máy ảnh ·
+chiếc tất · người trọc hiện đại. Sáu trong số đó là **cùng một khuôn**: người trọc TRÁI ↔ người
+cổ đại PHẢI, cách nhau một khoảng. Đó là **di sản của lane "về BẠN"** *(verify 27/07: 0 cú nổ /
+4 tháng)* — thumbnail vẫn đang thi hành cái lane đã khai tử ở khâu kịch bản.
 
-**Vùng tối (% pixel max RGB < 70)**: Ink + Mack — **16/16 quả cao đều 7,0–17,5%**, không quả nào chạm 20%; **3/8 quả thấp vượt 30%**. Nhưng Before Civilization chạy tối cả kênh (Y trung vị ~75) mà vẫn ổn. → Áp cho **kênh mình** vì mình cùng định dạng với Ink/Mack, và vì V17 của mình ở **10,5% tối** là quả CTR tốt nhất kênh.
+👉 Muốn nói *"chuyện này liên quan tới bạn"* thì để **title và lời đọc** làm. **Không vẽ vào ảnh bìa.**
 
-## 🔴 TẦNG 3 — ĐÃ TEST VÀ BỊ BÁC, gỡ khỏi bảng chấm
+## ✅ Người là NHÂN VẬT CHÍNH, con vật chỉ là thứ đe doạ
+**4 kênh thuận, 0 ngược.** Khung chỉ có con vật → chìm *(Myrk hổ · Mack hàng thú · Zenn ảnh mắt
+thú 380 vpd · Rune mèo 1 vpd)*.
 
-| Trường | Bằng chứng bác |
+## ✅ Không chèn ẢNH CHỤP THẬT vào giữa doodle
+2 kênh, 0 ngược. Zenn `THE DEADLIEST` **380 vpd** · Rune `WHO IS THE MASTER?` **1 vpd**.
+
+---
+
+# PHẦN 2 — KHUYẾN NGHỊ *(không chặn — bằng chứng có phản ví dụ)*
+
+| khuyến nghị | bằng chứng | phản ví dụ |
+|---|---|---|
+| Tránh **khung chia đôi** | Primal Glitch zebra‖ngựa 16 vpd · Bright Psycho 2 quả beige | Mr. Hell `NOT HUMAN?` chia đôi mà ở hàng thắng |
+| Chữ **tự đứng được** khi che title | quả thắng hay gọn: `RAIN AGAIN?` `FIRST WAR?` | **Zenn `2 SLEEPS?` 62.653 vpd** không tự đứng được; và quả **39.835 vpd của Zenn KHÔNG CÓ CHỮ NÀO** |
+| **Hạ BÃO HOÀ**, không phải đổi màu | đo 12 quả thắng Mack·Stickly·NeonRush: bão hoà trung vị **23-27%**, ta **37%** và 10% số điểm vượt **86%** | không có — độ **sáng** thì bốn kênh bằng nhau (42-55%), nên sáng không phải chỗ lệch |
+| ⛔ **Không có màu nền mặc định** | Mack thắng bằng mưa xám-lam *(13.670)* và bằng hoàng hôn vàng *(22.295)*; màu đến từ **cảnh trong kịch bản** | — |
+| Có **cụm người** hoặc **người + vật to đang gây chuyện**, đừng luôn một người đứng một mình | hàng top hay có cụm; 13/13 quả của ta gần như luôn một người | chưa có cặp khớp — mới là quan sát |
+
+**Chữ vàng viền đen IN HOA mép trên: GIỮ.** Đó là đồng phục của ngách, 6 kênh dùng 8/8.
+Nó không phải bệnh, và bỏ nó là đi ngược cả ngành.
+
+---
+
+# PHẦN 2b — CÁCH VẼ *(mổ 5 quả ở độ phân giải gốc 1280px)*
+
+> ## ⛔ ĐỌC BẢNG NÀY TRƯỚC — không phải thứ gì trong đây cũng học được
+>
+> | | học được? | vì sao |
+> |---|---|---|
+> | **A. TAY NGHỀ** *(mục A-D dưới)* | ✅ **chép thẳng, mọi đề tài** | là **cách vẽ**, không dính nội dung. Nét · mặt · mã biểu cảm · chi tiết không đều · nguồn sáng · nhiệt độ màu · quy cách chữ |
+> | **B. NỘI DUNG KHUNG** | ❌ **kịch bản quyết** | **số người 1→14, cả hai đầu đều thắng**: Zenn 1 người **14.705** ↔ Neon Rush **14 người** 19.168. Ngày/đêm · có con vật không · cảnh gì · vật nào được vẽ kỹ — **suy ra từ kịch bản, không chép từ đối thủ** |
+> | **C. CHỮ VIẾT GÌ** | ⚠️ **chỉ chốt được khi đã có TITLE** | ảnh và title là **một cặp**. Zenn `2 SLEEPS?` không tự đứng được vẫn **62.653** vì title gánh; và quả **39.835 của Zenn KHÔNG có chữ nào**. Không có title thì không chấm được chữ |
+> | **D. VÌ SAO QUẢ ĐÓ LÊN** | ❌ **ảnh không nói được** | đề tài · tuổi kênh · tệp có sẵn · may. Và **CTR chỉ chủ kênh thấy** |
+>
+> 👉 **Chỉ nhóm A là "học".** Nhóm B chép là clone. Nhóm C phải chờ title. Nhóm D đừng đoán.
+
+Phần dưới đây **toàn bộ thuộc nhóm A**. Soi ảnh gốc của 5 quả:
+Axen `FREE ALL DAY` 32.481 · Ink Explainer `RAINED ALL WEEK` 30.610 · Mack `HIGH ALL DAY` 22.295 ·
+Neon Rush `FIRST WAR?` 19.168 · Primal Glitch `ONE NEVER SLEPT` 4.215 *(top loạt đêm)*.
+
+## A. NHÂN VẬT — 6 hằng số, 5/5 quả đều theo
+
+1. **Mặt TRẮNG ĐẶC, viền đen dày hơn nét thân.** Đây là điểm neo mắt duy nhất của cả khung.
+2. **Không mũi · không tai · không cổ · tay không ngón.** Đầu cắm thẳng vào một nét thân.
+3. **Thân là NÉT, không phải khối.** Không tô, không dày. Mọi khối lượng nằm ở cái đầu.
+4. **Chân tay có KHỚP GẤP rõ** — gối gập, khuỷu gập. Ngồi bệt · bó gối · chống tay · nằm ườn.
+5. **Cảm xúc nằm ở MẮT + TƯ THẾ, gần như không ở miệng.** Miệng chỉ là một nét cong bé xíu.
+6. **Tỉ lệ đầu tuỳ trường phái** *(xem C)* — không có con số chuẩn.
+
+## ⭐ A0. TRƯỜNG PHÁI ĐÃ CHỌN: MACK · STICKLY · NEON RUSH
+
+> **Chủ chốt 10/08:** kênh đi theo ba kênh này, vì **biểu cảm của họ tự nhiên và thật**.
+>
+> ⚠️ Nói thẳng một câu: **số liệu KHÔNG bảo trường phái này thắng.** Axen vẽ mặt tối giản hơn
+> hẳn *(2 chấm mắt, không lông mày, không tóc)* mà được **32.481 vpd**, cao hơn Mack **22.295**.
+> Đây là **quyết định về GU của chủ**, không phải kết luận từ dữ liệu. Ghi vậy để sau này
+> không ai lấy nó ra làm bằng chứng.
+
+### Chín thứ làm cho mặt của họ "thật" — mổ ở 1280px
+
+1. **MÍ TRÊN cắt vào tròng mắt.** Không bao giờ vẽ mắt tròn mở toang, trừ đúng lúc sốc.
+   Mack `RAIN AGAIN?` mí sụp che **gần nửa** tròng → ra ngay "ngán ngẩm".
+2. **⭐ CON NGƯƠI LỆCH TÂM — ánh nhìn CÓ HƯỚNG.** Đây là thứ đắt nhất. Mack nhìn **xuống**
+   vũng nước; Stickly hai người **liếc về phía nhau**. **Không nhân vật nào nhìn thẳng ống kính.**
+3. **Mắt là BẦU DỤC ĐỨNG, không phải hình tròn.** Tròng trắng lớn, con ngươi đen nhỏ và tách bạch.
+4. **MIỆNG BẤT ĐỐI XỨNG** — một nét ngắn **lệch hẳn sang một bên**, hoặc một nét ngang thẳng
+   *(deadpan)*. Không bao giờ là hình cung cân đối giữa mặt.
+5. **LÔNG MÀY là công tắc cảm xúc chính.** Stickly **luôn có**, và **đầu trong nhấc lên**
+   → ra "lo, ngại, tội nghiệp". Neon Rush dùng **chữ V đậm** → giận. *(Mack có quả bỏ hẳn
+   lông mày và để mí + hướng nhìn gánh.)*
+6. **ĐẦU MÉO, không tròn compa** — hơi bầu dục, cằm thuôn, đỉnh hơi phẳng.
+   *(Đây là chỗ tách khỏi Axen: Axen tròn vành vạnh.)*
+7. **NÉT VIỀN ĐỘ DÀY THAY ĐỔI** — dày ở đáy cằm, mảnh ở đỉnh đầu.
+8. **TÓC LÀ SỢI RỜI và PHẢN ỨNG VỚI HOÀN CẢNH** — không phải khối đặc. Mưa thì **bết xuống,
+   rủ trước mặt, có giọt nước chảy dọc sợi**. Đây là thứ làm khung "thật" nhất trong cả bộ.
+9. **MÔI TRƯỜNG BÁM LÊN NGƯỜI** — giọt nước trên đầu và trên mặt, bùn, tro, mồ hôi.
+   Cộng **tư thế bất đối xứng** *(chống nạnh một bên, ngả người ra sau)* và **cử chỉ tay đọc được**
+   *(ngón trỏ chỉ, tay đỡ bụng, tay giơ chùy)*.
+
+### 🔴 KHỐI ĐÃ ĐƯỢC CHỦ DUYỆT — DÁN CÁI NÀY, ĐỪNG TỰ VIẾT LẠI
+
+> **Chủ đã sửa đúng chỗ này BA LẦN** *(V19 lô 2, V19 lô 3, V20 bản đầu)*. Cả ba lần đều vì
+> khối mặt viết theo mô tả trong file này ra **chỏm tóc nhỏ trên đỉnh đầu** và **nét run kiểu
+> tranh vẽ** — không giống đối thủ. Câu của chủ: *"người cổ đại nó làm khác mà mặt kiểu hài khổ
+> tóc thì dậm dạp đó."*
+>
+> **Nguồn chuẩn, chép Y NGUYÊN:** `videos/Video19_Moon/THUMBNAIL_PROMPT.txt` *(lô 3)* — và
+> `videos/Video20_Cold/THUMBNAIL_PROMPT.txt` là bản đã đối chiếu đủ 12 mốc.
+>
+> **Bốn chỗ hay viết sai nhất:**
+>
+> | | ĐÚNG | hay viết nhầm thành |
+> |---|---|---|
+> | **tóc** | khối bờm rậm **trùm xuống hai bên má**, *"There is MORE hair than face"*, cấm đích danh *"never a small tuft on top"* | chỏm nhỏ dựng trên đỉnh đầu ← đó là khối của ảnh **VIDEO** |
+> | **nét** | `THICK BLACK MARKER`, viền **ĐỀU và NẶNG**, màu **mảng phẳng đặc**, cấm hẳn *painting · acrylic · gouache · oil · watercolour · airbrushed* | "viền run, độ dày **thay đổi**", "tô loang tay" → ra tranh sơn |
+> | **mặt** | **TALL OVAL** trắng đặc · `HEAVY BLACK UPPER EYELID` · lông mày `INNER ends pushed UP` · **má hồng** · `COMICALLY MISERABLE` | bầu dục "hơi méo", quên má hồng, quên mã hài-khổ |
+> | **vật chi tiết** | `MORE DRAWN SHAPES` — **nhiều hình có viền riêng hơn** *(từng lưỡi lửa, từng viên đá)* | "fine texture · từng sợi lông · **bóng đổ**" → lại kéo về tranh sơn |
+>
+> ⚠️ **Gốc của lỗi lặp lại:** khối rậm-khổ đúc 10/08 **cho THUMBNAIL**. Ngày 11/08 chủ bảo đừng
+> áp nó cho ảnh **VIDEO** — và nó bị gỡ khỏi **CẢ HAI**. Từ đó mỗi lần làm thumbnail lại phải
+> dựng lại từ đầu và lại sai. **Video dùng khối trong `identity/style.py`; thumbnail dùng khối
+> rậm-khổ. Hai khối, hai chỗ, không trộn.**
+
+### Khối MẶT dán thẳng vào prompt
+
+> ⛔ **Khối dưới đây là bản CŨ, giữ lại để đối chiếu.** Nó thiếu tóc rậm, thiếu má hồng, thiếu
+> mã hài-khổ, và tả nét kiểu "độ dày thay đổi" → ra tranh vẽ. **Dùng khối đã duyệt ở trên.**
+
+
+```
+the face is drawn in a loose hand-inked style: the head is a slightly IRREGULAR oval, never a
+perfect circle, with a soft tapering chin; the black outline VARIES in thickness, heavier under
+the chin and thinner at the top; two large VERTICAL-OVAL white eyes, each with a small separate
+black pupil placed OFF-CENTRE so the character is clearly LOOKING AT SOMETHING in the scene and
+never at the viewer; a curved upper eyelid cuts across the top of each eye; two thin curved
+eyebrows with the INNER ends raised; one short mouth line placed OFF TO ONE SIDE, asymmetric,
+never a centred symmetrical curve; no nose, no ears, no neck;
+the hair is {TÓC — tự do chọn cho video này, rồi lặp y nguyên câu này ở mọi prompt}, always
+drawn as SEPARATE LOOSE STRANDS rather than a solid block, and it REACTS to the weather —
+hanging wet and flat with droplets running down it in rain, blown to one side in wind;
+droplets, soot or mud from the scene cling to the head and shoulders;
+the body stands in an ASYMMETRIC pose with one readable hand gesture.
+```
+
+### Ba bộ mã biểu cảm — chép nguyên, đừng chế
+| trạng thái | vẽ thế nào | ai dùng |
+|---|---|---|
+| **mệt · phê · khổ · chịu đựng** | mí trên **sụp che 1/3 tròng** + **quầng HỒNG dưới mắt** + miệng cong lệch | Mack · Ink Explainer |
+| **giận · đối đầu** | **lông mày chữ V đậm** + miệng **nghiến răng** hở hàm | Neon Rush |
+| **sướng · ngủ · yên** | **mắt nhắm hình chữ U ngược**, KHÔNG cần vẽ miệng | Axen · Primal Glitch |
+
+⚠️ Quầng hồng dưới mắt là **chữ ký của ngách** cho "kiệt sức". Rẻ, đọc được ở 246px.
+
+### 🔓 TÓC — MỞ KHOÁ *(chủ chốt 10/08: "tóc có thể tự do sáng tạo")*
+
+Tóc **không còn là hằng số của kênh.** Và bằng chứng ủng hộ việc mở: nó xuất hiện ở **cả hai phía
+thắng-chìm** nên **không đo được gì** — hai trường phái đều thắng, mà **không tóc cũng thắng**:
+- **Bờm VIỀN QUANH mặt trắng** như khung tranh, không đè lên mặt — *Mack, Ink Explainer*
+- **Mảng TRÙM đỉnh đầu và hai bên** — *Neon Rush*
+- **Sợi dài rủ trước mặt** — *Stickly*
+- **KHÔNG TÓC**: Axen 4/4 nhân vật đầu trọc trắng trơn → **32.481 vpd**, cao hơn Mack
+
+⚠️ **Một ranh giới phải giữ, nếu không sẽ hỏng đúng chỗ V15 đã hỏng:**
+
+| | tự do? |
 |---|---|
-| **Vật nhỏ mã hoá câu hỏi** | Before Civilization **8/8 cao vs 3/4 thấp** · Explain In Paint 6/8 vs 3/4 → **ai cũng có, không phân biệt được**. *(Bản sáng nay ghi đây là thiết bị số 4 — sai, vì chưa có đối chứng.)* |
-| **Đống lửa** | Before Civilization **8/8 cao vs 3/4 thấp** *(hằng số của kênh)* · Explain In Paint 1/8 vs 1/4 · Mack 2/8 vs 1/4 → **không phân biệt**. Chỉ đáng ghi: lửa nằm ở **tâm khung** ở cả hai quả to nhất bộ (Zenn 7,8M · Axen 3,1M) |
-| **Độ sáng trung bình Y** | Before Civilization: quả **sáng nhất** (158) và quả **tối nhì** (48) đều nằm trong 4 quả thấp · Explain In Paint cao 143 vs thấp 147 · Ink cao 144,3 vs thấp 143,4 |
-| **Bão hoà** | Explain In Paint nhóm thấp **27,5** > nhóm cao **21,8** · Mack cũng ngược chiều · Simply A Stickman bão hoà cao nhất (75,5) là quả **thấp nhất kênh** (204 view) |
-| **Chữ vàng viền đen** | Mack **12/12 vàng bất kể view** · Before Civilization 12/12 · nhóm **thấp** của Zenn dùng vàng nhiều hơn nhóm cao → là **nhận diện thương hiệu**, không phải đòn bẩy |
-| **Dấu `?`** | Axen 3/4 cao vs 4/7 thấp · Before Civilization 6/8 vs 3/4 |
-| **Số từ · vị trí chữ · chiều cao chữ** | 24/24 ảnh của Ink+Mack đều 2–3 từ, đều ở băng trên, đều 12–18% → **hằng số, không phải biến** |
-| **Nền trắng vs cảnh vẽ** | Mack nền trắng ra **500K và 495K**; Ink nền trắng ra **320K và 6.800** |
-| **Cỡ đầu nhân vật** | Before Civilization cao 4–22% vs thấp 9–20% · Explain In Paint cao 17–30% vs thấp 13–28% → chồng lấn hoàn toàn |
+| **Giữa các VIDEO** — mỗi video chọn một kiểu tóc riêng | ✅ **thoải mái**, không mất gì |
+| **Giữa các NHÂN VẬT** trong cùng video — nam/nữ/trẻ/già khác nhau | ✅ **thoải mái**, còn tốt hơn |
+| **TRONG cùng một nhân vật, giữa 300-500 khung của một video** | ⛔ **không** — đó là **drift**, và khối `CONSIST` sinh ra chính để chặn nó |
+
+👉 Cách làm: **chọn kiểu tóc ở đầu mỗi video, viết thành một câu, rồi dán Y NGUYÊN câu đó vào
+mọi prompt của video đó.** Tự do ở khâu CHỌN, kỷ luật ở khâu LẶP.
+
+⚠️ Đánh đổi phải biết: sau khuôn mặt trắng, **tóc là dấu hiệu nhận diện mạnh thứ hai** của nhân
+vật trên feed. Đổi tóc mỗi video thì 13 quả trên trang kênh sẽ không đọc ra "cùng một người".
+Với kênh 8 sub thì cái giá đó gần bằng 0 — nhưng ghi ra để sau này đông người xem thì biết mình
+đã đánh đổi cái gì.
+
+### Thứ vẫn nên giữ — không phải kiểu tóc, mà là CÁCH vẽ tóc
+**Sợi RỜI, không phải khối đặc** · và **phản ứng với hoàn cảnh**: mưa thì bết xuống rủ trước mặt
+có giọt nước chảy dọc sợi *(Mack `RAIN AGAIN?`)*, gió thì tạt hẳn sang một bên.
+Đây là **kỹ thuật**, dùng được với mọi kiểu tóc, kể cả kiểu chưa nghĩ ra.
+
+### Trang phục — chỉ hai lựa chọn
+Mảng nâu **rìa răng cưa** *(khố/áo choàng)*, hoặc **hoạ tiết đốm báo** — chấm tròn nâu đậm trên
+nền vàng. Đốm báo là cách rẻ nhất để khung "đọc ra cổ đại" ngay lập tức.
+
+## B. ⭐ ĐỘ CHI TIẾT KHÔNG ĐỀU — kỹ thuật mạnh nhất tìm được
+
+**Primal Glitch: người là một QUẢ TRỨNG TRẮNG với 4 nét chân tay. Con sói bên cạnh vẽ TỪNG SỢI
+LÔNG, mắt vàng có con ngươi, có bóng đổ.** Chênh lệch chi tiết khổng lồ trong cùng một khung.
+
+👉 **Dồn toàn bộ chi tiết vào ĐÚNG MỘT vật; để nhân vật người trơn tuột.** Mắt người xem tự chạy
+tới chỗ chi tiết nhất, và chỗ đó chính là thứ ta muốn họ nhìn.
+
+🔴 **Đây là chỗ 13 thumbnail của ta hỏng ở khâu tay nghề:** nhân vật và nền được vẽ **chi tiết
+ngang nhau** → không có điểm neo, mắt trượt.
+
+## C. NỀN — hai chiến lược, KHÔNG có kiểu ở giữa
+
+| | cách làm | ví dụ |
+|---|---|---|
+| **① TRỐNG** | 1-2 màu phẳng, chân trời một nét, cỏ vẽ bằng vài nét `V` nguệch ngoạc. Nhân vật nổi hoàn toàn | Axen *(4 màu: trời · cỏ · trắng · lửa cam)* · Neon Rush *(gradient kem gần như trống)* |
+| **② GIÀU + CÓ NGUỒN SÁNG** | hang/mưa vẽ kỹ, **lửa hắt sáng thật lên vách**, người gần lửa sáng hơn người xa, có bóng đổ | Ink Explainer · Primal Glitch · Mack |
+
+⛔ **Kiểu ở giữa — nền có chi tiết nhưng không có nguồn sáng — không xuất hiện ở quả thắng nào.**
+Đó đúng là kiểu của ta.
+
+### ⭐ Đối lập NHIỆT ĐỘ MÀU trong cùng một khung
+Ink Explainer: **nửa trái xám-lam mưa lạnh ↔ nửa phải nâu-cam hang ấm**.
+Primal Glitch: **trong hang cam ấm ↔ miệng hang xanh đêm lạnh**, và mối đe doạ kể bằng
+**đúng 4 chấm mắt vàng lơ lửng trong bóng tối**.
+
+⚠️ Đây **KHÔNG phải khung chia đôi**. Cùng một mặt đất, cùng một cảnh, chỉ khác nhiệt độ ánh
+sáng. Khung chia đôi là hai thế giới không dính nhau.
+
+### Chiều sâu tạo bằng CỠ NGƯỜI, không bằng phối cảnh
+Neon Rush: 2 người lớn tiền cảnh → 4 người vừa → 6 người tí xíu trên tảng đá xa.
+Mack: đất nâu đậm tiền cảnh → đồi vàng → mặt trời + cây mờ dần, **cả khung một tông ấm**.
+
+### Đồ vật kể chuyện rải MÉP DƯỚI tiền cảnh
+Giáo gãy · rìu · khiên gỗ *(Neon Rush)* · giỏ đan · rơm · củi *(Primal Glitch)* · thịt sống ·
+xô nước *(Ink Explainer)*. Làm khung đầy mà không che nhân vật.
+
+## D. CHỮ — đo lại trên ảnh gốc
+
+**Hai màu, không phải một:** VÀNG chanh viền đen *(Mack · Neon Rush · Primal Glitch)* và
+**TRẮNG viền đen** *(Axen · Ink Explainer — cả hai đều >30.000 vpd)*.
+Chiếm **18-25% chiều cao**, **tràn gần hết chiều ngang**, sát mép trên, font tròn mập viết tay.
+Trắng dùng khi nền trên là trời xanh/xám; vàng dùng khi nền trên ấm.
 
 ---
 
-# ② BỐN LUẬT CHẤM ĐIỂM ĐÃ BỊ BÁC — đừng dựng lại
+# PHẦN 3 — QUY TRÌNH
 
-Cả bốn đều do tôi tự đặt rồi đo lại thấy sai:
+**Thumbnail làm ở BƯỚC CUỐI.** Cửa 1 chỉ chấm **concept bằng lời** *(10 phút, không gen ảnh)*.
+Ảnh thật dựng ở **giai đoạn 5a**, sau khi đã có đủ ảnh video — dán **y nguyên khối nhân vật của
+chính video đó** *(nguồn: `identity/style.py` — file THẬT SỰ sinh ảnh; nếu `.md` khác, `.py` thắng)*.
 
-| Luật chết | Đo lại ra gì |
+*V18 mất 7 vòng vì làm ngược thứ tự này.*
+
+### Chấm concept ở cửa 1 — ba câu
+1. Khung này vẽ **người cổ đại đang làm gì trong ngày của họ**? *(một câu)*
+2. Nó có rơi vào **1 trong 5 ô làm chìm** không? → rơi là bỏ, đổi đề tài chứ không đổi ảnh.
+3. **Người có phải nhân vật chính** không, hay con vật/đồ vật đang chiếm khung?
+
+Trượt câu 2 thì **vấn đề nằm ở KỊCH BẢN, không nằm ở thumbnail** — trả ngược về khâu chọn đề tài.
+
+---
+
+# PHẦN 4 — PROMPT DÁN THẲNG
+
+Điền 5 ô: `{CẢNH ĐỜI SỐNG}` · `{CHUYỆN ĐANG XẢY RA}` · `{VẬT CHI TIẾT}` · `{NỀN}` · `{CHỮ}`.
+
+⚠️ `{VẬT CHI TIẾT}` là ô mới, và là ô quan trọng nhất — xem PHẦN 2b mục B. **Đúng một vật**
+*(con sói · con báo · đống lửa · tảng thịt)*. Không có nó thì khung không có điểm neo mắt.
+
+```
+A HAND-DRAWN DOODLE illustration, drawn by hand with a thick black marker pen on paper:
+the outlines are WOBBLY and slightly uneven, the line thickness varies along each stroke.
+Colours are MUTED and desaturated, filled in loosely by hand inside the lines.
+NOT vector art, NOT smooth clean digital lines, NOT cartoon animation, NOT anime.
+
+An everyday moment in the life of ancient humans: {CẢNH ĐỜI SỐNG}.
+{CHUYỆN ĐANG XẢY RA}. The people are the main subject of the frame; any animal is
+a threat or a companion at the edge of what they are doing, never the subject itself.
+
+The people are stick-figure doodles: one LARGE round head filled SOLID WHITE with a slightly
+wobbly outline, NO neck; hair = {TÓC}, a mane of fine SEPARATE wavy strands framing the
+white face, never black, never a spiky ball on top; eyes = TWO LARGE ROUND WHITE EYES each
+ringed in thin black with a big black pupil, never tiny dots; two thin curved eyebrows; one
+simple mouth; no nose, no ears; ONE garment only, a ragged brown animal-hide tunic with a torn
+jagged hem; arms and legs = THIN single black lines, slightly crooked, no joints; small white
+mitten hands and small white oval feet, filled the SAME SOLID WHITE as the head, never
+skin-coloured, always barefoot.
+
+ONE object in the frame is drawn with FAR more detail than everything else: {VẬT CHI TIẾT} is
+rendered with fine texture, individual hairs or grain, its own highlight and cast shadow, while
+the people stay plain and untextured. The eye must land on that object first.
+
+Background: {NỀN}, lit by ONE visible light source inside the frame (a campfire, the low sun),
+so the surfaces facing it are warm and bright and everything away from it falls into cooler
+shade; add a cool blue-grey area (rain, night sky, a cave mouth) somewhere in the SAME scene so
+warm and cold sit side by side. Small storytelling props scattered along the BOTTOM edge.
+NO photographic elements, NO real photos, NO modern objects, NO split screen,
+NO side-by-side comparison, NO before-and-after layout.
+
+{CHỮ}
+
+Family-friendly, non-violent, no blood, no gore. No gradients, no photorealism, no 3D,
+no glossy render, no extra limbs or fingers, no watermark, no logo, no frame borders,
+no duplicate characters, no collage, no picture-in-picture. 16:9.
+```
+
+- `{CHỮ}` → `large bold hand-lettered ALL-CAPS marker text "…" across the top, bright yellow with a thick black outline`
+- `{NỀN}` **KHÔNG có màu mặc định.** Cảnh nào thì màu đó — kịch bản quyết. Mưa thì xám-lam,
+  đêm thì xanh đậm, hang thì nâu, đồng cỏ thì tan. Ràng buộc duy nhất là **độ bão hoà** ở dưới.
+
+---
+
+# PHẦN 5 — SỔ LUẬT ĐÃ CHẾT *(đừng dựng lại)*
+
+| luật | vì sao chết |
 |---|---|
-| "sáng 80–110" | tương quan với view ≈ **0** |
-| "chữ chiếm 13–19% chiều cao" | thật ra **~22%**, tương quan +0,01 |
-| "cảnh đêm vẫn phải sáng" | 6 thumbnail đề tài đêm chạy **45–97**, trung vị 65 |
-| "mũi tên giúp hướng mắt" | kênh đang copy có **0 mũi tên / 21 thumbnail** |
+| *nhân vật lệch TRÁI + vật bên PHẢI* | 7 quả to nhất: nhân vật nằm khắp nơi |
+| *độ sáng 80-110* | tương quan với view ≈ 0 |
+| *chữ chiếm 13-19% khung* | đo lại ra 22%; con số 13-19 do tôi tự làm hỏng 29/07 |
+| *CENTRE ANCHOR* | thay bằng cổng đề tài |
+| *mặt/tay/chân trắng đặc 3-6%* | là triệu chứng của vẽ đúng khối nhân vật, không phải đích |
+| *chữ phải nói thứ KHÁC title* | không có nhóm đối chứng |
+| *khuôn hiện đại TRÁI ↔ cổ đại PHẢI* | vẫn nên tránh, nhưng đã hạ xuống khuyến nghị *(PHẦN 2)* |
+| *vẽ thứ KHÔNG THỂ CÓ THẬT (8/8↔0/8)* | rút từ **3 kênh ẢNH THẬT AI** — khác ngách, khác định dạng. Chủ gạt 10/08 |
+| *"kênh không-chữ hơn kênh có-chữ 4-12×"* | cùng lý do trên |
+| **⛔ *MỘT khối lớn chiếm ~nửa khung*** | **3 kênh phản, đều bằng quả TOP của chính kênh đó**: Neon Rush `FIRST WAR?` 8 người tí hon **19.168 vpd** · Paint It Simple sơ đồ mặt cắt **19.497 vpd** · Zenn người tí xíu giữa đồng trống **14.705 vpd** |
+| **⛔ *MẶT ĐANG KHỔ, không cười*** | **Axen `FREE ALL DAY` cả 4 người CƯỜI → 32.482 vpd, top kênh**; `COZY ALL DAY?` cười → 9.611; Mr. Hell hai người ngủ mỉm cười → 5.383, top kênh. Cổng cũ đúc từ **1 kênh** |
+| **⛔ *"13/13 cùng khuôn chữ vàng là bệnh của ta"*** | **NẾT CHUNG CỦA NGÁCH.** Mack · Neon Rush · Mogo · Primal Glitch · Myrk · Rune đều **8/8**, ở cả hai phía thắng-chìm → không đo được gì |
 
-**Về độ sáng — dữ liệu mới 05/08:** 12 quả của Ink Explainer chạy **83 → 230**, quả 1 triệu ở **109**. Không có tương quan trong nội bộ kênh họ. Nhưng **V18 của mình ở 80 — tối hơn cả 12 quả**, tức nằm ngoài dải hoạt động của họ. V17 ở 102 và là quả CTR tốt nhất kênh (3,5%). **Nhắm 100–130, đừng xuống dưới 85.**
-
----
-
-# ③ LUẬT HÌNH CÒN ĐỨNG VỮNG
-
-- **CENTRE ANCHOR** — tâm khung dành cho VẬT KỂ CHUYỆN, không phải nhân vật
-- **Mặt / tay / chân phải TRẮNG ĐẶC 3–6%** diện tích — model hay tô màu da, phải chặn
-- **Tay chân = nét đen MẢNH**, không phải khối trắng. Đừng quét trắng cả chi
-- **Đầu chiếm 16,7–25,5%** chiều cao khung
-- Ba chữ CẤM trong prompt: `cartoon` · `clean` · `smooth` → ra vector số hoá, sai chất liệu
-- ⛔ **Ảnh chia đôi cổ đại/hiện đại thì chết** — quả bét của Before Civilization (`FOCUS GONE`, **2.800**) đúng kiểu đó
-- **Nền vẽ có chiều sâu** — Ink Explainer dùng hoàng hôn hồng tím, tuyết xanh, núi xa mờ. Không phải mảng màu phẳng
-- Ink Explainer cho nhân vật mặc **áo da thú HOA VĂN ĐỐM** (cam chấm đen) — chữ ký nhận diện. Người que của mình đang mặc da nâu trơn
-
----
-
-# ④ HAI LỖI QUY TRÌNH ĐẮT NHẤT ĐÃ MẮC
-
-**Làm thumbnail quá sớm.** Từ 05/08 giai đoạn 1 **chỉ chốt title** — không concept, không ảnh. Toàn bộ thumbnail dồn về **giai đoạn 5a**, sau khi có kịch bản chốt + 200+ ảnh video để lấy khối nhân vật. V18 mất 7 vòng vì làm ngược.
-
-**Thêm luật khi model đang vẽ đúng.** Hai lỗi nặng nhất của V18 đều là luật tự thêm vào chỗ model vốn đã làm đúng. Chỉ mô tả thứ đang sai, để yên thứ đang đúng.
-
-# ⑤ MODEL TẠO ẢNH KHÔNG SỬA ĐƯỢC ẢNH CŨ
-
-Mỗi lần gen là vẽ lại từ đầu. Đổi một chữ trong prompt cũng làm nó bố cục lại toàn bộ. **"Giữ nguyên ảnh, kéo xa chút" là việc không tồn tại.**
-
-Ảnh đã gần đạt thì **gen lại 4–5 lượt với đúng prompt đó rồi chọn**, đừng sửa prompt. Nói thẳng điều này với user thay vì nhận lời làm một việc công cụ không làm được.
-
-## ⛔ ĐỪNG TUYÊN BỐ "XONG" SỚM — lỗi đã mắc hai lần trong một buổi
-
-V18 ngày 05/08: tôi nói *"lấy bản này, xong"* ở **19,6%** vùng tối, rồi lại nói *"xong"* ở **17,0%**. Chủ gen thêm và ra **14,3%** — tốt hơn cả hai, và nhân vật còn to hơn.
-
-Lý do tôi đưa ra để dừng là **sai**: *"gen thêm có nguy cơ mất tư thế đang đúng"*. Mỗi lượt gen là một file riêng, bản cũ vẫn nằm nguyên trên máy. **Gen thêm không mất gì cả** — chỉ tốn thời gian.
-
-**Luật:**
-- Với công cụ sinh ảnh, **thêm lượt gen là thuần lợi**. Không có đánh đổi chất lượng, chỉ có đánh đổi thời gian.
-- **Đo MỌI bản**, đừng chỉ đo bản mới nhất. Lập bảng số rồi mới chọn.
-- Chỉ nói "xong" khi đã so **ít nhất 5 bản cùng prompt**, hoặc khi chủ nói dừng.
-- Câu đúng để nói là: *"bản này đang tốt nhất trong N bản, gen thêm vẫn có thể hơn"* — KHÔNG phải *"xong rồi"*.
+📁 Bằng chứng + 102 ảnh gốc: `kho/3_bangchung/THUMB_TEARDOWN_2026-08-10/KETLUAN.md`

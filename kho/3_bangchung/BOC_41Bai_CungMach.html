@@ -1,0 +1,247 @@
+<title>14 Bài Mạch Đêm</title>
+<style>
+:root{
+  --nen:#f4f1ec; --nen2:#ffffff; --nen3:#eae5dc;
+  --chu:#1b1d21; --chu2:#5c5f66; --chu3:#8b8d94;
+  --vien:#d8d2c7; --vien2:#c2bbad;
+  --lua:#c2521a; --lua-nen:#fbe9df;
+  --lanh:#2f4b63; --lanh-nen:#e3ebf1;
+  --chet:#8d2f2f; --song:#2f6b4f;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --nen:#14181d; --nen2:#1b2027; --nen3:#232932;
+    --chu:#e9e6e0; --chu2:#a3a8b0; --chu3:#6f757e;
+    --vien:#2c333d; --vien2:#3c444f;
+    --lua:#ff8b4a; --lua-nen:#33210f;
+    --lanh:#8fb6d4; --lanh-nen:#182430;
+    --chet:#e08585; --song:#7fc4a0;
+  }
+}
+:root[data-theme="dark"]{
+  --nen:#14181d; --nen2:#1b2027; --nen3:#232932;
+  --chu:#e9e6e0; --chu2:#a3a8b0; --chu3:#6f757e;
+  --vien:#2c333d; --vien2:#3c444f;
+  --lua:#ff8b4a; --lua-nen:#33210f;
+  --lanh:#8fb6d4; --lanh-nen:#182430;
+  --chet:#e08585; --song:#7fc4a0;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--nen); color:var(--chu);
+  font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:920px;margin:0 auto;padding:56px 24px 96px}
+h1{
+  font:700 clamp(30px,5.2vw,46px)/1.12 Georgia,"Iowan Old Style","Times New Roman",serif;
+  margin:0 0 14px; letter-spacing:-.015em; text-wrap:balance;
+}
+h2{
+  font:600 clamp(20px,3vw,26px)/1.25 Georgia,"Iowan Old Style",serif;
+  margin:0 0 4px; letter-spacing:-.01em; text-wrap:balance;
+}
+.eyebrow{
+  font:600 11px/1 system-ui,sans-serif; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--lua); margin:0 0 10px;
+}
+.dek{color:var(--chu2);margin:0 0 8px;font-size:17px}
+header{border-bottom:2px solid var(--vien2);padding-bottom:26px;margin-bottom:44px}
+.meta{font:500 13px/1.5 system-ui,sans-serif;color:var(--chu3);margin-top:16px}
+section{margin:0 0 52px}
+.shead{margin-bottom:20px}
+p{margin:0 0 14px}
+strong{font-weight:650}
+.num{font-variant-numeric:tabular-nums;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+
+/* phễu */
+.pheu{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch;margin:22px 0}
+.buoc{
+  flex:1 1 150px;background:var(--nen2);border:1px solid var(--vien);
+  border-radius:3px;padding:16px 14px;position:relative;
+}
+.buoc .n{font:700 30px/1 ui-monospace,Menlo,monospace;letter-spacing:-.02em;display:block}
+.buoc .l{font-size:12.5px;color:var(--chu2);margin-top:6px;display:block;line-height:1.4}
+.buoc:last-child{border-color:var(--lua);background:var(--lua-nen)}
+.buoc:last-child .n{color:var(--lua)}
+
+/* bảng */
+.tw{overflow-x:auto;border:1px solid var(--vien);border-radius:3px;background:var(--nen2)}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:14.5px}
+th,td{padding:9px 14px;text-align:right;border-bottom:1px solid var(--vien);white-space:nowrap}
+th:first-child,td:first-child{text-align:left;white-space:normal;min-width:170px}
+thead th{
+  background:var(--nen3);font:600 12px/1.3 system-ui,sans-serif;
+  letter-spacing:.03em;text-transform:uppercase;color:var(--chu2);
+  position:sticky;top:0;
+}
+tbody tr:last-child td{border-bottom:0}
+td.n{font-variant-numeric:tabular-nums;font-family:ui-monospace,Menlo,monospace}
+tr.flip{background:var(--lua-nen)}
+tr.flip td:first-child{font-weight:650}
+.win{color:var(--song);font-weight:650}
+.lose{color:var(--chet)}
+caption{
+  caption-side:top;text-align:left;padding:14px 14px 10px;font-size:13px;
+  color:var(--chu2);border-bottom:1px solid var(--vien);background:var(--nen2);
+}
+caption b{color:var(--chu)}
+
+/* thẻ kết luận */
+.chot{
+  border-left:3px solid var(--lua);background:var(--lua-nen);
+  padding:18px 20px;border-radius:0 3px 3px 0;margin:22px 0;
+}
+.chot p:last-child{margin-bottom:0}
+.lanh-box{border-left-color:var(--lanh);background:var(--lanh-nen)}
+
+/* danh sách việc */
+ol.viec{counter-reset:v;list-style:none;padding:0;margin:18px 0 0}
+ol.viec li{
+  counter-increment:v;position:relative;padding:14px 0 14px 46px;
+  border-top:1px solid var(--vien);
+}
+ol.viec li::before{
+  content:counter(v);position:absolute;left:0;top:14px;
+  width:28px;height:28px;border-radius:50%;background:var(--nen3);
+  color:var(--chu2);font:600 13px/28px ui-monospace,Menlo,monospace;text-align:center;
+}
+ol.viec li:last-child{border-bottom:1px solid var(--vien)}
+.viec b{display:block;margin-bottom:2px}
+.viec span{color:var(--chu2);font-size:14.5px}
+footer{border-top:1px solid var(--vien);padding-top:20px;color:var(--chu3);font-size:13px}
+</style>
+
+<div class="wrap">
+<header>
+  <p class="eyebrow">Kho bản ghi · lọc xuống đúng làn đúng mạch</p>
+  <h1>14 bài mạch đêm</h1>
+  <p class="dek">Đo 488 bản ghi đối thủ, lọc bằng regex còn 41, rồi <strong>đọc tay từng tiêu đề</strong> — chỉ <strong>14 bài</strong> thật sự hỏi đúng câu hỏi của V20. Regex bắt nhầm 8 bài, một trong số đó từng nằm trong mốc so sánh.</p>
+  <p class="meta">18/08/2026 · nguồn <span class="num">2_KHO_BANGHI/</span> 16 kênh · thước <span class="num">tools/do_va_ghi_bang.py</span></p>
+</header>
+
+<section>
+  <div class="shead"><p class="eyebrow">Bước 1</p><h2>Lọc bỏ thứ không cùng làn</h2></div>
+  <p>Bảng 488 hàng bị nhiễu nặng: riêng <strong>BrightPsycho</strong> chiếm <span class="num">96</span> hàng và là kênh tâm lý self-help, không cùng ngách. So kiểu đó là so ngách, không phải so tay nghề.</p>
+  <div class="pheu">
+    <div class="buoc"><span class="n num">488</span><span class="l">cả kho, 16 kênh</span></div>
+    <div class="buoc"><span class="n num">211</span><span class="l">đúng làn — title có “ancient / prehistoric / ice age”</span></div>
+    <div class="buoc"><span class="n num">41</span><span class="l">regex bắt được — còn lẫn màu da, mùa hè, nước, ban ngày</span></div>
+    <div class="buoc"><span class="n num">14</span><span class="l"><b>đọc tay</b> — hỏi đúng câu hỏi của V20: ngủ · đêm · qua đêm lạnh</span></div>
+  </div>
+  <p>Trong <strong>14 bài lõi</strong>, view trải từ <span class="num">2.594</span> tới <span class="num">7.831.687</span> — chênh <strong>3.020 lần</strong> trên cùng một câu hỏi. Trung vị mạch này là <span class="num">23.838</span>.</p><div class="chot"><p><strong>Regex bắt nhầm 8 bài.</strong> Nặng nhất: <em>“How Did Ancient Humans Lose Their Dark Skin?”</em> — bài về <b>màu da</b>, dính chữ “dark”, <span class="num">291.240</span> view, và nó <b>đã nằm trong mốc top 8 tôi đưa lần trước</b>. Bảy bài kia lạc sang mùa hè · ban ngày · nước uống · đồ ăn · “dark” ẩn dụ.</p></div>
+</section>
+
+<section>
+  <div class="shead"><p class="eyebrow">Mạch đêm</p><h2>Đủ 14 bài, không giấu bài nào</h2></div>
+  <div class="tw"><table>
+    <caption>Trung vị mạch này <b>23.838</b> view. Dòng tô cam là bài hỏi <b>gần y hệt</b> câu hỏi của V20 — và nó được <b>22.675</b>.</caption>
+    <thead><tr><th style="text-align:right;min-width:0">view</th><th style="text-align:left">kênh</th><th style="text-align:left">tiêu đề</th></tr></thead>
+    <tbody><tr><td class="n">7.831.687</td><td style="text-align:left">Zenn</td><td style="text-align:left;white-space:normal">What Did Ancient Humans Do at Night?</td></tr><tr><td class="n">584.380</td><td style="text-align:left">Stickly</td><td style="text-align:left;white-space:normal">What Did Ancient Humans Do During the Night?</td></tr><tr><td class="n">419.883</td><td style="text-align:left">MrHell</td><td style="text-align:left;white-space:normal">What Did Ancient Humans Really Do at Night?</td></tr><tr><td class="n">79.601</td><td style="text-align:left">BeforeCivilization</td><td style="text-align:left;white-space:normal">How Did Ancient Humans Sleep Through Endless Rain?</td></tr><tr><td class="n">43.138</td><td style="text-align:left">BeforeCivilization</td><td style="text-align:left;white-space:normal">SHOCKING Reason Why Predators Feared Ancient Humans Even in Their Sleep</td></tr><tr><td class="n">37.939</td><td style="text-align:left">PrimalGlitch</td><td style="text-align:left;white-space:normal">Why Ancient Humans Couldn’t Sleep Without Dogs?</td></tr><tr><td class="n">25.000</td><td style="text-align:left">Mack</td><td style="text-align:left;white-space:normal">Why Didn’t Ancient Humans Sleep Alone?</td></tr><tr class="flip"><td class="n">22.675</td><td style="text-align:left">BeforeCivilization</td><td style="text-align:left;white-space:normal">How Did Humans Actually Sleep In The Ice Age Without Freezing To Death?</td></tr><tr><td class="n">8.942</td><td style="text-align:left">BeforeCivilization</td><td style="text-align:left;white-space:normal">The Worst Place to Spend One Night During the Ice Age</td></tr><tr><td class="n">7.406</td><td style="text-align:left">BeforeCivilization</td><td style="text-align:left;white-space:normal">Why Ancient Humans Slept Inside Dead Animals</td></tr><tr><td class="n">5.596</td><td style="text-align:left">Stickly</td><td style="text-align:left;white-space:normal">How Did Ancient Humans Handle Sleepless Night?</td></tr><tr><td class="n">3.628</td><td style="text-align:left">Mogo</td><td style="text-align:left;white-space:normal">Why Did Ancient Humans Sleep On Rocks?</td></tr><tr><td class="n">3.216</td><td style="text-align:left">BeforeCivilization</td><td style="text-align:left;white-space:normal">How Did Ancient Humans Face A Terrifying Death In The Dark?</td></tr><tr><td class="n">2.594</td><td style="text-align:left">BeforeCivilization</td><td style="text-align:left;white-space:normal">Ancient Humans Slept Beside THIS Every Night</td></tr></tbody>
+  </table></div>
+  <div class="chot"><p>Một quả <span class="num">7,83 triệu</span> và mười ba quả còn lại cộng lại chưa tới <span class="num">1,25 triệu</span>. Mạch đêm <strong>không phải mạch dễ</strong> — nó là mạch có một cú nổ khổng lồ và một cái đuôi dài lè tè.</p></div>
+</section>
+
+<section>
+  <div class="shead"><p class="eyebrow">Bước 2 · kết quả quan trọng nhất</p><h2>Hai cặp cùng title, mọi chỉ số đảo chiều</h2></div>
+  <p>Hai cặp này giữ <strong>title cố định</strong> — thứ quyết định phần lớn cú bấm. Còn lại chỉ khác nhau ở kịch bản và ảnh. Nếu một chỉ số kịch bản là nguyên nhân, nó phải chỉ về <em>cùng một hướng</em> ở cả hai cặp.</p>
+
+  <div class="tw">
+  <table>
+    <caption><b>Cặp 1</b> — “How Did Ancient Humans Survive Deadly Winters?” · chênh <b>100×</b></caption>
+    <thead><tr><th>chỉ số</th><th>Axen <span class="win">672.788</span></th><th>PaintItSimple <span class="lose">6.705</span></th></tr></thead>
+    <tbody>
+      <tr><td>độ dài</td><td class="n">10:24</td><td class="n">8:33</td></tr>
+      <tr class="flip"><td>số từ</td><td class="n">2.231</td><td class="n">1.532</td></tr>
+      <tr class="flip"><td>we / our</td><td class="n">31</td><td class="n">6</td></tr>
+      <tr class="flip"><td>câu dẫn có nhãn</td><td class="n">13</td><td class="n">2</td></tr>
+      <tr class="flip"><td>câu cụt ≤4 từ</td><td class="n">9</td><td class="n">1</td></tr>
+      <tr class="flip"><td>you / 1000 từ</td><td class="n">12,6</td><td class="n">24,2</td></tr>
+      <tr class="flip"><td>rào đón</td><td class="n">17</td><td class="n">16</td></tr>
+      <tr><td>nguy hiểm / 1000 từ</td><td class="n">12,6</td><td class="n">10,4</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="tw" style="margin-top:18px">
+  <table>
+    <caption><b>Cặp 2</b> — “The CRAZIEST Survival Methods Used by Ancient Humans” · chênh <b>15×</b></caption>
+    <thead><tr><th>chỉ số</th><th>PaintItSimple <span class="win">1.930.169</span></th><th>BeforeCivilization <span class="lose">131.647</span></th></tr></thead>
+    <tbody>
+      <tr><td>độ dài</td><td class="n">9:22</td><td class="n">30:11</td></tr>
+      <tr class="flip"><td>số từ</td><td class="n">1.489</td><td class="n">4.726</td></tr>
+      <tr class="flip"><td>we / our</td><td class="n">5</td><td class="n">27</td></tr>
+      <tr class="flip"><td>câu dẫn có nhãn</td><td class="n">4</td><td class="n">13</td></tr>
+      <tr class="flip"><td>câu cụt ≤4 từ</td><td class="n">8</td><td class="n">32</td></tr>
+      <tr class="flip"><td>you / 1000 từ</td><td class="n">16,8</td><td class="n">14,0</td></tr>
+      <tr class="flip"><td>rào đón</td><td class="n">8</td><td class="n">27</td></tr>
+      <tr><td>nguy hiểm / 1000 từ</td><td class="n">4,7</td><td class="n">10,2</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="chot">
+    <p><strong>Sáu dòng tô cam đều đảo chiều giữa hai cặp.</strong> Ở cặp 1 quả thắng dài hơn, nhiều <span class="num">we/our</span> hơn, nhiều câu dẫn hơn, nhiều câu cụt hơn. Ở cặp 2 quả thắng <em>ngắn hơn, ít hết</em> — và vẫn thắng.</p>
+    <p>Nghĩa là <strong>không chỉ số nào trong đó là nguyên nhân</strong>. Chính PaintItSimple đẻ ra cả quả <span class="num">6.705</span> lẫn quả <span class="num">1.930.169</span> — chênh <span class="num">288×</span> trong cùng một kênh, cùng một mạch.</p>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><p class="eyebrow">Bước 3 · đã sửa</p><h2>V20 lệch ở đâu so với mạch đêm</h2></div>
+  <div class="chot"><p><strong>Sửa lại con số lần trước.</strong> Tôi từng nói V20 <em>quá dài</em> — 16 phút so với 9 phút. Con số đó lấy từ top 8 có lẫn bài <em>“Dark Skin”</em>. Bỏ nó ra, năm quả nổ mạch đêm có trung vị <span class="num">3.530</span> từ, còn V20 <span class="num">2.925</span>. <strong>V20 ngắn hơn quả thắng, không dài hơn.</strong> Bỏ hẳn ý định rút xuống 9 phút.</p></div>
+  <div class="tw">
+  <table>
+    <thead><tr><th>chỉ số</th><th>trung vị 14 lõi</th><th>top 5 mạch đêm</th><th>V20 bản 16</th><th>lệch</th></tr></thead>
+    <tbody>
+      <tr class="flip"><td>câu hỏi</td><td class="n">8,0</td><td class="n">8,0</td><td class="n">3,0</td><td class="n">0,38×</td></tr>
+      <tr class="flip"><td>you / 1000 từ</td><td class="n">18,9</td><td class="n">21,4</td><td class="n">9,6</td><td class="n">0,45×</td></tr>
+      <tr class="flip"><td>tên riêng</td><td class="n">8,5</td><td class="n">22,0</td><td class="n">11,0</td><td class="n">0,50×</td></tr>
+      <tr class="flip"><td>rào đón</td><td class="n">28,0</td><td class="n">34,0</td><td class="n">20,0</td><td class="n">0,59×</td></tr>
+      <tr class="flip"><td>số liệu / 1000 từ</td><td class="n">11,7</td><td class="n">17,6</td><td class="n">30,1</td><td class="n">1,71×</td></tr>
+      <tr class="flip"><td>nguy hiểm / 1000 từ</td><td class="n">10,4</td><td class="n">8,8</td><td class="n">16,4</td><td class="n">1,86×</td></tr>
+      <tr><td>số từ</td><td class="n">3.456</td><td class="n">3.530</td><td class="n">2.925</td><td class="n">0,83× ✓</td></tr>
+      <tr><td>we / our</td><td class="n">23,5</td><td class="n">28,0</td><td class="n">20,0</td><td class="n">0,71× ✓</td></tr>
+      <tr><td>câu cụt ≤4 từ</td><td class="n">32,0</td><td class="n">25,0</td><td class="n">26,0</td><td class="n">1,04× ✓</td></tr>
+      <tr><td>từ mỗi câu</td><td class="n">12,2</td><td class="n">12,4</td><td class="n">11,8</td><td class="n">0,95× ✓</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="chot lanh-box">
+    <p><strong>Sáu chỗ lệch, và bốn trong sáu là lệch xuống chứ không phải lệch lên.</strong> V20 hỏi ít hơn, gọi người xem ít hơn, gọi tên địa danh ít hơn <em>một nửa</em>, và <strong>rào đón ít hơn</strong> quả thắng — tức luật “tối đa một khối thành thật” tôi viết sáng nay không những vô căn cứ mà còn <em>ngược</em> với mạch đêm.</p>
+    <p>Hai chỗ lệch lên: <strong>mật độ số liệu 1,71×</strong> và <strong>mật độ nguy hiểm 1,86×</strong>. Đó là hai thứ tôi đã cố đẩy lên suốt mười lăm vòng — và đẩy quá đầu.</p>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><p class="eyebrow">Bước 4</p><h2>Cái gì sống, cái gì chết</h2></div>
+  <div class="tw">
+  <table>
+    <thead><tr><th>luật</th><th>bằng chứng</th><th>phán</th></tr></thead>
+    <tbody>
+      <tr><td>Tiêu đề không có “you”</td><td class="n">7/8 kênh cùng hướng · r −0,21</td><td class="win">GIỮ</td></tr>
+      <tr><td>Mật độ nguy hiểm</td><td class="n">13/15 kênh · nhưng chỉ ~1% chênh view</td><td>yếu</td></tr>
+      <tr><td>we / our</td><td class="n">13/15 kênh · ~12% chênh view · đảo chiều ở cặp 2</td><td>yếu</td></tr>
+      <tr><td>Nguy hiểm phải xuất hiện sớm</td><td class="n">5/15 kênh — thua tung đồng xu</td><td class="lose">CHẾT</td></tr>
+      <tr><td>10/10 khúc phải có nguy hiểm</td><td class="n">7/15 kênh</td><td class="lose">CHẾT</td></tr>
+      <tr><td>Rào đón tối đa một khối</td><td class="n">10/15 kênh · đẻ từ n=1</td><td class="lose">CHẾT</td></tr>
+      <tr><td>Đặc điểm bề mặt của tiêu đề</td><td class="n">số · CHỮ HOA · “…” · độ dài đều ~0</td><td class="lose">CHẾT</td></tr>
+    </tbody>
+  </table>
+  </div>
+</section>
+
+<section>
+  <div class="shead"><p class="eyebrow">Việc kế</p><h2>Ba việc, xếp theo đòn bẩy</h2></div>
+  <ol class="viec">
+    <li><b>Sửa rubric bốn tầng</b><span>Gỡ ba luật đã chết ở <span class="num">kho/1_luat</span> · skill · <span class="num">references/</span> · file <span class="num">.py</span>. Sửa một tầng thì luật cũ vẫn thi hành.</span></li>
+    <li><b>Hạ mật độ số liệu của V20</b><span>Chỉ số duy nhất V20 nằm ngoài dải mọi bài cùng mạch. Không phải cắt dữ kiện, mà là bỏ bớt con số đọc thành tiếng.</span></li>
+    <li><b>Đọc bình luận 8 quả nổ cùng mạch</b><span>Dòng dữ liệu <em>phía cầu</em> duy nhất với tới được. Cả 493 hàng trong bảng đều chỉ đo thứ mình viết ra.</span></li>
+  </ol>
+</section>
+
+<footer>
+  Dựng bằng <span class="num">tools/do_va_ghi_bang.py</span> + <span class="num">tools/do_tieu_de.py</span>.
+  Số gốc: <span class="num">kho/3_bangchung/BANG_DO_KICHBAN.csv</span> · <span class="num">BANG_TIEU_DE.csv</span>.
+  ⚠️ Hai cặp cùng title là <b>n=2</b>. Chúng đủ để <em>bác</em> một luật, chưa đủ để <em>dựng</em> luật mới.
+</footer>
+</div>

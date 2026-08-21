@@ -1,0 +1,33 @@
+{
+ "_doc": "Thứ RIÊNG của V20-Cold. Luật chung ở schemas/shot_rules.json. V20 KHÔNG có nhân vật hiện đại (kênh làm ngôi ba, chốt 10/08). Thêm cửa riêng: đoạn khoa học hiện đại phải vẽ ĐỒ VẬT chứ không vẽ người, vì khối nhân vật ép mọi người trong mọi kind đều là người cổ đại mặc áo da.",
+ "kind_canh": [
+  "SCENE_A",
+  "SCENE_W",
+  "GROUP",
+  "SCENE_N"
+ ],
+ "khoi_nhan_vat": [
+  {
+   "ten": "người cổ đại NAM",
+   "moc": "ONE person only, never two",
+   "phai_chua": "Hands and feet small and SOLID WHITE like the head, never skin-coloured, barefoot.",
+   "chi_kind": [
+    "SCENE_A"
+   ]
+  }
+ ],
+ "cua_rieng": [
+  {
+   "ten": "KHÔNG có nhân vật hiện đại",
+   "kind": "SCENE_M",
+   "ty_le_toi_da": 0.0,
+   "nguon": "Chủ chốt 10/08: kênh làm ngách cổ đại NGÔI BA. Lane 'về BẠN' verify 27/07 = 0 cú nổ/4 tháng."
+  },
+  {
+   "ten": "khung cảnh có người ≥ 60 khung",
+   "kind": "SCENE_A",
+   "toi_thieu": 60,
+   "nguon": "V19 hỏng vì 62% khung là thẻ (đối thủ 36-41%). Cơ chế sinh lý của V20 phải vẽ TRÊN THÂN NGƯỜI chứ không thành sơ đồ, nếu không bài lại trôi về thẻ."
+  }
+ ]
+}

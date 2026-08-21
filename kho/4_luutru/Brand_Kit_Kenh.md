@@ -1,6 +1,6 @@
 # Brand Kit — Kênh "Người Que Cổ Đại" (English channel)
 
-Style khoá theo `../1_luat/ArtBible_NguoiQueCoDai.md`: doodle cartoon **có màu**, viền đen đậm, phẳng, không gradient/bóng.
+⛔ **Style khoá nay theo `identity/style.py`** *(`ArtBible` đã xoá 09/08)*. ⚠️ Và chữ **`cartoon`** dưới đây là **một trong ba chữ CẤM** — nó kéo model về Disney/Pixar/vector, làm hỏng 4 bản thumbnail V18. ~~doodle cartoon **có màu**, viền đen đậm, phẳng, không gradient/bóng.
 
 ---
 

@@ -1,5 +1,25 @@
 # Ngân hàng RE-HOOK + BUCKET BRIGADE — kho học kỹ thuật giữ chân
 
+> # ⛔ TẦNG 2 — NGUYÊN LIỆU. **KHÔNG ĐƯỢC PHÁN.** *(biển dán 09/08/2026)*
+>
+> File này **tra khi viết**, nó **không phải luật**. Khi nó nói ngược
+> `kho/1_luat/RUBRIC_KichBan.md` → **nghe RUBRIC**.
+>
+> Nó được viết trước khi kho đo lại trên 16-18 kênh / 488 bản ghi và đọc trọn 11 kịch bản.
+> Nhiều chỗ trong đây đang ra lệnh bằng giọng mệnh lệnh *("bắt buộc" · "khoá cứng" ·
+> "kim chỉ nam" · "cách vượt số 1")* cho những thứ **đã bị bác**:
+>
+> `lane "về BẠN"` *(0 cú nổ/4 tháng)* · `cliffhanger / hứa hoãn` *(0 tuyệt đối ở 14/16 kênh)* ·
+> `câu tự giễu trong hook` *(0 ca thắng)* · `persona người dẫn` *(0 ca thắng, BrightPsycho 0/96)* ·
+> `mật độ mỏ neo` *(Zenn 4,02M thấp thứ nhì tháng)* · `callback + bookend làm mục chấm`
+> *(nết ~100% của ngách)* · `mọi con số nhịp` · `I ≈ 0` · `you:we 1,5-2`.
+>
+> ## 🔴 VÀ MỌI CÂU TIẾNG ANH TRONG FILE NÀY LÀ CÂU CỦA ĐỐI THỦ
+> Đọc để biết **register**. **Chép là clone** — trùng câu chữ · trình tự beat · ví dụ · đùa ·
+> ẩn dụ · cú bẻ lái là **reused content**, thứ đã làm sập một kênh của chủ.
+> Luật và số đo: `KHO_CauMau_DoiThu_DungChep.md`.
+
+
 > ⚠️ **CẢNH BÁO QUAN TRỌNG — ĐỌC TRƯỚC**
 > File này chia 2 phần:
 > - **PHẦN A = DÙNG ĐƯỢC** — câu nối generic (văn nói chung, ai cũng dùng, không ai sở hữu).
@@ -9,7 +29,19 @@
 
 # PHẦN A — CÂU NỐI GENERIC (✅ dùng thoải mái)
 
-Đây là "văn nói" chung của thể loại explainer — như "nói thật nhé", "để ý cái này". Không phải sáng tạo riêng của ai, hàng nghìn kênh dùng. An toàn.
+Đây là "văn nói" chung của thể loại explainer. Không phải sáng tạo riêng của ai — an toàn về **chính sách**.
+
+> ## ⚠️ NHƯNG AN TOÀN VỀ CHÍNH SÁCH ≠ AN TOÀN VỀ BẢN SẮC *(bổ sung 09/08)*
+> Đếm trên **488 bản ghi đối thủ** *(`KHO_CauMau_DoiThu_DungChep.md`)*:
+> `"Think about that for a second."` có trong **31 bản ghi** · `"here's where it gets
+> interesting"` **13** · `"Next time you…"` **65**.
+>
+> Chép chúng **không phạm reused-content**, nhưng làm bài **nghe y hệt 30 kênh khác** — và
+> đó chính là nhóm 1 của chính sách *"nội dung chung chung, ít thay đổi giữa video này với
+> video kia"*, thứ đang chặn YPP.
+>
+> **Dùng làm KHUNG, đổi chữ.** `"Think about that for a second"` → viết câu ra lệnh chú ý
+> của riêng mình. Xương thì mượn được; da thịt thì không.
 
 ### A1. Mở bí mật / hạ kỳ vọng để hé lộ
 - "But here's the thing nobody tells you."
@@ -58,11 +90,11 @@ Cột trái = câu thật của đối thủ (để HIỂU kỹ thuật). Cột 
 
 ---
 
-# 3 KỸ THUẬT RETENTION KHOÁ CỨNG (học pattern — tự dựng nội dung)
+# 3 KỸ THUẬT RETENTION ~~KHOÁ CỨNG~~ ⛔ **CẢ BA ĐÃ BỊ HẠ CẤP 09/08**
 
-**1. BOOKEND — viết câu CUỐI trước.** Câu chốt cuối gọi lại NGUYÊN XI hình ảnh 15s đầu, ngôi 2 "Next time you…". (Kỹ thuật chung — tự chọn hình ảnh của video mình. *V2/V3 mình đã tự làm: "pull your foot back under the covers" / "walk into a dark forest".*)
+**1. BOOKEND — viết câu CUỐI trước.** *(Kỹ thuật viết vẫn tốt.)* ⛔ Nhưng bookend **không phải đòn bẩy** — nết ~100% của ngách *(Stickly 47/47 · Zenn 28/28, bài 298 vpd bookend sạch y như bài 7,83 triệu)*. Và ⛔ **bỏ cụm `"Next time you…"`** — nó có trong **65/488 bản ghi đối thủ**; gọi lại ~~NGUYÊN XI~~ thì đảo **nghĩa** của vật, đừng lặp **chữ**. (Kỹ thuật chung — tự chọn hình ảnh của video mình. *V2/V3 mình đã tự làm: "pull your foot back under the covers" / "walk into a dark forest".*)
 
-**2. NHỒI câu nối đều** — bucket brigade (Phần A) mỗi ~20-30s, re-hook lớn mỗi ~60-90s, đặt NGAY TRƯỚC fact sốc. Câu nối lấy Phần A; fact + đùa + hình thì tự viết.
+**2. Câu nối** — bucket brigade và re-hook vẫn là nghề, đặt NGAY TRƯỚC fact sốc. ⛔ ~~NHỒI đều~~ · ~~mỗi 20-30s~~ · ~~mỗi 60-90s~~ — **ba con số đã chết 09/08**; đặt đúng chỗ quan trọng hơn đặt đủ số lần. Câu nối lấy Phần A; fact + đùa + hình thì tự viết.
 
 **3. "ĐỂ DÀNH món ngon nhất cho cuối" + CÀI chi tiết sớm → LẬT thành twist cuối.** (Kỹ thuật chung — tự chọn chi tiết của chủ đề. *V3 mình đã tự làm: hook cài "how your kids act" → Ch6 lật.*)
 

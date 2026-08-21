@@ -103,7 +103,32 @@ Gốc: You walk into a forest like you own it, eating a granola bar, completely 
 
 ---
 
-## PHẦN 2 — TEMPLATE CHUẨN v2 (bám prompt đã kiểm chứng của chủ — bản NÂNG CẤP đối thủ) ⭐
+> # 🔴🔴 PHẦN 2 KHÔNG CÒN LÀ NGUỒN CHUẨN — soát 09/08/2026
+>
+> Bốn khối `STYLE · CONSIST · SCENE · NEG` chép ở dưới **KHÔNG phải thứ chạy**.
+> Thứ chạy là **`identity/style.py`** *(`tools/build_prompts.py` nạp `from style import *`)*,
+> và hai bản **đã lệch nhau một thế hệ**:
+>
+> | | PHẦN 2 dưới đây | `identity/style.py` *(chạy thật)* |
+> |---|---|---|
+> | chữ `clean` | có trong CONSIST **và** NEG | **0 lần** |
+> | chữ `cartoon` | có trong NEG | **0 lần** |
+> | `wobbly` | CONSIST ghi **`not wobbly`** | **7 lần, khẳng định** |
+> | mắt | ✅ khớp | `LARGE ROUND WHITE… Never tiny dots` |
+>
+> **Tự mâu thuẫn ngay trong một prompt:** khối `STYLE` ở dưới ghi *"outlines are **WOBBLY**…
+> NOT smooth **clean** digital lines"* và liệt kê ba chữ cấm `cartoon · clean · smooth` — rồi
+> khối `CONSIST` ba dòng sau ghi *"**Clean smooth** evenly-weighted outlines… **not wobbly**…
+> a **clean** flat digital-explainer look"*. Hai lệnh ngược nhau dán chung vào **cả 191 prompt**.
+>
+> ## ✅ CÁCH DÙNG ĐÚNG: đừng chép bốn khối này. Gọi thẳng `identity/style.py`.
+> ```python
+> from style import STYLE_SCENE, STYLE_CARD, ANCIENT, MODERN, WOMAN, GROUP, NEG_SCENE, NEG_CARD, BG, FACE, ANIMAL
+> ```
+> Bốn khối dưới đây **giữ làm hiện vật** — để biết prompt V17/V18 đã dùng gì. ⛔ Đừng chép sang video mới.
+> *(Đây là gốc của `D-03`, nay đã khép.)*
+
+## PHẦN 2 — ~~TEMPLATE CHUẨN v2~~ ⛔ HIỆN VẬT (bám prompt đã kiểm chứng của chủ — bản NÂNG CẤP đối thủ) ⭐
 
 Mỗi prompt = **6 khối theo thứ tự**. 4 khối CỐ ĐỊNH (STYLE·CONSIST·SCENE·NEG) dán **y nguyên**; đổi theo shot: SUBJECT + FRAMING + TEXT.
 
@@ -331,7 +356,7 @@ Xuất **bảng 3 cột**, số dòng = số ảnh = số shot:
 
 | # | 🗣️ Dòng-SHOT (nạp TTS, thuần EN) | 🖼️ Prompt ảnh (gen-ready, dán thẳng) |
 |---|---|---|
-| 001 | You're asleep, drooling on your pillow, | Rough low-budget educational doodle… a modern white stick figure with short black hair, wearing a simple blue hoodie… lying asleep on a simple brown bed, eyes closed, tiny "z z z", … flat minimal colors ONLY on… 16:9. |
+| 001 | You're asleep, drooling on your pillow, | *(⚠️ ví dụ CŨ — "short black hair, blue hoodie" sai: `identity/style.py` khối `MODERN` là **đầu TRỌC, thân que trần, không quần áo**)* Rough low-budget educational doodle… a modern white stick figure… lying asleep on a simple brown bed, eyes closed, tiny "z z z", … flat minimal colors ONLY on… 16:9. |
 | 002 | probably snoring, zero awareness. | [ANCHOR] … same modern white stick figure … mouth open snoring, "ZZZ" bold, … [LOCK] |
 
 Kèm cuối:
@@ -345,13 +370,13 @@ Mặc định trả **trọn bộ** cho cả script. Nếu script rất dài (>1
 
 ## PHẦN 9 — THUMBNAIL (bước BẮT BUỘC mỗi video)
 
-Thumbnail + title = **80% CTR** → mỗi video PHẢI có ≥1 thumbnail theo **file luật hiện hành**: `kho/1_luat/PROMPT_TONG_Thumbnail_v6.md` (đúc từ 29 quả ≥50K + 4 quả chết của kênh), kèm `kho/3_bangchung/CO_CHE_3LOP_Winner_2026-07-29.md`.
+Thumbnail + title = **80% CTR** → mỗi video PHẢI có ≥1 thumbnail theo **skill `sketchapiens-thumbnail`** — nguồn DUY nhất từ 09/08 *(gộp cả prompt dán thẳng; hai file kho `PROMPT_TONG_Thumbnail_v6` và `TEMPLATE_Thumbnail_KHOA_v1` đã xoá)*. Bằng chứng: `kho/3_bangchung/CO_CHE_3LOP_Winner_2026-07-29.md`.
 
 > ⛔ **KHÔNG dùng `TEMPLATE_Thumbnail_DoiThu.md`** — file đó đã chết (dán biển 29/07/2026). ADN cũ của nó, "nhân vật lệch TRÁI + vật màu bên PHẢI", đã bị bác: soi lại 7 quả thắng cho thấy nhân vật nằm trái, phải, giữa, hai mép, và có quả không có nhân vật nào.
 
-- **Điền chỗ trống** vào PROMPT ở PHẦN E của v6: `{KHUÔN}` · `{VẬT KỂ CHUYỆN}` · `{NHÂN VẬT + VỊ TRÍ + BIỂU CẢM TỔ HỢP}` · `{ÁNH MẮT}` · `{NỀN}` · `{MÀU + 1 điểm bão hoà}` · `{CHỮ 1-3 TỪ NÓNG}`.
-- **ADN thắng (bám chặt):** **CENTRE ANCHOR** — tâm khung dành cho VẬT KỂ CHUYỆN, không phải nhân vật (7/7 quả to nhất) · chữ phải nói thứ **KHÁC title** (hai quả duy nhất không lặp title bỏ xa phần còn lại gấp 8 lần) · mọi ánh mắt khoá vào trong khung · các khuôn mặt phải khác cảm xúc nhau · nền xỉn + đúng 1-2 điểm bão hoà · chữ VÀNG viền đen 1-3 từ + "?" sát mép trên, **13-19% chiều cao**.
-- **Luân phiên 7 khuôn ở PHẦN C, không lặp khuôn hai video liền.** Cấm khuôn "hiện đại TRÁI ↔ cổ đại PHẢI" (kênh dùng 11/11, chỉ 2/29 quả thắng dùng).
+- **Điền chỗ trống** vào PROMPT ở §⑥ của skill `sketchapiens-thumbnail`: `{KHUÔN}` · `{VẬT KỂ CHUYỆN}` · `{NHÂN VẬT + VỊ TRÍ + BIỂU CẢM TỔ HỢP}` · `{ÁNH MẮT}` · `{NỀN}` · `{MÀU + 1 điểm bão hoà}` · `{CHỮ 1-3 TỪ NÓNG}`.
+- **ADN thắng (bám chặt):** **CENTRE ANCHOR** — tâm khung dành cho VẬT KỂ CHUYỆN, không phải nhân vật (7/7 quả to nhất) · ⛔ ~~chữ phải nói thứ KHÁC title (hai quả…)~~ — **BỊ BÁC.** `PROMPT_TONG_Thumbnail_v6.md` đo **44 thumbnail / 9 kênh**: hơn **25/36 quả LẶP hoặc nén lại chính title**; Explain In Paint lặp **6/6**; quả 1 triệu của Ink: title *"…When It Rained All Week?"* → chữ `RAINED ALL WEEK`. **Lặp title không bị phạt.** Cái quyết định là chữ phải chứa **MỘT ĐẠI LƯỢNG ĐO ĐƯỢC** *(`2 SLEEPS?` · `ALL DAY` · `-40°`)* · mọi ánh mắt khoá vào trong khung · các khuôn mặt phải khác cảm xúc nhau · nền xỉn + đúng 1-2 điểm bão hoà · chữ VÀNG viền đen 1-3 từ + "?" sát mép trên, **~22% chiều cao** *(⛔ luật cũ "13-19%" ĐÃ CHẾT — đo máy 29 quả thắng ra trung vị **22%**; thumbnail V18 bản 2 để 15% chính là hậu quả của luật sai đó)*.
+- **Luân phiên 7 khuôn bố cục, không lặp khuôn hai video liền.** Cấm khuôn "hiện đại TRÁI ↔ cổ đại PHẢI" (kênh dùng 11/11, chỉ 2/29 quả thắng dùng).
 - **Xuất 1 concept chính + 1 fallback** (phòng khi AI vẽ chi tiết phức tạp bị rối).
 - **Chữ trên thumbnail:** các model image mới (GPT-4o image, Nano Banana 2 / Gemini 3) vẽ chữ NGẮN 2-3 từ khá tốt → cứ để nguyên prompt CÓ chữ, gen thẳng, thường ăn ngay. Chỉ khi bản nào chữ bị méo/sai → gen lại vài lần (hoặc fallback thêm chữ bằng Canva — không bắt buộc).
 - **Đồng bộ nét:** nên gen thumbnail cùng tool với ảnh video (Nano Banana/Flow); ChatGPT image / DALL·E cũng được, chỉ nét hơi khác — chấp nhận được cho thumbnail.
@@ -359,7 +384,7 @@ Thumbnail + title = **80% CTR** → mỗi video PHẢI có ≥1 thumbnail theo *
 ---
 
 ## Ghi nhớ cuối
-Nhất quán = **kỷ luật lặp chữ**, không phải token. **Nền theo NGỮ CẢNH** (trắng cho khái niệm/chữ/so sánh, cảnh flat-màu cho môi trường thật) — KHÔNG mặc định, KHÔNG theo tỉ lệ; tỉ lệ tự nổi ra theo nội dung. Mỗi ảnh kể đúng 1 vế đang đọc, đọc-hiểu-trong-1-giây, con vật là điểm màu (chi tiết hơn người que). Nét **sạch digital** (không run tay). Nhấn: đỏ nguy hiểm · xanh ✓ · vàng ý tưởng. Học công thức đã thắng của đối thủ + nhất quán hơn + biểu cảm mạnh hơn = hơn nó ở mọi mặt.
+Nhất quán = **kỷ luật lặp chữ**, không phải token. **Nền theo NGỮ CẢNH** (trắng cho khái niệm/chữ/so sánh, cảnh flat-màu cho môi trường thật) — KHÔNG mặc định, KHÔNG theo tỉ lệ; tỉ lệ tự nổi ra theo nội dung. Mỗi ảnh kể đúng 1 vế đang đọc, đọc-hiểu-trong-1-giây, con vật là điểm màu (chi tiết hơn người que). Nét **RUN TAY** *(hand-drawn, wobbly marker)* — ⛔ ~~sạch digital~~ **sai**, xem PHẦN 6 mục 1 và `identity/style.py` *(`wobbly` xuất hiện **7 lần**, `clean` **0 lần**)*. Nét sạch hơn = ra hoạt hình = **lạc lane**. Nhấn: đỏ nguy hiểm · xanh ✓ · vàng ý tưởng. Học công thức đã thắng của đối thủ + nhất quán hơn + biểu cảm mạnh hơn = hơn nó ở mọi mặt.
 
 ---
 ---
@@ -395,7 +420,7 @@ Ghép tất cả dòng-shot lại phải ra **đúng từng chữ** narration đ
 
 | # | Luật | Lỗi đã gây ra |
 |---|---|---|
-| 1 | **Nhãn chữ trên hình ≤3 từ** | nhãn 4-6 từ → model vẽ sai chính tả. Nhãn đối thủ gần như toàn 1-3 từ: `TINDER FUNGUS.` · `DRY INSIDE` · `FIRE KEEPER` |
+| 1 | **Nhãn NHỎ có mũi tên ≤3-4 từ.** ⚠️ ~~mọi nhãn ≤3 từ~~ — **tiêu đề thẻ thì KHÔNG**: đối thủ dùng cả câu, ví dụ `RAIN DIDN'T STOP THE FOOD SUPPLY.` Đo 1.090 khung. | nhãn 4-6 từ → model vẽ sai chính tả. Nhãn đối thủ gần như toàn 1-3 từ: `TINDER FUNGUS.` · `DRY INSIDE` · `FIRE KEEPER` |
 | 2 | **Mọi prompt phải có khối `Framing:`** | quên khối này → 263 ảnh ra cùng một cỡ khung. Nó nằm sẵn trong PHẦN 2 mà tôi không đọc lại |
 | 3 | **Khung có chữ phải kèm lệnh ép chính tả** | `The lettering must be spelled EXACTLY as written above… no gibberish letters.` |
 | 4 | **ĐÍNH ẢNH THAM CHIẾU STYLE khi gen** | tả style bằng lời **trượt hai vòng** ở thumbnail V17; đưa ảnh vào là trúng ngay. Ghi ở đầu `PROMPTS_FULL.txt`:<br>`Use the attached image ONLY as a STRICT STYLE reference — copy its line weight, character proportions, face style and flat colouring. Do NOT copy its composition or its content.` |
@@ -404,7 +429,7 @@ Ghép tất cả dòng-shot lại phải ra **đúng từng chữ** narration đ
 
 | # | Luật | Bằng chứng |
 |---|---|---|
-| 5 | **NỀN CẢNH PHẢI CÓ ĐẠO CỤ — cấm nền hai dải màu trơn** | ảnh gen ra chỉ có dải trời + dải đất, trống trơn. Khung đối thủ **luôn** có 3-6 vật vẽ tay: cây, bụi cỏ, đá, mặt trăng, vũng nước. Nền trơn = dấu hiệu ảnh AI rẻ tiền. Viết thẳng đạo cụ vào chuỗi nền, và thêm câu `The background must contain the hand-drawn props listed above, NOT just two plain bands of flat colour.` |
+| ~~5~~ | ⛔ **LUẬT NÀY ĐÃ BỊ CHÍNH FILE NÀY BÁC** — xem mục *"ĐO LẠI TỬ TẾ"* #3 bên dưới: *"Nền cảnh HAI DẢI MÀU TRƠN là ĐÚNG… hôm trước tôi 'sửa' bằng cách nhồi cây cối vào — **sửa nhầm, đã trả lại**"*. Khung savanna của Ink Explainer chỉ có một dải trời + một dải cát + một mặt trời. **Đạo cụ thêm khi cảnh cần, không phải luật.** | ảnh gen ra chỉ có dải trời + dải đất, trống trơn. Khung đối thủ **luôn** có 3-6 vật vẽ tay: cây, bụi cỏ, đá, mặt trăng, vũng nước. Nền trơn = dấu hiệu ảnh AI rẻ tiền. Viết thẳng đạo cụ vào chuỗi nền, và thêm câu `The background must contain the hand-drawn props listed above, NOT just two plain bands of flat colour.` |
 | 6 | **Chặn gradient + hào quang trong NEG** | ảnh ra tường nền gradient + đầu nhân vật có highlight bóng. Thêm `no gradient background, no soft glow, no vignette, no drop shadow`. |
 | 7 | **Chữ phải là NÉT VIẾT TAY, không phải font** | thẻ tiêu đề ra chữ font sạch. Ép: `IRREGULAR HAND-LETTERED ALL-CAPS marker writing (each letter drawn by hand, slightly uneven, NOT a clean computer font)`. |
 

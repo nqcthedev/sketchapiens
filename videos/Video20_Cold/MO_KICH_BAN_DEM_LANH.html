@@ -1,0 +1,529 @@
+<title>Mổ Kịch Bản Đêm Lạnh</title>
+<style>
+:root{
+  --paper:#f2f5f8; --card:#ffffff; --ink:#141a21; --ink-2:#4a5560; --ash:#79838f;
+  --line:#d5dee6; --frost:#e6edf3;
+  --ember:#c2540c; --ember-soft:#f6e6d8;
+  --steel:#2f6389; --steel-soft:#dfeaf3;
+  --warn:#8a6d13; --warn-soft:#f6eed6;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0e1319; --card:#161d25; --ink:#e8eef4; --ink-2:#aab6c2; --ash:#7d8894;
+    --line:#27313c; --frost:#1b232c;
+    --ember:#f08b45; --ember-soft:#2e1f14;
+    --steel:#7fb4d8; --steel-soft:#152530;
+    --warn:#d8b657; --warn-soft:#292312;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0e1319; --card:#161d25; --ink:#e8eef4; --ink-2:#aab6c2; --ash:#7d8894;
+  --line:#27313c; --frost:#1b232c;
+  --ember:#f08b45; --ember-soft:#2e1f14;
+  --steel:#7fb4d8; --steel-soft:#152530;
+  --warn:#d8b657; --warn-soft:#292312;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font:16px/1.62 system-ui,-apple-system,"Segoe UI",sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:none; margin:0; padding:48px clamp(16px,2.5vw,40px) 96px; display:flex; flex-direction:column; gap:48px}
+/* chữ giữ hẹp — chỉ BẢNG mới được rộng hết khung */
+header p, .lede, .sub, .foot, section > p, .card .do, .card q, ul{max-width:78ch}
+h1,h2,h3{font-family:Georgia,"Iowan Old Style","Times New Roman",serif; font-weight:600; text-wrap:balance; margin:0}
+h1{font-size:clamp(30px,5vw,46px); line-height:1.1; letter-spacing:-.015em}
+h2{font-size:clamp(21px,2.6vw,27px); line-height:1.22}
+h3{font-size:17px}
+p{margin:0}
+.eyebrow{font:600 11px/1 system-ui,sans-serif; letter-spacing:.16em; text-transform:uppercase; color:var(--ember)}
+.lede{color:var(--ink-2); max-width:62ch; font-size:17px}
+.sub{color:var(--ash); font-size:14px; max-width:70ch}
+section{display:flex; flex-direction:column; gap:20px}
+.rule{height:1px; background:var(--line); border:0; margin:0}
+
+/* nguồn */
+.srcs{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px}
+.src{background:var(--card); border:1px solid var(--line); border-top:3px solid var(--ash); padding:16px 18px; display:flex; flex-direction:column; gap:6px}
+.src.us{border-top-color:var(--ember)}
+.src .v{font:600 26px/1 Georgia,serif; font-variant-numeric:tabular-nums}
+.src .n{font-size:14px; color:var(--ink-2)}
+.src .m{font-size:12.5px; color:var(--ash)}
+
+/* bảng */
+.scroll{overflow-x:auto; border:1px solid var(--line); background:var(--card)}
+table{border-collapse:collapse; width:100%; font-size:14.5px; table-layout:auto}
+caption{text-align:left; padding:14px 18px; font-size:13px; color:var(--ash); border-bottom:1px solid var(--line)}
+th,td{padding:11px 13px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top;
+  overflow-wrap:break-word; word-break:normal; line-height:1.5}
+thead th{font:600 11.5px/1.3 system-ui,sans-serif; letter-spacing:.09em; text-transform:uppercase; color:var(--ash); background:var(--frost); position:sticky; top:0}
+tbody tr:last-child td{border-bottom:0}
+td.num,th.num{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-variant-numeric:tabular-nums;
+  white-space:normal; overflow-wrap:anywhere}
+/* chỉ ô CHỈ CÓ SỐ mới cấm xuống dòng */
+td.num > strong:only-child{white-space:nowrap}
+td.num .m{font-family:system-ui,sans-serif; display:block; margin-top:3px; line-height:1.45}
+td.dim{font-weight:600; width:14%; min-width:130px}
+.grp td{background:var(--frost); font:600 11.5px/1 system-ui,sans-serif; letter-spacing:.11em; text-transform:uppercase; color:var(--ink-2); padding:9px 14px}
+.tag{display:inline-block; padding:2px 8px; border-radius:2px; font:600 11.5px/1.5 system-ui,sans-serif; white-space:nowrap}
+tbody td:last-child{width:26%; min-width:230px}
+.pq{display:block; margin-top:7px; font:13px/1.5 system-ui,sans-serif; color:var(--ink-2)}
+.pq b{color:var(--ink); font-weight:650}
+.pq.neu-suǎ{color:var(--ink-2)}
+.pq-mat{color:var(--ember)}
+tbody td:last-child .m{display:block; margin-top:4px; font-family:system-ui,sans-serif; line-height:1.45}
+.tag{max-width:100%; white-space:normal}
+@media (max-width:1100px){table{font-size:13.5px} th,td{padding:9px 9px}}
+@media (max-width:760px){.scroll{overflow-x:auto} table{min-width:680px}}
+.win{background:var(--steel-soft); color:var(--steel)}
+.mid{background:var(--warn-soft); color:var(--warn)}
+.gap{background:var(--ember-soft); color:var(--ember)}
+.done{background:#d9efdf; color:#1f6b40}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .done{background:#16301f; color:#7fd0a0}}
+:root[data-theme="dark"] .done{background:#16301f; color:#7fd0a0}
+tr.fixed td{background:linear-gradient(90deg,#d9efdf33,transparent)}
+.bad{background:#f7dcdc; color:#8d2f2f}
+tr.hot td{background:linear-gradient(90deg,#f7dcdc22,transparent)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .bad{background:#3a1c1c; color:#e79a9a}}
+:root[data-theme="dark"] .bad{background:#3a1c1c; color:#e79a9a}
+
+/* thẻ kỹ thuật thiếu */
+.steal{display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px}
+.card{background:var(--card); border:1px solid var(--line); padding:18px 20px; display:flex; flex-direction:column; gap:10px}
+.card .from{font:600 11px/1 system-ui,sans-serif; letter-spacing:.12em; text-transform:uppercase; color:var(--ash)}
+.card q{display:block; font-family:Georgia,serif; font-size:15px; color:var(--ink-2); border-left:2px solid var(--ember); padding-left:12px; font-style:italic}
+.card .do{font-size:14px; color:var(--ink)}
+.card.big{grid-column:1/-1; border-left:3px solid var(--ember)}
+ul{margin:0; padding-left:20px; color:var(--ink-2); font-size:14.5px; display:flex; flex-direction:column; gap:6px}
+.foot{color:var(--ash); font-size:13px; max-width:72ch}
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Ô đêm lạnh · 25 chiều · cập nhật liên tục theo kịch bản</p>
+  <h1>Mổ kịch bản đêm lạnh</h1>
+  <p class="lede"><strong>Bốn</strong> kịch bản cùng một ô đề tài, đo trên cùng một thước. <strong>Bổ sung 19/08 muộn: chiều thứ 25</strong> — thứ duy nhất trong ngày mà cả hai quả nổ đều mạnh còn V20 yếu hẳn, và 24 chiều cũ không hề đo. Ba của đối thủ đã nổ, một của mình chưa đăng. <strong>Bổ sung 19/08: Zenn 7,83 triệu</strong> — quả lớn nhất cả kho bản ghi, đúng mạch đêm, đọc trọn bằng mắt. Bảng này để tìm <strong>thứ họ có mà mình không có</strong>.</p>
+</header>
+
+<section>
+  <div class="srcs">
+    <div class="src" style="border-top-color:var(--steel);border-top-width:5px"><span class="v">7.831.687</span><span class="n">Zenn</span><span class="m">What Did Ancient Humans Do at Night? · 8:32 · 1.598 từ</span></div>
+    <div class="src"><span class="v">2.047.105</span><span class="n">Paint It Simple + CurioX</span><span class="m">CRAZIEST Survival Methods… Ice Age · 9:22</span></div>
+    <div class="src"><span class="v">756.651</span><span class="n">Axen</span><span class="m">How Did Ancient Humans Survive Deadly Winters? · 10:25</span></div>
+    <div class="src us"><span class="v">chưa đăng</span><span class="n">V20 — bản 19</span><span class="m">What Kept Ancient Humans Alive Through Freezing Nights? · ~13:04 · 2.353 từ · 198 dòng</span></div>
+  </div>
+  <p class="sub">Số của Axen đo trên bản dịch tiếng Việt nên cột đại từ là mốc <em>thấp hơn thực tế</em>. Số của quả 2,04M đọc bằng mắt trên bản ghi gốc, không đếm máy.</p>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Tiến độ · cập nhật 19/08</p>
+  <h2>V20 đang ở đâu trong dây chuyền</h2>
+  <div class="scroll"><table>
+    <thead><tr><th>Khâu</th><th>Trạng thái</th><th>Ghi chú</th></tr></thead>
+    <tbody>
+      <tr class="fixed"><td class="dim">Kịch bản</td><td><span class="tag done">XONG</span></td><td>3.562 từ · 296 dòng · ~19:47. Đọc trọn bằng mắt, sửa 6 lỗi; thêm 8 nước đi từ bảng dưới. Cổng A sạch, tự-lặp 6 cụm (đều cố ý)</td></tr>
+      <tr class="fixed"><td class="dim">Chia shot</td><td><span class="tag mid">52 / 437</span></td><td>Dòng-shot sinh bằng <code>tools/chia_shot.py</code>, có cổng kiểm ghép-lại-khớp-từng-ký-tự. Chia lại 19/08 sau khi kịch bản dài thêm: <b>437 shot</b>, trung vị 7 từ/shot. Thẻ CARD 30% <span class="m">(V19 hỏng ở 62%)</span></td></tr>
+      <tr><td class="dim">Prompt ảnh</td><td><span class="tag gap">CHƯA</span></td><td>Chạy <code>tools/build_prompts.py</code> sau khi chia shot xong</td></tr>
+      <tr><td class="dim">Gen ảnh</td><td><span class="tag gap">CHƯA</span></td><td>⚠️ 282 ảnh cũ dựng cho <b>kịch bản đầu tiên</b> (2.132 từ) — chỉ 12% câu còn dùng lại được, phải gen lại gần hết</td></tr>
+      <tr><td class="dim">TTS</td><td><span class="tag gap">CHƯA</span></td><td>File tiếng cũ cũng theo kịch bản đầu tiên</td></tr>
+      <tr><td class="dim">Ghép video</td><td><span class="tag gap">CHƯA</span></td><td><code>ghep_v20.py</code> đã có 3 chốt đo; bản render cũ bỏ</td></tr>
+      <tr><td class="dim">Thumbnail A</td><td><span class="tag done">XONG</span></td><td>“16 HOURS OF DARK”, chủ duyệt 17/08</td></tr>
+      <tr><td class="dim">Thumbnail B</td><td><span class="tag gap">CHƯA</span></td><td>Cần bản thứ hai để chạy Test &amp; Compare</td></tr>
+    </tbody>
+  </table></div>
+  <p class="sub">⚠️ Hai việc chỉ chủ kênh làm được: chạy <b>Test &amp; Compare</b> trên video cũ (CTR ≈1%, công cụ miễn phí, chưa dùng bao giờ) và kiểm cờ <b>made for kids</b> của V19.</p>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Đọc bảng cho đúng</p>
+  <h2>Xanh hết không phải là đích</h2>
+  <p class="lede">Xanh hết nghĩa là kịch bản mình <em>giống hệt trung bình cộng của ba đối thủ</em>. Đó là định nghĩa của bản sao, và bản sao thì chết.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Màu</th><th>Nghĩa</th><th>Có phải việc phải làm không</th></tr></thead>
+    <tbody>
+      <tr><td><span class="tag gap">cam</span></td><td>Thứ <b>CẢ BA</b> quả nổ đều có mà mình không có</td><td><b>CÓ — đây là tín hiệu thật.</b> Ba trên ba thì không phải trùng hợp</td></tr>
+      <tr><td><span class="tag bad">đỏ</span></td><td>Quả to nhất làm <b>NGƯỢC</b> thứ mình tưởng là ưu thế</td><td><b>KHÔNG.</b> Đây là cảnh báo <i>đừng tin giả định của mình</i>, không phải lệnh làm theo Zenn</td></tr>
+      <tr><td><span class="tag mid">vàng</span></td><td>Ngang nhau, hoặc chưa đủ bằng chứng để phán</td><td>Không. Để yên</td></tr>
+      <tr><td><span class="tag win">xanh dương</span></td><td>Mình đang hơn cả ba</td><td>Không. Giữ</td></tr>
+      <tr><td><span class="tag done">xanh lá</span></td><td>Mình <b>đã chọn</b> đổi, và đã đổi xong</td><td>Xong rồi</td></tr>
+    </tbody>
+  </table></div>
+  <div class="card big">
+    <span class="from">Bằng chứng đứng sau cách đọc này</span>
+    <h3>Ba con số nói tại sao đuổi cho xanh hết là sai</h3>
+    <p class="do">
+      <b>①</b> Đo 488 bản ghi, chia trong từng kênh ra ⅓ view cao ↔ ⅓ thấp: <b>17 trên 19 chỉ số là nhiễu</b>. Làm chúng xanh không đổi được gì.<br><br>
+      <b>②</b> Hai cặp video <b>cùng y hệt một title</b> (chênh 100× và 15×): mọi chỉ số kịch bản <b>đảo chiều</b> giữa hai cặp. Không tồn tại một giá trị “đúng” để nhắm.<br><br>
+      <b>③</b> Quả <b>7,83 triệu</b> bị chấm ĐỎ ở hai dòng: nguy hiểm chỉ có ở <b>3/10 khúc</b>, và đe doạ đầu tiên mãi <b>1:06</b>. Nếu xanh hết là đích thì Zenn trượt, mà nó lớn hơn quả thứ nhì trong mạch <b>mười ba lần</b>.
+    </p>
+  </div>
+  <p class="foot">→ Đích thật của bảng chỉ có một: <b>không còn dòng nào mà cả ba quả nổ đều làm còn mình thì không.</b> Mọi dòng khác là lựa chọn, và vài dòng <i>cố ý</i> để đỏ.</p>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Chín chiều</p>
+  <h2>Bảng đầy đủ</h2>
+  <div class="scroll">
+    <table>
+      <caption>Mỗi dòng có <b>phán quyết</b> kèm hai nhánh: <b>nếu sửa</b> thì được gì, <b>nếu để nguyên</b> thì mất gì. <b style="color:#1f6b40">Xanh lá = đã sửa xong</b>. Đỏ = quả 7,83M làm ngược thứ mình tưởng là ưu thế, và phần lớn <i>cố ý giữ</i>.</caption>
+      <thead>
+        <tr><th>Chiều</th><th class="num">Zenn 7,83M</th><th class="num">2,04M</th><th class="num">Axen</th><th class="num">V20</th><th>Trạng thái</th></tr>
+      </thead>
+      <tbody>
+        <tr class="grp"><td colspan="6">① Gói · ② Mở bài</td></tr>
+        <tr><td class="dim">Chữ đe doạ trong title</td><td>không có — chỉ “at Night”</td><td>—</td><td>Deadly</td><td>✅ <b>“What Kept Ancient Humans <span style="color:var(--ember)">Alive</span> Through Freezing Nights?”</b> <span class="m">cũ: “How Did Ancient Humans Sleep Through Freezing Nights?”</span></td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> đã đổi sang <i>“What Kept Ancient Humans <b>Alive</b>…”</i>. Thêm chữ đe doạ, và thoát khỏi hai khuôn trùng.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> title cũ trùng <b>4 cụm</b> với một video 79K cùng ngách, và dùng đúng khuôn kênh mình đã xài <b>6/8</b> lần. Hai cái đó cộng lại là tín hiệu <i>cùng một loạt</i> — thứ YouTube gọi là inauthentic content.</span></td></tr>
+        <tr><td class="dim">Nước đi mở</td><td><strong>hẹn giờ vào TỐI NAY</strong> — công tắc trong phòng người xem, thì tương lai</td><td>ra lệnh cho người xem sờ vào một vật trong phòng</td><td>tước tiện nghi rồi giật đi</td><td>✅ <em>“Tonight you are going to pull something over yourself and not think about it once.”</em> <span class="m">Vật của người xem ở câu 1, thì tương lai; cái chết vào ở câu 3</span></td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> vật của người xem ở câu 1, thì tương lai; và nó khoá vòng với câu kết <i>“A blanket is a campfire that has been folded up.”</i></span><span class="pq pq-mat"><b>Nếu để nguyên:</b> 10 câu đầu là ngôi ba, người xem chưa xuất hiện. Cả <b>ba</b> quả nổ đều chạm phòng của người xem trong 20 giây đầu.</span></td></tr>
+        <tr class="fixed"><td class="dim">Giây có đe doạ đầu tiên</td><td class="num"><strong>1:06</strong> <span class="m">(13%)</span></td><td class="num">20s</td><td class="num">13s</td><td class="num">✅ <strong>12s</strong> <span class="m">(trước 0s)</span></td><td><span class="tag done">GIỮ 12s</span><span class="pq"><b>Nếu sửa:</b> đẩy chậm như Zenn (1:06) thì <b>mất lợi thế duy nhất</b> mình đang giữ so với cả ba.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> 12s vẫn sớm nhất cả bốn. Không mất gì.</span></td></tr>
+        <tr class="fixed"><td class="dim">Hứa hẹn biến đổi</td><td>“thay đổi toàn bộ những gì ta tưởng mình biết về giấc ngủ, chuyện kể, và làm người”</td><td>“sẽ thay đổi vĩnh viễn cách bạn nhìn ngôi nhà mình”</td><td>“câu chuyện sinh tồn hay nhất ta có”</td><td>✅ <em>“I have left that one until the end, because it changes what the other two were for.”</em></td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> người xem có lý do đi hết 19 phút thay vì bỏ sau hook.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> <b>3/3</b> quả nổ đều có, mình không có. Sau hook không còn gì hứa hẹn phía trước.</span></td></tr>
+
+        <tr class="grp"><td colspan="6">③ Cược</td></tr>
+        <tr class="hot"><td class="dim">Khúc bài có người gặp nguy hiểm</td><td class="num"><strong>3/10</strong> <span class="m">· █ ở khúc 2·7·8</span></td><td class="num">~7/10</td><td class="num">10/10</td><td class="num">10/10 <span class="m">đỉnh ở khúc 5; khúc 7 (Ohalo) = 0, đúng vì đó là khúc bằng chứng</span></td><td><span class="tag bad">GIỮ 10/10</span><span class="pq"><b>Nếu sửa:</b> hạ xuống 3/10 như Zenn thì <b>mất cược ở 7 khúc bài</b>, đổi lấy một luật chỉ đúng ở <b>7/15</b> kênh — tức nhiễu.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> không mất gì. Axen cũng 10/10 và nổ 673K. Đỏ ở đây là <i>cảnh báo đừng tin giả định</i>, không phải lệnh sửa.</span></td></tr>
+        <tr class="hot"><td class="dim">Chữ chỉ cái chết</td><td class="num"><strong>14</strong> <span class="m">8,8 /1000 từ</span></td><td class="num">~12</td><td class="num">~19</td><td class="num">49 <span class="m">14,8 /1000 từ</span></td><td><span class="tag bad">GIỮ 49</span><span class="pq"><b>Nếu sửa:</b> cắt xuống 14 như Zenn thì phải bỏ khoảng <b>35 câu có cược</b> — chính thứ chủ yêu cầu thêm vào hôm 18/08.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> ⚠️ rủi ro thật: bài có thể nghe <b>nặng nề</b> suốt 19 phút. Nhưng không có ngưỡng đúng — Zenn 14, Axen ~19, quả 2,04M ~12, cả ba đều nổ.</span></td></tr>
+        <tr class="fixed"><td class="dim">Cược ở tầm LOÀI</td><td>“Đó là nơi <strong>chúng ta trở thành chúng ta</strong>”</td><td>“một sai lầm là cả gia đình chết cóng trước bình minh”</td><td>“suýt nữa loài mình không qua nổi”</td><td>✅ <em>“not one ancestor froze before they had children. Hundreds of thousands of nights, and the line never broke once.”</em></td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> cược nâng từ <i>một người</i> lên <i>cả dòng giống</i>, và người xem nằm trong cược đó.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> <b>3/3</b> quả nổ đều có. Không có nó thì bài chỉ là chuyện của người lạ đã chết.</span></td></tr>
+        <tr><td class="dim">Thang leo thang bóng tối</td><td><strong>không có</strong> — thay bằng ba tầng <em>trả công</em></td><td>có, đỉnh ở cuối</td><td>lạnh → đói → người già → ăn thịt đồng loại → ngủ đông</td><td>đo thật theo 10 khúc: <code>█ ███ █ ████████ █████████ █ · ████ ██ █</code> <span class="m">đỉnh ở 40-50%, không phải ở cuối</span></td><td><span class="tag mid">GIỮ đỉnh ở giữa</span><span class="pq"><b>Nếu sửa:</b> kéo nguy hiểm về cuối thì <b>đánh nhau với cú lạ 21°C</b> và với kết bài ấm — hai thứ vừa dựng xong.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> ⚠️ 2/3 quả nổ đỉnh ở cuối, mình đỉnh ở 40-50% → rủi ro tụt ở đoạn cuối. Nhưng Zenn <b>không có thang nào</b> mà vẫn là quả lớn nhất mạch.</span></td></tr>
+
+        <tr class="grp"><td colspan="6">④ Người xem</td></tr>
+        <tr class="fixed"><td class="dim">Gọi người xem <b>mỗi phút</b></td><td class="num"><strong>2,7</strong></td><td>rất dày</td><td class="num">4,9</td><td class="num">2,5 <span class="m">(49 lần / 19:47 · trước 1,7)</span></td><td><span class="tag gap">CÒN THIẾU</span><span class="pq"><b>Nếu sửa:</b> cần thêm <b>23 lần</b> nữa để đạt 3,4/phút. Rủi ro: nhét chữ “you” cho đủ số là đúng sai lầm đã mắc cả ngày.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> còn <b>6/20 phút</b> không gọi người xem lần nào <span class='m'>(phút 4 · 12 · 13 · 15 · 18 · 20)</span>. Ở những phút đó bài thành bài giảng về người lạ.</span></td></tr>
+        <tr class="fixed"><td class="dim"><b>Im lặng dài nhất</b><br><span class="m">quãng không gọi người xem lần nào</span></td><td class="num"><strong>137s</strong></td><td>—</td><td class="num">—</td><td class="num">✅ <strong>104s</strong> <span class="m">(trước <b>335s</b> = 5 phút 35)</span></td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> đã sửa — <b>335s → 104s</b>, nay <i>ngắn hơn cả</i> trung vị 5 quả cao nhất mạch đêm (137s).</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> sẽ có <b>5 phút 35 giây liền</b> không nhắc tới người xem — dài hơn <i>cả năm</i> quả cao nhất.</span></td></tr>
+        <tr class="fixed"><td class="dim">you / we / our</td><td class="num">45 <span class="m">(23 + 22)</span></td><td>rất dày, “tổ tiên của bạn” lặp suốt</td><td class="num">~51</td><td class="num">✅ <strong>71</strong> <span class="m">(49 you + 22 we/our · trước 48)</span></td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> 64 lần, ngang Axen (~51) và trên Zenn (45).</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> 48 lần là dưới cả ba.</span></td></tr>
+        <tr class="fixed"><td class="dim">Người dẫn xưng “tôi”</td><td class="num">0</td><td>không</td><td>“thứ tôi muốn cho bạn xem”</td><td class="num">✅ <strong>3</strong> <span class="m">“I have left that one until the end” · “the thing I just asked you to hold on to” · “the part I left until now”</span></td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> 3 lần. Người dẫn có mặt, có ý kiến riêng.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> 0 lần. Luật <code>I ≈ 0</code> kho đã khai tử — 9/12 kênh cho thấy bài dùng “I” ăn hơn, Mack chênh 9,18×.</span></td></tr>
+        <tr><td class="dim">Phép thử tự chạy ở 85-95%</td><td><strong>không phải phép thử</strong> — nó <em>đổi nghĩa</em> chứng mất ngủ của bạn, ở 93%</td><td>có — quay lại cái điều hoà</td><td>không</td><td>có — bàn tay ở <strong>84%</strong>, cộng cú lạ 21 độ ở <strong>93%</strong></td><td><span class="tag done">GIỮ 84%</span><span class="pq"><b>Nếu sửa:</b> phải <b>đảo thứ tự hai payload cuối</b> để nhích 1 điểm phần trăm.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> 84% lệch cửa đúng một điểm, mà cửa đó ra từ nghiên cứu <b>p≈0,08</b> — không đủ mạnh để đánh đổi cấu trúc. Và giờ đã có <b>hai</b> cú ở đoạn cuối.</span></td></tr>
+
+        <tr class="grp"><td colspan="6">⑤ Cấu trúc</td></tr>
+        <tr class="hot"><td class="dim">Khối dài nhất</td><td class="num"><strong>36%</strong> <span class="m">(khúc lửa)</span></td><td>—</td><td class="num">16,6%</td><td class="num">✅ <strong>34%</strong> <span class="m">mạch “CÁI BẪY”, 13% → 46%</span><span class="m">⚠️ tôi đã ghi SAI ô này <b>hai lần</b>: ~9,5% rồi 13%. Cả hai đều do danh sách mốc tự đặt cắt ở <i>mọi</i> câu chuyển, kể cả “Which means…” và “But look what…” — đó là bước bên trong một lập luận, không phải mạch mới. Đọc ra thì bài có <b>10 mạch</b>, không phải 15 khối</span></td><td><span class="tag done">GIỮ — KHÔNG cần viết lại</span><span class="pq"><b>Nếu sửa:</b> không có gì để sửa. Chủ đã cho phép viết lại cấu trúc, nhưng kiểm ra <b>tiền đề sai</b>: mạch chính của bài dài <b>34%</b>, gần bằng Zenn (36%), và mạch lửa 16% bằng đúng Axen (16,6%).</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> không mất gì. Đây là bài học đo đạc chứ không phải lỗi kịch bản — <b>máy cắt theo dấu hiệu bề mặt, chỉ ĐỌC mới thấy hình dạng thật.</b></span></td></tr>
+        <tr class="fixed"><td class="dim">Tuyên bố hình dạng trước khi kể</td><td>nêu thẳng <strong>ba nhánh</strong> ngay câu 10</td><td>“khảo cổ kể một câu chuyện hoàn toàn khác”</td><td>“không phải một mẹo, mà cả một chồng”</td><td>✅ <em>“This has three parts, and only the first one is about how cold it got.”</em></td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> người xem biết bài có ba phần, nên biết mình đang ở đâu.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> <b>3/3</b> quả nổ đều tuyên bố hình dạng trước khi kể. Không có thì người xem không biết còn bao xa.</span></td></tr>
+        <tr class="fixed"><td class="dim">Cú lạ để dành cho cuối</td><td>trạng thái prolactin, rồi <strong>mất ngủ = ký ức tổ tiên</strong>, ở 95%</td><td>quân đội nay dạy lại kỹ thuật này</td><td>ngủ đông ở Hố Xương, đặt 86-96%</td><td>✅ <strong>21°C</strong>: con số phá giấc ngủ mạnh nhất trong phòng thí nghiệm 1981 <em>chính là</em> nhiệt độ ai cũng đặt cho phòng ngủ. Khác nhau ở chỗ <em>bạn đang nằm dưới một thứ gì đó</em>. Đặt ở <strong>93%</strong></td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> cú 21°C đặt ở 93%, và nó <b>khoá vòng</b> với nghiên cứu 1981 đã dựng ở giữa bài.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> <b>3/3</b> quả nổ đều để dành một cú cho cuối. Không có thì 15% cuối không có lý do ở lại.</span></td></tr>
+        <tr class="fixed"><td class="dim">Vật xuyên suốt, bookend</td><td><strong>công tắc đèn</strong> — câu 1 và câu cuối</td><td>cái điều hoà — 3 lần</td><td>giây 0 · 8:26 · câu cuối</td><td>✅ <strong>cái chăn / phòng ngủ</strong> — báo trước ở hook, trả ở 93%, cộng bàn tay ở 89%</td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> cái chăn: gieo ở câu 1, trả ở 93%, đóng ở câu cuối.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> bàn tay chỉ xuất hiện 1 lần ở 84%. Cả ba đối thủ đều có vật lặp lại ít nhất 2 lần.</span></td></tr>
+
+        <tr class="grp"><td colspan="6">⑥ Vật liệu · ⑦ Giọng</td></tr>
+        <tr><td class="dim">Vật thể cụ thể</td><td>vừa — công tắc · nến · đèn đường · đèn khí · chuông · đèn lồng · màn hình · võng mạc</td><td>rất dày</td><td class="num">~28</td><td class="num">56 <span class="m">(trước 49)</span></td><td><span class="tag win">GIỮ 56</span><span class="pq"><b>Nếu sửa:</b> không có gì để sửa.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> hơn cả ba. Đây là chỗ mình mạnh nhất.</span></td></tr>
+        <tr class="fixed"><td class="dim">Tên riêng / địa danh</td><td class="num"><strong>22</strong> <span class="m">trong 1.598 từ</span></td><td>Kostenki · Mezhyrich · Dolní Věstonice</td><td class="num">~11</td><td class="num">✅ <strong>16</strong> <span class="m">trong 3.312 từ</span><br><span class="m">thêm Ohalo II · Nadel · Kräuchi · Haskell</span></td><td><span class="tag done">ĐÃ SỬA · còn kém Zenn</span><span class="pq"><b>Nếu sửa:</b> muốn lên 22 như Zenn thì phải <b>tra thêm di chỉ mới</b>, mà Cổng A cấm dùng mỏ neo đã tiêu ở V17-V19.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> 16 đã hơn Axen (~11). Kém Zenn nhưng Zenn dày vì nó kể <i>ba câu chuyện rời</i>, mình kể <i>một cơ chế</i>.</span></td></tr>
+        <tr class="fixed"><td class="dim">So sánh với đời hiện đại</td><td><strong>là xương sống cả bài</strong> — màn hình · ánh sáng xanh · 11 giờ đêm · đi cắm trại</td><td>là cả một chủ đề</td><td>Gore-Tex · màng chắn hơi · lều Bắc Cực</td><td>✅ nay <b>xuyên suốt</b>, không còn dồn cục ở kết:<br><code>█ · █ ███ · ███ ████████ ██████ █ █████</code><br><span class="m">10% đèn ở Kyiv · 23% chân ấm dưới chăn · 33% đi từ xe vào nhà tháng Giêng · 37% run sau khi lên khỏi nước lạnh · 52% lò sưởi hơ phòng, lửa hơ mặt · 60-100% phòng ngủ 21°C, chăn là đống lửa gấp lại</span></td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> 6 mỏ neo mới rải khắp 60% đầu, toàn thứ người xem <b>đã cảm thấy trên da</b>.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> 60% đầu bài <b>không có gì</b> thuộc thế giới người xem — cả 3 lần đếm được đều chỉ là “doctors/laboratory”, tức từ nguồn khoa học.</span></td></tr>
+        <tr><td class="dim">Nhịp hài / câu xả</td><td class="num">~1</td><td>gần như không</td><td class="num">~5</td><td class="num">~2</td><td><span class="tag mid">GIỮ ~2</span><span class="pq"><b>Nếu sửa:</b> thêm câu đùa vào bài nói về người chết cóng có thể <b>phá tông</b>.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> Zenn 7,83M chỉ có <b>~1</b>. Nhiều hài không dự báo view.</span></td></tr>
+        <tr><td class="dim">Từ mỗi câu</td><td class="num">12,3</td><td>—</td><td class="num">16,8</td><td class="num">12,1</td><td><span class="tag win">GIỮ 12,1</span><span class="pq"><b>Nếu sửa:</b> không có gì để sửa.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> ngang Zenn (12,3). Axen 16,8 dài hơn hẳn mà vẫn nổ → chiều này không quyết định.</span></td></tr>
+
+        <tr class="grp"><td colspan="6">⑧ Kết</td></tr>
+        <tr><td class="dim">% dành cho hạ nhiệt</td><td class="num">~5%</td><td class="num">~10%</td><td class="num">4,5%</td><td class="num">1% <span class="m">tôi ghi 13% là SAI — đo nhầm từ câu tóm đáp án, trong khi cú lạ 21 độ nằm SAU nó ở 93%</span></td><td><span class="tag win">GIỮ 1%</span><span class="pq"><b>Nếu sửa:</b> không có gì để sửa.</span><span class="pq pq-mat"><b>Nếu để nguyên:</b> 1% là ngắn nhất cả bốn. Bài trả bài tới tận câu áp chót.</span></td></tr>
+        <tr class="fixed"><td class="dim">Nén thời gian ở kết</td><td>“đánh đổi tất cả lấy <strong>một cái công tắc đèn</strong>”</td><td>“ta mất kiến thức rồi mất 100 năm tìm lại”</td><td>“vài nghìn năm, từ xếp xương voi tới bấm một cái nút”</td><td>✅ <em>“Twenty three thousand years, from a ring of grass around a hearth to a number set once on a wall.”</em></td><td><span class="tag done">ĐÃ SỬA</span><span class="pq"><b>Nếu sửa:</b> <i>“Twenty three thousand years, from a ring of grass around a hearth to a number set once on a wall.”</i></span><span class="pq pq-mat"><b>Nếu để nguyên:</b> <b>3/3</b> quả nổ đều nén thời gian ở câu kết. Không có thì kết bài hụt.</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Chiều ⑨ · lỗ hổng</p>
+  <h2>Sáu kỹ thuật cần lấy</h2>
+  <p class="sub">Xếp theo mức đáng làm. Lấy <strong>kỹ thuật</strong>, không lấy <strong>nội dung</strong> — trùng đề tài thì được, trùng cú bẻ lái là clone.</p>
+
+  <div class="steal">
+
+    <div class="card big">
+      <span class="from">Quả 2,04 triệu · đắt nhất</span>
+      <h3>Cú lật ĐỊA VỊ — người tiền sử không phải kẻ sống sót, họ là kỹ sư</h3>
+      <q>Hình ảnh phổ biến luôn là mấy người hang động run rẩy bên đống lửa nhỏ. Nhưng khảo cổ kể một câu chuyện hoàn toàn khác — câu chuyện của những kỹ sư.</q>
+      <p class="do">Nó dựng một định kiến của đám đông rồi đập, và cả bài sau đó chứng minh tổ tiên <em>giỏi hơn</em> ta tưởng: nhà xương voi ma mút đạt hiệu năng nhiệt <strong>ngang lều Bắc Cực hiện đại</strong>. Khen tổ tiên chính là khen người xem.<br><br><strong>V20 không có cú lật địa vị nào.</strong> Bài mình chỉ nói người cổ đại <em>khổ</em>, không nói họ <em>giỏi</em>.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Quả 2,04 triệu</span>
+      <h3>Một vật trong phòng người xem, đóng khung ba lần</h3>
+      <q>Kiểm cái điều hoà của bạn ngay bây giờ.</q>
+      <p class="do">Giây 0 · phút 8:26 <em>“quay lại cái điều hoà”</em> · câu cuối <em>“lần tới khi bạn với tay lên nó”</em>. Một vật, ba mốc.<br><br>V20 có bàn tay nhưng chỉ dùng <strong>một lần</strong>, ở 89%. Thêm hai mốc là thành khung.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Axen 756K</span>
+      <h3>Cược ở tầm loài</h3>
+      <q>Lẽ ra chúng ta phải là một trong những loài chết đầu tiên.</q>
+      <p class="do">Cùng một sự thật, khác tầm vóc. V20 nói <em>một người</em> có thể chết đêm nay; nó nói <em>cả loài</em> suýt không qua nổi.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Cả hai</span>
+      <h3>Cú lạ để dành cho cuối, có báo trước</h3>
+      <q>Và rồi còn một ý tưởng lạ lùng nhất trong tất cả.</q>
+      <p class="do">Axen giấu chuyện ngủ đông tới 86-96%. Quả 2,04M giấu chuyện quân đội nay dạy lại kỹ thuật này.<br><br>V20 tiêu cú mạnh nhất — run ngừng, cởi đồ nghịch lý — ở <strong>phút thứ sáu</strong>, rồi đi xuống.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Quả 2,04 triệu</span>
+      <h3>Đời hiện đại làm THƯỚC ĐO, không phải câu ví von lẻ</h3>
+      <p class="do">Da và rêu ↔ màng chắn hơi và bọt cách nhiệt. Nhiều lớp da thú ↔ Gore-Tex, <em>hai mươi lăm nghìn năm trước khi Gore-Tex tồn tại</em>. Mỗi kỹ thuật cổ đại đều được cân với một thứ người xem đang dùng.<br><br>V20 mới có 4 câu lẻ.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Axen 756K</span>
+      <h3>Người dẫn có mặt</h3>
+      <q>Đây là phần làm tôi thấy nặng.</q>
+      <p class="do">V20 có <strong>0 chữ “tôi”</strong> — và kho đã bác luật <code>I ≈ 0</code> từ 10/08: 9/12 kênh cho thấy bài dùng “tôi” ăn hơn, Mack chênh 9,18 lần. Luật đã chết mà bài vẫn thi hành.</p>
+    </div>
+
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Đề xuất · 19/08 · chưa áp dụng</p>
+  <h2>Bốn thứ có thể làm kịch bản tốt hơn</h2>
+  <p class="lede">Ba cái đầu là chỗ hỏng đo được, kèm bản nháp sẵn. Cái thứ tư là dòng dữ liệu ta chưa từng chạm tới.</p>
+
+  <div class="steal">
+
+    <div class="card big">
+      <span class="from">Đề xuất ① · ⚠️ ĐÃ BỊ NHÓM ĐỐI CHỨNG HẠ CẤP</span>
+      <h3>Nhịp câu của V20 đều nhất kho — nhưng đều hay không KHÔNG dự báo view</h3>
+      <div class="scroll"><table>
+        <thead><tr><th>Bài</th><th class="num">TB từ/câu</th><th class="num">độ lệch chuẩn</th><th class="num">câu ≥20 từ</th></tr></thead>
+        <tbody>
+          <tr><td class="dim">Zenn 7,83M</td><td class="num">12,3</td><td class="num"><b>7,8</b></td><td class="num">14%</td></tr>
+          <tr><td class="dim">Axen 673K</td><td class="num">13,9</td><td class="num"><b>7,6</b></td><td class="num">23%</td></tr>
+          <tr><td class="dim">trung vị cả kho</td><td class="num">—</td><td class="num"><b>7,2</b></td><td class="num">—</td></tr>
+          <tr class="hot"><td class="dim">V20</td><td class="num">12,0</td><td class="num"><b>6,0</b></td><td class="num">11%</td></tr>
+        </tbody>
+      </table></div>
+      <p class="do">⚠️ <b>Tôi đã chạy nhóm đối chứng lên chính đề xuất của mình, và nó rớt: 9/15 kênh cùng hướng = nhiễu.</b> Trung vị ⅓ view cao là 7,27, ⅓ view thấp là 7,22 — gần như bằng nhau. Axen và Zenn thậm chí <i>ngược chiều</i>: bài view cao của họ đều HƠN bài view thấp.<br><br>
+      <b>Nên KHÔNG bán nó là “làm để lên view”.</b> Thứ còn đứng vững chỉ là lập luận nghề: V20 ở <b>5,99</b>, thấp hơn mọi kênh trong bảng, tức câu nào cũng xấp xỉ 12 từ. Skill của kênh gọi đó là dấu hiệu giọng AI: <i>“Đừng để mọi câu dài đều tăm tắp, cân đối.”</i><br><br>
+      <b>Phán:</b> làm nếu muốn bài nghe bớt đều, <b>không</b> làm vì tưởng nó ăn view. Cách sửa không tốn chữ nào: gộp vài cặp câu 12-15 từ thành một câu dài, rồi tách một vế thành câu 3 từ đứng ngay sau.</p></div>
+
+    <div class="card big">
+      <span class="from">✅ Đề xuất ② · ĐÃ ÁP 19/08</span>
+      <h3>Cú lật ĐỊA VỊ — đổi hình ảnh người tiền sử trong đầu người xem</h3>
+      <q>You didn't invent warmth, you inherited it from the most ingenious engineers who ever lived.<br><span class="m">— PaintItSimple, quả 1,93M</span></q>
+      <p class="do">V20 <b>chưa hề đụng tới định kiến</b> mà mọi người xem mang sẵn: người cổ đại là mấy kẻ run rẩy co ro. Trong khi chính bài mình đã dựng đủ bằng chứng để lật nó — vòng ngủ ở Ohalo II, bếp xếp lớp ở Dolní Věstonice, người phải dậy trực lửa.<br><br><b>Bản nháp, đặt ở ~79% ngay sau Dolní Věstonice:</b></p>
+      <q>The picture everybody carries is people huddled around a fire because they were cold.<br>
+      That is backwards.<br>
+      They were not huddled, they were arranged.<br>
+      Somebody decided who lay where, somebody stayed awake to feed it, and somebody got up in the dark to build it again.<br>
+      That is not surviving a night.<br>
+      That is running one.</q>
+      <p class="do">✅ Đã đưa vào kịch bản ở <b>79%</b>, kèm câu <i>“You did not invent any of this.”</i> để nó chạm được người xem — bản nháp đầu <b>không có chữ “you” nào</b> nên vá xong phút 15 vẫn câm.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">✅ Đề xuất ③ · ĐÃ ÁP 19/08</span>
+      <h3>Sáu phút câm → còn một, và cái đó là đuôi bài</h3>
+      <p class="do">✅ Vá 6 chỗ: phút <b>4 · 12 · 13 · 15 · 16 · 18</b>. Còn lại phút 20, nhưng đó chỉ là <b>2 dòng đuôi bài</b>, không phải một phút thật.<br><b>Im lặng dài nhất: 335s → 104s</b>, nay <i>ngắn hơn cả trung vị 5 quả cao nhất mạch đêm (137s)</i>.<br><br>
+      ⛔ <b>Không</b> đuổi cho đủ 65 lần để đạt 3,4/phút — nhét chữ cho khớp số là sai lầm đã mắc cả ngày.<br>
+      ✅ Luật đúng: <b>không phút nào được im hoàn toàn.</b> Sáu chỗ chạm, không phải hai mươi ba.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Đề xuất ④ · dòng dữ liệu chưa từng chạm</span>
+      <h3>Đọc bình luận 8 quả nổ cùng mạch</h3>
+      <p class="do">Cả <b>493 hàng</b> trong bảng đo đều đo <i>thứ mình viết ra</i> — phía cung. Không hàng nào đo <i>người xem nói gì</i> — phía cầu.<br><br>
+      Công cụ <code>youtube_video_comments</code> có sẵn, miễn phí, <b>chưa dùng lần nào</b>. Nó trả lời được câu mà không phép đo nào trên trang này trả lời được: <b>người ta ở lại vì cái gì.</b></p>
+    </div>
+
+    <div class="card big" style="border-left-color:var(--ash)">
+      <span class="from">⛔ Thứ tôi định đề xuất mà KHO ĐÃ BÁC</span>
+      <h3>Đừng thêm cặp cài-và-lật</h3>
+      <p class="do">Rubric từng ghi <b>“≥4 cặp cài-lật”</b>. Kho đã giết luật đó ngày 09/08 bằng nhóm đối chứng: đọc trọn <b>5 bài CHÌM</b> (chênh 68-552× so với bài thắng cùng kênh) thì chúng có trung bình <b>10,4 cặp</b> — <b>vượt trần 8 của bài thắng</b>. Stickly Drink có <b>13 cặp</b> và vẫn chìm.<br><br>
+      Ghi vào đây để lần sau không ai đề xuất lại. <b>Nhiều cặp hơn không phải là tốt hơn.</b></p>
+    </div>
+
+  </div>
+  <p class="foot">Ba đề xuất đầu sửa được ngay và không phá thứ đang đúng. Đề xuất ④ là việc riêng, tốn một buổi, nhưng nó là <b>nửa bàn cờ ta chưa nhìn</b>.</p>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Đọc bằng mắt, không đếm bằng máy</p>
+  <h2>Bản đồ 10 mạch của V20</h2>
+  <p class="lede">Bảng trên từng ghi mạch dài nhất là 9,5% rồi 13%. Cả hai đều sai, vì danh sách mốc cắt ở mọi câu chuyển. Đây là hình dạng thật, chốt bằng đọc.</p>
+  <div class="scroll"><table>
+    <thead><tr><th>Mạch</th><th class="num">từ</th><th class="num">tới</th><th class="num">dài</th><th>Nội dung</th></tr></thead>
+    <tbody>
+      <tr><td class="dim">Hook</td><td class="num">0%</td><td class="num">8%</td><td class="num">8%</td><td>chết cóng · ba phần · lời hứa để cuối</td></tr>
+      <tr><td class="dim">Đêm dài</td><td class="num">8%</td><td class="num">12%</td><td class="num">4%</td><td>16 giờ tối · tháng đói nhất</td></tr>
+      <tr class="fixed"><td class="dim">⭐ CÁI BẪY</td><td class="num">13%</td><td class="num">46%</td><td class="num"><strong>34%</strong></td><td>câu hỏi sai → ngủ cần thải nhiệt → Kräuchi 2000 → lạnh đóng mạch → run → cạn nhiên liệu → chết. <b>Một mạch liền, gần bằng Zenn 36%</b></td></tr>
+      <tr><td class="dim">Ai chết trước</td><td class="num">47%</td><td class="num">50%</td><td class="num">4%</td><td>cỡ người · tuổi · chỗ nằm trong vòng</td></tr>
+      <tr class="fixed"><td class="dim">⭐ LỬA</td><td class="num">50%</td><td class="num">65%</td><td class="num"><strong>16%</strong></td><td>lửa hơ bề mặt không hơ không khí → dự đoán vòng tròn → Ohalo II trả lời. <b>Bằng đúng Axen 16,6%</b></td></tr>
+      <tr><td class="dim">Buồng nhiệt 1981</td><td class="num">66%</td><td class="num">73%</td><td class="num">7%</td><td>Haskell · 21°C là mức phá giấc ngủ mạnh nhất</td></tr>
+      <tr><td class="dim">Dolní Věstonice</td><td class="num">73%</td><td class="num">79%</td><td class="num">6%</td><td>bếp xếp lớp · người phải dậy trực lửa</td></tr>
+      <tr><td class="dim">Khúc thành thật</td><td class="num">79%</td><td class="num">84%</td><td class="num">5%</td><td>không có cảm biến nào trong tầng đất</td></tr>
+      <tr><td class="dim">Phép thử bàn tay</td><td class="num">84%</td><td class="num">87%</td><td class="num">3%</td><td>thứ duy nhất người xem tự kiểm được</td></tr>
+      <tr><td class="dim">Kết + cú lạ</td><td class="num">87%</td><td class="num">100%</td><td class="num">13%</td><td>21°C · cái chăn là đống lửa gấp lại · 23.000 năm tới một con số trên tường</td></tr>
+    </tbody>
+  </table></div>
+  <p class="foot">⚠️ Đây là lần thứ <b>ba</b> trong ngày một phép đếm máy dẫn tới kết luận sai <span class="m">(trước đó: “% hạ nhiệt 13%” và “V20 quá dài 16 phút”)</span>. Cả ba đều bị bác bằng cách <b>đọc</b>. Máy dùng để TÌM CHỖ, không dùng để KẾT LUẬN.</p>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Bổ sung 19/08 · quả lớn nhất cả kho</p>
+  <h2>Zenn 7,83 triệu — bằng NỬA độ dài V20</h2>
+  <p class="lede">Quả nổ lớn nhất trong 488 bản ghi, đúng mạch đêm, và nó chỉ dài <strong>8 phút 32</strong> với <strong>1.598 từ</strong> — bằng 55% V20.</p>
+
+  <div class="scroll">
+    <table>
+      <caption>Đo trên bản ghi gốc, cùng thước với V20. Cam = chỗ V20 lệch xa. <b>Cột V20 đã cập nhật theo kịch bản sửa 19/08</b> (3.312 từ · 273 dòng); số trong ngoặc là trước khi sửa.</caption>
+      <thead><tr><th>Chỉ số</th><th class="num">Zenn 7,83M</th><th class="num">V20 sau sửa 19/08</th><th>Trạng thái</th></tr></thead>
+      <tbody>
+        <tr><td class="dim">Số từ</td><td class="num">1.598</td><td class="num">3.562 <span class="m">(trước 2.925)</span></td><td><span class="tag gap">V20 dài gấp 2,0×</span></td></tr>
+        <tr><td class="dim">Độ dài</td><td class="num">8:32</td><td class="num">~17:56 <span class="m">(trước ~16:15)</span></td><td><span class="tag gap">gấp 2,1×</span></td></tr>
+        <tr class="fixed"><td class="dim">Tên riêng · địa danh · người</td><td class="num">22</td><td class="num">✅ <strong>16</strong> <span class="m">(trước 11)</span></td><td><span class="tag done">11 → 16</span></td></tr>
+        <tr><td class="dim">Câu hỏi</td><td class="num">8</td><td class="num">3</td><td><span class="tag gap">thiếu</span></td></tr>
+        <tr><td class="dim">Gọi người xem / 1000 từ</td><td class="num">14,4</td><td class="num">9,6 <span class="m">(28 → 31 lần)</span></td><td><span class="tag gap">thiếu</span></td></tr>
+        <tr><td class="dim">Chữ nguy hiểm / 1000 từ</td><td class="num">8,8</td><td class="num">15,2 <span class="m">(trước 16,4)</span></td><td><span class="tag gap">thừa 1,7× — <em>cố ý không cắt</em></span></td></tr>
+        <tr><td class="dim">Số liệu / 1000 từ</td><td class="num">28,2</td><td class="num">32,8 <span class="m">(trước 30,1)</span></td><td><span class="tag win">ngang</span></td></tr>
+        <tr><td class="dim">we / our</td><td class="num">22</td><td class="num">20</td><td><span class="tag win">ngang</span></td></tr>
+        <tr><td class="dim">Rào đón</td><td class="num">17</td><td class="num">23 <span class="m">(trước 20)</span></td><td><span class="tag win">ngang</span></td></tr>
+        <tr><td class="dim">Từ mỗi câu</td><td class="num">12,3</td><td class="num">12,0 <span class="m">(trước 11,8)</span></td><td><span class="tag win">ngang</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card big">
+    <span class="from">Sửa lại chẩn đoán</span>
+    <h3>“V20 thừa số liệu” — sai</h3>
+    <p class="do">Sáng nay tôi báo mật độ số liệu của V20 là <strong>30,1</strong> so với <strong>17,6</strong> của top 5 mạch đêm, và gọi đó là chỗ lệch nặng nhất. Nhưng riêng Zenn — quả <em>lớn hơn quả thứ nhì mười ba lần</em> — nằm ở <strong>28,2</strong>. Gần y hệt V20.<br><br>Con số 17,6 là <em>trung vị của top 5</em>, mà top 5 gồm cả những quả vài chục nghìn view. <strong>Trung vị của nhóm thắng không phải là quả thắng.</strong> Đây là lần thứ hai trong ngày một con số trung vị dẫn tôi đi sai.</p>
+  </div>
+
+  <div class="steal">
+    <div class="card big">
+      <span class="from">Khác biệt cấu trúc lớn nhất</span>
+      <h3>Zenn là ĐƯỜNG CHUYỀN. V20 là MŨI KHOAN.</h3>
+      <p class="do">V20 hỏi một câu rồi khoan thẳng xuống một cơ chế duy nhất suốt 16 phút: mạch máu mở → run → hết nhiên liệu → chết. Bỏ lỡ một đoạn là mất mạch.<br><br>Zenn hỏi một câu rồi đặt <strong>ba câu trả lời rời nhau nằm cạnh nhau</strong>, mỗi cái trả xong hẳn rồi mới chuyền sang cái kế:</p>
+      <ul>
+        <li><strong>Lửa</strong> → vòng an toàn chín mét → <em>“Lửa bỗng cộng thêm hai tới bốn tiếng dùng được vào mỗi ngày.”</em></li>
+        <li><strong>Wiessner 2014</strong> → ban ngày 80% chuyện làm ăn ↔ ban đêm 81% kể chuyện → <em>“Đó là nơi chúng ta trở thành chúng ta.”</em></li>
+        <li><strong>Ekirch 2001 + Wehr 1992</strong> → giấc ngủ thứ nhất và thứ hai → trạng thái prolactin</li>
+      </ul>
+      <p class="do">Ba lần “xong một chuyện” trong 8 phút. Người xem được trả công ba lần chứ không phải đợi tới cuối.</p>
+    </div>
+
+    <div class="card big">
+      <span class="from">Nước đi kết bài</span>
+      <h3>Nó đổi tên cho một nỗi khổ người xem ĐANG CÓ</h3>
+      <q>Thay vào đó, chúng ta có chứng mất ngủ, và chúng ta coi nó như một căn bệnh. Nhưng nếu nó chẳng phải bệnh tật gì thì sao? Nếu chuyện bạn tỉnh dậy lúc hai giờ sáng và nằm đó trong bóng tối không phải là cơ thể bạn đang trục trặc thì sao? Nếu đó là cơ thể bạn đang nhớ lại thứ nó vốn được tạo ra để làm thì sao?</q>
+      <p class="do">Đây không phải “một dữ kiện về người cổ đại”. Đây là <strong>thứ làm phiền người xem lúc 2 giờ sáng, được dán nhãn lại thành ba trăm nghìn năm tuổi</strong>. Nỗi bực của họ trở thành phần thưởng của bài.<br><br>Kết của V20 bảo người xem <em>làm</em> một việc — áp tay lên vật lạnh. Kết của Zenn không bắt làm gì; nó <em>đổi nghĩa</em> một việc họ vốn đã chịu đựng. Nước đi thứ hai rẻ hơn cho người xem và dính lâu hơn.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Mở bài</span>
+      <h3>Thì TƯƠNG LAI, trong phòng người xem, TỐI NAY</h3>
+      <q>Tối nay, khi mặt trời lặn, bạn sẽ với tay bật một cái công tắc.</q>
+      <p class="do">Không phải “ngày xưa”. Là <strong>tối nay</strong>, và là một vật người xem chắc chắn sẽ chạm vào trong vài giờ tới. Câu cuối bài đóng lại đúng vật đó: <em>“Chúng ta đã đánh đổi tất cả lấy một cái công tắc đèn.”</em><br><br>V20 mở bằng <em>“There is a point in freezing to death…”</em> — ngôi ba, không có người xem, không có tối nay.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">⛔ Cảnh báo mỏ neo</span>
+      <h3>Wehr 1992 đã tiêu ở V19</h3>
+      <p class="do">Payload thứ ba của Zenn — giấc ngủ hai pha — chạy trên <strong>Wehr 1992</strong>, mỏ neo V19 đã dùng. Cổng A chặn. Lấy được <em>cách kể</em>, không lấy được <em>dữ kiện</em>.</p>
+    </div>
+  </div>
+
+  <p class="foot">⚠️ Zenn là <strong>n=1</strong>. Nó lớn hơn quả thứ nhì trong mạch mười ba lần, nên nó cũng có thể là một cú trúng số chứ không phải một công thức. Dùng nó để <em>đặt câu hỏi</em>, đừng dùng nó để <em>đẻ luật</em>.</p>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Đọc lại 19/08</p>
+  <h2>Sáu “ưu thế” của V20 — quả 7,83M lật bốn</h2>
+  <p class="lede">Mục này viết hôm 18/08, khi mới có hai đối thủ để so. Thêm quả lớn nhất kho vào thì phần lớn nó không đứng được.</p>
+  <div class="scroll">
+    <table>
+      <caption>Cột phải là thứ quả <b>7,83 triệu</b> thật sự làm.</caption>
+      <thead><tr><th>Điều tôi từng ghi là ưu thế</th><th>Zenn 7,83M làm gì</th><th>Còn đứng không</th></tr></thead>
+      <tbody>
+        <tr><td><strong>Nguy hiểm ở giây 0</strong> — họ 13s và 20s</td><td>đe doạ đầu tiên mãi <strong>1:06</strong>, và chỉ <strong>3/10 khúc</strong> có nguy hiểm</td><td><span class="tag bad">đổ</span></td></tr>
+        <tr><td><strong>Khối dài nhất 10,4%</strong> — không bắt giữ một ý quá một phút rưỡi</td><td>giữ nguyên một ý <strong>36% cả bài</strong> — lâu gấp 3,5×</td><td><span class="tag bad">đổ</span></td></tr>
+        <tr><td><strong>Một cơ chế xuyên suốt</strong> thay vì danh sách rời</td><td><strong>ba payload rời hẳn nhau</strong>, mỗi cái trả công xong mới chuyền</td><td><span class="tag bad">đổ</span></td></tr>
+        <tr><td><strong>Tự khai giới hạn ba lần</strong> — họ chỉ một lần</td><td>rào đón <strong>17</strong> lần, V20 nay <strong>23</strong> — V20 rào đón <em>nhiều hơn</em></td><td><span class="tag bad">đổ</span></td></tr>
+        <tr><td><strong>Câu gọn hơn</strong> — nay 12,0 từ/câu, Axen 16,8</td><td><strong>12,3</strong> từ/câu — ngang V20</td><td><span class="tag mid">hoà</span></td></tr>
+        <tr><td><strong>49 vật thể cụ thể</strong> — Axen ~28</td><td>ít hơn V20; tên riêng vẫn dày gấp <strong>2,8×</strong> mỗi từ sau khi V20 lên 16</td><td><span class="tag win">còn, một nửa</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="card big">
+    <span class="from">Bài học phương pháp</span>
+    <h3>So với HAI đối thủ thì sinh ra bốn ưu thế giả</h3>
+    <p class="do">Cả bốn dòng đỏ đều ra đời cùng một kiểu: tôi lấy V20 đặt cạnh Axen và quả 2,04M, thấy V20 nhanh hơn · gọn hơn · chặt hơn, rồi ghi đó là ưu thế. Thêm <em>một</em> quả nữa — quả to nhất mạch — là bốn cái đổ.<br><br><strong>Ưu thế chỉ có nghĩa khi đo trên nhóm, không phải trên cặp.</strong> Và đây là cùng một cơ chế đã giết ba luật rubric hôm nay.</p>
+  </div>
+  <p class="foot">⚠️ Zenn là <strong>n=1</strong>, lớn hơn quả thứ nhì trong mạch mười ba lần — nên nó cũng có thể là trúng số. Nó đủ để <em>bác</em> bốn ưu thế trên, chưa đủ để bảo V20 phải làm ngược lại. Thứ chắc chắn còn lại: <strong>V20 thiếu 5 thứ mà cả 3 đối thủ đều có</strong> — hứa hẹn biến đổi · cược tầm loài · tuyên bố hình dạng · cú lạ để cuối · nén thời gian ở kết.</p>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Chiều ⑤ · bổ sung 19/08 muộn · đọc trọn, không đếm máy</p>
+  <h2>Chiều thứ 25 — số MÓN nội dung độc lập</h2>
+  <p class="sub">24 chiều cũ đều hỏi <em>“viết thế nào”</em>. Không chiều nào hỏi <em>“có mấy thứ để kể”</em>. Chiều “khối dài nhất” đo <strong>độ dài</strong> một khối, nên V20 được chấm ✅ ở đó (34%, gần Zenn 36%) trong khi chỗ hỏng nằm ở chỗ khác hẳn.</p>
+  <div class="scroll"><table>
+    <tr><th>bài</th><th>số món độc lập</th><th>các món</th></tr>
+    <tr>
+      <td><strong>Axen 756K</strong></td>
+      <td><span class="tag" style="background:var(--steel-soft);color:var(--steel)">10 giải pháp song song</span></td>
+      <td>lửa <em>(bếp Ukraina cháy trên 600°)</em> · quần áo <em>(da gấu 300.000 năm, biết nhờ vết cắt trên xương bàn chân)</em> · <strong>cây kim</strong> <em>(“phát minh quan trọng nhất lịch sử loài người”)</em> · mỡ bôi mặt · kính râm bằng xương · nhà xương voi ma mút Mezhyrich <em>(cửa bẫy lạnh)</em> · tường tuyết + chọn chỗ dựng · trữ thức ăn <em>(dằn thịt xuống ao lạnh làm tủ lạnh)</em> · thân nhiệt người và bò <em>(“cái lò đó là một con bò”)</em> · <strong>ngủ đông</strong> <em>(Hố Xương, để dành tới 90%)</em></td>
+    </tr>
+    <tr>
+      <td><strong>Zenn 7,83M</strong></td>
+      <td><span class="tag" style="background:var(--steel-soft);color:var(--steel)">3 câu chuyện rời + 5 cú lật</span></td>
+      <td><strong>Ba chuyện:</strong> lửa · kể chuyện quanh lửa · ngủ hai lần.<br><strong>Năm cú lật niềm tin:</strong> lửa cộng 2-4 giờ mỗi ngày → đổi cả loài · Wiessner <em>(ngày 80% chuyện làm ăn, đêm 81% kể chuyện)</em> · Ekirch <em>(500 chỗ nhắc, dịch giả dịch SAI suốt bao thế kỷ)</em> · Wehr 1992 <em>(bỏ đèn → cơ thể TỰ quay về ngủ hai pha)</em> · curfew = couvre-feu = <em>phủ lửa</em></td>
+    </tr>
+    <tr class="us">
+      <td><strong>V20 bản 19</strong></td>
+      <td><span class="tag" style="background:var(--ember-soft);color:var(--ember)">1 cơ chế</span></td>
+      <td>ngủ đòi thải nhiệt ↔ lạnh chặn đúng việc đó. Ohalo, Dolní Věstonice và buồng nhiệt 1981 <strong>không phải món riêng</strong> — cả ba là <strong>bằng chứng cho cùng một luận điểm</strong>. Người nghe không được đổi món lần nào trong 13 phút.</td>
+    </tr>
+  </table></div>
+
+  <div class="card big">
+    <span class="from">Vì sao chiều này đáng tin hơn 24 chiều kia</span>
+    <h3>Mọi chiều khác đều có một quả nổ vi phạm nó. Chiều này thì không.</h3>
+    <p class="do">Đo cả ngày 19/08 trên ba bài, mỗi thước đều gãy ở một chỗ: <strong>câu ngắn dễ hiểu</strong> → Zenn dài nhất (17,7 từ/câu) mà lớn nhất · <strong>kể nhiều hơn giảng</strong> → Axen 14,2:1, gấp bốn Zenn, mà thua 10 lần · <strong>biến cố dày</strong> → Zenn 1,4/phút, ít hơn cả V20 · <strong>nguy hiểm sớm</strong> → Zenn để tới 1:06, muộn nhất cả bốn · <strong>chữ chỉ cái chết · vật dụng cụ thể</strong> → Zenn thấp nhất ở cả hai.<br><br>Chỉ có <strong>số món</strong> là cả Axen (10) lẫn Zenn (3+5) đều cao, còn V20 (1) thấp hẳn — <strong>và đây cũng là chiều duy nhất bảng chưa từng đo.</strong></p>
+  </div>
+
+  <p class="foot">⚠️ <strong>n=2.</strong> Chưa đủ để thành luật kênh theo luật 9. Việc phải làm trước khi tin: đo chiều này trên 8-10 quả nổ cùng mạch trong kho, và đo cả trên bài CHÌM cùng kênh — nếu bài chìm cũng nhiều món thì chiều này chết như 17/19 chỉ số kia. Và sửa nó <strong>không phải việc của kịch bản</strong>: thêm món là đổi <strong>đề tài</strong>, phải qua cổng 0 và cổng A lại từ đầu.</p>
+</section>
+
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Chiều ⑤ · bổ sung 19/08 muộn · đọc trọn, không đếm máy</p>
+  <h2>Chiều thứ 25 — số MÓN nội dung độc lập</h2>
+  <p class="sub">24 chiều cũ đều hỏi <em>“viết thế nào”</em>. Không chiều nào hỏi <em>“có mấy thứ để kể”</em>. Chiều “khối dài nhất” đo <strong>độ dài</strong> một khối, nên V20 được chấm ✅ ở đó (34%, gần Zenn 36%) trong khi chỗ hỏng nằm ở chỗ khác hẳn.</p>
+  <div class="scroll"><table>
+    <tr><th>bài</th><th>số món độc lập</th><th>các món</th></tr>
+    <tr>
+      <td><strong>Axen 756K</strong></td>
+      <td><span class="tag" style="background:var(--steel-soft);color:var(--steel)">10 giải pháp song song</span></td>
+      <td>lửa <em>(bếp Ukraina cháy trên 600°)</em> · quần áo <em>(da gấu 300.000 năm, biết nhờ vết cắt trên xương bàn chân)</em> · <strong>cây kim</strong> <em>(“phát minh quan trọng nhất lịch sử loài người”)</em> · mỡ bôi mặt · kính râm bằng xương · nhà xương voi ma mút Mezhyrich <em>(cửa bẫy lạnh)</em> · tường tuyết + chọn chỗ dựng · trữ thức ăn <em>(dằn thịt xuống ao lạnh làm tủ lạnh)</em> · thân nhiệt người và bò <em>(“cái lò đó là một con bò”)</em> · <strong>ngủ đông</strong> <em>(Hố Xương, để dành tới 90%)</em></td>
+    </tr>
+    <tr>
+      <td><strong>Zenn 7,83M</strong></td>
+      <td><span class="tag" style="background:var(--steel-soft);color:var(--steel)">3 câu chuyện rời + 5 cú lật</span></td>
+      <td><strong>Ba chuyện:</strong> lửa · kể chuyện quanh lửa · ngủ hai lần.<br><strong>Năm cú lật niềm tin:</strong> lửa cộng 2-4 giờ mỗi ngày → đổi cả loài · Wiessner <em>(ngày 80% chuyện làm ăn, đêm 81% kể chuyện)</em> · Ekirch <em>(500 chỗ nhắc, dịch giả dịch SAI suốt bao thế kỷ)</em> · Wehr 1992 <em>(bỏ đèn → cơ thể TỰ quay về ngủ hai pha)</em> · curfew = couvre-feu = <em>phủ lửa</em></td>
+    </tr>
+    <tr class="us">
+      <td><strong>V20 bản 19</strong></td>
+      <td><span class="tag" style="background:var(--ember-soft);color:var(--ember)">1 cơ chế</span></td>
+      <td>ngủ đòi thải nhiệt ↔ lạnh chặn đúng việc đó. Ohalo, Dolní Věstonice và buồng nhiệt 1981 <strong>không phải món riêng</strong> — cả ba là <strong>bằng chứng cho cùng một luận điểm</strong>. Người nghe không được đổi món lần nào trong 13 phút.</td>
+    </tr>
+  </table></div>
+
+  <div class="card big">
+    <span class="from">Vì sao chiều này đáng tin hơn 24 chiều kia</span>
+    <h3>Mọi chiều khác đều có một quả nổ vi phạm nó. Chiều này thì không.</h3>
+    <p class="do">Đo cả ngày 19/08 trên ba bài, mỗi thước đều gãy ở một chỗ: <strong>câu ngắn dễ hiểu</strong> → Zenn dài nhất (17,7 từ/câu) mà lớn nhất · <strong>kể nhiều hơn giảng</strong> → Axen 14,2:1, gấp bốn Zenn, mà thua 10 lần · <strong>biến cố dày</strong> → Zenn 1,4/phút, ít hơn cả V20 · <strong>nguy hiểm sớm</strong> → Zenn để tới 1:06, muộn nhất cả bốn · <strong>chữ chỉ cái chết · vật dụng cụ thể</strong> → Zenn thấp nhất ở cả hai.<br><br>Chỉ có <strong>số món</strong> là cả Axen (10) lẫn Zenn (3+5) đều cao, còn V20 (1) thấp hẳn — <strong>và đây cũng là chiều duy nhất bảng chưa từng đo.</strong></p>
+  </div>
+
+  <p class="foot">⚠️ <strong>n=2.</strong> Chưa đủ để thành luật kênh theo luật 9. Việc phải làm trước khi tin: đo chiều này trên 8-10 quả nổ cùng mạch trong kho, và đo cả trên bài CHÌM cùng kênh — nếu bài chìm cũng nhiều món thì chiều này chết như 17/19 chỉ số kia. Và sửa nó <strong>không phải việc của kịch bản</strong>: thêm món là đổi <strong>đề tài</strong>, phải qua cổng 0 và cổng A lại từ đầu.</p>
+</section>
+
+</div>

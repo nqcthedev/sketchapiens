@@ -1,5 +1,29 @@
 # Why Did Ancient Humans Start Wearing Clothes?
 
+> ## 🟡 ĐÂY LÀ KỊCH BẢN HOÀN CHỈNH CHƯA SẢN XUẤT — không phải mẫu để chép
+>
+> Kênh mới ra **4 video** *(V17 · V17b · V18 · V19)*. File này là **một kịch bản đã viết
+> xong, đã fact-check**, nằm im trong kho. Nếu cần video kế mà chưa có ý tưởng, **đây là
+> hàng có sẵn** — nhưng phải sửa các chỗ chết dưới đây trước.
+>
+> **Ba thứ trong file đã CHẾT *(09/08/2026)*:**
+> 1. ⛔ **Nhân vật dẫn có tên (`Pebble`)** — persona **0 ca thắng / 16 kênh**, BrightPsycho 0/96.
+>    Thay bằng giọng vô danh; đó là **nết của ngách**, không phải khuyết điểm.
+> 2. ⛔ **Bảng song ngữ EN + VI** — chủ **không đọc cột dịch**. Trình thẳng tiếng Anh.
+> 3. ⛔ **Bảng "tự chấm" ở cuối file** — hầu hết mục đã bị bác *(`RETIRED_RULES.md`)*:
+>    "sợi chỉ nối cổ đại ↔ người xem" = lane **về BẠN** *(0 cú nổ / 4 tháng)* ·
+>    "khác đối thủ ≥2 điểm" = phép đo cũ, nay là **CỔNG 3** đo ở tầng **beat**, không đếm điểm.
+>    Chấm lại bằng **4 CỔNG** của `../1_luat/RUBRIC_KichBan.md`.
+>
+> ✅ **Thứ trong file vẫn còn nguyên giá trị:** toàn bộ **lời đọc tiếng Anh**, các **mỏ neo
+> khảo cổ**, và **sổ cờ fact-check ở cuối** — 7-8 mỏ neo đã tra, ghi rõ cái nào còn tranh cãi.
+> Đó là phần đắt nhất của file.
+>
+> ⚠️ **Trước khi dựng phải qua CỔNG A** — đề tài này **chưa vào sổ tiêu thụ** của
+> `VAULT_AncientHumans_KnowledgeVault.md`, và **chưa tra cầu**: quần áo thuộc **cụm G — vật dụng**, cụm YẾU NHẤT trong `BANDO_CumChuDe_CoCau` *(1 cú nổ)*. Tra live trước khi bỏ công dựng.
+
+---
+
 **Kênh:** Người que (stickman) — "Ancient Humans Explained"
 **Thời lượng mục tiêu:** ~12 phút (≈1.850 từ tiếng Anh, ~140 từ/phút)
 **Ngôn ngữ lời đọc:** Tiếng Anh (kèm nghĩa tiếng Việt + gợi ý hình)

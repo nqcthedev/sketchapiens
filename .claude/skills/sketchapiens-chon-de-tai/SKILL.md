@@ -90,9 +90,48 @@ Bốn quả trên 6K + một quả đang leo = cầu sống. Đạt.
 
 ---
 
-## Khuôn title: kể một KHOẢNH KHẮC, không hỏi một CƠ CHẾ
+## Khuôn title
 
-Đây là ranh giới rõ nhất giữa title thắng và title chết trong ngách này.
+> # ⛔ SỬA 09/08 — "KHOẢNH KHẮC THẮNG CƠ CHẾ" LÀ KẾT LUẬN TỪ MẪU QUÁ MỎNG
+>
+> Bảng dưới đây rút từ **~6 ví dụ**. `HE_THONG_KichBan_v2` PHẦN C xếp hạng **159 video** theo
+> view trung bình của từng khuôn, và kết quả **ngược lại**:
+>
+> | Khuôn | Loại | Số video | **View TB** |
+> |---|---|---|---|
+> | **`When Did Ancient Humans First ___?`** | **cơ chế** | 8 | **287.075** ← cao nhất |
+> | `The [Extreme] Things Ancient Humans Did…` | khoảnh khắc | 6 | 182.183 |
+> | `Why Did/Do Ancient Humans…` | cơ chế | 41 | 154.442 |
+> | `What Did Ancient Humans Do [When/During]…` | khoảnh khắc | 13 | 113.807 |
+> | `How Did Ancient Humans [Verb] [Noun]?` | cơ chế | 42 | 101.957 |
+> | ⛔ `Did/Were/Could Ancient Humans…?` | khoảnh khắc | 18 | **33.672** ← thấp nhất |
+>
+> **Khuôn cơ chế mạnh nhất đứng trên MỌI khuôn khoảnh khắc.** Và khuôn yếu nhất bảng cũng là
+> khoảnh khắc. → **Trục quyết định không phải khoảnh-khắc-hay-cơ-chế**, mà là
+> **có nối được với một việc người xem VẪN LÀM hôm nay hay không**.
+>
+> ## 🎰 KHUÔN MẠNH NHẤT — VÀ KÊNH CHƯA DÙNG LẦN NÀO
+> `When Did Ancient Humans (First) Start [động từ tiêu thụ] [chất quen thuộc hằng ngày]?`
+> Đã nổ ở **6 kênh, từ 2,7K tới 171K sub**: Smoking **1,68M** · Alcohol 753K · Eat 710K ·
+> chất gây ảo giác 340K · Salt 190K · Sugar 82,5K.
+>
+> **Quét 10 ô, còn 2 ô SỐNG — cả hai chưa từng làm:**
+>
+> | ô | trần thật | ghi chú |
+> |---|---|---|
+> | **Đường / mật ong** | 82,5K *(đang leo)* | **Zenn và Mack chưa đụng** |
+> | **Nấu chín** | 150K | kênh **976 sub** vẫn ăn 132K. Mỏ neo đã cháy: Wrangham · Qesem · Homo erectus fire |
+>
+> Tám ô đã chết, đừng thử lại: caffeine **618** · thịt 2.841 · gia vị **198** · chất béo 13.759
+> · gãy xương 3.517 · sinh đôi 59.629 · chọn thủ lĩnh 1.408 · sinh nở 10.247.
+>
+> **Bộ lọc 3 tầng:** ① có niên đại **tiền sử thật** *(caffeine chết vì cà phê là thế kỷ 15)* ·
+> ② **phổ quát với người xem hôm nay** · ③ là thứ người ta **bị CUỐN**, không phải thứ chỉ **ăn**
+> *(thuốc lá 1,68M ↔ thịt 2,8K; Renn cùng kênh cùng tháng: "sinh con" **211.000** vs "ăn thịt" **383**)*.
+>
+> Chi tiết: `kho/1_luat/LUAT_ChonDeTai.md` · `references/quy-trinh-nghien-cuu-cum.md` của skill viết kịch bản.
+
+*(Bảng cũ giữ lại — vẫn đúng ở chỗ "title phải có người trong cuộc", chỉ sai ở chỗ dựng nó thành nhị phân khoảnh-khắc-vs-cơ-chế.)*
 
 | Thắng — có một khoảnh khắc | Chết — hỏi cơ chế |
 |---|---|

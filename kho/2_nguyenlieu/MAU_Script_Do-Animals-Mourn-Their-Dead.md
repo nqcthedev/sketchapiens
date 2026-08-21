@@ -1,5 +1,29 @@
 # Do Animals Mourn Their Dead? — Kịch bản video dài (kênh người que, mạch Động vật)
 
+> ## 🟡 ĐÂY LÀ KỊCH BẢN HOÀN CHỈNH CHƯA SẢN XUẤT — không phải mẫu để chép
+>
+> Kênh mới ra **4 video** *(V17 · V17b · V18 · V19)*. File này là **một kịch bản đã viết
+> xong, đã fact-check**, nằm im trong kho. Nếu cần video kế mà chưa có ý tưởng, **đây là
+> hàng có sẵn** — nhưng phải sửa các chỗ chết dưới đây trước.
+>
+> **Ba thứ trong file đã CHẾT *(09/08/2026)*:**
+> 1. ⛔ **Nhân vật dẫn có tên (`Bo`)** — persona **0 ca thắng / 16 kênh**, BrightPsycho 0/96.
+>    Thay bằng giọng vô danh; đó là **nết của ngách**, không phải khuyết điểm.
+> 2. ⛔ **Bảng song ngữ EN + VI** — chủ **không đọc cột dịch**. Trình thẳng tiếng Anh.
+> 3. ⛔ **Bảng "tự chấm" ở cuối file** — hầu hết mục đã bị bác *(`RETIRED_RULES.md`)*:
+>    "sợi chỉ nối cổ đại ↔ người xem" = lane **về BẠN** *(0 cú nổ / 4 tháng)* ·
+>    "khác đối thủ ≥2 điểm" = phép đo cũ, nay là **CỔNG 3** đo ở tầng **beat**, không đếm điểm.
+>    Chấm lại bằng **4 CỔNG** của `../1_luat/RUBRIC_KichBan.md`.
+>
+> ✅ **Thứ trong file vẫn còn nguyên giá trị:** toàn bộ **lời đọc tiếng Anh**, các **mỏ neo
+> khảo cổ**, và **sổ cờ fact-check ở cuối** — 7-8 mỏ neo đã tra, ghi rõ cái nào còn tranh cãi.
+> Đó là phần đắt nhất của file.
+>
+> ⚠️ **Trước khi dựng phải qua CỔNG A** — đề tài này **chưa vào sổ tiêu thụ** của
+> `VAULT_AncientHumans_KnowledgeVault.md`, và **chưa tra cầu**: thuộc **cụm C — động vật** *(5 cú nổ, khá)*, nhưng góc "cái chết" đã verify là nghĩa địa ở dạng người *(“someone died” 20 clone, đỉnh 1.129)*. Tra live cụ thể cho **động vật + tang** trước khi dựng.
+
+---
+
 > Mạch: **Trụ B — Động vật ↔ con người** · Thể loại: documentary-hài người que · Thời lượng nhắm: **~16–18 phút** (≈ 2.500–2.700 từ EN) · Voice-over EN + AI voice (ElevenLabs/Fish Audio)
 
 ---

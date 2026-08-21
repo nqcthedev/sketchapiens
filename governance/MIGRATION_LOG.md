@@ -136,7 +136,18 @@ diff sạch trong git. Nâng lên schema **sau khi** có ≥5 dòng thật.
 
 ### G6 · Ba giám khảo đều là LLM — bỏ mất lớp rẻ nhất và chắc nhất
 
-`qa_kichban.py` kiểm 4 ràng buộc cứng trong 0,2 giây, không tốn token, **không bao giờ sai**.
+~~`qa_kichban.py` kiểm 4 ràng buộc cứng trong 0,2 giây, không tốn token, **không bao giờ sai**.~~
+
+> ⛔ **SỬA 09/08/2026 — câu trên sai ba lần.**
+> **(1)** Chỉ có **BA** ràng buộc cứng, không phải bốn — `I ≈ 0` đã gỡ 07/08.
+> **(2)** Script khi đó in `'I' (≈0)` dưới nhãn **CỨNG**, và `/apply-review` lấy đó làm điều
+> kiện chặn → **editor sẽ cắt mọi câu có "I"**. Nó không "không bao giờ sai" — nó đang thi
+> hành một luật đã chết.
+> **(3)** Nó **chưa bao giờ kiểm ràng buộc cứng thứ ba** *(mỗi câu một dòng)*. Thêm phép kiểm
+> đó vào và chạy thử V19: bắt ngay **22 dòng vi phạm**.
+>
+> Bài học: **một cỗ máy chạy nhanh và không tốn token vẫn có thể đang thi hành luật sai.**
+> Tốc độ không phải độ đúng.
 
 **Đề xuất — thứ tự cứng trong `/audit-script`:**
 > **Lớp 1 tất định** *(qa_kichban · ghép-shot-khớp-narration · đếm asset · cổng A)* — chạy TRƯỚC.

@@ -9,8 +9,12 @@
 > nối chương từ `../2_nguyenlieu/NganHang_ReHook_BucketBrigade.md` — mô tả **kiểu câu**, không dán câu nguyên văn.
 >
 > **Vì sao tồn tại.** V17 — video giữ chân cao nhất kênh — được review theo cách **có dán bối
-> cảnh**, và vòng đó bắt được lỗi cấu trúc lớn nhất từ trước tới nay. Bản v3 hiện hành **cấm**
-> dán bối cảnh, nhưng đó là **suy luận của tôi, chưa có đối chứng nào**. File này để chạy thử.
+> cảnh**, và vòng đó bắt được lỗi cấu trúc lớn nhất từ trước tới nay.
+>
+> ⛔ **Câu cũ ở đây ghi *"file này để chạy thử"* — SAI TỪ 06/08.** Đối chứng **đã chạy** ở vòng 6
+> *(kết quả cuối file: DÙNG)*, và dòng 2 của chính file này đã ghi **"bước bắt buộc, không còn là
+> thử nghiệm"**. `LENH_GPT_ReviewKichBan_v3.md` cũng đã sửa header 09/08 để cho phép dán.
+> Ba chỗ nay thống nhất.
 
 ## ⛔ Ba thứ đã CỐ Ý cắt khỏi bản gốc
 
@@ -21,6 +25,20 @@
 | Mục **"Số cứng (đếm thật 5 video triệu view)"** | toàn số đếm — `qa_kichban.py` đã đếm rồi. Dán vào là biến người nghe thành máy đếm |
 | Ngưỡng intensifier *(actually 12 · literally 11 · deeply 8…)* trong `KHO_GiongCamXuc` | cùng lý do: số đếm |
 | **PHẦN B của `NganHang_ReHook`** — câu sáng tạo nguyên văn của đối thủ | đưa vào là mời nó gợi ý dùng lại → rủi ro **reused content**, đúng thứ đã làm sập kênh Shorts |
+
+> # ⚠️ NHƯNG KHỐI DÁN BÊN DƯỚI VẪN CÒN ~10 CÂU NGUYÊN VĂN CỦA ĐỐI THỦ — soát 09/08
+>
+> File này cắt câu nguyên văn của một kho *(lý do ở dòng ngay trên)* rồi **dán câu nguyên văn
+> từ chỗ khác vào**: `"That's you. That's what you are."` · `"This wasn't insomnia. This was
+> normal."` · `"here's the part nobody talks about."` · `"Yes. Yes, they were."` ·
+> `"embarrassingly thin"` · `"kind of a disaster"`.
+>
+> **Rủi ro thật:** người review đọc xong sẽ **trích lại chính những câu đó** như mẫu "viết đúng",
+> và người viết sẽ nhặt về. Đó là đường vòng đưa câu đối thủ vào kịch bản.
+>
+> **Cách xử lý khi dùng:** giữ khối dán *(nó dạy NGHE, đó là giá trị của file)*, nhưng khi nhận
+> góp ý về, **bất kỳ câu tiếng Anh nào người review đề xuất đều phải viết lại bằng chữ của mình**
+> trước khi đưa vào kịch bản. Không có ngoại lệ. Xem `../2_nguyenlieu/KHO_CauMau_DoiThu_DungChep.md`.
 
 ---
 

@@ -1,20 +1,55 @@
 # Module: METADATA (tiêu đề · mô tả · tags) — SONG NGỮ
 
+> # ⛔ FILE THAM CHIẾU — CHƯA ĐƯỢC SOÁT CHO TỚI 09/08/2026, VÀ NÓ CHỨA LUẬT ĐÃ CHẾT
+>
+> Thư mục `references/` bị **bỏ sót** trong đợt soát toàn tầng kịch bản *(7 người soát chỉ
+> đọc `SKILL.md`, không mở thư mục này)*. Nó vẫn được skill nạp vào lúc viết.
+>
+> **Khi file này nói ngược `kho/1_luat/RUBRIC_KichBan.md` → nghe RUBRIC.**
+> **Khi nó nói ngược PHẦN 13-14 của `SKILL.md` → nghe PHẦN 13-14.**
+>
+> Những thứ trong đây **đã bị đo lại và bác** *(16-18 kênh · 488 bản ghi · đọc trọn 11 kịch bản)*:
+> `lane "về BẠN"` **0 cú nổ/4 tháng** · `câu tự giễu trong hook` **0 ca thắng** ·
+> `cliffhanger / báo trước phần hay ở cuối` **0 tuyệt đối ở 14/16 kênh** ·
+> `persona người dẫn` **0 ca thắng, BrightPsycho 0/96** · `I ≈ 0` **gỡ 07/08** ·
+> mọi **con số nhịp** *(Zenn Night 7,83M có 0 câu đùa)* · `mật độ mỏ neo` ·
+> `câu hỏi lõi trước giây 31` · `callback + bookend làm mục chấm`.
+>
+> ## 🔴 Và mọi câu tiếng Anh trong đây là câu của ĐỐI THỦ — đọc để biết register, **chép là clone**.
+
+
 Module riêng, SKILL.md chỉ nạp khi người dùng cần đóng gói video. **CHỈ làm SAU khi
 kịch bản đã hoàn chỉnh.** Đây là nguyên lý + lý do, KHÔNG phải khuôn điền — dùng
 phán đoán chọn chữ đắt nhất cho từng video.
 
 **2 luật bắt buộc:**
-- Mọi output tiếng Anh đều **kèm nghĩa tiếng Việt** (người dùng không đọc tiếng Anh).
+- ⛔ ~~Mọi output tiếng Anh đều **kèm nghĩa tiếng Việt** (người dùng không đọc tiếng Anh).~~
+  > # 🔴 CÂU NÀY NGƯỢC HẲN Ý CHỦ — SỬA 09/08/2026
+  > Chủ chốt **07/08**: *"tôi không đọc đến đâu"* → **bỏ bảng EN+VI**, trình thẳng tiếng Anh.
+  > Và mệnh đề *"người dùng không đọc tiếng Anh"* là **sai**: việc của chủ là **gu và quyết
+  > định**, chất lượng tiếng Anh là việc của AI.
+  > Bằng chứng: `DUYET_V19_EN_VI.md` **lệch kịch bản 22 dòng qua hai vòng review mà không ai
+  > thấy**; 12/18 video chưa từng có bảng duyệt nào vẫn sản xuất bình thường.
+  > **Dịch chỉ khi chủ hỏi một câu cụ thể.**
 - Metadata phải **khớp đúng video** — không clickbait dối (giết retention + niềm tin).
 
 ---
 
-## 1. TITLE (tiêu đề) — cánh cửa quyết định click
-Vì sao: title + thumbnail quyết định CTR (tỉ lệ bấm). Video hay mà title yếu thì
-không ai bấm → thuật toán không đẩy.
-- Bám khuôn đã thắng: câu hỏi `[Why/How/When/Did/Could/Do] Ancient Humans …?`,
-  hoặc góc **personal-stakes** (chạm cơ thể/an toàn/danh tính người xem).
+## 1. TITLE (tiêu đề) — bộ LỌC, không phải động cơ
+
+> ⛔ **Tiêu đề cũ ghi "cánh cửa quyết định click" — quá tay.** Đo 80 video: **20 kênh cùng
+> một title trong 1-2 tháng → 1 quả 59K, 19 quả dưới 6K.** Title **loại** chắc chắn thất bại;
+> nó **không tạo ra** thành công. Biến quyết định là **thumbnail**.
+> Ưu tiên đúng: **thumbnail → title → hook**.
+
+- Bám khuôn đã thắng: câu hỏi `[Why/How/When/Did/Could/Do] Ancient Humans …?`
+- ⛔ ~~hoặc góc **personal-stakes** (chạm cơ thể/an toàn/danh tính người xem)~~ — **CHẾT.**
+  Đó là đặt "you" vào title, tức lane **"về BẠN"**: verify 27/07 ra **0 cú nổ / 4 tháng**,
+  trong khi truy vấn `ancient humans` ra **25 breakout ≥80K**.
+  `luat-chung-ngach.md` §1 nói thẳng: **"Đừng bao giờ đặt 'you' vào title. Đặt 'you' vào hook
+  và vào payoff."** Hai file này từng dạy ngược nhau — nay thống nhất theo §1.
+- 🔴 **Bắt buộc trước khi chốt title: ĐẾM BẦY CLONE** *(`quy-trinh-nghien-cuu-cum.md`)*.
+  Đỉnh bầy **dưới 10K → BỎ**, không cần chấm gì thêm.
 - < 60–70 ký tự; từ tò mò ở đầu; tạo "khoảng trống tò mò".
 - Cách làm: đề xuất **5–8 phương án** (mỗi cái kèm dịch Việt) → chọn 1 mạnh nhất +
   nói vì sao. Tự hỏi: *chính mình có muốn bấm không?*
@@ -35,20 +70,16 @@ Cấu trúc:
 
 ---
 
-## ĐỊNH DẠNG XUẤT (mặc định) — luôn song ngữ
+## ĐỊNH DẠNG XUẤT (mặc định)
 Trả 3 khối, mỗi khối có bản EN (để dán lên YouTube) + bản/nghĩa tiếng Việt:
 
-**1) TITLE**
-- `EN:` <tiêu đề chọn> — `VI:` <nghĩa>
-- + 4–7 phương án khác (mỗi cái kèm nghĩa VI).
+⛔ **BỎ SONG NGỮ** *(07/08)* — trình thẳng bản tiếng Anh để dán.
 
-**2) DESCRIPTION**
-- `EN:` <cả đoạn mô tả tiếng Anh để dán>
-- `VI:` <bản dịch tiếng Việt để người dùng hiểu>
+**1) TITLE** — tiêu đề chọn + 4–7 phương án khác, kèm **một dòng vì sao chọn cái này**.
+**2) DESCRIPTION** — cả đoạn tiếng Anh, dán thẳng.
+**3) TAGS** — 1 dòng, phẩy ngăn cách.
 
-**3) TAGS**
-- `EN:` tag1, tag2, tag3, … (1 dòng, để dán)
-- `VI:` 1 dòng giải thích nhanh nhóm từ khóa đang nhắm.
+*(Dịch sang tiếng Việt chỉ khi chủ hỏi một mục cụ thể.)*
 
 Viết tự nhiên, đừng dập khuôn cứng — mỗi video chọn chữ riêng cho đắt.
 

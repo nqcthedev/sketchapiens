@@ -1,0 +1,217 @@
+You are about to read the narration script of a YouTube documentary video. You have not seen
+any notes about it, and that is deliberate.
+
+Read it once, straight through, the way a viewer would hear it. Then answer these questions
+in order. Answer from the script alone. If something is not in the script, say it is not in
+the script rather than filling the gap with what you already know about the subject.
+
+1. In one sentence, what does this video claim? Not what it is about. What does it argue.
+
+2. What is the evidence for that claim, in the order the script gives it? List it.
+
+3. At what point, if any, did you stop believing the script, or feel it was overselling?
+   Quote the line.
+
+4. Where did your attention drop? Quote the first line of the stretch that lost you, and say
+   how long the dull stretch runs.
+
+5. Is there anything the script states as fact that it has not supported? Quote it.
+
+6. The script has a section near the end where it lists its own limitations. Does that section
+   make you trust the video more, or does it make you feel the video wasted your time? Be blunt.
+
+7. If you had to cut two minutes, which part goes, and why that part.
+
+8. What is the last line doing? Does it land, or does it fade out.
+
+9. Would you have watched to the end. Yes or no, then why.
+
+Do not be encouraging. Do not soften. If it is boring, say which part and why.
+
+----- SCRIPT BEGINS -----
+
+Sixteen hours.
+That is how long the dark lasts on a winter night in northern Europe, twenty thousand years back.
+Sixteen hours is not a figure of speech here.
+At that latitude the shortest day of the year holds under eight hours of light.
+Everything else is night.
+The temperature drops past freezing in the first hour and keeps going.
+And somewhere in that dark, a person has to lie down on the ground and lose consciousness.
+Almost every account of this asks the same question.
+How did they stay warm.
+That is the wrong question.
+Staying warm has obvious answers, and they are the ones everybody already knows.
+Fire.
+Hides.
+Other bodies pressed close.
+Falling asleep is the part with no obvious answer, because of something about sleep that almost nobody has been told.
+A human being cannot fall asleep without giving heat away.
+Not lying still.
+Not being tired enough.
+Giving heat away, through the skin, on purpose.
+And the first thing a freezing night does to a human body is shut down exactly that.
+Which means the fire in the middle of that camp was not there to make anyone comfortable.
+It was there to make sleep possible at all.
+That is a strong claim, and it does not come out of the ground.
+It comes out of sleep laboratories, from people wired to sensors in the last fifty years.
+So here is where it comes from, and here is where it runs out.
+Start with the night itself, because the number is larger than people expect.
+At fifty degrees north, the line that runs through the Ukrainian plain where the mammoth bone houses stood, the shortest day of the year gives about seven and a half hours of daylight.
+That leaves sixteen hours of dark.
+Go further north, to sixty degrees, and daylight falls to five and a half hours.
+Eighteen and a half hours of night.
+Not once.
+Every night, for months, with the worst of it in the middle.
+None of that is reconstruction, and none of it is an estimate.
+The tilt of the planet has not moved, and the arithmetic that produced those numbers is the same arithmetic that produces tonight.
+It is the one part of this story that is simply settled.
+Now put a human body next to it.
+Nobody sleeps sixteen hours.
+Nobody has ever slept sixteen hours.
+So for a large part of every winter night, people were lying in the dark, awake, in the cold, waiting.
+What they did with those waiting hours is a story of its own.
+This one is about the other end of it.
+How anybody stopped waiting, and went under.
+Falling asleep does not feel like a process.
+It feels like an absence.
+One moment there is a person lying there, and then there is not.
+But it is a process, and it has a first step, and the first step is not in the brain.
+It is in the hands and the feet.
+In the hour before sleep, the small blood vessels in the fingers and the toes open up.
+Warm blood from the middle of the body runs out to the surface, and heat leaves through the skin.
+The hands get warmer.
+The core gets cooler.
+That is what a body does when it is about to go under.
+In 2000 a team in Basel measured this on people in a sleep laboratory, and asked one plain question.
+Of everything that can be recorded about a person lying in the dark, what actually predicts how fast they fall asleep.
+They had all the obvious candidates on the list.
+Core body temperature.
+Melatonin.
+Heart rate.
+And how sleepy the person said they felt.
+The winner was none of them.
+The best predictor was the gap between the temperature of the hands and feet and the temperature of the trunk.
+The wider that gap, the faster sleep arrived.
+Their conclusion is worth saying in their own words.
+Sleepiness is associated with heat loss, and not with a drop in core temperature.
+Which turns around the thing almost everyone assumes.
+The body does not cool down because it fell asleep.
+It falls asleep because it is already cooling, and it cools by opening the hands.
+Now take that body outside, on a night well below freezing.
+The cold reaches the skin, and the body does the oldest thing it knows how to do.
+It closes the hands.
+Blood is pulled back out of the fingers and the toes and held in the middle, around the organs that are not allowed to cool.
+This is why fingers go white and clumsy in the cold, and why they hurt on the way back.
+It is not a fault.
+It is heat conservation, and it works.
+But look at what it does to the other system.
+The vessels that have to open before sleep can start are the exact vessels the cold has just shut.
+Two survival programs, in the same body, on the same night, each one cancelling the other's first move.
+Staying warm wins, because it has to.
+Which leaves a person who is not going to freeze and is not going to sleep either.
+That is the kind of claim that ought to be testable, and it has been tested.
+In 1981 researchers put six men to bed in a chamber where the temperature could be set.
+They wore nothing but shorts, on a bed made of nylon webbing, so air could reach them from every side.
+Five settings.
+Twenty one degrees Celsius, twenty four, twenty nine, thirty four, thirty seven.
+Twenty nine was the neutral point, where a bare body is neither working to warm itself nor working to cool.
+Then they read the sleep.
+Heat broke it up.
+Cold broke it up worse.
+And the single most disruptive setting in the whole study was not the coldest thing a person can survive.
+It was twenty one degrees.
+Room temperature.
+The number on an office thermostat, in the middle of an argument about the office thermostat.
+An uncovered human body is already losing sleep at a temperature nobody would call cold.
+Now put that body outdoors, in winter, at fifty degrees north.
+The cold has a cruder move than any of that.
+Shivering.
+When the closed hands are not enough, the muscles start working, and the body makes heat by moving.
+It is effective, it is expensive, and it has one obvious problem.
+Nobody sleeps through their own shivering.
+A person cold enough to shiver is a person who is not getting to sleep.
+And a person who is not shivering, on a night that cold, is either warm enough, or is already in trouble.
+Now put the fire back in the middle of that camp, because it is doing something other than what it looks like it is doing.
+A fire does not warm the air around it very much.
+Air moves, and on open ground it takes the heat with it.
+What a fire warms is surfaces, and the surface in question is skin.
+A person lying with one side turned to the flames has that side held above the temperature where the vessels shut.
+Which is the one condition the sleep system was waiting on.
+So the fire is not making the night warm.
+Nothing was going to make that night warm.
+It is making a strip of skin warm enough that the body will agree to let heat go.
+Heat on the outside, permission on the inside.
+That is a small thing to ask of a fire, and it is the difference between lying awake until morning and sleeping.
+It also explains a detail that reads as primitive and is not.
+People slept close to the fire, on the ground, turned toward it, and turned over during the night.
+That is not a lack of better options.
+That is a body finding the one arrangement where the two systems stop fighting.
+There is a second half to this, and it starts once sleep has actually begun.
+Sleep is not a single state.
+It runs in cycles, and one of those stages is the one where most dreaming happens.
+In a lot of animals, that stage does something strange to temperature control.
+Shivering stops.
+Panting stops.
+In a cat lying in a cold room, the shivering switches off at the moment the animal enters that stage, and comes back when it leaves.
+For a few minutes at a time, nobody is holding the thermostat.
+And the honesty belongs here rather than at the end, because this finding gets stretched a little further every time it is repeated.
+That finding is strongest in cats and in rats.
+The review that gathered all of it says, in its own summary, that in human adults this stage is not as thermally altered as it is in other mammals.
+So the dramatic version, a person handing over their thermostat every time they dream, has not been shown in people.
+What has been shown in people is smaller, and still worth having.
+Cold nights cost dreaming sleep.
+And even that arrives with a warning from the people who measured it.
+They thought the loss was most likely the result of sleep being broken up in general, rather than anything specific about temperature control.
+Which is a very boring sentence, and it is the reason to trust the rest of them.
+Everything to this point has been measured on living people in rooms with thermostats.
+There is one place where the same arrangement turns up in the ground.
+A camp on the shore of the Sea of Galilee, twenty three thousand years old, spent most of the time since then underwater.
+That is the only reason anything soft survived, because plants normally do not.
+When it was excavated, the floor of one brush hut still had the bedding lying on it.
+Not a stain in the soil.
+Not a dark shadow where something used to be.
+The actual grass.
+Bunches of stems and leaves from a marsh grass, partly charred, pressed flat under a thin layer of clay.
+And the excavators wrote down how it was laid out.
+Arranged in a repeated pattern, on the floor, around a central hearth.
+That is the oldest bedding anybody has found, and the first thing it does is put the fire in the middle and the sleeping in a ring around it.
+Now, that layout does not prove anything about blood vessels.
+A hearth in the centre of a room is useful for a list of reasons, and warmth is only one of them.
+But if a body needs a warm surface on one side before it will agree to shed heat, then bedding laid in a ring around a fire is what that requirement looks like from above.
+And the shore of the Sea of Galilee is not a cold place.
+Whatever pulled those people into that ring, it was not a winter on the Ukrainian plain.
+The base under all of this is narrower than it sounds, and it should be named out loud.
+Nobody has ever measured a night of sleep from twenty thousand years ago.
+Nobody is going to.
+There are no sensors in the archaeological record, and there is no way to get one onto a body that has been gone that long.
+Nearly every number in this comes from living people, indoors, wired up, in the last fifty years.
+And the study that produced the sharpest number in it, the one about room temperature, ran on six men.
+Six.
+The people who ran it said plainly that the differences between one man and the next were large.
+Some of them handled the cold setting nearly as well as the neutral one, and some of them barely slept.
+So the honest shape of this is not a discovery about the past.
+It is a set of constraints that a human body carries now, and that a human body almost certainly carried then, because the parts involved are old.
+Blood vessels that narrow in the cold are not a modern feature.
+Neither is the shivering, and neither is the need to shed heat before sleep begins.
+What cannot be recovered is the part everybody would most like to have.
+Whether a specific person, on a specific night, on frozen ground in what is now Ukraine, actually slept.
+The record does not keep that.
+It keeps the houses, the hearths, the bones and the tools, and none of those can say whether anyone in them rested.
+So the answer here is narrower than the question sounds.
+They did not sleep through freezing nights.
+They slept in pieces, close to a heat source, on the side turned toward it, for a stretch far shorter than the darkness around it.
+And what made even that possible was not the shelter and not the hide.
+It was a fire, fed by somebody, placed near enough to hold one strip of skin above the line where the body stops cooperating.
+Every other animal on that landscape answered the cold with its own body.
+Fur.
+Fat.
+A burrow.
+A season spent unconscious.
+Humans are the only ones that answered it by putting the heat source outside the body, and then arranging themselves around it.
+A bedroom is the same arrangement with the fire moved inside the walls.
+The last thing that happens on that ground is very small, and nothing about it looks like survival.
+A person turns over.
+The cold side goes to the flames, the warm side goes to the dark, and the vessels in the hands open again by a fraction of a degree.
+And for a few hours, in the middle of a sixteen hour night, the body stops arguing with itself, and gives away the heat it has to lose in order to sleep at all.
+
+----- SCRIPT ENDS -----

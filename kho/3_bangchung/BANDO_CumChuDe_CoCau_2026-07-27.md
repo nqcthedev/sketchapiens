@@ -8,8 +8,21 @@
 
 1. **Số clone KHÔNG dự báo gì.** Cụm mùa đông có clone dày đặc mà vẫn nổ 11 lần. Đừng né vì đông.
 2. **Thứ dự báo được: cụm đã có ≥2 cú nổ.** Cụm chỉ có 0-1 cú nổ = rủi ro cao (bằng chứng: "when someone died" 72 view, "babies + winter" 37-116 view).
-3. **Cách vào:** hàn title từ 2 winner trong cùng cụm (tính từ sốc của cái này + khung câu của cái kia), rồi đè bằng mỏ neo khoa học thật + giọng + cú lật "về BẠN" ở kết.
-4. **Title = ngôi 3. Hook = "về bạn".** Không winner nào có "you" trong title, nhưng gần như tất cả mở bài bằng "Right now, you're…".
+3. **Cách vào:** hàn title từ 2 winner trong cùng cụm (tính từ sốc của cái này + khung câu của cái kia), rồi đè bằng mỏ neo khoa học thật + giọng. ⛔ ~~+ cú lật "về BẠN" ở kết~~
+4. **Title = ngôi 3.** Không winner nào có "you" trong title. ⛔ ~~Hook = "về bạn"~~
+
+> ## 🔴 SỬA 10/08/2026 — CHỦ CHỐT: KÊNH LÀM NGÁCH CỔ ĐẠI, NGÔI BA, KHÔNG NÓI VỀ BẠN
+>
+> Hai vế "về BẠN" ở mục 3 và 4 **đã gỡ**. Lý do:
+> lane "về BẠN" **0 cú nổ / 4 tháng** *(verify 27/07)* · **Calhoun 4,02 triệu có `you` = 0 và `I` = 0** ·
+> 11/15 video cũ của kênh xây trên nó và **flop hết**.
+>
+> Câu *"gần như tất cả mở bài bằng Right now, you're…"* là **nết register của ngách**, không phải
+> đòn bẩy — nó bắn trúng cả bài thắng lẫn bài chìm. Ngôi kể là chuyện **VỊ TRÍ**, và có ba khuôn
+> đều thắng *(`kho/1_luat/RUBRIC_KichBan.md` §2.4)*.
+>
+> ✅ **Vế còn sống: title ngôi 3** *(25 breakout ↔ 0)*, và **chọn cụm theo SỐ CÚ NỔ** — đó mới là
+> phát hiện thật của file này.
 5. Verify lại trước mỗi tập — landscape đổi trong 2 tuần.
 
 ---

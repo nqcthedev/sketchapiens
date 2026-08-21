@@ -30,9 +30,9 @@
 | Chọn đề tài | `kho/3_bangchung/BANG_CAU_TatCa_CuNo_2026-07-29.md` + tra bầy clone **live** | `knowledge/topic-title/` | |
 | Vì sao đề tài hay vẫn chết | `kho/3_bangchung/NGHIENCUU_CloneSwarm_2026-07-29.md` | | |
 | Title | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` PHẦN C | `knowledge/topic-title/` | |
-| Thumbnail | `kho/1_luat/PROMPT_TONG_Thumbnail_v6.md` + `kho/1_luat/TEMPLATE_Thumbnail_KHOA_v1.md` | `knowledge/packaging/` | |
-| Phong cách hình | `kho/1_luat/ArtBible_NguoiQueCoDai.md` + skill `sketchapiens-chia-shot` | `knowledge/visual/` | ⚠️ **D-03: `clean/smooth/cartoon` — bắt buộc hay bị cấm?** |
-| Nhân vật | `kho/1_luat/CastBible_DienVien.md` · `BasePack01` · `Prompts_NhanVat_Kenh` · `SOP_NhatQuan_NhanVat` | `knowledge/visual/` | ⚠️ **D-04: `@token` hay lặp chữ? 4 file, không file nào thắng** |
+| Thumbnail | skill `sketchapiens-thumbnail` + skill `sketchapiens-thumbnail` | `knowledge/packaging/` | |
+| Phong cách hình | **`identity/style.py`** *(nguồn chuẩn duy nhất — file thật sự sinh ảnh)* + skill `sketchapiens-chia-shot` *(chia shot, không phải bản sắc)* | `knowledge/visual/` | ⚠️ **D-03: `clean/smooth/cartoon` — bắt buộc hay bị cấm?** |
+| Nhân vật | **`identity/style.py`** *(khối `ANCIENT` · `MODERN` · `WOMAN` · `GROUP`)* · `Prompts_NhanVat_Kenh` · `SOP_NhatQuan_NhanVat` | `knowledge/visual/` | ⚠️ **D-04: `@token` hay lặp chữ? 4 file, không file nào thắng** |
 | Chính sách YouTube | `kho/1_luat/CHINHSACH_YOUTUBE_2026_AnhHuong.md` | `knowledge/policy/` | |
 | Đối thủ | `kho/3_bangchung/BOCTACH_16Kenh_2026-08-05.md` + `2_KHO_BANGHI/00_KHO.md` | `knowledge/positioning/` | `BOCTACH_4Kenh` đã chết nhưng chưa dán biển |
 | Corpus đối thủ | `2_KHO_BANGHI/` — **chỉ để ĐO** | tách ra sibling ngoài repo | đã gitignore |
@@ -44,7 +44,7 @@
 | | Vì sao |
 |---|---|
 | ⛔ skill toàn cục `viet-kich-ban-nguoi-que-co-dai` | không có tiền tố nên tự kích hoạt; PHẦN 9 trỏ tới template thumbnail đã bị bác |
-| ⛔ skill toàn cục `chia-shot-va-prompt-anh` | như trên |
+| ⛔ skill toàn cục `sketchapiens-chia-shot` *(⛔ KHÔNG dùng `chia-shot-va-prompt-anh` — skill toàn cục đó đã bị `CLAUDE.md` §3 dán biển)* | như trên |
 | ⛔ `_KHO_LUU_DaChet/**` | đã khai tử |
 | ⛔ `BANDO_NgachTitle_Thang.md` · `NGHIENCUU_Title_3Kenh_Gap_*.md` · `_BO_TRAIN_*` · `kho/4_luutru/TRAIN_ChatGPT_TOANBO_DuAn.md` *(phần chiến lược)* · `BOCTACH_4Kenh_SoSanh_*.md` | chết trong sổ, vẫn nằm cạnh file sống |
 | ⛔ `Video*/_cu/**` · `Video*/_nhap/**` | bản nháp |

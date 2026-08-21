@@ -1,5 +1,44 @@
 # Bộ prompt NHÂN VẬT v3 — "NGƯỜI QUE THÔ" *(bám vibe đối thủ)*
 
+> # 🔴🔴 XUNG ĐỘT NHÂN VẬT — ĐỌC TRƯỚC KHI GEN BẤT KỲ ẢNH NÀO *(phát hiện 09/08/2026)*
+>
+> Các prompt trong file này tả **một nhân vật KHÁC** với skill `sketchapiens-thumbnail` §⑥ *(gộp 09/08)*.
+> Gen 191 ảnh video theo file này rồi làm thumbnail theo template kia → **CỬA 5a trượt**
+> *("cắt mặt đặt cạnh mặt trong ảnh video: có cùng một nhân vật không?")*, và trượt lúc đó
+> nghĩa là **gen lại cả bộ**.
+>
+> | | file này | `identity/style.py` *(file THẬT SỰ sinh ảnh)* + skill `sketchapiens-thumbnail` §⑥ *(gộp 09/08)* |
+> |---|---|---|
+> | **Mắt** | `tiny black dot eyes` | **HUGE** — vòng tròn trắng rộng bằng **1/3 đầu**, đồng tử đen to |
+> | **Tóc** | `sparse messy **black** hair, a few loose strands` | **nâu vừa**, khối gai góc rối bù, đầu nhọn **chìa ra ngoài** viền đầu |
+> | **Tay chân** | `bold thick… fat marker, NOT thin` | `THIN SINGLE BLACK LINES`, dài và gầy |
+>
+> ## ✅ THEO skill `sketchapiens-thumbnail` §⑥ *(gộp 09/08)* — nó đo trên **21 ảnh style đối thủ + 29 quả thắng**; file này viết theo cảm giác.
+>
+> Ba chỗ phải đổi trong MỌI prompt dưới đây trước khi dùng:
+> ```
+> tiny black dot eyes / small dot eyes
+>   → HUGE round white eyes, each about one third as wide as the head, with a big
+>     black pupil and two thin separate eyebrow lines above
+>
+> sparse messy black scribble hair (a few loose strands, not a thick cap)
+>   → MEDIUM BROWN hair, a SHAGGY MANE of many fine wavy strands that frames the head
+>     and hangs past it, wild and unbrushed, sitting BEHIND the head so the white face
+>     stays readable. NEVER a spiky ball on top, NEVER radiating needles.
+>
+> bold thick single-stroke black arms and legs (fat marker, not thin)
+>   → THIN SINGLE BLACK LINES for arms and legs, long and skinny with no joints,
+>     ending in small white mitten hands and small white oval feet
+> ```
+> 🔴 **Chú ý chữ TÓC:** bản đầu của biển này *(dán 09/08, sửa ngay trong ngày)* ghi
+> `SPIKY RAGGED… jagged pointed tips` — **sai**, vì NEG của `identity/style.py` chặn thẳng
+> `no spiky hair ball`, `no fine radiating hair needles`. Đúng là **SHAGGY MANE sợi mảnh gợn sóng**.
+>
+> ⚠️ **Giữ nguyên:** thân/mặt **TRẮNG ĐẶC không tô da** · nét marker **run tay** · cố tình thô.
+> ⛔ Và **đừng thêm luật cho thứ model đang vẽ đúng** — hai lỗi nặng nhất của 7 vòng V18 đều là
+> luật tự thêm *(`clean/smooth` và `quét trắng cả tay chân`)*.
+
+
 Sửa hướng theo feedback: **bỏ kiểu "designer xịn / mascot bóng bẩy / model sheet hoàn hảo".** Đối thủ vẽ **thô, đơn giản, low-budget** — người que trắng, nét marker nguệch ngoạc, tóc xù, mặt cực đơn giản. **Khung xương giữ Y HỆT, chỉ thay đồ.**
 
 > ⚠️ Đừng dùng câu "Senior Principal Character Designer" nữa (nó kéo về bóng bẩy). Dùng framing **"rough low-budget educational doodle"**.
@@ -44,7 +83,8 @@ Rough low-budget educational doodle, the SAME crude white stick figure but SMALL
 Rough low-budget educational doodle, the SAME crude white stick figure — with messy GREY scribbly hair and a grey beard, slightly hunched, a simple fur wrap, leaning on a crude wooden staff. Paper-white body, no skin tone, simple dot eyes, no nose. Crude black marker line-art, color only on staff/wrap. White background.
 ```
 
-## 6) @SCIENTIST — người giải thích *(dùng vừa phải)*
+## 6) ⛔ ~~@SCIENTIST — người giải thích~~ — **BỎ 09/08**
+*(persona người dẫn **0 ca thắng / 16 kênh**, BrightPsycho 0/96; và hệ `@token` đã bỏ theo `D-04`)*
 ```
 Rough low-budget educational doodle, the SAME crude white stick figure — wearing a simple white lab coat and plain round glasses, holding a clipboard. Paper-white body, no skin tone, messy scribbly hair, simple dot eyes, no nose. Crude black marker line-art, minimal color. White background.
 ```
@@ -62,7 +102,7 @@ Rough low-budget educational doodle, a simple chimpanzee covered in flat brown, 
 ## Quy trình
 1. Tạo **@BASEHUMAN thô** (front) → chọn bản "thô mà đúng vibe".
 2. **Đính base** → "mặc đồ" thành từng costume (giữ **khung xương + mặt** y hệt).
-3. Lưu `refs/<token>.png` + cập nhật **registry** trong `../1_luat/CastBible_DienVien.md`.
+3. Lưu `refs/<token>.png`. ⛔ *(registry `CastBible` đã xoá 09/08 — khối nhân vật chuẩn nay ở `identity/style.py`: `ANCIENT` · `MODERN` · `WOMAN` · `GROUP`.)*
 > Con vật tô màu đủ; người thì chỉ đồ mặc + đạo cụ có màu, thân trắng.
 
 ---

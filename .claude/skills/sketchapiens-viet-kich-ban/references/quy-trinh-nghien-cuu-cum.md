@@ -1,5 +1,23 @@
 # QUY TRÌNH NGHIÊN CỨU CỤM — chạy lại cho MỌI video mới
 
+> # ⛔ FILE THAM CHIẾU — CHƯA ĐƯỢC SOÁT CHO TỚI 09/08/2026, VÀ NÓ CHỨA LUẬT ĐÃ CHẾT
+>
+> Thư mục `references/` bị **bỏ sót** trong đợt soát toàn tầng kịch bản *(7 người soát chỉ
+> đọc `SKILL.md`, không mở thư mục này)*. Nó vẫn được skill nạp vào lúc viết.
+>
+> **Khi file này nói ngược `kho/1_luat/RUBRIC_KichBan.md` → nghe RUBRIC.**
+> **Khi nó nói ngược PHẦN 13-14 của `SKILL.md` → nghe PHẦN 13-14.**
+>
+> Những thứ trong đây **đã bị đo lại và bác** *(16-18 kênh · 488 bản ghi · đọc trọn 11 kịch bản)*:
+> `lane "về BẠN"` **0 cú nổ/4 tháng** · `câu tự giễu trong hook` **0 ca thắng** ·
+> `cliffhanger / báo trước phần hay ở cuối` **0 tuyệt đối ở 14/16 kênh** ·
+> `persona người dẫn` **0 ca thắng, BrightPsycho 0/96** · `I ≈ 0` **gỡ 07/08** ·
+> mọi **con số nhịp** *(Zenn Night 7,83M có 0 câu đùa)* · `mật độ mỏ neo` ·
+> `câu hỏi lõi trước giây 31` · `callback + bookend làm mục chấm`.
+>
+> ## 🔴 Và mọi câu tiếng Anh trong đây là câu của ĐỐI THỦ — đọc để biết register, **chép là clone**.
+
+
 *Đúc từ đợt nghiên cứu V16, 26-27/07/2026. Đây là **cách làm**, không phải kết quả một lần.*
 
 Mỗi video mới trong ngách này đều bắt đầu lại từ bước 1. Chạy đủ 6 bước rồi mới được viết.
@@ -88,7 +106,8 @@ for r in d['transcripts']['results']:
 1. **Miếng ngon** của từng quả — miếng nào người ta thực sự ăn?
 2. **Câu kết** — nguyên văn. Mở vết thương hay băng lại?
 3. **Bảng mỏ neo dùng chung** — cái nào lặp ở ≥2 quả = **đã cháy**, không được dựa vào.
-4. **Số từ + thời lượng** — đối chiếu luật ~1.500 từ.
+4. **Số từ + thời lượng** — ghi lại để biết ô này chạy ở nhịp nào.
+   ⛔ ~~đối chiếu luật ~1.500 từ~~ — **luật đó đã chết**: Mack 3.206 từ → 1,69M · Stickly 3.165 từ → 2,08M. Độ dài là **lựa chọn định vị**, và mục *"ĐỘ DÀI CÓ THỂ KHÁC THEO Ô"* cuối file này đã tự ngờ đúng chuyện đó.
 
 ---
 
@@ -151,7 +170,7 @@ Trước khi chốt bất kỳ title nào, chạy `mcp__nexlev__youtube_search` 
 | "Woke Up at 3AM" *(clone đúng bí mật của quả 7,81 triệu)* | 20 | **337** |
 | "…Twins" | 20 | **59.630** ✅ |
 
-⚠️ **Title là bộ LỌC, không phải động cơ.** Nó loại chắc chắn thất bại; nó không tạo ra thành công. 20 kênh cùng title cùng tháng → 1 quả 59K, 19 quả dưới 6K. Biến quyết định là **thumbnail** (`kho/1_luat/PROMPT_TONG_Thumbnail_v6.md`).
+⚠️ **Title là bộ LỌC, không phải động cơ.** Nó loại chắc chắn thất bại; nó không tạo ra thành công. 20 kênh cùng title cùng tháng → 1 quả 59K, 19 quả dưới 6K. Biến quyết định là **thumbnail** (skill `sketchapiens-thumbnail` *(gộp 09/08)*).
 
 ---
 
@@ -247,7 +266,8 @@ Nếu trần đó **dưới 80K sau khi đã có ≥15 kênh thử** → góc ch
 | **Salt** | ThinkMan (13K) | 190K |
 | **Sugar** | ThinkMan (13K) | 82.5K *(mới, đang leo)* |
 
-**Đặc điểm khiến nó chạy:** chất nào cũng là thứ **người xem tiêu thụ hằng ngày** → luôn có trục "về BẠN" sẵn. Đúng luật mới 1.
+**Đặc điểm khiến nó chạy:** chất nào cũng là thứ **người xem tiêu thụ hằng ngày** → luôn có sẵn trục nối về đời người xem.
+⚠️ *Đây là nghĩa ĐÚNG của "về BẠN": **title ngôi ba**, ruột có MỘT đoạn chạm người xem. Không phải lane "về BẠN" đã chết (cả bài hướng về người xem, 0 cú nổ/4 tháng).* Đúng luật mới 1.
 
 **Ô còn trống cần quét trước khi dùng:** caffeine · gia vị/ớt · chất béo · thịt · nấu chín · lên men · sữa *(kênh mình đã làm V14)*.
 
@@ -278,7 +298,8 @@ Caffeine chết vì cà phê là **thế kỷ 15 (Yemen/Ethiopia)**, trà là đ
 *Đối chiếu ô sống: thuốc lá 12.000 năm · rượu 9.000 TCN · muối, đường, chất gây ảo giác đều có mốc tiền sử.*
 
 **2. PHỔ QUÁT VỚI NGƯỜI XEM HÔM NAY**
-Bản "đúng tiền sử" của caffeine (khat, coca, betel, guarana) thì mất trục "về BẠN" — khán giả Âu-Mỹ không nhai betel hằng ngày.
+⛔ Bản "đúng tiền sử" của caffeine (khat, coca, betel, guarana) thì mất trục "về BẠN" — khán giả Âu-Mỹ không nhai betel hằng ngày.
+> *(Dòng trên coi "mất trục về BẠN" là điểm trừ — **bác bỏ 10/08**: kênh làm ngách cổ đại ngôi ba. Bản "đúng tiền sử" nay là bản ĐÚNG, không phải bản yếu.)*
 > **Nghịch lý phải né: universal thì không cổ đại, cổ đại thì không universal.**
 
 **3. LÀ THỨ NGƯỜI TA BỊ **CUỐN**, KHÔNG PHẢI THỨ CHỈ **ĂN****
@@ -321,7 +342,18 @@ Ngược hẳn luật ~1.500 từ rút từ cụm mùa đông (winner 1.489-1.59
 
 ---
 
-## ✅ HAI Ô SỐNG — ứng viên cho V17, V18
+## ✅ HAI Ô SỐNG — 🔴 **CHƯA BAO GIỜ ĐƯỢC DÙNG** *(ghi chú 09/08/2026)*
+
+> File này quét **10 góc**, chỉ **2 sống**, rồi đề xuất chúng cho V17 và V18.
+> **V17 làm "mưa cả tuần", V18 làm "ngủ ngoài trời", V19 làm "đi vệ sinh đêm".**
+> Cả ba đi hướng khác. Hai ô sống vẫn còn nguyên, chưa ai chiếm thêm tính tới 09/08.
+>
+> Đây không phải lỗi tài liệu — là **một quyết định chọn đề tài đã đi ngược nghiên cứu của
+> chính mình**. Ghi lại để lần sau chọn đề tài thì mở file này ra trước.
+>
+> ⚠️ Và mục "BẢNG MỎ NEO CHÁY" ở bước 4 đã cảnh báo **Wehr 1992 + Wiessner** cháy ở **4/9
+> quả** — trước khi V18 bắt đầu. V18 vẫn tra hai mỏ neo đó *(rồi cắt)*, V19 vẫn tiêu chúng
+> ở M5. **Bảng cháy có, nhưng không ai tra bảng.**
 
 | Ô | Trần | Ghi chú |
 |---|---|---|

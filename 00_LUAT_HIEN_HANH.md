@@ -1,5 +1,9 @@
 # 00 — LUẬT HIỆN HÀNH (đọc file này TRƯỚC MỌI VIỆC)
 
+> # 🔴 CHẠY TRƯỚC MỌI VIỆC: `python3 tools/preflight.py videos/<VideoDir>`
+> 10 cổng kịch bản + 6 cổng sản xuất. **Không có dấu vết = chưa chạy.** *(dựng 10/08 sau khi
+> chủ phải nhắc 7 lần trong một buổi, cả 7 đều là thứ đã có sẵn trong kho)*
+
 > # 📋 VIẾT KỊCH BẢN → MỞ `kho/1_luat/FLOW_VietKichBan_11Cong.md`
 > Quy trình 11 cổng, mỗi cổng chặn một lỗi đã mắc thật. Có bảng một trang dán lên đầu mỗi video.
 > Gộp: kho NotebookLM · chính sách nội dung không trung thực · ranh giới reused-content · công thức Ink Explainer.
@@ -51,8 +55,8 @@ Gom lại, đổi chế độ, làm một lượt.
 |---|---|
 | `kho/1_luat/FLOW_VietKichBan_11Cong.md` | **quy trình tổng — mở đầu tiên khi viết** |
 | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` | title (C) · hook (D,F) · kết bài (G) · lắp chương (H) |
-| `kho/1_luat/RUBRIC_KichBan.md` | chấm điểm — **đọc LUẬT 0 ở đầu file trước** |
-| `kho/1_luat/CONGTHUC_InkExplainer_BestOf.md` | công thức "best-of": giữ gì, bỏ gì, thêm gì |
+| `kho/1_luat/RUBRIC_KichBan.md` | **5 CỔNG** đạt/không đạt + **gợi ý nghề đọc SAU khi viết**. ⛔ **Bỏ thang điểm 09/08** — bản cũ bắt điền đủ 32/37 ô, và chính nó đẻ ra *"ba câu mùi AI nặng nhất trong V17"*. **Đọc LUẬT 0 trước.** |
+| ~~`CONGTHUC_InkExplainer_BestOf.md`~~ | ⛔ **GỠ 10/08** — kênh nguồn bị tắt kiếm tiền vì reused content. Xương "thang thời gian" đã cứu sang `RUBRIC_KichBan.md` §2.2. Hiện vật ở `kho/4_luutru/` |
 | `kho/1_luat/CHINHSACH_YOUTUBE_2026_AnhHuong.md` | QA chính sách · **luật "giống đối thủ là rủi ro KIẾM TIỀN"** |
 | 🆕 `kho/1_luat/LUAT_ChonDeTai.md` | **chọn đề tài** — lấy đề tài đã có cầu rồi làm hơn · ranh giới reused-content · quy trình 5 bước |
 
@@ -60,8 +64,8 @@ Gom lại, đổi chế độ, làm một lượt.
 | File | Dùng khi |
 |---|---|
 | `kho/1_luat/WORKFLOW_Production.md` | các giai đoạn sản xuất |
-| `kho/1_luat/PROMPT_TONG_Thumbnail_v6.md` · `kho/1_luat/TEMPLATE_Thumbnail_KHOA_v1.md` | thumbnail |
-| `kho/1_luat/ArtBible_NguoiQueCoDai.md` · `kho/1_luat/CastBible_DienVien.md` | nét vẽ · nhân vật |
+| **skill `sketchapiens-thumbnail`** | thumbnail — **nguồn DUY NHẤT** *(gộp 09/08: có nhóm đối chứng 8 cao + 4 thấp/kênh, tự giết 9 luật của chính nó, kèm prompt dán thẳng)*. ⛔ `PROMPT_TONG_Thumbnail_v6` và `TEMPLATE_Thumbnail_KHOA_v1` **đã xoá** |
+| **`identity/style.py`** | 🔒 **nét vẽ · khối nhân vật · bảng nền · NEG — NGUỒN CHUẨN DUY NHẤT.** Đây là file **thật sự sinh ảnh** *(`tools/build_prompts.py` nạp `from style import *`)*. ⛔ `ArtBible` và `CastBible` **đã xoá 09/08** — chúng là tài liệu chậm hơn code một thế hệ *(mắt chấm · tóc đen · tay chân mập · một mã màu da lạc)*, xem `governance/RETIRED_RULES.md` |
 | `kho/1_luat/QUY_TRINH_2_CONG.md` | kiểm đầu + kiểm cuối |
 
 ## TẦNG 2 — KHO NGUYÊN LIỆU *(tra khi viết — KHÔNG được phán)*
@@ -86,13 +90,14 @@ Gom lại, đổi chế độ, làm một lượt.
 
 | File | Chứa gì |
 |---|---|
-| `kho/2_nguyenlieu/VAULT_AncientHumans_KnowledgeVault.md` | 8 chủ đề + mỏ neo, bóc từ **49 kịch bản đối thủ** |
+| `kho/2_nguyenlieu/VAULT_AncientHumans_KnowledgeVault.md` | **SỔ MỎ NEO ĐÃ TIÊU của chính kênh** *(V17 · V17b · V18 · V19)* + sổ đen mỏ neo bị loại + **CỔNG A** quét tự-trùng-lặp. ⛔ Mô tả cũ *"8 chủ đề bóc từ 49 kịch bản đối thủ"* **chưa từng tồn tại** — file khi đó là vỏ rỗng 873 byte. Đổi chức năng 09/08 theo **D-09** |
 | `kho/2_nguyenlieu/VAULT_NotebookLM_BanGoc_DoiChieu.md` | 4 báo cáo gốc đã tiêu hoá đi đâu + 6 chỗ bản máy đúng hơn bản gốc |
 | `kho/2_nguyenlieu/KHO_AnDu_TruyenChem_LachLuat.md` | 16 ẩn dụ thế kỷ 21 · truyện chêm · **4 quy tắc lách kiểm duyệt** |
 | `kho/2_nguyenlieu/KHO_GiongCamXuc_DoiThu.md` | 7 nhóm giọng · pre-load nhãn cảm xúc · 2 trường phái |
 | `kho/2_nguyenlieu/NganHang_ReHook_BucketBrigade.md` | câu nối · **luật BOOKEND: viết câu cuối trước** |
 | `DICH_Zenn_7.8M_...md` | **bản dịch quả to nhất ngách** — quét cổng A bắt buộc đọc |
-| `MoXe_15Khoi_...` · `MoXe_KichBan_Viral_3Video` · `TearDown_*` | mổ xẻ kịch bản đối thủ |
+| `MoXe_15Khoi_KichBan_DoiThu.md` | 15 khối kể chuyện + cách vượt *(bảng phân loại — giữ)* |
+| ⛔ ~~`MoXe_KichBan_Viral_3Video`~~ · ~~`TearDown_7M_CongThuc_GuongSoi`~~ | **xoá 09/08** — bản đầu trùng 41/56 câu với `references/viral-teardown.md`; bản sau bị `kho/3_bangchung/DOC_TRON_6KichBan_2026-08-09.md` vượt qua *(đọc trọn cùng video, 8 chương thay vì 3 màn)* |
 | `MAU_Script_*.md` | kịch bản mẫu |
 | `BasePack01` · `Prompts_NhanVat_Kenh` · `SOP_NhatQuan_NhanVat` | prompt nhân vật |
 
@@ -150,10 +155,13 @@ HE_THONG_KichBan_v1) đã bị xoá khỏi kho, không còn tồn tại.*
 | **Chọn đề tài / có nên làm cái này không** | 🆕 `kho/1_luat/LUAT_ChonDeTai.md` *(luật)* — số tra ở `kho/3_bangchung/BANG_CAU_TatCa_CuNo_2026-07-29.md` + **bắt buộc** tra bầy clone live | ⛔ SoTay_ChonDeTai · ⛔ SUBNGACH_KhaiThac_Can · ⛔ SUBNGACH_CoTheDoDa |
 | **Vì sao đề tài hay vẫn chết** | `kho/3_bangchung/NGHIENCUU_CloneSwarm_2026-07-29.md` | *(mới)* |
 | **Đặt title** | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` PHẦN C | ⛔ CongThuc_Title_TrieuView · ⛔ BANDO_NgachTitle_Thang · ⛔ NGHIENCUU_Title_3Kenh_Gap |
-| **Làm thumbnail** | `kho/1_luat/PROMPT_TONG_Thumbnail_v6.md` | ⛔ Thumbnail_Signature_v3 · ⛔ Thumbnail_v5 · ⛔ TEMPLATE_Thumbnail_DoiThu |
+| **Làm thumbnail** | **skill `sketchapiens-thumbnail`** *(nguồn DUY NHẤT, gộp 09/08)* | ⛔ Thumbnail_Signature_v3 · ⛔ Thumbnail_v5 · ⛔ TEMPLATE_Thumbnail_DoiThu |
 | **Cơ chế title+thumbnail+hook của winner** | `kho/3_bangchung/CO_CHE_3LOP_Winner_2026-07-29.md` | — |
 | **V17 — packaging đã chốt, chờ gen thumbnail** | **`kho/4_luutru/V17_PACKAGING_CHOT.md`** | *(mới)* |
 | Concept thumbnail V16 | `kho/4_luutru/CONCEPT_Thumbnail_V16_V17.md` | — |
+| **Có cách phân tích nào nữa không** | 🆕 `kho/1_luat/CACH_PHAN_TICH_TOAN_BO.md` — 6 nhóm, ~50 cách, gồm cả cách CHƯA dùng *(18/08)* |
+| **Bóc kịch bản đối thủ** | 🆕 `kho/1_luat/BOCTACH_KICHBAN_DOITHU.md` — 9 chiều, câu lệnh: *"bóc kịch bản <link> theo 9 chiều"* *(18/08)* |
+| **Bài có hồi hộp không** | 🆕 `tools/do_kich_tinh.py` + `RUBRIC_KichBan.md` Cổng 5 *(18/08)* |
 | **Viết kịch bản** | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` | ⛔ HE_THONG_KichBan_v1 · ⚠️ RUBRIC_KichBan *(xem ghi chú)* |
 | **Cách nói: ẩn dụ, truyện chêm, lách kiểm duyệt** | `kho/2_nguyenlieu/KHO_AnDu_TruyenChem_LachLuat.md` | *(mới)* |
 | **QUY TRÌNH SẢN XUẤT — đọc trước mỗi video** | **`kho/1_luat/WORKFLOW_Production.md`** | *(mới — packaging đi TRƯỚC kịch bản)* |
@@ -192,7 +200,7 @@ Skill **dùng chung** cho mọi dự án — không được ghi số đo của 
 | `HE_THONG_KichBan_v1_11Video.md` | v2 bác 4 luật (mẫu 11 video thiếu 3 quả triệu view) |
 | `HE_THONG_Thumbnail_Signature_v3.md` | chốt khuôn "caveman trái ↔ người-que phải" — v6 CẤM |
 | `HE_THONG_Thumbnail_v5_ScriptToPackaging.md` | v6 thay |
-| `TEMPLATE_Thumbnail_DoiThu.md` | ADN "nhân vật lệch trái + vật bên phải" bị bác → CENTRE ANCHOR |
+| `TEMPLATE_Thumbnail_DoiThu.md` | ADN "nhân vật lệch trái + vật bên phải" bị bác. ⛔ ~~→ CENTRE ANCHOR~~ **cũng đã bác 10/08** → nay là **Cổng 1: MỘT khối lớn ~nửa khung**, có cặp đối chứng thật |
 | `SUBNGACH_KhaiThac_Can.md` | lane "về BẠN": **0 cú nổ / 4 tháng** |
 | `SUBNGACH_CoTheDoDa_2026-07-13.md` | cùng lane, cùng lý do |
 | `CongThuc_Title_TrieuView.md` | nhắm mọi title vào lane đã chết + giả định "title quyết định" bị bác |

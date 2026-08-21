@@ -1,0 +1,214 @@
+<title>Mổ Kịch Bản Đêm Lạnh</title>
+<style>
+:root{
+  --paper:#f2f5f8; --card:#ffffff; --ink:#141a21; --ink-2:#4a5560; --ash:#79838f;
+  --line:#d5dee6; --frost:#e6edf3;
+  --ember:#c2540c; --ember-soft:#f6e6d8;
+  --steel:#2f6389; --steel-soft:#dfeaf3;
+  --warn:#8a6d13; --warn-soft:#f6eed6;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0e1319; --card:#161d25; --ink:#e8eef4; --ink-2:#aab6c2; --ash:#7d8894;
+    --line:#27313c; --frost:#1b232c;
+    --ember:#f08b45; --ember-soft:#2e1f14;
+    --steel:#7fb4d8; --steel-soft:#152530;
+    --warn:#d8b657; --warn-soft:#292312;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0e1319; --card:#161d25; --ink:#e8eef4; --ink-2:#aab6c2; --ash:#7d8894;
+  --line:#27313c; --frost:#1b232c;
+  --ember:#f08b45; --ember-soft:#2e1f14;
+  --steel:#7fb4d8; --steel-soft:#152530;
+  --warn:#d8b657; --warn-soft:#292312;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font:16px/1.62 system-ui,-apple-system,"Segoe UI",sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:1120px; margin:0 auto; padding:56px 22px 96px; display:flex; flex-direction:column; gap:52px}
+h1,h2,h3{font-family:Georgia,"Iowan Old Style","Times New Roman",serif; font-weight:600; text-wrap:balance; margin:0}
+h1{font-size:clamp(30px,5vw,46px); line-height:1.1; letter-spacing:-.015em}
+h2{font-size:clamp(21px,2.6vw,27px); line-height:1.22}
+h3{font-size:17px}
+p{margin:0}
+.eyebrow{font:600 11px/1 system-ui,sans-serif; letter-spacing:.16em; text-transform:uppercase; color:var(--ember)}
+.lede{color:var(--ink-2); max-width:62ch; font-size:17px}
+.sub{color:var(--ash); font-size:14px; max-width:70ch}
+section{display:flex; flex-direction:column; gap:20px}
+.rule{height:1px; background:var(--line); border:0; margin:0}
+
+/* nguồn */
+.srcs{display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:14px}
+.src{background:var(--card); border:1px solid var(--line); border-top:3px solid var(--ash); padding:16px 18px; display:flex; flex-direction:column; gap:6px}
+.src.us{border-top-color:var(--ember)}
+.src .v{font:600 26px/1 Georgia,serif; font-variant-numeric:tabular-nums}
+.src .n{font-size:14px; color:var(--ink-2)}
+.src .m{font-size:12.5px; color:var(--ash)}
+
+/* bảng */
+.scroll{overflow-x:auto; border:1px solid var(--line); background:var(--card)}
+table{border-collapse:collapse; width:100%; min-width:760px; font-size:14.5px}
+caption{text-align:left; padding:14px 18px; font-size:13px; color:var(--ash); border-bottom:1px solid var(--line)}
+th,td{padding:11px 14px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top}
+thead th{font:600 11.5px/1.3 system-ui,sans-serif; letter-spacing:.09em; text-transform:uppercase; color:var(--ash); background:var(--frost); position:sticky; top:0}
+tbody tr:last-child td{border-bottom:0}
+td.num,th.num{font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-variant-numeric:tabular-nums; white-space:nowrap}
+td.dim{font-weight:600; width:24%}
+.grp td{background:var(--frost); font:600 11.5px/1 system-ui,sans-serif; letter-spacing:.11em; text-transform:uppercase; color:var(--ink-2); padding:9px 14px}
+.tag{display:inline-block; padding:2px 8px; border-radius:2px; font:600 11.5px/1.5 system-ui,sans-serif; white-space:nowrap}
+.win{background:var(--steel-soft); color:var(--steel)}
+.mid{background:var(--warn-soft); color:var(--warn)}
+.gap{background:var(--ember-soft); color:var(--ember)}
+
+/* thẻ kỹ thuật thiếu */
+.steal{display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:16px}
+.card{background:var(--card); border:1px solid var(--line); padding:18px 20px; display:flex; flex-direction:column; gap:10px}
+.card .from{font:600 11px/1 system-ui,sans-serif; letter-spacing:.12em; text-transform:uppercase; color:var(--ash)}
+.card q{display:block; font-family:Georgia,serif; font-size:15px; color:var(--ink-2); border-left:2px solid var(--ember); padding-left:12px; font-style:italic}
+.card .do{font-size:14px; color:var(--ink)}
+.card.big{grid-column:1/-1; border-left:3px solid var(--ember)}
+ul{margin:0; padding-left:20px; color:var(--ink-2); font-size:14.5px; display:flex; flex-direction:column; gap:6px}
+.foot{color:var(--ash); font-size:13px; max-width:72ch}
+</style>
+
+<div class="wrap">
+
+<header>
+  <p class="eyebrow">Ô đêm lạnh · bóc theo 9 chiều · 18/08/2026</p>
+  <h1>Mổ kịch bản đêm lạnh</h1>
+  <p class="lede">Ba kịch bản cùng một ô đề tài, đo trên cùng một thước. Hai của đối thủ đã nổ, một của mình chưa đăng. Bảng này để tìm <strong>thứ họ có mà mình không có</strong>.</p>
+</header>
+
+<section>
+  <div class="srcs">
+    <div class="src"><span class="v">2.047.105</span><span class="n">Paint It Simple + CurioX</span><span class="m">CRAZIEST Survival Methods… Ice Age · 9:22</span></div>
+    <div class="src"><span class="v">756.651</span><span class="n">Axen</span><span class="m">How Did Ancient Humans Survive Deadly Winters? · 10:25</span></div>
+    <div class="src us"><span class="v">chưa đăng</span><span class="n">V20 — bản 15</span><span class="m">How Did Ancient Humans Sleep Through Freezing Nights? · ~14:37</span></div>
+  </div>
+  <p class="sub">Số của Axen đo trên bản dịch tiếng Việt nên cột đại từ là mốc <em>thấp hơn thực tế</em>. Số của quả 2,04M đọc bằng mắt trên bản ghi gốc, không đếm máy.</p>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Chín chiều</p>
+  <h2>Bảng đầy đủ</h2>
+  <div class="scroll">
+    <table>
+      <caption>Xanh = mình đang hơn · Vàng = ngang · Cam = mình đang thiếu</caption>
+      <thead>
+        <tr><th>Chiều</th><th class="num">2,04M</th><th class="num">Axen</th><th class="num">V20</th><th>Trạng thái</th></tr>
+      </thead>
+      <tbody>
+        <tr class="grp"><td colspan="5">① Gói · ② Mở bài</td></tr>
+        <tr><td class="dim">Chữ đe doạ trong title</td><td>—</td><td>Deadly</td><td>Freezing <span class="m">(tả thời tiết)</span></td><td><span class="tag gap">thiếu</span></td></tr>
+        <tr><td class="dim">Nước đi mở</td><td>ra lệnh cho người xem sờ vào một vật trong phòng</td><td>tước tiện nghi rồi giật đi</td><td>mở thẳng bằng cái chết</td><td><span class="tag mid">khác kiểu</span></td></tr>
+        <tr><td class="dim">Giây có đe doạ đầu tiên</td><td class="num">20s</td><td class="num">13s</td><td class="num">0s</td><td><span class="tag win">hơn</span></td></tr>
+        <tr><td class="dim">Hứa hẹn biến đổi</td><td>“sẽ thay đổi vĩnh viễn cách bạn nhìn ngôi nhà mình”</td><td>“câu chuyện sinh tồn hay nhất ta có”</td><td>không có</td><td><span class="tag gap">thiếu</span></td></tr>
+
+        <tr class="grp"><td colspan="5">③ Cược</td></tr>
+        <tr><td class="dim">Khúc bài có người gặp nguy hiểm</td><td>~7/10</td><td class="num">10/10</td><td class="num">10/10</td><td><span class="tag win">ngang</span></td></tr>
+        <tr><td class="dim">Chữ chỉ cái chết</td><td>~12</td><td class="num">~19</td><td class="num">20</td><td><span class="tag win">hơn</span></td></tr>
+        <tr><td class="dim">Cược ở tầm LOÀI</td><td>“một sai lầm là cả gia đình chết cóng trước bình minh”</td><td>“suýt nữa loài mình không qua nổi”</td><td>chỉ ở tầm một người</td><td><span class="tag gap">thiếu</span></td></tr>
+        <tr><td class="dim">Thang leo thang bóng tối</td><td>có, đỉnh ở cuối</td><td>lạnh → đói → người già → ăn thịt đồng loại → ngủ đông</td><td>có, nhưng <strong>đỉnh ở giữa bài</strong></td><td><span class="tag mid">lệch chỗ</span></td></tr>
+
+        <tr class="grp"><td colspan="5">④ Người xem</td></tr>
+        <tr><td class="dim">you / we / our</td><td>rất dày, “tổ tiên của bạn” lặp suốt</td><td class="num">~51</td><td class="num">49</td><td><span class="tag win">ngang</span></td></tr>
+        <tr><td class="dim">Người dẫn xưng “tôi”</td><td>không</td><td>“thứ tôi muốn cho bạn xem”</td><td class="num">0</td><td><span class="tag gap">thiếu</span></td></tr>
+        <tr><td class="dim">Phép thử tự chạy ở 85-95%</td><td>có — quay lại cái điều hoà</td><td>không</td><td>có — bàn tay, ở 89%</td><td><span class="tag win">có</span></td></tr>
+
+        <tr class="grp"><td colspan="5">⑤ Cấu trúc</td></tr>
+        <tr><td class="dim">Khối dài nhất</td><td>—</td><td class="num">16,6%</td><td class="num">10,4%</td><td><span class="tag win">hơn</span></td></tr>
+        <tr><td class="dim">Tuyên bố hình dạng trước khi kể</td><td>“khảo cổ kể một câu chuyện hoàn toàn khác”</td><td>“không phải một mẹo, mà cả một chồng”</td><td>không có</td><td><span class="tag gap">thiếu</span></td></tr>
+        <tr><td class="dim">Cú lạ để dành cho cuối</td><td>quân đội nay dạy lại kỹ thuật này</td><td>ngủ đông ở Hố Xương, đặt 86-96%</td><td>không có</td><td><span class="tag gap">thiếu</span></td></tr>
+        <tr><td class="dim">Vật xuyên suốt, bookend</td><td><strong>cái điều hoà — 3 lần</strong>: giây 0 · 8:26 · câu cuối</td><td>không</td><td>bàn tay — 1 lần</td><td><span class="tag mid">yếu hơn</span></td></tr>
+
+        <tr class="grp"><td colspan="5">⑥ Vật liệu · ⑦ Giọng</td></tr>
+        <tr><td class="dim">Vật thể cụ thể</td><td>rất dày</td><td class="num">~28</td><td class="num">49</td><td><span class="tag win">hơn</span></td></tr>
+        <tr><td class="dim">Tên riêng / địa danh</td><td>Kostenki · Mezhyrich · Dolní Věstonice</td><td class="num">~11</td><td class="num">12</td><td><span class="tag win">hơn</span></td></tr>
+        <tr><td class="dim">So sánh với đời hiện đại</td><td><strong>là cả một chủ đề</strong>: Gore-Tex · màng chắn hơi · lều Bắc Cực</td><td>~6 câu lẻ</td><td class="num">4</td><td><span class="tag gap">thiếu</span></td></tr>
+        <tr><td class="dim">Nhịp hài / câu xả</td><td>gần như không</td><td class="num">~5</td><td class="num">~2</td><td><span class="tag mid">ít</span></td></tr>
+        <tr><td class="dim">Từ mỗi câu</td><td>—</td><td class="num">16,8</td><td class="num">11,9</td><td><span class="tag win">gọn hơn</span></td></tr>
+
+        <tr class="grp"><td colspan="5">⑧ Kết</td></tr>
+        <tr><td class="dim">% dành cho hạ nhiệt</td><td>~10%</td><td class="num">4,5%</td><td>~9%</td><td><span class="tag mid">hơi dài</span></td></tr>
+        <tr><td class="dim">Nén thời gian ở kết</td><td>“ta mất kiến thức rồi mất 100 năm tìm lại”</td><td>“vài nghìn năm, từ xếp xương voi tới bấm một cái nút”</td><td>không có</td><td><span class="tag gap">thiếu</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Chiều ⑨ · lỗ hổng</p>
+  <h2>Sáu kỹ thuật cần lấy</h2>
+  <p class="sub">Xếp theo mức đáng làm. Lấy <strong>kỹ thuật</strong>, không lấy <strong>nội dung</strong> — trùng đề tài thì được, trùng cú bẻ lái là clone.</p>
+
+  <div class="steal">
+
+    <div class="card big">
+      <span class="from">Quả 2,04 triệu · đắt nhất</span>
+      <h3>Cú lật ĐỊA VỊ — người tiền sử không phải kẻ sống sót, họ là kỹ sư</h3>
+      <q>Hình ảnh phổ biến luôn là mấy người hang động run rẩy bên đống lửa nhỏ. Nhưng khảo cổ kể một câu chuyện hoàn toàn khác — câu chuyện của những kỹ sư.</q>
+      <p class="do">Nó dựng một định kiến của đám đông rồi đập, và cả bài sau đó chứng minh tổ tiên <em>giỏi hơn</em> ta tưởng: nhà xương voi ma mút đạt hiệu năng nhiệt <strong>ngang lều Bắc Cực hiện đại</strong>. Khen tổ tiên chính là khen người xem.<br><br><strong>V20 không có cú lật địa vị nào.</strong> Bài mình chỉ nói người cổ đại <em>khổ</em>, không nói họ <em>giỏi</em>.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Quả 2,04 triệu</span>
+      <h3>Một vật trong phòng người xem, đóng khung ba lần</h3>
+      <q>Kiểm cái điều hoà của bạn ngay bây giờ.</q>
+      <p class="do">Giây 0 · phút 8:26 <em>“quay lại cái điều hoà”</em> · câu cuối <em>“lần tới khi bạn với tay lên nó”</em>. Một vật, ba mốc.<br><br>V20 có bàn tay nhưng chỉ dùng <strong>một lần</strong>, ở 89%. Thêm hai mốc là thành khung.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Axen 756K</span>
+      <h3>Cược ở tầm loài</h3>
+      <q>Lẽ ra chúng ta phải là một trong những loài chết đầu tiên.</q>
+      <p class="do">Cùng một sự thật, khác tầm vóc. V20 nói <em>một người</em> có thể chết đêm nay; nó nói <em>cả loài</em> suýt không qua nổi.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Cả hai</span>
+      <h3>Cú lạ để dành cho cuối, có báo trước</h3>
+      <q>Và rồi còn một ý tưởng lạ lùng nhất trong tất cả.</q>
+      <p class="do">Axen giấu chuyện ngủ đông tới 86-96%. Quả 2,04M giấu chuyện quân đội nay dạy lại kỹ thuật này.<br><br>V20 tiêu cú mạnh nhất — run ngừng, cởi đồ nghịch lý — ở <strong>phút thứ sáu</strong>, rồi đi xuống.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Quả 2,04 triệu</span>
+      <h3>Đời hiện đại làm THƯỚC ĐO, không phải câu ví von lẻ</h3>
+      <p class="do">Da và rêu ↔ màng chắn hơi và bọt cách nhiệt. Nhiều lớp da thú ↔ Gore-Tex, <em>hai mươi lăm nghìn năm trước khi Gore-Tex tồn tại</em>. Mỗi kỹ thuật cổ đại đều được cân với một thứ người xem đang dùng.<br><br>V20 mới có 4 câu lẻ.</p>
+    </div>
+
+    <div class="card">
+      <span class="from">Axen 756K</span>
+      <h3>Người dẫn có mặt</h3>
+      <q>Đây là phần làm tôi thấy nặng.</q>
+      <p class="do">V20 có <strong>0 chữ “tôi”</strong> — và kho đã bác luật <code>I ≈ 0</code> từ 10/08: 9/12 kênh cho thấy bài dùng “tôi” ăn hơn, Mack chênh 9,18 lần. Luật đã chết mà bài vẫn thi hành.</p>
+    </div>
+
+  </div>
+</section>
+
+<hr class="rule">
+
+<section>
+  <p class="eyebrow">Giữ nguyên</p>
+  <h2>Sáu chỗ V20 đang hơn cả hai</h2>
+  <ul>
+    <li><strong>Nguy hiểm ở giây 0</strong> — họ 13s và 20s.</li>
+    <li><strong>Khối dài nhất 10,4%</strong> — Axen 16,6%. Không bắt người xem giữ một ý quá một phút rưỡi.</li>
+    <li><strong>49 vật thể cụ thể</strong> — Axen ~28.</li>
+    <li><strong>Câu gọn hơn</strong> — 11,9 từ mỗi câu, Axen 16,8.</li>
+    <li><strong>Một cơ chế xuyên suốt</strong> thay vì danh sách mẹo rời — bỏ lỡ một đoạn của họ vẫn theo được, nhưng cũng không có gì bắt xem tiếp.</li>
+    <li><strong>Tự khai giới hạn ba lần</strong> — cả hai đối thủ đều chỉ khai một lần, và một trong hai <em>nói chắc chỗ không có nguồn</em>.</li>
+  </ul>
+  <p class="foot">⚠️ Bảng chỉ là triệu chứng. Bản 1 của V20 qua cả bốn cổng, đủ mỏ neo có DOI, 0 cụm trùng — và nghe bản dịch đặt cạnh Axen thì vẫn thua. Sau khi bóc xong vẫn phải đọc trọn cả hai bằng mắt.</p>
+</section>
+
+</div>

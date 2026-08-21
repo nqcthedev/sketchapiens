@@ -10,7 +10,7 @@
 
 | # | Câu hỏi | Nếu không trả lời được |
 |---|---|---|
-| 1 | **Việc này cải thiện CON SỐ nào?** | Dừng. Đi lấy số trước. |
+| 1 | **Việc này cải thiện CON SỐ nào?** | Dừng. Đi lấy số trước.<br>⚠️ **Ngoại lệ ở cỡ mẫu hiện tại:** kênh đang **367 hiển thị / 5 ngày** — gần như không việc gì nêu được một con số đo được. Đọc đúng chữ thì cổng này chặn hết. Ở giai đoạn bệnh A, câu hỏi thay thế là: **"việc này có làm ra thêm một video được đăng không?"** |
 | 2 | **Đang có số đó chưa?** | Dừng. Xin ảnh chụp Studio. |
 | 3 | **Nó có phải nút thắt hiện tại không?** | Nếu không — nói thẳng là chưa đáng làm. |
 | 4 | **File nghiên cứu cũ đã nói gì?** | Mở `BANG_CAU_TatCa_CuNo` · `BANDO_CumChuDe` · mục "đã thử & chết" trước khi đề xuất bất cứ đề tài nào. |
@@ -55,10 +55,19 @@ V15 đạt cả ba và vẫn hỏng hoàn toàn. **Tổng độ dài giống h�
 
 ### Kịch bản
 ```
-Chấm bằng checklist trong ../1_luat/HE_THONG_KichBan_v2_14Video.md — 17 mục.
-Dưới 14/17 thì viết lại, không vá.
+Qua 4 CỔNG của ../1_luat/RUBRIC_KichBan.md PHẦN 1 — đạt/không đạt, KHÔNG có thang điểm.
+  ① sản xuất  ② sự thật  ③ reused-content  ④ người nghe ngoài
 BẮT BUỘC: verify mọi tên riêng / năm / tạp chí bằng web search.
 ```
+
+> ## ⛔ SỬA 09/08 — Ô CŨ LÀ THANG ĐIỂM THỨ BA TRONG DỰ ÁN
+> Nó ghi *"checklist trong `HE_THONG_KichBan_v2` — **17 mục, dưới 14/17 thì viết lại**"*.
+> Nhưng PHẦN E của `HE_THONG` có **20 ô**, còn rubric lúc đó có **37 mục**. **Ba con số khác
+> nhau cho cùng một việc**, và không con số nào khớp file nó trỏ tới.
+>
+> Cả ba thang nay đã bỏ *(09/08)*. `HE_THONG` PHẦN E đã dán biển "đừng dùng để chấm".
+> Lý do bỏ: ngưỡng phần trăm bắt **điền đủ ô**, và chính nó đẻ ra
+> *"ba câu mùi AI nặng nhất trong V17"*.
 
 ### Thumbnail
 ```
@@ -66,7 +75,10 @@ BẮT BUỘC: verify mọi tên riêng / năm / tạp chí bằng web search.
 2. Che chữ đi — còn hiểu chuyện gì không?
 3. Chữ có KHÁC title không?
 4. Bố cục có khác 3 video gần nhất không?
-Dưới 8/10 mục của scorecard v6 thì làm lại CONCEPT, không sửa hình.
+5. Đặt cạnh MẶT trong ảnh video cùng cỡ — có cùng một nhân vật không?
+⚠️ ~~Dưới 8/10 mục của scorecard v6~~ — **thang đó đã bỏ**, và file chứa nó đã xoá 09/08. Ba cửa THẬT của thumbnail nằm ở `WORKFLOW_Production.md`
+CỬA 5a: **chất liệu · trắng đặc · cắt mặt**. Độ sáng · bão hoà · chiều cao chữ **KHÔNG phải cửa**
+*(đo 29 quả thắng: tương quan −0,10 · −0,09 · +0,01)*.
 ```
 
 ### Kết luận nghiên cứu

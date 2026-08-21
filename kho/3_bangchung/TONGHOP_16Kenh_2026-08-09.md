@@ -118,7 +118,7 @@ Ca đắt nhất: **Axen** — bài Education (481 vpd) chép lại **cả 5 m�
 **Vế loạt — 0 tuyệt đối:** BrightPsycho 0/96 title có Part/Episode/# · Stickly `part 1/2`=0, `episode`=0, `my last video`=0, `playlist`=0 · PaintItSimple 0/7 · Zenn 0/29 · Mogo 0/31 · Myrk · InkExplainer · NeonRush.
 Nhưng khuôn title LẶP thì chạy dày: BrightPsycho 11/38 bài "Why (do/don't/can't) we eat ___", NeonRush 19/21 bài "How Did Humans Invent X?" sau 18/07.
 
-**Vế mồi video kế:** 11 kênh = 0 tuyệt đối (Mack 0/52 · Zenn 0/28 · Mogo 0/31 · Rune 0/13 · PrimalGlitch 0/13 · InkExplainer 0/12 · Axen 0/12 · MrHell 0/10 · SuperJoy 0/9 · PaintItSimple 0/7 · Myrk 0/17). Hai kênh có dùng đều **không ăn**: SimplyAStickman 22/47 bài (khuôn cứng ở 97–100%) → CAO 8 / GIỮA 8 / THẤP 6 = chia đều; BeforeCivilization 11/65 → **nhóm CHÌM mồi nhiều hơn** (4/12 vs 3/12).
+**Vế mồi video kế:** 11 kênh = 0 tuyệt đối (~~Mack 0/52~~ → **Mack 1/52, sửa 09/08**: bài Alcohol dòng 265 *"In the meantime, click on the next video. / Bro, please just click."* — bài đó **198.583 view**, thấp hơn quả to nhất kênh 8,5 lần. Grep đợt 08/08 trượt vì cụm tìm không phủ `click on the next video`. Vế **xin đăng ký** thì Mack 0/52 vẫn đúng · Zenn 0/28 · Mogo 0/31 · Rune 0/13 · PrimalGlitch 0/13 · InkExplainer 0/12 · Axen 0/12 · MrHell 0/10 · SuperJoy 0/9 · PaintItSimple 0/7 · Myrk 0/17). Hai kênh có dùng đều **không ăn**: SimplyAStickman 22/47 bài (khuôn cứng ở 97–100%) → CAO 8 / GIỮA 8 / THẤP 6 = chia đều; BeforeCivilization 11/65 → **nhóm CHÌM mồi nhiều hơn** (4/12 vs 3/12).
 
 ---
 

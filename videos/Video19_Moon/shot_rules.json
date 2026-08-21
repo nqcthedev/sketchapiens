@@ -1,0 +1,46 @@
+{
+ "_doc": "Thứ RIÊNG của V19-Moon. Luật chung ở schemas/shot_rules.json. SỬA 10/08: bỏ khối 'người hiện đại' — bài này KHÔNG có nhân vật hiện đại, lane 'về BẠN' đã bỏ (verify 27/07: 0 cú nổ/4 tháng). Giữ luật đó là bắt bài phải có thứ kênh vừa quyết định không dùng nữa.",
+ "kind_canh": [
+  "SCENE_A",
+  "SCENE_W",
+  "GROUP"
+ ],
+ "khoi_nhan_vat": [
+  {
+   "ten": "người cổ đại NAM",
+   "moc": "recurring caveman",
+   "phai_chua": "This is the recurring caveman of the series.",
+   "tru_kind": [
+    "SCENE_W"
+   ]
+  },
+  {
+   "ten": "người cổ đại NỮ",
+   "moc": "recurring caveman:",
+   "chi_kind": [
+    "SCENE_W"
+   ]
+  }
+ ],
+ "cua_rieng": [
+  {
+   "ten": "người hiện đại ≤15%",
+   "kind": "SCENE_M",
+   "ty_le_toi_da": 0.15,
+   "nguon": "skill sketchapiens-chia-shot PHẦN 3 — lane 'về BẠN' verify 0 cú nổ/4 tháng; đối chiếu Ink Explainer dùng cảnh hiện đại chỉ vài khung trên ~350"
+  },
+  {
+   "ten": "KHÔNG có nhân vật hiện đại",
+   "kind": "SCENE_M",
+   "ty_le_toi_da": 0.0,
+   "nguon": "Chủ chốt 10/08: kênh làm ngách cổ đại NGÔI BA. Lane 'về BẠN' verify 27/07 = 0 cú nổ/4 tháng; và 8/13 thumbnail cũ có đồ hiện đại trong khi 51 quả thắng của 13 kênh gần như 0 quả có."
+  }
+ ],
+ "chi_bao": [
+  {
+   "ten": "cảnh CẢ NHÓM",
+   "kind": "GROUP",
+   "ghi_chu": "IN SỐ, KHÔNG CHẶN. Ngưỡng ≥8 cũ không có nguồn — chính file luật tự ghi vậy. Hạ xuống chỉ báo 10/08."
+  }
+ ]
+}

@@ -102,7 +102,7 @@ Cùng định dạng người que · cùng tiếng Anh · có công thức: **In
 
 Hơn **25/36 quả lặp hoặc nén lại chính title**. Quả 1 triệu của Ink Explainer *(title "…When It Rained All Week?" → thumbnail `RAINED ALL WEEK`)* lặp nguyên ba chữ.
 
-⛔ **Luật `no text repeating the video title` trong `PROMPT_TONG_Thumbnail_v6` — BỎ.**
+⛔ **Luật `no text repeating the video title` trong skill `sketchapiens-thumbnail` *(gộp 09/08)* — BỎ.**
 
 **Nhưng quả to nhất toàn ngách làm ngược:** Zenn 7,8M, title hỏi *"What Did Ancient Humans Do at Night?"*, thumbnail đáp **`2 SLEEPS?`**. Title hỏi → thumbnail **TRẢ LỜI**, bằng một đáp án lạ đến mức phải bấm. Đó mới là "title X thumbnail Y" làm đúng — không phải đặt hai thứ không liên quan cạnh nhau.
 

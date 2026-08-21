@@ -21,7 +21,9 @@ Chưa đủ → **dừng và hỏi**. Không tự phân loại thay chủ.
 - Không đụng `refs/approved.yaml` và `refs/published.yaml` — hook chặn nếu thiếu `set_by: owner`.
 
 ## Sau khi tạo version mới
-1. Chạy `qa_kichban.py` — 4 ràng buộc cứng phải sạch.
+1. Chạy `qa_kichban.py` — **BA** ràng buộc cứng phải sạch: `!`=0 · không gạch ngang giữa câu · mỗi câu một dòng.
+   ⛔ **Không phải bốn.** `I ≈ 0` đã gỡ 07/08 — người dẫn **được** có ý kiến riêng. Mọi con số
+   khác script in ra là **để đi đọc lại đoạn đó**, không phải ngưỡng. Cấm cắt một câu vì số.
 2. Chạy `/verify-claims` nếu có câu mới mang số liệu.
 3. Ghi vào `04-review/RNNN-applied.md`: **áp gì · bỏ gì · vì sao · sinh ra thay đổi nào**.
 4. Cập nhật `video.yaml`: `status: revised`, thêm version vào `script_versions`.

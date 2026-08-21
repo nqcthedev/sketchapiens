@@ -15,6 +15,14 @@ for k in n:
     mx = max(mx, run)
 print(f"{p}")
 print(f"  {len(w)} từ · {len(w)/178:.1f} phút · {len(S)} câu")
-print(f"  CỨNG: '!' {t.count('!')} (0) | '—' {t.count(chr(8212))} (0) | 'I' {I} (≈0) | 3 câu dài liên tiếp: {'CÓ' if mx>=3 else 'không'}")
-print(f"  MỀM: câu hỏi {q} → 1 mỗi {round(len(w)/178*60/max(q,1))}s (60-90) | câu<6từ {short} ({round(short/len(n)*100)}%, V17=37%) | dài TB {sum(n)/len(n):.1f} (V17=8.9)")
+# ⛔ 09/08/2026 — CHỈ CÒN BA RÀNG BUỘC CỨNG. 'I' ĐÃ BỊ GỠ 07/08.
+#    Bản cũ in 'I' dưới nhãn CỨNG, và /apply-review đọc dòng đó làm điều kiện chặn
+#    → editor sẽ CẮT MỌI CÂU CÓ "I". Đo 18 kênh: 9/12 kênh có phép so sạch cho thấy
+#    bài dùng "I" ĂN HƠN (Mack 9,18x). Xem governance/RETIRED_RULES.md
+print(f"  CỨNG (3): '!' {t.count('!')} (phải 0) | '—' {t.count(chr(8212))} (phải 0) | mỗi câu một dòng: xem dưới")
+print(f"  ĐO — KHÔNG PHẢI NGƯỠNG: 'I' {I} (người dẫn ĐƯỢC có ý kiến) | câu hỏi {q} | câu<6từ {short} ({round(short/len(n)*100)}%) | dài TB {sum(n)/len(n):.1f} | 3 câu dài liên tiếp: {'CÓ' if mx>=3 else 'không'}")
+# mỗi câu một dòng — ràng buộc cứng thứ ba, bản cũ KHÔNG kiểm
+import re as _re
+_multi=[i+1 for i,l in enumerate(t.split(chr(10))) if _re.search(r'[.?!]["\']? +[A-Z]',l)]
+print(f"  CỨNG: mỗi câu một dòng → {'✅ đạt' if not _multi else f'❌ {len(_multi)} dòng có >1 câu: {_multi[:8]}'}")
 print(f"  you {you} : we {we} = {you/max(we,1):.1f}:1  ← LUẬT 0, không phải hằng số")

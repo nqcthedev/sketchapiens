@@ -1,5 +1,25 @@
 # Mổ 15 khối kể chuyện TRONG kịch bản đối thủ — và cách vượt
 
+> # ⛔ TẦNG 2 — NGUYÊN LIỆU. **KHÔNG ĐƯỢC PHÁN.** *(biển dán 09/08/2026)*
+>
+> File này **tra khi viết**, nó **không phải luật**. Khi nó nói ngược
+> `kho/1_luat/RUBRIC_KichBan.md` → **nghe RUBRIC**.
+>
+> Nó được viết trước khi kho đo lại trên 16-18 kênh / 488 bản ghi và đọc trọn 11 kịch bản.
+> Nhiều chỗ trong đây đang ra lệnh bằng giọng mệnh lệnh *("bắt buộc" · "khoá cứng" ·
+> "kim chỉ nam" · "cách vượt số 1")* cho những thứ **đã bị bác**:
+>
+> `lane "về BẠN"` *(0 cú nổ/4 tháng)* · `cliffhanger / hứa hoãn` *(0 tuyệt đối ở 14/16 kênh)* ·
+> `câu tự giễu trong hook` *(0 ca thắng)* · `persona người dẫn` *(0 ca thắng, BrightPsycho 0/96)* ·
+> `mật độ mỏ neo` *(Zenn 4,02M thấp thứ nhì tháng)* · `callback + bookend làm mục chấm`
+> *(nết ~100% của ngách)* · `mọi con số nhịp` · `I ≈ 0` · `you:we 1,5-2`.
+>
+> ## 🔴 VÀ MỌI CÂU TIẾNG ANH TRONG FILE NÀY LÀ CÂU CỦA ĐỐI THỦ
+> Đọc để biết **register**. **Chép là clone** — trùng câu chữ · trình tự beat · ví dụ · đùa ·
+> ẩn dụ · cú bẻ lái là **reused content**, thứ đã làm sập một kênh của chủ.
+> Luật và số đo: `KHO_CauMau_DoiThu_DungChep.md`.
+
+
 Soi từng "khối" trong 3 kịch bản viral thật. Mỗi khối: **đối thủ làm sao** (câu thật) →
 **vì sao ăn** → **cách mình làm hơn**. Quote ngắn để học kỹ thuật, KHÔNG chép.
 
@@ -16,7 +36,7 @@ Nguồn: **S** = Smoking (1.1M) · **P** = Predators Ignore Sleeping (~1tr) · *
 
 **Stakes (được–mất với người xem):** vì sao phải quan tâm.
 - Đối thủ: P biến nó thành *mạng sống của bạn* ("animals that could absolutely end you"). A yếu hơn (chuyện của động vật).
-- Vượt nó: mỗi video ép 1 câu "điều này nói gì về CHÍNH BẠN" — nếu không có, đổi góc.
+- ⛔ ~~mỗi video ép 1 câu "về CHÍNH BẠN" — nếu không có, đổi góc~~ — **CHẾT.** Lane "về BẠN" verify 27/07: **0 cú nổ / 4 tháng**, trong khi ngôi-3 có **25 breakout ≥80K**. *(Thứ còn đúng: MỘT đoạn "về bạn" đặt sát cuối — xem RUBRIC §2.8.)*
 
 **Emotional arc (đường cong cảm xúc):** tò mò → căng → "đã" → rung động.
 - Vượt nó: vẽ trước đường cong rồi mới viết; đừng để phẳng lì thông tin.
@@ -28,7 +48,7 @@ Nguồn: **S** = Smoking (1.1M) · **P** = Predators Ignore Sleeping (~1tr) · *
 ### 1. Hook (móc câu)
 - Đối thủ: nhập vai 2nd-person + tự giễu. S: *"You're standing around a fire. It's 50,000 BC… no existential dread about your inbox."* · P: *"You're asleep, drooling on your pillow, probably snoring… by every biological definition, helpless."*
 - Vì sao ăn: ném thẳng người xem vào cảnh + một câu cười → vừa thân vừa tò mò, không "giảng".
-- Vượt nó: thêm **nhân vật dẫn cố định** của kênh xuất hiện ngay hook (thứ đối thủ không có) + nền **căng/đe doạ** chứ không chỉ hài.
+- ⛔ ~~Vượt nó: thêm nhân vật dẫn cố định của kênh xuất hiện ngay hook~~ — **CHẾT 09/08** *(persona 0 ca thắng)*. ✅ Thứ còn dùng được: nền **căng/đe doạ** chứ không chỉ hài.
 
 ### 2. Setup (dựng bối cảnh)
 - Đối thủ: S — *"before you can smoke anything, you need fire."* (đặt nền tối thiểu rồi đi tiếp).
@@ -68,7 +88,7 @@ Nguồn: **S** = Smoking (1.1M) · **P** = Predators Ignore Sleeping (~1tr) · *
 ### 9. Cliffhanger (gài treo)
 - Đối thủ: P — *"There's one last layer I saved for the end because it's the most mind-bending part."*
 - Vì sao ăn: hứa đỉnh ở cuối → giữ retention tới phút chót (tín hiệu mạnh nhất cho thuật toán).
-- Vượt nó: gài cliffhanger **sớm hơn** (ngay sau hook báo "đến cuối bạn sẽ thấy điều X") để giữ nguyên ván.
+- ⛔ ~~Vượt nó: gài cliffhanger **sớm hơn**~~ — **CHẾT.** grep 8 cụm hứa-hoãn ra **0 tuyệt đối ở 14/16 kênh**; Zenn có đúng 1 bài dùng, bài đó **nhóm THẤP**. Cả ngách không dùng kỹ thuật này.
 
 ### 10. Twist / Reframe (cú lật)
 - Đối thủ: P lật "predators là cỗ máy giết" → thành "predators cực kỳ thận trọng vì sợ chấn thương". A lật "ta yếu ớt" → "ta là super-predator".
@@ -93,7 +113,7 @@ Nguồn: **S** = Smoking (1.1M) · **P** = Predators Ignore Sleeping (~1tr) · *
 ### 14. Zoom-out / "That's you" (kéo góc rộng + tâng danh tính)
 - Đối thủ: P — *"That's you. That's what you are."*. S — *"You're doing what humans have always done. You're breathing."*
 - Vì sao ăn: biến kiến thức thành **danh tính người xem** → cảm xúc mạnh → share.
-- Vượt nó: làm cú "that's you" **xứng đáng** (đã gài stakes-về-bạn từ đầu) chứ không gắn gượng ở cuối.
+- Vượt nó: làm cú "that's you" **xứng đáng**. ⚠️ Nhưng **đừng gài stakes-về-bạn từ đầu** — đó là lane chết. Nó là **một đoạn ở cuối**, không phải xương sống *(RUBRIC §2.8)*.
 
 ### 15. Button (câu chốt đóng đinh)
 - Đối thủ: P — *"It knows better."* (ngắn, lạnh gáy). S — *"You're breathing."*
@@ -103,6 +123,6 @@ Nguồn: **S** = Smoking (1.1M) · **P** = Predators Ignore Sleeping (~1tr) · *
 ---
 
 ## 3 CÁCH VƯỢT XUYÊN SUỐT (đúc kết)
-1. **Nhân vật + giọng dẫn cố định** — đối thủ để giọng vô danh; mình gắn cá tính vào hook/aside/payoff → khác biệt + nhận diện AI/đối thủ không sao chép.
+1. ⛔ ~~**Nhân vật + giọng dẫn cố định** là cách vượt số 1~~ — **CHẾT 09/08.** Persona người dẫn có **0 ca thắng trong toàn kho 16 kênh**; BrightPsycho **0/96 bài**. Giọng vô danh của đối thủ **không phải điểm yếu** — đó là nết của ngách. *(nội dung cũ: mình gắn cá tính vào hook/aside/payoff → khác biệt + nhận diện AI/đối thủ không sao chép.
 2. **Khai thác lợi thế HÌNH** — pattern interrupt, callback, "that's you" làm **cả bằng hình doodle**, không chỉ bằng chữ.
 3. **Mỗi video ≥1 cú lật/góc đối thủ CHƯA làm** — vừa vượt vừa tránh reuse.

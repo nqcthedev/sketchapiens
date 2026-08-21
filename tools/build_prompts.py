@@ -26,18 +26,59 @@ def _nap(p, ten):
 _sd = os.path.join(VIDEO, "shot_data.py")
 if not os.path.exists(_sd):
     sys.exit(f"⛔ không thấy {_sd}")
-SHOTS = _nap(_sd, "shot_data").SHOTS
+_mod = _nap(_sd, "shot_data")
+SHOTS = _mod.SHOTS
+
+# 🔴 21/08/2026 — NỀN RIÊNG CỦA MỘT VIDEO
+# Trước đây mọi nền phải khai trong `identity/style.py`, file có biển "sửa là đổi bản
+# sắc cả kênh". V20 cần 6 nền chưa từng có (than tàn · hố khai quật · phòng thí nghiệm ·
+# bình minh · mặt đất đóng băng · nằm cạnh lửa), và cách duy nhất là sửa file bản sắc —
+# đúng thứ bị cấm. Nay video khai `BG_THEM = {...}` trong shot_data.py của chính nó.
+# ⚠️ Khi 2-3 video cùng dùng một nền, hãy NÂNG nó lên identity/style.py rồi bỏ khỏi đây.
+BG.update(getattr(_mod, "BG_THEM", {}))
+WHO.update(getattr(_mod, "WHO_THEM", {}))
+
+# 🔴 21/08/2026 — KIND KHÔNG CÓ MẶT TRONG KHUNG
+# V20 có 11 shot cận cảnh BÀN TAY / cẳng tay / vai, gồm cả khung CUỐI CÙNG của video.
+# Engine dán khối nhân vật đầy đủ ("đầu tròn trắng, hai mắt, tóc nâu, áo da rách") cộng
+# khối FACE vào cả những khung đó, nên model sẽ vẽ nguyên một người vào khung đáng lẽ
+# chỉ có một bàn tay. SCENE_N không cứu được: NO_PERSON cấm luôn "no hands".
+# Video khai kind riêng trong WHO_THEM, và liệt kê ở KHONG_MAT để engine bỏ khối FACE.
+KHONG_MAT = set(getattr(_mod, "KHONG_MAT", ()))
 
 
 def build(i, line, kind, subj, text, bg, face="flat"):
     n = f"{i:03d}"
-    p = []
+    # 🔴 11/08/2026 — STYLE LOCK đứng ĐẦU mọi prompt. Trước đây nét vẽ được neo bằng
+    # ẢNH THAM CHIẾU trong Google Flow; chủ đã bỏ phần đó, nên chữ phải gánh.
+    p = [STYLE_LOCK]
     if kind in WHO:
-        p.append(WHO[kind])
+        # 🔴 VÁ 11/08/2026 — SCENE_N vốn luôn dán khối ANIMAL ("con vật là điểm nhấn màu
+        # của khung"). 34/46 khung SCENE_N của V19 KHÔNG gọi tên con vật nào, nên model
+        # tự đẻ ra cáo, gấu, voi, chó xanh — kể cả khi shot ghi "no animal anywhere".
+        # Nay chỉ dán khối ANIMAL khi subject THẬT SỰ nhắc một con vật.
+        import re as _re
+        _CV = r"(?:lion|snake|wolf|hyena|leopard|bear|animal|prey|cat|dog|bird|elephant|mammoth|deer|horse|zebra)s?"
+        # bỏ mọi lần nhắc PHỦ ĐỊNH ("no animal", "never a fox") trước khi dò
+        _sach = _re.sub(r"\b(no|never|without)\s+" + _CV, "", subj, flags=_re.I)
+        _thuan = (kind == "SCENE_N"
+                  and not _re.search(r"\b" + _CV + r"\b", _sach, _re.I))
+        if _thuan:
+            # 🔴 VÁ LẠI 11/08 chiều — bản sáng nay để `pass` ở đây, tức prompt KHÔNG còn
+            # một dòng luật nào về người, và model lấp chỗ trống bằng thứ nó quen tay
+            # nhất: anh hiện đại đầu trọc mặc áo len. 28/46 khung SCENE_N hỏng đúng vì
+            # thế, gồm CẢ HAI KHUNG CUỐI VIDEO.
+            # Khoảng trống trong prompt không bao giờ là khoảng trống trên hình.
+            p.append(NO_PERSON)
+        else:
+            p.append(WHO[kind])
         p.append("ACTION IN THIS SHOT: " + subj + ". ")
-        p.append(FACE.get(face, FACE["flat"]))
+        # khung cảnh thuần thì KHÔNG dán khối FACE — dán vào là tự tay mời model vẽ mặt
+        # ... và khung cận một phần cơ thể cũng vậy: không có mặt thì đừng tả mặt
+        if not _thuan and kind not in KHONG_MAT:
+            p.append(FACE.get(face, FACE["flat"]))
         p.append(STYLE_SCENE)
-        p.append(framing(kind, subj))
+        p.append(framing(kind, subj, thuan=_thuan))
         p.append("SCENE: ONE single moment, " + BG[bg] + ". ")
         if "no text" in text.lower():
             p.append("TEXT: no text or letters anywhere. ")
@@ -46,6 +87,7 @@ def build(i, line, kind, subj, text, bg, face="flat"):
         p.append(NEG_SCENE)
     else:
         p.append(STYLE_CARD)
+        p.append(PERSON_IN_CARD)
         p.append("SUBJECT: " + subj + ". ")
         p.append(framing(kind, subj))
         p.append("SCENE: " + BG.get(bg, BG["white"]) + ". " + SAME_HAND)

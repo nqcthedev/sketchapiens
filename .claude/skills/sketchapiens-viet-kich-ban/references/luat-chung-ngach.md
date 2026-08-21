@@ -1,5 +1,23 @@
 # LUẬT CHUNG CỦA NGÁCH — áp cho MỌI video, mọi chủ đề
 
+> # ⛔ FILE THAM CHIẾU — CHƯA ĐƯỢC SOÁT CHO TỚI 09/08/2026, VÀ NÓ CHỨA LUẬT ĐÃ CHẾT
+>
+> Thư mục `references/` bị **bỏ sót** trong đợt soát toàn tầng kịch bản *(7 người soát chỉ
+> đọc `SKILL.md`, không mở thư mục này)*. Nó vẫn được skill nạp vào lúc viết.
+>
+> **Khi file này nói ngược `kho/1_luat/RUBRIC_KichBan.md` → nghe RUBRIC.**
+> **Khi nó nói ngược PHẦN 13-14 của `SKILL.md` → nghe PHẦN 13-14.**
+>
+> Những thứ trong đây **đã bị đo lại và bác** *(16-18 kênh · 488 bản ghi · đọc trọn 11 kịch bản)*:
+> `lane "về BẠN"` **0 cú nổ/4 tháng** · `câu tự giễu trong hook` **0 ca thắng** ·
+> `cliffhanger / báo trước phần hay ở cuối` **0 tuyệt đối ở 14/16 kênh** ·
+> `persona người dẫn` **0 ca thắng, BrightPsycho 0/96** · `I ≈ 0` **gỡ 07/08** ·
+> mọi **con số nhịp** *(Zenn Night 7,83M có 0 câu đùa)* · `mật độ mỏ neo` ·
+> `câu hỏi lõi trước giây 31` · `callback + bookend làm mục chấm`.
+>
+> ## 🔴 Và mọi câu tiếng Anh trong đây là câu của ĐỐI THỦ — đọc để biết register, **chép là clone**.
+
+
 *Đúc 27/07/2026 từ việc đọc TRỌN 9 transcript winner (7.81M · 2.97M · 1.87M · 597K · 551K · 428K · 311K · 302K · 302K), trải nhiều cụm chủ đề khác nhau (ban đêm · đời sống thường nhật · sinh tồn mùa đông).*
 
 **ĐỌC FILE NÀY MỖI LẦN VIẾT.** Không phụ thuộc chủ đề.
@@ -31,22 +49,38 @@ Mọi winner đều chỉ có **một** miếng người xem thực sự ăn. To
 | Paint It Simple 1.87M *(sinh tồn)* | Nhà xương voi ma mút ấm hơn ngoài trời **40-50°F**, ngang nhà trú Bắc Cực hiện đại — **quân đội nay dạy lại** thiết kế 20.000 năm tuổi |
 
 ### Đặt miếng ngon ở đâu
-Khoảng **60-70% bài**, rồi dành phần cuối ngân ra. **Không** để tận câu chót — cần chỗ cho dư âm.
+⚠️ **Không có vị trí chuẩn.** Đo 6 bài triệu view đọc trọn: chỗ đáp án chính rơi trải từ
+**10%** *(Stickly)* tới **93%** *(Mack)* — rải 83 điểm phần trăm.
+Thứ còn đúng: **đừng để tận câu chót**, cần chỗ cho dư âm. Và nếu đáp án đến **sớm**, phải
+hứa trước **hình dạng** của nó *("It's not one thing. It's never just one thing.")* để khán
+giả chuyển từ chế độ chờ-lời-giải sang chế độ gom-lớp.
 
 ---
 
-## 1. ⭐ TITLE NGÔI 3 · RUỘT "VỀ BẠN"
+## 1. ⭐ TITLE NGÔI 3 · ~~RUỘT "VỀ BẠN"~~ → **RUỘT CŨNG NGÔI BA** *(chủ chốt 10/08)*
 
 **Phát hiện quyết định của cả đợt nghiên cứu.** Video 7.81M của Zenn có payoff là:
 
 > *"Chúng ta gọi đó là mất ngủ và coi nó như một chứng bệnh. **Nhưng nếu nó không phải bệnh thì sao? Nếu thức dậy lúc 2 giờ sáng không phải là cơ thể bạn trục trặc, mà là cơ thể bạn đang NHỚ LẠI thứ nó được sinh ra để làm thì sao?**"*
 
-Đó chính xác là công thức "về BẠN". Nó ăn 7.8 triệu **vì title là ngôi thứ 3**: *"What Did Ancient Humans Do at Night?"*
+Đó chính xác là công thức "về BẠN", **và title là ngôi thứ 3**: *"What Did Ancient Humans Do at Night?"*
+
+> ⚠️ **Đừng gán 7,83 triệu cho công thức này.** Quả đó là **cú trúng số**: top-2 của Zenn chiếm
+> **70% tổng view**, trung vị thật của họ **30K**, và kênh **đang tụt** *(7 video mới: 9-16K)*
+> *(`kho/3_bangchung/BOCTACH_4Kenh_SoSanh_2026-08-04.md`)*. Vế đứng vững ở đây là **vế title**,
+> vì nó có nhóm đối chứng thật *(25 breakout ↔ 0)*. Vế "ruột" thì không có.
 
 Đối chiếu: index faceless-outliers ≥80K view, 4 tháng — truy vấn `ancient humans` ra **25 breakout**, `why do you` và `why your body` ra **0**.
 
-> **LUẬT: Title + thumbnail bán bằng "What/How/Why Did Ancient Humans…?". Ruột giữ cú lật "về BẠN".**
-> Đừng bao giờ đặt "you" vào title. Đặt "you" vào hook và vào payoff.
+> **LUẬT *(vế title — có đối chứng, giữ)*: Title + thumbnail bán bằng "What/How/Why Did Ancient
+> Humans…?". Đừng bao giờ đặt "you" vào title.**
+>
+> ⚠️ **Vế "ruột phải có cú lật về BẠN" KHÔNG phải luật — nó là MỘT trong ba khuôn đều thắng**
+> *(`kho/1_luat/RUBRIC_KichBan.md` §2.4)*:
+> chữ U *(Zenn Night · Ink Rain)* · ngôi hai xuyên suốt *(Axen 3,12M · Stickly 2,08M)* ·
+> **ngôi ba tuyệt đối — Calhoun 4,02M có `you` = 0 VÀ `I` = 0.**
+> Một bài 4 triệu view **không có chữ "you" nào** thì "ruột phải về BẠN" không thể là luật.
+> Ngôi kể là chuyện **VỊ TRÍ**, không phải chuyện bắt buộc.
 
 ---
 
@@ -76,7 +110,16 @@ Không hứa "bạn sẽ biết một sự thật hay". Hứa **thay đổi vĩn
 
 ---
 
-## 4. ⭐ MẬT ĐỘ MỎ NEO — 1 CÁI MỖI ~200 TỪ
+## 4. ~~⭐ MẬT ĐỘ MỎ NEO — 1 CÁI MỖI ~200 TỪ~~ ⛔ **ĐÃ CHẾT**
+
+> Đo lại trên 14-16 kênh: **mật độ mỏ neo không dự báo view**, 6/16 kênh cho tương quan
+> âm hoặc 0, **0 kênh ngược**. Chí mạng nhất: **Zenn bài 4,02 triệu view có 1 mỏ neo mỗi
+> ~820 từ** — cùng kênh với quả 7,81M dưới đây, **thưa gấp 3,6 lần**, vẫn triệu view.
+> SuperJoy hai bài dày mỏ neo nhất kho đều nửa dưới bảng. Axen chép **cả 5 mỏ neo** của
+> bài thắng → ăn **kém 67,5 lần**.
+>
+> **Thứ còn đúng:** mỏ neo phải **đủ cụ thể** *(tên + năm + nơi + số)* và **nén trong MỘT
+> câu**. Đó là register, không phải đòn bẩy. Số lượng thì tuỳ bài.
 
 Zenn nhồi **7+ mỏ neo cứng vào 1.598 từ**. Mỏ neo nào cũng có **tên + năm + tạp chí/nơi + con số**:
 Wiessner 2014 PNAS 80%/81% · Ekirch 2001 hơn 500 dẫn chiếu · Wehr 1992 NIMH đo prolactin · Wonderwerk Cave ~1 triệu năm · Edison 1879 · từ *curfew* ← *couvre-feu*.
@@ -117,7 +160,16 @@ Paint It Simple chỉ có **một** ý, chứng minh 7 lần dưới 7 lớp b�
 > **Zenn 7.81M:** *"**We traded all of that for** a light switch, **and most of us never even knew it was gone**."*
 > **Axen 2.97M:** *"**We traded** freedom **for** food security… **and most of us have no idea what we gave up because we never knew it was there**."*
 
-> ### KHUÔN: "Ta đã đổi ___ lấy ___ — và ta chưa từng biết mình đã mất gì."
+> ### ~~KHUÔN: "Ta đã đổi ___ lấy ___ — và ta chưa từng biết mình đã mất gì."~~
+>
+> # 🔴 ĐỪNG DÙNG KHUÔN NÀY. ĐÂY LÀ CÂU KẾT CỦA HỌ.
+>
+> Hai câu trên là **câu kết nguyên văn của Zenn và Axen**, cùng một khung cú pháp.
+> Dùng lại khung đó = **chép ở tầng NHỊP** — đúng loại lỗi đã cắn V19 *(V19 chép khung
+> `And [ai] [be] still [V]-ing, on a [nền]` của V18 với **0 từ khoá trùng**)*.
+> Cổng 3 của rubric chặn chính việc này.
+>
+> **Thứ được phép lấy là NỐT CẢM XÚC, không phải khung câu:**
 
 Nốt cảm xúc ngách này trả tiền cao nhất **không phải tự hào, không phải sợ** — mà là **một mất mát mình không hay biết**.
 
@@ -139,7 +191,13 @@ Căng thẳng xả hết → không còn gì mang đi → **không ai chia sẻ*
 
 ---
 
-## 9. ⭐ ĐỘ DÀI — NHẮM ~1.500 TỪ
+## 9. ~~⭐ ĐỘ DÀI — NHẮM ~1.500 TỪ~~ ⛔ **ĐÃ CHẾT**
+
+> n=9 ở đây cùng chiều, nhưng đo trong **nội bộ từng kênh** trên 16 kênh thì độ dài
+> **không dự báo view** *(rho ≈ 0, hai chiều ngược nhau)*. Phản ví dụ thẳng:
+> **Mack 3.206 từ → 1,69 triệu** · **Stickly 3.165 từ → 2,08 triệu** — cả hai vượt xa
+> "trần 2.200 từ" mà file này đặt ra.
+> **Độ dài là lựa chọn ĐỊNH VỊ, không phải chất lượng.**
 
 | View | Từ |
 |---|---|
@@ -156,7 +214,7 @@ Ba quả trên 1.8M lệch nhau **chưa tới 110 từ**. Không quả nào trê
 ## 10. ⭐ CÁC THIẾT BỊ GIỮ CHÂN (dùng ở mọi chủ đề)
 
 - **Đếm trước số tầng:** *"Nó không tấn công từ một hướng. Nó đến từ **bốn hướng cùng lúc**."* → người xem tự lập bảng đếm, ở lại tới khi đủ.
-- **Hứa quay lại giữa bài:** *"**We'll circle back to** what fire meant for those long dark nights shortly."*
+- ⛔ ~~**Hứa quay lại giữa bài:** *"We'll circle back to…"*~~ — **CHẾT.** Đây đúng họ cụm **hứa-hoãn**: grep 8 cụm cùng loại ra **0 tuyệt đối ở 14/16 kênh**; Zenn có đúng 1 bài dùng, bài đó **nhóm THẤP**.
 - **Đặt người xem vào thế thua** *(hợp chủ đề nguy hiểm)*: *"Nếu bị ném vào thế giới đó tối nay, bạn sẽ chết trước khi hết tuần. **Không phải vì bạn kém thông minh** — mà vì chỉ thông minh thôi chưa đủ."*
 
 ---
@@ -179,7 +237,7 @@ Ba quả trên 1.8M lệch nhau **chưa tới 110 từ**. Không quả nào trê
 - Axen dùng **"I"** (*"That's what I want to show you"*) — phá luật đại từ. Vẫn 597K.
 - Axen dùng **"!"** và đùa chính trị (*"scarcer than an honest politician"*).
 
-→ Luật của kênh mình **chặt hơn thị trường** (Zenn-lạnh, 0 dấu "!", không "I"). Giữ nguyên — đó là chất riêng. Nhưng biết rằng phá luật không tự động giết video.
+→ Luật của kênh mình **chặt hơn thị trường** (Zenn-lạnh, 0 dấu `!`). ⛔ ~~không "I"~~ **đã gỡ 07/08** — đo 18 kênh, 9/12 kênh có phép so sạch cho thấy bài dùng `I` **ăn hơn** *(Mack 9,18×)*. Người dẫn **được** có ý kiến riêng. Nhưng biết rằng phá luật không tự động giết video.
 
 ---
 ---
@@ -189,6 +247,12 @@ Ba quả trên 1.8M lệch nhau **chưa tới 110 từ**. Không quả nào trê
 Phần trên đúc từ **transcript**. Phần này đúc từ những thứ transcript không có: **bình luận người xem, mốc thời gian, và metadata**.
 
 ---
+
+> # ⭐⭐⭐ MỤC 13 VÀ MỤC 21 LÀ HAI MỤC GIÁ TRỊ NHẤT DỰ ÁN
+> Chúng nằm ở file này từ **27/07** và **không ai đọc tới** — vì `references/` bị bỏ sót
+> trong mọi đợt soát. Mục 13 là bản **sâu hơn** của luật duy nhất còn sống sau phép đối
+> chứng *(RUBRIC §2.8 — phép thử người xem tự chạy được)*. Đọc kỹ hai mục này hơn mọi mục
+> còn lại trong file.
 
 ## 13. 🔴🔴 PHÉP THỬ MÓN NGON THẬT — đọc từ 7.300 bình luận của quả 7.81M
 
@@ -250,7 +314,13 @@ Hai việc trong một comment: **(a)** câu hỏi khiến người xem tự nh�
 | **Explain In Paint** | 311K | **2 / 20:05** | **10 phút** ❌ |
 | **Infographics Show** | 428K | **1 / 15:16** | **15 phút** ❌ |
 
-> **LUẬT: móc lại mỗi ~2 phút. Không bao giờ để trôi quá 3 phút không móc.**
+> ⛔ ~~**LUẬT: móc lại mỗi ~2 phút.**~~ — **con số đã chết**, cùng loại với sáu con số nhịp
+> khác đã bị bác *(nhịp hài 30-60s · aside 40-60s · bucket brigade 20-30s · re-hook 60-90s ·
+> câu hỏi 60-90s · anachronism 30s)*. Mọi lần đo lại, nhịp bắt buộc đều không dự báo gì.
+>
+> **Thứ còn đứng ở bảng trên:** hai quả đáy **không phải thua vì dài** — chúng đi **10-15
+> phút mới móc một lần**. Đó là khoảng cách của sự **bỏ rơi**, không phải của một chỉ tiêu.
+> Hỏi *"đoạn này đã trôi bao lâu mà chưa mở gì mới?"*, đừng bấm đồng hồ.
 
 **Đây mới là cơ chế.** Độ dài chỉ là hệ quả — hai quả đáy bảng không thua vì dài, mà vì **đi 10-15 phút mới móc một lần**. Viết dài mà móc đều thì vẫn giữ được.
 
@@ -343,7 +413,7 @@ Sau khi ăn hết 9 quả, đây là những chỗ **winner đang yếu hoặc b
 | # | Chỗ đè | Bằng chứng họ yếu |
 |---|---|---|
 | 1 | **Mỏ neo tự đào** | Cả 9 quả xào lại đúng 5 mỏ neo (kim khâu · nhà xương ma mút · Wehr 1992 · Wiessner 80/81% · Pit of Bones). Ai đào được mỏ neo mới là **thắng ngay ở tầng nội dung**. |
-| 2 | **Nhịp móc dày hơn** | Winner cao nhất móc mỗi 1,7 phút. Mình đặt chuẩn **mỗi 90 giây** là đè được. |
+| ~~2~~ | ⛔ ~~**Nhịp móc dày hơn — chuẩn mỗi 90 giây**~~ | **Bịa một con số chặt hơn từ hư không.** Không có bằng chứng nào nói móc dày hơn thì ăn hơn — và nhịp bắt buộc đã bị bác bảy lần. |
 | 3 | **Hedge đúng mức** | Zenn 7.8M bị 1.000 like phản pháo vì khái quát quá rộng. Kênh mình đã có quy trình 3 vòng review → **uy tín cao hơn, bình luận ít cãi hơn**. |
 | 4 | **Description + nguồn** | Nhiều kênh để trống hoặc sơ sài. Bắt chước khối 6-7 của Axen rồi làm kỹ hơn. |
 | 5 | **Comment ghim** | Chỉ Zenn làm bài bản. Đa số bỏ trống. |

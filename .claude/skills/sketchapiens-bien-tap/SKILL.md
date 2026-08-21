@@ -34,6 +34,8 @@ không mở nexlev tra đề tài. Thấy thiếu nội dung thì **ghi vào s�
 Lệch chuẩn thì hỏi *"bài này có tầng đó không?"* — có mà thiếu thì bổ sung; **không có thì để
 yên**. Rắc chữ vào cho đủ chỉ tiêu đẻ ra câu *viết-để-được-khen*, đúng lỗi đã ghi trong
 `kho/1_luat/RUBRIC_KichBan.md`: *"ba câu mùi AI nặng nhất của V17 đều là câu thêm vào để thoả Tầng A."*
+*(⚠️ "Tầng A" là kiến trúc thang điểm — **đã bỏ 09/08**. Câu trích giữ nguyên vì nó chính là
+lý do bỏ: chấm theo ô đẻ ra câu viết-cho-đủ-ô. Nay chỉ còn **4 CỔNG** đạt/không-đạt.)*
 
 **Bốn con số đã bị đuổi theo sai ngày 06/08:**
 
@@ -41,7 +43,7 @@ yên**. Rắc chữ vào cho đủ chỉ tiêu đẻ ra câu *viết-để-đư�
 |---|---|
 | giác quan 7–9% | ❌ đo cùng một từ điển thì **V17 chỉ 5,2%**, V19 5,5%. Con số 7–9% đo bằng từ điển khác — **không so thẳng được** |
 | mỏ neo 3,2–5,1/phút | ❌ V19 đo ra **12,2** — thước khác nhau, không kết luận được |
-| hedge 1–3 | ✅ đúng. Báo cáo NotebookLM ghi "5 lần" là **sai**, đếm tay ra 1 |
+| hedge 1–3 | ⚠️ **nửa đúng.** Phép đếm đúng *(NotebookLM ghi "5 lần" là sai, đếm tay ra **1**)*, nhưng **con số 1-3 làm luật thì đã chết 09/08** — vấn đề là **CHỖ ĐẶT**: Ink Rain rào rất tử tế ở chương ít cần rào nhất rồi phát ngôn chắc nịch cho mệnh đề lớn gấp mười. **Rào đúng chỗ luận điểm yếu nhất**, không rào cho đủ số lần |
 | you : we = 1,5–2 | ⚠️ **không phải hằng số** — 4 winner ra 2,7 · 1,5 · 1,5 · 1,6, **chênh theo nội dung bài** |
 
 ---
@@ -51,16 +53,16 @@ yên**. Rắc chữ vào cho đủ chỉ tiêu đẻ ra câu *viết-để-đư�
 Script đã có sẵn trong skill này, **đã chạy thử trên file thật**:
 
 ```bash
-python3 ~/.claude/skills/sketchapiens-bien-tap/qa_kichban.py \
+python3 .claude/skills/sketchapiens-bien-tap/qa_kichban.py \
   "…/VideoNN_…/Script_VideoNN_narration.txt"
 ```
 
 Ví dụ kết quả thật *(V19, 06/08)*:
 
 ```
-  1428 từ · 8.0 phút · 162 câu
+  1488 từ · 8.4 phút · 149 câu     ← ⚠️ ví dụ cũ ghi 1428, đếm thật 1488
   CỨNG: '!' 0 (0) | '—' 0 (0) | 'I' 0 (≈0) | 3 câu dài liên tiếp: không
-  MỀM: câu hỏi 6 → 1 mỗi 80s (60-90) | câu<6từ 51 (31%, V17=37%) | dài TB 8.8 (V17=8.9)
+  ĐO (không phải ngưỡng): câu hỏi 6 → 1 mỗi 80s | câu<6từ 51 (31%, V17=37%) | dài TB 8.8 (V17=8.9)
   you 40 : we 2 = 20.0:1  ← LUẬT 0, không phải hằng số
 ```
 
@@ -70,15 +72,18 @@ Ví dụ kết quả thật *(V19, 06/08)*:
 |---|---|
 | Dấu `!` | **0** *(14/14 winner)* |
 | Gạch ngang `—` giữa câu | **0** *(TTS đọc vấp)* |
-| `I` đứng riêng | ≈ 0 |
-| Ba câu dài liên tiếp | **cấm** |
+| **Mỗi câu một dòng** | *(1 dòng = 1 shot ảnh + 1 khối TTS — thiếu là gãy pipeline chia shot)* |
+| ~~`I` đứng riêng~~ | ⛔ **GỠ 07/08** — người dẫn ĐƯỢC có ý kiến riêng *(9/12 kênh: bài dùng `I` ăn hơn, Mack 9,18×)* |
+| ~~Ba câu dài liên tiếp~~ | ⚠️ ghi nhận, không phải ràng buộc cứng |
 
 **Ngưỡng mềm — lệch thì đi soi, đừng vá bằng cách rắc chữ:** số câu hỏi · % câu ngắn ·
 độ dài câu TB · tỉ lệ you:we.
 
 **So với chính kênh mình, đừng so với con số trừu tượng.** V17 giữ chân **55,6%** — đó là mốc
-thật gần nhất. Chuẩn hiện hành: `178 wpm` · `dài câu TB 8,9` · `37% câu dưới 6 từ` · `1 chùm
-câu ngắn mỗi ~87 từ`.
+thật gần nhất. ⛔ **KHÔNG có "chuẩn hiện hành".** Bốn con số cũ *(178 wpm · dài câu TB 8,9 ·
+37% câu dưới 6 từ · 1 chùm câu ngắn mỗi ~87 từ)* đo từ **một video của chính mình** — V17,
+video **20 view**. Ink Explainer có **5%** câu mảnh, kênh mình 34%, cả hai đều sống. Dùng
+chúng làm mốc *biết mình đang ở đâu*, đừng dùng làm đích.
 
 ---
 

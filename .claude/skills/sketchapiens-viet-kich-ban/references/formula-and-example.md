@@ -1,5 +1,23 @@
 # Mổ xẻ công thức + ví dụ thật (calibrate khẩu vị — KHÔNG chép)
 
+> # ⛔ FILE THAM CHIẾU — CHƯA ĐƯỢC SOÁT CHO TỚI 09/08/2026, VÀ NÓ CHỨA LUẬT ĐÃ CHẾT
+>
+> Thư mục `references/` bị **bỏ sót** trong đợt soát toàn tầng kịch bản *(7 người soát chỉ
+> đọc `SKILL.md`, không mở thư mục này)*. Nó vẫn được skill nạp vào lúc viết.
+>
+> **Khi file này nói ngược `kho/1_luat/RUBRIC_KichBan.md` → nghe RUBRIC.**
+> **Khi nó nói ngược PHẦN 13-14 của `SKILL.md` → nghe PHẦN 13-14.**
+>
+> Những thứ trong đây **đã bị đo lại và bác** *(16-18 kênh · 488 bản ghi · đọc trọn 11 kịch bản)*:
+> `lane "về BẠN"` **0 cú nổ/4 tháng** · `câu tự giễu trong hook` **0 ca thắng** ·
+> `cliffhanger / báo trước phần hay ở cuối` **0 tuyệt đối ở 14/16 kênh** ·
+> `persona người dẫn` **0 ca thắng, BrightPsycho 0/96** · `I ≈ 0` **gỡ 07/08** ·
+> mọi **con số nhịp** *(Zenn Night 7,83M có 0 câu đùa)* · `mật độ mỏ neo` ·
+> `câu hỏi lõi trước giây 31` · `callback + bookend làm mục chấm`.
+>
+> ## 🔴 Và mọi câu tiếng Anh trong đây là câu của ĐỐI THỦ — đọc để biết register, **chép là clone**.
+
+
 File này phân tích 2 kịch bản thật đã viral của ngách để bạn *hiệu chỉnh khẩu
 vị*, không phải để sao chép. Học **kỹ thuật**, rồi áp cho chủ đề mới với nội dung
 gốc. Các trích đoạn dưới đây đều rất ngắn, chỉ để minh họa thủ pháp.
@@ -34,7 +52,7 @@ Cả hai trụ DÙNG CHUNG một engine: lấy quan sát đời thường → đ
 | Nhịp | "Smoking" (Trụ A) | "Animals Scared" (Trụ B) |
 |---|---|---|
 | 1. Nhập vai ngôi 2, hiện tại | "You're standing around a fire. It's 50,000 BC." | "You're walking through a forest. Birds explode out of the trees." |
-| 2. Hài / tương phản hiện đại | "There's no Netflix... no existential dread about your inbox." | "...a squirrel having a full existential crisis because you exist. And you're just standing there in your hiking boots, eating a granola bar." |
+| ~~2. Hài tự giễu / tương phản hiện đại~~ ⛔ **tự giễu ĐÃ CHẾT** | "There's no Netflix... no existential dread about your inbox." | "...a squirrel having a full existential crisis because you exist. And you're just standing there in your hiking boots, eating a granola bar." |
 | 3. Tia tò mò / khám phá | "...thought: what if I did that on purpose?" | "So what is actually going on here?" |
 | 4. Chốt đề bài | "This is the story of how humans discovered smoking." | "Why are they terrified of us? Of soft, slow, mostly hairless apes..." |
 | 5. Bẻ kỳ vọng / thu hẹp | "Not cigarettes, not cigars, not the guy outside the office..." | (gộp vào nhịp 4 — liệt kê vũ khí động vật có mà vẫn sợ ta) |
@@ -104,8 +122,9 @@ Dùng để *cảm* nhịp, hãy viết biến thể của riêng bạn:
   (Wonderwerk Cave; Ebers Papyrus 1550 BC; UWO 2016; Yellowstone 1995; Science
   2018). Hài cưỡi trên cái thật này.
 
-Nhịp chung: cứ ~30–60 giây lời đọc lại có một "nhịp thở" hài hoặc nhân cách hóa,
-xen giữa các dữ kiện.
+⛔ ~~Nhịp chung: cứ ~30–60 giây lại có một "nhịp thở" hài~~ — **con số đã chết**:
+Zenn Night **7,83 triệu view có 0 câu đùa** cả bài; Calhoun 4,02M cũng vậy.
+Vẫn cứ đùa nếu đùa hay, **không có nhịp bắt buộc**.
 
 ---
 
@@ -114,11 +133,11 @@ xen giữa các dữ kiện.
 Cả hai kết theo cùng kiểu:
 1. **Trả lời thật** (kể cả khi mơ hồ): smoking → "we don't know exactly, and we
    probably never will."
-2. **Zoom triết lý nối người xem:** smoking → "next time you catch a whiff of
-   wood smoke... you're doing what humans have always done. You're breathing."
-3. **Callback hình ảnh mở đầu:** smoking quay lại đống lửa; animals quay lại con
-   sóc — "The squirrel having a crisis on the lawn isn't being dramatic..." →
-   "The question is whether we're interesting enough to try."
+2. ⛔ ~~**Zoom triết lý nối người xem**~~ — cú xoay "họ→bạn" đã chết *(Calhoun 4,02M có
+   `you` = 0)*. Và câu mẫu `"Next time you…"` có nguyên văn trong **65/488 bản ghi đối thủ**.
+   Thay bằng: **câu cuối là câu KHẲNG ĐỊNH, chứa một vật thể cụ thể**.
+3. ⚠️ **Callback hình ảnh mở đầu** — cứ làm, nhưng **không phải đòn bẩy**: Stickly 47/47,
+   Zenn 28/28; bài 298 vpd callback sạch y như bài 7,83 triệu.
 
 Đây là phần biến "video hay" thành "video được chia sẻ + bình luận sâu". Đừng kết
 cụt kiểu "and that's the story. Thanks for watching."

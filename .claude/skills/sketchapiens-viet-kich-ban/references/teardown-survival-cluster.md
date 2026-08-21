@@ -1,5 +1,23 @@
 # Mổ xẻ CỤM SINH TỒN — 9 winner (bóc 27/07/2026)
 
+> # ⛔ FILE THAM CHIẾU — CHƯA ĐƯỢC SOÁT CHO TỚI 09/08/2026, VÀ NÓ CHỨA LUẬT ĐÃ CHẾT
+>
+> Thư mục `references/` bị **bỏ sót** trong đợt soát toàn tầng kịch bản *(7 người soát chỉ
+> đọc `SKILL.md`, không mở thư mục này)*. Nó vẫn được skill nạp vào lúc viết.
+>
+> **Khi file này nói ngược `kho/1_luat/RUBRIC_KichBan.md` → nghe RUBRIC.**
+> **Khi nó nói ngược PHẦN 13-14 của `SKILL.md` → nghe PHẦN 13-14.**
+>
+> Những thứ trong đây **đã bị đo lại và bác** *(16-18 kênh · 488 bản ghi · đọc trọn 11 kịch bản)*:
+> `lane "về BẠN"` **0 cú nổ/4 tháng** · `câu tự giễu trong hook` **0 ca thắng** ·
+> `cliffhanger / báo trước phần hay ở cuối` **0 tuyệt đối ở 14/16 kênh** ·
+> `persona người dẫn` **0 ca thắng, BrightPsycho 0/96** · `I ≈ 0` **gỡ 07/08** ·
+> mọi **con số nhịp** *(Zenn Night 7,83M có 0 câu đùa)* · `mật độ mỏ neo` ·
+> `câu hỏi lõi trước giây 31` · `callback + bookend làm mục chấm`.
+>
+> ## 🔴 Và mọi câu tiếng Anh trong đây là câu của ĐỐI THỦ — đọc để biết register, **chép là clone**.
+
+
 > ## ⚠️ ĐỌC TRƯỚC: phần lớn luật trong file này ĐÃ ĐƯỢC NÂNG LÊN THÀNH LUẬT CHUNG
 >
 > Những luật áp cho **mọi chủ đề** (món ngon · title-ngôi-3 · khuôn hook · mật độ mỏ neo ·
@@ -59,7 +77,11 @@ Nêu số → người xem tự lập bảng đếm trong đầu → ở lại t
 
 ---
 
-## 4. ⭐ "WE'LL CIRCLE BACK" — lời hứa quay lại GIỮA bài
+## 4. ~~⭐ "WE'LL CIRCLE BACK"~~ ⛔ **ĐÃ CHẾT** — đây là cụm HỨA-HOÃN
+
+> grep 8 cụm cùng họ *(stick around · by the end of this video · I'll come back to · hold that
+> thought…)* ra **0 tuyệt đối ở 14/16 kênh**. Zenn có đúng 1 bài dùng — bài đó **nhóm THẤP**.
+> **Cả ngách không dùng kỹ thuật này.** Thay bằng ba cơ chế nối chương ở `SKILL.md` §13.2.
 
 Skill đã có "để dành tầng đỉnh cho cuối". Cái mới là **hứa quay lại một chi tiết cụ thể giữa chừng**:
 
@@ -69,7 +91,11 @@ Mở một vòng nhỏ rồi cố tình để ngỏ. Rẻ, dễ cài, và tạo 
 
 ---
 
-## 5. ⭐ CÚ TÂNG DANH TÍNH ĐẶT Ở **HOOK**, không đợi tới kết
+## 5. ⚠️ CÚ TÂNG DANH TÍNH ĐẶT Ở **HOOK** — *(giữ, nhưng đọc cảnh báo)*
+
+> ⛔ *"Cú tâng danh tính"* ở **KẾT** đã chết — Calhoun **4,02 triệu view** có `you` = **0**.
+> Ở **hook** thì chưa ai đo, nên chưa bác. Nhưng đừng làm **cả hai đầu**: đó là lane "về BẠN"
+> *(0 cú nổ / 4 tháng)*. Một chỗ thôi.
 
 `viral-teardown.md` xếp "đó chính là BẠN" vào phần KẾT. Axen bắn ngay **giây thứ 27**:
 
@@ -129,7 +155,7 @@ Ba winner dùng **gần như y hệt** một bộ mỏ neo. Ai viết cụm này
 - **Axen dùng "I"**: *"That's what **I** want to show you."* — vi phạm luật đại từ (mục 4 `viral-teardown.md`). Vẫn 597K.
 - **Axen dùng "!"** và câu đùa chính trị: *"When food became scarcer than an honest politician."*
 
-→ Không có nghĩa luật sai. Nghĩa là **luật của kênh mình chặt hơn thị trường** (giọng Zenn-lạnh, 0 dấu "!", không "I"). Giữ nguyên luật kênh — đó là chất riêng — nhưng biết rằng vi phạm không tự động giết video.
+→ Không có nghĩa luật sai. Luật kênh mình chặt hơn thị trường (giọng Zenn-lạnh, 0 dấu `!`). ⛔ ~~không "I"~~ — **đã gỡ 07/08**: 9/12 kênh có phép so sạch cho thấy bài dùng `I` **ăn hơn** *(Mack 9,18×)*. Giữ nguyên luật kênh — đó là chất riêng — nhưng biết rằng vi phạm không tự động giết video.
 
 ---
 
@@ -141,7 +167,7 @@ Khi viết cụm sinh tồn (lạnh · đói · thú dữ · thiên tai · bện
 3. Cài **"circle back"** ở khoảng 1/5 bài (mục 4)
 4. Mỗi chương phải có **≥1 mỏ neo KHÔNG nằm trong bảng cháy** (mục 7)
 5. Kết = **reframe đặt tên** + **"Tonight, when you…"** (mục 6)
-6. Mặc định nhắm **1.400-1.800 từ** (xem B1 — cả 4 winner đều 1.300-1.600), ưu tiên câu ngắn hơn là nhồi thêm ý
+6. ⛔ ~~nhắm 1.400-1.800 từ~~ — độ dài đã chết, xem B1. Vẫn đúng: **ưu tiên câu ngắn hơn là nhồi thêm ý**
 7. **ĐỌC TIẾP PHẦN B** — tầng mega 7.8M/2.9M/1.87M có 10 luật khác hẳn tầng này, đặc biệt **B4 mật độ mỏ neo** và **B9 title-ngôi-3 + ruột-về-bạn**
 
 ---
@@ -161,8 +187,11 @@ Ba video **to nhất cả ngách**. Khác hẳn tầng 300-600K ở PHẦN A.
 
 Không phải trùng hợp. Cộng cả Oddlyhuman (1.296 từ / 551K) là **4/4 winner nằm trong 1.300-1.600 từ**.
 
-> **Kênh mình đang viết 3.000-3.500 từ. Gấp đôi.**
-> Mặc định từ nay: **1.400-1.800 từ**. Muốn dài hơn phải có lý do, không phải theo quán tính.
+> ⛔ **ĐÃ CHẾT 09/08.** Đo trong **nội bộ từng kênh** trên 16 kênh: độ dài **không dự báo view**
+> *(rho ≈ 0, hai chiều ngược nhau)*. Phản ví dụ thẳng: **Mack 3.206 từ → 1,69 triệu** ·
+> **Stickly 3.165 từ → 2,08 triệu** — cả hai vượt xa "trần 2.200 từ" mà file này đặt.
+> n=9 ở đây đều là **cụm sinh tồn / mùa đông**; đó là đặc tính của **cụm**, không phải của ngách.
+> **Độ dài là lựa chọn ĐỊNH VỊ.**
 
 ## B2. ⭐ HOOK = RA LỆNH / TIÊN ĐOÁN VỀ VÀI GIỜ TỚI CỦA NGƯỜI XEM
 
@@ -183,7 +212,11 @@ Không hứa "bạn sẽ biết một sự thật hay". Hứa **thay đổi vĩn
 > *"The answer is not what you think, and it **will permanently change how you look at your own home**."* (Paint It Simple)
 > *"The answer **changes everything we think we know** about sleep, storytelling, and what it means to be human."* (Zenn)
 
-## B4. 🔴 MẬT ĐỘ MỎ NEO — GẤP ĐÔI TẦNG DƯỚI
+## B4. ~~🔴 MẬT ĐỘ MỎ NEO — GẤP ĐÔI TẦNG DƯỚI~~ ⛔ **ĐÃ CHẾT**
+
+> Đo lại 14-16 kênh: mật độ mỏ neo **không dự báo view**. Chí mạng: **Zenn bài 4,02 triệu có
+> 1 mỏ neo mỗi ~820 từ** — cùng kênh với quả 7,81M dưới đây, **thưa gấp 3,6 lần**, vẫn triệu
+> view. Danh sách mỏ neo dưới đây vẫn quý — nhưng vì nó là **BẢNG CHÁY**, không vì mật độ.
 
 Zenn nhồi **7+ mỏ neo cứng vào 1.598 từ = 1 mỏ neo mỗi ~200 từ**, và mỏ neo nào cũng có **tên + năm + tạp chí + con số**:
 
@@ -195,7 +228,7 @@ Zenn nhồi **7+ mỏ neo cứng vào 1.598 từ = 1 mỏ neo mỗi ~200 từ**,
 - Từ **curfew** ← *couvre-feu* = "phủ lửa"
 - Cắm trại 1 tuần không đèn → melatonin lùi lại **~2 giờ**
 
-→ Tầng 300-600K chỉ có 4-5 mỏ neo và **dùng chung nhau** (bảng cháy mục 7). Tầng mega thắng bằng **mật độ + độ cụ thể**.
+→ Tầng 300-600K chỉ có 4-5 mỏ neo và **dùng chung nhau** (bảng cháy mục 7). ⛔ ~~Tầng mega thắng bằng mật độ~~ — thứ còn đúng là **độ cụ thể** *(tên + năm + nơi + số, nén trong MỘT câu)*, không phải số lượng.
 
 ## B5. ⭐ CHẶN PHẢN BIỆN CỦA NGƯỜI XEM GIỮA BÀI
 
@@ -230,7 +263,29 @@ Khác hẳn tầng dưới (Axen-winter kết bằng "we beat winter"). Hai qu�
 
 Buồn > hào hùng ở tầng này. Nó để lại một lỗ hổng trong lòng người xem — thứ khiến người ta bình luận và chia sẻ.
 
-## B9. 🔴🔴 PHÁT HIỆN QUAN TRỌNG NHẤT — ZENN 7.8M **LÀ MỘT VIDEO "VỀ BẠN"**, CHỈ LÀ TITLE NGÔI 3
+## B9. ⛔ ~~PHÁT HIỆN QUAN TRỌNG NHẤT — ZENN 7.8M LÀ MỘT VIDEO "VỀ BẠN"~~ — **BÁC BỎ 10/08/2026**
+
+> # 🔴 CHỦ RA LỆNH: KÊNH LÀM NGÁCH CỔ ĐẠI, NGÔI BA. KHÔNG NÓI VỀ BẠN.
+>
+> Mục B9 và D4 dưới đây là **gốc** của mọi câu "ruột giữ cú lật về BẠN" trong cả kho.
+> Cả hai dựng trên **đúng một quả** — và quả đó là **cú trúng số**:
+> top-2 của Zenn chiếm **70% tổng view**, trung vị thật **30K**, kênh **đang tụt**
+> *(7 video mới: 9-16K)*, và chỉ **5/29** video của họ là ancient humans.
+>
+> **Ba thứ bác nó:**
+> 1. **Verify 27/07** — lane "về BẠN" **0 cú nổ / 4 tháng**; ngôi-3 **25 breakout ≥80K**.
+>    Truy vấn `why do you` và `why your body` ra **0**.
+> 2. **Calhoun 4,02 triệu view có `you` = 0 VÀ `I` = 0.** Một bài 4 triệu không có
+>    chữ "you" nào thì "ruột phải về BẠN" không thể là luật.
+> 3. **11/15 video cũ của kênh xây trên đúng công thức này và flop hết.**
+>
+> ⛔ Và "công thức Cơ thể Đồ Đá" mà mục này viện dẫn **cũng đã chết** — cùng một lane.
+>
+> ✅ **Thứ duy nhất sống sót từ mục này là VẾ TITLE:** bán bằng
+> *"What/How/Why Did Ancient Humans…?"*, đừng bao giờ đặt "you" vào title.
+> Vế đó có nhóm đối chứng thật *(25 ↔ 0)*. Vế "ruột" thì không có.
+>
+> *Nội dung cũ giữ lại để biết đã từng tin gì:*
 
 Đọc đoạn payoff của video 7.8M:
 
@@ -240,8 +295,13 @@ Buồn > hào hùng ở tầng này. Nó để lại một lỗ hổng trong lò
 
 Nó ăn **7.8 triệu view** với đúng công thức đó — **vì title là ngôi thứ 3**: *"What Did Ancient Humans Do at Night?"*, không phải *"Why Do You Wake Up at 3AM?"*.
 
-> **KẾT LUẬN CHỐT: chất kênh mình không sai. Chỉ có cái nhãn trên quả là sai.**
-> Title + thumbnail bán bằng **"What/How Did Ancient Humans…?"**. Ruột giữ nguyên cú lật "về BẠN". Đó là phương án C, và Zenn đã chứng minh nó ở mức 7.8M.
+> ⛔ ~~**KẾT LUẬN CHỐT: chất kênh mình không sai. Chỉ có cái nhãn trên quả là sai.**~~
+> ~~Ruột giữ nguyên cú lật "về BẠN". Đó là phương án C, và Zenn đã chứng minh nó ở mức 7.8M.~~
+>
+> **Câu này sai ở chỗ đắt nhất:** nó nói chất kênh không sai, nên 4 tháng sau kênh vẫn viết
+> đúng cái ruột đó. Zenn **không chứng minh** gì cả — n = 1, và là cú trúng số *(xem B9)*.
+>
+> ✅ **Còn lại đúng một vế:** title + thumbnail bán bằng **"What/How/Why Did Ancient Humans…?"**.
 
 ## B10. ⛔ ANTI-PATTERN QUAN SÁT ĐƯỢC — ĐỪNG BẮT CHƯỚC
 
@@ -273,7 +333,7 @@ Nó ăn 1.87M. **Mình vẫn KHÔNG làm.** Vi phạm chính sách reused conten
 - **Không video nào trên 2.200 từ vượt được 600K.**
 - Hai quả dài nhất (3.304 và 3.534 từ) nằm **đáy** bảng.
 
-→ Đây là tương quan, không phải nhân quả đã chứng minh. Nhưng 9/9 mẫu cùng chiều thì đủ để đặt mặc định: **nhắm 1.500 từ. Vượt 2.200 từ là tự hạ trần.**
+→ ⛔ ~~nhắm 1.500 từ, vượt 2.200 là tự hạ trần~~ — **đã chết**, xem B1. Chín mẫu ở đây cùng một cụm chủ đề, nên chúng đo **cụm**, không đo ngách. Mack và Stickly ở 3.200 từ đều triệu view.
 
 ## C2. ⭐⭐ LUẬT SẮC NHẤT — KẾT PHẢI MỞ VẾT THƯƠNG, ĐỪNG BĂNG NÓ LẠI
 
@@ -349,15 +409,27 @@ Mọi thứ ở PHẦN A/B/C là **cái đĩa**. Đây là **món**.
 
 - **Một video = MỘT miếng ngon.** Không phải bảy. Tìm cho ra nó **trước khi viết dòng đầu tiên**. Nếu chưa gọi tên được miếng ngon trong 2 câu thì chưa được viết.
 - **Toàn bộ bài là đường dẫn tới miếng đó.** Hook hứa nó. Các chương giữa dựng điều kiện để nó nổ. Kết ngân nó ra.
-- **Đặt miếng ngon ở đâu:** Zenn để ở khoảng **60-70% bài** (phút 5-6 của 8:33), rồi dành 2 phút cuối để ngân. Không để tận câu chót — cần chỗ cho dư âm.
+- **Đặt miếng ngon ở đâu:** ⚠️ **không có vị trí chuẩn** — đo 6 bài triệu view, chỗ đáp án chính rơi trải từ **10%** *(Stickly)* tới **93%** *(Mack)*. Zenn để ở 60-70% là **một cách**, không phải luật. Vẫn đúng: **đừng để tận câu chót**, cần chỗ cho dư âm.
 - **Bối cảnh không phải món.** Nhiệt độ, tảng băng, mực nước biển, danh sách thú khổng lồ — đó là gia vị. Hai quả yếu nhất (428K, 311K) dành nhiều phút nhất cho bối cảnh và **không có miếng nào nổi bật**.
 - **Miếng ngon phải TỰ ĐÀO.** Nếu miếng của mình nằm trong bảng mỏ neo cháy (mục 7) thì người xem đã ăn rồi ở video khác — hết ngon.
 
 ## D4. ÁP CHO KÊNH MÌNH
 
-Kênh có sẵn lợi thế mà 9 quả kia không có: **trục "về BẠN"**. Miếng ngon mạnh nhất của Zenn (7.8M) chính là một miếng "về bạn" — *cơ thể bạn vẫn giữ nhịp cũ*.
+> ⛔ ~~Kênh có sẵn lợi thế mà 9 quả kia không có: **trục "về BẠN"**~~ — **BÁC BỎ 10/08**, xem khối đỏ ở **B9**.
+> Đó không phải lợi thế; đó là lane kênh đã chạy 11/15 video và **flop hết**.
 
-→ Khi tìm miếng ngon cho mỗi tập, ưu tiên miếng **chạm vào cơ thể hoặc thói quen người xem đang có hôm nay**, rồi bọc ngoài bằng title ngôi 3. Đó là chỗ giao giữa cái kênh giỏi nhất và cái thị trường trả tiền nhất.
+✅ **Luật thay — miếng ngon nằm ở CHÍNH NGƯỜI CỔ ĐẠI:**
+tìm miếng mà **người xem chưa từng nghe về đời sống cổ đại**, kể ở **ngôi ba**, rồi bán bằng
+title *"What/How/Why Did Ancient Humans…?"*.
+
+Ba câu hỏi thay cho câu "có chạm vào cơ thể người xem không":
+- Miếng này **cụ thể** tới mức nào? *(một hiện vật, một địa danh, một con số — không phải một khái niệm)*
+- Nó có nằm trong **bảng mỏ neo cháy** không? *(người xem đã ăn ở video khác thì hết ngon)*
+- **Xoá nó đi thì bài gãy ở đâu?** *(không trả lời được = nó là bối cảnh, không phải miếng ngon)*
+
+⚠️ **Một ngoại lệ, và chỉ một:** `RUBRIC_KichBan.md` §2.8 — **một câu** ở 85-95% bảo người xem
+tự tính một con số trên đời họ. Đó là **một câu ở gần cuối**, không phải ruột bài, và nó
+**không chặn đăng** *(p ≈ 0,08, mỗi phía một phản ví dụ)*.
 
 ---
 ---
@@ -376,7 +448,17 @@ Hai video to nhất cả ngách, hai chủ đề khác nhau, kết bằng gần 
 
 Đối chiếu Explain In Paint (311K) dùng đúng khuôn đó rồi **đùa cho tan**: *"…which is, on balance, a tremendous trade. No complaints."* → xả hết căng thẳng, mất luôn cú rung.
 
-**→ Luật: kết bằng khuôn "we traded", KHÔNG đóng lại, KHÔNG đùa.**
+> # 🔴 ĐỪNG DÙNG KHUÔN "we traded ___ for ___" — ĐÓ LÀ CÂU KẾT CỦA HỌ
+>
+> Hai câu trên là **câu kết nguyên văn của Zenn và Axen**, cùng một khung cú pháp. Dùng lại
+> khung đó là **chép ở tầng NHỊP** — đúng loại lỗi đã cắn V19 *(chép khung câu kết của V18
+> với 0 từ khoá trùng)*. Cổng 3 của rubric chặn chính việc này.
+>
+> ⚠️ Lệnh này xuất hiện **hai lần** trong `references/` *(ở đây và `luat-chung-ngach.md` §8)* —
+> đó là lệnh nguy hiểm nhất trong cả thư mục.
+>
+> **→ Luật thật: kết bằng NỐT MẤT MÁT, KHÔNG đóng lại, KHÔNG đùa. Tự viết câu của mình.**
+> Nốt cảm xúc lấy được; khung câu thì không.
 
 ## E2. MÓN NGON THẬT CỦA AXEN 2.97M — không phải "15-20 giờ/tuần"
 
@@ -405,8 +487,16 @@ Nó không kể một sự thật — nó **định nghĩa lại toàn bộ kế
 
 Cùng mỏ neo, cùng con số (6-8 ft · 20-30° · 40-50° · 200 lb · 26.000 năm), cùng câu kết. **Được 16% view.**
 
+> ⚠️ **HAI FILE TRONG THƯ MỤC NÀY KẾT LUẬN NGƯỢC NHAU TỪ CÙNG BẰNG CHỨNG.**
+> `luat-chung-ngach.md` §11 đọc đúng cặp số này thành *"chép **vẫn nổ** — đừng tưởng đề tài
+> trùng thì chết"*; mục này đọc thành *"chép là **vô ích**"*.
+> **Đọc đúng:** 302K **là** một cú nổ với kênh 2.070 sub *(outlier ~30 lần)* — nên chép
+> **không chết**. Nhưng nó chỉ với tới **16% trần** — nên chép **không thắng**.
+> Và với kênh mình, lý do không chép **không phải hiệu quả mà là chính sách**: kênh sắp bật
+> ads, reused content xét theo **KÊNH**, và một kênh của chủ đã bị sập vì đúng chuyện đó.
+
 **Ba hệ quả:**
-1. **Chép kịch bản là vô ích** — ngoài chuyện vi phạm reused content, nó đơn giản là không ăn.
+1. **Chép không chết, nhưng không với tới trần** — và với kênh mình thì lý do không chép là **chính sách**, không phải hiệu quả.
 2. **Biến số quyết định nằm ngoài chữ** — cùng chữ mà chênh 6 lần thì phần chênh nằm ở thumbnail/title/kênh.
 3. **Nhưng chữ vẫn là sàn.** Chữ dở thì không có cửa. Chữ hay không đủ thắng, nhưng thiếu nó thì chắc chắn thua.
 

@@ -122,7 +122,7 @@ Mật độ "you" xếp đúng thứ tự view ở **4/5 quả** (Senn phá mẫ
 
 Kịch bản đạt chuẩn là **điều kiện cần** (giữ tỉ lệ like khi người ta đã bấm), **không phải điều kiện đủ**.
 
-→ Viết cho **qua rubric ≥62/72 rồi dừng**. Đừng đổ thêm giờ để văn hay hơn winner — NightLore đã chứng minh văn hay không cứu được ai. Thời gian tiết kiệm được dồn hết sang **thumbnail + title**.
+→ Viết cho **qua 4 CỔNG rồi dừng** *(thang điểm đã bỏ 09/08)*. Đừng đổ thêm giờ để văn hay hơn winner — NightLore đã chứng minh văn hay không cứu được ai. Thời gian tiết kiệm được dồn hết sang **thumbnail + title**.
 
 ## 🔑 GHI NHẬN VỀ NOTEBOOKLM — RÀNG BUỘC "MỘT VIDEO MỘT LẦN" ĐÃ CHỮA ĐƯỢC LỖI
 

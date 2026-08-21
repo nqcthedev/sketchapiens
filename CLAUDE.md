@@ -3,6 +3,22 @@
 > Kênh YouTube faceless người-que, ngách **Ancient Humans Explained**, lời đọc **tiếng Anh**, tài liệu **tiếng Việt**.
 > File này chỉ giữ luật **phải biết trong mọi phiên**. Luật theo khu vực nằm ở `.claude/rules/`.
 
+> # 🔴 LỆNH ĐẦU TIÊN CỦA MỌI PHIÊN ĐỘNG VÀO MỘT VIDEO
+>
+> ```
+> python3 tools/preflight.py videos/<VideoDir>
+> ```
+>
+> Nó in **10 cổng kịch bản + 6 cổng sản xuất**, thoát mã lỗi nếu thiếu.
+> **Cổng nào chưa có DẤU VẾT thì cổng đó CHƯA CHẠY** — không tính là đã làm vì "nhớ là có làm".
+>
+> **Vì sao có luật này:** 10/08/2026 chủ phải nhắc **bảy lần trong một buổi**, và cả bảy đều là
+> thứ **đã nằm sẵn trong kho**. Không thiếu thông tin — thiếu thứ CHẶN. Cùng ngày
+> `validate_shots.py` bắt được lỗi **thiếu nguyên một dòng lời đọc** mà đọc tay ba lượt không thấy.
+>
+> ⛔ **Khi trình kết quả, LUÔN kèm danh sách thứ CHƯA làm.** Chủ không cần bản báo cáo đẹp.
+> Cổng chưa chạy thì **nói CHƯA**, đừng im rồi chờ bị hỏi.
+
 ## 0. ĐỌC GÌ TRƯỚC
 
 | Câu hỏi | File |
@@ -105,7 +121,13 @@ Nếu thấy khoá trong file: báo vị trí + loại, **không in giá trị**
 ## 7. NGÔN NGỮ & DUYỆT
 
 - Lời đọc: **tiếng Anh**. Trao đổi và tài liệu: **tiếng Việt**.
-- ⛔ **Bỏ bảng EN+VI** *(chủ chốt 07/08/2026: không đọc cột dịch)*. Trình **thẳng lời đọc tiếng Anh**.
+- 🔴 **VIẾT TIẾNG VIỆT TRƯỚC, TIẾNG ANH SAU CÙNG** *(chủ chốt 20/08/2026)*.
+  Viết kịch bản tiếng Việt cho tự nhiên → chủ **nghe** bằng TTS → sửa tới khi duyệt → **rồi mới**
+  viết sang tiếng Anh **một lần**. **Vì sao:** V20 viết Anh trước nên phải dịch lại **18 lần**;
+  lần soát cuối ra **12 lỗi, 8 cái chỉ có ở bản dịch**. Chủ chấm bằng **tai trên bản tiếng Việt** —
+  nếu đó là bản dịch thì chủ đang duyệt một bản méo. Chi tiết: `SKILL.md` PHẦN 13.
+- ⛔ **Bỏ bảng EN+VI** *(chủ chốt 07/08/2026: không đọc cột dịch)*. Luật đó cấm **bảng song ngữ
+  đặt cạnh nhau để duyệt** *(V19 lệch 22 dòng)* — **không** cấm viết Việt trước rồi chuyển sang Anh.
   Bằng chứng: `DUYET_V19_EN_VI.md` lệch kịch bản **22 dòng** qua hai vòng review mà không ai thấy;
   12/18 video chưa từng có bảng duyệt nào vẫn sản xuất bình thường. Dịch chỉ khi chủ hỏi một câu cụ thể.
 - Chất lượng tiếng Anh là việc của AI. Việc của chủ là **gu và quyết định**, không phải rà câu chữ.

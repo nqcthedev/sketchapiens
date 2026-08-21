@@ -97,10 +97,23 @@ Và họ nói thẳng: *"đường vào YPP năm 2026 sẽ chậm hơn, **đặc
 ### Rẻ, làm ngay
 1. **Mô tả video kèm danh sách nguồn có DOI** — đúng thứ Ink Explainer làm. Đây là bằng chứng "nghiên cứu gốc" nhìn thấy được.
 2. **Bỏ lối lấy nguyên si title winner.** Cùng cụm, nhưng **cắt lát riêng**.
+
+   > ## ⚖️ PHÂN BIỆT — KHUÔN thì được, TITLE NGUYÊN SI thì không *(làm rõ 09/08)*
+   > `LUAT_ChonDeTai.md` khuyến nghị khuôn **`When Did Ancient Humans First ___?`**
+   > *(287.075 view TB / 159 video)*. Điều đó **không** mâu thuẫn với mục này:
+   >
+   > | | |
+   > |---|---|
+   > | ✅ **KHUÔN** — cú pháp câu hỏi của cả ngách | quy ước thể loại, như "Top 10…" hay "Tôi đã thử…". 42 video dùng khuôn `How Did Ancient Humans…`, không ai bị phạt |
+   > | ⛔ **TITLE NGUYÊN SI** — chép cả cụm danh từ của một video cụ thể | *"The CRAZIEST Survival Methods Used by Ancient Humans"* → đây là **template**, đúng thứ YouTube nêu |
+   >
+   > **Phép thử:** điền vào khuôn xong, tra live. Nếu **đã có kênh khác dùng đúng cụm đó** →
+   > đổi chất/đổi lát cắt, đừng đăng chồng. Hai ô còn trống *(đường · nấu chín)* chưa ai
+   > chiếm chính diện.
 3. **Đừng đăng chùm.** Cả 4 kênh sập đều đăng 10-14 video/ngày — đúng vân tay hàng loạt.
 
 ### Vừa, nên làm
-4. **Thêm một giọng người thật vào kênh.** Không cần lộ mặt. Chỉ cần: một câu mở đầu của chính chủ, hoặc phần "vì sao tôi làm video này", hoặc trả lời bình luận bằng giọng thật. Đây là thứ trực tiếp đánh vào tiêu chí *"bạn có phải giọng thật đứng sau kênh"*.
+4. 🔴 **CHƯA LÀM TÍNH TỚI 09/08 — và đây là một trong ba dòng đỏ.** Thêm một giọng người thật vào kênh. Không cần lộ mặt. Chỉ cần: một câu mở đầu của chính chủ, hoặc phần "vì sao tôi làm video này", hoặc trả lời bình luận bằng giọng thật. Đây là thứ trực tiếp đánh vào tiêu chí *"bạn có phải giọng thật đứng sau kênh"*.
 5. **Mỗi video một thứ không copy được** — một góc nhìn, một câu hỏi riêng, một chỗ thừa nhận không biết.
 
 ### Không cần lo
@@ -137,20 +150,20 @@ Và: *"making the next channel that's making all the same kind of stuff is just 
 
 ## Điều này đá vào đâu trong quy trình của mình
 
-Phương pháp **"hàn title theo winner"** (`chon-de-tai-trong-ngach`, `HE_THONG_KichBan_v2` PHẦN C) tốt cho việc **được tìm thấy**, nhưng đi một mình thì rơi thẳng vào nhóm bị loại.
+Phương pháp **"hàn title theo winner"** (`sketchapiens-chon-de-tai`, `HE_THONG_KichBan_v2` PHẦN C) tốt cho việc **được tìm thấy**, nhưng đi một mình thì rơi thẳng vào nhóm bị loại.
 
 Đo thật 05/08: mọi đề tài tra ra ~20 kênh, mở bài gần trùng nhau —
 *"Right now, you check your phone…"* · *"Tonight, you turn on the AC…"* · *"You scroll past a video of…"*
 V18 của mình mở bằng *"Tonight you will go to bed behind a door that locks."* **Cùng khuôn.**
 
-→ **Luật thêm vào cửa 1:** mỗi video phải có **ít nhất MỘT thứ mà 20 kênh kia không có** — góc kể riêng · mỏ neo khoa học chưa ai dùng · nhân vật xuyên suốt · kết cấu riêng. Không có thì chưa qua cửa.
+→ **Luật này nay là vế thứ ba của CỔNG 3** trong `RUBRIC_KichBan.md` *(sửa 09/08 — trước đó nó ghi "thêm vào cửa 1", nhưng cửa 1 bị rút gọn cùng ngày nên luật **không thuộc cửa nào** suốt mấy ngày)*: mỗi video phải có **ít nhất MỘT thứ mà 20 kênh kia không có** — góc kể riêng · mỏ neo khoa học chưa ai dùng · nhân vật xuyên suốt · kết cấu riêng. Không có thì chưa qua cửa.
 
 ## Ba điều làm rõ khác
 
 | Điều | Nghĩa cho mình |
 |---|---|
 | **Công cụ không bị tính** — *"if you make it with gen AI, great"* | TTS + ảnh AI **không** phải vấn đề. Ngừng lo chuyện đó |
-| **YPP xét theo KÊNH, không theo video** · ngưỡng là **tỉ lệ** | ⚠️ **V15 hỏng đang công khai kéo cả hồ sơ kênh xuống.** Hạ xuống riêng tư trước khi nộp YPP |
+| **YPP xét theo KÊNH, không theo video** · ngưỡng là **tỉ lệ** | 🔴 **V15 hỏng VẪN ĐANG CÔNG KHAI tính tới 09/08** — treo từ **29/07**, đã 11 ngày. Chỉ chủ hạ được *(D-17)*. Mỗi ngày để đó là một ngày hồ sơ kênh bị kéo xuống |
 | Bị report bao nhiêu lần **cũng không ảnh hưởng** | bỏ nỗi lo bị đối thủ report |
 | Trượt YPP: khiếu nại **21 ngày**, nộp lại **90 ngày** | trượt không phải án tử, nhưng mất một quý |
 

@@ -1,0 +1,564 @@
+file '/Users/admin/Downloads/Batch_Output_282 (1)/001.png'
+duration 1.800000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/002.png'
+duration 2.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/003.png'
+duration 2.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/004.png'
+duration 1.133333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/005.png'
+duration 3.100000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/006.png'
+duration 2.700000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/007.png'
+duration 1.800000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/008.png'
+duration 1.966667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/009.png'
+duration 2.266667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/010.png'
+duration 1.366667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/011.png'
+duration 1.400000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/012.png'
+duration 2.500000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/013.png'
+duration 0.866667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/014.png'
+duration 3.400000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/015.png'
+duration 2.266667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/016.png'
+duration 2.100000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/017.png'
+duration 1.600000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/018.png'
+duration 2.600000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/019.png'
+duration 1.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/020.png'
+duration 1.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/021.png'
+duration 2.666667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/022.png'
+duration 2.600000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/023.png'
+duration 1.433333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/024.png'
+duration 1.733333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/025.png'
+duration 2.366667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/026.png'
+duration 1.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/027.png'
+duration 1.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/028.png'
+duration 1.966667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/029.png'
+duration 3.800000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/030.png'
+duration 2.333333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/031.png'
+duration 2.633333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/032.png'
+duration 2.733333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/033.png'
+duration 1.900000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/034.png'
+duration 1.900000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/035.png'
+duration 2.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/036.png'
+duration 1.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/037.png'
+duration 2.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/038.png'
+duration 2.066667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/039.png'
+duration 3.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/040.png'
+duration 1.866667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/041.png'
+duration 1.833333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/042.png'
+duration 1.733333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/043.png'
+duration 2.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/044.png'
+duration 1.100000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/045.png'
+duration 2.166667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/046.png'
+duration 1.666667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/047.png'
+duration 1.900000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/048.png'
+duration 2.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/049.png'
+duration 2.400000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/050.png'
+duration 2.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/051.png'
+duration 3.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/052.png'
+duration 2.400000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/053.png'
+duration 1.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/054.png'
+duration 1.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/055.png'
+duration 2.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/056.png'
+duration 1.700000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/057.png'
+duration 2.366667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/058.png'
+duration 1.900000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/059.png'
+duration 2.166667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/060.png'
+duration 0.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/061.png'
+duration 3.133333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/062.png'
+duration 2.366667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/063.png'
+duration 2.966667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/064.png'
+duration 2.333333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/065.png'
+duration 1.333333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/066.png'
+duration 1.866667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/067.png'
+duration 1.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/068.png'
+duration 2.633333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/069.png'
+duration 3.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/070.png'
+duration 3.166667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/071.png'
+duration 2.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/072.png'
+duration 2.633333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/073.png'
+duration 1.666667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/074.png'
+duration 1.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/075.png'
+duration 1.600000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/076.png'
+duration 2.333333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/077.png'
+duration 2.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/078.png'
+duration 1.500000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/079.png'
+duration 3.633333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/080.png'
+duration 2.900000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/081.png'
+duration 1.333333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/082.png'
+duration 1.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/083.png'
+duration 1.900000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/084.png'
+duration 1.533333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/085.png'
+duration 1.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/086.png'
+duration 4.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/087.png'
+duration 1.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/088.png'
+duration 4.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/089.png'
+duration 2.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/090.png'
+duration 3.033333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/091.png'
+duration 2.233333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/092.png'
+duration 1.866667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/093.png'
+duration 1.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/094.png'
+duration 3.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/095.png'
+duration 2.866667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/096.png'
+duration 3.633333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/097.png'
+duration 1.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/098.png'
+duration 3.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/099.png'
+duration 3.600000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/100.png'
+duration 1.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/101.png'
+duration 2.633333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/102.png'
+duration 3.066667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/103.png'
+duration 2.900000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/104.png'
+duration 2.500000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/105.png'
+duration 2.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/106.png'
+duration 2.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/107.png'
+duration 2.433333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/108.png'
+duration 1.333333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/109.png'
+duration 3.233333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/110.png'
+duration 2.266667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/111.png'
+duration 2.700000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/112.png'
+duration 1.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/113.png'
+duration 2.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/114.png'
+duration 3.166667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/115.png'
+duration 2.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/116.png'
+duration 2.133333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/117.png'
+duration 3.100000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/118.png'
+duration 3.133333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/119.png'
+duration 3.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/120.png'
+duration 2.700000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/121.png'
+duration 4.033333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/122.png'
+duration 2.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/123.png'
+duration 3.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/124.png'
+duration 2.400000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/125.png'
+duration 1.700000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/126.png'
+duration 2.700000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/127.png'
+duration 1.666667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/128.png'
+duration 4.100000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/129.png'
+duration 2.266667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/130.png'
+duration 3.600000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/131.png'
+duration 2.433333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/132.png'
+duration 1.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/133.png'
+duration 5.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/134.png'
+duration 1.733333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/135.png'
+duration 4.100000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/136.png'
+duration 2.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/137.png'
+duration 2.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/138.png'
+duration 2.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/139.png'
+duration 2.900000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/140.png'
+duration 2.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/141.png'
+duration 2.233333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/142.png'
+duration 1.800000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/143.png'
+duration 1.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/144.png'
+duration 2.966667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/145.png'
+duration 2.600000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/146.png'
+duration 2.266667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/147.png'
+duration 2.833333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/148.png'
+duration 3.666667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/149.png'
+duration 1.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/150.png'
+duration 2.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/151.png'
+duration 1.333333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/152.png'
+duration 2.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/153.png'
+duration 2.366667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/154.png'
+duration 2.366667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/155.png'
+duration 1.333333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/156.png'
+duration 2.966667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/157.png'
+duration 1.500000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/158.png'
+duration 2.266667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/159.png'
+duration 3.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/160.png'
+duration 1.100000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/161.png'
+duration 1.400000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/162.png'
+duration 1.700000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/163.png'
+duration 2.533333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/164.png'
+duration 3.700000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/165.png'
+duration 4.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/166.png'
+duration 2.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/167.png'
+duration 2.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/168.png'
+duration 2.633333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/169.png'
+duration 2.866667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/170.png'
+duration 3.266667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/171.png'
+duration 3.966667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/172.png'
+duration 5.600000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/173.png'
+duration 4.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/174.png'
+duration 3.100000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/175.png'
+duration 2.800000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/176.png'
+duration 1.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/177.png'
+duration 1.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/178.png'
+duration 3.266667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/179.png'
+duration 2.433333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/180.png'
+duration 2.433333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/181.png'
+duration 2.166667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/182.png'
+duration 3.433333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/183.png'
+duration 1.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/184.png'
+duration 2.500000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/185.png'
+duration 2.100000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/186.png'
+duration 1.833333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/187.png'
+duration 2.066667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/188.png'
+duration 2.066667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/189.png'
+duration 3.266667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/190.png'
+duration 3.433333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/191.png'
+duration 1.400000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/192.png'
+duration 3.400000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/193.png'
+duration 2.866667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/194.png'
+duration 1.433333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/195.png'
+duration 2.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/196.png'
+duration 3.100000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/197.png'
+duration 1.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/198.png'
+duration 1.233333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/199.png'
+duration 3.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/200.png'
+duration 2.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/201.png'
+duration 3.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/202.png'
+duration 1.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/203.png'
+duration 2.733333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/204.png'
+duration 3.033333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/205.png'
+duration 3.633333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/206.png'
+duration 4.600000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/207.png'
+duration 2.133333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/208.png'
+duration 3.733333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/209.png'
+duration 4.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/210.png'
+duration 1.866667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/211.png'
+duration 3.100000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/212.png'
+duration 2.733333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/213.png'
+duration 2.166667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/214.png'
+duration 3.333333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/215.png'
+duration 4.266667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/216.png'
+duration 1.966667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/217.png'
+duration 4.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/218.png'
+duration 4.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/219.png'
+duration 3.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/220.png'
+duration 5.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/221.png'
+duration 3.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/222.png'
+duration 2.033333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/223.png'
+duration 2.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/224.png'
+duration 1.366667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/225.png'
+duration 2.166667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/226.png'
+duration 2.066667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/227.png'
+duration 2.800000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/228.png'
+duration 1.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/229.png'
+duration 3.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/230.png'
+duration 2.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/231.png'
+duration 3.033333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/232.png'
+duration 2.733333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/233.png'
+duration 1.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/234.png'
+duration 1.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/235.png'
+duration 3.066667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/236.png'
+duration 3.700000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/237.png'
+duration 1.600000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/238.png'
+duration 4.233333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/239.png'
+duration 3.400000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/240.png'
+duration 2.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/241.png'
+duration 1.733333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/242.png'
+duration 3.666667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/243.png'
+duration 1.166667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/244.png'
+duration 3.233333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/245.png'
+duration 3.500000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/246.png'
+duration 3.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/247.png'
+duration 3.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/248.png'
+duration 0.866667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/249.png'
+duration 2.500000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/250.png'
+duration 2.300000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/251.png'
+duration 1.900000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/252.png'
+duration 4.233333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/253.png'
+duration 4.533333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/254.png'
+duration 1.900000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/255.png'
+duration 2.700000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/256.png'
+duration 2.733333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/257.png'
+duration 3.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/258.png'
+duration 2.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/259.png'
+duration 2.433333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/260.png'
+duration 3.366667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/261.png'
+duration 1.933333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/262.png'
+duration 3.966667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/263.png'
+duration 1.800000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/264.png'
+duration 1.766667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/265.png'
+duration 1.833333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/266.png'
+duration 2.033333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/267.png'
+duration 1.800000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/268.png'
+duration 2.400000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/269.png'
+duration 1.800000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/270.png'
+duration 2.166667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/271.png'
+duration 2.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/272.png'
+duration 2.433333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/273.png'
+duration 1.866667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/274.png'
+duration 2.000000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/275.png'
+duration 1.833333
+file '/Users/admin/Downloads/Batch_Output_282 (1)/276.png'
+duration 1.800000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/277.png'
+duration 2.066667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/278.png'
+duration 1.566667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/279.png'
+duration 3.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/280.png'
+duration 1.466667
+file '/Users/admin/Downloads/Batch_Output_282 (1)/281.png'
+duration 2.200000
+file '/Users/admin/Downloads/Batch_Output_282 (1)/282.png'
+duration 1.466667

@@ -252,3 +252,222 @@ neo** của bài thắng *(Wiessner + Ju/'hoansi · Blombos · Chauvet · "for 9
 
 ⚠️ Kèm theo, **L5**: đoạn kết viết hay **KHÔNG cứu được bài**. Mack có 4 đoạn kết đẹp nhất kho,
 cả 4 nằm nhóm đáy. Giám khảo Mack: *"Đọc đoạn kết mà đoán view thì đoán ngược."*
+
+---
+
+## 09/08/2026 (chiều) — BỐN LUẬT CẤU TRÚC A8, gỡ trong CÙNG NGÀY được thêm vào
+
+**Cách bác:** đọc trọn 5 bài CHÌM khớp cặp với 5 bài THẮNG — cùng kênh, cùng người viết,
+gần bằng nhau về số từ, chênh view/ngày **68× đến 552×**.
+Bằng chứng đầy đủ: `../kho/3_bangchung/DOICHUNG_5BaiChim_2026-08-09.md`
+
+| luật đã gỡ | vì sao chết |
+|---|---|
+| **41** — trả nợ title 4-15% rồi tráo đề | **5/5 bài chìm đều có**, đều nằm đúng băng *(10,1 · 4,4 · 9,8 · 4,2 · 4,6%)*. Bài 272 vpd của Ink đóng khối bằng **đúng chữ tiêu đề**. Và bài THẮNG Ink Rain hỏi lại nguyên văn tiêu đề **lần hai ở 94,0%**, phạm chính vế "trả xong thì đi luôn" |
+| **44** — cú lật cấm mang dữ kiện mới | **5/5 bài chìm sạch, ba bài sạch HƠN bài thắng.** Zenn Dogs lật hai lần 0 dữ kiện mới và chìm 214×. Bài THẮNG Ink Rain **vi phạm**: cú lật ở 56,6% lôi vào Chauvet 36.000 năm · Lascaux · Altamira · Sulawesi 45.000 năm — mới tinh cả bốn, và vẫn 1,10 triệu view |
+| **43a** — thang bằng chứng leo 5 bậc theo độ khó chối | **Zenn Dogs chạy 16 nấc, không tụt một nấc nào**, và chìm **214×** |
+| **43b** — mỏ neo yếu nhất đặt sau 85% | rút từ **đúng một bài**. Axen **THẮNG** đặt mỏ neo **MẠNH** nhất ở đó → luật có thể **viết ngược dấu**. Nếu đo lại 6 bài thắng ra 4/6 đặt mạnh-nhất-sau-85% thì viết lại thành luật ngược, đừng chỉ xoá |
+| **42b** — chương thừa nằm trước 50% | bài **THẮNG** Ink Rain đặt chương thừa ở **81,9-91,7%** |
+| **27** hai cổng — "≥4 cặp cài-lật" + "≥1 cặp đầu↔cuối" | **chạy NGƯỢC CHIỀU.** Chìm đếm được 8·11·11·9·13 cặp *(trung bình **10,4**, vượt trần 8 của bài thắng)*; **5/5 có cặp đầu-cuối**, hai bài có HAI cặp |
+
+**Còn sống:** mục **42** *(câu hỏi "xoá chương này thì gãy ở đâu", bỏ hết con số — và biết
+trước rằng phép đếm này chưa lặp lại được giữa hai người đọc)* và mục **43c** *(một phép thử
+người xem tự chạy được ở 85-95%: **5-6/6 thắng vs 1/5 chìm**, nhưng p ≈ 0,08 và có một phản
+ví dụ mỗi phía — **không được dùng làm cổng chặn đăng**)*.
+
+### 🔴 LUẬT PHƯƠNG PHÁP RÚT RA — quan trọng hơn cả sáu dòng trên
+
+> ## Luật nào chưa có NHÓM ĐỐI CHỨNG thì KHÔNG được vào thang điểm. Chỉ được nằm ở mục "ghi nhận".
+
+Đây là lần thứ **BA** dính cùng một bẫy — sau `callback hook` *(Stickly 47/47, Zenn 28/28)*
+và `bookend` *(cùng lý do)*.
+
+Điểm khác của lần này: **cảnh báo đã được viết ra trước, ngay trong cùng file, cùng ngày** —
+*"chưa có nhóm đối chứng… có thể là nết của ngách chứ không phải đòn bẩy — đúng cái bẫy đã
+giết mục 23 và 29"* — **rồi vẫn cho bốn luật chấm điểm, và vẫn gắn nhãn "không được chấm 0".**
+
+**Viết cảnh báo không thay được việc chạy đối chứng.**
+
+### Và một giả thuyết phải chết ngay, cấm mở lại hồ sơ
+
+**"Mật độ mỏ neo có tên"** — nghe rất mạnh trong cặp Ink *(Rain 5,4/1000 từ vs Sick 0,7/1000,
+chênh 7,7×)*. Nhưng `TONGHOP` **L12 đã bác bằng 14 kênh**: Zenn bài **4,02 triệu view có
+1,22 mỏ neo/1000 từ, thấp thứ nhì tháng** — chỉ gấp 1,7 lần bài chìm của Ink, và thấp hơn
+bài thắng của Ink 4,4 lần. **Một cặp n=1 không bác được 14 kênh.**
+
+
+---
+
+## 09/08/2026 (tối) — BỎ HẲN THANG ĐIỂM RUBRIC *(chủ ra lệnh)*
+
+**Luật đã gỡ:** *"37 mục × 2 điểm, ngưỡng ≥64/74 (86%), không mục nào = 0"* — và mọi phiên
+bản trước của nó *(62/72 · 67/78 · 64/74)*.
+
+**Vì sao chết — ba lý do độc lập:**
+
+1. **Ngưỡng 86% trên 37 mục = phải điền đủ ~32 ô.** Đó không phải "viết hay là qua". Chính
+   rubric đã ghi hậu quả: *"ba câu mùi AI nặng nhất trong V17 đều là câu thêm vào để thoả
+   Tầng A."*
+2. **Bảy mục ép nhịp bằng con số** *(re-hook mỗi 60-90s · bucket brigade 20-30s · một câu
+   hỏi mỗi 60-90s · mỗi chương 183-341 từ · hedge 1-3 lần · ≥2 ẩn dụ · mỗi chương một chùm
+   2-4 câu dưới 6 từ)* — cùng loại số đã bị bác ba lần *(nhịp hài 30-60s · giác quan 7-9% ·
+   you:we 1,5-2)*.
+3. 🔴 **79 câu NGUYÊN VĂN của đối thủ nằm trong cột chấm.** AI viết ra thứ gần nhất với câu
+   mẫu nó vừa đọc — nên đặt câu của đối thủ vào cột chấm là **ra lệnh viết na ná đối thủ,
+   rồi thưởng khi nó làm thế**. Mục 22 **bắt buộc phải có** cụm `"Next time you…"`, cụm đó
+   có trong **65/488 bản ghi đối thủ**; `"Think about that for a second."` có trong **31/488**.
+   Đây không chỉ trói sáng tạo — nó đẩy về phía **ranh giới reused-content** đã làm sập một
+   kênh của chủ.
+
+**Thay bằng:** `RUBRIC_KichBan.md` hai tầng —
+**PHẦN 1: 5 CỔNG** *(sản xuất · sự thật · reused-content · phép thử người xem tự chạy được ·
+người nghe ngoài)*, đạt/không đạt.
+**PHẦN 2: GỢI Ý NGHỀ**, không chấm điểm, **đọc SAU khi viết xong**.
+79 câu mẫu chuyển sang `kho/2_nguyenlieu/KHO_CauMau_DoiThu_DungChep.md`.
+
+✅ **Kiểm chứng kênh chưa bị nhiễm:** grep 4 kịch bản đã viết — `"never just one thing"` 0 ·
+`"here's where it gets interesting"` 0 · `"Think about that for a second"` 0. Người viết đã
+tự đề kháng dù luật đẩy ngược lại. Từ nay luật đẩy cùng chiều.
+
+**Đã vá tham chiếu chết ở:** `WORKFLOW_Production.md` *(cửa 2)* · `FLOW_VietKichBan_11Cong.md`
+*(cổng 7 đổi tên thành "ĐO BẰNG MÁY — in số, KHÔNG chấm")* · `sketchapiens-viet-kich-ban/SKILL.md`
+· `NGHIENCUU_ThiNghiem_BaySinhDoi.md` · `00_LUAT_HIEN_HANH.md`.
+
+---
+
+## 09/08/2026 (đêm) — DỌN 112 LỖI SAU KHI SOÁT TOÀN TẦNG KỊCH BẢN
+
+Soát 7 bộ file bằng 7 người soát + 1 vòng phản biện: **131 phát hiện → 112 sống sót**
+*(70 NẶNG · 38 VỪA · 4 NHẸ)*, **19 bị bác (14,5%)**.
+
+**Chẩn đoán:** kiến trúc mới *(bỏ thang điểm, 4 cổng)* chỉ được vá ở **tầng 1**. Tầng 2,
+các skill, các lệnh và file video **chưa ai chạm** → chúng vẫn dạy nguyên luật đã chết.
+
+### 🔴 Ba "cổng câm" — tưởng chạy mà thật ra không chạy
+
+| cổng | hỏng thế nào | hậu quả đo được |
+|---|---|---|
+| **CỔNG A chống reused-content** *(`FLOW` L67)* | grep trỏ `Video1[0-9]*/`, đường thật là `videos/Video1[0-9]*/`. zsh trả `no matches found` → **grep không chạy, không in gì, không báo lỗi** → đọc thành "sạch" | **Đây là lý do đoạn kết V19 chép khung xương đoạn kết V18.** Chạy đúng đường thì cụm `on the safe side` hiện ra ở cả hai video |
+| **Cổng 7 đo bằng máy** | `qa_kichban.py` được trỏ tới `~/.claude/skills/…` — thư mục đó có 48 skill và **không có `sketchapiens-*` nào** | cổng **chưa từng chạy được lần nào** |
+| **Cổng chống inauthentic content** | `CHINHSACH_YOUTUBE` L146 ghi *"luật thêm vào cửa 1"*, nhưng cửa 1 bị rút gọn cùng ngày → grep toàn kho ra đúng một kết quả là chính dòng đó | luật **không thuộc cửa nào** trong nhiều ngày. Nay là vế thứ ba của **Cổng 3** |
+
+### 🔴 Một cỗ MÁY đang thi hành luật đã chết
+
+`qa_kichban.py` in `'I' {I} (≈0)` dưới nhãn **CỨNG**, và `/apply-review` lấy đó làm điều
+kiện chặn → **editor duy nhất được sửa file sẽ cắt mọi câu có "I"**. Ba file khác ghi
+*"4 ràng buộc cứng"* trong khi thật ra **chỉ có ba**.
+
+**Đã sửa:** gỡ `I` khỏi nhãn CỨNG · sửa "4 ràng buộc" → **BA** ở `/apply-review` và
+`/audit-script` · và **thêm phép kiểm ràng buộc cứng thứ ba mà bản cũ chưa từng có**
+*(mỗi câu một dòng)* — chạy thử V19 nó bắt ngay 22 dòng vi phạm.
+
+### Bốn ổ luật chết còn dạy — đã dán biển tại chỗ
+
+| ổ | số chỗ | ví dụ nặng nhất |
+|---|---|---|
+| `I ≈ 0` | 9 *(4 chỗ bằng máy)* | trên |
+| 7 con số ép nhịp | 14 | SKILL PHẦN 12 *"MÁY HÀI (bắt buộc — ÉP hài)… 0 câu đùa = CHƯA XONG, viết lại"* — trong khi PHẦN 14.7 **cùng file** ghi Zenn 7,83M có 0 câu đùa |
+| lane "về BẠN" | 6 | `TearDown_7M` tự phong *"KHUÔN cho MỌI kịch bản từ nay"* — tầng 2 không được quyền phán |
+| cliffhanger · tự giễu · persona | 10 | `MoXe_15Khoi` không chỉ giữ mà **dạy dùng SỚM HƠN**, gọi là *"tín hiệu mạnh nhất cho thuật toán"* |
+
+### Cách chữa cho tầng 2
+
+Dán **một biển chuẩn** lên đầu 8 file nguyên liệu: *"TẦNG 2 — KHÔNG ĐƯỢC PHÁN. Khi nói
+ngược RUBRIC thì nghe RUBRIC. Mọi câu tiếng Anh trong đây là câu của đối thủ — chép là clone."*
+Cộng vá tại chỗ những dòng đang ra lệnh bằng giọng mệnh lệnh.
+
+`DICH_Zenn_7.8M` — **bản dịch trọn kịch bản 7,83 triệu view của đối thủ** — được biển
+riêng, mạnh nhất: *"⛔ cấm mở trong chế độ ② VIẾT. Bầy clone quanh đúng quả này đo được
+đỉnh 337 view."*
+
+### 🪦 Luật gỡ thêm trong đợt này
+
+- **Cổng "phép thử người xem tự chạy được"** — nó là **cổng giả**: nằm ở phần "chặn đăng"
+  mà tự khai *"KHÔNG chặn đăng"*. Chuyển xuống PHẦN 2 §2.8. **Rubric nay còn 4 cổng.**
+- **"câu hỏi lõi trước giây 31"** — n=3, và `TONGHOP` đo **ngược dấu**: nhiều kênh nhóm
+  CHÌM hỏi SỚM hơn; PrimalGlitch hai bài đỉnh **0 dấu hỏi cả bài**; quả 769K của Ink đặt ở **1:06**.
+- **"PACKAGING ĐI TRƯỚC KỊCH BẢN"** — băng-rôn to nhất `WORKFLOW_Production`, đã bị chính
+  L70 của file đó bỏ từ 05/08 mà chưa ai gỡ băng-rôn.
+- **"cắt 1,5-2 giây/ảnh"** — đo trên MỘT video; `BOCTACH_16Kenh`: 2,5 đến 4,6 giây/ảnh
+  **đều thắng**. Ép 1,5-2s là nhân đôi tới gấp ba chi phí ảnh để mua một thứ chưa ai chứng minh.
+- **`÷ 154` để đổi từ ra phút** — chính file đó đã khai tử hai lần *(đúng là ÷178)*; lệch
+  15%, đủ để cắt oan một chương.
+- **"chuẩn hiện hành: 178 wpm · 8,9 từ/câu · 37% câu ngắn"** — đo từ **V17, video 20 view**.
+
+### Bài học phương pháp
+
+> ## Sửa luật ở tầng 1 mà không sửa tầng 2, skill, lệnh và MÁY thì luật cũ vẫn đang chạy.
+> Và **một cổng hỏng đường dẫn thì im lặng — nó không báo lỗi, nó báo "sạch".**
+
+---
+
+## 09/08/2026 — XOÁ `ArtBible_NguoiQueCoDai.md` + `CastBible_DienVien.md` *(chủ ra lệnh)*
+
+**Lý do chủ:** *"mấy cái artbible với cái cast không dùng nữa đâu bạn ơi xoá luôn đi nha."*
+
+**Và đọc trọn cùng ngày cho thấy chúng đang GÂY HẠI, không chỉ thừa** — cả hai tả một nhân
+vật **khác** với `identity/style.py`, file thật sự sinh 191 ảnh mỗi video:
+
+| chi tiết | hai file đã xoá | `identity/style.py` *(chạy thật)* |
+|---|---|---|
+| Mắt | `tiny black dot eyes` · *"mắt chấm / ô-van"* | `TWO LARGE ROUND WHITE EYES… **Never tiny dots**` |
+| Tóc | *"tóc **đen** ÍT nét, vài sợi rối"* | `**MEDIUM BROWN**, SHAGGY MANE of fine wavy strands` |
+| Tay chân | *"nét ĐẬM/DÀY, fat marker, **not thin**"* | `THIN SINGLE BLACK LINES, long and skinny` |
+| Da | `@BASEHUMAN` ghi **`#E8C9A0`** — một mã **màu da** | `never skin-coloured, never peach or tan` |
+
+Mã màu da đó nằm **ngay dưới** dòng luật *"da chung: TRẮNG, KHÔNG tô da"* cách hai dòng.
+Và đó chính là lỗi đã làm **V18 bản 2 ra tỉ lệ trắng 0,3%** *(đích 2,8-5,7%)*.
+
+**Bảy đường dẫn sống đã vá trước khi xoá:** `00_LUAT_HIEN_HANH` · `governance/SOURCE_OF_TRUTH`
+· `BasePack01` · `Prompts_NhanVat_Kenh` · `SOP_NhatQuan_NhanVat` · `Brand_Kit_Kenh` *(kèm cảnh
+báo chữ `cartoon` trong đó là chữ cấm)*. File nằm ở `~/.Trash/Sketchapiens_xoa_2026-08-09/`.
+
+**Khép luôn `D-04`** *(`@token` hay lặp khối chữ)*: hai file mang hệ `@token` đã xoá →
+**lặp khối chữ thắng**, đúng thứ `identity/style.py` và hai skill chia-shot vẫn làm.
+
+### 🔴 LUẬT PHƯƠNG PHÁP — bắt được ba lần trong một buổi
+
+> ## Khi `.md` đá với `.py` thì **`.py` thắng**.
+> Nó là thứ chạy, và luật trong nó thường đã được sửa bởi **một lần gen hỏng thật**.
+> Hai chữ `hedgehog hair` và `hair ball` trong NEG của `style.py` là chữ của người **đã nhìn
+> thấy nó ra sai** — bằng chứng mà file `.md` không có.
+
+Ba lần cùng dạng, cùng ngày:
+1. `ArtBible` · `CastBible` · `Prompts_NhanVat` tả mắt/tóc/tay chân **sai** ↔ `style.py` đúng
+2. `TEMPLATE_Thumbnail_KHOA_v1` đòi tóc `SPIKY` ↔ `style.py` **cấm** `spiky hair ball`
+3. `sketchapiens-chia-shot` khối `CONSIST` chứa `clean` · `smooth` · `not wobbly` ↔ `style.py`
+   có `clean`=**0**, `cartoon`=**0**, `wobbly`=**7 lần**
+
+**Tầng `.md` chậm hơn tầng `.py` đúng một thế hệ.** Cách chữa không phải vá từng file —
+là **gộp về một nguồn**, và cho `.md` trỏ tới `.py` thay vì chép lại nó.
+
+---
+
+## 09/08/2026 — GỘP THUMBNAIL VỀ **MỘT** NGUỒN *(chủ ra lệnh)*
+
+**Lý do chủ:** *"về skill thumbnail dùng 1 cái skill final thôi dùng lắm vậy, cái nào cập nhật
+mới thì xoá bỏ cái cũ đi — sao cứ check đống thành thùng rác vậy."*
+
+Thumbnail có **bốn nguồn dựng trong 11 ngày**, và chúng **không khớp nhau**:
+
+| nguồn | ngày | số phận |
+|---|---|---|
+| `.claude/skills/sketchapiens-thumbnail/` | **05/08** | ✅ **GIỮ** — có **nhóm đối chứng** *(8 quả cao + 4 quả thấp của CÙNG kênh, 8 kênh, 96 ảnh, 22 trường)*, và nó **tự giết 9 luật của chính mình** |
+| `kho/1_luat/TEMPLATE_Thumbnail_KHOA_v1.md` | 03/08 | ⛔ xoá — prompt dán-thẳng + nhật ký đã **bê vào skill §⑥ và §⑦** |
+| `kho/1_luat/PROMPT_TONG_Thumbnail_v6.md` | 29/07 | ⛔ xoá — cũ nhất, giữ nhiều luật đã bị bác |
+| `kho/3_bangchung/CO_CHE_3LOP_Winner_2026-07-29.md` | 29/07 | giữ *(bằng chứng, không phải luật)* |
+
+**Ba luật đá nhau đã bắt được trước khi gộp:**
+- chữ cao **13-19%** *(chia-shot)* ↔ **~22%** *(v6, TEMPLATE)* — 15% chính là thứ làm hỏng V18 bản 2
+- *"chữ phải khác title"* *(chia-shot, n=2)* ↔ **lặp title không bị phạt** *(v6, đo 44 ảnh/9 kênh: 25/36 lặp)*
+- *"chữ PHẢI chứa một đại lượng"* *(v6)* ↔ **6/12 quả top không có đại lượng nào** *(skill, có đối chứng)*
+
+**Mười ba đường dẫn đã vá trước khi xoá.** File nằm ở `~/.Trash/Sketchapiens_xoa_2026-08-09/`.
+
+> ### 🔴 VÌ SAO CỨ CHECK LÀ RA MỘT ĐỐNG — chẩn đoán của chủ, đúng
+> Kho **đo lại rất nhiều lần mà không bao giờ xoá bản cũ**. Mỗi vòng đo mới đắp thêm một tầng;
+> tầng dưới vẫn nằm đó và vẫn được đọc. Thumbnail là ca rõ nhất: **4 bản trong 11 ngày**.
+>
+> **Luật từ nay: đo lại xong thì XOÁ bản cũ, không dán biển rồi để đó.**
+> Dán biển giữ được lịch sử nhưng **vẫn là một dòng để đọc nhầm**. Lịch sử đã nằm ở file này
+> và ở git — đủ rồi.

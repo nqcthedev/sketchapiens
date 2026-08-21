@@ -1,4 +1,24 @@
 # KHO ẨN DỤ · TRUYỆN CHÊM · LÁCH KIỂM DUYỆT
+
+> # ⛔ TẦNG 2 — NGUYÊN LIỆU. **KHÔNG ĐƯỢC PHÁN.** *(biển dán 09/08/2026)*
+>
+> File này **tra khi viết**, nó **không phải luật**. Khi nó nói ngược
+> `kho/1_luat/RUBRIC_KichBan.md` → **nghe RUBRIC**.
+>
+> Nó được viết trước khi kho đo lại trên 16-18 kênh / 488 bản ghi và đọc trọn 11 kịch bản.
+> Nhiều chỗ trong đây đang ra lệnh bằng giọng mệnh lệnh *("bắt buộc" · "khoá cứng" ·
+> "kim chỉ nam" · "cách vượt số 1")* cho những thứ **đã bị bác**:
+>
+> `lane "về BẠN"` *(0 cú nổ/4 tháng)* · `cliffhanger / hứa hoãn` *(0 tuyệt đối ở 14/16 kênh)* ·
+> `câu tự giễu trong hook` *(0 ca thắng)* · `persona người dẫn` *(0 ca thắng, BrightPsycho 0/96)* ·
+> `mật độ mỏ neo` *(Zenn 4,02M thấp thứ nhì tháng)* · `callback + bookend làm mục chấm`
+> *(nết ~100% của ngách)* · `mọi con số nhịp` · `I ≈ 0` · `you:we 1,5-2`.
+>
+> ## 🔴 VÀ MỌI CÂU TIẾNG ANH TRONG FILE NÀY LÀ CÂU CỦA ĐỐI THỦ
+> Đọc để biết **register**. **Chép là clone** — trùng câu chữ · trình tự beat · ví dụ · đùa ·
+> ẩn dụ · cú bẻ lái là **reused content**, thứ đã làm sập một kênh của chủ.
+> Luật và số đo: `KHO_CauMau_DoiThu_DungChep.md`.
+
 *Nguồn: báo cáo NotebookLM lần 3 (29/07/2026), bóc từ 49 nguồn transcript đối thủ.
 Đã tra chéo từng mỏ neo — xem cột ✅/⚠️.*
 
@@ -46,7 +66,7 @@ Cái được ghi chép chắc chắn là **NGƯỜI uống nước tiểu của
 
 **Chiều "tuần lộc uống nước tiểu của nhau / tranh nhau uống của pháp sư"** thuộc mảng dân gian, không chắc bằng.
 
-→ **Dùng chiều đã được ghi chép** — nó còn hay hơn: con vật là cái máy lọc ma tuý. Câu đùa *"drug recycling… honestly, respect"* vẫn dùng được nguyên.
+→ **Dùng chiều đã được ghi chép** — nó còn hay hơn: con vật là cái máy lọc ma tuý. ⛔ **Đừng chép câu đùa của họ** — câu đùa là một trong năm thứ "trùng là chết" *(cùng nhóm với trình tự beat · ví dụ · ẩn dụ · cú bẻ lái)*. Lấy **chiều nghĩ**, tự viết câu. *(câu gốc của Mack: "drug recycling… honestly, respect"* vẫn dùng được nguyên.
 
 **Cá heo chuyền cá nóc** ⚠️ *(tra 29/07 — quan sát có thật, KẾT LUẬN thì chưa chắc)*
 Cá heo mũi chai Ấn Độ–Thái Bình Dương (chủ yếu ghi nhận ở Úc) chọc con cá nóc cho nó nhả một ít **tetrodotoxin**, rồi chuyền nhau, sau đó nổi lờ đờ như trong trạng thái mê. Nổi tiếng nhờ đoạn phim của BBC.
@@ -81,7 +101,7 @@ Trong số nạn nhân có **một thiếu niên và một đứa trẻ khoảng
 
 **Kết luận "hội chứng thuần hoá" đã bị phản biện.** Có nghiên cứu chỉ ra đàn cáo Belyaev lấy từ **trại lông thú Canada đã được thuần một phần từ trước**, nên không thể coi chúng là cáo hoang dã thuần tuý — làm lung lay chính kết luận nổi tiếng nhất của thí nghiệm.
 
-→ Đối thủ kể chuyện này như chân lý đã đóng. **Rubric B1 (fact chính xác) chính là cửa vượt:** kể thí nghiệm, rồi thêm một câu *"and recently that conclusion has been challenged"* — vừa đúng hơn họ, vừa tạo thêm một cú lật miễn phí.
+→ Đối thủ kể chuyện này như chân lý đã đóng. **Cổng 2 của rubric (sự thật) là chỗ đè:** *(mã "B1" không còn — Tầng A/B đã bị bỏ 09/08)* kể thí nghiệm, rồi thêm một câu *"and recently that conclusion has been challenged"* — vừa đúng hơn họ, vừa tạo thêm một cú lật miễn phí.
 
 ## C. LỊCH SỬ KỲ QUẶC
 

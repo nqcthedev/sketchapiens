@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""ĐO MỘT KỊCH BẢN RỒI CỘNG DỒN VÀO BẢNG — mở được bằng Excel/Numbers/Sheets.
+
+    python3 tools/do_va_ghi_bang.py <file.txt> "<tên>" <view> "<ô>"
+
+VÌ SAO CÓ FILE NÀY
+──────────────────
+Mọi phép đo trước 18/08 đều chạy MỘT LẦN rồi trôi vào khung chat. Đo Axen xong,
+đo quả 2,04M xong, nhưng không có bảng nào tích lại — nên không bao giờ thấy được
+mẫu hình qua hai mươi video, chỉ thấy từng cái một.
+
+Bảng nằm ở kho/3_bangchung/BANG_DO_KICHBAN.csv — git theo dõi được, Excel mở được.
+"""
+import csv, os, re, sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CSV = os.path.join(ROOT, "kho", "3_bangchung", "BANG_DO_KICHBAN.csv")
+
+CHET  = r"\b(die|died|dies|dying|dead|death|kill|kills|killed|killer|deadly|deadliest|lethal|hypothermia|freeze to death|freezing to death|found dead|starve|starving)\b"
+BAN   = r"\b(you|your|yours)\b"
+CHUNGTA = r"\b(we|our|ours|us)\b"
+TOI   = r"\b(I|me|my)\b"
+VAT   = r"\b(fire|hearth|hide|fur|grass|clay|bedding|stone|bone|snow|frost|needle|blanket|wall|bed|chamber|hut|floor|ash|charcoal|meat|skin|tusk|spear|pit|wood|roof|door|hand)\b"
+RIENG = r"\b(?:[A-Z][a-zà-ÿ]+(?:\s[A-ZÀ-Ÿ][a-zà-ÿ]+)?)\b"
+HEDGE = r"\b(may|might|probably|likely|not certain|nobody is certain|inference|unclear|unsettled|almost certainly|seems)\b"
+NHAN  = r"(here is|here's|and here|the part that|easy to miss|worth saying|strangest|wild fact)"
+HIENDAI = r"\b(thermostat|bedroom|fridge|freezer|foam|caulk|button|office|gore-tex|jacket|insulation)\b"
+
+def dem(L, p): return sum(len(re.findall(p, x, re.I)) for x in L)
+
+def vitri(L, p):
+    for i, x in enumerate(L, 1):
+        if re.search(p, x, re.I):
+            return round(100 * i / len(L))
+    return 100
+
+def khuc_co_nguy_hiem(L, k=10):
+    n = len(L); sz = -(-n // k)
+    return sum(1 for i in range(k)
+               if any(re.search(CHET, L[j], re.I) for j in range(i*sz, min(n, (i+1)*sz))))
+
+if len(sys.argv) < 5:
+    sys.exit('dùng: do_va_ghi_bang.py <file.txt> "<tên>" <view> "<ô>"')
+path, ten, view, o = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
+L = [l.strip() for l in open(path, encoding="utf-8") if l.strip()]
+w = sum(len(x.split()) for x in L)
+
+hang = {
+    "tên": ten, "ô": o, "view": view,
+    "từ": w, "câu": len(L), "từ/câu": round(w/len(L), 1),
+    "ước phút": f"{int((w/3.352)//60)}:{int((w/3.352)%60):02d}",
+    "chữ chỉ cái chết": dem(L, CHET),
+    "nguy hiểm lần đầu %": vitri(L, CHET),
+    "khúc có nguy hiểm /10": khuc_co_nguy_hiem(L),
+    "you": dem(L, BAN), "we/our": dem(L, CHUNGTA), "tôi": dem(L, TOI),
+    "vật thể": dem(L, VAT),
+    "tên riêng": len(set(re.findall(RIENG, " ".join(L)))),
+    "rào đón": dem(L, HEDGE),
+    "câu dẫn có nhãn": dem(L, NHAN),
+    "so sánh hiện đại": dem(L, HIENDAI),
+    "câu cụt ≤4 từ": sum(1 for x in L if len(x.split()) <= 4),
+    "dấu !": sum(x.count("!") for x in L),
+    "nguồn": os.path.basename(path),
+}
+
+moi = not os.path.exists(CSV)
+with open(CSV, "a", newline="", encoding="utf-8-sig") as f:
+    wr = csv.DictWriter(f, fieldnames=list(hang))
+    if moi: wr.writeheader()
+    wr.writerow(hang)
+
+print(f"✅ ghi vào {os.path.relpath(CSV, ROOT)}")
+for k, v in hang.items():
+    if k != "nguồn": print(f"   {k:24s} {v}")

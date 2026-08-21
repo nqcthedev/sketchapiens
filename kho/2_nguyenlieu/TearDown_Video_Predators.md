@@ -1,5 +1,25 @@
 # 🔬 Mổ xẻ video đối thủ — "Why Do Predators Ignore Sleeping Humans?"
 
+> # ⛔ TẦNG 2 — NGUYÊN LIỆU. **KHÔNG ĐƯỢC PHÁN.** *(biển dán 09/08/2026)*
+>
+> File này **tra khi viết**, nó **không phải luật**. Khi nó nói ngược
+> `kho/1_luat/RUBRIC_KichBan.md` → **nghe RUBRIC**.
+>
+> Nó được viết trước khi kho đo lại trên 16-18 kênh / 488 bản ghi và đọc trọn 11 kịch bản.
+> Nhiều chỗ trong đây đang ra lệnh bằng giọng mệnh lệnh *("bắt buộc" · "khoá cứng" ·
+> "kim chỉ nam" · "cách vượt số 1")* cho những thứ **đã bị bác**:
+>
+> `lane "về BẠN"` *(0 cú nổ/4 tháng)* · `cliffhanger / hứa hoãn` *(0 tuyệt đối ở 14/16 kênh)* ·
+> `câu tự giễu trong hook` *(0 ca thắng)* · `persona người dẫn` *(0 ca thắng, BrightPsycho 0/96)* ·
+> `mật độ mỏ neo` *(Zenn 4,02M thấp thứ nhì tháng)* · `callback + bookend làm mục chấm`
+> *(nết ~100% của ngách)* · `mọi con số nhịp` · `I ≈ 0` · `you:we 1,5-2`.
+>
+> ## 🔴 VÀ MỌI CÂU TIẾNG ANH TRONG FILE NÀY LÀ CÂU CỦA ĐỐI THỦ
+> Đọc để biết **register**. **Chép là clone** — trùng câu chữ · trình tự beat · ví dụ · đùa ·
+> ẩn dụ · cú bẻ lái là **reused content**, thứ đã làm sập một kênh của chủ.
+> Luật và số đo: `KHO_CauMau_DoiThu_DungChep.md`.
+
+
 **Nguồn:** file mp4 user gửi (YouTube `XWQz7Fh2X58`). **Phân tích bằng ffmpeg** (tách frame + dò cắt cảnh + mpdecimate).
 **Metadata:** 1920×1072, 30fps, **18 phút 27s** (1107s), ~56MB. Frame đã lưu: `../3_bangchung/competitor_frames_predators/` (56 frame rải đều + 24 frame dải dày).
 
@@ -19,7 +39,7 @@
 ## 🎨 STYLE — xác nhận & SỬA
 **Sửa 3 điểm so với lúc trước (nhờ frame thật):**
 1. ✅→✏️ **Da/mặt/tay/chân = TRẮNG** (không tô da) — *đúng*. NHƯNG **quần áo CÓ thể tô màu phẳng đơn giản**: nhà khoa học mặc **quần jean XANH** + áo blouse trắng; người cổ mặc **lông NÂU/XÁM**. → Mình nói "không áo màu" là **quá tay** — sửa: **chỉ DA trắng, áo thì có thể 1 màu phẳng đơn giản.**
-2. ✏️ **CÓ nhân vật "nhà khoa học" làm host** (áo blouse, kính, bảng kẹp vàng) xuất hiện lặp lại để giải thích. → Mình nói "không host" là **sai cho video này**. → **GIỮ @SCIENTIST** trong cast là đúng (hybrid chuẩn).
+2. ⚠️ Video NÀY có nhân vật "nhà khoa học" làm host. ⛔ ~~GIỮ @SCIENTIST trong cast~~ — **hết hiệu lực 09/08**: hệ `@token` đã bỏ *(`D-04`)*, và `CastBible` chứa nó **đã xoá**. Ngoài ra **persona người dẫn có 0 ca thắng toàn kho** *(BrightPsycho 0/96)*, và luật casting hiện hành là **nhân vật chính = NGƯỜI CỔ ĐẠI ~85-90% khung**. Đây là **nết của một video**, không phải luật.
 3. ✅ **Toàn ẢNH TĨNH** (đã đo: pixel-diff = 0 trong cảnh giữ) — "động" chỉ là cắt nhanh giữa nhiều ảnh tĩnh. *(Sửa: mình nói "có animation" là SAI — user đúng.)*
 
 **Xác nhận đúng:**
@@ -42,7 +62,7 @@
 ---
 
 ## ✅ Áp vào kênh ta
-- **Art Bible:** sửa quy tắc màu (da trắng, áo có thể 1 màu) — đã cập nhật.
-- **Cast:** giữ **@SCIENTIST** (host hợp lệ); modern/ancestor/animals đều khớp cảnh thật.
-- **Pipeline (Part 5):** KHÔNG cần motion. Cần **nhiều ảnh tĩnh + TÁI DÙNG** + canh **cắt ~1.5–2s/ảnh**. (Bám ~1.1s như họ = cực nhiều ảnh; ta có thể ~2s cho nhẹ.)
+- **Bản sắc hình:** quy tắc màu nay ở **`identity/style.py`** *(`ArtBible` và `CastBible` đã xoá 09/08)*. Da/mặt/thân **TRẮNG ĐẶC**; áo có thể một màu phẳng.
+- ⛔ ~~Cast: giữ @SCIENTIST~~ — xem ghi chú ở mục STYLE.
+- **Pipeline (Part 5):** KHÔNG cần motion. Cần **nhiều ảnh tĩnh + TÁI DÙNG** + ⛔ ~~canh cắt ~1.5–2s/ảnh~~ — đo trên **MỘT** video. `BOCTACH_16Kenh` L179: nhịp **2,5 đến 4,6 giây/ảnh đều thắng**, không tương quan với view. Ép 1,5-2s là **nhân đôi tới gấp ba chi phí ảnh** để mua một thứ chưa ai chứng minh. (Bám ~1.1s như họ = cực nhiều ảnh; ta có thể ~2s cho nhẹ.)
 - **2 sub-style (cả hai đều ẢNH TĨNH):** Predators = **cắt nhanh + nét mảnh tối giản**; Smoking = **cắt chậm hơn + nét đậm + nền màu**. → Đề xuất ta bám **Style Smoking** cho **đỡ tốn** mà vẫn "chất".

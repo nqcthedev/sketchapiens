@@ -1,8 +1,34 @@
 # 🧱 CAST PACK ĐẦY ĐỦ — Sketchapiens *(bản chi tiết — chuẩn nhất)*
 
 > Tạo theo **thứ tự 1 → 12**. Từ ảnh **#2 trở đi → ĐÍNH ẢNH #1 (base)** để cùng một gương mặt. Con vật/đạo cụ (#11–12) tạo riêng.
-> **Style (khóa):** doodle thô low-budget · **thân + mặt TRẮNG** (không tô da) · **nét marker đen ĐẬM/DÀY, hơi run** · **tay chân nét ĐẬM/DÀY (marker to)** · tóc đen ÍT nét · **mắt chấm** · mặt **ngu-ngơ/hài** · màu **MUTED tiền sử** chỉ ở **đồ/đạo cụ/nền** · KHÔNG bóng bẩy, KHÔNG mascot, KHÔNG 3D. (Vàng tươi chỉ cho chữ thumbnail.)
-> Chi tiết: `ArtBible` · giữ nhất quán: `SOP_NhatQuan_NhanVat`.
+> # 🔴🔴 CÙNG XUNG ĐỘT NHÂN VẬT NHƯ `Prompts_NhanVat_Kenh.md` — dán 09/08/2026
+>
+> Dòng "Style (khóa)" bên dưới **KHOÁ SAI BA THỨ**. Nó tả một nhân vật **KHÁC** với
+> `identity/style.py` — file **thật sự sinh ảnh** *(`tools/build_prompts.py` làm `from style import *`)*:
+>
+> | | file này *(SAI)* | `identity/style.py` *(ĐÚNG — máy đang chạy)* |
+> |---|---|---|
+> | **Mắt** | `mắt chấm` — dán cho **mọi** nhân vật | `ANCIENT`/`WOMAN`: *"eyes = TWO LARGE ROUND WHITE EYES… **Never tiny dots**"*. ⚠️ Chỉ **`MODERN`** mới là *"small black dot eyes"* — mà khách mời đó chỉ ~10-15% khung |
+> | **Tóc** | `tóc đen ÍT nét` | *"hair = MEDIUM BROWN… a **SHAGGY MANE** of many fine wavy strands… **Never black**, never a spiky ball on top"* |
+> | **Tay chân** | `nét ĐẬM/DÀY (marker to)` | *"arms and legs = **THIN** single black lines, slightly crooked, no joints"* |
+>
+> Nguy nhất là **mắt**: `01_base.png` bên dưới là **khung xương gốc** mà mọi ảnh sau đính vào —
+> base mắt chấm thì **cả bộ** thừa kế mắt chấm, kể cả nhân vật chính.
+>
+> Gen ảnh theo file này rồi ghép với ảnh do máy sinh → **hai nhân vật khác nhau trong một video**.
+> **Khi hai file cãi nhau, `.py` thắng** — nó là thứ đang chạy, và luật của nó thường được sửa
+> bởi một lần gen hỏng có thật.
+>
+> ✅ Thứ trong dòng dưới **vẫn đúng**: thân + mặt **TRẮNG ĐẶC** *(không tô da)* · nét **hơi run**
+> · màu **MUTED** chỉ ở đồ/nền · KHÔNG mascot/3D/bóng bẩy.
+>
+> ⛔ **Và cả quy trình `refs/<token>.png` trong file này đã chết** *(`D-04`)* — nhất quán nay
+> làm bằng **lặp y nguyên khối chữ**, không bằng ảnh ref, không bằng `@token`.
+> Mọi `@SCIENTIST` / `@FORAGER` / `@CHILD` / `@ELDER` bên dưới **không còn là thứ phải tạo**.
+> *(Thêm nữa: persona "người dẫn nhà khoa học" có **0 ca thắng / 16 kênh**.)*
+
+> ⛔ ~~**Style (khóa):**~~ *(xem khung đỏ trên — ba mục đã sai)* doodle thô low-budget · **thân + mặt TRẮNG** (không tô da) · **nét marker đen hơi run** · ~~tay chân nét ĐẬM/DÀY~~ · ~~tóc đen ÍT nét~~ · ~~mắt chấm~~ · mặt **ngu-ngơ/hài** · màu **MUTED tiền sử** chỉ ở **đồ/đạo cụ/nền** · KHÔNG bóng bẩy, KHÔNG mascot, KHÔNG 3D. (Vàng tươi chỉ cho chữ thumbnail.)
+> Chi tiết: **`identity/style.py`** *(nguồn chuẩn duy nhất; `ArtBible` đã xoá 09/08)* · giữ nhất quán: `SOP_NhatQuan_NhanVat`.
 
 ---
 
@@ -82,7 +108,7 @@ A rough low-budget educational doodle PROP SHEET on a plain white background: a 
 ## ✅ Cách chạy 1 lượt
 1. Tạo **#1 base** (2–3 lần, chọn bản ưng) → gốc.
 2. **Đính #1** vào mỗi lần tạo #2–#10. #11–12 tạo riêng.
-3. Lưu đúng tên file vào `refs/` → đổi ✅ trong registry (`../1_luat/CastBible_DienVien.md`).
+3. Lưu đúng tên file vào `refs/` *(⛔ registry `CastBible` đã xoá 09/08 — không còn sổ đăng ký; khối nhân vật nay nằm trong `identity/style.py`)*. ~~(`../1_luat/CastBible_DienVien.md`).
 > Màu giữ **MUTED**; **vàng tươi chỉ cho chữ thumbnail**, không tô lên nhân vật.
 
 ---
