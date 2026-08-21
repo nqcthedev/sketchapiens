@@ -26,6 +26,7 @@ Không đọc mọi reference chỉ vì chúng tồn tại.
 |---|---|---|---|
 | `CONTRACT.md` | **Hợp đồng Story Engine / hợp đồng module** | Nguồn chuẩn cho ownership, non-ownership, input/output, dependency direction, consumer boundary | Khi có ambiguity về ai sở hữu quyết định nào |
 | `SKILL.md` | **Giao diện công khai / cửa vào runtime** | Luôn giữ context tối thiểu + định tuyến tới supporting files | Khi skill được invoke/preload |
+| `references/CONTEXT_ARCHITECTURE.md` | **Kiến trúc ngữ cảnh Story Engine** | Ghi rõ consumer matrix, load triggers, anti-patterns và stop condition của progressive disclosure | Khi refactor/debug context loading |
 | `references/structural-mechanisms.md` | **Cơ chế cấu trúc** | Core Causal Engine · Causal Debt · Belief Engine · Domain Shift · Macro Map · Advance | Lên xương, nối chapter, chẩn đoán structural progression |
 | `references/evidence-in-story.md` | **Bằng chứng trong câu chuyện** | Research-as-Entertainment · Original Synthesis · Narrative Overreach · evidence placement | Khi task có paper/site/experiment/synthesis/causal bridge |
 | `references/workflows.md` | **Quy trình dùng Story Engine** | Story Map · after-chapter check · structural review · stop condition | Khi cần artifact/workflow cụ thể |
@@ -116,6 +117,7 @@ Evidence reviewer mới được **issue verdict — ra phán quyết** bằng n
 | Story Engine | **Cỗ máy cấu trúc câu chuyện** |
 | Progressive Disclosure | **Tải ngữ cảnh theo nhu cầu** |
 | Context Router | **Bộ định tuyến ngữ cảnh** |
+| Context Budget | **Ngân sách ngữ cảnh** |
 | Core Causal Engine | **Cỗ máy nhân quả lõi** |
 | Causal Debt | **Món nợ nhân quả** |
 | Causal Handoff | **Bàn giao nhân quả** |
