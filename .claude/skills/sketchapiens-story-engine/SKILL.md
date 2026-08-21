@@ -86,15 +86,24 @@ Một video không bắt buộc phải hiện đủ bốn level.
 
 | Khi đang làm | Load thêm | Không cần load |
 |---|---|---|
-| lên xương · nối chapter · causal chain · belief/domain diagnosis | [`references/structural-mechanisms.md`](references/structural-mechanisms.md) | Mechanism Lab |
-| đặt paper/site/experiment · synthesis · causal bridge · Narrative Overreach | [`references/evidence-in-story.md`](references/evidence-in-story.md) | raw competitor corpus |
-| dựng Story Map · kiểm sau chapter · general structural review | [`references/workflows.md`](references/workflows.md) | Mechanism Lab |
-| R&D mechanism · postmortem · cross-corpus check | [`references/mechanism-lab.md`](references/mechanism-lab.md) | không dùng candidate làm requirement |
+| lên xương · nối chapter · causal chain · belief/domain diagnosis | [`references/structural-mechanisms.md`](references/structural-mechanisms.md) | candidate files |
+| đặt paper/site/experiment · synthesis · causal bridge · Narrative Overreach | [`references/evidence-in-story.md`](references/evidence-in-story.md) | raw competitor corpus · candidate files |
+| dựng Story Map · kiểm sau chapter · general structural review | [`references/workflows.md`](references/workflows.md) | candidate files |
+| R&D mechanism · postmortem · cross-corpus check | **đọc [`references/candidate-lifecycle.md`](references/candidate-lifecycle.md) trước**, rồi mới [`references/mechanism-lab.md`](references/mechanism-lab.md) nếu cần | không dùng candidate làm requirement |
 | ownership / dependency / input-output conflict | [`CONTRACT.md`](CONTRACT.md) | implementation không liên quan |
 
 ### Minimum-context rule — Luật context tối thiểu
 
 > **Không đọc một reference chỉ vì nó tồn tại. Đọc vì task hiện tại cần quyết định mà reference đó sở hữu.**
+
+### Candidate firewall — Tường lửa cơ chế ứng viên
+
+Trong **Structure Mode / Review Mode bình thường**, không mở:
+
+- `references/candidate-lifecycle.md`;
+- `references/mechanism-lab.md`.
+
+Candidate chỉ đi vào một video đang viết nếu **owner chủ động mở Controlled Experiment — thử nghiệm có kiểm soát** theo `candidate-lifecycle.md`.
 
 ---
 
@@ -106,20 +115,29 @@ Một video không bắt buộc phải hiện đủ bốn level.
 2. Load `structural-mechanisms.md` khi cần dựng/kiểm causal-belief-domain progression.
 3. Load `workflows.md` khi cần Story Map hoặc chapter stress test.
 4. Chỉ load `evidence-in-story.md` nếu task có evidence placement/synthesis/bridge.
-5. Writer sở hữu câu chữ cuối cùng.
+5. **Không load candidate files** trừ khi owner đã mở explicit experiment.
+6. Writer sở hữu câu chữ cuối cùng.
 
 ### Review Mode — Chế độ review cấu trúc
 
 1. Chấm narration/outline ở bề mặt viewer.
 2. Ưu tiên **exact weak transition · topic jump · belief-stagnant block · promise-payoff risk**.
 3. Story Engine chỉ flag `Narrative Overreach — Cốt truyện chạy vượt bằng chứng`; Evidence system mới ra verdict.
-4. Reviewer không rewrite nếu caller role cấm rewrite.
+4. **Không đọc candidate files và không chấm “thiếu candidate”.**
+5. Reviewer không rewrite nếu caller role cấm rewrite.
+
+### R&D / Postmortem Mode — Chế độ R&D / hậu kiểm
+
+1. Đọc `candidate-lifecycle.md` trước để biết status machine + firewall.
+2. Chỉ sau đó mới đọc `mechanism-lab.md`.
+3. Chủ động tìm counterexample, không chỉ ví dụ thuận.
+4. Observation mới không tự thành candidate; candidate không tự thành canonical.
 
 ### Preloaded subagent profile — Profile subagent được preload
 
 Khi `viewer-retention-judge` preload skill này, **chính file `SKILL.md` là context mặc định**.
 Supporting references **không phải default payload** và không được tự mở hàng loạt.
-Agent prompt của reviewer quyết định output contract; chỉ đọc reference khi có ambiguity thật.
+Agent prompt của reviewer quyết định output contract; chỉ đọc reference canonical khi có ambiguity thật.
 
 ---
 
@@ -135,12 +153,21 @@ Agent prompt của reviewer quyết định output contract; chỉ đọc refere
 
 ## 7. MECHANISM LAB — PHÒNG THÍ NGHIỆM CƠ CHẾ
 
-`references/mechanism-lab.md` **không auto-load trong phiên viết/review bình thường**.
+Candidate lifecycle canonical:
+
+`references/candidate-lifecycle.md` — **Vòng đời cơ chế ứng viên**.
+
+Candidate data/store:
+
+`references/mechanism-lab.md` — **Phòng thí nghiệm cơ chế**.
+
 Candidate ở đó:
 
 - không phải rule;
 - không phải requirement;
-- có thể `PROMOTE / MERGE / DEMOTE / REJECT`;
+- không auto-load khi viết/review thường;
+- phải đi qua lifecycle `observation → candidate → testing → supported/...`;
+- có thể `PROMOTE / MERGE / PARK / REJECT`;
 - không có pipeline mặc định `candidate → RULE_REGISTRY`.
 
 Promotion vẫn tuân `governance/CHANGE_POLICY.md` + owner decision.
