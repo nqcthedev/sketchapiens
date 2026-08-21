@@ -19,9 +19,16 @@ Và nó trả lời được câu *"bản nào đã dùng?"* — câu mà V01 v�
 
 ⛔ **Kịch bản cũ `Video*/Script_*_narration.txt` là read-only** cho tới khi có lệnh migration riêng. Chúng không có lịch sử phiên bản và project chưa có git bao phủ chúng.
 
-**Bốn ràng buộc cứng của lời đọc** — vi phạm là hỏng, không phải là lệch:
-`!` = 0 · không gạch ngang giữa câu · mỗi câu một dòng · `I` ≈ 0.
+**Ba ràng buộc cứng của lời đọc** — vi phạm là hỏng, không phải là lệch:
+`!` = 0 · không gạch ngang giữa câu · mỗi câu một dòng.
+
+⛔ `I ≈ 0` **đã gỡ 07/08/2026**. Người dẫn được có ý kiến riêng. Nếu cần đo `I`, coi nó là triệu chứng để đọc lại, không phải điều kiện chặn.
 
 **Mọi con số khác là triệu chứng.** Lệch thì đi đọc đoạn đó và hỏi *"đoạn này có dở không?"*. Không dở thì để yên. **Cấm sửa một câu để con số đẹp hơn.**
+
+## Story engine — chỉ nạp khi đang xử lý cấu trúc
+
+Khi công việc là **lên xương · nối chương · chẩn đoán retention · sửa cấu trúc**, dùng skill project-local `sketchapiens-story-engine`.
+Đây là **bộ chẩn đoán**, không phải checklist bắt buộc. Không thêm câu chỉ để thoả một cơ chế.
 
 **Agent review không được sửa file này.** Chỉ `/apply-review` tạo version mới, và chỉ sau khi người dùng đã phân loại từng góp ý.
