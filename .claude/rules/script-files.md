@@ -28,9 +28,16 @@ Và nó trả lời được câu *"bản nào đã dùng?"* — câu mà V01 v�
 
 **Mọi con số khác là triệu chứng.** Lệch thì đi đọc đoạn đó và hỏi *"đoạn này có dở không?"*. Không dở thì để yên. **Cấm sửa một câu để con số đẹp hơn.**
 
-## Story engine — Cỗ máy cấu trúc câu chuyện — chỉ nạp khi đang xử lý cấu trúc
+## Story Engine — Cỗ máy cấu trúc câu chuyện
 
-Khi công việc là **lên xương · nối chương · chẩn đoán retention · sửa cấu trúc**, dùng skill project-local `sketchapiens-story-engine` — **Cỗ máy cấu trúc câu chuyện**.
-Đây là **bộ chẩn đoán**, không phải checklist bắt buộc. Không thêm câu chỉ để thoả một cơ chế.
+Khi công việc là **lên xương · nối chương · chẩn đoán structural retention · sửa cấu trúc**, dùng project-local `sketchapiens-story-engine` — **Cỗ máy cấu trúc câu chuyện**.
 
-**Agent review không được sửa file này.** Chỉ `/apply-review` tạo version mới, và chỉ sau khi người dùng đã phân loại từng góp ý.
+**Ownership contract — hợp đồng sở hữu:** `.claude/skills/sketchapiens-story-engine/CONTRACT.md`.
+
+Story Engine sở hữu **structural causality · belief progression · explanatory progression · structural stress test**. Đây là **bộ chẩn đoán**, không phải checklist bắt buộc. Không thêm câu chỉ để thoả một cơ chế.
+
+`sketchapiens-giu-chan-nguoi-xem` chỉ là **supporting legacy module — module hỗ trợ kế thừa** cho hook/pacing/craft observations; nó **không được override Story Engine ở phạm vi cấu trúc**.
+
+Evidence verdict vẫn thuộc Evidence reviewer. Story Engine chỉ được flag rủi ro `Narrative Overreach — Cốt truyện chạy vượt bằng chứng`, không tự kết án nguồn.
+
+**Agent review không được sửa file kịch bản.** Chỉ `/apply-review` tạo version mới, và chỉ sau khi người dùng đã phân loại từng góp ý.
