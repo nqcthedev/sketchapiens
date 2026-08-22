@@ -132,10 +132,30 @@ Khối công khai chỉ có Kräuchi, Haskell, Nadel và phép tính độ dài 
 *Rothschild, M. A., & Schneider, V. (1995). International Journal of Legal Medicine, 107(5), 250-256.*
 Thêm được vào REFERENCES khi dựng lại. ⚠️ Ghi kèm mức provenance: **abstract-verified**, chưa toàn văn.
 
-## D-8 · Không tồn tại canonical claim ledger cho V20
+## ✅ D-8 · Canonical claim ledger — **DỰNG XONG 22/08**
 
-Kho chỉ có `schemas/claim-ledger.schema.json` và `templates/claim-ledger.json`. Không có instance
-nào cho video này. Khớp `G-03` trong closeout Phase 4B — V17–V20 đều dùng file phẳng.
+`videos/Video20_Cold/02-research/claim-ledger.json` — **instance thật đầu tiên của kênh**.
+**6 nguồn · 9 claim · 3 cầu.** `CLAIM LEDGER VALID`.
+
+Đúng nghĩa *"bắt đầu tính từ V20"*: V17–V19 dùng file phẳng, V20 là video đầu tiên có sổ bằng
+chứng **máy đọc được**.
+
+| | |
+|---|---|
+| `S1`–`S6` | Kräuchi · Haskell · Parmeggiani · Nadel · **Rothschild** · phép tính độ dài đêm |
+| mức truy nguyên | **5/6 `ABSTRACT`**, 1 `PRIMARY_RECORD`. Không nguồn nào `FULL_TEXT` — khai thẳng |
+| `C4` `C6` | `BLOCKING` — mệnh đề phổ quát *(`D-2`)* · first name không verify được *(`D-1`)* |
+| `C5` `C9` | `NEEDS_QUALIFICATION` — suy diễn kể như phép đo · REM từ mèo/chuột sang người |
+| `B1` `B2` | `BLOCKING` — chuyển ngữ cảnh *(`D-4`)* · nguồn thứ tư ngoài bảng kê *(`D-5`)* |
+| `B3` | `QUALIFIED` — lab hiện đại → thời băng hà |
+| `lockability` | **`NOT_LOCKABLE`** · `locked: false` · `script_ref: null` *(pre-draft)* |
+
+**Đã thử tiêm lỗi để chắc engine không cho gian:** khai `LOCKABLE` + `locked: true` trong khi còn
+4 mục BLOCKING → engine **chặn với ba lỗi cùng lúc**, gồm cả *"khoá mà `script_ref` vẫn null"*.
+
+⚠️ **Chưa migrate cấu trúc.** Thư mục vẫn là `videos/Video20_Cold/`, chưa có `video.yaml`, nên
+`project_doctor` *(chỉ quét `videos/SKA-*`)* **không thấy ledger này**. Đổi tên thư mục = việc
+chủ ra lệnh *(`CLAUDE.md` luật 10)*, liên quan `D-05` và `D-28`.
 
 ## Phụ · `L17-18` suy diễn kể như phép đo
 

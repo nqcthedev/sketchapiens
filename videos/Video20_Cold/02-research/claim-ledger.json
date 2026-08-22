@@ -1,0 +1,290 @@
+{
+  "video_id": "SKA-0020-cold",
+  "script_ref": null,
+  "script_sha256": null,
+  "locked": false,
+  "lockability": "NOT_LOCKABLE",
+  "verification_run": null,
+  "sources": [
+    {
+      "id": "S1",
+      "citation": "Kräuchi K, Cajochen C, Werth E, Wirz-Justice A (2000). Am J Physiol Regul Integr Comp Physiol 278(3):R741-748",
+      "url": null,
+      "access_level": "ABSTRACT",
+      "source_says": "Distal-proximal skin temperature gradient predicts sleep-onset latency better than core temperature, melatonin, heart rate or subjective sleepiness. \"Sleepiness is primarily associated with heat loss and not with a decrease in core body temperature\".",
+      "note": "mỏ neo M2"
+    },
+    {
+      "id": "S2",
+      "citation": "Haskell EH, Palca JW, Walker JM, Berger RJ, Heller HC (1981). Electroencephalogr Clin Neurophysiol 51:494-501",
+      "url": null,
+      "access_level": "ABSTRACT",
+      "source_says": "6 người ngủ trần ở 21·24·29·34·37°C. Lạnh phá giấc ngủ mạnh hơn nóng; tệ nhất ở 21°C. Tác giả tự cảnh báo REM giảm có thể do giấc ngủ bị phá nói chung.",
+      "note": "mỏ neo M3 · tên riêng đúng là E.H. Haskell, KHÔNG phải \"William\""
+    },
+    {
+      "id": "S3",
+      "citation": "Parmeggiani PL (2003). Front Biosci 8(6):557-567, doi:10.2741/1054",
+      "url": null,
+      "access_level": "ABSTRACT",
+      "source_says": "Ở nhiều loài có vú, REM triệt tiêu hoặc giảm mạnh phản ứng điều nhiệt. Nhưng: \"In human adults, however, rapid eye movement sleep is not as thermally altered as in other mammals.\"",
+      "note": "mỏ neo M4"
+    },
+    {
+      "id": "S4",
+      "citation": "Nadel D, Weiss E, Simchoni O, Tsatskin A, Danin A, Kislev M (2004). PNAS 101(17):6821-6826, doi:10.1073/pnas.0308557101",
+      "url": null,
+      "access_level": "ABSTRACT",
+      "source_says": "Ohalo II, 23.000 năm, hồ Galilee. Sàn túp lều còn bó thân + lá Puccinellia cf. convoluta, \"arranged in a repeated pattern, on the floor, around a central hearth\".",
+      "note": "mỏ neo M5"
+    },
+    {
+      "id": "S5",
+      "citation": "Rothschild MA, Schneider V (1995). \"Terminal burrowing behaviour\" — a phenomenon of lethal hypothermia. Int J Legal Med 107(5):250-256",
+      "url": null,
+      "access_level": "ABSTRACT",
+      "source_says": "\"Between 1978 and 1994, 69 cases of death due to lethal hypothermia were examined\" · \"In our material this paradoxical undressing occurred in 25% of the cases\" · \"Nearly all bodies with partial or complete disrobement were found in a position which indicated a final mechanism of protection\".",
+      "note": "mỏ neo M6 · verify 22/08/2026 · TOÀN VĂN chưa lấy được (PubMed chặn cookie · Semantic Scholar rỗng · Springer đòi đăng nhập). Câu hỏi chặn D-3 được chính abstract trả lời."
+    },
+    {
+      "id": "S6",
+      "citation": "Công thức góc giờ mặt trời (δ=−23,44°), đối chiếu bảng tra độ dài ngày độc lập",
+      "url": null,
+      "access_level": "PRIMARY_RECORD",
+      "source_says": "50°N ngày ngắn nhất 7,9 giờ sáng → ~16 giờ tối. 60°N 5,6 giờ → ~18,4 giờ tối. Khớp bảng tra độc lập 7,88 / 5,56.",
+      "note": "mỏ neo M1 · phép tính của dự án, có đối chứng độc lập"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "text": "69 ca chết vì hạ thân nhiệt được khám nghiệm ở Berlin, 1978-1994.",
+      "sentence_ref": null,
+      "kind": "DIRECT",
+      "derivation": "NONE",
+      "source_refs": [
+        "S5"
+      ],
+      "depends_on": [],
+      "transfer_flags": [],
+      "failure_types": [],
+      "severity": "NOTE",
+      "status": "OK",
+      "overreach_legacy": null,
+      "note": null
+    },
+    {
+      "id": "C2",
+      "text": "Cởi đồ nghịch lý xảy ra ở 25% số ca — khoảng 17 người.",
+      "sentence_ref": null,
+      "kind": "DIRECT",
+      "derivation": "NONE",
+      "source_refs": [
+        "S5"
+      ],
+      "depends_on": [
+        "C1"
+      ],
+      "transfer_flags": [],
+      "failure_types": [],
+      "severity": "NOTE",
+      "status": "OK",
+      "overreach_legacy": null,
+      "note": "25% × 69 ≈ 17. Đây là mẫu số đúng cho MỌI câu về hành vi chui rúc."
+    },
+    {
+      "id": "C3",
+      "text": "Gần như mọi thi thể ĐÃ CỞI ĐỒ được tìm thấy ở tư thế cho thấy một cơ chế tự vệ cuối cùng.",
+      "sentence_ref": "L13",
+      "kind": "DIRECT",
+      "derivation": "NONE",
+      "source_refs": [
+        "S5"
+      ],
+      "depends_on": [
+        "C2"
+      ],
+      "transfer_flags": [],
+      "failure_types": [],
+      "severity": "NOTE",
+      "status": "OK",
+      "overreach_legacy": null,
+      "note": "D-3 ĐÓNG 22/08: mẫu số KHÔNG bị hoán đổi. Abstract TỰ mang mệnh đề điều kiện \"with partial or complete disrobement\". L13 \"almost every one of those\" là bản dịch trung thực."
+    },
+    {
+      "id": "C4",
+      "text": "\"The last thing a freezing person does…\" — nâng hành vi lên mệnh đề phổ quát cho mọi người đang chết cóng.",
+      "sentence_ref": "L19",
+      "kind": "INFERENCE",
+      "derivation": "PROJECT_INFERENCE",
+      "source_refs": [
+        "S5"
+      ],
+      "depends_on": [
+        "C3"
+      ],
+      "transfer_flags": [
+        "POPULATION_TO_UNIVERSAL"
+      ],
+      "failure_types": [
+        "NUMBER_OR_DENOMINATOR_DRIFT",
+        "CERTAINTY_INFLATION"
+      ],
+      "severity": "BLOCKING",
+      "status": "NEEDS_REWRITE",
+      "overreach_legacy": null,
+      "note": "D-2. Nguồn chỉ chống được cho ~17 người ĐÃ CỞI ĐỒ. Sửa: hạ xuống điều kiện, không viết lại khối."
+    },
+    {
+      "id": "C5",
+      "text": "\"Nobody put them there. They crawled in.\" — họ tự bò vào.",
+      "sentence_ref": "L17-18",
+      "kind": "INFERENCE",
+      "derivation": "SOURCE_AUTHOR_INFERENCE",
+      "source_refs": [
+        "S5"
+      ],
+      "depends_on": [
+        "C3"
+      ],
+      "transfer_flags": [
+        "INTERPRETATION_TO_INTENT"
+      ],
+      "failure_types": [
+        "CERTAINTY_INFLATION"
+      ],
+      "severity": "QUALIFY",
+      "status": "NEEDS_QUALIFICATION",
+      "overreach_legacy": null,
+      "note": "CLAUDE.md luật 7. Nguồn viết \"a position which INDICATED\" — suy diễn của tác giả từ tư thế thi thể, không phải phép đo. Bài nói ở thể trần thuật tuyệt đối."
+    },
+    {
+      "id": "C6",
+      "text": "\"Michael\" Rothschild — first name của tác giả.",
+      "sentence_ref": "L10",
+      "kind": "DIRECT",
+      "derivation": "NONE",
+      "source_refs": [
+        "S5"
+      ],
+      "depends_on": [],
+      "transfer_flags": [],
+      "failure_types": [
+        "UNVERIFIED_PROVENANCE"
+      ],
+      "severity": "BLOCKING",
+      "status": "DEAD",
+      "overreach_legacy": null,
+      "note": "D-1 ĐÓNG 22/08 bằng QUYẾT ĐỊNH: bỏ first name. Chỉ chắc chữ tắt M. Cùng lớp lỗi \"William Haskell\". \"Volkmar\" Schneider cũng chưa verify."
+    },
+    {
+      "id": "C7",
+      "text": "Ở Ohalo II, cỏ lót được xếp thành khuôn lặp lại trên sàn, quanh một bếp lửa ở giữa.",
+      "sentence_ref": null,
+      "kind": "DIRECT",
+      "derivation": "NONE",
+      "source_refs": [
+        "S4"
+      ],
+      "depends_on": [],
+      "transfer_flags": [],
+      "failure_types": [],
+      "severity": "NOTE",
+      "status": "OK",
+      "overreach_legacy": null,
+      "note": "Hedge bắt buộc: hồ Galilee KHÔNG lạnh, và bố cục bếp-ở-giữa có nhiều lý do khác ngoài hơi ấm."
+    },
+    {
+      "id": "C8",
+      "text": "Buồn ngủ gắn với việc THẢI NHIỆT, không phải với việc lõi nguội đi.",
+      "sentence_ref": null,
+      "kind": "DIRECT",
+      "derivation": "NONE",
+      "source_refs": [
+        "S1"
+      ],
+      "depends_on": [],
+      "transfer_flags": [],
+      "failure_types": [],
+      "severity": "NOTE",
+      "status": "OK",
+      "overreach_legacy": null,
+      "note": "Luận đề trung tâm của V20."
+    },
+    {
+      "id": "C9",
+      "text": "REM tạm ngưng điều nhiệt.",
+      "sentence_ref": null,
+      "kind": "DIRECT",
+      "derivation": "NONE",
+      "source_refs": [
+        "S3"
+      ],
+      "depends_on": [],
+      "transfer_flags": [
+        "ANIMAL_TO_HUMAN"
+      ],
+      "failure_types": [
+        "TRANSFER_SCOPE_LEAP"
+      ],
+      "severity": "QUALIFY",
+      "status": "NEEDS_QUALIFICATION",
+      "overreach_legacy": null,
+      "note": "Phát hiện trên mèo/chuột. Chính bài gốc chặn: \"In human adults, however, REM sleep is not as thermally altered as in other mammals.\" Không được nói như thể đúng cho người."
+    }
+  ],
+  "bridges": [
+    {
+      "id": "B1",
+      "relationship": "Chết cóng TRONG NHÀ ở Berlin 1978-1994 (gầm giường · tủ quần áo · hốc kệ) dùng để dựng chuyện NGỦ NGOÀI TRỜI thời băng hà.",
+      "depends_on": [
+        "C3",
+        "C5"
+      ],
+      "source_refs": [
+        "S5"
+      ],
+      "verdict": "QUALIFIED",
+      "failure_types": [
+        "TRANSFER_SCOPE_LEAP"
+      ],
+      "severity": "BLOCKING",
+      "note": "D-4. Cơ chế (thân não, tự động) có thể chuyển được; BỐI CẢNH thì không — gầm giường và tủ quần áo là đồ đạc gia dụng đô thị. Bài hiện KHÔNG hedge chỗ này. Chi tiết làm câu văn đắt nhất lại làm cú bắc cầu yếu nhất."
+    },
+    {
+      "id": "B2",
+      "relationship": "Khối mở bài đứng trên Rothschild, nhưng bài tự khai \"that is all the evidence there is\" rồi liệt kê BA thứ không có Rothschild.",
+      "depends_on": [
+        "C3"
+      ],
+      "source_refs": [
+        "S5"
+      ],
+      "verdict": "UNSUPPORTED",
+      "failure_types": [
+        "SOURCE_MISMATCH"
+      ],
+      "severity": "BLOCKING",
+      "note": "D-5. L172 liệt kê ba, L189 nhắc lại \"three pieces of evidence\". Bài mở bằng nguồn thứ tư rồi tự khai nguồn đó không nằm trong bảng kê của chính nó. Khi viết lại phải chọn: đưa Rothschild vào thành BỐN, hay bỏ \"all the evidence\"."
+    },
+    {
+      "id": "B3",
+      "relationship": "Khoa học giấc ngủ đo trên cơ thể hiện đại trong phòng thí nghiệm dùng để nói về người thời băng hà.",
+      "depends_on": [
+        "C8",
+        "C9"
+      ],
+      "source_refs": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "verdict": "QUALIFIED",
+      "failure_types": [
+        "TRANSFER_SCOPE_LEAP"
+      ],
+      "severity": "QUALIFY",
+      "note": "KHÔNG có dữ liệu giấc ngủ nào từ thời băng hà. Giới hạn lớn nhất của cả video — MONEO đã bắt phải tự khai."
+    }
+  ]
+}
