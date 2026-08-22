@@ -29,6 +29,32 @@ def mtime(p):
     return os.path.getmtime(p) if p and os.path.exists(p) else 0
 
 
+def yaml_get(text, key):
+    m = re.search(rf"^{re.escape(key)}:\s*(.+?)\s*$", text, re.M)
+    if not m:
+        return None
+    value = m.group(1).strip().strip('"').strip("'")
+    return None if value in ("null", "~", "") else value
+
+
+def current_script_ref():
+    """Return canonical active immutable script ref for an SKA video.
+
+    None means there is no current pointer. An invalid/missing target is returned
+    as a ref and rejected by the caller so stale/broken pointers cannot go green.
+    """
+    pointer = os.path.join(V, "03-script", "refs", "current.yaml")
+    if not os.path.exists(pointer):
+        return None
+    try:
+        version = yaml_get(open(pointer, encoding="utf-8").read(), "version")
+    except Exception:
+        return "__INVALID_CURRENT_POINTER__"
+    if not version or not re.fullmatch(r"v[0-9]{3}", version):
+        return "__INVALID_CURRENT_POINTER__"
+    return f"03-script/versions/{version}.md"
+
+
 rows, fail = [], 0
 
 
@@ -43,9 +69,17 @@ chot = has("CHOT_*.md")
 moneo = has("MONEO_*.md")
 ket = has("KET_*.md")
 narr = has("Script_*_narration.txt")
-if IS_SKA and not narr:
+versions = []
+active_script_ref = None
+if IS_SKA:
     versions = sorted(glob.glob(os.path.join(V, "03-script", "versions", "v[0-9][0-9][0-9].md")))
-    narr = versions[-1] if versions else None
+    active_script_ref = current_script_ref()
+    if active_script_ref and active_script_ref != "__INVALID_CURRENT_POINTER__":
+        active_path = os.path.join(V, active_script_ref)
+        narr = active_path if os.path.exists(active_path) else None
+    elif not narr:
+        # Display/help fallback only. Evidence gate below still requires a current pointer.
+        narr = versions[-1] if versions else None
 shots = has("shot_data.py")
 prom = has("PROMPTS_FULL.txt")
 
@@ -89,14 +123,27 @@ def check_ska_evidence():
         return False, "ledger schema hợp lệ nhưng chưa có claim/source evidence"
 
     script_ref = data.get("script_ref")
-    if narr and not script_ref:
-        return False, "đã có script version nhưng ledger chưa bind script_ref"
+
+    # Pre-draft research may have no script version/current pointer and remains not lockable.
+    if versions:
+        if active_script_ref is None:
+            return False, "đã có script version nhưng thiếu 03-script/refs/current.yaml"
+        if active_script_ref == "__INVALID_CURRENT_POINTER__":
+            return False, "03-script/refs/current.yaml thiếu/sai version: vNNN"
+        active_target = os.path.join(V, active_script_ref)
+        if not os.path.exists(active_target):
+            return False, f"current pointer trỏ file không tồn tại: {active_script_ref}"
+        if not script_ref:
+            return False, "đã có current script nhưng ledger chưa bind script_ref"
+        if script_ref != active_script_ref:
+            return False, f"Evidence stale: ledger={script_ref} nhưng current={active_script_ref}"
+
     if script_ref:
         target = os.path.join(V, script_ref)
         if not os.path.exists(target):
             return False, f"script_ref không tồn tại: {script_ref}"
 
-    return True, f"{len(data.get('claims', []))} claim · {len(data.get('sources', []))} source"
+    return True, f"{len(data.get('claims', []))} claim · {len(data.get('sources', []))} source · {script_ref or 'pre-draft'}"
 
 
 chk(
@@ -115,7 +162,7 @@ chk(2, "cú bẻ lái KHÁC + khối mới", bool(chot) and "bẻ lái" in open(
 
 if IS_SKA:
     evidence_ok, evidence_detail = check_ska_evidence()
-    chk(3, "claim-ledger có evidence + schema hợp lệ", evidence_ok, evidence_detail)
+    chk(3, "claim-ledger có evidence + đúng current script", evidence_ok, evidence_detail)
 else:
     # Legacy compatibility only: citation-shaped count from MONEO-era workflow.
     CIT = r"10\.\d{4}/|doi\.org|PMC\d+|(?:PLoS|PLOS|Science|Nature|PNAS|Proc\.? R\.? Soc|Current Anthropology|Journal|Sci Adv|Med Hist)[^\n]{0,60}?\d+"
