@@ -20,6 +20,133 @@
 
 ---
 
+# CURRENT HANDOFF — ĐIỂM BÀN GIAO HIỆN TẠI
+
+> **Dùng section này khi mở một Claude Code session mới.** Đọc section này trước, sau đó đọc các file được chỉ định ở `READ FIRST`. Không cần dựa vào lịch sử chat để tiếp tục Phase 4B.
+
+**Branch:** `upgrade/story-engine-v21`  
+**Phase hiện tại:** `PHASE 4B — EVIDENCE IMPLEMENTATION`  
+**Trạng thái:** `04B-A PASS · 04B-B PASS · NEXT = 04B-C`  
+**Phase 4A audit checkpoint:** `1b7367ea580c77b48e6fcf4b80c013d285d09c24`  
+**Phase 4A reconciled branch checkpoint:** `e73f62f9a5e8060f8e9d2dde447e4fa165a3dc3c`  
+**04B-A rollback boundary / clean final tree:** `bda24b5c478f13d480ce2da3544d0c49a4c40020`  
+**04B-B implementation boundary:** `e32d36cf32aa0bfbaaa94ae8efbd849e59215780`
+
+## Đã hoàn tất trong 04B-A
+
+Tạo project-local module thật:
+
+```text
+.claude/skills/sketchapiens-evidence-engine/
+├── CONTRACT.md
+├── SKILL.md
+└── README.md
+```
+
+Ownership đã khóa:
+
+- Evidence Engine sở hữu factual/source verdict semantics;
+- claim ↔ source fit;
+- provenance + transfer/scope;
+- lockability;
+- bridge/synthesis verdict;
+- không sở hữu topic research, Story placement, prose, editor mutation hay analytics causality.
+
+04B-A **không** sửa prosecutor, `/verify-claims`, schema hay template cũ.
+
+Trong lúc tạo checkpoint 04B-A đã có vài transient marker file do thao tác connector sai (`.keep`, checkpoint note, `.checkpoint-04B-A`, `SHOULD_NOT_EXIST`). Tất cả đã bị xóa ngay. **Final tree sạch.** Compare từ Phase 4A baseline tới boundary A chỉ còn đúng 3 file module thật. Không được hồi sinh các marker đó.
+
+## Đã hoàn tất trong 04B-B
+
+04B-B chỉ thay **representation / artifact contract**, chưa thay Evidence reasoning behavior.
+
+Files thay đổi đúng scope:
+
+```text
+schemas/claim-ledger.schema.json
++ templates/claim-ledger.json
++ .claude/skills/sketchapiens-evidence-engine/references/ledger-semantics.md
+```
+
+Quyết định đã khóa ở B:
+
+- machine ledger canonical = **JSON**;
+- Markdown ledger cũ là human/transitional rendering, không thể tự coi là artifact đã được JSON Schema validate;
+- giữ bốn top-level verdict:
+  `DIRECT / INFERENCE / SPECULATION / STORY_DEVICE`;
+- **không** thêm `SYNTHESIS` làm verdict thứ năm;
+- synthesis là derivation/dependency dimension của project inference;
+- representation tối thiểu có:
+  `script_ref`, optional `script_sha256`, source registry, `claims[]`, `bridges[]`, `lockability`, `locked`;
+- claim có thể biểu diễn `kind`, `derivation`, `source_refs`, `depends_on`, `transfer_flags`, `failure_types`, `severity`, `status`;
+- legacy `overreach 0–3` chỉ là compatibility field (`overreach_legacy`), không còn là semantic axis đích.
+
+**04B-B CHECK:** từ `bda24b5...` tới implementation boundary chỉ có đúng 3 files kể trên. Prosecutor và `/verify-claims` chưa đổi.
+
+## NEXT — 04B-C ONLY
+
+```text
+04B-C — Causal Proof Fit / bridge verdict behavior
+```
+
+Change hypothesis duy nhất của C:
+
+> Evidence phải phán **relation/bridge** khi các fact node riêng lẻ đều có thể đúng nhưng narrative edge giữa chúng chưa được nguồn chứng minh.
+
+### READ FIRST
+
+```text
+governance/MASTER_UPGRADE_PLAN.md
+
+governance/audits/phase4-evidence/04A-G_evidence-contract-proposal.md
+governance/audits/phase4-evidence/04A-F_evidence-fit-failure-mode-audit.md
+
+.claude/skills/sketchapiens-evidence-engine/CONTRACT.md
+.claude/skills/sketchapiens-evidence-engine/SKILL.md
+.claude/skills/sketchapiens-evidence-engine/README.md
+.claude/skills/sketchapiens-evidence-engine/references/ledger-semantics.md
+
+schemas/claim-ledger.schema.json
+.claude/agents/evidence-prosecutor.md
+.claude/skills/verify-claims/SKILL.md
+```
+
+### 04B-C DO
+
+- implement / document relation-level bridge verdict behavior inside Evidence Engine-owned runtime/reference surface;
+- preserve four factual verdict labels;
+- distinguish true nodes from unsupported edge;
+- support at least `SUPPORTED / QUALIFIED / UNSUPPORTED`-style bridge outcome or equivalent contract already allowed by the current schema;
+- preserve source-author inference vs project inference distinction;
+- ensure unsupported multi-source synthesis cannot become DIRECT merely because each component claim is DIRECT;
+- keep M-004 as candidate until regression in 04B-F/G proves narrowed identity useful.
+
+### 04B-C DO NOT
+
+- do **not** redo 04B-B schema design unless a concrete blocker is proven;
+- do **not** refactor `evidence-prosecutor` or `/verify-claims` yet — that is 04B-D;
+- do **not** sync `SOURCE_OF_TRUTH`, preflight, Writer, Story or other consumers yet — that is 04B-E;
+- do **not** build regression harness yet — that is 04B-F;
+- do **not** promote M-004;
+- do **not** add `SYNTHESIS` as fifth verdict;
+- do **not** open competitor corpus in normal Evidence runtime;
+- do **not** modify V17–V20 historical artifacts merely to fit the new schema.
+
+### Sau 04B-C
+
+Tiếp tục đúng thứ tự:
+
+```text
+04B-C CHECK
+→ 04B-D prosecutor + verify-claims public-interface refactor
+→ 04B-E consumer / Source-of-Truth / preflight integration
+→ 04B-F regression harness
+→ 04B-G target-runtime smoke + project doctor
+→ 04B-H runtime closeout + stable checkpoint
+```
+
+---
+
 # 0. MỤC TIÊU CỦA ĐỢT NÂNG CẤP
 
 Không biến repo thành một đống prompt lớn hơn.
@@ -599,7 +726,7 @@ Stable checkpoint `19c5e78f448a3308dc88845545de24eaa6b38b58` là rollback bounda
 
 ## PHASE 4 — EVIDENCE ENGINE — CỖ MÁY BẰNG CHỨNG
 
-**Status:** `PHASE 4A COMPLETE — READ-ONLY AUDIT VERIFIED; PHASE 4B GATE CLEARED — checkpoint 1b7367ea580c77b48e6fcf4b80c013d285d09c24`
+**Status:** `PHASE 4B IN PROGRESS — 04B-A PASS · 04B-B PASS · NEXT 04B-C`
 
 ### Mục tiêu
 
@@ -625,7 +752,7 @@ STORY VISUALIZES — CÂU CHUYỆN HÌNH DUNG
 
 - M-004 `Evidence Fit / Causal Proof Fit` — **Độ khớp bằng chứng–nhân quả**;
 - taxonomy hiện hành `DIRECT / INFERENCE / SPECULATION / STORY_DEVICE` và drift giữa các consumer;
-- `SYNTHESIS` — **Tổng hợp** như một candidate derivation/category cần audit, chưa phải nhãn runtime hiện hành;
+- `SYNTHESIS` — **Tổng hợp** như một derivation/category dimension, không phải nhãn verdict runtime thứ năm;
 - causal bridge validation;
 - claim-ledger contract;
 - Narrative Overreach handoff từ Story Engine sang Evidence verdict;
@@ -652,7 +779,7 @@ E-05 real tendency → absolute impossibility
 E-06 hook compression → false universal / maximum
 ```
 
-Không được dùng các label này làm requirement trước audit/validation.
+Không được dùng các label này làm Writer requirement trước audit/validation.
 
 ### Điều kiện tạo skill riêng — Kết quả audit
 
@@ -664,7 +791,7 @@ Không được dùng các label này làm requirement trước audit/validation
 - context isolation có giá trị;
 - public interface độc lập hợp lý.
 
-**04A-G proposal:** Phase 4B nên tạo project-local `sketchapiens-evidence-engine`, nhưng giữ current prosecutor như execution/reviewer persona thay vì viết reviewer mới từ đầu.
+**04B-A đã triển khai:** project-local `sketchapiens-evidence-engine` đã tồn tại với public contract/router/map; current prosecutor vẫn được giữ để refactor ở 04B-D.
 
 ### PHASE 4A — EVIDENCE AUDIT — KIỂM TOÁN BẰNG CHỨNG
 
@@ -689,36 +816,69 @@ governance/audits/phase4-evidence/
 - Evidence runtime không đổi trong audit;
 - bốn top-level verdict hiện hành được giữ làm baseline:
   `DIRECT / INFERENCE / SPECULATION / STORY_DEVICE`;
-- `SYNTHESIS` chưa được nâng thành verdict thứ năm; audit nghiêng về derivation mode của `INFERENCE`;
+- `SYNTHESIS` không được nâng thành verdict thứ năm; dùng derivation dimension nếu regression xác nhận;
 - M-004 chưa promote;
 - gap thật là relation-level verdict: các fact node có thể đúng nhưng narrative edge không được support;
 - current Evidence Prosecutor đã mạnh và nên được contract hóa/nâng cấp, không thay bỏ;
-- ledger hiện thiếu representation sạch cho multi-source dependency/bridge/synthesis;
-- `overreach 0–3` đang trộn severity với failure type;
-- schema claim-ledger tồn tại nhưng project doctor chưa validate ledger artifact thật against schema;
-- `preflight.py` vẫn kiểm thế hệ cũ `MONEO_* + >=3 citation-shaped strings`, lệch new lifecycle `02-research/claim-ledger.md`;
+- ledger cũ thiếu representation sạch cho multi-source dependency/bridge/synthesis;
+- `overreach 0–3` trộn severity với failure type;
+- pre-04B schema tồn tại nhưng project doctor chưa validate ledger artifact thật against schema;
+- `preflight.py` vẫn kiểm thế hệ cũ `MONEO_* + >=3 citation-shaped strings`, lệch new lifecycle;
 - legacy V17–V20 Evidence artifacts nên là regression corpus, không phải migration blocker.
 
-### PHASE 4B — EVIDENCE IMPLEMENTATION — TRIỂN KHAI SAU AUDIT
+### PHASE 4B — EVIDENCE IMPLEMENTATION
 
-**Status:** `GATE CLEARED — NOT STARTED`
+**Status:** `IN PROGRESS — A/B COMPLETE; C NEXT`
 
-Task chain đã được audit đề xuất:
+Task chain:
 
 ```text
-04B-A — Lock Evidence Contract + create module skeleton
-04B-B — Canonical semantics + minimal ledger/schema representation
-04B-C — Causal Proof Fit / bridge verdict behavior
-04B-D — Refactor prosecutor + verify-claims around public interface
-04B-E — Consumer / Source-of-Truth / preflight integration
-04B-F — Regression harness
-04B-G — Target-runtime semantic smoke + project doctor
-04B-H — Runtime closeout + stable checkpoint
+04B-A — PASS — Lock Evidence Contract + create module skeleton
+04B-B — PASS — Canonical semantics + minimal ledger/schema representation
+04B-C — NEXT — Causal Proof Fit / bridge verdict behavior
+04B-D — pending — Refactor prosecutor + verify-claims around public interface
+04B-E — pending — Consumer / Source-of-Truth / preflight integration
+04B-F — pending — Regression harness
+04B-G — pending — Target-runtime semantic smoke + project doctor
+04B-H — pending — Runtime closeout + stable checkpoint
 ```
+
+### 04B-A result
+
+Files:
+
+```text
+.claude/skills/sketchapiens-evidence-engine/CONTRACT.md
+.claude/skills/sketchapiens-evidence-engine/SKILL.md
+.claude/skills/sketchapiens-evidence-engine/README.md
+```
+
+Boundary: `bda24b5c478f13d480ce2da3544d0c49a4c40020`.
+
+### 04B-B result
+
+Files:
+
+```text
+schemas/claim-ledger.schema.json
+templates/claim-ledger.json
+.claude/skills/sketchapiens-evidence-engine/references/ledger-semantics.md
+```
+
+Implementation boundary: `e32d36cf32aa0bfbaaa94ae8efbd849e59215780`.
+
+Machine artifact direction:
+
+```text
+JSON claim ledger = canonical machine artifact
+Markdown ledger   = transitional human rendering / note
+```
+
+Current four verdicts remain unchanged. `SYNTHESIS` is not a fifth verdict.
 
 ### Important split
 
-04B-B và 04B-C phải là hai change units riêng:
+04B-B và 04B-C là hai change units riêng:
 
 - B = artifact/taxonomy representation;
 - C = relation-level bridge reasoning behavior.
@@ -1033,7 +1193,7 @@ Trong đợt V21 architecture upgrade, mặc định **không đại phẫu** c�
 
 Branch: `upgrade/story-engine-v21`
 
-Các nhóm thay đổi đã hoàn tất tới Phase-4A closeout:
+Các nhóm thay đổi đã hoàn tất tới **Phase 4B-B**:
 
 1. **Consistency Repair — Sửa lệch:** Phase 1 complete/stable.
 2. **Story Engine — Cỗ máy cấu trúc:** Phase 2 complete/stable, runtime verified.
@@ -1041,13 +1201,15 @@ Các nhóm thay đổi đã hoàn tất tới Phase-4A closeout:
 4. **Context Architecture — Kiến trúc ngữ cảnh:** Story + Writer progressive disclosure đã runtime-smoke.
 5. **Candidate Isolation — Cách ly ứng viên:** lifecycle + firewall + Mechanism Lab data boundary.
 6. **Evidence R&D ingestion:** Egypt heat case đã vào non-runtime R&D; không mechanism nào được promote.
-7. **Evidence Audit — Phase 4A:** 8 audit tasks complete; Evidence runtime unchanged; 04B module proposal + gate cleared.
-8. **Runtime Guard Debt:** NEXT-GUARD-01 exact legacy allowlist đã hoàn tất; preflight Evidence generation drift mới được 04A phát hiện và chưa sửa.
-9. **Bilingual naming — Tên song ngữ:** technical English + nghĩa Việt ở human-facing docs.
+7. **Evidence Audit — Phase 4A:** 8 audit tasks complete; Evidence runtime unchanged; module proposal accepted for 04B.
+8. **Evidence Engine 04B-A:** module contract/public skeleton đã được tạo; clean rollback boundary `bda24b5...`.
+9. **Evidence Engine 04B-B:** JSON machine ledger representation + ledger semantics đã triển khai; implementation boundary `e32d36cf...`.
+10. **Runtime Guard Debt:** NEXT-GUARD-01 exact legacy allowlist đã hoàn tất; preflight Evidence generation drift vẫn chưa sửa và dành cho 04B-E.
+11. **Bilingual naming — Tên song ngữ:** technical English + nghĩa Việt ở human-facing docs.
 
 `main` chưa bị thay đổi bởi upgrade branch.
 
-Phase 4B **chưa bắt đầu implementation**.
+**NEXT EXACT TASK:** `04B-C — Causal Proof Fit / bridge verdict behavior`.
 
 ---
 
@@ -1125,21 +1287,41 @@ Final checkpoint:
 
 `1b7367ea580c77b48e6fcf4b80c013d285d09c24`
 
-## NEXT-04B — Evidence Implementation — CHƯA BẮT ĐẦU
-
-Chỉ bắt đầu sau checkpoint 04A và vẫn theo:
+## NEXT-04B — Evidence Implementation — IN PROGRESS
 
 ```text
-PHASE → TASK → CHECK → CHECKPOINT
+04B-A ✅ PASS
+04B-B ✅ PASS
+04B-C ▶ NEXT
+04B-D pending
+04B-E pending
+04B-F pending
+04B-G pending
+04B-H pending
 ```
 
-Task đầu:
+### 04B-A — COMPLETE
 
-```text
-04B-A — Lock Evidence Contract + create module skeleton
-```
+Evidence Engine public module skeleton đã được tạo. Clean boundary:
 
-Không được nhảy thẳng sang sửa schema/prosecutor trước contract.
+`bda24b5c478f13d480ce2da3544d0c49a4c40020`
+
+### 04B-B — COMPLETE
+
+Canonical machine representation đã được tách khỏi reasoning behavior.
+
+Implementation boundary:
+
+`e32d36cf32aa0bfbaaa94ae8efbd849e59215780`
+
+### 04B-C — NEXT
+
+Chỉ làm **relation-level Causal Proof Fit / bridge verdict behavior**.
+
+Không refactor prosecutor hoặc `/verify-claims` trong C.
+Không sync preflight/consumers trong C.
+Không đổi four-label verdict taxonomy.
+Không promote M-004.
 
 ---
 
@@ -1151,7 +1333,7 @@ Không được nhảy thẳng sang sửa schema/prosecutor trước contract.
 - [x] `CLAUDE.md` vẫn mỏng và đóng vai router/control plane;
 - [x] Story Engine có public interface rõ;
 - [x] Writer có public interface rõ và runtime không default-load legacy monolith;
-- [ ] Evidence Engine có public interface rõ và runtime verified;
+- [ ] Evidence Engine có public interface rõ **và runtime verified**; *(public interface đã có từ 04B-A, runtime verification chưa tới)*
 - [ ] module-specific knowledge/tools/templates được owner module giữ;
 - [x] shared folders có admission rule ở Architecture Contract;
 - [x] writer không còn phải tự giải active-vs-dead contradictions trong implementation legacy;
@@ -1211,17 +1393,27 @@ Không được nhảy thẳng sang sửa schema/prosecutor trước contract.
 ## 2026-08-22 — D-ARCH-I
 
 **Decision:** Evidence Phase 4 phải bắt đầu bằng read-only audit; không thêm `SYNTHESIS` thành verdict chỉ vì Story Engine dùng khái niệm synthesis.  
-**Reason:** runtime hiện có four-label taxonomy; cần audit semantics và consumer trước khi migration.
+**Reason:** runtime có four-label taxonomy; cần audit semantics và consumer trước migration.
 
 ## 2026-08-22 — D-ARCH-J
 
-**Decision proposal after 04A:** Evidence domain đủ điều kiện thành project-local `sketchapiens-evidence-engine` trong Phase 4B.  
-**Reason:** audit chứng minh responsibility/workflow/knowledge/multiple consumers/context isolation/public API need độc lập. Current Evidence Prosecutor được giữ làm execution/reviewer persona, không thay bằng reviewer mới.
+**Decision:** Evidence domain đủ điều kiện thành project-local `sketchapiens-evidence-engine`; 04B-A đã triển khai public module contract/skeleton.  
+**Reason:** responsibility/workflow/knowledge/multiple consumers/context isolation/public API need độc lập. Current Evidence Prosecutor vẫn là execution/reviewer persona để refactor sau, không bị thay bỏ.
 
 ## 2026-08-22 — D-ARCH-K
 
-**Decision proposal after 04A:** `SYNTHESIS` không phải top-level fifth Evidence verdict theo audit hiện tại; ưu tiên xem nó là derivation mode của `INFERENCE` nếu 04B tests xác nhận.  
+**Decision:** `SYNTHESIS` không phải top-level fifth Evidence verdict; 04B-B giữ `DIRECT / INFERENCE / SPECULATION / STORY_DEVICE` và biểu diễn synthesis qua derivation/dependency.  
 **Reason:** factual relation với evidence và cách claim được dẫn xuất là hai dimension khác nhau.
+
+## 2026-08-22 — D-ARCH-L
+
+**Decision:** canonical machine claim ledger dùng JSON shape bind được với `schemas/claim-ledger.schema.json`; Markdown ledger cũ không được coi là machine-validated artifact chỉ vì có cùng tên field trong bảng.  
+**Reason:** schema phải thực sự validate được artifact nếu project gọi schema là type system.
+
+## 2026-08-22 — D-ARCH-M
+
+**Decision:** representation change (04B-B) và relation-level reasoning change (04B-C) là hai change units riêng.  
+**Reason:** nếu regression xảy ra phải biết lỗi đến từ artifact/schema migration hay Causal Proof Fit behavior.
 
 ---
 
