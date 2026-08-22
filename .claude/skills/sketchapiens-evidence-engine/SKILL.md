@@ -6,7 +6,8 @@ description: Public interface của Evidence Engine. Dùng để verify claim/so
 # Sketchapiens Evidence Engine — Cỗ máy bằng chứng
 
 > Canonical semantics: `CONTRACT.md`.
-> Phase 04B-A chỉ khóa public interface. Representation chi tiết của ledger/bridge được triển khai ở các task sau.
+> Machine ledger semantics: `references/ledger-semantics.md` khi task cần tạo/đọc/validate ledger.
+> Relation-level behavior: `references/causal-proof-fit.md` chỉ khi có material causal/synthesis bridge.
 
 ## Khi dùng
 
@@ -41,6 +42,29 @@ Không dùng để:
 6. Return lockability + traceability
 ```
 
+## Progressive loading — Nạp theo nhu cầu
+
+### Claim/ledger task
+
+Load:
+
+- `CONTRACT.md`;
+- `references/ledger-semantics.md`;
+- exact script/ledger/source material.
+
+### Material bridge / synthesis task
+
+Load thêm:
+
+- `references/causal-proof-fit.md`.
+
+Không mở reference bridge chỉ vì nó tồn tại. Chỉ mở khi narration thật sự có relation cần phán.
+
+### Historical/R&D regression
+
+Chỉ test/audit mode mới được mở historical VERIFY/MONEO hoặc Egypt R&D case.
+Normal runtime không load chúng.
+
 ## Required output
 
 Tối thiểu:
@@ -58,15 +82,13 @@ Không rewrite narration trong Evidence review.
 
 ## Context rule — Progressive disclosure
 
-Normal run chỉ load thứ task cần.
-
 Được đọc khi verify:
 
 - exact narration/version;
-- claim ledger;
+- canonical machine claim ledger;
 - relevant sources;
 - `CONTRACT.md`;
-- supporting Evidence references được route rõ ở các task sau.
+- supporting Evidence references đúng task.
 
 Không default-load:
 
@@ -77,6 +99,22 @@ Không default-load:
 - Story Engine mechanism lab;
 - thumbnail/analytics;
 - historical Evidence corpus trừ regression/audit mode.
+
+## Relation-level trigger
+
+Không phải mọi transition đều cần bridge object.
+
+Bật Causal Proof Fit khi relationship **material** và narration đang làm một trong các việc như:
+
+- `A causes B`;
+- event → system function;
+- components → optimization/adaptation;
+- one context/population → another;
+- interpretation → intent;
+- separate statistics → combined conclusion;
+- multi-source synthesis → thesis.
+
+Khi đó phải phán **edge** riêng, không chỉ node facts.
 
 ## Neighbor handoffs
 
@@ -102,19 +140,20 @@ Evidence không tự edit.
 
 ## Hard boundaries
 
-- Không biến `SYNTHESIS` thành verdict thứ năm trong task này.
+- `SYNTHESIS` không phải verdict thứ năm.
 - Không dùng hedge để cứu unsupported claim.
-- Không gọi một inference là source finding nếu source không nói thế.
+- Không gọi project inference là source finding.
 - Không coi node facts đúng là đủ proof cho edge.
+- Không biến Causal Proof Fit thành quota/checklist cho mọi câu.
 - Không kế thừa evidence lock qua script version mới chỉ vì `current` pointer đổi.
 - Không tự thay factual verdict để story đẹp hơn.
 
 ## Current compatibility
 
-Trong Phase 04B-A:
+Trong Phase 04B-C:
 
-- `evidence-prosecutor` vẫn là execution persona hiện hành;
-- `/verify-claims` vẫn là workflow wrapper hiện hành;
-- schema/template cũ chưa đổi ở task A.
+- `evidence-prosecutor` vẫn là execution persona cũ và chưa được refactor sang public interface;
+- `/verify-claims` vẫn là workflow wrapper cũ;
+- canonical machine schema/template đã tồn tại nhưng consumer migration chờ 04B-D/E.
 
-Các consumer chưa được migrate sang module này cho tới 04B-D/04B-E.
+Consumer migration chỉ diễn ra ở 04B-D/04B-E.
