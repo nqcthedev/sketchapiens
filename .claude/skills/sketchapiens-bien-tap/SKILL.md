@@ -57,14 +57,26 @@ python3 .claude/skills/sketchapiens-bien-tap/qa_kichban.py \
   "…/VideoNN_…/Script_VideoNN_narration.txt"
 ```
 
-Ví dụ kết quả thật *(V19, 06/08)*:
+Output thật của tool, chạy 22/08/2026 trên V19:
 
 ```
-  1488 từ · 8.4 phút · 149 câu     ← ⚠️ ví dụ cũ ghi 1428, đếm thật 1488
-  CỨNG: '!' 0 (0) | '—' 0 (0) | 'I' 0 (≈0) | 3 câu dài liên tiếp: không
-  ĐO (không phải ngưỡng): câu hỏi 6 → 1 mỗi 80s | câu<6từ 51 (31%, V17=37%) | dài TB 8.8 (V17=8.9)
-  you 40 : we 2 = 20.0:1  ← LUẬT 0, không phải hằng số
+  1491 từ · 8.4 phút · 149 câu
+  CỨNG (3): '!' 0 (phải 0) | '—' 0 (phải 0) | mỗi câu một dòng: xem dưới
+  ĐO — KHÔNG PHẢI NGƯỠNG: 'I' 0 (người dẫn ĐƯỢC có ý kiến) | câu hỏi 4 | câu<6từ 30 (20%) | dài TB 10.0 | 3 câu dài liên tiếp: không
+  CỨNG: mỗi câu một dòng → ❌ 22 dòng có >1 câu: [2, 3, 10, 23, 24, 29, 35, 52]
+  you 50 : we 0 = 50.0:1  ← LUẬT 0, không phải hằng số
 ```
+
+> ⛔ **Ví dụ cũ ở đây từng in `'I'` dưới nhãn `CỨNG`.** Ảnh chụp đó từ **06/08**, tức **trước** khi
+> `I ≈ 0` bị gỡ ngày **07/08**. Nó mâu thuẫn với chính bảng ngưỡng 9 dòng bên dưới.
+>
+> Vì sao đáng thay chứ không phải chuyện chữ nghĩa — `qa_kichban.py:19-20` ghi lại hậu quả **đã
+> xảy ra một lần**: *"Bản cũ in `'I'` dưới nhãn CỨNG, và `/apply-review` đọc dòng đó làm điều kiện
+> chặn → editor sẽ CẮT MỌI CÂU CÓ `I`."* Tool đã vá từ 09/08; ví dụ trong tài liệu thì tới hôm nay
+> mới vá. Xem `governance/audits/phase5-agents/05A-B` finding `F-5`.
+>
+> ⚠️ Và output thật cho thấy **V19 đang trượt ràng buộc cứng thứ ba** — 22 dòng chứa hơn một câu.
+> Đó là dữ kiện về V19, không phải về tool.
 
 **Ngưỡng cứng — lệch là sửa, không bàn:**
 
