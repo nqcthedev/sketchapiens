@@ -33,7 +33,7 @@
 | Cổng viết kịch bản | `kho/1_luat/FLOW_VietKichBan_11Cong.md` | `knowledge/writing/script-gates.md` | ⚠️ **D-01: chưa rõ file nào thắng khi chồng lấn với workflow** |
 | Chất lượng kịch bản | `kho/1_luat/RUBRIC_KichBan.md` *(đọc LUẬT 0 trước)* + `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` | `knowledge/writing/script-rubric.md` | Tầng A đúc từ Mack — nay đã có 52 bản ghi Mack thật để kiểm |
 | Review ngoài | `kho/1_luat/LENH_GPT_ReviewKichBan_v3.md` + `kho/1_luat/LENH_GPT_BoiCanh_TayNghe.md` | `knowledge/writing/external-review.md` | ⚠️ **D-02: hai file mâu thuẫn nhau về việc dán bối cảnh** |
-| Review nội bộ | `.claude/agents/*.md` + `/audit-script` | — | mới, canonical |
+| Review nội bộ | `.claude/agents/*.md` + `/audit-script` | — | mới, canonical. **Ownership khoá ở `05A-E`:** `viewer-retention-judge` sở hữu retention/lời hứa/bản đồ giữ chân *(Story Engine là vocabulary, không phải checklist)* · `evidence-prosecutor` là execution persona của Evidence Engine, không giữ taxonomy riêng · `anti-ai-narration-critic` sở hữu prose surface và **tự chứa**, không nối vào Writer prose theory · `/audit-script` điều phối read-only · **`/apply-review` là editor duy nhất** — nơi duy nhất tạo `vNNN`. Không agent nào được ghi kịch bản. |
 | Chọn đề tài | `kho/3_bangchung/BANG_CAU_TatCa_CuNo_2026-07-29.md` + tra bầy clone **live** | `knowledge/topic-title/` | |
 | Vì sao đề tài hay vẫn chết | `kho/3_bangchung/NGHIENCUU_CloneSwarm_2026-07-29.md` | | |
 | Title | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` PHẦN C | `knowledge/topic-title/` | |
