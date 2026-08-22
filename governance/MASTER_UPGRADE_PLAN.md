@@ -993,7 +993,7 @@ Không được gọi `COMPLETE / STABLE` trước khi 17/17 semantic fixtures +
 
 ## PHASE 5 — AGENT ARCHITECTURE — KIẾN TRÚC GIÁM KHẢO
 
-**Status:** `05A IN PROGRESS — audit trước, implementation sau`
+**Status:** `COMPLETE — 05A audit + 05B patch, 2026-08-22 — doctor PASS 46 · FAIL 0`
 
 ### Mục tiêu
 
