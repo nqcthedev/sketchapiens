@@ -1,0 +1,154 @@
+[
+  {
+    "id": "L-V01",
+    "expected_valid": true,
+    "data": {
+      "video_id": "SKA-0021-test",
+      "script_ref": null,
+      "script_sha256": null,
+      "locked": false,
+      "lockability": "NOT_LOCKABLE",
+      "verification_run": null,
+      "sources": [],
+      "claims": [],
+      "bridges": []
+    }
+  },
+  {
+    "id": "L-V02",
+    "expected_valid": true,
+    "data": {
+      "video_id": "SKA-0021-test",
+      "script_ref": "03-script/versions/v001.md",
+      "script_sha256": null,
+      "locked": true,
+      "lockability": "LOCKABLE",
+      "verification_run": "EV-001",
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Synthetic primary record",
+          "url": null,
+          "access_level": "PRIMARY_RECORD",
+          "source_says": "Synthetic fact A",
+          "note": null
+        }
+      ],
+      "claims": [
+        {
+          "id": "C1",
+          "text": "Synthetic fact A",
+          "sentence_ref": "L1",
+          "kind": "DIRECT",
+          "derivation": "NONE",
+          "source_refs": ["S1"],
+          "depends_on": [],
+          "transfer_flags": [],
+          "failure_types": [],
+          "severity": "NOTE",
+          "status": "OK",
+          "overreach_legacy": null,
+          "note": null
+        }
+      ],
+      "bridges": []
+    }
+  },
+  {
+    "id": "L-X01",
+    "expected_valid": false,
+    "data": {
+      "video_id": "SKA-0021-test",
+      "script_ref": null,
+      "script_sha256": null,
+      "locked": true,
+      "lockability": "LOCKABLE",
+      "verification_run": "EV-bad",
+      "sources": [],
+      "claims": [],
+      "bridges": []
+    }
+  },
+  {
+    "id": "L-X02",
+    "expected_valid": false,
+    "data": {
+      "video_id": "SKA-0021-test",
+      "script_ref": "03-script/versions/v001.md",
+      "script_sha256": null,
+      "locked": false,
+      "lockability": "NOT_LOCKABLE",
+      "verification_run": null,
+      "sources": [],
+      "claims": [
+        {
+          "id": "C1",
+          "text": "Claim with missing source ref",
+          "sentence_ref": null,
+          "kind": "DIRECT",
+          "derivation": "NONE",
+          "source_refs": ["S404"],
+          "depends_on": [],
+          "transfer_flags": [],
+          "failure_types": ["UNVERIFIED_PROVENANCE"],
+          "severity": "BLOCKING",
+          "status": "UNVERIFIED",
+          "overreach_legacy": null,
+          "note": null
+        }
+      ],
+      "bridges": []
+    }
+  },
+  {
+    "id": "L-X03",
+    "expected_valid": false,
+    "data": {
+      "video_id": "SKA-0021-test",
+      "script_ref": "03-script/versions/v001.md",
+      "script_sha256": null,
+      "locked": false,
+      "lockability": "NOT_LOCKABLE",
+      "verification_run": null,
+      "sources": [
+        {
+          "id": "S1",
+          "citation": "Synthetic source",
+          "url": null,
+          "access_level": "FULL_TEXT",
+          "source_says": "A",
+          "note": null
+        }
+      ],
+      "claims": [
+        {
+          "id": "C1",
+          "text": "A",
+          "sentence_ref": null,
+          "kind": "DIRECT",
+          "derivation": "NONE",
+          "source_refs": ["S1"],
+          "depends_on": [],
+          "transfer_flags": [],
+          "failure_types": [],
+          "severity": "NOTE",
+          "status": "OK",
+          "overreach_legacy": null,
+          "note": null
+        }
+      ],
+      "bridges": [
+        {
+          "id": "B1",
+          "relationship": "Synthetic missing dependency bridge",
+          "depends_on": ["C404"],
+          "source_refs": ["S1"],
+          "verdict": "UNVERIFIED",
+          "failure_types": ["UNVERIFIED_PROVENANCE"],
+          "severity": "BLOCKING",
+          "note": null
+        }
+      ]
+    }
+  }
+]
