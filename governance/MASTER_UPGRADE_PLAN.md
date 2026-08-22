@@ -993,7 +993,7 @@ Không được gọi `COMPLETE / STABLE` trước khi 17/17 semantic fixtures +
 
 ## PHASE 5 — AGENT ARCHITECTURE — KIẾN TRÚC GIÁM KHẢO
 
-**Status:** `PLANNED`
+**Status:** `05A IN PROGRESS — audit trước, implementation sau`
 
 ### Mục tiêu
 
@@ -1018,6 +1018,44 @@ Mỗi reviewer chỉ nhận context nó cần.
 - dependency của từng agent nhìn thấy được;
 - không duplicate cùng rubric ở nhiều agent;
 - một agent không vô tình làm nhiệm vụ của agent khác.
+
+### Task chain
+
+Giữ đúng khuôn Phase 3/4: **audit read-only trước, implementation sau**. Nhưng Phase 5 nhỏ hơn
+nhiều — không dựng module mới, chỉ dọn ranh giới giữa các reviewer đã có — nên chia `5+5` thay vì
+`8+8`.
+
+```text
+05A — READ-ONLY AGENT AUDIT
+05A-A  Inventory & actual context surface
+05A-B  Responsibility decomposition
+05A-C  Rubric duplication audit
+05A-D  Boundary & authority audit
+05A-E  Contract proposal + verification checkpoint
+
+05B — IMPLEMENTATION, chỉ sau 05A-E
+05B-A  Lock agent contracts
+05B-B  Context / preload fixes
+05B-C  Rubric dedupe
+05B-D  Regression harness
+05B-E  Runtime smoke + closeout
+```
+
+### Phạm vi đo được của Phase 5
+
+```text
+.claude/agents/       anti-ai-narration-critic 40 · evidence-prosecutor 98 · viewer-retention-judge 84
+reviewer/editor skill sketchapiens-bien-tap 160 · verify-claims 133 · audit-script 75
+                      sketchapiens-giu-chan-nguoi-xem 82 · apply-review 57
+```
+
+### DO NOT trong Phase 5
+
+- không viết agent mới chỉ để sơ đồ cân đối;
+- không cho agent quyền ghi file — reviewer đề nghị, editor duy nhất tạo version;
+- không nhét rubric vào nhiều nơi rồi hy vọng chúng đồng bộ;
+- không đụng Writer / Story Engine / Evidence Engine internals — Phase 5 chỉ chạm lớp agent;
+- không bắt đầu 05B trước khi 05A-E có checkpoint.
 
 ---
 
