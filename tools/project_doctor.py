@@ -9,14 +9,16 @@ import importlib.util
 import json
 import os
 import re
+import subprocess
 import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
 
 RESULTS = []
+_NHOM = "architecture"      # nhóm đang chạy, dispatch loop đặt trước mỗi check
 def rec(level, check, detail=""):
-    RESULTS.append((level, check, detail))
+    RESULTS.append((level, check, detail, _NHOM))
 
 # Một source of truth cho video contract: doctor chỉ ĐỌC schema, không duy trì bản sao.
 VIDEO_SCHEMA = "schemas/video.schema.json"
@@ -404,6 +406,65 @@ def check_bg_keys():
             f" — build_prompts.py sẽ KeyError{them}")
 
 
+# ── 3e. TOÀN VẸN SẢN XUẤT — uỷ nhiệm cho validate_shots.py   (07B-C)
+#
+# L-8: có tool chuyên trách thì GỌI nó, không cài lại logic. Trước 08/08 mỗi thư mục
+# video giữ một bản validate_shots.py riêng và ba bản đã TRÔI KHỎI NHAU (219/256/262 dòng).
+# Doctor chép lại logic đó là dựng lại đúng cái bệnh ấy ở tầng cao hơn.
+#
+# G7-1: tool có, RUBRIC gọi nó là "phép kiểm quan trọng nhất trong cả cổng" — sai nó thì
+# TTS đọc một kịch bản KHÁC với kịch bản đã duyệt — và RUBRIC ghi thẳng nó CHƯA BAO GIỜ
+# CHẠY ở V17 và V19 vì tên file mặc định sai. Không cổng nào bắt buộc chạy. Đây là chỗ nối.
+VALIDATE_SHOTS = "tools/validate_shots.py"
+# Dòng luật sống còn trong output của tool. Hỏng nó = TTS đọc sai kịch bản.
+_LUAT_SONG_CON = "GHÉP SHOT == NARRATION"
+
+
+def check_production_integrity():
+    if not os.path.exists(VALIDATE_SHOTS):
+        rec("FAIL", "validate_shots.py tồn tại", f"không thấy {VALIDATE_SHOTS}"); return
+    dirs = sorted(os.path.dirname(f) for f in glob.glob("videos/*/shot_data.py"))
+    if not dirs:
+        rec("WARN", "Toàn vẹn sản xuất (narration ↔ shot)", "chưa video nào có shot_data.py")
+        return
+    for d in dirs:
+        ten = os.path.basename(d)
+        try:
+            r = subprocess.run([sys.executable, VALIDATE_SHOTS, d],
+                               capture_output=True, text=True, timeout=120)
+        except subprocess.TimeoutExpired:
+            rec("FAIL", f"{ten} narration ↔ shot", "validate_shots.py quá 120s"); continue
+        except Exception as e:
+            rec("FAIL", f"{ten} narration ↔ shot", f"không chạy được: {e!r}"); continue
+        out = (r.stdout or "") + (r.returncode and (r.stderr or "") or "")
+
+        # ⛔ CHỐNG "CỔNG CÂM". RETIRED_RULES.md 09/08: "một cổng hỏng đường dẫn thì IM LẶNG
+        #    — nó không báo lỗi, nó báo 'sạch'". Nếu không thấy dòng luật sống còn trong
+        #    output thì KHÔNG được coi là sạch: uỷ nhiệm đã hỏng, phải nói to.
+        if _LUAT_SONG_CON not in out:
+            dau = (r.stdout or r.stderr or "").strip().splitlines()
+            rec("FAIL", f"{ten} narration ↔ shot",
+                "KHÔNG thấy dòng luật sống còn trong output — uỷ nhiệm hỏng, không phải 'sạch'. "
+                + (dau[-1][:90] if dau else f"exit {r.returncode}, output rỗng"))
+            continue
+
+        # Luật sống còn tách riêng: hỏng nó thì FAIL kể cả video legacy.
+        if f"❌ {_LUAT_SONG_CON}" in out:
+            rec("FAIL", f"{ten} narration ↔ shot",
+                "GHÉP SHOT != NARRATION — TTS sẽ đọc một kịch bản KHÁC bản đã duyệt")
+            continue
+
+        loi = [l.strip() for l in out.splitlines() if l.startswith("❌")]
+        if not loi:
+            rec("PASS", f"{ten} narration ↔ shot", "validate_shots.py sạch"); continue
+        # Còn lại là luật hình/prompt. Video legacy đã sản xuất xong bằng style.py cũ —
+        # xem D-29. Báo WARN để không giấu; video mới từ V21 thì FAIL thật.
+        muc = "WARN" if is_legacy_video_dir(d) else "FAIL"
+        them = " (legacy — xem D-29)" if muc == "WARN" else ""
+        gon = "; ".join(l.lstrip("❌ ").split("  ")[0] for l in loi[:3])
+        rec(muc, f"{ten} luật shot/prompt", f"{len(loi)} lỗi: {gon}{them}")
+
+
 # ── 4. Hook chạy được
 def check_hook():
     p = ".claude/hooks/guard_project.py"
@@ -589,22 +650,52 @@ def check_decisions():
     open_n = t.count("NEEDS_HUMAN_DECISION")
     rec("WARN" if open_n else "PASS", "Quyết định còn treo", f"{open_n} mục")
 
-for fn in (check_control_plane, check_json, check_frontmatter, check_agent_paths,
-           check_dead_rules, check_owner_pointers, check_entity_enums,
-           check_bg_keys, check_hook,
-           check_videos, check_claim_ledgers, check_secrets, check_gitignore,
-           check_legacy_intact, check_decisions):
-    try: fn()
-    except Exception as e: rec("FAIL", f"{fn.__name__} lỗi khi chạy", repr(e))
+# ── BỐN DÒNG CỦA ACCEPTANCE CRITERIA (07B-D)
+# Mỗi check thuộc đúng MỘT nhóm. Check nào chưa được xếp nhóm thì báo to chứ không
+# lặng lẽ rơi vào nhóm mặc định — cùng lý do với hàng rào chống cổng câm ở 3e.
+NHOM = {
+    "architecture": (check_control_plane, check_frontmatter, check_agent_paths, check_hook,
+                     check_secrets, check_gitignore, check_legacy_intact),
+    "governance refs": (check_dead_rules, check_decisions),
+    "artifact schemas": (check_json, check_videos, check_claim_ledgers,
+                         check_owner_pointers, check_entity_enums),
+    "production integrity": (check_bg_keys, check_production_integrity),
+}
+THU_TU = ("architecture", "governance refs", "artifact schemas", "production integrity")
+
+# ⛔ HÀNG RÀO: dispatch nay chỉ chạy hàm CÓ TRONG NHOM. Ai thêm một check mà quên đăng ký
+#    thì check đó KHÔNG BAO GIỜ CHẠY và không ai biết — tự tay dựng một "cổng câm" mới.
+#    Nên đối chiếu với mọi hàm `check_*` có trong module và báo to nếu sót.
+_da_xep = {fn.__name__ for fns in NHOM.values() for fn in fns}
+_co_that = {n for n, v in list(globals().items()) if n.startswith("check_") and callable(v)}
+_sot = sorted(_co_that - _da_xep)
+if _sot:
+    rec("FAIL", "Mọi check đều được xếp nhóm",
+        "chưa đăng ký vào NHOM nên KHÔNG CHẠY: " + ", ".join(_sot))
+
+for _nhom in THU_TU:
+    for fn in NHOM[_nhom]:
+        _NHOM = _nhom
+        try: fn()
+        except Exception as e: rec("FAIL", f"{fn.__name__} lỗi khi chạy", repr(e))
 
 W = {"PASS": 0, "WARN": 0, "FAIL": 0}
 print("═" * 72)
 print("  SKETCHAPIENS PROJECT DOCTOR — read-only")
 print("═" * 72)
-for lvl, check, detail in RESULTS:
+for lvl, check, detail, _ in RESULTS:
     W[lvl] += 1
     icon = {"PASS": "✅", "WARN": "⚠️ ", "FAIL": "❌"}[lvl]
     print(f"{icon} {check}" + (f"  →  {detail}" if detail else ""))
+print("─" * 72)
+for _n in THU_TU:
+    _r = [r for r in RESULTS if r[3] == _n]
+    _f = sum(1 for r in _r if r[0] == "FAIL")
+    _w = sum(1 for r in _r if r[0] == "WARN")
+    _v = "FAIL" if _f else "PASS"
+    _ghi = f"{_f} FAIL" if _f else ""
+    if _w: _ghi = (_ghi + " · " if _ghi else "") + f"{_w} WARN"
+    print(f"  {_n+':':<24}{_v}" + (f"   ({_ghi})" if _ghi else "") + f"   [{len(_r)} phép kiểm]")
 print("─" * 72)
 print(f"  PASS {W['PASS']}   WARN {W['WARN']}   FAIL {W['FAIL']}")
 print("═" * 72)

@@ -25,10 +25,10 @@
 > **Dùng section này khi mở một Claude Code session mới.** Đọc section này trước, sau đó đọc các file ở `READ FIRST`. Không cần dựa vào lịch sử chat để tiếp tục Phase 4B.
 
 **Branch:** `upgrade/story-engine-v21`  
-**Phase hiện tại:** `PHASE 7 — RUNTIME & GUARDRAILS`  
+**Phase hiện tại:** `PHASE 8 — V21 CANARY` *(Phase 7 COMPLETE 22/08)*  
 **Trạng thái thật của branch:** `Phase 4B COMPLETE · Phase 5 COMPLETE · Phase 6 OWNER-DECIDED (M-004 giữ candidate) · 07A-A + 07A-B COMPLETE`  
-**Next exact task:** `07B-B — artifact integrity: set_by owner + enum gọi tên thực thể có thật. Đọc 07A-B §7 (contract L-1→L-8) trước.`  
-**Phase 7 checkpoint:** `07A-A` = `b1b2eec` · `07A-B` = `c5fe850` · `07B-A` = commit của task này  
+**Next exact task:** `Phase 8 — V21 canary. TRƯỚC KHI CHẠY: chủ quyết D-29 (PROMPTS_FULL là bản dựng lại được hay bản ghi lịch sử) và D-30 (khoá nền V17/V18).`  
+**Phase 7 checkpoint:** `07A-A` `b1b2eec` · `07A-B` `c5fe850` · `07B-A` `dfba142` · `07B-B` `ad3e40a` · `07B-C`+`07B-D` commit này  
 **Phase 4A audit checkpoint:** `1b7367ea580c77b48e6fcf4b80c013d285d09c24`  
 **Phase 4A reconciled checkpoint:** `e73f62f9a5e8060f8e9d2dde447e4fa165a3dc3c`  
 **04B-A clean boundary:** `bda24b5c478f13d480ce2da3544d0c49a4c40020`  
@@ -1107,7 +1107,7 @@ observe
 
 ## PHASE 7 — RUNTIME & GUARDRAILS — MÁY KIỂM VÀ HÀNG RÀO
 
-**Status:** `07A COMPLETE — 07A-A + 07A-B xong. 07B ĐƯỢC PHÉP BẮT ĐẦU.`
+**Status:** `COMPLETE 2026-08-22 — 07A-A → 07B-D. Bốn dòng acceptance criteria chạy được.`
 
 ### Mục tiêu
 
@@ -1158,9 +1158,9 @@ rộng một tool đã có — nên chia `2+4`.
 
 07B — IMPLEMENTATION, chỉ sau 07A-B
 07B-A  Governance refs — stale rule scan · duplicate canonical mapping        ✅ 9 ca thật vá · duplicate hoãn P10
-07B-B  Artifact integrity — invalid version ref · owner metadata · generated-file integrity
-07B-C  Production integrity — narration ↔ shot mismatch
-07B-D  Report shape + closeout — bốn dòng PASS/FAIL của acceptance criteria
+07B-B  Artifact integrity — invalid version ref · owner metadata · generated-file integrity  ✅ G7-10 mới · D-29/D-30 lên chủ
+07B-C  Production integrity — narration ↔ shot mismatch                      ✅ G7-1 đóng · hàng rào cổng câm
+07B-D  Report shape + closeout — bốn dòng PASS/FAIL của acceptance criteria   ✅ + hàng rào check-không-chạy
 ```
 
 ### Ba check đã làm ở phase trước — KHÔNG làm lại
