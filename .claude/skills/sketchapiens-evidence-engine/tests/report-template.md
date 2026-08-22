@@ -58,7 +58,7 @@ COMMAND:
 python3 .claude/skills/sketchapiens-evidence-engine/tests/test_ledger_validator.py
 
 EXPECTED:
-PASS 5
+PASS 9
 FAIL 0
 
 ACTUAL:

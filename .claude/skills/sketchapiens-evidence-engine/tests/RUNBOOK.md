@@ -136,10 +136,14 @@ python3 .claude/skills/sketchapiens-evidence-engine/tests/test_ledger_validator.
 Expected:
 
 ```text
-PASS 5
+PASS 9
 FAIL 0
 exit 0
 ```
+
+`L-V01/02` + `L-X01/02/03` là schema-level. `L-D01→L-D04` là digest traceability: một
+`script_sha256` đã khai **phải** khớp bytes của `script_ref`, nếu không thì ai sửa tay một
+`vNNN.md` tại chỗ vẫn qua cổng.
 
 A failing deterministic test is not a semantic-model failure; classify it as implementation regression.
 

@@ -177,10 +177,14 @@ Semantic suite = **17 fixtures**:
 Deterministic ledger suite target:
 
 ```text
-PASS 5
+PASS 9
 FAIL 0
 exit 0
 ```
+
+`5` ca schema-level (`L-V01/02`, `L-X01/02/03`) cộng `4` ca digest traceability
+(`L-D01→L-D04`) thêm ở `NEXT-GUARD-02` khi đóng `G-01`. Mốc `PASS 5` ghi trong phần lịch sử
+`04B-G` bên dưới là kết quả **tại thời điểm chạy**, không sửa.
 
 ## 04B-G — COMPLETE
 

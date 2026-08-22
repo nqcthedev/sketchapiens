@@ -17,6 +17,7 @@ traceability matters.
 from __future__ import annotations
 
 import glob
+import hashlib
 import json
 import os
 import re
@@ -197,6 +198,35 @@ def validate_file(path: str, schema_path: str = DEFAULT_SCHEMA) -> list[str]:
     return validate_data(data, schema)
 
 
+def _sha256_file(path: str) -> str | None:
+    """Digest of exact script bytes, or None if unreadable."""
+    try:
+        with open(path, "rb") as f:
+            return hashlib.sha256(f.read()).hexdigest()
+    except Exception:
+        return None
+
+
+def _check_script_digest(video_dir: str, ledger: dict[str, Any], script_ref: str, errors: list[str]) -> None:
+    """Close G-01: a declared script_sha256 must match the bytes it claims to pin.
+
+    Without this, the gate catches a ledger pointing at the wrong version but not
+    someone editing a supposedly immutable vNNN.md in place.
+    """
+    declared = ledger.get("script_sha256")
+    if declared is None:
+        return
+    target = os.path.join(video_dir, script_ref)
+    actual = _sha256_file(target)
+    if actual is None:
+        errors.append(f"script_sha256 declared but {script_ref} could not be read for digest")
+    elif actual != declared:
+        errors.append(
+            f"script content drift: ledger script_sha256={declared[:12]}... "
+            f"but {script_ref} hashes to {actual[:12]}..."
+        )
+
+
 def _yaml_get(text: str, key: str) -> str | None:
     """Read a simple top-level scalar from the project's pointer/video YAML shape."""
     match = re.search(rf"^{re.escape(key)}:\s*(.+?)\s*$", text, re.M)
@@ -251,6 +281,8 @@ def validate_video_ledger(video_dir: str, schema_path: str = DEFAULT_SCHEMA) -> 
             target = os.path.join(video_dir, script_ref)
             if not os.path.exists(target):
                 errors.append(f"ledger script_ref target does not exist: {script_ref}")
+            else:
+                _check_script_digest(video_dir, ledger, script_ref, errors)
         return errors
 
     if not os.path.exists(current_yaml):
@@ -279,8 +311,11 @@ def validate_video_ledger(video_dir: str, schema_path: str = DEFAULT_SCHEMA) -> 
     elif script_ref != current_ref:
         errors.append(f"Evidence stale: ledger script_ref={script_ref} but current={current_ref}")
 
-    if script_ref is not None and not os.path.exists(os.path.join(video_dir, script_ref)):
-        errors.append(f"ledger script_ref target does not exist: {script_ref}")
+    if script_ref is not None:
+        if not os.path.exists(os.path.join(video_dir, script_ref)):
+            errors.append(f"ledger script_ref target does not exist: {script_ref}")
+        else:
+            _check_script_digest(video_dir, ledger, script_ref, errors)
 
     return errors
 
