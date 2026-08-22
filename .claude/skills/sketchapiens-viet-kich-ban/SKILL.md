@@ -104,7 +104,8 @@ Không mở mặc định:
 - metadata/packaging refs;
 - historical rule rationale;
 - Mechanism Lab/candidate lifecycle;
-- D-27 pending measurements.
+- D-27 pending measurements;
+- `references/runtime-monolith-legacy.md`.
 
 ### Structure issue
 
@@ -231,13 +232,3 @@ Dừng/handoff khi:
 - narration xong, còn review → audit/editor workflow;
 - còn packaging/production → module tương ứng;
 - edit tiếp chỉ làm framework “đẹp hơn” chứ không chữa weakness thật.
-
----
-
-## 9. TRANSITIONAL LEGACY COMPATIBILITY — TƯƠNG THÍCH TẠM THỜI 03B-D
-
-> **Chỉ tồn tại trong task 03B-D để tách biến router rewrite khỏi legacy detachment.**
-> Contract + interface ở trên thắng mọi historical metadata/rule bên dưới nếu conflict.
-> Task 03B-E sẽ tháo default include này nhưng giữ nguyên file legacy làm provenance/rollback.
-
-@references/runtime-monolith-legacy.md
