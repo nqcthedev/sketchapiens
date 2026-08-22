@@ -239,6 +239,44 @@ Audit = kiểm các bridge lớn ở V17–V20 và competitor winners:
 
 Chưa có mechanism nào được promote từ file này.
 
+---
+
+## 2026-08-22 — M-004 · OWNER GIỮ CANDIDATE
+
+```text
+DATE:               2026-08-22
+MECHANISM:          M-004 — Evidence Fit / Causal Proof Fit
+FROM → TO:          candidate → candidate  (KHÔNG đổi status)
+WHY:                Phép kiểm mà chính M-004 yêu cầu đã chạy — Phase 4B runtime smoke,
+                    17 fixture, 5 ca historical đúng bằng V17-V20. Đề xuất là MERGE.
+                    Chủ quyết GIỮ CANDIDATE, chờ thêm bằng chứng từ V21 canary.
+EVIDENCE:           6 cạnh UNSUPPORTED ở tầng edge trong khi node đúng.
+                    M-E08 chứng minh bằng số học: chồng lấn thật nằm trong khoảng
+                    max(0,12+12-24)=0 tới min(12,12)=12, nguồn không thu hẹp chút nào,
+                    narration chọn đúng 6. H-E03 là ca canonical true nodes/false edge.
+                    M-E03 presence → purpose.
+                    Behavior đã hiện thực hoá: references/causal-proof-fit.md (04B-C),
+                    có enum riêng SUPPORTED/QUALIFIED/UNSUPPORTED/UNVERIFIED.
+COUNTEREVIDENCE:    M-E04 positive control KHÔNG bị bác oan — cho INFERENCE +
+                    MULTI_SOURCE_SYNTHESIS + bridge QUALIFIED. Tức guardrail không
+                    over-block. Đây là bằng chứng THUẬN cho chất lượng, nhưng cũng là
+                    lý do chưa vội đóng: chưa có ca nào chạy trên MỘT KỊCH BẢN MỚI
+                    viết từ đầu bằng architecture mới. Cả 17 fixture đều là ca lịch sử
+                    hoặc synthetic.
+DESTINATION:        (chưa chốt) — đề xuất là merged target = Evidence Engine
+                    references/causal-proof-fit.md
+OWNER DECISION:     GIỮ CANDIDATE. Chờ bằng chứng từ V21 canary trước khi đóng.
+OLD / MERGED MECHANISM: chưa gộp cái nào
+```
+
+**Điều kiện đóng candidate này về sau:** V21 chạy trọn lifecycle mới và có ít nhất một
+bridge verdict thật do Evidence Engine phát trên kịch bản V21 — không phải trên fixture.
+Lúc đó mới đủ để merge hoặc reject.
+
+**Không đề xuất lại MERGE trước khi có V21.** Đề xuất đầy đủ kèm bằng chứng đã lưu ở
+`governance/audits/phase6-mechanisms/M-004_promotion-proposal.md`; đọc nó thay vì dựng lại
+lập luận từ đầu.
+
 Mọi status transition phải theo `candidate-lifecycle.md`.
 
 Khi đổi status / promote / merge / reject, ghi:

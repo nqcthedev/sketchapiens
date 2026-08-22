@@ -136,9 +136,24 @@ contract của reviewer đó.
 
 ```text
 [ ] MERGE   — M-004 đã hiện thực hoá trong causal-proof-fit.md, đóng candidate
-[ ] giữ candidate — nếu chủ thấy cần thêm bằng chứng từ V21 canary trước khi đóng
+[x] GIỮ CANDIDATE — chờ thêm bằng chứng từ V21 canary trước khi đóng   ← CHỦ CHỌN 22/08/2026
 [ ] REJECT  — nếu chủ cho rằng Narrative Overreach đã đủ và causal-proof-fit là thừa
 ```
+
+## 8. OWNER DECISION — 22/08/2026
+
+**GIỮ CANDIDATE.** Status không đổi. Đã ghi vào `mechanism-lab.md` status log theo đúng
+format bắt buộc.
+
+**Lý do quyết định này đúng, dù đề xuất là MERGE:** cả 17 fixture đều là **ca lịch sử hoặc
+synthetic**. Chưa có ca nào chạy trên **một kịch bản mới viết từ đầu bằng architecture mới**.
+Một guardrail chứng minh được trên dữ liệu cũ chưa chắc giữ đúng khi gặp dữ liệu chưa từng
+thấy — và V21 chính là dữ liệu đó.
+
+**Điều kiện đóng về sau:** V21 chạy trọn lifecycle và có ít nhất một bridge verdict thật do
+Evidence Engine phát **trên kịch bản V21**, không phải trên fixture.
+
+**Không đề xuất lại MERGE trước khi có V21.** Bằng chứng đã lưu đủ ở file này.
 
 Theo `CLAUDE.md` luật 9, promotion cần đủ 5 thứ. Đối chiếu:
 
