@@ -20,7 +20,7 @@
         "type": "object", "required": ["judge", "category", "quote", "problem"],
         "additionalProperties": false,
         "properties": {
-          "judge": { "type": "string", "enum": ["cold-viewer","retention-architect","promise-payoff-judge","evidence-prosecutor","anti-ai-narration-critic","machine","external-listener"] },
+          "judge": { "type": "string", "enum": ["viewer-retention-judge","evidence-prosecutor","anti-ai-narration-critic","machine","external-listener"] },
           "category": { "type": "string" },
           "quote": { "type": "string" },
           "problem": { "type": "string" },

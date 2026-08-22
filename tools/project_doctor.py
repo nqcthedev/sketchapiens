@@ -161,6 +161,128 @@ def check_agent_paths():
             "" if not chet else "đường dẫn không tồn tại: " + ", ".join(sorted(chet)[:3]))
 
 
+# ── 3c. Luật đã chết còn sống trên BỀ MẶT THI HÀNH   (07B-A)
+#
+# ⛔ KHÔNG quét văn xuôi. Trong kho này, nhắc tên một luật đã chết KÈM BIA MỘ là
+# trạng thái LÀNH MẠNH — kỷ luật nghĩa địa bắt buộc consumer mang dấu ⛔.
+# Đo ở 07A-B: quét thô 62 trúng / 2 thật (3%); lọc bia mộ còn 22 / 2 thật (9%).
+# Check bắn vào bia mộ sẽ làm doctor đỏ vĩnh viễn, và người kế tiếp sẽ GỠ BIA MỘ
+# cho doctor xanh — tức check tự tay xoá đúng lớp bảo vệ nó sinh ra để giữ.
+#
+# Tín hiệu không nằm ở "token có mặt hay không", mà ở "token nằm trên bề mặt nào".
+# BỀ MẶT THI HÀNH = chỗ con số/tên được dùng để QUYẾT một cái gì đó:
+#   A. dòng checklist  | ☐ | … |  hoặc  - [ ]     — người tick ô là người thi hành
+#   B. giá trị chuỗi trong schemas/*.json          — enum/const là hợp đồng máy thi hành
+# Kiểm chứng 07A-B: cả 2 lỗi thật nằm trên bề mặt thi hành, cả ~60 dương tính giả
+# nằm trong văn xuôi. Không ngoại lệ nào theo chiều nào.
+#
+# Nguồn của chính lớp check này — RETIRED_RULES.md 09/08:
+#   "Sửa luật ở tầng 1 mà không sửa tầng 2, skill, lệnh và MÁY thì luật cũ vẫn đang chạy."
+DEAD_REGISTRY = "governance/RETIRED_RULES.registry.json"
+
+# Bề mặt A — dòng checklist. Ô chưa tick là lệnh chờ người thi hành.
+_CHECKLIST_RE = re.compile(r"^\s*(?:\|\s*(?:☐|☑|\[[ xX]?\])\s*\||[-*]\s*\[[ xX]?\])")
+
+_DEAD_SCAN_GLOBS = (".claude/skills/**/*.md", ".claude/agents/*.md", ".claude/rules/*.md",
+                    "kho/1_luat/**/*.md", "templates/**/*.md", "CLAUDE.md")
+# Nghĩa địa, báo cáo audit, kết quả test và kho lưu trữ ĐƯỢC nhắc tên luật đã chết.
+_DEAD_SCAN_SKIP = ("/tests/", "/audit/", "/audits/", "RETIRED_RULES",
+                   "_KHO_LUU_DaChet", "kho/4_luutru", "_cu_SKILL", "-legacy")
+
+# BIA MỘ CÙNG DÒNG — không phải cửa sổ ±2 dòng.
+# `CHECKLIST_KICHBAN.md:77` là ca dạy ra luật này: dòng checklist đó viết
+#   `- [ ] ④ NGƯỜI XEM — you/we · người dẫn có xưng "tôi" không *(luật `I ≈ 0` đã khai tử)*`
+# tức ô tick BẢO người soát nhìn ngôi kể VÀ nói thẳng luật cũ đã chết. Đó là file LÀNH.
+# Bắn vào nó là đúng defect mà L-5 cấm.
+# Hàng rào để CÙNG DÒNG chứ không phải ±2 dòng vì đó chính là kỷ luật nghĩa địa
+# tự đặt ra — RETIRED_RULES.md: "Mỗi chỗ chết có dấu ⛔ TẠI CHỖ."
+# Nên check này đo đúng một thứ: luật đã chết nằm trên bề mặt thi hành mà KHÔNG mang bia mộ.
+_BIA_MO_RE = re.compile(
+    r"⛔|🪦|đã gỡ|đã chết|đã bỏ|khai tử|đã retire|bị bác|đã bác|"
+    r"lỗi thời|không còn|thay bằng|đừng đuổi|ĐÃ BỊ BÁC", re.I)
+
+
+def _load_dead_rules():
+    """Đọc registry. L-7: doctor KHÔNG nuôi bản sao thứ hai của danh sách này."""
+    if not os.path.exists(DEAD_REGISTRY):
+        return None
+    try:
+        data = json.load(open(DEAD_REGISTRY, encoding="utf-8"))
+    except Exception:
+        return None
+    out = []
+    for e in data.get("luat_da_chet", []):
+        if not e.get("nguon"):      # không nguồn thì không được làm cửa chặn
+            continue
+        try:
+            pat = re.compile(e["pattern"], re.I)
+            ctx = re.compile(e["boi_canh"], re.I) if e.get("boi_canh") else None
+        except re.error:
+            continue
+        out.append((e["id"], e.get("ten", e["id"]), pat, ctx, e.get("thay_bang", "")))
+    return out
+
+
+def _json_strings(node, path=""):
+    """Mọi giá trị chuỗi trong một cây JSON, kèm đường đi tới nó."""
+    if isinstance(node, str):
+        yield path, node
+    elif isinstance(node, dict):
+        for k, v in node.items():
+            yield from _json_strings(v, f"{path}.{k}" if path else k)
+    elif isinstance(node, list):
+        for i, v in enumerate(node):
+            yield from _json_strings(v, f"{path}[{i}]")
+
+
+def check_dead_rules():
+    luat = _load_dead_rules()
+    if luat is None:
+        rec("WARN", "Registry luật đã chết", f"chưa có {DEAD_REGISTRY} — không quét được")
+        return
+    if not luat:
+        rec("WARN", "Registry luật đã chết", "registry rỗng hoặc mọi mục thiếu `nguon`")
+        return
+
+    hits = []
+
+    # ── Bề mặt A: dòng checklist
+    files = sorted({f for g in _DEAD_SCAN_GLOBS for f in glob.glob(g, recursive=True)
+                    if not any(k in f for k in _DEAD_SCAN_SKIP)})
+    for f in files:
+        try:
+            lines = open(f, encoding="utf-8", errors="replace").read().split("\n")
+        except Exception:
+            continue
+        for i, ln in enumerate(lines, 1):
+            if not _CHECKLIST_RE.match(ln):
+                continue
+            if _BIA_MO_RE.search(ln):
+                continue                       # ô tick tự mang bia mộ — LÀNH
+            for _id, ten, pat, ctx, thay in luat:
+                if pat.search(ln) and (ctx is None or ctx.search(ln)):
+                    hits.append((f"{f}:{i}", ten, thay))
+
+    # ── Bề mặt B: giá trị chuỗi trong schemas/*.json
+    for f in sorted(glob.glob("schemas/*.json")):
+        try:
+            data = json.load(open(f, encoding="utf-8"))
+        except Exception:
+            continue        # check_json đã báo JSON hỏng rồi
+        for where, val in _json_strings(data):
+            for _id, ten, pat, ctx, thay in luat:
+                if pat.search(val) and (ctx is None or ctx.search(val)):
+                    hits.append((f"{f} → {where}", ten, thay))
+
+    if not hits:
+        rec("PASS", "Luật đã chết không còn trên bề mặt thi hành",
+            f"{len(luat)} luật × {len(files)} file checklist + schemas/")
+        return
+    for cho, ten, thay in hits:
+        rec("FAIL", f"luật đã chết đang được THI HÀNH: {ten}",
+            f"{cho} — thay bằng: {thay}" if thay else cho)
+
+
 # ── 4. Hook chạy được
 def check_hook():
     p = ".claude/hooks/guard_project.py"
@@ -346,7 +468,8 @@ def check_decisions():
     open_n = t.count("NEEDS_HUMAN_DECISION")
     rec("WARN" if open_n else "PASS", "Quyết định còn treo", f"{open_n} mục")
 
-for fn in (check_control_plane, check_json, check_frontmatter, check_agent_paths, check_hook,
+for fn in (check_control_plane, check_json, check_frontmatter, check_agent_paths,
+           check_dead_rules, check_hook,
            check_videos, check_claim_ledgers, check_secrets, check_gitignore,
            check_legacy_intact, check_decisions):
     try: fn()

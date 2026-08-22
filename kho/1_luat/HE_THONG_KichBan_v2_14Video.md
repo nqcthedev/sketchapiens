@@ -271,19 +271,19 @@ Cơ chế: **khớp một thói quen hiện đại với điểm khởi thủy c
 | ☐ | Câu 2-3 | chuỗi phủ định liệt kê 3 vế |
 | ☐ | Câu hỏi chính | **giây 11-35** + lời hứa nâng cược |
 | ☐ | Mỏ neo cứng đầu tiên | **trước giây 90** |
-| ☐ | Mật độ mỏ neo | **≥3/phút** |
+| ⛔ | Mật độ mỏ neo | ~~≥3/phút~~ **chết 07/08** — Zenn 4,02M có 1,22 mỏ neo/1000 từ |
 | ☐ | Nghiên cứu trích đầy đủ | **≥1** (tên + nơi + năm) |
 | ☐ | Hedge chi tiết | **1-3 lần cả bài**, rất tiết chế |
-| ☐ | Mật độ từ giác quan | **7-9%** |
-| ☐ | Câu hỏi | một câu mỗi **60-90 giây** |
+| ⛔ | Mật độ từ giác quan | ~~7-9%~~ **chết 07/08** — đo cùng từ điển thì V17 ra 5,2% |
+| ⛔ | Câu hỏi | ~~một câu mỗi 60-90 giây~~ **chết 07/08** — PrimalGlitch hai bài đỉnh 0 dấu hỏi |
 | ☐ | Nhịp cú pháp | câu dài giải thích **xen** câu cực ngắn (<5 từ) |
 | ☐ | Bác lời hứa của chính mình | **CẤM** |
-| ☐ | "I" | ~0 |
+| ⛔ | "I" | ~~~0~~ **chết 07/08** — người dẫn ĐƯỢC có ý kiến riêng |
 | ☐ | Dấu "!" | **0** |
-| ☐ | you : we | **1,5–2 : 1** |
+| ⛔ | you : we | ~~1,5–2 : 1~~ **chết 07/08** — Mack 1,17 · Zenn 5,00 · Ink 5,69 |
 | ☐ | Câu chuyển | blind promise ~70%, mục lục ~30% |
 | ☐ | Cú lật lớn | có — vị trí tự do (55-88%) |
-| ☐ | Xoay "họ" → "bạn" | **88-93%** |
+| ⛔ | Xoay "họ" → "bạn" | ~~88-93%~~ **chết 07/08** — vị trí, không phải mật độ; winner rải 55%→88% |
 | ☐ | Bookend | hình ảnh giây 0 quay lại câu cuối |
 | ☐ | CTA | tuỳ chọn; nếu có thì đẩy sang video kế |
 

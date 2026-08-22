@@ -27,8 +27,8 @@
 **Branch:** `upgrade/story-engine-v21`  
 **Phase hiện tại:** `PHASE 7 — RUNTIME & GUARDRAILS`  
 **Trạng thái thật của branch:** `Phase 4B COMPLETE · Phase 5 COMPLETE · Phase 6 OWNER-DECIDED (M-004 giữ candidate) · 07A-A + 07A-B COMPLETE`  
-**Next exact task:** `07B-A — governance refs: dead rule trên BỀ MẶT THI HÀNH + registry. Đọc 07A-B trước, thiết kế check đã đổi so với roadmap gốc.`  
-**Phase 7 checkpoint:** `07A-A` = `b1b2eec` · `07A-B` = commit của task này  
+**Next exact task:** `07B-B — artifact integrity: set_by owner + enum gọi tên thực thể có thật. Đọc 07A-B §7 (contract L-1→L-8) trước.`  
+**Phase 7 checkpoint:** `07A-A` = `b1b2eec` · `07A-B` = `c5fe850` · `07B-A` = commit của task này  
 **Phase 4A audit checkpoint:** `1b7367ea580c77b48e6fcf4b80c013d285d09c24`  
 **Phase 4A reconciled checkpoint:** `e73f62f9a5e8060f8e9d2dde447e4fa165a3dc3c`  
 **04B-A clean boundary:** `bda24b5c478f13d480ce2da3544d0c49a4c40020`  
@@ -1115,7 +1115,7 @@ Biến `project_doctor.py` và related tools thành content-architecture linter 
 
 ### Candidate deterministic checks
 
-- stale active rule scan;
+- stale active rule scan **trên BỀ MẶT THI HÀNH** *(07B-A — quét văn xuôi đo được 3% chính xác, đã bỏ)*;
 - broken file references;
 - invalid version refs;
 - owner metadata missing;
@@ -1157,7 +1157,7 @@ rộng một tool đã có — nên chia `2+4`.
 07A-B  Gap analysis + contract proposal + checkpoint                          ✅ 9 finding · contract L-1→L-8
 
 07B — IMPLEMENTATION, chỉ sau 07A-B
-07B-A  Governance refs — stale rule scan · duplicate canonical mapping
+07B-A  Governance refs — stale rule scan · duplicate canonical mapping        ✅ 9 ca thật vá · duplicate hoãn P10
 07B-B  Artifact integrity — invalid version ref · owner metadata · generated-file integrity
 07B-C  Production integrity — narration ↔ shot mismatch
 07B-D  Report shape + closeout — bốn dòng PASS/FAIL của acceptance criteria

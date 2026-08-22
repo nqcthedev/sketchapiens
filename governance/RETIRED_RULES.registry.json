@@ -1,0 +1,197 @@
+{
+  "$mo_ta": "Bản MÁY ĐỌC ĐƯỢC của governance/RETIRED_RULES.md. Nuôi check_dead_rules() trong tools/project_doctor.py.",
+  "$luat": [
+    "Mỗi mục BẮT BUỘC có `nguon` trỏ về mục trong RETIRED_RULES.md. Không có nguồn thì không được làm cửa chặn — cùng kỷ luật schemas/shot_rules.json.",
+    "Registry này KHÔNG phải nguồn chuẩn. Văn xuôi RETIRED_RULES.md mới là. Đây là bản trích để máy quét.",
+    "Doctor chỉ quét BỀ MẶT THI HÀNH (dòng checklist · giá trị chuỗi trong schemas/*.json). KHÔNG quét văn xuôi — trong kho này, nhắc tên luật đã chết kèm bia mộ là trạng thái LÀNH MẠNH. Xem 07A-B §4.",
+    "`boi_canh` là hàng rào chống dương tính giả: con số phải xuất hiện CÙNG DÒNG với nhãn của nó thì mới tính."
+  ],
+  "$be_mat_thi_hanh": {
+    "A_dong_checklist": "| ☐ | … |  hoặc  - [ ]   — người tick ô là người thi hành",
+    "B_chuoi_trong_schema": "mọi giá trị chuỗi trong schemas/*.json — enum/const là hợp đồng máy thi hành"
+  },
+  "luat_da_chet": [
+    {
+      "id": "i-xap-xi-0",
+      "ten": "I ≈ 0",
+      "pattern": "[≈~=]\\s*0\\b",
+      "boi_canh": "\"I\"|`I`|\\bI\\b",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "người dẫn ĐƯỢC có ý kiến riêng — không con số mục tiêu nào",
+      "nguon": "RETIRED_RULES.md § ⛔ `I ≈ 0` — gỡ khỏi bốn RÀNG BUỘC CỨNG"
+    },
+    {
+      "id": "you-we-1-5-2",
+      "ten": "you:we 1,5-2",
+      "pattern": "1[,.]5\\s*[-–]\\s*2",
+      "boi_canh": "you\\s*:\\s*we",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "không có dải — Mack 1,17 · Zenn 5,00 · Ink Explainer 5,69",
+      "nguon": "RETIRED_RULES.md § ⛔ `I ≈ 0` — gỡ khỏi bốn RÀNG BUỘC CỨNG"
+    },
+    {
+      "id": "giac-quan-7-9",
+      "ten": "mật độ giác quan 7-9%",
+      "pattern": "7\\s*[-–]\\s*9\\s*%",
+      "boi_canh": "giác quan|sensory",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "không ngưỡng — đo cùng từ điển thì V17 ra 5,2%, V19 5,5%: hai bên dùng thước khác nhau",
+      "nguon": "RETIRED_RULES.md § ⛔ RUBRIC — các con số đã bị đuổi theo sai"
+    },
+    {
+      "id": "mo-neo-3-2-5-1",
+      "ten": "mỏ neo 3,2-5,1/phút",
+      "pattern": "3[,.]2\\s*[-–]\\s*5[,.]1",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "không ngưỡng — V19 đo ra 12,2; thước khác nhau",
+      "nguon": "RETIRED_RULES.md § ⛔ RUBRIC — các con số đã bị đuổi theo sai"
+    },
+    {
+      "id": "mo-neo-3-moi-phut",
+      "ten": "≥3 mỏ neo/phút",
+      "pattern": "[≥>]=?\\s*3\\s*/\\s*phút",
+      "boi_canh": "mỏ neo|anchor",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "không ngưỡng — Zenn bài 4,02M có 1,22 mỏ neo/1000 từ, thấp thứ nhì tháng",
+      "nguon": "RETIRED_RULES.md § HE_THONG header L70"
+    },
+    {
+      "id": "cau-hoi-60-90-giay",
+      "ten": "một câu hỏi mỗi 60-90 giây",
+      "pattern": "60\\s*[-–]\\s*90\\s*giây",
+      "boi_canh": "câu hỏi|question",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "không ngưỡng — PrimalGlitch hai bài đỉnh có 0 dấu hỏi cả bài",
+      "nguon": "RETIRED_RULES.md § HE_THONG header L151"
+    },
+    {
+      "id": "cau-hoi-loi-truoc-giay-31",
+      "ten": "câu hỏi lõi trước giây 31",
+      "pattern": "giây\\s*31",
+      "boi_canh": "câu hỏi|hỏi",
+      "chet_ngay": "2026-08-09",
+      "thay_bang": "n=3 và TONGHOP đo NGƯỢC dấu; quả 769K của Ink đặt ở 1:06",
+      "nguon": "RETIRED_RULES.md § 🪦 Luật gỡ thêm trong đợt này"
+    },
+    {
+      "id": "do-dai-9-12-phut",
+      "ten": "độ dài 9-12 phút",
+      "pattern": "9\\s*[-–]\\s*12\\s*phút",
+      "boi_canh": "độ dài|dài|thời lượng",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "Ink Explainer: quả 1M = 11:37, quả 769K = 6:04, quả 1,5M chỉ 1.543 từ",
+      "nguon": "RETIRED_RULES.md § ⛔ RUBRIC — các con số đã bị đuổi theo sai"
+    },
+    {
+      "id": "nhip-hai-30-60-giay",
+      "ten": "nhịp hài mỗi 30-60 giây",
+      "pattern": "30\\s*[-–]\\s*60\\s*giây",
+      "boi_canh": "hài|đùa|humor|joke",
+      "chet_ngay": "2026-08-09",
+      "thay_bang": "vài nhịp cả bài — quả 769K của Ink có đúng 1 câu đùa trong 6 phút; Zenn 7,83M có 0",
+      "nguon": "RETIRED_RULES.md § ⛔ RUBRIC — các con số đã bị đuổi theo sai"
+    },
+    {
+      "id": "xoay-88-93",
+      "ten": "xoay họ→bạn ở 88-93%",
+      "pattern": "88\\s*[-–]\\s*93\\s*%",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "vị trí, không phải mật độ — winner rải 55%→88%",
+      "nguon": "RETIRED_RULES.md § HE_THONG header L126"
+    },
+    {
+      "id": "chu-13-19",
+      "ten": "chữ chiếm 13-19% khung",
+      "pattern": "13\\s*[-–]\\s*19\\s*%",
+      "boi_canh": "chữ|text",
+      "chet_ngay": "2026-08-03",
+      "thay_bang": "~22% — đo trên hai bộ ảnh độc lập",
+      "nguon": "RETIRED_RULES.md § ⛔ LUẬT \"CHỮ 13-19%\" ĐÃ CHẾT"
+    },
+    {
+      "id": "sang-80-110",
+      "ten": "độ sáng 80-110",
+      "pattern": "80\\s*[-–]\\s*110",
+      "boi_canh": "sáng|bright",
+      "chet_ngay": "2026-08-03",
+      "thay_bang": "tương quan với view ≈ 0",
+      "nguon": "RETIRED_RULES.md § ⛔ LUẬT \"ĐO TÔNG\" ĐÃ CHẾT"
+    },
+    {
+      "id": "ty-le-the-30-45",
+      "ten": "thẻ dạy học 30-45%",
+      "pattern": "30\\s*[-–]\\s*45\\s*%",
+      "boi_canh": "thẻ|nền trắng",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "không tỉ lệ chuẩn — Mack 36% và Zenn 80% đều thắng",
+      "nguon": "RETIRED_RULES.md § ⛔ MỌI TỈ LỆ HÌNH ẢNH"
+    },
+    {
+      "id": "ty-le-canh-55-70",
+      "ten": "cảnh kể chuyện 55-70%",
+      "pattern": "55\\s*[-–]\\s*70\\s*%",
+      "boi_canh": "cảnh",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "không tỉ lệ chuẩn — chọn nền theo ngữ cảnh từng shot",
+      "nguon": "RETIRED_RULES.md § ⛔ MỌI TỈ LỆ HÌNH ẢNH"
+    },
+    {
+      "id": "ty-le-chu-40-70",
+      "ten": "khung có chữ 40-70%",
+      "pattern": "40\\s*[-–]\\s*70\\s*%",
+      "boi_canh": "chữ",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "không chỉ tiêu — Mack và EIP không dùng chữ nào",
+      "nguon": "RETIRED_RULES.md § ⛔ MỌI TỈ LỆ HÌNH ẢNH"
+    },
+    {
+      "id": "cat-1-5-2-giay-anh",
+      "ten": "cắt 1,5-2 giây/ảnh",
+      "pattern": "1[,.]5\\s*[-–]\\s*2\\s*giây",
+      "boi_canh": "ảnh|shot|cắt",
+      "chet_ngay": "2026-08-09",
+      "thay_bang": "BOCTACH_16Kenh: 2,5 đến 4,6 giây/ảnh đều thắng",
+      "nguon": "RETIRED_RULES.md § 🪦 Luật gỡ thêm trong đợt này"
+    },
+    {
+      "id": "chia-154",
+      "ten": "÷ 154 để đổi từ ra phút",
+      "pattern": "[÷/]\\s*154\\b",
+      "chet_ngay": "2026-08-09",
+      "thay_bang": "÷ 178 — lệch 15%, đủ để cắt oan một chương",
+      "nguon": "RETIRED_RULES.md § 🪦 Luật gỡ thêm trong đợt này"
+    },
+    {
+      "id": "agent-cold-viewer",
+      "ten": "agent cold-viewer",
+      "pattern": "cold-viewer",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "viewer-retention-judge — subagent KHÔNG lạnh được, tài liệu Claude Code chứng minh",
+      "nguon": "RETIRED_RULES.md § ⛔ KHAI TỬ 07/08/2026 — \"SUBAGENT LÀ NGƯỜI XEM LẠNH\""
+    },
+    {
+      "id": "agent-retention-architect",
+      "ten": "agent retention-architect",
+      "pattern": "retention-architect",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "viewer-retention-judge (gộp 3 agent)",
+      "nguon": "RETIRED_RULES.md § ⛔ KHAI TỬ 07/08/2026 — \"SUBAGENT LÀ NGƯỜI XEM LẠNH\""
+    },
+    {
+      "id": "agent-promise-payoff-judge",
+      "ten": "agent promise-payoff-judge",
+      "pattern": "promise-payoff-judge",
+      "chet_ngay": "2026-08-07",
+      "thay_bang": "viewer-retention-judge (gộp 3 agent)",
+      "nguon": "RETIRED_RULES.md § ⛔ KHAI TỬ 07/08/2026 — \"SUBAGENT LÀ NGƯỜI XEM LẠNH\""
+    },
+    {
+      "id": "template-thumbnail-doithu",
+      "ten": "TEMPLATE_Thumbnail_DoiThu.md",
+      "pattern": "TEMPLATE_Thumbnail_DoiThu",
+      "chet_ngay": "2026-07-29",
+      "thay_bang": "PROMPT_TONG_Thumbnail_v6.md — ADN \"nhân vật lệch trái + vật bên phải\" đã bị bác",
+      "nguon": "RETIRED_RULES.md § Đã khai tử đủ hai bước"
+    }
+  ]
+}
