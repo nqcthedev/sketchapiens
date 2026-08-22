@@ -131,7 +131,9 @@ Nếu thấy khoá trong file: báo vị trí + loại, **không in giá trị**
   Viết kịch bản tiếng Việt cho tự nhiên → chủ **nghe** bằng TTS → sửa tới khi duyệt → **rồi mới**
   viết sang tiếng Anh **một lần**. **Vì sao:** V20 viết Anh trước nên phải dịch lại **18 lần**;
   lần soát cuối ra **12 lỗi, 8 cái chỉ có ở bản dịch**. Chủ chấm bằng **tai trên bản tiếng Việt** —
-  nếu đó là bản dịch thì chủ đang duyệt một bản méo. Chi tiết: `SKILL.md` PHẦN 13.
+  nếu đó là bản dịch thì chủ đang duyệt một bản méo. Chi tiết runtime:
+  `.claude/skills/sketchapiens-viet-kich-ban/CONTRACT.md` + `references/english-final-rewrite.md`.
+  Rationale lịch sử V20 được giữ trong legacy/audit provenance, không cần default-load khi viết.
 - ⛔ **Bỏ bảng EN+VI** *(chủ chốt 07/08/2026: không đọc cột dịch)*. Luật đó cấm **bảng song ngữ
   đặt cạnh nhau để duyệt** *(V19 lệch 22 dòng)* — **không** cấm viết Việt trước rồi chuyển sang Anh.
   Bằng chứng: `DUYET_V19_EN_VI.md` lệch kịch bản **22 dòng** qua hai vòng review mà không ai thấy;
