@@ -1106,7 +1106,7 @@ observe
 
 ## PHASE 7 — RUNTIME & GUARDRAILS — MÁY KIỂM VÀ HÀNG RÀO
 
-**Status:** `PLANNED`
+**Status:** `07A IN PROGRESS — audit trước, implementation sau`
 
 ### Mục tiêu
 
@@ -1144,6 +1144,39 @@ production integrity: PASS/FAIL
 ```
 
 mà không giả vờ chấm chất lượng sáng tạo.
+
+### Task chain
+
+Giữ khuôn `audit trước, implementation sau`. Phase 7 nhỏ hơn Phase 5 — không dựng module, chỉ mở
+rộng một tool đã có — nên chia `2+4`.
+
+```text
+07A — READ-ONLY LINTER AUDIT
+07A-A  Inventory: doctor kiểm gì, sót gì, ba check nào đã làm ở phase trước
+07A-B  Gap analysis + contract proposal + checkpoint
+
+07B — IMPLEMENTATION, chỉ sau 07A-B
+07B-A  Governance refs — stale rule scan · duplicate canonical mapping
+07B-B  Artifact integrity — invalid version ref · owner metadata · generated-file integrity
+07B-C  Production integrity — narration ↔ shot mismatch
+07B-D  Report shape + closeout — bốn dòng PASS/FAIL của acceptance criteria
+```
+
+### Ba check đã làm ở phase trước — KHÔNG làm lại
+
+```text
+legacy-folder allowlist      NEXT-GUARD-01   frozenset 6 thư mục, Video21_* không được miễn
+schema validation            04B-E           doctor validate canonical claim ledger
+broken file references       05B-D           check_agent_paths(), chứng minh bằng tiêm lỗi
+```
+
+### DO NOT trong Phase 7
+
+- không viết check chấm chất lượng sáng tạo dưới bất kỳ tên nào;
+- không tự sửa file để làm cổng xanh — máy **báo**, người **sửa**;
+- không thêm check mà không chứng minh nó bắt được bằng **tiêm lỗi**;
+- không đụng ba engine đã verified;
+- không bắt đầu `07B` trước khi `07A-B` có checkpoint.
 
 ---
 
