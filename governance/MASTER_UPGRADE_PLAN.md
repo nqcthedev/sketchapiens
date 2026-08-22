@@ -872,7 +872,7 @@ Stable checkpoint `19c5e78f448a3308dc88845545de24eaa6b38b58` là rollback bounda
 
 ## PHASE 4 — EVIDENCE ENGINE — CỖ MÁY BẰNG CHỨNG
 
-**Status:** `PHASE 4B RELEASE CANDIDATE — 04B-A→F IMPLEMENTED; 04B-G VERIFICATION PENDING/IN PROGRESS`
+**Status:** `COMPLETE / STABLE — runtime verified 2026-08-22 — closeout 04B-H`
 
 ### Mục tiêu
 
@@ -945,7 +945,7 @@ governance/audits/phase4-evidence/
 
 ### PHASE 4B — EVIDENCE IMPLEMENTATION
 
-**Status:** `RELEASE CANDIDATE — IMPLEMENTATION THROUGH F; G VERIFICATION NOT CLOSED`
+**Status:** `COMPLETE / STABLE — 04B-A → 04B-H — static 10/10 + runtime 17/17`
 
 ```text
 04B-A ✅ IMPLEMENTED — Contract + module skeleton
