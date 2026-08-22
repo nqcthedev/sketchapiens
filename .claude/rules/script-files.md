@@ -28,6 +28,16 @@ Và nó trả lời được câu *"bản nào đã dùng?"* — câu mà V01 v�
 
 **Mọi con số khác là triệu chứng.** Lệch thì đi đọc đoạn đó và hỏi *"đoạn này có dở không?"*. Không dở thì để yên. **Cấm sửa một câu để con số đẹp hơn.**
 
+## Writer — Bộ não viết lời
+
+Khi công việc là **viết narration · tiếp tục batch · hiện thực hóa research/structure thành câu chữ · rewrite EN sau khi VI đã được owner duyệt**, dùng project-local `sketchapiens-viet-kich-ban`.
+
+**Ownership contract — hợp đồng sở hữu:** `.claude/skills/sketchapiens-viet-kich-ban/CONTRACT.md`.
+
+Writer sở hữu **prose realization · writing-session orchestration · VI drafting · EN final semantic rewrite · natural expression of evidence verdict đã resolved**.
+
+Writer **không** sở hữu structural theory, factual verdict, market/competitor research, review verdict, packaging hay production. `references/runtime-monolith-legacy.md` chỉ là provenance/rollback và **không được default-load trong normal writing**.
+
 ## Story Engine — Cỗ máy cấu trúc câu chuyện
 
 Khi công việc là **lên xương · nối chương · chẩn đoán structural retention · sửa cấu trúc**, dùng project-local `sketchapiens-story-engine` — **Cỗ máy cấu trúc câu chuyện**.
