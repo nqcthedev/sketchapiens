@@ -553,48 +553,24 @@ def check_claim_ledgers():
             rec("FAIL", f"{vid or d} canonical claim ledger", "thiếu 02-research/claim-ledger.json")
             continue
 
-        errors = validator.validate_file(ledger)
+        # ⛔ VÁ 22/08 (08-A) — UỶ NHIỆM, KHÔNG CÀI LẠI (L-8).
+        # Bản cũ ở đây gọi validate_file() (chỉ kiểm HÌNH DẠNG schema) rồi TỰ VIẾT LẠI bảy
+        # phép kiểm truy vết. Bản chép làm rơi mất phép thứ tám — _check_script_digest, tức
+        # G-01. Hậu quả: G-01 đậu bài test của chính nó và CHẾT trong sản xuất; sửa byte
+        # kịch bản mà không cập nhật ledger thì mọi cổng vẫn xanh.
+        # validate_video_ledger() là tập CHA của bảy phép kia + digest. Gọi thẳng nó.
+        errors = validator.validate_video_ledger(d)
         if errors:
-            rec("FAIL", f"{vid or d} claim ledger schema/cross-ref", "; ".join(errors[:5]))
+            rec("FAIL", f"{vid or d} Evidence traceability", "; ".join(errors[:5]))
             continue
-
         try:
             data = json.load(open(ledger, encoding="utf-8"))
         except Exception as e:
             rec("FAIL", f"{vid or d} claim ledger parse", repr(e))
             continue
-
-        if data.get("video_id") != vid:
-            rec("FAIL", f"{vid or d} claim ledger video_id", f"ledger={data.get('video_id')!r}")
-            continue
-
-        script_ref = data.get("script_ref")
-        versions = sorted(glob.glob(os.path.join(d, "03-script", "versions", "v[0-9][0-9][0-9].md")))
-        current_ref, current_state = current_script_ref_for_dir(d)
-
-        if not versions and current_state != "missing":
-            rec("FAIL", f"{vid} current script pointer", "current.yaml tồn tại trước khi có script version")
-            continue
-
-        if versions:
-            if current_state == "missing":
-                rec("FAIL", f"{vid} current script pointer", "đã có script version nhưng thiếu 03-script/refs/current.yaml")
-                continue
-            if current_state != "ok":
-                rec("FAIL", f"{vid} current script pointer", f"{current_state}: {current_ref or ''}")
-                continue
-            if not script_ref:
-                rec("FAIL", f"{vid} Evidence traceability", "đã có current script nhưng ledger script_ref=null")
-                continue
-            if script_ref != current_ref:
-                rec("FAIL", f"{vid} Evidence stale", f"ledger={script_ref} nhưng current={current_ref}")
-                continue
-
-        if script_ref and not os.path.exists(os.path.join(d, script_ref)):
-            rec("FAIL", f"{vid} Evidence script_ref", f"không tồn tại: {script_ref}")
-            continue
-
-        rec("PASS", f"{vid} canonical claim ledger", f"script_ref={script_ref or 'pre-draft'}")
+        rec("PASS", f"{vid or d} canonical claim ledger",
+            f"script_ref={data.get('script_ref') or 'pre-draft'}"
+            + (f" · digest {data['script_sha256'][:12]}…" if data.get("script_sha256") else ""))
 
 # ── 7. Secret — chỉ báo vị trí
 def check_secrets():

@@ -33,7 +33,8 @@ reviews: []                    # - { review_id: REV-20260807-001, on_version: v0
                                #     kind: internal_agents, files: ["04-review/..."], triaged_by: null }
 
 evidence:
-  ledger: null                 # 02-research/claim-ledger.md
+  ledger: null                 # 02-research/claim-ledger.json  ← canonical (SOURCE_OF_TRUTH §claim-ledger)
+                               # ⛔ KHÔNG trỏ claim-ledger.md — đó là human view transitional/legacy
   locked_on_version: null      # khoá cho version nào — version mới đổi câu số liệu → claim STALE
   stale_claims: null
   unverified_count: null

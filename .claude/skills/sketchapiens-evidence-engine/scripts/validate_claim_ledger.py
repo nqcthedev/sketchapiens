@@ -322,11 +322,18 @@ def validate_video_ledger(video_dir: str, schema_path: str = DEFAULT_SCHEMA) -> 
 
 def main(argv: list[str]) -> int:
     if len(argv) < 2 or len(argv) > 3:
-        print("usage: validate_claim_ledger.py <ledger.json> [schema.json]")
+        print("usage: validate_claim_ledger.py <ledger.json | video_dir/> [schema.json]")
+        print("  đưa THƯ MỤC video để chạy đủ truy vết + G-01 script digest")
         return 2
-    ledger = argv[1]
+    target = argv[1]
     schema = argv[2] if len(argv) == 3 else DEFAULT_SCHEMA
-    errors = validate_file(ledger, schema)
+    # VÁ 22/08 (08-A): đưa thư mục video thì chạy phép kiểm ĐẦY ĐỦ (gồm G-01 script digest).
+    # Trước bản vá này, CLI luôn chạy validate_file() — CHỈ kiểm hình dạng schema — nên lệnh
+    # mà /new-video bước 4 bảo chạy KHÔNG THỂ bắt trôi byte kịch bản. Nó in VALID rồi thôi.
+    if os.path.isdir(target):
+        errors = validate_video_ledger(target, schema)
+    else:
+        errors = validate_file(target, schema)
     if errors:
         print("CLAIM LEDGER INVALID")
         for err in errors:

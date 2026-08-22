@@ -43,7 +43,9 @@ videos/SKA-NNNN-<slug>/
 2. Copy `templates/claim-ledger.json` vào `02-research/claim-ledger.json` và thay `video_id` bằng ID thật. Ở pre-draft giữ `script_ref: null`, `locked: false`, `lockability: NOT_LOCKABLE`.
 3. Tạo thư mục `03-script/refs/` nhưng **không copy `templates/ref.yaml` thành `current.yaml`, `approved.yaml` hay `published.yaml` khi chưa có target version thật**. Template ref chứa version minh hoạ, không phải pointer để copy literal vào video mới.
 4. Chạy validator Evidence:
-   `python3 .claude/skills/sketchapiens-evidence-engine/scripts/validate_claim_ledger.py videos/<ID>/02-research/claim-ledger.json`
+   `python3 .claude/skills/sketchapiens-evidence-engine/scripts/validate_claim_ledger.py videos/<ID>/`
+   ⚠️ Đưa **thư mục video**, không phải đường dẫn file ledger. Đưa file thì chỉ kiểm **hình dạng schema**;
+   đưa thư mục mới chạy đủ truy vết + `G-01` script digest. *(vá 22/08 — 08-A)*
 5. Chạy `/project-doctor` xác nhận khung hợp lệ.
 6. **Không** chuyển trạng thái. Chuyển trạng thái phải dùng enum canonical trong `schemas/video.schema.json` và cần artefact tương ứng tồn tại.
 
