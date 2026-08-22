@@ -14,16 +14,29 @@ prompt tự chế.
 
 # 1. EVIDENCE — `NOT_LOCKABLE` · 8 blocking debt
 
-## 🔴 D-1 · `"Michael"` Rothschild — tên riêng không có nguồn
+## ✅ D-1 · `"Michael"` Rothschild — **ĐÓNG 22/08 bằng QUYẾT ĐỊNH, không phải bằng verify**
 
-`L10` viết *"**Michael** Rothschild and Volkmar Schneider"*. **Không một bản ghi nào trong kho có
-first name** — mọi chỗ chỉ ghi *"Rothschild & Schneider"*.
+`L10` viết *"**Michael** Rothschild and Volkmar Schneider"*.
 
-Lời đọc **tự thêm** một chi tiết kiểm chứng được. Cùng khuôn với lỗi **"William Haskell"** từng
-lọt qua mọi cổng máy *(`_BANGIAO_20-08.md` L23)* — lỗi đó nay đã sửa, nghĩa là lớp lỗi này **có
-thật và tái phát ở vị trí mới**.
+**Đã thử verify 22/08 và KHÔNG được:**
 
-**Việc:** bỏ first name, hoặc verify toàn văn rồi lấy đúng tên.
+| nguồn | kết quả |
+|---|---|
+| trích dẫn chuẩn | `Rothschild, M. A.` — chắc chữ tắt **`M.`**, **không** chắc *"Michael"* |
+| PubMed | chặn cookie |
+| Semantic Scholar | trả trang rỗng |
+| Springer | đẩy sang cổng đăng nhập — **không đi qua** |
+
+Affiliation xác nhận được: *Institut für Rechtsmedizin, Freie Universität Berlin*.
+
+**Quyết: BỎ FIRST NAME.** Viết *"Rothschild and Schneider"* — đúng như **mọi bản ghi trong kho**.
+
+Không dẫn được nguồn thì cắt, **không đoán**. `M.` rất có thể là *Michael*, nhưng *"rất có thể"*
+không đủ tư cách lên lời đọc — đây đúng lớp lỗi **"William Haskell"** đã lọt qua mọi cổng máy lần
+trước. Hai lần cùng một khuôn: **tên riêng là chỗ mô hình tự điền êm nhất và người soát khó thấy nhất.**
+
+⚠️ **Còn `Volkmar` Schneider** — tên này cũng chưa verify từ nguồn gốc, mới chỉ thấy `V. Schneider`.
+Cùng luật: bỏ, hoặc verify được thì mới giữ.
 
 ## 🔴 D-2 · Mệnh đề phổ quát — **CÒN SỐNG, nhưng đã thu hẹp sau khi đóng `D-3`**
 
