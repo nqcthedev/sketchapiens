@@ -25,27 +25,47 @@ thật và tái phát ở vị trí mới**.
 
 **Việc:** bỏ first name, hoặc verify toàn văn rồi lấy đúng tên.
 
-## 🔴 D-2 · Đảo mẫu số — hai lần
+## 🔴 D-2 · Mệnh đề phổ quát — **CÒN SỐNG, nhưng đã thu hẹp sau khi đóng `D-3`**
 
 `L9` *"The records do not say that."* và `L19` *"The last thing a freezing person does…"*
 
-Nhưng chính con số của bài: **25% cởi đồ ⇒ 75% KHÔNG cởi đồ**. Bản ghi *có* nói phần lớn nạn nhân
-không diễn ra kịch bản đào hang. Bài dùng **thiểu số để phủ định đa số**, ở hai độ mạnh khác nhau,
-và `L19` còn nâng lên mệnh đề phổ quát *"a freezing person"* = toàn bộ loài người.
+**Phần đã CHẾT sau `D-3`:** cáo buộc *"bài dùng thiểu số để phủ định đa số"* **không đứng nữa** ở
+`L13` — nguồn tự điều kiện hoá trên nhóm đã cởi đồ, và bài trích đúng nhóm đó.
 
-Nền thật nhiều nhất là ~25% của 69 ca ≈ **17 người**.
+**Phần CÒN SỐNG:** `L19` nâng lên **mệnh đề phổ quát** — *"a freezing person"* = mọi người đang
+chết cóng. Nguồn chỉ chống được cho **~17 người** *(25% của 69)*, không cho toàn bộ loài. Và
+`L9` *"The records do not say that"* vẫn nói mạnh hơn thứ bản ghi cho phép.
 
-## 🔴 D-3 · `"almost every one of those"` — bảng chéo hai biến, chưa có nguồn
+**Việc:** hạ `L19` từ phổ quát xuống điều kiện — nói về **người đã cởi đồ**, không phải mọi người
+đang chết cóng. Một chữ *"who"* là đủ, không cần viết lại khối.
 
-`L13` khẳng định `P(đào hang | đã cởi đồ) ≈ 1`. Đó **không phải một tỉ lệ đơn**, mà là một
-cross-tabulation — loại số gần như luôn nằm trong **full text**, không nằm ở abstract.
+## ✅ D-3 · `"almost every one of those"` — **ĐÓNG 22/08/2026 · KHÔNG PHẢI LỖI**
 
-Nếu nguồn thật ra báo cáo terminal burrowing trên **tổng 69 ca** chứ không trên **nhóm 17 người đã
-cởi đồ**, thì cả hook đang chạy trên một mẫu số bị hoán đổi.
+**Câu hỏi chặn:** nguồn báo terminal burrowing trên **tổng 69 ca**, hay trên **nhóm đã cởi đồ**?
+Nếu là tổng 69 thì cả hook chạy trên một mẫu số bị hoán đổi.
 
-Dự án **đã tự xếp việc này vào hàng chờ** — `_BANGIAO_20-08.md` mục 2: *"Verify toàn văn Rothschild
-& Schneider 1995 (69 ca · 25%) — mới đọc qua bản tóm tắt"* — và **chưa làm**. Agent thử mở PubMed,
-EuropePMC và Springer trong lượt chấm; cả ba đều chặn cookie/auth.
+**Trả lời: trên nhóm đã cởi đồ. Mệnh đề điều kiện nằm ngay trong ABSTRACT.**
+
+Nguyên văn *(bản ghi thiết chế Mount Sinai, truy 22/08/2026)*:
+
+> *"Between 1978 and 1994, 69 cases of death due to lethal hypothermia were examined"*
+> *"In our material this paradoxical undressing occurred in 25% of the cases"*
+> *"Nearly all bodies **with partial or complete disrobement** were found in a position which
+> indicated a final mechanism of protection"*
+
+Trích dẫn đầy đủ: Rothschild, M. A., & Schneider, V. (1995). *"Terminal burrowing behaviour" — a
+phenomenon of lethal hypothermia.* **International Journal of Legal Medicine, 107(5), 250-256.**
+
+→ `L13` *"almost every one of those"* là bản dịch **trung thực** của *"nearly all bodies with
+partial or complete disrobement"*. **Không sửa.**
+
+⚠️ **Provenance vẫn là ABSTRACT, chưa phải toàn văn.** Sổ nợ bản đầu đòi *"verify toàn văn"*.
+Không lấy được toàn văn — PubMed chặn cookie, Semantic Scholar trả trang rỗng. **Nhưng câu hỏi
+chặn của `D-3` được chính abstract trả lời**, vì abstract **tự mang mệnh đề điều kiện**. Nên
+`D-3` đóng, còn *"đọc toàn văn"* hạ xuống **việc nên làm**, không còn là **việc chặn**.
+
+**Số học chốt lại:** 25% × 69 ≈ **17 người** cởi đồ · *"nearly all"* trong nhóm đó ≈ **16-17 người**
+có tư thế đào hang. Đây là mẫu số đúng cho mọi câu nói về hành vi này.
 
 ## 🔴 D-4 · Chuyển ngữ cảnh kép, không hedge
 
@@ -86,8 +106,9 @@ này.
 Khối công khai chỉ có Kräuchi, Haskell, Nadel và phép tính độ dài ngày. Nguồn gánh cả mở bài không
 được ghi công ở **nơi duy nhất người xem đọc được**.
 
-⚠️ **Không tự thêm vào bây giờ.** Provenance mới ở mức abstract-only; ghi một nguồn chưa verify
-toàn văn vào khối người xem đọc là khẳng định mạnh hơn thực tế. Thêm **sau** khi đóng `D-3`.
+✅ **GỠ CHẶN 22/08** — `D-3` đã đóng, trích dẫn đầy đủ đã có:
+*Rothschild, M. A., & Schneider, V. (1995). International Journal of Legal Medicine, 107(5), 250-256.*
+Thêm được vào REFERENCES khi dựng lại. ⚠️ Ghi kèm mức provenance: **abstract-verified**, chưa toàn văn.
 
 ## D-8 · Không tồn tại canonical claim ledger cho V20
 
@@ -194,9 +215,9 @@ governance/DECISIONS_REQUIRED.md  D-28  vẫn chờ chủ chốt bản chính
 
 Theo thứ tự, không nhảy bậc:
 
-1. **Đóng `D-3` trước mọi thứ** — verify toàn văn Rothschild & Schneider 1995. Nó quyết định `D-2`,
-   `D-4` và cả việc mở bài có đứng được không.
-2. Nếu `D-3` cho thấy mẫu số bị hoán đổi → **viết lại toàn bộ khối mở bài**, không vá chữ.
+1. ✅ **`D-3` ĐÃ ĐÓNG 22/08** — mẫu số **không** bị hoán đổi; abstract tự mang mệnh đề điều kiện.
+2. ✅ **Không phải viết lại khối mở bài.** Nhánh "mẫu số bị hoán đổi" không xảy ra. Còn lại là
+   **sửa chữ ở `L19`** *(`D-2` thu hẹp)* và **`D-4` chuyển ngữ cảnh** — hai việc nhỏ hơn nhiều.
 3. Chạy cổng mỏ neo cho khối mở bài *(`D-6`)*.
 4. Quyết `R-1`: cắt chương sư tử, hay nối nó vào xương sống nhiệt.
 5. Quyết `R-3`: liệt kê đủ chín món, hay bỏ con số.
