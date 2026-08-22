@@ -25,9 +25,10 @@
 > **Dùng section này khi mở một Claude Code session mới.** Đọc section này trước, sau đó đọc các file ở `READ FIRST`. Không cần dựa vào lịch sử chat để tiếp tục Phase 4B.
 
 **Branch:** `upgrade/story-engine-v21`  
-**Phase hiện tại:** `PHASE 4B — EVIDENCE IMPLEMENTATION / VERIFICATION`  
-**Trạng thái thật của branch:** `04B-A → 04B-H COMPLETE · PHASE 4B RUNTIME VERIFIED 2026-08-22`  
-**Next exact task:** `Chờ owner xác nhận closure. Không bắt đầu Phase 5 hay V21 canary trước khi có xác nhận.`  
+**Phase hiện tại:** `PHASE 7 — RUNTIME & GUARDRAILS`  
+**Trạng thái thật của branch:** `Phase 4B COMPLETE · Phase 5 COMPLETE · Phase 6 OWNER-DECIDED (M-004 giữ candidate) · 07A-A + 07A-B COMPLETE`  
+**Next exact task:** `07B-A — governance refs: dead rule trên BỀ MẶT THI HÀNH + registry. Đọc 07A-B trước, thiết kế check đã đổi so với roadmap gốc.`  
+**Phase 7 checkpoint:** `07A-A` = `b1b2eec` · `07A-B` = commit của task này  
 **Phase 4A audit checkpoint:** `1b7367ea580c77b48e6fcf4b80c013d285d09c24`  
 **Phase 4A reconciled checkpoint:** `e73f62f9a5e8060f8e9d2dde447e4fa165a3dc3c`  
 **04B-A clean boundary:** `bda24b5c478f13d480ce2da3544d0c49a4c40020`  
@@ -1106,7 +1107,7 @@ observe
 
 ## PHASE 7 — RUNTIME & GUARDRAILS — MÁY KIỂM VÀ HÀNG RÀO
 
-**Status:** `07A IN PROGRESS — audit trước, implementation sau`
+**Status:** `07A COMPLETE — 07A-A + 07A-B xong. 07B ĐƯỢC PHÉP BẮT ĐẦU.`
 
 ### Mục tiêu
 
@@ -1152,8 +1153,8 @@ rộng một tool đã có — nên chia `2+4`.
 
 ```text
 07A — READ-ONLY LINTER AUDIT
-07A-A  Inventory: doctor kiểm gì, sót gì, ba check nào đã làm ở phase trước
-07A-B  Gap analysis + contract proposal + checkpoint
+07A-A  Inventory: doctor kiểm gì, sót gì, ba check nào đã làm ở phase trước   ✅ b1b2eec
+07A-B  Gap analysis + contract proposal + checkpoint                          ✅ 9 finding · contract L-1→L-8
 
 07B — IMPLEMENTATION, chỉ sau 07A-B
 07B-A  Governance refs — stale rule scan · duplicate canonical mapping
@@ -1269,6 +1270,25 @@ Chỉ sau khi architecture mới chạy thật mới dọn mạnh.
 - move module-specific tools/templates về owner module;
 - remove obsolete routing;
 - write migration notes.
+
+### Hoãn từ Phase 7 — có lý do, không phải quên
+
+Bốn candidate check của Phase 7 bị hoãn ở `07A-B` **sau khi đo**, không phải vì thiếu thời gian.
+Chi tiết: `governance/audits/phase7-guardrails/07A-B_gap-analysis-and-contract.md` §8.
+
+| finding | vì sao hoãn tới đây |
+|---|---|
+| `G7-4` phủ đường dẫn cho `rules/` + `skills/` | đo ra **0 lỗi thật** trên kho hôm nay; làm thì phải kèm hàng rào chặn ký hiệu viết tắt *(`kho/1..4/`)*, không thì vi phạm `L-5` |
+| `G7-5` duplicate canonical mapping | **chưa ai định nghĩa "duplicate" là gì**; viết check trước định nghĩa là đoán |
+| `G7-6` path casing / naming contract | cần khai **quy ước đặt tên** trước — hiện không file nào ghi quy ước đó |
+| `G7-7` generated-file integrity | ca giá trị nhất *(`script_sha256`)* **đã đóng ở `G-01`, Phase 4B**; phần còn lại chưa rõ phạm vi |
+
+### Hai finding Phase 7 để owner quyết — doctor chỉ BÁO, không SỬA *(`L-1`)*
+
+| id | nội dung | trạng thái |
+|---|---|---|
+| `G7-8` | `schemas/review-verdict.schema.json` enum `judge` gọi 3 agent đã xoá 07/08 *(`cold-viewer`, `retention-architect`, `promise-payoff-judge`)* và **thiếu** `viewer-retention-judge` đang sống | chờ owner — schema đang orphan, `v2 PROPOSAL` §10 đã đề xuất bỏ |
+| `G7-9` | `kho/1_luat/HE_THONG_KichBan_v2_14Video.md` checklist dòng 270-282 thi hành **5 con số mà header dòng 8-16 của chính nó khai đã chết**, không dấu ⛔ nào | chờ owner — ca thứ ba của `D-ARCH-02` |
 
 ### Acceptance criteria
 
