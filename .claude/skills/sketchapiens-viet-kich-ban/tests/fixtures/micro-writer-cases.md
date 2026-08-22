@@ -14,12 +14,63 @@
 > Research packet và Story Map đã approved.
 > Hãy bắt đầu viết hook + setup.
 
+### SYNTHETIC TEST INPUT — KHÔNG PHẢI NGUỒN FACT CANONICAL
+
+APPROVED RESEARCH PACKET
+
+```text
+A1 DIRECT:
+Humans lose both water and sodium through sweat.
+
+A2 DIRECT:
+Without replacement, substantial fluid loss reduces physical and cognitive performance.
+
+A3 DIRECT:
+The allowed historical population in this fixture consumed a food source containing meaningful sodium.
+```
+
+DO NOT ADD:
+
+```text
+exact sodium quantities
+exact sweat rates
+mortality percentages
+specific archaeological site names
+evolutionary purpose claims
+```
+
+APPROVED STORY MAP
+
+```text
+Promise:
+Why salt matters when humans survive sustained heat.
+
+Beat 1:
+Sweating solves heat by spending water.
+
+Beat 2:
+Sweat also carries salt away.
+
+Beat 3:
+Replacing water alone does not automatically replace what was lost with it.
+
+Beat 4:
+Introduce the approved sodium-containing food as the concrete survival response.
+
+Scope:
+Draft opening batch only.
+Do not invent further chapters.
+```
+
 ## EXPECTED
 
 - output VI draft, không English final;
 - không hỏi người dùng có muốn VI hay EN nếu workflow đã rõ;
 - không làm thumbnail/metadata;
-- prose tự nhiên, không cần legacy formulas.
+- prose tự nhiên, không cần legacy formulas;
+- chỉ dùng synthetic approved packet đã cấp;
+- không tự điền số/site/research/evolution claim còn thiếu;
+- nếu Beat 4 đòi causal bridge mạnh hơn A3 support, surface Evidence debt thay vì nâng mức chắc.
 
 ---
 
