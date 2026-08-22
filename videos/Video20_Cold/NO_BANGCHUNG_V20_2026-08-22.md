@@ -90,20 +90,40 @@ dụng đô thị**. Bài dùng chúng để dựng chuyện **ngủ ngoài tr�
 Chi tiết làm câu văn đắt nhất lại chính là chi tiết làm cú bắc cầu yếu nhất. Không chỗ nào trong
 `MONEO`, `CHOT` hay `METADATA` nhận ra điều này.
 
-## 🔴 D-5 · Mâu thuẫn nội bộ — bài tự khai nguồn của chính nó không tồn tại
+## 🟡 D-5 · Mâu thuẫn nội bộ — **CÓ ĐƯỜNG GỠ, nhỏ hơn tưởng** *(Story Engine 22/08)*
 
 ```text
 L172   "And that is all the evidence there is."
-L173   liệt kê BA thứ: grass bedding · layers of ash · living bodies measured in a lab
-       and in a camp in Tanzania
+L173   liệt kê BA thứ: grass bedding · layers of ash · living bodies
 L189   nhắc lại "three pieces of evidence"
 ```
 
-**Không có Rothschild.** Bài **mở bằng một nguồn thứ tư** rồi về sau **tự khai nguồn đó không nằm
-trong bảng kê bằng chứng**.
+**Không có Rothschild.** Sổ nợ bản đầu đọc đây là *bài tự khai nguồn của chính nó không tồn tại*.
 
-Đây đúng lớp lỗi Cổng A từng bắt ở vòng trước — `MONEO` §8: *"BÀI NÓI CHẮC HƠN BẰNG CHỨNG CỦA
-CHÍNH NÓ"* — tái phát ở vị trí mới.
+**Chẩn đoán cấu trúc cho thấy hai câu đó nói về HAI THỨ KHÁC NHAU:**
+
+| | bằng chứng cho cái gì |
+|---|---|
+| ba món ở `L173` | **họ NGỦ thế nào** — cỏ lót · lớp tro · cơ thể sống đo được |
+| Rothschild | **cái lạnh làm gì với một CƠ THỂ** |
+
+→ `L172` **vốn đã đúng**. Căng thẳng nằm ở chỗ bài **trình bày** Rothschild như nền móng mà
+**không nói rõ nó là bằng chứng cho điều gì**.
+
+**Đường gỡ tốt nhất — nối, đừng bỏ.** Chẩn đoán §2 chỉ ra một món nợ chưa thu khác:
+
+```text
+L21   "Something very old is still running inside us, and in the last minutes it takes over."
+L89   "The cold hits the skin and it does THE OLDEST THING IT KNOWS HOW TO DO."
+```
+
+**Hai câu này là cùng một ý** — cỗ máy cổ trong người tiếp quản. Một cái **giết** *(chui hang)*,
+một cái **chặn giấc ngủ** *(bóp mạch)*. Bài viết cả hai mà chưa bao giờ nối lại.
+
+Nối được thì Rothschild thôi làm *"nguồn thứ tư mồ côi"* và thành **màn giới thiệu kẻ phản diện** —
+chính cỗ máy ấy quay lại chặn giấc ngủ ở `L89`. **Bảng kê ba món ở `L172` giữ nguyên, vẫn đúng.**
+
+⚠️ Vẫn là 🟡 chứ chưa ✅: cần **viết** mới đóng được, mà viết là chế độ ②.
 
 ## ✅ D-6 · Khối mở bài nằm ngoài cổng mỏ neo — **ĐÓNG 22/08**
 
@@ -168,23 +188,34 @@ Vi phạm `CLAUDE.md` luật 7: *"Suy diễn của tác giả nguồn phải ghi
 
 # 2. RETENTION — điểm thoát dự đoán
 
-## 🔴 R-1 · `L115` *(~7:26)* — chương duy nhất không trả tiền thuê
+## ✅ R-1 · chương sư tử — **CHẨN ĐOÁN XONG 22/08, chờ chủ duyệt phương án**
 
-*"And what else is out there in the dark?"*
+Story Engine chạy Review Mode trên đủ 208/208 dòng →
+`04-review/CHANDOAN_CAUTRUC_V20_2026-08-22.md`.
 
-Xương sống video là **nhiệt**. Chương sư tử hang hỏi về **thú săn** — liên quan *(cùng một đêm)*
-nhưng **không cùng một câu trả lời**. Ba dấu hiệu xác nhận:
+**Kết luận khác cả hai phương án ban đầu.** Không phải *"cắt"*, cũng không phải *"nối vào xương
+sống nhiệt"*, mà: **món nợ có tiền trả sẵn trong bài, chưa ai đi thu.**
 
-- chương **tự thú nhận không trả lời gì**, hai lần: *"The isotopes do not tell you how it got hold
-  of that bear cub"* `L122` · *"Nobody knows what hours it hunted"* `L124`;
-- mở một mối đe doạ rồi bỏ đó: *"a sleeping person does not know where it is"* `L126` — sư tử không
-  bao giờ được nhắc lại;
-- **kết luận ba chân ở `L182-184` không có số hạng nào cho thú săn**.
+- Mối nối **VÀO** chương *(`L114 → L115`)* là **causal handoff hợp lệ** — *"ở một mình là chỗ tệ
+  nhất"* → *"vậy ngoài kia có gì"*. Không phải nhảy topic.
+- Hỏng ở mối nối **RA**: chương tự thú hai lần không trả lời được, rồi sư tử biến mất khỏi bài.
+- 🔴 **Tiền trả nợ nằm cách đó 20 dòng.** `L153` *(Hadza)*: *"a group can have someone awake or
+  only lightly asleep almost all night"* — đó **chính xác** là lời đáp cho *"người đang ngủ không
+  biết nó ở đâu"*. Bài tiêu sự thật đó cho **một** món nợ *(ai dậy tiếp lửa)* trong khi nó trả
+  được **hai**.
 
-**Đắt hơn bình thường:** chương ngay sau nó *(`C8`, ~8:17)* mới là **khoảnh khắc trên thumbnail**.
-Người rời ở 7:26 bỏ đi **đúng 50 giây trước** thứ họ bấm vào.
+**Đề xuất: giữ chương, thêm 1-2 câu ở `L153-155`.** Chân thứ hai của kết luận *(`L183` "Another
+person against the back")* hiện chỉ chống bằng hơi ấm; thu xong nợ thì nó gánh **hơi ấm VÀ con
+mắt** — làm kết luận **chắc hơn**, không chỉ hết lỗi.
 
-## R-2 · Lửa bị hoãn 2,5 phút sau khi đã hứa hoãn
+## ✅ R-2 · Lửa hoãn 2,5 phút — **KHÔNG phải lỗi cấu trúc** *(chẩn đoán 22/08)*
+
+⛔ **Không đảo thứ tự.** `BREAK` *(mặt đất `L28-29`)* bắt buộc đứng trước lửa — bỏ nó thì cú
+`REFRAME` ở `L178-188` mất sàn đứng. Rủi ro thật nằm ở **packaging** *(thumbnail bán lửa)*,
+không ở kịch bản. **Sửa lời hứa, đừng sửa trình tự.**
+
+<details><summary>ghi chép gốc</summary>
+
 
 Thumbnail đặt lửa làm vật thể trung tâm. `L27` *(~1:35)* nói *"we will get there"*. Chương lửa thật
 sự bắt đầu `L60` *(~4:03)*.
@@ -192,7 +223,16 @@ sự bắt đầu `L60` *(~4:03)*.
 Tại thời điểm đó người xem cầm **ba giấy nợ** cùng lúc: *"It happens in the hands. Hold on to that"*
 `L5-6` · *"let us go back to that night"* `L25` *(khởi động lần hai)* · và `L27`.
 
-## R-3 · `"nine separate things"` — con số không có sở chỉ
+</details>
+
+## ✅ R-3 · `"nine separate things"` — **BỎ, trả về BA** *(chẩn đoán 22/08)*
+
+`L185` *"The three support one another"* và `L189` *"three pieces of evidence"* đều **chịu lực**.
+`L200` chín **không có sở chỉ** ở bất kỳ dòng nào trong 208 dòng, và nó đè lên xương sống đúng
+lúc `RETURN` — 30 giây cuối, nơi người xem quyết định bấm video sau.
+
+<details><summary>ghi chép gốc</summary>
+
 
 `L200` *"nine separate things"* · `L202` liệt kê **năm** · `L203` *"all nine"*. Cả video đếm **ba**
 *(`L185` "The three support one another")*.
@@ -265,3 +305,4 @@ Theo thứ tự, không nhảy bậc:
 5. Quyết `R-3`: liệt kê đủ chín món, hay bỏ con số.
 6. Quyết mâu thuẫn thumbnail *(mục 3)* — thuộc packaging, chủ quyết.
 7. Chỉ sau đó mới dựng `03-script/versions/v001.md` + claim ledger canonical *(`D-8`)*.
+</details>
