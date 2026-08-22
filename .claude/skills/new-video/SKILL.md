@@ -27,7 +27,7 @@ videos/SKA-NNNN-<slug>/
 │   └── claim-ledger.json ← canonical machine Evidence ledger
 ├── 03-script/
 │   ├── versions/         ← vNNN.md — BẤT BIẾN
-│   └── refs/             ← current/approved/published.yaml (con trỏ)
+│   └── refs/             ← ban đầu rỗng; pointer chỉ xuất hiện khi target version thật sự tồn tại
 ├── 04-review/            ← toàn bộ review/audit + phân loại + applied log
 ├── 05-packaging/         ← title, thumbnail concept, metadata
 ├── 06-production/        ← shotlines, prompt ảnh
@@ -41,7 +41,7 @@ videos/SKA-NNNN-<slug>/
 ## Sau khi tạo
 1. Điền `video.yaml` từ `templates/video.yaml`, trạng thái `idea`.
 2. Copy `templates/claim-ledger.json` vào `02-research/claim-ledger.json` và thay `video_id` bằng ID thật. Ở pre-draft giữ `script_ref: null`, `locked: false`, `lockability: NOT_LOCKABLE`.
-3. Copy `templates/ref.yaml` vào `03-script/refs/` theo contract hiện hành.
+3. Tạo thư mục `03-script/refs/` nhưng **không copy `templates/ref.yaml` thành `current.yaml`, `approved.yaml` hay `published.yaml` khi chưa có target version thật**. Template ref chứa version minh hoạ, không phải pointer để copy literal vào video mới.
 4. Chạy validator Evidence:
    `python3 .claude/skills/sketchapiens-evidence-engine/scripts/validate_claim_ledger.py videos/<ID>/02-research/claim-ledger.json`
 5. Chạy `/project-doctor` xác nhận khung hợp lệ.
@@ -49,6 +49,13 @@ videos/SKA-NNNN-<slug>/
 
 ## Khi có script version đầu tiên
 
-Trước khi gọi evidence lock, `/verify-claims` phải bind ledger với exact immutable `03-script/versions/vNNN.md`. Không dùng `refs/current.yaml` làm bằng chứng duy nhất rằng text đã verify.
+Sau khi tạo exact immutable `03-script/versions/vNNN.md`:
+
+1. tạo `03-script/refs/current.yaml` từ `templates/ref.yaml` nhưng điền **đúng `version: vNNN` thật**;
+2. không tự tạo `approved.yaml` / `published.yaml`;
+3. trước evidence lock, `/verify-claims` bind ledger với đúng `03-script/versions/vNNN.md`;
+4. preflight/project-doctor sẽ chặn nếu ledger `script_ref` lệch `refs/current.yaml`.
+
+`refs/current.yaml` là pointer chọn active immutable version; nó không tự chứng minh version đó đã được Evidence verify.
 
 Legacy `MONEO_*` / `VERIFY_Anchors_*` không được tự copy/migrate vào ledger mới trong `/new-video`.
