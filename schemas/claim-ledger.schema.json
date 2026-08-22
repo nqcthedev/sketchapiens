@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "sketchapiens/claim-ledger.schema.json",
   "title": "Sketchapiens canonical claim ledger",
-  "description": "Machine-readable Evidence ledger bound to an exact script version. Verdict kind, derivation, provenance, transfer, failure type and severity are separate dimensions.",
+  "description": "Machine-readable Evidence ledger. It may exist before drafting with script_ref=null, but evidence lock is valid only when bound to an exact immutable script version.",
   "type": "object",
   "required": ["video_id", "script_ref", "locked", "lockability", "sources", "claims", "bridges"],
   "additionalProperties": false,
@@ -12,9 +12,9 @@
       "pattern": "^SKA-[0-9]{4}-[a-z0-9-]+$"
     },
     "script_ref": {
-      "type": "string",
+      "type": ["string", "null"],
       "pattern": "^03-script/versions/v[0-9]{3}\\.md$",
-      "description": "Immutable script version verified by this ledger. Mutable current pointer is not sufficient traceability."
+      "description": "Immutable script version verified by this ledger. null is allowed before a narration version exists; null can never be evidence-locked."
     },
     "script_sha256": {
       "type": ["string", "null"],
@@ -23,7 +23,7 @@
     },
     "locked": {
       "type": "boolean",
-      "description": "Workflow state for this exact script_ref. true is valid only when lockability is LOCKABLE."
+      "description": "Workflow state for this exact script_ref. true is valid only when script_ref is non-null and lockability is LOCKABLE."
     },
     "lockability": {
       "type": "string",
@@ -197,7 +197,22 @@
         "required": ["locked"]
       },
       "then": {
-        "properties": { "lockability": { "const": "LOCKABLE" } }
+        "properties": {
+          "lockability": { "const": "LOCKABLE" },
+          "script_ref": { "type": "string" }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": { "script_ref": { "const": null } },
+        "required": ["script_ref"]
+      },
+      "then": {
+        "properties": {
+          "locked": { "const": false },
+          "lockability": { "const": "NOT_LOCKABLE" }
+        }
       }
     }
   ]
