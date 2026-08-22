@@ -623,7 +623,8 @@ STORY VISUALIZES — CÂU CHUYỆN HÌNH DUNG
 ### Candidate concepts cần đánh giá, không auto-promote
 
 - M-004 `Evidence Fit / Causal Proof Fit` — **Độ khớp bằng chứng–nhân quả**;
-- DIRECT / INFERENCE / SYNTHESIS / STORY_DEVICE taxonomy hiện hành và drift giữa các consumer;
+- taxonomy hiện hành `DIRECT / INFERENCE / SPECULATION / STORY_DEVICE` và drift giữa các consumer;
+- `SYNTHESIS` — **Tổng hợp** như một candidate verdict/category cần audit, chưa phải nhãn runtime hiện hành;
 - causal bridge validation;
 - claim-ledger contract;
 - Narrative Overreach handoff từ Story Engine sang Evidence verdict;
@@ -682,7 +683,7 @@ Task chain dự kiến:
         Ai thật sự sở hữu taxonomy, verdict, ledger shape, rerun gate và Evidence/Story boundary
 
 04A-D — Claim Ledger & Taxonomy Audit
-        DIRECT / INFERENCE / SPECULATION / STORY_DEVICE / SYNTHESIS đang được dùng ở đâu,
+        DIRECT / INFERENCE / SPECULATION / STORY_DEVICE / candidate SYNTHESIS đang được dùng ở đâu,
         có drift hay duplicate semantics không
 
 04A-E — Consumer & Dependency Audit
