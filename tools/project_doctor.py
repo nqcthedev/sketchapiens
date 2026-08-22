@@ -283,6 +283,127 @@ def check_dead_rules():
             f"{cho} — thay bằng: {thay}" if thay else cho)
 
 
+# ── 3d. TOÀN VẸN ARTEFACT — một cái TÊN phải trỏ vào thứ CÓ THẬT   (07B-B)
+#
+# Ba check dưới đây cùng MỘT họ: chỗ nào khai một cái tên, chỗ đó phải có thứ mang tên ấy.
+# Cùng họ với check_agent_paths (05B-D) — khác ở chỗ kia soi ĐƯỜNG DẪN, đây soi KHOÁ và CON TRỎ.
+
+_REF_GLOB = "videos/*/03-script/refs"
+
+
+def check_owner_pointers():
+    """G7-2 — con trỏ approved/published phải có `set_by: owner`.
+
+    Hook `guard_project.py` chặn lúc GHI. Doctor canh TRẠNG THÁI ĐANG CÓ.
+    Hai lớp khác nhau: `git merge`, `git restore`, sửa tay ngoài Claude đều đi vòng qua hook.
+    """
+    found = []
+    for d in sorted(glob.glob(_REF_GLOB)):
+        for ten in ("approved", "published"):
+            f = os.path.join(d, f"{ten}.yaml")
+            if os.path.exists(f):
+                found.append((f, ten))
+    if not found:
+        # L-6: không có input thì KHÔNG được in PASS — đó là PASS giả, đúng bệnh cổng P4
+        # của preflight.py mất tới 22/08 mới vá. Hàng rào này canh cho Phase 8.
+        rec("WARN", "Con trỏ approved/published có `set_by: owner`",
+            "0 con trỏ trong repo — chưa canh được gì; hàng rào cho Phase 8 (V21)")
+        return
+    thieu = []
+    for f, ten in found:
+        try:
+            body = open(f, encoding="utf-8").read()
+        except Exception as e:
+            thieu.append(f"{f} (không đọc được: {e})"); continue
+        if not re.search(r"^\s*set_by:\s*owner\s*$", body, re.M):
+            thieu.append(f)
+    rec("FAIL" if thieu else "PASS", "Con trỏ approved/published có `set_by: owner`",
+        ("thiếu set_by: owner — " + ", ".join(thieu[:3])) if thieu
+        else f"{len(found)} con trỏ, đủ cả")
+
+
+def _walk_enums(node, path=""):
+    """Mọi dict có khai `$thuc_the`, kèm đường đi tới nó."""
+    if isinstance(node, dict):
+        if "$thuc_the" in node and isinstance(node.get("enum"), list):
+            yield path, node
+        for k, v in node.items():
+            yield from _walk_enums(v, f"{path}.{k}" if path else k)
+    elif isinstance(node, list):
+        for i, v in enumerate(node):
+            yield from _walk_enums(v, f"{path}[{i}]")
+
+
+def check_entity_enums():
+    """G7-8 tổng quát hoá — enum khai `$thuc_the` thì mọi giá trị phải là thực thể CÓ THẬT.
+
+    Không hardcode đường dẫn nào trong doctor (L-7): chính schema khai nó tìm thực thể ở đâu,
+    và khai giá trị nào KHÔNG phải thực thể (`$thuc_the_tru`).
+    """
+    tong = xau = 0
+    for f in sorted(glob.glob("schemas/*.json")):
+        try:
+            data = json.load(open(f, encoding="utf-8"))
+        except Exception:
+            continue                        # check_json đã báo JSON hỏng
+        for where, node in _walk_enums(data):
+            tong += 1
+            pat = node["$thuc_the"]
+            tru = set(node.get("$thuc_the_tru", []))
+            co = {os.path.splitext(os.path.basename(x))[0] for x in glob.glob(pat)}
+            ma = sorted(v for v in node["enum"] if v not in tru and v not in co)
+            if ma:
+                xau += 1
+                rec("FAIL", f"enum gọi tên KHÔNG tồn tại: {os.path.basename(f)}",
+                    f"{where} → {', '.join(ma[:4])} (tìm trong `{pat}`)")
+    if tong and not xau:
+        rec("PASS", "Enum khai `$thuc_the` gọi đúng thực thể có thật", f"{tong} enum")
+    elif not tong:
+        rec("WARN", "Enum khai `$thuc_the`", "chưa schema nào khai — không canh được gì")
+
+
+def check_bg_keys():
+    """G7-10 — mọi khoá nền dùng trong shot_data.py phải có thật.
+
+    `build_prompts.py` tra `BG[bg]`; thiếu khoá thì nó KeyError giữa chừng — video đó
+    không dựng lại được prompt. Im lặng cho tới khi có người thử.
+    Nguồn nền: `identity/style.py` BG, cộng `BG_THEM` khai trong shot_data.py của từng video.
+    """
+    try:
+        sys.path.insert(0, os.path.join(ROOT, "identity"))
+        import importlib
+        style = importlib.import_module("style")
+        CHUNG = set(getattr(style, "BG", {}))
+    except Exception as e:
+        rec("WARN", "Khoá nền dùng trong shot_data.py", f"không nạp được identity/style.py: {e!r}")
+        return
+    dirs = sorted(os.path.dirname(f) for f in glob.glob("videos/*/shot_data.py"))
+    if not dirs:
+        rec("WARN", "Khoá nền dùng trong shot_data.py", "không video nào có shot_data.py")
+        return
+    for d in dirs:
+        f = os.path.join(d, "shot_data.py")
+        try:
+            spec = importlib.util.spec_from_file_location("_sd_probe", f)
+            m = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(m)
+        except Exception as e:
+            rec("FAIL", f"{os.path.basename(d)} shot_data.py nạp được", repr(e)[:90]); continue
+        rieng = set(getattr(m, "BG_THEM", {}))
+        dung = {s[4] for s in getattr(m, "SHOTS", []) if len(s) > 4 and isinstance(s[4], str)}
+        ma = sorted(dung - CHUNG - rieng)
+        if not ma:
+            rec("PASS", f"{os.path.basename(d)} khoá nền có thật", f"{len(dung)} nền"); continue
+        # Video legacy đã SẢN XUẤT XONG bằng một style.py cũ hơn — prompt của chúng là
+        # BẢN GHI LỊCH SỬ, không phải thứ cần dựng lại. Báo WARN để không giấu, nhưng
+        # không để doctor đỏ vĩnh viễn. Video MỚI (ngoài allowlist) thì FAIL thật.
+        cu_hay_moi = "WARN" if is_legacy_video_dir(d) else "FAIL"
+        them = " (legacy — dựng xong bằng style.py cũ)" if cu_hay_moi == "WARN" else ""
+        rec(cu_hay_moi, f"{os.path.basename(d)} khoá nền có thật",
+            f"không có trong identity/style.py BG lẫn BG_THEM: {', '.join(ma[:4])}"
+            f" — build_prompts.py sẽ KeyError{them}")
+
+
 # ── 4. Hook chạy được
 def check_hook():
     p = ".claude/hooks/guard_project.py"
@@ -469,7 +590,8 @@ def check_decisions():
     rec("WARN" if open_n else "PASS", "Quyết định còn treo", f"{open_n} mục")
 
 for fn in (check_control_plane, check_json, check_frontmatter, check_agent_paths,
-           check_dead_rules, check_hook,
+           check_dead_rules, check_owner_pointers, check_entity_enums,
+           check_bg_keys, check_hook,
            check_videos, check_claim_ledgers, check_secrets, check_gitignore,
            check_legacy_intact, check_decisions):
     try: fn()
