@@ -192,9 +192,23 @@ imgs = [
     for f in glob.glob(os.path.join(V, "anh", "*.png")) + glob.glob(os.path.join(V, "anh", "*.jpg"))
     if "thumb" not in os.path.basename(f).lower()
 ]
-mp3 = _sach(glob.glob(os.path.join(V, "**", "*.mp3"), recursive=True))
-mp4 = _sach(glob.glob(os.path.join(V, "**", "*.mp4"), recursive=True))
-thumb = glob.glob(os.path.join(V, "**", "*humb*"), recursive=True)
+# ⛔ VÁ 22/08: `V/**/X` trong Python glob KHÔNG khớp file nằm ngay trong V, chỉ khớp
+# file trong thư mục con. Cổng P4 vì thế báo ĐỎ GIẢ suốt: V20 có đủ ba file thumbnail
+# (THUMB_V20_banA.jpg · THUMBNAIL_PROMPT.txt · THUMBNAIL_V20.md) ở gốc thư mục video mà
+# cổng không thấy cái nào. mp3/mp4 dính cùng bug nhưng chưa lộ vì file nằm trong thư mục con.
+# Kho đã hai lần bị XANH GIẢ và đã vá; đây là ca NGƯỢC — đỏ giả — nên không ai đi tìm.
+def _quet(pat):
+    """Khớp cả file ở gốc video lẫn file trong thư mục con."""
+    return glob.glob(os.path.join(V, pat)) + glob.glob(os.path.join(V, "**", pat), recursive=True)
+
+
+mp3 = _sach(_quet("*.mp3"))
+mp4 = _sach(_quet("*.mp4"))
+# ⛔ VÁ 22/08 — BUG THỨ HAI, cùng cổng: pattern `*humb*` là chữ thường, nhưng file thật
+# tên `THUMBNAIL_PROMPT.txt` / `THUMB_V20_banA.jpg` viết HOA. Python glob case-sensitive
+# trên POSIX nên `humb` không bao giờ khớp `HUMB`. Hai bug chồng nhau ở đúng một cổng, và
+# cả hai đều làm cổng ĐỎ GIẢ — nên không ai nghi.
+thumb = sorted({f for f in _quet("*") if "humb" in os.path.basename(f).lower()})
 meta = has("METADATA_*.md") or has("MOTA_*.md")
 
 if n_prompt:
