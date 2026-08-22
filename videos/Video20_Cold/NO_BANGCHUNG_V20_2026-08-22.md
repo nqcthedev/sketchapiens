@@ -105,14 +105,23 @@ trong bảng kê bằng chứng**.
 Đây đúng lớp lỗi Cổng A từng bắt ở vòng trước — `MONEO` §8: *"BÀI NÓI CHẮC HƠN BẰNG CHỨNG CỦA
 CHÍNH NÓ"* — tái phát ở vị trí mới.
 
-## 🔴 D-6 · Cả khối mở bài nằm ngoài cổng mỏ neo
+## ✅ D-6 · Khối mở bài nằm ngoài cổng mỏ neo — **ĐÓNG 22/08**
 
-`MONEO_V20_Cold.md` chỉ có `M1–M5`: độ dài đêm · Kräuchi · Haskell · Parmeggiani · Ohalo II.
-**Không có Rothschild ở bất kỳ dòng nào.**
+`MONEO_V20_Cold.md` chỉ có `M1–M5`, **không có Rothschild ở bất kỳ dòng nào**, trong khi cả
+`L7–L21` đứng trên nguồn đó. Vi phạm `CLAUDE.md` luật 6.
 
-Nghĩa là toàn bộ `L7–L21` là nguyên liệu thêm **sau** cổng mỏ neo. `CLAUDE.md` luật 6 buộc *"mọi
-câu thêm vào sau cổng mỏ neo phải chạy lại cổng mỏ neo"* — **không có dấu vết** việc đó cho khối
-này.
+**Đã chạy lại cổng mỏ neo 22/08** — thêm **`M6`** vào `MONEO_V20_Cold.md`:
+
+- số và nguyên văn từ abstract *(69 ca · 25% ≈ 17 người · "nearly all … with disrobement")*;
+- trích dẫn đầy đủ *Int J Legal Med 107(5):250-256*, ghi rõ mức **abstract-verified**;
+- ✅ **Cổng A sạch** — grep `rothschild|terminal burrow|paradoxical undress|hide and die|schneider`
+  trên `videos/` + `kho/` ra 2 kết quả, **cả hai là tham chiếu xuôi dòng về chính V20**. Không
+  video nào của kênh, không đối thủ nào trong kho, đã tiêu mỏ neo này;
+- **bốn hedge bắt buộc** viết tại chỗ: chuyển ngữ cảnh *(`D-4`)* · mẫu số *(`D-2`)* · suy diễn
+  không phải phép đo *(luật 7)* · bỏ first name *(`D-1`)*.
+
+⚠️ **M6 hợp lệ hoá NGUỒN, không sửa được `D-5`.** Mâu thuẫn nội bộ *(bài tự khai "all the evidence"
+rồi liệt kê ba thứ không có Rothschild)* là việc cấu trúc, phải quyết khi viết lại.
 
 ## D-7 · `METADATA_V20.md` REFERENCES thiếu Rothschild
 

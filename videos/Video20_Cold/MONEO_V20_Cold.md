@@ -67,6 +67,7 @@ là bóp chặt đúng những mạch đó lại.
 | **M3** | Lạnh phá giấc ngủ ở người, và phá sớm hơn tưởng | 6 người ngủ trần trên giường lưới nylon ở 21 · 24 · 29 · 34 · 37°C. **Lạnh phá mạnh hơn nóng; mức tệ nhất là 21°C.** Khác biệt cá nhân rất lớn | **Haskell et al. (1981)**, *Electroencephalogr Clin Neurophysiol* 51:494-501 |
 | **M4** | REM = tạm ngưng điều nhiệt *(dùng có hedge)* | ở nhiều loài có vú, REM **triệt tiêu hoặc giảm mạnh** phản ứng điều nhiệt. ⚠️ **"In human adults, however, rapid eye movement sleep is not as thermally altered as in other mammals."** | **Parmeggiani (2003)**, *Front Biosci* 8(6):557-567, doi:10.2741/1054 |
 | **M5** | **Ohalo II** — lớp lót ngủ cổ nhất, xếp vòng quanh bếp lửa | trại **23.000 năm** bên hồ Galilee, chìm dưới nước nên cỏ còn nguyên. Sàn túp lều còn bó thân + lá cỏ ***Puccinellia* cf. *convoluta*** cháy dở, ép dưới lớp sét mỏng. Nguyên văn: ***"arranged in a repeated pattern, on the floor, around a central hearth"***. Dựng lại túp lều gồm **bếp · chỗ làm việc · chỗ ngủ sát vách** | **Nadel, Weiss, Simchoni, Tsatskin, Danin & Kislev (2004)**, *PNAS* 101(17):6821-6826, doi:10.1073/pnas.0308557101 |
+| **M6** | **Terminal burrowing** — người chết cóng chui vào chỗ kín *(thêm 22/08 để đóng `D-6`)* | **69 ca** chết cóng, Berlin **1978–1994**. *"this paradoxical undressing occurred in **25% of the cases**"* ≈ **17 người**. *"**Nearly all bodies with partial or complete disrobement** were found in a position which indicated a final mechanism of protection"* — dưới gầm giường, sau tủ quần áo, trong hốc kệ | **Rothschild & Schneider (1995)**, *Int J Legal Med* **107(5):250-256**. ⚠️ **abstract-verified, CHƯA toàn văn** |
 
 > **Vì sao thêm M5 (14/08).** Bản nháp đầu **không có một tên di chỉ nào, không một niên đại khảo cổ
 > nào** — title hứa *ancient humans*, ruột giao **khoa học giấc ngủ hiện đại**. Kèm rủi ro sản xuất:
@@ -82,6 +83,41 @@ là bóp chặt đúng những mạch đó lại.
 > 💤 **Tra được nhưng CHƯA TIÊU:** hang **Esquilleu**, Cantabria — giường cỏ Neanderthal cạnh bếp
 > lửa, nhận diện qua phytolith. Chỉ mới thấy ở nguồn thứ cấp, **chưa mở bài gốc** → không dùng ở V20.
 > Để dành, phải tra lại trước khi tiêu.
+
+> **Vì sao thêm M6 (22/08) — và vì sao MUỘN.** Toàn bộ khối mở bài `L7–L21` của bản narration
+> đứng trên nguồn này, nhưng **M1–M5 không có một dòng nào về Rothschild**. Nghĩa là cả khối mở
+> bài là nguyên liệu thêm **sau** cổng mỏ neo, vi phạm `CLAUDE.md` luật 6 — *"mọi câu thêm vào sau
+> cổng mỏ neo phải chạy lại cổng mỏ neo"*. Đây là `D-6` trong sổ nợ. Mục M6 này **chính là lượt
+> chạy lại đó**, làm muộn 8 ngày.
+>
+> ✅ **Cổng A cho M6 (chạy 22/08):** grep `rothschild|terminal burrow|paradoxical undress|hide and
+> die|schneider` trên `videos/` + `kho/` → 2 kết quả, **cả hai đều là tham chiếu XUÔI DÒNG về chính
+> V20** *(`BOCTACH_KICHBAN_DOITHU.md` lấy V20 làm ví dụ · `BAIHOC_V20_NGUOI_NGOAI` mổ V20)*.
+> **Không video nào của kênh, không đối thủ nào trong kho, đã tiêu mỏ neo này.** Sạch.
+
+### ⚠️ BỐN HEDGE BẮT BUỘC CHO M6 — không được bỏ
+
+1. 🔴 **CHUYỂN NGỮ CẢNH — nặng nhất** *(`D-4`)*. Đây là chết cóng **TRONG NHÀ, ở Berlin, 1978–1994**.
+   Gầm giường · tủ quần áo · hốc kệ là **đồ đạc gia dụng đô thị**. Dùng chúng để dựng chuyện **ngủ
+   ngoài trời thời băng hà** là bắc cầu qua hai ngữ cảnh. **Bài phải tự nói ra**, đúng khuôn hedge
+   hồ Galilee của M5. Chi tiết làm câu văn đắt nhất lại là chi tiết làm cú bắc cầu yếu nhất.
+2. 🔴 **MẪU SỐ** *(`D-2`)*. Mọi câu về hành vi này phải **điều kiện hoá trên nhóm đã cởi đồ**
+   *(~17 người)*. ⛔ Cấm mệnh đề phổ quát kiểu *"the last thing a freezing person does"* — nguồn
+   không chống được cho mọi người đang chết cóng.
+3. 🔴 **SUY DIỄN, KHÔNG PHẢI PHÉP ĐO** *(`CLAUDE.md` luật 7)*. *"Nobody put them there. They crawled
+   in."* là **suy diễn của tác giả nguồn** từ tư thế thi thể — nguồn viết *"a position which
+   **indicated**"*. Phải ghi rõ là suy diễn, không nói ở thể trần thuật tuyệt đối.
+4. **TÊN RIÊNG** *(`D-1`)*. Viết **"Rothschild and Schneider"**. ⛔ Không first name — *"Michael"* và
+   *"Volkmar"* đều **không verify được** từ nguồn gốc *(22/08: PubMed chặn cookie · Semantic Scholar
+   rỗng · Springer đòi đăng nhập)*. Cùng lớp lỗi *"William Haskell"* đã lọt lần trước.
+
+> 🔴 **VÀ MỘT VIỆC CẤU TRÚC M6 KHÔNG TỰ GIẢI ĐƯỢC** *(`D-5`)*. Bản narration `L172` viết *"that is
+> all the evidence there is"* rồi liệt kê **ba** thứ — cỏ lót · lớp tro · cơ thể sống đo trong lab
+> và ở Tanzania — **không có Rothschild**. `L189` nhắc lại *"three pieces of evidence"*. Tức bài
+> **mở bằng một nguồn thứ tư** rồi về sau **tự khai nguồn đó không nằm trong bảng kê bằng chứng của
+> chính nó**. Thêm M6 làm mỏ neo **hợp lệ hoá nguồn**, nhưng **không sửa được mâu thuẫn nội bộ** —
+> khi viết lại phải chọn: đưa Rothschild vào bảng kê thành **bốn**, hay bỏ *"all the evidence"*.
+
 
 ### ⚠️ Hai hedge BẮT BUỘC, không được bỏ
 
