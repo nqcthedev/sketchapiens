@@ -1,27 +1,37 @@
-# CLAIM LEDGER — <SKA-NNNN-slug>
+# CLAIM LEDGER — LEGACY HUMAN VIEW / TRANSITIONAL NOTE
 
-> Mỗi mệnh đề trong lời đọc = một dòng. Nhãn theo `schemas/claim-ledger.schema.json`.
-> **Trạng thái khoá:** `locked: false` — chưa khoá.
+> **Không còn là canonical machine ledger cho video `SKA-*`.**
+> Canonical artifact: `02-research/claim-ledger.json` theo `schemas/claim-ledger.schema.json`.
+> File Markdown này chỉ giữ để đọc/migration compatibility với workflow cũ; `/new-video` mới không copy nó.
 
-## Luật
-- **Mở toàn văn nguồn, không tin snippet.** Không mở được → `UNVERIFIED`.
-- **Suy diễn của tác giả** phải ghi rõ trong lời đọc: *"the researchers put that down to…"*.
-- ⛔ **Cấm bắc cầu giữa hai bảng thống kê rời nhau** — mức vượt 2.
-- ⛔ **Mọi câu thêm vào SAU khi khoá phải chạy lại cổng này**, kể cả khi thêm chỉ để đủ độ dài.
+## Vì sao còn giữ
 
-## Bảng
+V17–V20 có `MONEO_*` / `VERIFY_Anchors_*` và các workflow cũ quen dạng bảng người đọc.
+Không xoá/migrate cưỡng bức historical Evidence trong Phase 4.
 
-| ID | Câu trong lời đọc | Nhãn | Nguồn *(tác giả · tạp chí · tập(số):trang · năm)* | Đọc toàn văn? | Nguồn nói CHÍNH XÁC gì | n | Vượt 0-3 | Trạng thái | Ghi chú |
-|---|---|---|---|---|---|---|---|---|---|
-| M1 |  |  |  | ☐ |  |  |  |  |  |
+## Nếu cần ghi human notes song song
 
-**Nhãn:** `DIRECT` nguồn nói đúng thế · `INFERENCE` suy ra được nhưng nguồn không nói · `SPECULATION` chưa ai biết · `STORY_DEVICE` dựng cảnh, không phải mệnh đề sự thật.
-**Vượt:** `0` khớp · `1` rộng hơn nguồn · `2` bắc cầu hai bảng số · `3` bịa.
+Có thể ghi note/report ở:
 
-## Mỏ neo đã CHẾT — không hồi sinh
-| Mỏ neo | Vì sao chết |
-|---|---|
-|  |  |
+```text
+02-research/verification-runs/<RUN-ID>.md
+```
 
-## Kết luận
-**KHOÁ ĐƯỢC / CHƯA KHOÁ ĐƯỢC** — số mệnh đề mức ≥2: ___
+Nhưng verdict canonical của latest exact input phải được phản ánh trong:
+
+```text
+02-research/claim-ledger.json
+```
+
+## Taxonomy hiện hành
+
+```text
+DIRECT
+INFERENCE
+SPECULATION
+STORY_DEVICE
+```
+
+`SYNTHESIS` không phải verdict thứ năm; nếu cần, machine ledger biểu diễn nó ở derivation/dependency layer.
+
+Legacy `overreach 0–3` có thể xuất hiện trong historical records nhưng không còn là canonical severity/failure model cho ledger mới.
