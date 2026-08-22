@@ -127,6 +127,40 @@ def check_frontmatter():
         rec("PASS" if ok else "FAIL", f"skill frontmatter {f.split('/')[-2]}",
             "" if ok else "thiếu name/description")
 
+# ── 3b. Đường dẫn nhắc trong agent phải tồn tại  (Phase 5 · nguyên tắc N-3)
+# Một đường dẫn chết trong agent KHÔNG gây lỗi ồn ào. Nó lặng lẽ tốn một tool call mỗi
+# lượt chạy và làm agent mở đầu bản chấm bằng một câu xin lỗi. `anti-ai-narration-critic`
+# trỏ `knowledge/writing/**` suốt nhiều tuần — thư mục chưa từng được tạo.
+# Xem governance/audits/phase5-agents/05A-D finding F-6.
+_AGENT_PATH_RE = re.compile(r"`([A-Za-z0-9_./-]+/[A-Za-z0-9_./*-]*)`")
+
+# Chỉ soi đường dẫn NEO TỪ GỐC REPO. Đường dẫn tương đối trong agent — ví dụ
+# `references/prose-and-voice.md` — là tương đối với skill nào đó, không phải với root,
+# nên không kiểm được ở đây mà không đoán mò. Whitelist prefix là cách duy nhất tránh
+# false positive mà vẫn bắt được ca thật như `knowledge/writing/**`.
+_ROOT_PREFIX = (
+    ".claude/", "videos/", "kho/", "governance/", "tools/", "schemas/",
+    "templates/", "identity/", "knowledge/", "2_KHO_BANGHI/",
+)
+
+
+def check_agent_paths():
+    for f in sorted(glob.glob(".claude/agents/*.md")):
+        body = open(f, encoding="utf-8").read()
+        chet = []
+        for raw in set(_AGENT_PATH_RE.findall(body)):
+            if not raw.startswith(_ROOT_PREFIX):
+                continue
+            goc = raw.split("*")[0].rstrip("/")
+            if not goc or "/" not in goc:
+                continue
+            if not (os.path.exists(goc) or glob.glob(goc + "*")):
+                chet.append(raw)
+        ten = os.path.basename(f)
+        rec("PASS" if not chet else "FAIL", f"agent paths {ten}",
+            "" if not chet else "đường dẫn không tồn tại: " + ", ".join(sorted(chet)[:3]))
+
+
 # ── 4. Hook chạy được
 def check_hook():
     p = ".claude/hooks/guard_project.py"
@@ -312,7 +346,7 @@ def check_decisions():
     open_n = t.count("NEEDS_HUMAN_DECISION")
     rec("WARN" if open_n else "PASS", "Quyết định còn treo", f"{open_n} mục")
 
-for fn in (check_control_plane, check_json, check_frontmatter, check_hook,
+for fn in (check_control_plane, check_json, check_frontmatter, check_agent_paths, check_hook,
            check_videos, check_claim_ledgers, check_secrets, check_gitignore,
            check_legacy_intact, check_decisions):
     try: fn()
