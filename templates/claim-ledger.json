@@ -1,6 +1,6 @@
 {
   "video_id": "SKA-0000-slug",
-  "script_ref": "03-script/versions/v001.md",
+  "script_ref": null,
   "script_sha256": null,
   "locked": false,
   "lockability": "NOT_LOCKABLE",
