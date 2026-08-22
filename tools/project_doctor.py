@@ -146,6 +146,21 @@ def yaml_get(text, key):
     v = m.group(1).strip().strip('"').strip("'")
     return None if v in ("null", "~", "") else v
 
+def current_script_ref_for_dir(video_dir):
+    pointer = os.path.join(video_dir, "03-script", "refs", "current.yaml")
+    if not os.path.exists(pointer):
+        return None, "missing"
+    try:
+        version = yaml_get(open(pointer, encoding="utf-8").read(), "version")
+    except Exception as e:
+        return None, f"read error: {e}"
+    if not version or not re.fullmatch(r"v[0-9]{3}", version):
+        return None, "invalid version; expected vNNN"
+    script_ref = f"03-script/versions/{version}.md"
+    if not os.path.exists(os.path.join(video_dir, script_ref)):
+        return script_ref, "target missing"
+    return script_ref, "ok"
+
 def check_videos():
     dirs = sorted(d for d in glob.glob("videos/*") if os.path.isdir(d))
     if not dirs:
@@ -217,9 +232,26 @@ def check_claim_ledgers():
 
         script_ref = data.get("script_ref")
         versions = sorted(glob.glob(os.path.join(d, "03-script", "versions", "v[0-9][0-9][0-9].md")))
-        if versions and not script_ref:
-            rec("FAIL", f"{vid} Evidence traceability", "đã có script version nhưng ledger script_ref=null")
+        current_ref, current_state = current_script_ref_for_dir(d)
+
+        if not versions and current_state != "missing":
+            rec("FAIL", f"{vid} current script pointer", "current.yaml tồn tại trước khi có script version")
             continue
+
+        if versions:
+            if current_state == "missing":
+                rec("FAIL", f"{vid} current script pointer", "đã có script version nhưng thiếu 03-script/refs/current.yaml")
+                continue
+            if current_state != "ok":
+                rec("FAIL", f"{vid} current script pointer", f"{current_state}: {current_ref or ''}")
+                continue
+            if not script_ref:
+                rec("FAIL", f"{vid} Evidence traceability", "đã có current script nhưng ledger script_ref=null")
+                continue
+            if script_ref != current_ref:
+                rec("FAIL", f"{vid} Evidence stale", f"ledger={script_ref} nhưng current={current_ref}")
+                continue
+
         if script_ref and not os.path.exists(os.path.join(d, script_ref)):
             rec("FAIL", f"{vid} Evidence script_ref", f"không tồn tại: {script_ref}")
             continue
