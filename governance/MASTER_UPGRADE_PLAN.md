@@ -26,8 +26,8 @@
 
 **Branch:** `upgrade/story-engine-v21`  
 **Phase hiện tại:** `PHASE 4B — EVIDENCE IMPLEMENTATION / VERIFICATION`  
-**Trạng thái thật của branch:** `04B-A → 04B-F IMPLEMENTED · 04B-G IN PROGRESS · 04B-H NOT STARTED`  
-**Next exact task:** `04B-G — finish static + target-runtime verification; DO NOT reopen A–F unless a proven regression requires it`  
+**Trạng thái thật của branch:** `04B-A → 04B-H COMPLETE · PHASE 4B RUNTIME VERIFIED 2026-08-22`  
+**Next exact task:** `Chờ owner xác nhận closure. Không bắt đầu Phase 5 hay V21 canary trước khi có xác nhận.`  
 **Phase 4A audit checkpoint:** `1b7367ea580c77b48e6fcf4b80c013d285d09c24`  
 **Phase 4A reconciled checkpoint:** `e73f62f9a5e8060f8e9d2dde447e4fa165a3dc3c`  
 **04B-A clean boundary:** `bda24b5c478f13d480ce2da3544d0c49a4c40020`  
@@ -182,19 +182,38 @@ FAIL 0
 exit 0
 ```
 
-## 04B-G — CURRENT TASK
+## 04B-G — COMPLETE
 
-**Đã có deterministic/traceability corrective implementation, nhưng verification chưa đóng.**
+Verification đã đóng bằng **hai lớp tách riêng**, không trộn static với runtime.
 
-Đã kiểm `.claude/skills/sketchapiens-evidence-engine/tests/results/`: hiện chỉ có `README.md`. Chưa có:
+`.claude/skills/sketchapiens-evidence-engine/tests/results/` nay có đủ:
 
 ```text
-phase4b-static-verification-2026-08-22.md
-runtime-verification-2026-08-22.md
-runtime-verification-closeout-2026-08-22.md
+phase4b-static-verification-2026-08-22.md        STATIC PASS 10/10
+runtime-verification-2026-08-22.md               17/17 PASS · P0 0 · P1 0
+runtime-verification-closeout-2026-08-22.md      04B-H closeout
 ```
 
-Vì vậy **không được gọi Phase 4B COMPLETE/STABLE**.
+**Lớp tĩnh — 10/10.** Net diff Phase 4B: 27 file · +3.641 · −284 · 43 commit · xoá 0 file.
+Không đụng `identity/` · `CLAUDE.md` · `videos/` · Writer · Story Engine — 0 file mỗi vùng.
+Bốn transient marker của `04B-A` không hồi sinh. `kind` enum đúng bốn giá trị.
+`derivation` enum có `MULTI_SOURCE_SYNTHESIS`, tức hai chiều được tách **thật trong schema**.
+`bridges` nằm trong `required` — first-class thật. Năm consumer đều đi qua public interface.
+M-004 vẫn `candidate`. Preflight phân nhánh `SKA-*` / legacy MONEO đúng thiết kế.
+
+**Lớp runtime — 17/17.** Blind-first ba vai, 11 context sạch, historical pin 10/10 MATCH.
+
+```text
+VALID FIXTURES: 17/17 PASS       LOCK TRACEABILITY:      PASS
+P0: 0   P1: 0   P2: 0   P3: 0    CONTEXT LEAKAGE:        NONE
+FIFTH-VERDICT LEAKAGE:  NONE     LEDGER VALIDATOR:       PASS 5 · FAIL 0
+VALID SYNTHESIS CONTROL: PASS    PROJECT DOCTOR:         43 / 7 / 0 · exit 0
+BRIDGE CONTROLS:         PASS
+```
+
+**Ghi chú checkpoint:** runtime smoke chạy tại `d2762ff`, static chạy tại `38d6a4f`.
+`git diff --name-only d2762ff..38d6a4f` chỉ trả về `governance/MASTER_UPGRADE_PLAN.md` — không
+chạm runtime/schema/template/tool/module nào, nên kết quả runtime vẫn có hiệu lực tại HEAD.
 
 ### READ FIRST cho session mới
 
@@ -1320,26 +1339,33 @@ Final checkpoint:
 
 `1b7367ea580c77b48e6fcf4b80c013d285d09c24`
 
-## NEXT-04B — IN PROGRESS
+## NEXT-04B — COMPLETE: Evidence Implementation + Verification
 
 ```text
-04B-A ✅ implemented
-04B-B ✅ implemented
-04B-C ✅ implemented
-04B-D ✅ implemented
-04B-E ✅ implemented
-04B-F ✅ implemented
-04B-G ▶ verification pending/in progress
-04B-H ⏳ not started
+04B-A ✅ implemented    04B-E ✅ implemented
+04B-B ✅ implemented    04B-F ✅ implemented
+04B-C ✅ implemented    04B-G ✅ verified — static 10/10 + runtime 17/17
+04B-D ✅ implemented    04B-H ✅ closeout
 ```
 
-### NEXT-04B-G — finish verification
+Closure đạt toàn bộ criteria: `17/17 PASS` · `P0 0` · `P1 0` · valid synthesis control PASS ·
+fifth-verdict leakage NONE · bridge FP/FN controls PASS · lock traceability PASS ·
+competitor/R&D leakage NONE · deterministic ledger PASS · doctor FAIL 0.
 
-Read `CURRENT HANDOFF` at top of this file + Evidence tests README/RUNBOOK.
-Do not change runtime during the first diagnostic semantic pass.
-Create static + runtime reports rather than asserting success from commit names.
+### Ba nợ còn mở — không chặn
 
-Only after valid closure should 04B-H create the runtime closeout + stable checkpoint and update this roadmap again.
+- **G-01** `script_sha256` có trong schema nhưng không chỗ nào kiểm; cổng bắt được "trỏ sai
+  version" nhưng không bắt được ai sửa tay một `vNNN.md` tại chỗ. Ứng viên Phase 7.
+- **G-02** fixture `H-E03` mô tả một cây cầu đã bị cắt khỏi V18 ngày 03/08; nên ghi rõ nó tồn tại
+  ở dạng biên bản cắt.
+- **G-03** năm artefact verification lịch sử V17–V20 không bind vào version bất biến; giữ nguyên
+  quyết định không migrate cưỡng bức.
+
+### Bàn giao ngoài phạm vi Phase 4B
+
+Năm ca historical là regression corpus nên khi chạy đã lộ nhiều nợ bằng chứng thật của V17–V20.
+Danh sách đầy đủ ở mục 7 của `runtime-verification-closeout-2026-08-22.md`. Đây là dữ liệu cho
+owner phân loại, **không** phải blocker của Phase 4B và **không** được sửa trong lượt closeout.
 
 ---
 
@@ -1351,7 +1377,7 @@ Only after valid closure should 04B-H create the runtime closeout + stable check
 - [x] `CLAUDE.md` vẫn mỏng và đóng vai router/control plane;
 - [x] Story Engine có public interface rõ;
 - [x] Writer có public interface rõ và runtime không default-load legacy monolith;
-- [ ] Evidence Engine có public interface rõ **và runtime verified**; public interface đã có, runtime closure chưa có;
+- [x] Evidence Engine có public interface rõ **và runtime verified**; static 10/10 + runtime 17/17, closeout 2026-08-22;
 - [ ] module-specific knowledge/tools/templates được owner module giữ;
 - [x] shared folders có admission rule ở Architecture Contract;
 - [x] writer không còn phải tự giải active-vs-dead contradictions trong implementation legacy;
