@@ -6,7 +6,7 @@ description: Đối chiếu từng mệnh đề trong kịch bản với claim l
 # /verify-claims — khoá bằng chứng
 
 ## Khi nào bắt buộc chạy
-- Trước khi chuyển sang trạng thái `evidence_locked`
+- Trước khi milestone/gate **evidence locked — bằng chứng đã khoá** được coi là hoàn tất. Đây là **milestone/artifact gate, không phải `video.yaml` state**.
 - **Mỗi lần thêm câu mới vào kịch bản, kể cả sau khi đã khoá** — lỗi bịa trình tự đã lọt đúng vì khối được thêm sau khi cổng đóng
 - Trước khi chủ duyệt
 
