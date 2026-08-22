@@ -23,7 +23,8 @@ Không chọn đề tài. Không viết kịch bản. Không đoán trạng thá
 videos/SKA-NNNN-<slug>/
 ├── video.yaml            ← theo schemas/video.schema.json, trạng thái khởi tạo là "idea"
 ├── 01-brief/
-├── 02-research/          ← claim ledger sống ở đây
+├── 02-research/
+│   └── claim-ledger.json ← canonical machine Evidence ledger
 ├── 03-script/
 │   ├── versions/         ← vNNN.md — BẤT BIẾN
 │   └── refs/             ← current/approved/published.yaml (con trỏ)
@@ -35,8 +36,19 @@ videos/SKA-NNNN-<slug>/
 └── 08-analytics/         ← số liệu + postmortem
 ```
 
+`02-research/verification-runs/` chỉ cần tạo khi `/verify-claims` thực sự sinh run đầu tiên; không tạo thư mục rỗng chỉ để đủ cây.
+
 ## Sau khi tạo
 1. Điền `video.yaml` từ `templates/video.yaml`, trạng thái `idea`.
-2. Copy `templates/claim-ledger.md` vào `02-research/`, `templates/ref.yaml` vào `03-script/refs/`.
-3. Chạy `/project-doctor` xác nhận khung hợp lệ.
-4. **Không** chuyển trạng thái. Chuyển trạng thái phải dùng enum canonical trong `schemas/video.schema.json` và cần artefact tương ứng tồn tại.
+2. Copy `templates/claim-ledger.json` vào `02-research/claim-ledger.json` và thay `video_id` bằng ID thật. Ở pre-draft giữ `script_ref: null`, `locked: false`, `lockability: NOT_LOCKABLE`.
+3. Copy `templates/ref.yaml` vào `03-script/refs/` theo contract hiện hành.
+4. Chạy validator Evidence:
+   `python3 .claude/skills/sketchapiens-evidence-engine/scripts/validate_claim_ledger.py videos/<ID>/02-research/claim-ledger.json`
+5. Chạy `/project-doctor` xác nhận khung hợp lệ.
+6. **Không** chuyển trạng thái. Chuyển trạng thái phải dùng enum canonical trong `schemas/video.schema.json` và cần artefact tương ứng tồn tại.
+
+## Khi có script version đầu tiên
+
+Trước khi gọi evidence lock, `/verify-claims` phải bind ledger với exact immutable `03-script/versions/vNNN.md`. Không dùng `refs/current.yaml` làm bằng chứng duy nhất rằng text đã verify.
+
+Legacy `MONEO_*` / `VERIFY_Anchors_*` không được tự copy/migrate vào ledger mới trong `/new-video`.
