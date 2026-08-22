@@ -1,36 +1,204 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "sketchapiens/claim-ledger.schema.json",
-  "title": "Claim ledger",
-  "description": "Mỗi mệnh đề trong lời đọc gắn với đúng một nguồn và đúng một nhãn.",
+  "title": "Sketchapiens canonical claim ledger",
+  "description": "Machine-readable Evidence ledger bound to an exact script version. Verdict kind, derivation, provenance, transfer, failure type and severity are separate dimensions.",
   "type": "object",
-  "required": ["video_id", "claims"],
+  "required": ["video_id", "script_ref", "locked", "lockability", "sources", "claims", "bridges"],
   "additionalProperties": false,
   "properties": {
-    "video_id": { "type": "string", "pattern": "^SKA-[0-9]{4}-[a-z0-9-]+$" },
-    "locked": { "type": "boolean" },
+    "video_id": {
+      "type": "string",
+      "pattern": "^SKA-[0-9]{4}-[a-z0-9-]+$"
+    },
+    "script_ref": {
+      "type": "string",
+      "pattern": "^03-script/versions/v[0-9]{3}\\.md$",
+      "description": "Immutable script version verified by this ledger. Mutable current pointer is not sufficient traceability."
+    },
+    "script_sha256": {
+      "type": ["string", "null"],
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "Optional digest of exact verified script bytes."
+    },
+    "locked": {
+      "type": "boolean",
+      "description": "Workflow state for this exact script_ref. true is valid only when lockability is LOCKABLE."
+    },
+    "lockability": {
+      "type": "string",
+      "enum": ["LOCKABLE", "NOT_LOCKABLE"]
+    },
+    "verification_run": {
+      "type": ["string", "null"],
+      "description": "Optional run/report identifier for provenance."
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "citation", "access_level", "source_says"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^S[0-9A-Za-z_-]+$" },
+          "citation": { "type": "string" },
+          "url": { "type": ["string", "null"] },
+          "access_level": {
+            "type": "string",
+            "enum": ["FULL_TEXT", "PRIMARY_RECORD", "ABSTRACT", "SNIPPET", "SECONDARY", "UNAVAILABLE"]
+          },
+          "source_says": {
+            "type": "string",
+            "description": "What this source actually supports; not the narration's stronger interpretation."
+          },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    },
     "claims": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["id", "sentence", "kind", "overreach"],
+        "required": ["id", "text", "kind", "derivation", "source_refs", "depends_on", "transfer_flags", "failure_types", "severity", "status"],
         "additionalProperties": false,
         "properties": {
-          "id": { "type": "string" },
-          "sentence": { "type": "string", "description": "Nguyên văn câu trong lời đọc" },
-          "kind": { "type": "string", "enum": ["DIRECT", "INFERENCE", "SPECULATION", "STORY_DEVICE"] },
-          "source": { "type": ["string", "null"], "description": "Trích dẫn đầy đủ: tác giả, tạp chí, tập/số/trang, năm" },
-          "source_url": { "type": ["string", "null"] },
-          "read_full_text": { "type": "boolean", "description": "false = mới đọc snippet → phải ghi UNVERIFIED" },
-          "source_says": { "type": ["string", "null"], "description": "Nguồn nói CHÍNH XÁC cái gì" },
-          "sample_size": { "type": ["integer", "null"] },
-          "overreach": { "type": "integer", "minimum": 0, "maximum": 3, "description": "0 khớp · 1 rộng hơn nguồn · 2 bắc cầu hai bảng số · 3 bịa" },
-          "author_inference": { "type": "boolean", "description": "true = suy diễn của tác giả nguồn, lời đọc PHẢI ghi rõ" },
-          "modern_to_prehistoric": { "type": "boolean", "description": "true = dữ liệu hiện đại suy về tiền sử, lời đọc phải tự nhận giới hạn" },
-          "status": { "type": "string", "enum": ["OK", "UNVERIFIED", "DEAD", "NEEDS_REWRITE"] },
+          "id": { "type": "string", "pattern": "^C[0-9A-Za-z_-]+$" },
+          "text": {
+            "type": "string",
+            "description": "Exact factual proposition under review. May be smaller than one narration sentence when a sentence mixes fact and story device."
+          },
+          "sentence_ref": {
+            "type": ["string", "null"],
+            "description": "Optional line/sentence locator in script_ref."
+          },
+          "kind": {
+            "type": "string",
+            "enum": ["DIRECT", "INFERENCE", "SPECULATION", "STORY_DEVICE"]
+          },
+          "derivation": {
+            "type": "string",
+            "enum": ["NONE", "SOURCE_AUTHOR_INFERENCE", "PROJECT_INFERENCE", "MULTI_SOURCE_SYNTHESIS", "RECONSTRUCTION"]
+          },
+          "source_refs": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^S[0-9A-Za-z_-]+$" },
+            "uniqueItems": true
+          },
+          "depends_on": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^C[0-9A-Za-z_-]+$" },
+            "uniqueItems": true
+          },
+          "transfer_flags": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "MODERN_TO_PREHISTORIC",
+                "ANIMAL_TO_HUMAN",
+                "POPULATION_TO_UNIVERSAL",
+                "CROSS_CONTEXT",
+                "INTERPRETATION_TO_INTENT"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "failure_types": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "SOURCE_MISMATCH",
+                "NUMBER_OR_DENOMINATOR_DRIFT",
+                "CERTAINTY_INFLATION",
+                "UNSUPPORTED_CAUSAL_BRIDGE",
+                "UNSUPPORTED_SYNTHESIS",
+                "TRANSFER_SCOPE_LEAP",
+                "UNVERIFIED_PROVENANCE",
+                "FACT_HIDDEN_IN_STORY_DEVICE"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["NOTE", "QUALIFY", "BLOCKING"]
+          },
+          "status": {
+            "type": "string",
+            "enum": ["OK", "UNVERIFIED", "NEEDS_QUALIFICATION", "NEEDS_REWRITE", "DEAD"]
+          },
+          "overreach_legacy": {
+            "type": ["integer", "null"],
+            "minimum": 0,
+            "maximum": 3,
+            "description": "Transitional compatibility only. Do not use as the canonical failure-type/severity model."
+          },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "bridges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "relationship", "depends_on", "source_refs", "verdict", "failure_types", "severity"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^B[0-9A-Za-z_-]+$" },
+          "relationship": {
+            "type": "string",
+            "description": "The material causal/synthesis relationship narration asks the evidence to warrant."
+          },
+          "depends_on": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "pattern": "^C[0-9A-Za-z_-]+$" },
+            "uniqueItems": true
+          },
+          "source_refs": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^S[0-9A-Za-z_-]+$" },
+            "uniqueItems": true
+          },
+          "verdict": {
+            "type": "string",
+            "enum": ["SUPPORTED", "QUALIFIED", "UNSUPPORTED", "UNVERIFIED"]
+          },
+          "failure_types": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "SOURCE_MISMATCH",
+                "NUMBER_OR_DENOMINATOR_DRIFT",
+                "CERTAINTY_INFLATION",
+                "UNSUPPORTED_CAUSAL_BRIDGE",
+                "UNSUPPORTED_SYNTHESIS",
+                "TRANSFER_SCOPE_LEAP",
+                "UNVERIFIED_PROVENANCE"
+              ]
+            },
+            "uniqueItems": true
+          },
+          "severity": {
+            "type": "string",
+            "enum": ["NOTE", "QUALIFY", "BLOCKING"]
+          },
           "note": { "type": ["string", "null"] }
         }
       }
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "locked": { "const": true } },
+        "required": ["locked"]
+      },
+      "then": {
+        "properties": { "lockability": { "const": "LOCKABLE" } }
+      }
+    }
+  ]
 }
