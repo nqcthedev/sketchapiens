@@ -1,17 +1,22 @@
 #!/usr/bin/env python3
-"""Validate Sketchapiens canonical claim-ledger.json with no third-party deps.
+"""Validate Sketchapiens canonical Evidence ledger with no third-party deps.
 
-This checker intentionally supports the JSON-Schema keywords used by
-schemas/claim-ledger.schema.json plus cross-reference integrity.
+Two layers:
+1. validate_file() — JSON-schema subset + ledger internal cross references.
+2. validate_video_ledger() — cross-artifact traceability for an SKA video:
+   video_id, immutable versions, current.yaml and ledger script_ref freshness.
 
 Usage:
     python3 .claude/skills/sketchapiens-evidence-engine/scripts/validate_claim_ledger.py \
         videos/SKA-XXXX-slug/02-research/claim-ledger.json
 
-Exit 0 = valid, exit 1 = invalid.
+Exit 0 = valid ledger file, exit 1 = invalid.
+Project gates should call validate_video_ledger(video_dir) when current-version
+traceability matters.
 """
 from __future__ import annotations
 
+import glob
 import json
 import os
 import re
@@ -41,7 +46,7 @@ def _is_type(value: Any, name: str) -> bool:
 
 
 def _matches_condition(value: Any, schema: dict[str, Any]) -> bool:
-    """Small matcher for the `if` shape used by this schema."""
+    """Small matcher for the `if` shapes used by the canonical schema."""
     required = schema.get("required", [])
     if isinstance(value, dict):
         if any(k not in value for k in required):
@@ -163,20 +168,121 @@ def validate_data(data: Any, schema: dict[str, Any]) -> list[str]:
     return errors
 
 
-def validate_file(path: str, schema_path: str = DEFAULT_SCHEMA) -> list[str]:
+def _load_schema(schema_path: str) -> tuple[dict[str, Any] | None, list[str]]:
     try:
         with open(schema_path, encoding="utf-8") as f:
-            schema = json.load(f)
+            return json.load(f), []
     except Exception as exc:
-        return [f"schema load failed: {exc}"]
+        return None, [f"schema load failed: {exc}"]
 
+
+def _load_ledger(path: str) -> tuple[dict[str, Any] | None, list[str]]:
     try:
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
     except Exception as exc:
-        return [f"ledger load failed: {exc}"]
+        return None, [f"ledger load failed: {exc}"]
+    if not isinstance(data, dict):
+        return None, ["ledger root must be an object"]
+    return data, []
 
+
+def validate_file(path: str, schema_path: str = DEFAULT_SCHEMA) -> list[str]:
+    schema, errors = _load_schema(schema_path)
+    if errors or schema is None:
+        return errors
+    data, errors = _load_ledger(path)
+    if errors or data is None:
+        return errors
     return validate_data(data, schema)
+
+
+def _yaml_get(text: str, key: str) -> str | None:
+    """Read a simple top-level scalar from the project's pointer/video YAML shape."""
+    match = re.search(rf"^{re.escape(key)}:\s*(.+?)\s*$", text, re.M)
+    if not match:
+        return None
+    value = match.group(1).strip().strip('"').strip("'")
+    return None if value in ("", "null", "~") else value
+
+
+def validate_video_ledger(video_dir: str, schema_path: str = DEFAULT_SCHEMA) -> list[str]:
+    """Validate canonical ledger plus exact active-script traceability.
+
+    This is the project-gate API used by preflight/project_doctor. It prevents a
+    ledger verified for v001 from remaining green after current.yaml moves to v002.
+    """
+    errors: list[str] = []
+    video_dir = os.path.abspath(video_dir)
+    ledger_path = os.path.join(video_dir, "02-research", "claim-ledger.json")
+    video_yaml = os.path.join(video_dir, "video.yaml")
+
+    if not os.path.exists(ledger_path):
+        return ["missing 02-research/claim-ledger.json"]
+    errors.extend(validate_file(ledger_path, schema_path))
+    if errors:
+        return errors
+
+    ledger, load_errors = _load_ledger(ledger_path)
+    if load_errors or ledger is None:
+        return load_errors
+
+    if not os.path.exists(video_yaml):
+        errors.append("missing video.yaml")
+        return errors
+
+    try:
+        video_text = open(video_yaml, encoding="utf-8").read()
+    except Exception as exc:
+        return [f"video.yaml read failed: {exc}"]
+
+    video_id = _yaml_get(video_text, "id")
+    if ledger.get("video_id") != video_id:
+        errors.append(f"ledger video_id={ledger.get('video_id')!r} does not match video.yaml id={video_id!r}")
+
+    script_ref = ledger.get("script_ref")
+    versions = sorted(glob.glob(os.path.join(video_dir, "03-script", "versions", "v[0-9][0-9][0-9].md")))
+    current_yaml = os.path.join(video_dir, "03-script", "refs", "current.yaml")
+
+    if not versions:
+        if os.path.exists(current_yaml):
+            errors.append("current.yaml exists before any immutable script version exists")
+        if script_ref is not None:
+            target = os.path.join(video_dir, script_ref)
+            if not os.path.exists(target):
+                errors.append(f"ledger script_ref target does not exist: {script_ref}")
+        return errors
+
+    if not os.path.exists(current_yaml):
+        errors.append("script version exists but 03-script/refs/current.yaml is missing")
+        return errors
+
+    try:
+        current_text = open(current_yaml, encoding="utf-8").read()
+    except Exception as exc:
+        errors.append(f"current.yaml read failed: {exc}")
+        return errors
+
+    version = _yaml_get(current_text, "version")
+    if not version or not re.fullmatch(r"v[0-9]{3}", version):
+        errors.append("current.yaml version is missing/invalid; expected vNNN")
+        return errors
+
+    current_ref = f"03-script/versions/{version}.md"
+    current_target = os.path.join(video_dir, current_ref)
+    if not os.path.exists(current_target):
+        errors.append(f"current.yaml target does not exist: {current_ref}")
+        return errors
+
+    if script_ref is None:
+        errors.append("current script exists but ledger script_ref is null")
+    elif script_ref != current_ref:
+        errors.append(f"Evidence stale: ledger script_ref={script_ref} but current={current_ref}")
+
+    if script_ref is not None and not os.path.exists(os.path.join(video_dir, script_ref)):
+        errors.append(f"ledger script_ref target does not exist: {script_ref}")
+
+    return errors
 
 
 def main(argv: list[str]) -> int:
